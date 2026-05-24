@@ -14,3 +14,4 @@
 - GTC 2026 should be handled as a staged NVIDIA argument about AI factories: page-level provenance and status labels are mandatory because roadmap, performance, partner, and shipped/production claims sit side by side.
 - The current title remains strong because "Next Token" is both mechanism and narrative cliff edge; preserve "The Language Machine" as the clearest fallback if general readers find the phrase too opaque.
 - Mutable web sources should not become book facts until they pass through a snapshot row: filename, source ID, access date, capture method, quote limit, allowed use, cutoff status, and caveat. This turns live-page volatility into visible evidence rather than hidden drift.
+- The GPT-1-to-GPT-3 chapter works best as a sequence of interface conversions, not a size parade: pretraining becomes transfer, prompting becomes a temporary program, the API becomes distribution, and Codex/Copilot make language operational through code.
