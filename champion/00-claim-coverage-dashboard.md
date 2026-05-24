@@ -2,10 +2,10 @@
 
 Current champion dashboard source: `manuscript/00-claim-coverage-dashboard.md`.
 
-Promoted in pass I-0014 on 2026-05-24 and refreshed in pass I-0016 on 2026-05-25 because it converts the claim ledger, source ledger, snapshot protocol, and chapter files into a visible quality gate:
+Promoted in pass I-0014 on 2026-05-24 and refreshed in passes I-0016 and I-0017 on 2026-05-25 because it converts the claim ledger, source ledger, snapshot protocol, and chapter files into a visible quality gate:
 
-- 40 claims audited.
-- 32 supported claims.
+- 41 claims audited.
+- 33 supported claims.
 - 8 needs-verification claims.
 - 72 source rows.
 - 7 captured snapshot rows.

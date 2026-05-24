@@ -48,6 +48,8 @@ Slide slots are recorded in `assets_manifest.tsv` as A-0004 through A-0009. Pass
 
 The rendered files are now available for local design and caption work, but their claims remain NVIDIA keynote claims. Page 45 and page 50 must be treated as roadmap/availability visuals, not happened history. Performance, revenue, and partner claims still need official-release or independent triangulation before prose or chart use.
 
+Pass I-0017 caption addendum: final working captions and row-level caveats for A-0004 through A-0009 now live in `data/gtc_2026_slide_captions.tsv`. The captions were checked against text extracted from the local PDF pages 29, 45, 46, 49, 50, and 51. This pass improves layout readiness, but it does not promote NVIDIA performance, availability, partner, roadmap, throughput, or adoption claims into neutral book facts.
+
 Priority planned slots:
 
 1. Page 29: "AI Factories are the Industrial Infrastructure of the AI Era."
@@ -56,6 +58,19 @@ Priority planned slots:
 4. Page 49: Vera Rubin seven chips / five rack systems comparison.
 5. Page 50: 2024/2026/2028 roadmap.
 6. Page 51: DSX AI Factory platform.
+
+## Caption And Caveat Register
+
+The caption register in `data/gtc_2026_slide_captions.tsv` is the authoritative lightweight companion for the six rendered slide assets. Use it when integrating the slides into Chapter 15 layouts.
+
+Required caption behavior:
+
+- Attribute page 29's "AI factory" thesis to NVIDIA.
+- Label page 45 as roadmap, availability, and performance-claim evidence, especially the "Available 2H26" line.
+- Label page 46 as announcement, partner-claim, and performance-claim evidence.
+- Label page 49 as NVIDIA's promotional one-gigawatt system comparison, not independent throughput evidence.
+- Label page 50 as roadmap evidence, with future-year and future-generation items preserved as future by the May 24, 2026 cutoff.
+- Label page 51 as DSX reference-design/platform framing, not proof of customer deployment or facility performance.
 
 ## Fact-Status Rules
 
