@@ -1,10 +1,10 @@
 # Source Snapshot Capture Summary
 
-Pass: I-0016
+Passes: I-0016; I-0025
 
 Access date: 2026-05-25
 
-Purpose: resolve the OpenAI API pricing local-capture gap left by pass I-0011, where `https://openai.com/api/pricing/` returned HTTP 403 to shell capture.
+Purpose: resolve or document OpenAI local-capture gaps for mutable OpenAI pages used in the model-rankings appendix and ChatGPT chapter.
 
 ## Captured Official Alternate
 
@@ -18,3 +18,11 @@ Purpose: resolve the OpenAI API pricing local-capture gap left by pass I-0011, w
 The original `https://openai.com/api/pricing/` URL still returned HTTP 403 to shell capture during this pass. The browser screenshot path was also unavailable because the in-app browser backend was not available in this session.
 
 This alternate official-docs snapshot resolves C-0031's local-capture gap. It does not by itself authorize exact OpenAI price rows in final prose or charts, because the capture happened on 2026-05-25, one day after the book's factual cutoff. Any exact OpenAI price comparison still needs row normalization, model-version filtering, and a clear cutoff-status caveat under C-0018.
+
+## I-0025 ChatGPT Product Page Attempt
+
+- SNAP-20260525-002 / S-0078: ChatGPT Plus shell HTML capture returned HTTP 403. Local capture note: `data/source_snapshots/2026-05-25/2026-05-25__S-0078__product-post__chatgpt-plus__capture-note.txt`.
+- SNAP-20260525-003 / S-0079: ChatGPT Enterprise shell HTML capture returned HTTP 403. Local capture note: `data/source_snapshots/2026-05-25/2026-05-25__S-0079__product-post__chatgpt-enterprise__capture-note.txt`.
+- Browser/web-reader verification confirmed both official pages are readable and support Chapter 7's structural product-evolution use, but direct quotation, exact Plus pricing, Enterprise adoption percentages, customer productivity claims, and detailed availability language remain snapshot-gated.
+
+Details are in `data/source_snapshots/2026-05-25/chatgpt_product_pages_i0025_notes.md`.

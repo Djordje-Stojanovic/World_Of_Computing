@@ -1,21 +1,21 @@
 # Claim Coverage Dashboard
 
-Status: promoted data pass I-0014 on 2026-05-24; refreshed by source-capture pass I-0016, caption/provenance pass I-0017, chapter-draft pass I-0018, claim-audit pass I-0019, source-density pass I-0020, OpenAI pricing-normalization pass I-0021, GTC chapter-opening pass I-0022, alignment-visual pass I-0023, and LMArena normalization pass I-0024 on 2026-05-25.
+Status: promoted data pass I-0014 on 2026-05-24; refreshed by source-capture pass I-0016, caption/provenance pass I-0017, chapter-draft pass I-0018, claim-audit pass I-0019, source-density pass I-0020, OpenAI pricing-normalization pass I-0021, GTC chapter-opening pass I-0022, alignment-visual pass I-0023, LMArena normalization pass I-0024, and ChatGPT product-page capture pass I-0025 on 2026-05-25.
 
 This dashboard turns the project ledgers into a recurring quality gate. It does not make new historical claims about LLMs; it exposes which existing claims are supported, which claims are still quarantined, and where chapter drafts are drifting away from the source-density target.
 
 ## Current Snapshot
 
-- Claims audited: 52.
-- Supported claims: 43.
+- Claims audited: 53.
+- Supported claims: 44.
 - Needs-verification claims: 9.
 - Source rows: 79.
 - Primary or local-primary source rows: 79.
 - Captured snapshot rows: 7.
-- Snapshot gap rows: 5.
+- Snapshot gap rows: 7.
 - Visual asset rows: 11.
 - Main chapter count: 24.
-- Pending idea rows after pass I-0024: 5.
+- Pending idea rows after pass I-0025: 5.
 
 The nine needs-verification rows are C-0007, C-0010, C-0013, C-0021, C-0029, C-0044, C-0045, C-0046, and C-0047. They should be treated as a work queue, not as acceptable residue.
 
@@ -25,7 +25,7 @@ First priority: mutable rank and price facts. Pass I-0019 resolved the stale cap
 
 Second priority: benchmark, performance, and behavior-policy claims. C-0013, C-0021, C-0044, and C-0047 should stay caveated until benchmark harnesses, NVIDIA keynote claims, roadmap status, availability language, assistant-behavior policy wording, and independent triangulation are separated. Pass I-0023 adds a source-bearing Chapter 6 alignment pipeline visual, but C-0044 still blocks exact quotations, labeler-process details, red-team examples, and policy wording until local snapshots exist. Pass I-0019 resolved C-0033's exact-slide-wording gap because GTC slide captions now carry row-level caveats, and pass I-0022 used those caveats in the Chapter 15 opening; C-0047 still keeps the remaining rule visible: slide-derived quantitative, partner, roadmap, availability, and deployment claims are not independent facts.
 
-Third priority: source-exactness gaps. C-0007, C-0010, and C-0029 need cutoff-bounded support before they become clean prose: Qwen/DeepSeek frontier-release naming, ChatGPT adoption and reception, and GPT-3 API/Copilot ecosystem figures.
+Third priority: source-exactness gaps. C-0007, C-0010, and C-0029 need cutoff-bounded support before they become clean prose: Qwen/DeepSeek frontier-release naming, ChatGPT adoption and reception, and GPT-3 API/Copilot ecosystem figures. Pass I-0025 documented that ChatGPT Plus and Enterprise official pages are browser-readable but shell-blocked with HTTP 403, so Chapter 7 may keep structural product-evolution paraphrases but still cannot use direct quotes, exact Plus pricing, Enterprise adoption percentages, customer productivity claims, or detailed availability language as final facts.
 
 ## Chapter Source Density
 
@@ -41,7 +41,7 @@ Appendices, protocols, source packs, and scaffolds are not judged as prose-densi
 
 ## Snapshot Notes
 
-The source-snapshot protocol has seven captured rows and five gap rows. The gap list now means captured-but-not-clean-enough rows, post-cutoff OpenAI alternate-docs rows that are normalized but not cutoff-day price truth, local PDF/GTC material that still needs independent triangulation, and Chapter 6 alignment sources that need snapshots before exact wording. A captured file, normalized row, rendered slide, or source-bearing SVG is evidence of provenance; it is not permission to publish exact rank, price, context-window, performance, availability, or policy-language claims.
+The source-snapshot protocol has seven captured rows and seven gap rows. The gap list now means captured-but-not-clean-enough rows, post-cutoff OpenAI alternate-docs rows that are normalized but not cutoff-day price truth, local PDF/GTC material that still needs independent triangulation, Chapter 6 alignment sources that need snapshots before exact wording, and shell-blocked ChatGPT product pages that need browser-based local capture before exact quotes or quantitative claims. A captured file, normalized row, rendered slide, source-bearing SVG, or capture-note file is evidence of provenance; it is not permission to publish exact rank, price, context-window, performance, availability, policy-language, adoption, or productivity claims.
 
 ## Promotion Gates
 
