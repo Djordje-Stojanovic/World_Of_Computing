@@ -1,6 +1,6 @@
 # Source Snapshot Capture Summary
 
-Passes: I-0016; I-0025
+Passes: I-0016; I-0025; I-0028
 
 Access date: 2026-05-25
 
@@ -26,3 +26,12 @@ This alternate official-docs snapshot resolves C-0031's local-capture gap. It do
 - Browser/web-reader verification confirmed both official pages are readable and support Chapter 7's structural product-evolution use, but direct quotation, exact Plus pricing, Enterprise adoption percentages, customer productivity claims, and detailed availability language remain snapshot-gated.
 
 Details are in `data/source_snapshots/2026-05-25/chatgpt_product_pages_i0025_notes.md`.
+
+## I-0028 Chapter 6 Alignment Source Attempt
+
+- SNAP-20260525-004 / S-0074: OpenAI instruction-following product-post shell HTML capture returned HTTP 403. Local capture note: `data/source_snapshots/2026-05-25/2026-05-25__S-0074__html__capture-note.txt`.
+- SNAP-20260525-005 / S-0075: OpenAI Model Spec 2024-05-08 HTML captured from `https://cdn.openai.com/spec/model-spec-2024-05-08.html`.
+- SNAP-20260525-006 / S-0076: GPT-4 System Card PDF captured from `https://cdn.openai.com/papers/gpt-4-system-card.pdf`.
+- SNAP-20260525-007 / S-0077: GPT-4o System Card PDF captured from `https://cdn.openai.com/gpt-4o-system-card.pdf`.
+
+This pass improves Chapter 6 provenance but does not close C-0044. Exact instruction-following quotations, labeler-process wording, and any direct language from the blocked product post remain gated until a browser screenshot, alternate archive, or local HTML capture exists. Exact policy/system-card wording from the captured artifacts still needs quote-limit extraction before final prose.
