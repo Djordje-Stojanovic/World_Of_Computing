@@ -1,0 +1,56 @@
+# Heavy rendered outputs
+rendered/*.pdf
+rendered/**/*.pdf
+rendered/*.png
+rendered/**/*.png
+rendered/*.jpg
+rendered/**/*.jpg
+rendered/*.jpeg
+rendered/**/*.jpeg
+rendered/*.webp
+rendered/**/*.webp
+
+# Large/private-use source media and extracted assets
+*.pdf
+!GOAL_ARCHITECT.md
+assets/**/*.png
+assets/**/*.jpg
+assets/**/*.jpeg
+assets/**/*.webp
+assets/**/*.gif
+assets/**/*.tif
+assets/**/*.tiff
+assets/**/*.bmp
+assets/**/*.mp4
+assets/**/*.mov
+assets/**/*.mkv
+assets/**/*.webm
+assets/**/*.mp3
+assets/**/*.wav
+assets/**/*.flac
+assets/**/*.zip
+assets/**/*.7z
+assets/**/*.tar
+assets/**/*.gz
+
+# Keep lightweight, auditable assets trackable
+!assets/**/*.svg
+!assets/**/*.csv
+!assets/**/*.tsv
+!assets/**/*.json
+!assets/**/*.md
+!assets/**/*.txt
+
+# Local/editor/cache noise
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.tmp
+*.temp
+*.log
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+node_modules/

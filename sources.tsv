@@ -1,0 +1,2 @@
+source_id	status	title	creator_or_org	source_type	url_or_path	accessed_date	cutoff_relevance	primary_or_secondary	used_in	notes
+S-0001	available	GTC-2026-Keynote.pdf	NVIDIA	presentation	local:GTC-2026-Keynote.pdf	2026-05-24	cutoff-bounded local source	primary	NVIDIA/GTC chapters	Local PDF present in workspace; extract page-level provenance before using claims or visuals.
