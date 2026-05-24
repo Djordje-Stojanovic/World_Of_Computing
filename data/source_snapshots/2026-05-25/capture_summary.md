@@ -1,6 +1,6 @@
 # Source Snapshot Capture Summary
 
-Passes: I-0016; I-0025; I-0028
+Passes: I-0016; I-0025; I-0028; I-0029
 
 Access date: 2026-05-25
 
@@ -35,3 +35,13 @@ Details are in `data/source_snapshots/2026-05-25/chatgpt_product_pages_i0025_not
 - SNAP-20260525-007 / S-0077: GPT-4o System Card PDF captured from `https://cdn.openai.com/gpt-4o-system-card.pdf`.
 
 This pass improves Chapter 6 provenance but does not close C-0044. Exact instruction-following quotations, labeler-process wording, and any direct language from the blocked product post remain gated until a browser screenshot, alternate archive, or local HTML capture exists. Exact policy/system-card wording from the captured artifacts still needs quote-limit extraction before final prose.
+
+## I-0029 LMArena Historical Dataset Capture
+
+- SNAP-20260525-008 / S-0080: Hugging Face dataset-server JSON for `lmarena-ai/leaderboard-dataset`, config `text_style_control`, split `latest`, first 100 rows captured at `data/source_snapshots/2026-05-25/2026-05-25__S-0080__historical-dataset__lmarena-text-style-control-latest__json.json`.
+- HTTP status: 200.
+- Bytes: 35,143.
+- SHA256: `3083B424CB6D48A30571A42C39861C622022003D6904EEAB634F6FBC0FDCE198`.
+- Normalized table: `data/lmarena_clean_cutoff_rows_i0029.tsv`, 100 `overall` rows, all with `leaderboard_publish_date` 2026-05-19 and `cutoff_status` `pre_cutoff_published_snapshot`.
+
+This pass resolves the C-0045 clean cutoff-bounded leaderboard-row blocker for a May 19 historical dataset chart. It does not support wording that claims the rows are a live May 24 screenshot or that they represent every LMArena category.

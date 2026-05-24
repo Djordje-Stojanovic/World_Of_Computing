@@ -14,6 +14,10 @@ The captured HTML is useful, but not clean cutoff-day chart data. The visible mo
 - Preserved `visible_order` as an audit handle, not as final arena rank.
 - Left C-0045 open because final chart use still needs a clean cutoff-bounded snapshot, category/filter confirmation, methodology notes, and exact score/rank extraction.
 
+## I-0029 Update
+
+Pass I-0029 did not repair this polluted live HTML artifact. It added a cleaner official historical dataset alternate in `data/lmarena_clean_cutoff_rows_i0029.tsv` / SNAP-20260525-008. Use the I-0024 rows only as audit evidence for live-page contamination; use the I-0029 rows for chart candidates labeled as `text_style_control`, `overall`, published 2026-05-19.
+
 ## Use Rules
 
 Rows marked `exclude_from_cutoff_rank_chart` must not enter the book's May 24 ranking charts. Rows marked `candidate_only_requires_clean_cutoff_snapshot` may guide future extraction and cross-checking, but they are not chart-ready until the capture pollution is resolved.
