@@ -8,3 +8,4 @@
 - The first durable structure should make the book a braid, not a catalog: each chapter needs mechanism, institutional race, and reader-visible consequence, with visuals planned from the start.
 - A useful source map should name absences as clearly as sources: Qwen 3.5/3.6 and DeepSeek V4-era material must remain support-pending until cutoff-bounded primary evidence is captured.
 - The ChatGPT chapter works best when framed as an interface event: the text box made pretraining, RLHF, cloud compute, tools, and user imagination culturally legible without needing fake insider scenes.
+- Coding-agent chapters should be judged by workflow realism: context selection, permissions, edits, command output, tests, review, and rollback matter more than benchmark theater.
