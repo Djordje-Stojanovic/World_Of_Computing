@@ -1,0 +1,11 @@
+question_id	stage	metric	prompt	score_type	low_anchor	high_anchor
+TRQ-001	first_click	preference	Before reading any excerpt, which title/subtitle would you pick up first?	forced_choice	least likely to pick up	most likely to pick up
+TRQ-002	rating	first_click_pull	How strongly does this title make you want to open the book?	1_to_7	no pull	strong pull
+TRQ-003	rating	memorability	How likely are you to remember this title tomorrow?	1_to_7	forgettable	sticks in memory
+TRQ-004	rating	seriousness	How serious and prize-book credible does this title feel?	1_to_7	flimsy or hypey	serious and durable
+TRQ-005	rating	technical_legibility	How clearly does this title signal the book is specifically about LLMs, language, code, and computing?	1_to_7	unclear or generic	clear and specific
+TRQ-006	rating	shelf_fit	How naturally would this title sit beside serious tech/history/business nonfiction?	1_to_7	wrong shelf	right shelf
+TRQ-007	post_excerpt	post_excerpt_truth	After reading the excerpt package, how truthful does this title feel to the actual manuscript?	1_to_7	misleading	accurate and deepened
+TRQ-008	rating	recommendation_likelihood	How likely would you be to recommend a book with this title to the right reader?	1_to_7	unlikely	very likely
+TRQ-009	risk	misdirection_risk	Does this title make the book sound hypey, generic, too narrow, too technical, or otherwise misleading?	flag_plus_comment	no concern	major concern
+TRQ-010	recall	unaided_recall	After a delay, which titles can you recall without seeing the list?	free_response	no recall	strong recall

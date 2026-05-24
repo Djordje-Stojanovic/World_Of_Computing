@@ -1,0 +1,7 @@
+segment_id	segment_name	target_count_min	target_count_strong	why_it_matters	screening_note
+TRS-001	General nonfiction readers	6	10	Tests whether the title earns curiosity outside AI-native circles.	Reads narrative nonfiction or business/history books at least quarterly.
+TRS-002	Software engineers and technical builders	6	10	Tests whether the title is technically credible and not misleading.	Can explain what a token or language model is without prompting.
+TRS-003	Business and technology strategy readers	6	10	Tests FT-style shelf fit, platform/economics pull, and seriousness.	Reads business, technology, markets, or strategy books.
+TRS-004	AI/ML researchers or practitioners	6	10	Tests mechanism accuracy, hype resistance, and technical specificity.	Works with or studies ML systems, evals, models, infrastructure, or AI products.
+TRS-005	Book-world readers and editors	6	10	Tests jacket memorability, prize-book seriousness, and subtitle length tolerance.	Has publishing, criticism, bookselling, library, or serious review experience.
+TRS-006	Ambitious curious outsiders	0	10	Tests whether a smart reader not already inside tech can enter the book.	Reads complex nonfiction but does not follow AI news closely.
