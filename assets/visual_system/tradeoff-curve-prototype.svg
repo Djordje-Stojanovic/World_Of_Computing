@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Tradeoff curve prototype</title>
+  <desc id="desc">A visual grammar prototype for scaling, price-performance, latency-cost, and benchmark tradeoff figures in Next Token.</desc>
+  <rect width="1200" height="675" fill="#f7f4ee"/>
+  <text x="80" y="78" font-family="Arial, Helvetica, sans-serif" font-size="34" fill="#1f2933" font-weight="700">Tradeoff Curve</text>
+  <text x="80" y="116" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#52606d">Use for scaling laws, price/performance, latency/cost, and train-time vs test-time compute.</text>
+  <g stroke="#c8c1b5" stroke-width="1">
+    <line x1="170" y1="500" x2="1040" y2="500"/>
+    <line x1="170" y1="420" x2="1040" y2="420"/>
+    <line x1="170" y1="340" x2="1040" y2="340"/>
+    <line x1="170" y1="260" x2="1040" y2="260"/>
+    <line x1="170" y1="180" x2="1040" y2="180"/>
+  </g>
+  <line x1="170" y1="520" x2="1040" y2="520" stroke="#1f2933" stroke-width="3"/>
+  <line x1="170" y1="520" x2="170" y2="155" stroke="#1f2933" stroke-width="3"/>
+  <text x="520" y="585" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#1f2933" font-weight="700">Cost, compute, or latency</text>
+  <text x="58" y="340" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#1f2933" font-weight="700" transform="rotate(-90 58 340)">Capability or quality</text>
+  <path d="M210 486 C360 430 480 358 610 300 C730 247 875 218 1010 205" fill="none" stroke="#2563eb" stroke-width="5"/>
+  <path d="M210 518 C390 458 520 380 650 330 C800 270 915 248 1010 238" fill="none" stroke="#0f8b6f" stroke-width="4" stroke-dasharray="10 8"/>
+  <circle cx="610" cy="300" r="10" fill="#b7791f"/>
+  <text x="632" y="294" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#1f2933" font-weight="700">inflection</text>
+  <rect x="720" y="395" width="290" height="82" rx="6" fill="#ffffff" stroke="#c2412d" stroke-width="2"/>
+  <text x="744" y="427" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#c2412d" font-weight="700">Caveat band</text>
+  <text x="744" y="452" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#52606d">No live rank or price without</text>
+  <text x="744" y="472" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#52606d">snapshot, model version, date.</text>
+</svg>
