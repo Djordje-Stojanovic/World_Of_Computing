@@ -7,3 +7,4 @@
 - `GTC-2026-Keynote.pdf` is likely a high-value local asset for NVIDIA/GTC chapters, but every extracted idea or image needs page-level provenance.
 - The first durable structure should make the book a braid, not a catalog: each chapter needs mechanism, institutional race, and reader-visible consequence, with visuals planned from the start.
 - A useful source map should name absences as clearly as sources: Qwen 3.5/3.6 and DeepSeek V4-era material must remain support-pending until cutoff-bounded primary evidence is captured.
+- The ChatGPT chapter works best when framed as an interface event: the text box made pretraining, RLHF, cloud compute, tools, and user imagination culturally legible without needing fake insider scenes.
