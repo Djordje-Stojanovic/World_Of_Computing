@@ -5,3 +5,4 @@
 - The book should not become a generic AI futurism book. The center is LLMs: language, code, compute, data, architecture, labs, products, and infrastructure through May 24, 2026.
 - The loop should prefer primary sources for technical and factual claims, while using secondary reporting as leads and narrative triangulation.
 - `GTC-2026-Keynote.pdf` is likely a high-value local asset for NVIDIA/GTC chapters, but every extracted idea or image needs page-level provenance.
+- The first durable structure should make the book a braid, not a catalog: each chapter needs mechanism, institutional race, and reader-visible consequence, with visuals planned from the start.

@@ -1,1 +1,2 @@
 timestamp	action_id	parent	idea_id	category	primary_score_delta	bookscore	word_count	chapter_count	chart_count	photo_count	source_count	claim_coverage	novelty_score	regression_flags	verdict	reason	budget_used
+2026-05-24T22:32:17+02:00	pass-0001	empty champion	I-0001	structure	+6.0	18.0	0	24	0	0	10	outline claims seeded	+2	none	promoted	Created and promoted the first exact 24-chapter master outline; it covers the mandatory topic spine and gives future source, visual, and chapter passes a concrete target.	one structure pass
