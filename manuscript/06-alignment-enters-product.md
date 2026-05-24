@@ -4,7 +4,7 @@ Status: first promoted draft candidate, pass I-0018, 2026-05-25.
 
 Source note: This chapter draft uses source IDs from `sources.tsv`. It treats alignment as a product and mechanism story: how base-model continuation became instruction following, refusal behavior, policy-shaped assistant behavior, and evaluation work. It deliberately avoids becoming a regulation chapter. Exact quotes, labeler-process details, red-team examples, and model-policy wording should be snapshotted before final prose.
 
-Visual candidate: an RLHF pipeline figure should show pretraining, supervised demonstrations, preference comparisons, reward/preference modeling, RL optimization, red teaming, product policy, and evaluation loops. The figure should make clear that refusals and caveats are product behavior built from several layers, not proof that the model "understands" the user's real-world interests. [S-0004] [S-0014] [S-0019] [S-0074] [S-0075]
+Visual integration: Figure 6.1, `assets/visual_system/rlhf-alignment-pipeline.svg`, shows pretraining, supervised demonstrations, preference comparisons, reward/preference modeling, RL optimization, Constitutional AI/RLAIF, product policy, red teaming, and evaluation loops as a layered assistant-behavior stack. The companion rows live in `data/rlhf_alignment_pipeline_i0023.tsv`; the figure keeps the central caveat visible that refusals and caveats are product behavior built from several layers, not proof that the model "understands" the user's real-world interests. [S-0004] [S-0014] [S-0019] [S-0074] [S-0075]
 
 ## The Model That Needed A Boss
 
