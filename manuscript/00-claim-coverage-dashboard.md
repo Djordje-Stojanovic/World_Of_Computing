@@ -1,13 +1,13 @@
 # Claim Coverage Dashboard
 
-Status: promoted data pass I-0014 on 2026-05-24; refreshed by source-capture pass I-0016, caption/provenance pass I-0017, chapter-draft pass I-0018, claim-audit pass I-0019, and source-density pass I-0020 on 2026-05-25.
+Status: promoted data pass I-0014 on 2026-05-24; refreshed by source-capture pass I-0016, caption/provenance pass I-0017, chapter-draft pass I-0018, claim-audit pass I-0019, source-density pass I-0020, and OpenAI pricing-normalization pass I-0021 on 2026-05-25.
 
 This dashboard turns the project ledgers into a recurring quality gate. It does not make new historical claims about LLMs; it exposes which existing claims are supported, which claims are still quarantined, and where chapter drafts are drifting away from the source-density target.
 
 ## Current Snapshot
 
-- Claims audited: 48.
-- Supported claims: 39.
+- Claims audited: 49.
+- Supported claims: 40.
 - Needs-verification claims: 9.
 - Source rows: 79.
 - Primary or local-primary source rows: 79.
@@ -15,13 +15,13 @@ This dashboard turns the project ledgers into a recurring quality gate. It does 
 - Snapshot gap rows: 5.
 - Visual asset rows: 10.
 - Main chapter count: 24.
-- Pending idea rows after pass I-0020: 5.
+- Pending idea rows after pass I-0021: 5.
 
 The nine needs-verification rows are C-0007, C-0010, C-0013, C-0021, C-0029, C-0044, C-0045, C-0046, and C-0047. They should be treated as a work queue, not as acceptable residue.
 
 ## Priority Groups
 
-First priority: mutable rank and price facts. Pass I-0019 resolved the stale capture-gap rows C-0017 and C-0018 because local or clearly labeled alternate official captures now exist. The active blockers are sharper: C-0045 blocks exact LMArena ranks until SNAP-20260524-001 is normalized into rows with model names, filters, access dates, and caveats; C-0046 blocks price-quality charts until provider price rows are normalized and same-date/same-scope joins are defined. C-0031's no-local-capture gap remains resolved by SNAP-20260525-001, but OpenAI API pricing still cannot be used for exact cutoff-day chart rows until post-cutoff model rows are filtered and caveats are normalized.
+First priority: mutable rank and price facts. Pass I-0019 resolved the stale capture-gap rows C-0017 and C-0018 because local or clearly labeled alternate official captures now exist. The active blockers are sharper: C-0045 blocks exact LMArena ranks until SNAP-20260524-001 is normalized into rows with model names, filters, access dates, and caveats; C-0046 blocks price-quality charts until provider price rows are normalized and same-date/same-scope joins are defined. Pass I-0021 normalized visible OpenAI pricing rows from SNAP-20260525-001 with row-level cutoff caveats and post-cutoff model-name exclusions, but the rows still cannot be used as exact cutoff-day chart data until corroborated.
 
 Second priority: benchmark, performance, and behavior-policy claims. C-0013, C-0021, C-0044, and C-0047 should stay caveated until benchmark harnesses, NVIDIA keynote claims, roadmap status, availability language, assistant-behavior policy wording, and independent triangulation are separated. Pass I-0019 resolved C-0033's exact-slide-wording gap because GTC slide captions now carry row-level caveats, but C-0047 keeps the remaining rule visible: slide-derived quantitative, partner, roadmap, availability, and deployment claims are not independent facts.
 
@@ -40,7 +40,7 @@ Appendices, protocols, source packs, and scaffolds are not judged as prose-densi
 
 ## Snapshot Notes
 
-The source-snapshot protocol has seven captured rows and five gap rows. The gap list now means captured-but-not-normalized rows, post-cutoff OpenAI alternate-docs caveats, and local PDF/GTC material that still needs independent triangulation. A captured file or rendered slide is evidence of provenance; it is not permission to publish exact rank, price, context-window, performance, or availability claims.
+The source-snapshot protocol has seven captured rows and five gap rows. The gap list now means captured-but-not-normalized rows, post-cutoff OpenAI alternate-docs rows that are normalized but not cutoff-day price truth, and local PDF/GTC material that still needs independent triangulation. A captured file, normalized row, or rendered slide is evidence of provenance; it is not permission to publish exact rank, price, context-window, performance, or availability claims.
 
 ## Promotion Gates
 
