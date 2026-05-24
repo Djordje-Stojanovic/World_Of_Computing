@@ -1,0 +1,7 @@
+row_id	year	artifact	mechanism	interface_shift	source_ids	caveat
+GL-001	2018	GPT-1	Generative Transformer pretraining followed by supervised transfer	Pretraining turns unlabeled text into reusable language representations	S-0011	Use as a mechanism milestone; not a consumer-product claim.
+GL-002	2019	GPT-2	Larger web-trained language model with unsupervised multitask behavior	Prompted continuation begins to look like task specification	S-0012;S-0013	Release-strategy debate should be sourced before adding institutional motives.
+GL-003	2020	GPT-3	175B-parameter model evaluated in zero-shot, one-shot, and few-shot settings	Examples inside the prompt become a temporary task program	S-0004	Avoid treating scale alone as the story; exact downstream adoption requires snapshots.
+GL-004	2020	OpenAI API	Hosted text-in/text-out access to OpenAI models	The model becomes a callable infrastructure service	S-0069	API terms, pricing, and usage history need same-date captures before charting.
+GL-005	2021	Codex	Code-trained language model evaluated for functional correctness	Prompts can produce executable artifacts, not only prose	S-0052	HumanEval and benchmark comparisons require harness caveats.
+GL-006	2021	GitHub Copilot	Codex-powered technical preview in Visual Studio Code	The LLM appears at the developer cursor as an ambient assistant	S-0070	Productivity, adoption, legal, and licensing claims require triangulation.

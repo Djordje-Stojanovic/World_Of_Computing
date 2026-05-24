@@ -4,6 +4,8 @@ Status: first promoted draft, pass I-0010, 2026-05-24.
 
 Source note: This chapter draft uses source IDs from `sources.tsv`. It is conservative about private motives, exact adoption numbers, API usage, and Copilot productivity claims. Future passes should snapshot OpenAI and GitHub pages before direct quotation and add secondary reporting only where it triangulates public reaction or business context.
 
+Visual anchor: Figure 5.1, `assets/visual_system/gpt-lineage-table.svg`, compresses the chapter's lineage into a sourced table: GPT-1 as pretraining and transfer, GPT-2 as prompted multitask continuation, GPT-3 as few-shot prompting, the OpenAI API as infrastructure distribution, Codex as executable-language generation, and GitHub Copilot as the cursor-level product surface. Its companion data lives in `data/gpt_lineage_visual_table.tsv`; its caveats should stay visible until usage, pricing, productivity, benchmark, and legal claims are separately snapshotted or triangulated. [S-0011] [S-0012] [S-0013] [S-0004] [S-0069] [S-0052] [S-0070]
+
 ## The Model That Learned To Begin
 
 The first GPT paper did not read like the opening of a consumer revolution. Its title was technical and modest: improving language understanding by generative pre-training. The idea was not to build a chatbot, a search engine, or a programmer. It was to train a Transformer language model on unlabeled text, then adapt it to supervised natural-language understanding tasks. [S-0011]
@@ -82,5 +84,5 @@ The blinking box of ChatGPT was coming. So was the terminal agent. GPT-1 through
 
 - Snapshot GPT-1, GPT-2, GPT-3, OpenAI API, GPT-3 apps, Codex, and GitHub Copilot pages before direct quotation or exact usage figures.
 - Add primary Microsoft/OpenAI source rows for GPT-3 licensing and Azure distribution before writing Chapter 8.
-- Add a small visual table for GPT-1/GPT-2/GPT-3/Codex: year, mechanism, interface shift, source IDs, and caveats.
+- Integrate Figure 5.1 into the eventual print/PDF layout and keep all row-level caveats visible.
 - Add secondary reporting only to triangulate public reaction, release debate, developer adoption, and code/licensing concerns.
