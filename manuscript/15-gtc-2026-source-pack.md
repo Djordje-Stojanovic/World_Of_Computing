@@ -1,6 +1,6 @@
 # NVIDIA GTC 2026 Source And Asset Pack
 
-Status: promoted assets/source pass I-0007 on 2026-05-24.
+Status: promoted assets/source pass I-0007 on 2026-05-24; render addendum promoted in pass I-0012 on 2026-05-24.
 
 Purpose: create the first page-level source and visual-provenance pack for the NVIDIA/GTC chapters, using the local `GTC-2026-Keynote.pdf` and official NVIDIA GTC 2026 sources. This is not a prose chapter and does not extract heavyweight images into Git.
 
@@ -44,7 +44,9 @@ High-value page clusters:
 
 ## Visual/Asset Slots
 
-Planned slide slots are recorded in `assets_manifest.tsv` as A-0004 through A-0009. They are planned slots, not committed image files. Future passes may render/export specific slides for private-use visuals, but every extraction must preserve page number, caption, story purpose, and rights/private-use note.
+Slide slots are recorded in `assets_manifest.tsv` as A-0004 through A-0009. Pass I-0012 rendered pages 29, 45, 46, 49, 50, and 51 to local private-use PNGs under `assets/gtc_2026/slides/`; the PNG files remain ignored by Git under the heavyweight media policy. The committed render ledger is `data/gtc_2026_rendered_pages.tsv`, which records dimensions, file sizes, SHA256 hashes, source PDF hash, and the `ignored_raster_private_use_do_not_commit` policy.
+
+The rendered files are now available for local design and caption work, but their claims remain NVIDIA keynote claims. Page 45 and page 50 must be treated as roadmap/availability visuals, not happened history. Performance, revenue, and partner claims still need official-release or independent triangulation before prose or chart use.
 
 Priority planned slots:
 

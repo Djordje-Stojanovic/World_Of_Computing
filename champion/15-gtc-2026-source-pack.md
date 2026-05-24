@@ -8,7 +8,7 @@ Champion status:
 - Local source: `GTC-2026-Keynote.pdf`
 - Page notes: `data/gtc_2026_keynote_page_notes.tsv`
 - Metadata: `data/gtc_2026_keynote_metadata.tsv`
-- Planned slide slots: A-0004 through A-0009 in `assets_manifest.tsv`
-- Promotion reason: creates page-level provenance and fact-status rules for using the local GTC 2026 keynote in NVIDIA chapters without committing heavyweight slide images.
+- Rendered local slide slots: A-0004 through A-0009 in `assets_manifest.tsv`, with file hashes in `data/gtc_2026_rendered_pages.tsv`
+- Promotion reason: creates page-level provenance and fact-status rules for using the local GTC 2026 keynote in NVIDIA chapters without committing heavyweight slide images. Pass I-0012 added local ignored PNG renders and a lightweight render ledger.
 
 The full promoted pack lives in `manuscript/15-gtc-2026-source-pack.md`. Future replacements must preserve provenance in `scoreboard.tsv` and should update source, claim, and asset ledgers when extracting actual slides or using individual claims.
