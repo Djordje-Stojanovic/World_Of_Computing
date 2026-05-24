@@ -1,6 +1,6 @@
 # Source Snapshot Capture Summary
 
-Passes: I-0016; I-0025; I-0028; I-0029; I-0030
+Passes: I-0016; I-0025; I-0028; I-0029; I-0030; I-0031
 
 Access date: 2026-05-25
 
@@ -51,3 +51,12 @@ This pass improves Chapter 6 provenance but does not close C-0044. Exact instruc
 - Normalized table: `data/lmarena_clean_cutoff_rows_i0029.tsv`, 100 `overall` rows, all with `leaderboard_publish_date` 2026-05-19 and `cutoff_status` `pre_cutoff_published_snapshot`.
 
 This pass resolves the C-0045 clean cutoff-bounded leaderboard-row blocker for a May 19 historical dataset chart. It does not support wording that claims the rows are a live May 24 screenshot or that they represent every LMArena category.
+
+## I-0031 Mistral Pricing Capture
+
+- SNAP-20260525-011 / S-0081: Mistral AI pricing HTML captured from `https://mistral.ai/pricing`.
+- SNAP-20260525-012 / S-0082: Mistral docs pricing HTML captured from `https://docs.mistral.ai/deployment/laplateforme/pricing/`.
+- Both captures returned HTTP 200, 452,618 bytes, SHA256 `E6A5B230881BDC253537D06DD0BBB8CB210AF894CC13380B450D4E6ADEB366AB`.
+- Normalized table: `data/mistral_pricing_rows_i0031.tsv`.
+
+This pass resolves the missing Mistral pricing-source pair from I-0026. It does not close C-0046 because the captures happened one day after cutoff and final price-quality charts still need cutoff-status checks and same-scope rank joins.
