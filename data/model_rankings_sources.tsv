@@ -1,0 +1,12 @@
+source_key	source_ids	source_kind	title_or_page	url_or_path	accessed_date	capture_status	use_for	caveats
+MR-001	S-0036	methodology	Chatbot Arena methodology paper	https://arxiv.org/abs/2403.04132	2026-05-24	ledgered	Explaining human-preference arena methodology.	Methodology source, not a live rank snapshot.
+MR-002	S-0056	live_leaderboard	LMArena leaderboard	https://lmarena.ai/leaderboard/	2026-05-24	snapshot_notes_only	Live leaderboard rank/source page for model-ranking appendix.	Live page can mutate; use only with snapshot note or future screenshot/HTML capture.
+MR-003	S-0057	policy	LMArena Leaderboard Policy	https://news.lmarena.ai/policy/	2026-05-24	snapshot_notes_only	Inclusion policy and methodology caveats.	Policy itself can change; record version/date.
+MR-004	S-0058	provider_pricing	OpenAI API Pricing	https://openai.com/api/pricing/	2026-05-24	snapshot_notes_only	OpenAI price matrix and caveats.	Prices vary by model, cache, batch, context, and tools; live page can mutate.
+MR-005	S-0059	model_docs	OpenAI GPT-4.1 model docs	https://platform.openai.com/docs/models/gpt-4.1	2026-05-24	snapshot_notes_only	OpenAI model context window / model details.	Docs can change; verify exact model/version before charting.
+MR-006	S-0060	provider_pricing	Anthropic Claude API pricing	https://platform.claude.com/docs/en/about-claude/pricing	2026-05-24	snapshot_notes_only	Claude price/context source.	Prices and context windows vary by model family and cache policy; live docs can mutate.
+MR-007	S-0061	provider_pricing	Gemini Developer API Pricing	https://ai.google.dev/gemini-api/docs/pricing	2026-05-24	snapshot_notes_only	Gemini price/context source.	Free tier, paid tier, batch, grounding, audio, and context tiers differ.
+MR-008	S-0062	provider_pricing	xAI Models and Pricing	https://docs.x.ai/docs/models	2026-05-24	snapshot_notes_only	xAI Grok model/pricing source.	Page may require dynamic loading; console-specific availability can differ.
+MR-009	S-0063	model_docs	Mistral model docs	https://docs.mistral.ai/models	2026-05-24	snapshot_notes_only	Mistral model family/source registry.	Pricing/model availability may require API or console checks.
+MR-010	S-0035	benchmark	SWE-bench paper	https://arxiv.org/abs/2310.06770	2026-05-24	ledgered	Coding-agent benchmark context.	Do not compare claims without harness/version details.
+MR-011	S-0037	benchmark	LiveCodeBench paper	https://arxiv.org/abs/2403.07974	2026-05-24	ledgered	Contamination-aware coding benchmark context.	Use as benchmark caveat source, not model-ranking oracle.

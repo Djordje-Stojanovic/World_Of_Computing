@@ -10,3 +10,4 @@
 - The ChatGPT chapter works best when framed as an interface event: the text box made pretraining, RLHF, cloud compute, tools, and user imagination culturally legible without needing fake insider scenes.
 - Coding-agent chapters should be judged by workflow realism: context selection, permissions, edits, command output, tests, review, and rollback matter more than benchmark theater.
 - The visual system should make evidence visible: timeline nodes, agent loops, and tradeoff curves need source IDs, snapshot dates, caveat bands, and direct labels before they become persuasive art.
+- Model-ranking work must separate source discovery from rank claims: live leaderboards and provider pricing pages are appendix inputs until locally captured with access dates and caveat fields.
