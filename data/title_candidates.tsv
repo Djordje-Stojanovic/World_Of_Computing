@@ -1,0 +1,7 @@
+candidate_id	status	title	subtitle	ft_score	pulitzer_score	canon_score	goodreads_score	narrative_score	technical_score	originality_score	visual_score	prose_score	weighted_total	verdict	notes
+T-0001	champion	Next Token	The Race to Build the Machines That Learned Language, Code, and Computing	8.5	8.0	8.5	7.5	8.5	9.5	9.0	8.0	8.5	8.42	keep	Most technically native and distinctive; subtitle carries scope but is long.
+T-0002	alternate	The Language Machine	How Next-Token Prediction Became the New Computing Interface	8.5	8.5	8.0	7.0	7.5	8.5	7.0	8.0	8.0	7.98	preserve	Most legible alternate; less distinctive than Next Token.
+T-0003	alternate	The Token Race	Power, Code, and the Battle to Build Large Language Models	7.5	6.5	7.0	8.0	8.0	8.0	7.0	7.0	7.0	7.31	archive	Commercial energy but more conventional and hype-prone.
+T-0004	alternate	Machines That Learned Language	The People, Chips, and Code Behind the LLM Revolution	7.5	7.5	7.0	8.0	7.5	7.0	6.5	7.0	7.5	7.30	archive	Accessible but too generic and uses overworked revolution framing.
+T-0005	alternate	The Inference Age	How Language Models Turned Compute Into Work	8.0	7.5	8.0	6.5	7.0	8.5	8.0	8.0	7.5	7.67	preserve_for_later	Strong deployment-economics title but too narrow for full origin-to-2026 scope.
+T-0006	alternate	The New Command Line	How AI Learned to Speak, Code, and Run the World's Computers	7.0	6.5	6.5	8.5	8.5	7.0	7.5	7.5	8.0	7.32	archive	Vivid interface metaphor; risks overstatement and narrows the book too much.
