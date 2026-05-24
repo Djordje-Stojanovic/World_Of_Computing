@@ -42,6 +42,8 @@ The product did not stay a box for long. In March 2023, OpenAI announced ChatGPT
 
 That shift matters for the later chapters on agents and coding systems. A model that can call tools is a different product species from a model that only emits text. The underlying language model still predicts tokens, but the product can now turn text into action: retrieve a document, run code, query a service, or ask for user confirmation before an external operation. The interface event began to merge with the workflow event.
 
+The business surface changed just as quickly. In February 2023, OpenAI introduced ChatGPT Plus as a subscription pilot, promising general access during peak demand, faster responses, and priority access to new features. [S-0078] That was a product clue as much as a pricing clue. ChatGPT was no longer only a free research preview collecting feedback. It was becoming a service with reliability expectations, feature tiers, and paying users.
+
 In November 2023, OpenAI introduced GPTs, custom versions of ChatGPT that users could configure for particular purposes. [S-0045] This was another attempt to convert a general conversational model into a platform: not just one assistant, but many situated assistants, each with instructions, knowledge, and possible tools. Whether every custom assistant was useful is less important than the platform logic. The chat window was becoming a container for software-like behavior.
 
 Then GPT-4o pushed the interface in a different direction. OpenAI introduced GPT-4o in May 2024 as a model extending ChatGPT toward more natural multimodal interaction, with text and image capabilities rolling out and audio/video ambitions at the center of the announcement. [S-0046] The chapter should treat this carefully. The book is about LLMs, not a general history of image or video models. But GPT-4o belongs here because it shows the chat interface stretching beyond typed text while keeping the assistant as the product frame.
@@ -57,6 +59,8 @@ Microsoft had already described an Azure-hosted AI supercomputer built for OpenA
 This is one of the reasons ChatGPT frightened incumbents. It was not merely a popular app. It was a demonstration that model capability, interface design, and hyperscale infrastructure could reinforce one another. Better models made better products. Better products generated more demand, more revenue possibilities, more data about user needs, and more pressure to buy compute. More compute made the next model race possible.
 
 That flywheel was not automatic. Inference could be expensive. Models could be slow. Safety failures could travel at consumer scale. Enterprise customers wanted controls that a viral demo did not need. But after ChatGPT, every major lab and cloud company had to answer a new question: if language is a universal interface, where does your platform sit?
+
+OpenAI's August 2023 ChatGPT Enterprise launch showed the same interface being repackaged for organizations: privacy and security commitments, admin controls, higher-speed GPT-4 access, longer context, and advanced data analysis. [S-0079] The chapter should not turn OpenAI's enterprise adoption claims into neutral market statistics without snapshots and triangulation. The safer point is structural: once ChatGPT entered workplaces, the chat box had to become an administered product, not merely a public demo.
 
 ## What The Interface Hid
 
@@ -87,6 +91,6 @@ For one winter, though, the story narrowed to a cursor blinking in a box. The us
 ## Verification Tasks Before Next Promotion
 
 - Add sourced adoption/reception chronology only after finding primary or clearly attributable sources for exact figures.
-- Snapshot OpenAI pages for ChatGPT, plugins, GPTs, GPT-4o, and relevant system cards before extracting quotes or figures.
+- Snapshot OpenAI pages for ChatGPT, ChatGPT Plus, plugins, ChatGPT Enterprise, GPTs, GPT-4o, and relevant system cards before extracting quotes or figures.
 - Add secondary reporting only to triangulate public reaction, institutional urgency, and Microsoft/OpenAI business context.
 - Convert the "Box to Platform" section into a visual timeline after the visual grammar pass.

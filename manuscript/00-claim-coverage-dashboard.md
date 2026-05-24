@@ -1,21 +1,21 @@
 # Claim Coverage Dashboard
 
-Status: promoted data pass I-0014 on 2026-05-24; refreshed by source-capture pass I-0016, caption/provenance pass I-0017, chapter-draft pass I-0018, and claim-audit pass I-0019 on 2026-05-25.
+Status: promoted data pass I-0014 on 2026-05-24; refreshed by source-capture pass I-0016, caption/provenance pass I-0017, chapter-draft pass I-0018, claim-audit pass I-0019, and source-density pass I-0020 on 2026-05-25.
 
 This dashboard turns the project ledgers into a recurring quality gate. It does not make new historical claims about LLMs; it exposes which existing claims are supported, which claims are still quarantined, and where chapter drafts are drifting away from the source-density target.
 
 ## Current Snapshot
 
-- Claims audited: 47.
-- Supported claims: 38.
+- Claims audited: 48.
+- Supported claims: 39.
 - Needs-verification claims: 9.
-- Source rows: 77.
-- Primary or local-primary source rows: 77.
+- Source rows: 79.
+- Primary or local-primary source rows: 79.
 - Captured snapshot rows: 7.
 - Snapshot gap rows: 5.
 - Visual asset rows: 10.
 - Main chapter count: 24.
-- Pending idea rows after pass I-0019: 5.
+- Pending idea rows after pass I-0020: 5.
 
 The nine needs-verification rows are C-0007, C-0010, C-0013, C-0021, C-0029, C-0044, C-0045, C-0046, and C-0047. They should be treated as a work queue, not as acceptable residue.
 
@@ -33,7 +33,7 @@ The prose-draft chapters are close to the target:
 
 - Chapter 5, `05-gpt-1-to-gpt-3-door-opens.md`: 1,994 words, 9 unique source references, 221.6 words per source, target band.
 - Chapter 6, `06-alignment-enters-product.md`: 2,400 words, 10 unique source references, 240.0 words per source, target band.
-- Chapter 7, `07-chatgpt-interface-event.md`: 2,282 words, 9 unique source references, 253.6 words per source, slightly sparse.
+- Chapter 7, `07-chatgpt-interface-event.md`: 2,424 words, 11 unique source references, 220.4 words per source, target band.
 - Chapter 20, `20-claude-code-industrialized-pair-programming.md`: 2,050 words, 13 unique source references, 157.7 words per source, target band.
 
 Appendices, protocols, source packs, and scaffolds are not judged as prose-density targets, but they still carry claim rows when they make project-control assertions or quarantine factual risks.
