@@ -1,13 +1,13 @@
 # Claim Coverage Dashboard
 
-Status: promoted data pass I-0014 on 2026-05-24; refreshed by source-capture pass I-0016, caption/provenance pass I-0017, chapter-draft pass I-0018, claim-audit pass I-0019, source-density pass I-0020, OpenAI pricing-normalization pass I-0021, GTC chapter-opening pass I-0022, and alignment-visual pass I-0023 on 2026-05-25.
+Status: promoted data pass I-0014 on 2026-05-24; refreshed by source-capture pass I-0016, caption/provenance pass I-0017, chapter-draft pass I-0018, claim-audit pass I-0019, source-density pass I-0020, OpenAI pricing-normalization pass I-0021, GTC chapter-opening pass I-0022, alignment-visual pass I-0023, and LMArena normalization pass I-0024 on 2026-05-25.
 
 This dashboard turns the project ledgers into a recurring quality gate. It does not make new historical claims about LLMs; it exposes which existing claims are supported, which claims are still quarantined, and where chapter drafts are drifting away from the source-density target.
 
 ## Current Snapshot
 
-- Claims audited: 51.
-- Supported claims: 42.
+- Claims audited: 52.
+- Supported claims: 43.
 - Needs-verification claims: 9.
 - Source rows: 79.
 - Primary or local-primary source rows: 79.
@@ -15,13 +15,13 @@ This dashboard turns the project ledgers into a recurring quality gate. It does 
 - Snapshot gap rows: 5.
 - Visual asset rows: 11.
 - Main chapter count: 24.
-- Pending idea rows after pass I-0023: 5.
+- Pending idea rows after pass I-0024: 5.
 
 The nine needs-verification rows are C-0007, C-0010, C-0013, C-0021, C-0029, C-0044, C-0045, C-0046, and C-0047. They should be treated as a work queue, not as acceptable residue.
 
 ## Priority Groups
 
-First priority: mutable rank and price facts. Pass I-0019 resolved the stale capture-gap rows C-0017 and C-0018 because local or clearly labeled alternate official captures now exist. The active blockers are sharper: C-0045 blocks exact LMArena ranks until SNAP-20260524-001 is normalized into rows with model names, filters, access dates, and caveats; C-0046 blocks price-quality charts until provider price rows are normalized and same-date/same-scope joins are defined. Pass I-0021 normalized visible OpenAI pricing rows from SNAP-20260525-001 with row-level cutoff caveats and post-cutoff model-name exclusions, but the rows still cannot be used as exact cutoff-day chart data until corroborated.
+First priority: mutable rank and price facts. Pass I-0019 resolved the stale capture-gap rows C-0017 and C-0018 because local or clearly labeled alternate official captures now exist. The active blockers are sharper: C-0045 blocks exact LMArena ranks until rows are normalized from a clean cutoff-bounded capture with model names, filters, access dates, and caveats; C-0046 blocks price-quality charts until provider price rows are normalized and same-date/same-scope joins are defined. Pass I-0024 normalized a conservative subset of LMArena visible-order rows from SNAP-20260524-001, but the captured title stream contains post-cutoff-looking model names, so it remains an audit/filtering artifact rather than final rank data. Pass I-0021 normalized visible OpenAI pricing rows from SNAP-20260525-001 with row-level cutoff caveats and post-cutoff model-name exclusions, but the rows still cannot be used as exact cutoff-day chart data until corroborated.
 
 Second priority: benchmark, performance, and behavior-policy claims. C-0013, C-0021, C-0044, and C-0047 should stay caveated until benchmark harnesses, NVIDIA keynote claims, roadmap status, availability language, assistant-behavior policy wording, and independent triangulation are separated. Pass I-0023 adds a source-bearing Chapter 6 alignment pipeline visual, but C-0044 still blocks exact quotations, labeler-process details, red-team examples, and policy wording until local snapshots exist. Pass I-0019 resolved C-0033's exact-slide-wording gap because GTC slide captions now carry row-level caveats, and pass I-0022 used those caveats in the Chapter 15 opening; C-0047 still keeps the remaining rule visible: slide-derived quantitative, partner, roadmap, availability, and deployment claims are not independent facts.
 
@@ -41,7 +41,7 @@ Appendices, protocols, source packs, and scaffolds are not judged as prose-densi
 
 ## Snapshot Notes
 
-The source-snapshot protocol has seven captured rows and five gap rows. The gap list now means captured-but-not-normalized rows, post-cutoff OpenAI alternate-docs rows that are normalized but not cutoff-day price truth, local PDF/GTC material that still needs independent triangulation, and Chapter 6 alignment sources that need snapshots before exact wording. A captured file, normalized row, rendered slide, or source-bearing SVG is evidence of provenance; it is not permission to publish exact rank, price, context-window, performance, availability, or policy-language claims.
+The source-snapshot protocol has seven captured rows and five gap rows. The gap list now means captured-but-not-clean-enough rows, post-cutoff OpenAI alternate-docs rows that are normalized but not cutoff-day price truth, local PDF/GTC material that still needs independent triangulation, and Chapter 6 alignment sources that need snapshots before exact wording. A captured file, normalized row, rendered slide, or source-bearing SVG is evidence of provenance; it is not permission to publish exact rank, price, context-window, performance, availability, or policy-language claims.
 
 ## Promotion Gates
 
