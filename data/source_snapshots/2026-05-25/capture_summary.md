@@ -1,6 +1,6 @@
 # Source Snapshot Capture Summary
 
-Passes: I-0016; I-0025; I-0028; I-0029
+Passes: I-0016; I-0025; I-0028; I-0029; I-0030
 
 Access date: 2026-05-25
 
@@ -26,6 +26,12 @@ This alternate official-docs snapshot resolves C-0031's local-capture gap. It do
 - Browser/web-reader verification confirmed both official pages are readable and support Chapter 7's structural product-evolution use, but direct quotation, exact Plus pricing, Enterprise adoption percentages, customer productivity claims, and detailed availability language remain snapshot-gated.
 
 Details are in `data/source_snapshots/2026-05-25/chatgpt_product_pages_i0025_notes.md`.
+
+## I-0030 ChatGPT Product Page Browser Attempt
+
+Pass I-0030 attempted the alternate in-app browser workflow for S-0078 and S-0079 after the shell capture remained blocked in I-0025. The browser backend was unavailable and returned `Browser is not available: iab`, so no local HTML or screenshot snapshot was created.
+
+The result is recorded in `data/source_snapshots/2026-05-25/chatgpt_product_pages_i0030_browser_attempt.md`. SNAP-20260525-002 and SNAP-20260525-003 remain blocked-capture records, and Chapter 7 must continue using these pages only for structural paraphrase until a working local capture path exists.
 
 ## I-0028 Chapter 6 Alignment Source Attempt
 

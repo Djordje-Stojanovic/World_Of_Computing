@@ -20,3 +20,7 @@ The browser/web reader could access the official OpenAI pages and confirmed the 
 ## Use Rules
 
 These notes improve provenance but do not make exact quotes, exact pricing, adoption percentages, customer productivity claims, or detailed availability language final-publication ready. Direct quotation and quantitative claims still require a local HTML/screenshot capture or another auditable cutoff-bounded source.
+
+## I-0030 Browser Retry
+
+I-0030 attempted the alternate in-app browser capture workflow for the same pages, but the browser backend was unavailable (`Browser is not available: iab`). No new local HTML or screenshot was created. The result is recorded in `data/source_snapshots/2026-05-25/chatgpt_product_pages_i0030_browser_attempt.md`.
