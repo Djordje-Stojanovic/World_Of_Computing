@@ -1,0 +1,14 @@
+field	value
+file_path	GTC-2026-Keynote.pdf
+file_size_bytes	19348720
+sha256	CC3674320B2763748DB4033B42B1A19A0134AB0F60A15BB6A6EFDFC6963D369F
+page_count	76
+pdf_format	PDF 1.7
+metadata_title	PowerPoint Presentation
+metadata_author	Madison Huang
+metadata_creator	Acrobat PDFMaker 25 for PowerPoint
+metadata_producer	Adobe PDF Library 25.1.40
+creation_date	2026-03-16
+modification_date	2026-03-16
+extraction_method	PyMuPDF text extraction for lightweight page notes
+git_policy	Do not commit heavyweight PDF or rendered slide images

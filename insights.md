@@ -11,3 +11,4 @@
 - Coding-agent chapters should be judged by workflow realism: context selection, permissions, edits, command output, tests, review, and rollback matter more than benchmark theater.
 - The visual system should make evidence visible: timeline nodes, agent loops, and tradeoff curves need source IDs, snapshot dates, caveat bands, and direct labels before they become persuasive art.
 - Model-ranking work must separate source discovery from rank claims: live leaderboards and provider pricing pages are appendix inputs until locally captured with access dates and caveat fields.
+- GTC 2026 should be handled as a staged NVIDIA argument about AI factories: page-level provenance and status labels are mandatory because roadmap, performance, partner, and shipped/production claims sit side by side.
