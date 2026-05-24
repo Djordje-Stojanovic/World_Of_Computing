@@ -4,7 +4,9 @@ Status: opening draft promoted in pass I-0022, 2026-05-25.
 
 Source note: This chapter opening uses source IDs from `sources.tsv` and the GTC slide caption register. It treats the GTC 2026 keynote as a staged NVIDIA argument, not as independent proof of performance, availability, partner adoption, deployment scale, or future roadmap delivery. Exact ratios, dates, partner lists, and throughput claims remain blocked under C-0021 and C-0047 until corroborated.
 
-Visual candidate: open with A-0004, the page 29 "AI factory" thesis slide, with the caption from `data/gtc_2026_slide_captions.tsv`. Later layout candidates are A-0007 for the system comparison, A-0008 for the roadmap, and A-0009 for DSX reference-design framing. [S-0001]
+Visual candidate: open with A-0004, the page 29 "AI factory" thesis slide, with the caption from `data/gtc_2026_slide_captions.tsv`. Use Figure 15.1, `assets/visual_system/ai-factory-stack.svg`, as the explanatory bridge after the opening metaphor: it separates NVIDIA's GTC framing from model serving, accelerators, networking, data movement, facility design, and token economics. Later layout candidates are A-0007 for the system comparison, A-0008 for the roadmap, and A-0009 for DSX reference-design framing. [S-0001]
+
+Visual anchor: Figure 15.1, `assets/visual_system/ai-factory-stack.svg`, is a sourced block diagram built from `data/ai_factory_stack_i0027.tsv`. It is safe as an explanatory stack diagram because it treats "AI factory" as NVIDIA's public framing and leaves throughput, revenue, partner, availability, and deployment claims blocked under C-0021 and C-0047. [S-0001] [S-0010] [S-0039] [S-0040] [S-0064] [S-0065] [S-0066] [S-0067]
 
 ## The Slide That Tried To Rename The Datacenter
 

@@ -1,0 +1,8 @@
+row_id	layer	label	source_ids	claim_status	caveat
+AFS-001	framing	NVIDIA AI factory thesis	S-0001	company_framing	Use as evidence of NVIDIA's public GTC 2026 argument, not as neutral industry definition.
+AFS-002	workload	Model serving and inference orchestration	S-0001;S-0064	structural_synthesis	Connects the keynote's inference framing to the chapter's model-serving explanation; exact throughput claims remain blocked.
+AFS-003	compute	Accelerators, CPUs, memory, and rack-scale systems	S-0001;S-0039;S-0040;S-0010	primary_sources_with_caveat	H100, Blackwell, and Vera Rubin materials support the stack framing; roadmap/performance ratios remain attributed NVIDIA claims.
+AFS-004	networking	Scale-up and scale-out networking fabric	S-0001;S-0010;S-0065;S-0067	primary_sources_with_caveat	Use for architecture explanation only; exact bandwidth comparisons need independent corroboration before charting.
+AFS-005	data	Storage, retrieval, context, and data movement	S-0001	structural_synthesis	Diagrammatic layer inferred from AI factory operation and keynote platform framing; not a source for capacity or workload quantities.
+AFS-006	facility	Power, cooling, facilities, and deployment design	S-0001;S-0066	company_framing_with_caveat	DSX/source material supports NVIDIA positioning around facilities, cooling, and power; actual deployment claims remain blocked under C-0047.
+AFS-007	economics	Token billing, utilization, and capacity finance	S-0001	structural_synthesis	Derived from the keynote's token/compute/revenue framing; not evidence of revenue, cost, or utilization numbers.
