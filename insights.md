@@ -13,3 +13,4 @@
 - Model-ranking work must separate source discovery from rank claims: live leaderboards and provider pricing pages are appendix inputs until locally captured with access dates and caveat fields.
 - GTC 2026 should be handled as a staged NVIDIA argument about AI factories: page-level provenance and status labels are mandatory because roadmap, performance, partner, and shipped/production claims sit side by side.
 - The current title remains strong because "Next Token" is both mechanism and narrative cliff edge; preserve "The Language Machine" as the clearest fallback if general readers find the phrase too opaque.
+- Mutable web sources should not become book facts until they pass through a snapshot row: filename, source ID, access date, capture method, quote limit, allowed use, cutoff status, and caveat. This turns live-page volatility into visible evidence rather than hidden drift.
