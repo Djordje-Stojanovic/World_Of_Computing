@@ -1,27 +1,27 @@
 # Claim Coverage Dashboard
 
-Status: promoted data pass I-0014 on 2026-05-24.
+Status: promoted data pass I-0014 on 2026-05-24; refreshed by source-capture pass I-0016 on 2026-05-25.
 
 This dashboard turns the project ledgers into a recurring quality gate. It does not make new historical claims about LLMs; it exposes which existing claims are supported, which claims are still quarantined, and where chapter drafts are drifting away from the source-density target.
 
 ## Current Snapshot
 
-- Claims audited: 35.
-- Supported claims: 26.
-- Needs-verification claims: 9.
-- Source rows: 71.
-- Primary or local-primary source rows: 71.
-- Captured snapshot rows: 6.
+- Claims audited: 40.
+- Supported claims: 32.
+- Needs-verification claims: 8.
+- Source rows: 72.
+- Primary or local-primary source rows: 72.
+- Captured snapshot rows: 7.
 - Snapshot gap rows: 5.
-- Visual asset rows: 9.
+- Visual asset rows: 10.
 - Main chapter count: 24.
-- Pending idea rows before this pass closed: 5.
+- Pending idea rows after pass I-0016: 5.
 
-The nine needs-verification rows are C-0007, C-0010, C-0013, C-0017, C-0018, C-0021, C-0029, C-0031, and C-0033. They should be treated as a work queue, not as acceptable residue.
+The eight needs-verification rows are C-0007, C-0010, C-0013, C-0017, C-0018, C-0021, C-0029, and C-0033. They should be treated as a work queue, not as acceptable residue.
 
 ## Priority Groups
 
-First priority: mutable rank and price facts. C-0017 and C-0018 block exact LMArena, provider-pricing, and price-quality chart claims until same-date snapshots are normalized into rows with model names, filters, access dates, and caveats. C-0031 blocks OpenAI API pricing use until the shell 403 gap is resolved with a browser screenshot or alternate official capture.
+First priority: mutable rank and price facts. C-0017 and C-0018 block exact LMArena, provider-pricing, and price-quality chart claims until same-date snapshots are normalized into rows with model names, filters, access dates, and caveats. C-0031's no-local-capture gap is resolved by SNAP-20260525-001, but OpenAI API pricing still cannot be used for exact cutoff-day chart rows until post-cutoff model rows are filtered and caveats are normalized.
 
 Second priority: benchmark and performance claims. C-0013, C-0021, and C-0033 should stay caveated until benchmark harnesses, NVIDIA keynote slide wording, roadmap status, availability language, and independent triangulation are separated. The GTC material is valuable, but the book must label NVIDIA claims as NVIDIA claims.
 
@@ -39,7 +39,7 @@ Appendices, protocols, source packs, and scaffolds are not judged as prose-densi
 
 ## Snapshot Notes
 
-The source-snapshot protocol has six captured rows and five gap rows. The gap list includes captured-but-not-normalized rows plus the OpenAI pricing shell 403 and local PDF render/caption caveats. A captured file is evidence that a page was saved; it is not yet permission to publish exact rank, price, context-window, performance, or availability claims.
+The source-snapshot protocol has seven captured rows and five gap rows. The gap list includes captured-but-not-normalized rows, the post-cutoff OpenAI alternate-docs capture, and local PDF render/caption caveats. A captured file is evidence that a page was saved; it is not yet permission to publish exact rank, price, context-window, performance, or availability claims.
 
 ## Promotion Gates
 
