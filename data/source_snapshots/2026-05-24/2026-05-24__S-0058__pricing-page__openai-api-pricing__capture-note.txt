@@ -1,0 +1,5 @@
+Capture retry did not produce HTML for SNAP-20260524-002
+URL: https://openai.com/api/pricing/
+HTTP status: 403
+Body length: 9972
+

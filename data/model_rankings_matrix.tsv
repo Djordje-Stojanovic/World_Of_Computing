@@ -1,14 +1,14 @@
 row_id	source_key	category	entity	metric_or_field	value	status	as_of_date	notes
-MRM-001	MR-002	leaderboard	LMArena text leaderboard	top_text_rank_rows_available	snapshot_needed	support_pending	2026-05-24	Live leaderboard discovered; exact rows must be captured locally before charting.
+MRM-001	MR-002	leaderboard	LMArena text leaderboard	top_text_rank_rows_available	html_captured	needs_normalization	2026-05-24	SNAP-20260524-001 captured local HTML; exact rows must be normalized with category/filter caveats before charting.
 MRM-002	MR-002	leaderboard	LMArena overview	categories_text_code_vision_and_more	reported_on_page	support_pending	2026-05-24	Use text arena for LLM ranking; do not mix image/video arenas into LLM claim.
 MRM-003	MR-003	methodology	LMArena	inclusion_policy_public_availability	policy_page_available	support_pending	2026-05-24	Use policy page to explain why some models appear or disappear.
-MRM-004	MR-004	pricing	OpenAI API	pricing_page_available	yes	snapshot_needed	2026-05-24	Exact model price rows require local snapshot; page noted March 31 2026 container billing in search result.
+MRM-004	MR-004	pricing	OpenAI API	pricing_page_available	capture_blocked_403	support_pending	2026-05-24	SNAP-20260524-002 records shell capture failure; exact model price rows require browser screenshot or alternate official capture.
 MRM-005	MR-005	context	OpenAI GPT-4.1	context_window	1M tokens	supported_snapshot_note	2026-05-24	Search result says GPT-4.1 features a 1M token context window; verify page before charting.
 MRM-006	MR-007	pricing	Gemini 2.5 Pro	paid_input_price_prompts_le_200k	$1.25 per 1M tokens	supported_snapshot_note	2026-05-24	From Google Gemini pricing search result; output/long-context tiers must be captured before final chart.
 MRM-007	MR-007	pricing	Gemini 2.5 Flash	paid_input_price_text_image_video	$0.30 per 1M tokens	supported_snapshot_note	2026-05-24	From Google Gemini pricing search result; output price listed separately.
 MRM-008	MR-007	pricing	Gemini 2.5 Flash	output_price_including_thinking	$2.50 per 1M tokens	supported_snapshot_note	2026-05-24	From Google Gemini pricing search result.
-MRM-009	MR-006	pricing	Claude API	pricing_page_available	yes	snapshot_needed	2026-05-24	Exact Claude 4 price/context rows require local snapshot; live docs can mutate.
-MRM-010	MR-008	pricing	xAI API	models_and_pricing_page_available	yes	snapshot_needed	2026-05-24	Search result notes model/pricing page may dynamically load model table.
-MRM-011	MR-009	model_docs	Mistral	model_docs_available	yes	snapshot_needed	2026-05-24	Use official model docs before adding Mistral rows to price-quality chart.
+MRM-009	MR-006	pricing	Claude API	pricing_page_available	html_captured	needs_normalization	2026-05-24	SNAP-20260524-003 captured local HTML; exact Claude price/context rows require normalization before final charting.
+MRM-010	MR-008	pricing	xAI API	models_and_pricing_page_available	html_captured	needs_normalization	2026-05-24	SNAP-20260524-005 captured local HTML; dynamic table and console-specific availability caveats still apply.
+MRM-011	MR-009	model_docs	Mistral	model_docs_available	html_captured	needs_pricing_pair	2026-05-24	SNAP-20260524-006 captured local model-docs HTML; pair with pricing/API docs before price-quality charting.
 MRM-012	MR-010	benchmark	SWE-bench	real_github_issue_benchmark	available	supported	2026-05-24	Use as benchmark source with harness/version caveats.
 MRM-013	MR-011	benchmark	LiveCodeBench	contamination_aware_code_eval	available	supported	2026-05-24	Use as benchmark caveat source.
