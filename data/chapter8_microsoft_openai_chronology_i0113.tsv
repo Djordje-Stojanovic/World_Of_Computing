@@ -1,0 +1,9 @@
+row_id	date_or_period	event_or_artifact	source_ids	allowed_use	caveat
+CH8TIME-001	2019-07	Microsoft and OpenAI announce an exclusive computing partnership to build Azure AI supercomputing technologies.	S-0125	Use for early compute-partnership and preferred/commercialization framing.	Do not infer product success or market impact from announcement language.
+CH8TIME-002	2020-05	Microsoft describes an Azure AI supercomputer built for OpenAI.	S-0126;S-0041	Use for infrastructure relationship and supercomputing frame with attribution.	Ranking/performance wording must remain Microsoft-attributed unless independently corroborated.
+CH8TIME-003	2020-09	Microsoft announces exclusive GPT-3 license; OpenAI API route remains available.	S-0127	Use for license and Microsoft product/customer-solution route.	Do not claim Microsoft owned all OpenAI model rights or guaranteed future dominance; OpenAI-side page capture is still blocked.
+CH8TIME-004	2021-06	GitHub introduces Copilot technical preview in VS Code, developed with OpenAI and powered by Codex.	S-0132;S-0070	Use for cursor-level product surface and code-workflow distribution.	Productivity, adoption, legal, and correctness claims remain blocked.
+CH8TIME-005	2023-01	Azure OpenAI Service reaches general availability.	S-0129	Use for enterprise/developer access route and cloud packaging.	Do not infer customer outcomes, revenue, or adoption.
+CH8TIME-006	2023-01	Microsoft and OpenAI extend partnership.	S-0130;S-0047	Use for post-ChatGPT investment, product-deployment, and platform-framing chronology.	Keep Microsoft strategic claims attributed.
+CH8TIME-007	2023-03	ChatGPT becomes available in Azure OpenAI Service.	S-0133	Use for ChatGPT as Azure cloud service route.	Do not infer usage volume or enterprise uptake.
+CH8TIME-008	2023-03	Microsoft introduces Microsoft 365 Copilot.	S-0131	Use for work-surface/productivity-suite placement.	Productivity gains, customer ROI, and revenue claims need separate evidence.
