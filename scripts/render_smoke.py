@@ -1,6 +1,9 @@
 from __future__ import annotations
 
+import argparse
 import subprocess
+import sys
+import tempfile
 from dataclasses import dataclass
 from pathlib import Path
 
@@ -125,3 +128,69 @@ def unignored_large_artifacts(root: Path, artifacts: list[Path], max_bytes: int)
         if proc.returncode != 0:
             unignored.append(rel)
     return unignored
+
+
+def run_negative_self_test(root: Path) -> list[dict[str, str]]:
+    with tempfile.TemporaryDirectory(prefix="render_smoke_negative_", dir=root) as tmp_name:
+        tmp = Path(tmp_name)
+        black_pdf = tmp / "black_page.pdf"
+        large_artifact = tmp / "unignored-large.bin"
+
+        doc = fitz.open()
+        page = doc.new_page(width=72, height=72)
+        page.draw_rect(page.rect, color=(0, 0, 0), fill=(0, 0, 0))
+        doc.save(black_pdf)
+        doc.close()
+
+        large_artifact.write_bytes(b"x" * 64)
+
+        return smoke_rows(
+            root=root,
+            prefix="NEGSMOKE",
+            text="this text intentionally omits the required guardrail",
+            required_text=["missing guardrail text"],
+            image_specs=[
+                ImageSmokeSpec(
+                    black_pdf,
+                    "BLACK",
+                    min_unique_colors=2,
+                    max_dark_ratio=0.5,
+                    min_mean_luma=18.0,
+                    min_colorfulness=0.1,
+                )
+            ],
+            artifacts=[large_artifact],
+            max_unignored_bytes=10,
+        )
+
+
+def main(argv: list[str] | None = None) -> int:
+    parser = argparse.ArgumentParser(description="Render QA smoke helpers.")
+    parser.add_argument(
+        "--self-test-negative",
+        action="store_true",
+        help="Create temporary bad inputs and verify the smoke checks report failures.",
+    )
+    parser.add_argument("--root", type=Path, default=Path.cwd(), help="Repository root for artifact checks.")
+    args = parser.parse_args(argv)
+
+    if not args.self_test_negative:
+        parser.print_help()
+        return 0
+
+    rows = run_negative_self_test(args.root.resolve())
+    for row in rows:
+        print(f"{row['check_id']}\t{row['result']}\t{row['evidence']}\t{row['notes']}")
+
+    expected_failures = {"NEGSMOKE-TEXT", "NEGSMOKE-IMAGE-BLACK", "NEGSMOKE-ARTIFACTS"}
+    actual_failures = {row["check_id"] for row in rows if row["result"] == "fail"}
+    missing = expected_failures - actual_failures
+    if missing:
+        print(f"negative self-test did not trigger expected failures: {','.join(sorted(missing))}", file=sys.stderr)
+        return 1
+    print("negative self-test passed: all expected failure classes were detected")
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

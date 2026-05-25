@@ -1,0 +1,6 @@
+fixture_id	command	expected_failure	actual_result	evidence	notes
+RSMOKE-NEG-001	python scripts/render_smoke.py --self-test-negative --root .	missing required guardrail text	fail detected	NEGSMOKE-TEXT reported required=1 and missing=missing guardrail text	Temporary bad text is generated in-process; no render outputs are committed.
+RSMOKE-NEG-002	python scripts/render_smoke.py --self-test-negative --root .	blank/black/monochrome image	fail detected	NEGSMOKE-IMAGE-BLACK reported unique_colors=1.0, dark_ratio=1.000, mean_luma=0.0, and low_colorfulness	The fixture creates a temporary black one-page PDF and verifies image smoke thresholds reject it.
+RSMOKE-NEG-003	python scripts/render_smoke.py --self-test-negative --root .	unignored large artifact	fail detected	NEGSMOKE-ARTIFACTS reported unignored_large=<temporary>/unignored-large.bin with max_unignored_bytes=10	The fixture creates a temporary unignored binary under the repo root, verifies git check-ignore catches it as unignored, then cleans it up.
+RSMOKE-NEG-004	python scripts/render_chapter13_leaderboard_gate.py	real Chapter 13 gate remains compatible	pass	exit_code=0	No tracked diff was produced by rerunning the gate.
+RSMOKE-NEG-005	python scripts/render_chapter16_n16_gate.py	real Chapter 16 gate remains compatible	pass	exit_code=0	No tracked diff was produced by rerunning the gate.
