@@ -1,0 +1,4 @@
+check_id	subject	source_ids	result	notes
+CGPTLIVE-001	live Chapter 7 adoption paragraph placement	S-0092;S-0098;S-0102	pass	Paragraph integrated into manuscript/07-chatgpt-interface-event.md after the first double-edged-interface paragraph so adoption evidence follows the mass-habit claim before the training-method section.
+CGPTLIVE-002	metric firewall wording	S-0092;S-0098;S-0102	pass	Live prose keeps users distinct from monthly active users, registered accounts, repeat visitors, and daily unique visitors; it also says the Reuters/UBS/Similarweb estimate was not OpenAI telemetry or the same unit as Altman's launch-week milestone.
+CGPTLIVE-003	source density and overclaim control	S-0092;S-0098;S-0102	pass	Chapter 7 now measures 2758 words with 15 source cues, about 184 words per source cue; the inserted paragraph avoids fastest-growing-app, OpenAI-confirmed users, paid users, revenue, and named-customer claims.
