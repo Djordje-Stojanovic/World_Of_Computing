@@ -1,0 +1,4 @@
+sequence_id	order	asset_id	file_path	visual_role	status	source_ids	caption_rule
+CH13VIS-001	1	A-0014	assets/visual_system/leaderboard-methodology-flow.svg	methodology_flow	existing_integrated	S-0036;S-0056;S-0057;S-0080;SNAP-20260525-008	Must appear before rank rows and describe votes, config, split, category, uncertainty, publication date, snapshot, and permission gates.
+CH13VIS-002	2	A-0013	assets/visual_system/lmarena-may19-text-style-control-top12.svg	historical_rank_slice	existing_integrated	S-0080;SNAP-20260525-008	Must be labeled historical text_style_control/latest/overall, top twelve rows published 2026-05-19, not a live ranking.
+CH13VIS-003	3	A-0019	assets/visual_system/price-quality-exclusion-map.svg	price_quality_exclusion_map	new_in_i0098	C-0046;data/price_quality_join_audit_i0036.tsv	Must say the evidence allows an exclusion/permission map, not a price-quality frontier.
