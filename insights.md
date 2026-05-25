@@ -73,3 +73,4 @@
 - Reception chronologies should stay institutional before they become cultural: two school districts, one developer site, and one bank are a sequence of named responses, not proof of public panic or universal workplace policy.
 - Adoption-count prose needs metric firewalls: "users," monthly active users, daily unique visitors, registered accounts, and fastest-growing comparisons are different claims even when they travel through the same viral-growth paragraph.
 - Production note gates need visual evidence, not intent: a mock can prove a note idea is plausible, but live prose should wait for same-page, proximity, collision, line-length, blocker-visibility, and A/B render checks.
+- Pre-render fixes should be semantic, not decorative: when a duplicate heading confuses a claim-control sequence, promote the inserted material into its own clear section while proving the figure order, footnote, prohibited-use note, and price-quality blocker stayed unchanged.

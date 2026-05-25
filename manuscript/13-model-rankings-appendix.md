@@ -28,8 +28,6 @@ Data files created in this pass:
 
 These files are intentionally lightweight and commit-safe. They do not preserve full webpages or large screenshots. Future passes should add HTML/screenshot snapshots where rights and repository size permit, and must record any such assets in `assets_manifest.tsv`.
 
-## Ranking Sources To Use
-
 ## Leaderboard Reading Sequence
 
 The first leaderboard spread should teach how rank evidence is made before it shows any sorted model rows. The appendix is not a live crown for "the best model." It is an evidence path: votes become ratings only inside a stated config, split, category, publication date, and local snapshot, then a permission gate decides what prose the row can safely support.
