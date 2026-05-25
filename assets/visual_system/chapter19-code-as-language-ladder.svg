@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Chapter 19 code-as-language ladder</title>
+  <desc id="desc">A schematic ladder from natural-language intent through code syntax, execution, tests, and repository context, with blockers for replacement and productivity claims.</desc>
+  <rect width="1200" height="760" fill="#fbfaf7"/>
+  <text x="64" y="72" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#202124">Code Was The Second Native Language</text>
+  <text x="64" y="108" font-family="Arial, sans-serif" font-size="17" fill="#4b5563">LLMs could move between human intent and executable syntax, but the workflow still needed tests, review, and context.</text>
+  <g font-family="Arial, sans-serif">
+    <line x1="220" y1="170" x2="980" y2="170" stroke="#1f2937" stroke-width="4"/>
+    <line x1="220" y1="290" x2="980" y2="290" stroke="#1f2937" stroke-width="4"/>
+    <line x1="220" y1="410" x2="980" y2="410" stroke="#1f2937" stroke-width="4"/>
+    <line x1="220" y1="530" x2="980" y2="530" stroke="#1f2937" stroke-width="4"/>
+    <line x1="260" y1="170" x2="260" y2="530" stroke="#1f2937" stroke-width="4"/>
+    <line x1="500" y1="170" x2="500" y2="530" stroke="#1f2937" stroke-width="4"/>
+    <line x1="740" y1="170" x2="740" y2="530" stroke="#1f2937" stroke-width="4"/>
+    <line x1="980" y1="170" x2="980" y2="530" stroke="#1f2937" stroke-width="4"/>
+    <rect x="128" y="140" width="232" height="86" rx="9" fill="#e8f0fe" stroke="#4285f4" stroke-width="2"/>
+    <text x="244" y="176" text-anchor="middle" font-size="20" font-weight="700" fill="#174ea6">Intent</text>
+    <text x="244" y="204" text-anchor="middle" font-size="14" fill="#374151">Prompt, issue, comment</text>
+    <rect x="368" y="260" width="232" height="86" rx="9" fill="#e6f4ea" stroke="#34a853" stroke-width="2"/>
+    <text x="484" y="296" text-anchor="middle" font-size="20" font-weight="700" fill="#137333">Syntax</text>
+    <text x="484" y="324" text-anchor="middle" font-size="14" fill="#374151">Function, query, patch</text>
+    <rect x="608" y="380" width="232" height="86" rx="9" fill="#fef7e0" stroke="#fbbc04" stroke-width="2"/>
+    <text x="724" y="416" text-anchor="middle" font-size="20" font-weight="700" fill="#8a5a00">Execution</text>
+    <text x="724" y="444" text-anchor="middle" font-size="14" fill="#374151">Run, fail, observe</text>
+    <rect x="848" y="500" width="232" height="86" rx="9" fill="#fce8e6" stroke="#ea4335" stroke-width="2"/>
+    <text x="964" y="536" text-anchor="middle" font-size="20" font-weight="700" fill="#a50e0e">Repository</text>
+    <text x="964" y="564" text-anchor="middle" font-size="14" fill="#374151">Tests, review, conventions</text>
+    <text x="128" y="636" font-size="15" fill="#374151">Sources: S-0052; S-0054; S-0070; S-0132; S-0035. Claim rows: CH19CODE-001 through CH19CODE-003.</text>
+  </g>
+  <rect x="64" y="680" width="1072" height="44" rx="8" fill="#111827"/>
+  <text x="84" y="708" font-family="Arial, sans-serif" font-size="15" fill="#ffffff">Blocked: literal understanding, autonomous programming, productivity lift, adoption, security quality, and broad replacement.</text>
+</svg>
