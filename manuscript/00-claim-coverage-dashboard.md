@@ -1,13 +1,13 @@
 # Claim Coverage Dashboard
 
-Status: promoted data pass I-0014 on 2026-05-24; refreshed by source-capture pass I-0016, caption/provenance pass I-0017, chapter-draft pass I-0018, claim-audit pass I-0019, source-density pass I-0020, OpenAI pricing-normalization pass I-0021, GTC chapter-opening pass I-0022, alignment-visual pass I-0023, LMArena normalization pass I-0024, ChatGPT product-page capture pass I-0025, provider-pricing normalization pass I-0026, AI-factory visual pass I-0027, alignment-source capture pass I-0028, clean LMArena dataset pass I-0029, Mistral pricing pass I-0031, datacenter infrastructure source-pack pass I-0032, alignment quote-table pass I-0033, LMArena chart pass I-0034, ChatGPT alternate-capture pass I-0035, price-quality join audit pass I-0036, Chapter 16 speed-to-power prose pass I-0037, instruction-following alternate-capture pass I-0038, leaderboard-methodology visual pass I-0039, ChatGPT productization quote-table pass I-0040, Chapter 7 source-specific claim-audit pass I-0041, Chapter 16 power-to-token visual pass I-0042, Chapter 16 quantitative audit pass I-0043, Chapter 13 caption-use pass I-0044, Chapter 13 leaderboard-terms pass I-0045, Chapter 7 interface-to-business timeline pass I-0046, I-0047 superseded-rejection pass, Chapter 16 source-cue prose pass I-0048, Chapter 13 methodology glossary supplement pass I-0049, Chapter 13 rank-row microstyle pass I-0050, Chapter 7 adoption/reception gap pass I-0051, and I-0052 superseded-rejection pass on 2026-05-25.
+Status: promoted data pass I-0014 on 2026-05-24; refreshed by source-capture pass I-0016, caption/provenance pass I-0017, chapter-draft pass I-0018, claim-audit pass I-0019, source-density pass I-0020, OpenAI pricing-normalization pass I-0021, GTC chapter-opening pass I-0022, alignment-visual pass I-0023, LMArena normalization pass I-0024, ChatGPT product-page capture pass I-0025, provider-pricing normalization pass I-0026, AI-factory visual pass I-0027, alignment-source capture pass I-0028, clean LMArena dataset pass I-0029, Mistral pricing pass I-0031, datacenter infrastructure source-pack pass I-0032, alignment quote-table pass I-0033, LMArena chart pass I-0034, ChatGPT alternate-capture pass I-0035, price-quality join audit pass I-0036, Chapter 16 speed-to-power prose pass I-0037, instruction-following alternate-capture pass I-0038, leaderboard-methodology visual pass I-0039, ChatGPT productization quote-table pass I-0040, Chapter 7 source-specific claim-audit pass I-0041, Chapter 16 power-to-token visual pass I-0042, Chapter 16 quantitative audit pass I-0043, Chapter 13 caption-use pass I-0044, Chapter 13 leaderboard-terms pass I-0045, Chapter 7 interface-to-business timeline pass I-0046, I-0047 superseded-rejection pass, Chapter 16 source-cue prose pass I-0048, Chapter 13 methodology glossary supplement pass I-0049, Chapter 13 rank-row microstyle pass I-0050, Chapter 7 adoption/reception gap pass I-0051, I-0052 superseded-rejection pass, and Chapter 16 source-cue readability pass I-0053 on 2026-05-25.
 
 This dashboard turns the project ledgers into a recurring quality gate. It does not make new historical claims about LLMs; it exposes which existing claims are supported, which claims are still quarantined, and where chapter drafts are drifting away from the source-density target.
 
 ## Current Snapshot
 
-- Claims audited: 77.
-- Supported claims: 69.
+- Claims audited: 78.
+- Supported claims: 70.
 - Needs-verification claims: 8.
 - Source rows: 90.
 - Primary or local-primary source rows: 87.
@@ -15,7 +15,7 @@ This dashboard turns the project ledgers into a recurring quality gate. It does 
 - Snapshot gap rows: 8.
 - Visual asset rows: 16.
 - Main chapter count: 24.
-- Pending idea rows after pass I-0052 rejection and refill: 5.
+- Pending idea rows after pass I-0053 refill: 5.
 
 The eight needs-verification rows are C-0007, C-0010, C-0013, C-0021, C-0029, C-0044, C-0046, and C-0047. They should be treated as a work queue, not as acceptable residue.
 
@@ -60,6 +60,8 @@ Pass I-0047 was rejected as superseded after checking the FIFO request against I
 Pass I-0048 applies that next move to `manuscript/16-speed-to-power.md` and refreshes `champion/16-speed-to-power.md`: exact TWh, MW, percentage, lead-time, PUE, rack-density, NVIDIA/GTC, and energy-per-token-exclusion statements now carry compact CH16Q row cues beside the source IDs. The prose still leaves C-0021/C-0047 active and still blocks any quantified energy-per-token sentence.
 
 Pass I-0052 was rejected as superseded after checking the requested pre-merge source-cue insertion plan against the current Chapter 16 state. `data/chapter16_source_cue_plan_i0052_superseded_assessment.tsv` records that I-0048 already merged CH16Q-001 through CH16Q-018 into `manuscript/16-speed-to-power.md`, while I-0053 remains the appropriate next move for readability and cue clutter.
+
+Pass I-0053 performs that readability audit in `data/chapter16_source_cue_readability_i0053.tsv`, `manuscript/16-source-cue-readability-audit.md`, and `champion/16-source-cue-readability-audit.md`. It compacts adjacent source-only brackets in the Chapter 16 opening and close while keeping every CH16Q row ID inline in `manuscript/16-speed-to-power.md`; C-0021/C-0047 and the CH16Q-018 energy-per-token block remain active.
 
 Third priority: source-exactness gaps. C-0007, C-0010, and C-0029 need cutoff-bounded support before they become clean prose: Qwen/DeepSeek frontier-release naming, ChatGPT adoption and reception, and GPT-3 API/Copilot ecosystem figures. Pass I-0035 narrows the Chapter 7 gap: Plus launch/pricing/benefit wording and Enterprise release-note feature wording can now be quoted from text-rendered official/official-alternate captures with caveats. Pass I-0040 adds the field-level quote table that prevents those supported facts from blending with adoption, public reception, customer productivity, named-customer claims, detailed availability language beyond captured lines, and original Enterprise product-post quotations. Pass I-0041 moves that distinction into the chapter's sentences and verification tasks. Pass I-0051 now splits C-0010 into ten source-gap rows so the next Chapter 7 research pass can target exact adoption/reception evidence instead of treating the blocker as one vague warning.
 
