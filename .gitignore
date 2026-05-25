@@ -9,6 +9,8 @@ rendered/*.jpeg
 rendered/**/*.jpeg
 rendered/*.webp
 rendered/**/*.webp
+rendered/*.txt
+rendered/**/*.txt
 
 # Large/private-use source media and extracted assets
 *.pdf
