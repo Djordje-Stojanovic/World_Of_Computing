@@ -1,0 +1,25 @@
+﻿chapter	title	status	file	words	target_min	word_gap	source_cues	words_per_cue	source_state	visuals	photos_or_screens	claim_rows	open_blocker_rows	weighted_chapter_percent	next_action
+1	The Shock	missing	missing	0	4200	4200	0		missing draft	0	0	0	0	0	draft chapter + capture sources
+2	Before the Transformer	drafted	manuscript/01-before-the-transformer.md	3517	4200	683	15	234.5	target band	0	0	1	0	71	add visual/photo package
+3	Attention Catches Fire	drafted	manuscript/02-attention-catches-fire.md	3500	4200	700	24	145.8	dense/possibly cluttered	0	0	1	0	71	add visual/photo package
+4	The Scaling Bet	drafted	manuscript/03-scaling-bet.md	3500	4200	700	17	205.9	target band	0	0	1	0	71	add visual/photo package
+5	GPT-1 to GPT-3: The Door Opens	drafted	manuscript/05-gpt-1-to-gpt-3-door-opens.md	5288	4200	0	33	160.2	target band	1	0	5	1	87	add visual/photo package
+6	Alignment Enters the Product	drafted	manuscript/06-alignment-enters-product.md	5000	4200	0	34	147.1	dense/possibly cluttered	1	0	4	1	87	add visual/photo package
+7	ChatGPT: The Interface Event	drafted	manuscript/07-chatgpt-interface-event.md	5000	4200	0	32	156.2	target band	0	0	7	1	80	add visual/photo package
+8	Microsoft, OpenAI, and the Cloud Bargain	missing	missing	0	4200	4200	0		missing draft	0	0	0	0	0	draft chapter + capture sources
+9	Google and DeepMind Wake the Sleeping Giant	missing	missing	0	4200	4200	0		missing draft	0	0	0	0	0	draft chapter + capture sources
+10	Meta, Llama, and the Open-Weight Shock	drafted	manuscript/10-meta-llama-open-weight-shock.md	3593	4200	607	24	149.7	dense/possibly cluttered	1	0	1	0	79	add visual/photo package
+11	The Chinese Frontier	drafted	manuscript/11-chinese-frontier-open-models.md	3500	4200	700	14	250	target band	1	0	1	0	78	add visual/photo package
+12	Europe, xAI, and the Rest of the Frontier	missing	missing	0	4200	4200	0		missing draft	0	0	0	0	0	draft chapter + capture sources
+13	Benchmarks, Arenas, and the Mirage of Rank	drafted	manuscript/13-model-rankings-appendix.md	3741	4200	459	73	51.2	dense/possibly cluttered	1	0	4	0	81	add visual/photo package
+14	NVIDIA and CUDA: The Moat Under the Moat	missing	missing	0	4200	4200	0		missing draft	0	0	0	0	0	draft chapter + capture sources
+15	GTC 2026: The AI Factory Sells Itself	drafted	manuscript/15-gtc-2026-ai-factory-sells-itself.md	4500	4200	0	91	49.5	dense/possibly cluttered	1	0	2	0	87	add visual/photo package
+16	Datacenters, Power, and the Physical Internet	drafted	manuscript/16-speed-to-power.md	5002	4200	0	87	57.5	dense/possibly cluttered	0	0	4	0	80	add visual/photo package
+17	Data, Tokens, and the Library Problem	missing	missing	0	4200	4200	0		missing draft	0	0	0	0	0	draft chapter + capture sources
+18	Tools, Retrieval, and the Agent Turn	missing	missing	0	4200	4200	0		missing draft	0	0	0	0	0	draft chapter + capture sources
+19	Code as the Second Native Language	missing	missing	0	4200	4200	0		missing draft	0	0	0	0	0	draft chapter + capture sources
+20	Claude Code and the Industrialization of Pair Programming	drafted	manuscript/20-claude-code-industrialized-pair-programming.md	2064	4200	2136	14	147.4	dense/possibly cluttered	0	0	3	1	52	expand to full chapter
+21	Reasoning, Test-Time Compute, and the New Scaling Axis	missing	missing	0	4200	4200	0		missing draft	0	0	0	0	0	draft chapter + capture sources
+22	The Economics of Intelligence on Tap	missing	missing	0	4200	4200	0		missing draft	0	0	0	0	0	draft chapter + capture sources
+23	Failure Modes, Truth, and Trust	missing	missing	0	4200	4200	0		missing draft	0	0	0	0	0	draft chapter + capture sources
+24	Next Token	missing	missing	0	4200	4200	0		missing draft	0	0	0	0	0	draft chapter + capture sources

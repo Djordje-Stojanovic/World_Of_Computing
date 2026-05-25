@@ -1,0 +1,7 @@
+﻿metric	current	target	percent_to_minimum	gap	note
+ledger_total_words	70709	100000-120000	70.7	29291	scoreboard total includes chapter drafts plus useful sidecar/spine manuscript work
+words_to_minimum	48205	100000-120000	48.2	51795	mapped main-draft word count; does not count sidecar audits or outline prose
+drafted_main_chapters	12	24 exactly	50	12	chapter shells with substantial mapped manuscript files
+charts_diagrams_visuals	31	80-100	38.8	49	all manifest visual-like assets; many are source/claim cards, not final art
+photos_screenshots_slots	6	50-60	12	44	major weak spot; current photo-like slots are mostly GTC slide renders
+claim_rows_supported	121	zero unsupported before done-enough	93.8	8	unsupported rows still active; new prose must not raise this debt
