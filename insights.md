@@ -48,3 +48,4 @@
 - Prose audits should move caveats into the sentence that needs them: saying "Enterprise release-note entry" and "original product post blocked" where the claim appears is safer than leaving the reader to interpret a general source note.
 - Infrastructure visuals should trace dependency order before quantities: electricity, interconnection, facility/cooling, accelerators, scheduling, and tokens make a safer first figure than a premature energy-per-token estimate.
 - Quantitative infrastructure prose needs permission rows before more elegance: TWh, MW, percentages, lead times, PUE, rack density, and Wh/token language each belong in separate measured/scenario/advisory/operator/exclusion lanes.
+- Leaderboard figures need a reading order as much as a caption: methodology must precede sorted rank rows or readers will turn uncertainty-clustered historical slices into false "best model" claims.
