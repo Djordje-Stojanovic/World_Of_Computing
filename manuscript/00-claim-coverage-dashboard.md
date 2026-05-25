@@ -1,13 +1,13 @@
 # Claim Coverage Dashboard
 
-Status: promoted data pass I-0014 on 2026-05-24; refreshed by source-capture pass I-0016, caption/provenance pass I-0017, chapter-draft pass I-0018, claim-audit pass I-0019, source-density pass I-0020, OpenAI pricing-normalization pass I-0021, GTC chapter-opening pass I-0022, alignment-visual pass I-0023, LMArena normalization pass I-0024, ChatGPT product-page capture pass I-0025, provider-pricing normalization pass I-0026, AI-factory visual pass I-0027, alignment-source capture pass I-0028, clean LMArena dataset pass I-0029, Mistral pricing pass I-0031, datacenter infrastructure source-pack pass I-0032, alignment quote-table pass I-0033, LMArena chart pass I-0034, ChatGPT alternate-capture pass I-0035, price-quality join audit pass I-0036, Chapter 16 speed-to-power prose pass I-0037, instruction-following alternate-capture pass I-0038, leaderboard-methodology visual pass I-0039, ChatGPT productization quote-table pass I-0040, Chapter 7 source-specific claim-audit pass I-0041, Chapter 16 power-to-token visual pass I-0042, Chapter 16 quantitative audit pass I-0043, Chapter 13 caption-use pass I-0044, Chapter 13 leaderboard-terms pass I-0045, Chapter 7 interface-to-business timeline pass I-0046, I-0047 superseded-rejection pass, Chapter 16 source-cue prose pass I-0048, and Chapter 13 methodology glossary supplement pass I-0049 on 2026-05-25.
+Status: promoted data pass I-0014 on 2026-05-24; refreshed by source-capture pass I-0016, caption/provenance pass I-0017, chapter-draft pass I-0018, claim-audit pass I-0019, source-density pass I-0020, OpenAI pricing-normalization pass I-0021, GTC chapter-opening pass I-0022, alignment-visual pass I-0023, LMArena normalization pass I-0024, ChatGPT product-page capture pass I-0025, provider-pricing normalization pass I-0026, AI-factory visual pass I-0027, alignment-source capture pass I-0028, clean LMArena dataset pass I-0029, Mistral pricing pass I-0031, datacenter infrastructure source-pack pass I-0032, alignment quote-table pass I-0033, LMArena chart pass I-0034, ChatGPT alternate-capture pass I-0035, price-quality join audit pass I-0036, Chapter 16 speed-to-power prose pass I-0037, instruction-following alternate-capture pass I-0038, leaderboard-methodology visual pass I-0039, ChatGPT productization quote-table pass I-0040, Chapter 7 source-specific claim-audit pass I-0041, Chapter 16 power-to-token visual pass I-0042, Chapter 16 quantitative audit pass I-0043, Chapter 13 caption-use pass I-0044, Chapter 13 leaderboard-terms pass I-0045, Chapter 7 interface-to-business timeline pass I-0046, I-0047 superseded-rejection pass, Chapter 16 source-cue prose pass I-0048, Chapter 13 methodology glossary supplement pass I-0049, and Chapter 13 rank-row microstyle pass I-0050 on 2026-05-25.
 
 This dashboard turns the project ledgers into a recurring quality gate. It does not make new historical claims about LLMs; it exposes which existing claims are supported, which claims are still quarantined, and where chapter drafts are drifting away from the source-density target.
 
 ## Current Snapshot
 
-- Claims audited: 75.
-- Supported claims: 67.
+- Claims audited: 76.
+- Supported claims: 68.
 - Needs-verification claims: 8.
 - Source rows: 90.
 - Primary or local-primary source rows: 87.
@@ -15,7 +15,7 @@ This dashboard turns the project ledgers into a recurring quality gate. It does 
 - Snapshot gap rows: 8.
 - Visual asset rows: 16.
 - Main chapter count: 24.
-- Pending idea rows after pass I-0049 refill: 5.
+- Pending idea rows after pass I-0050 refill: 5.
 
 The eight needs-verification rows are C-0007, C-0010, C-0013, C-0021, C-0029, C-0044, C-0046, and C-0047. They should be treated as a work queue, not as acceptable residue.
 
@@ -32,6 +32,8 @@ Pass I-0044 makes that order a Chapter 13 layout rule in `manuscript/13-leaderbo
 Pass I-0045 adds `data/leaderboard_methodology_terms_i0045.tsv`, with companion notes in `manuscript/13-leaderboard-methodology-terms.md` and `champion/13-leaderboard-methodology-terms.md`. It defines vote, prompt sample, rating, confidence interval, category filter, snapshot, publication date, and release-status caveat as reusable Chapter 13 vocabulary, so later captions can stay concise without losing the non-live-rank, release-status, task-specific, and C-0046 price-quality warnings.
 
 Pass I-0049 extends that package with `data/leaderboard_methodology_glossary_i0049.tsv`, adding explicit config, split, category, and permission-gate definitions while reusing the I-0045 rows for vote, rating, confidence interval, publication date, and snapshot. This converts the I-0044 caption-use note into a reusable glossary for final captions and rank prose without weakening C-0046.
+
+Pass I-0050 adds `data/leaderboard_rank_row_microstyle_i0050.tsv`, with companion notes in `manuscript/13-rank-row-footnote-microstyle.md` and `champion/13-rank-row-footnote-microstyle.md`. It standardizes the short wording for historical slice, config/split/category, confidence overlap, non-live rank labels, release-status caveats, price-quality blocks, task-superiority blocks, and the required A-0014-before-A-0013 reading order.
 
 Pass I-0035 adds text-render source handles for ChatGPT productization evidence: SNAP-20260525-013 for S-0078 ChatGPT Plus, SNAP-20260525-014 for S-0089 ChatGPT Release Notes, and SNAP-20260525-015 for S-0090 What is ChatGPT Plus? These make launch/pricing/benefit and Enterprise release-note feature wording quote-ready with caveats, but they do not authorize adoption, public-reception, customer-productivity, named-customer, or original Enterprise product-post quotation claims.
 
