@@ -37,3 +37,4 @@
 - A failed capture pass is useful only if it changes the next move: after shell 403 plus unavailable browser, the ChatGPT product-page problem should shift to auditable archives or official alternates, not another identical browser retry.
 - Completing a provider pricing pair does not make a price-quality chart honest: Mistral rows now exist, but the remaining hard part is same-scope joins and model cutoff-status filtering across rank and price evidence.
 - Datacenter chapters need a "speed to power" spine rather than a generic energy subplot: separate global demand, local interconnection, physical supply mix, facility scale, flexibility, cooling, and rack-density evidence before writing around AI-factory rhetoric.
+- Quote readiness is a separate artifact from source capture: captured system cards can yield short, reviewed phrases, while a single blocked product post can keep exact labeler-process and product-framing language quarantined.

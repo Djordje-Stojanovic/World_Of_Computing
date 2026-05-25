@@ -2,7 +2,7 @@
 
 Status: first promoted draft candidate, pass I-0018, 2026-05-25.
 
-Source note: This chapter draft uses source IDs from `sources.tsv`. It treats alignment as a product and mechanism story: how base-model continuation became instruction following, refusal behavior, policy-shaped assistant behavior, and evaluation work. It deliberately avoids becoming a regulation chapter. Exact quotes, labeler-process details, red-team examples, and model-policy wording should be snapshotted before final prose.
+Source note: This chapter draft uses source IDs from `sources.tsv`. It treats alignment as a product and mechanism story: how base-model continuation became instruction following, refusal behavior, policy-shaped assistant behavior, and evaluation work. It deliberately avoids becoming a regulation chapter. Pass I-0033 adds `data/alignment_quote_safe_table_i0033.tsv` for short, reviewed quote candidates from captured Model Spec and system-card artifacts; S-0074 remains paraphrase-only until a local browser, archive, or alternate capture exists.
 
 Visual integration: Figure 6.1, `assets/visual_system/rlhf-alignment-pipeline.svg`, shows pretraining, supervised demonstrations, preference comparisons, reward/preference modeling, RL optimization, Constitutional AI/RLAIF, product policy, red teaming, and evaluation loops as a layered assistant-behavior stack. The companion rows live in `data/rlhf_alignment_pipeline_i0023.tsv`; the figure keeps the central caveat visible that refusals and caveats are product behavior built from several layers, not proof that the model "understands" the user's real-world interests. [S-0004] [S-0014] [S-0019] [S-0074] [S-0075]
 
@@ -100,7 +100,7 @@ That is why alignment belongs before the ChatGPT chapter. The interface event on
 
 ## Verification Tasks Before Next Promotion
 
-- Snapshot OpenAI's instruction-following post, Model Spec, GPT-4 system card, and GPT-4o system card before direct quotation.
+- Use `data/alignment_quote_safe_table_i0033.tsv` before adding exact Model Spec, GPT-4 system-card, or GPT-4o system-card wording; keep OpenAI's instruction-following post paraphrase-only until S-0074 has a local capture beyond the HTTP 403 note.
 - Add a visual RLHF pipeline with row-level caveats for demonstrations, comparisons, reward modeling, RL optimization, red teaming, and product policy layers.
 - Add Anthropic Claude product sources in the later Anthropic chapter to show how Constitutional AI moved from research signature to assistant brand.
 - Keep this chapter separate from regulation and copyright; use safety only where it changes LLM product behavior, reliability, or deployment.
