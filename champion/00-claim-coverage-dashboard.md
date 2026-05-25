@@ -2,10 +2,10 @@
 
 Current champion dashboard source: `manuscript/00-claim-coverage-dashboard.md`.
 
-Promoted in pass I-0014 on 2026-05-24 and refreshed in passes I-0016, I-0017, I-0018, I-0019, I-0020, I-0021, I-0022, I-0023, I-0024, I-0025, I-0026, I-0027, I-0028, I-0029, I-0031, I-0032, I-0033, I-0034, I-0035, I-0036, I-0037, I-0038, I-0039, I-0040, I-0041, I-0042, I-0043, I-0044, I-0045, I-0046, the I-0047 superseded-rejection pass, I-0048, I-0049, I-0050, I-0051, the I-0052 superseded-rejection pass, I-0053, I-0054, I-0055, and I-0056 on 2026-05-25 because it converts the claim ledger, source ledger, snapshot protocol, and chapter files into a visible quality gate:
+Promoted in pass I-0014 on 2026-05-24 and refreshed in passes I-0016, I-0017, I-0018, I-0019, I-0020, I-0021, I-0022, I-0023, I-0024, I-0025, I-0026, I-0027, I-0028, I-0029, I-0031, I-0032, I-0033, I-0034, I-0035, I-0036, I-0037, I-0038, I-0039, I-0040, I-0041, I-0042, I-0043, I-0044, I-0045, I-0046, the I-0047 superseded-rejection pass, I-0048, I-0049, I-0050, I-0051, the I-0052 superseded-rejection pass, I-0053, I-0054, I-0055, I-0056, and I-0057 on 2026-05-25 because it converts the claim ledger, source ledger, snapshot protocol, and chapter files into a visible quality gate:
 
-- 81 claims audited.
-- 73 supported claims.
+- 82 claims audited.
+- 74 supported claims.
 - 8 needs-verification claims.
 - 94 source rows.
 - 14 captured snapshot rows.
@@ -41,5 +41,6 @@ Promoted in pass I-0014 on 2026-05-24 and refreshed in passes I-0016, I-0017, I-
 - I-0054 added `champion/13-final-caption-microcopy.md` and `data/leaderboard_final_caption_microcopy_i0054.tsv`, creating final caption options for A-0014 and A-0013 while preserving methodology-before-rank order and C-0046.
 - I-0055 added `champion/13-appendix-placement-note.md` and `data/leaderboard_appendix_placement_i0055.tsv`, fixing the Chapter 13 appendix sequence from orientation and glossary through A-0014, A-0013, shared footnote, prohibited-use note, and price-quality handoff.
 - I-0056 added `champion/07-chatgpt-adoption-reception-sources.md` and `data/chatgpt_adoption_reception_sources_i0056.tsv`, identifying Reuters/UBS/Similarweb, Sam Altman, Meta Stack Overflow, Chalkbeat, and S-0079 as ChatGPT adoption/reception source candidates while keeping C-0010 blocked until local/archive capture, source-chain normalization, and triangulation.
+- I-0057 added `champion/16-cue-density-rule.md` and `data/chapter16_cue_density_rule_i0057.tsv`, deciding that CH16Q IDs stay inline for exact quantities, forecasts, advisory estimates, operator-survey signals, NVIDIA/GTC blockers, and energy-per-token exclusions while only source-only brackets may collapse freely.
 
 This champion marker should be replaced only when the underlying dashboard tables are regenerated and the replacement is recorded in `scoreboard.tsv`.
