@@ -62,3 +62,4 @@
 - Appendix placement should teach before it ranks: orient the reader, define the terms, show methodology, then show row order, with the footnote and prohibited-use note before any price or benchmark handoff.
 - Source-candidate packs narrow a blocker without closing it: I-0056 found cutoff-compatible ChatGPT adoption/reception handles, but C-0010 stays active until each candidate has local/archive capture, source-chain normalization, quote limits, and triangulation.
 - Cue-density rules should protect blockers before beauty: source-only clutter can collapse, but row IDs attached to exact quantities, scenarios, weaker survey signals, or explicit exclusions should move only when a note system preserves sentence-level mapping.
+- Note prototypes should start with the densest safe paragraph, not the riskiest blocker: move measured/scenario clusters only when the note preserves row labels, and keep explicit exclusions inline until visual proof says otherwise.
