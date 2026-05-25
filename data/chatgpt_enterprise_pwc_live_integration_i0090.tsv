@@ -1,0 +1,6 @@
+row_id	check	evidence	result	notes
+PWCLIVE-001	source_pair	Live Chapter 7 PwC sentence cites S-0100 and S-0103 together.	pass	S-0100 supplies PwC-side agreement/workforce framing; S-0103 supplies TechCrunch/OpenAI-executive corroboration.
+PWCLIVE-002	attribution	Sentence says "PwC said" and "TechCrunch, citing an OpenAI alliances executive, described" rather than narrating the claims as unqualified market facts.	pass	Commercial-role framing is attribution-bound.
+PWCLIVE-003	coverage_scale	Sentence uses "100,000-user coverage/access scale."	pass	Preserves S-0103 permission boundary and avoids active-user, paid-seat, or deployment-completion wording.
+PWCLIVE-004	blocker_visibility	Sentence explicitly says the evidence is not pricing, revenue, active usage, paid seats, global rollout, client adoption, or productivity outcomes.	pass	Preserves all blocker families named in I-0090.
+PWCLIVE-005	source_density	Chapter 7 body after insertion: 2902 words, 19 source-cue brackets, 152.7 words per cue.	pass	Still inside the 150-250 words-per-cue target for factual/reporting-heavy prose.

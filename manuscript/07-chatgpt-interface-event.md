@@ -66,6 +66,8 @@ That flywheel was not automatic. Inference could be expensive. Models could be s
 
 OpenAI's August 2023 ChatGPT Enterprise release-note entry showed the same interface being repackaged for organizations: enterprise-grade security and privacy, higher-speed GPT-4 access, longer context, advanced data analysis, customization, and related workplace features. [S-0089] The original Enterprise product post is still represented locally by a blocked-capture note, not a quote-ready page. [S-0079] The chapter should not turn OpenAI's Enterprise adoption, named-customer, or customer-productivity claims into neutral market statistics without a local original-page capture and independent triangulation. The safer point is structural: once ChatGPT entered workplaces, the chat box had to become an administered product, not merely a public demo.
 
+By May 2024, PwC said its U.S. and U.K. firms had signed an OpenAI agreement around ChatGPT Enterprise, while TechCrunch, citing an OpenAI alliances executive, described PwC as OpenAI's largest customer and first reseller with a 100,000-user coverage/access scale; that is evidence of commercial-role framing, not pricing, revenue, active usage, paid seats, global rollout, client adoption, or productivity outcomes. [S-0100; S-0103]
+
 ## What The Interface Hid
 
 The smoothness of ChatGPT hid several unresolved problems.

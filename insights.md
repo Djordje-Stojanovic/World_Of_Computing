@@ -94,3 +94,4 @@
 - Readability cleanup should not flatten blocker families: Chapter 7's source density is now healthy, but the opener must be split without hiding adoption metrics, reception scope, or Enterprise permission differences behind one generic caution note.
 - Note systems transfer by claim family, not by visual pattern: N16-1 proves a measured/scenario cluster can become a same-page note, but operator-survey signals and hard guardrails need their own prototypes or must stay inline.
 - Render guardrails need their own bad examples: a smoke check is more trustworthy when a temporary forced-failure mode proves missing text, black pages, and unignored large artifacts are actually rejected.
+- Enterprise prose can carry scale without laundering outcomes when the sentence names its source roles: "PwC said" plus "TechCrunch citing OpenAI" supports commercial-role framing, while the same sentence must block price, revenue, usage, rollout, client adoption, and productivity.
