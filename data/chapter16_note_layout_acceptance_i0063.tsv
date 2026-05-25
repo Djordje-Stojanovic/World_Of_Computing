@@ -1,0 +1,13 @@
+check_id	mock_id	result	evidence	notes
+CH16NA-001	CH16MOCK-001	pass	Mock moves only CH16Q-003, CH16Q-004, CH16Q-005, and CH16Q-006 into N16-1.	No other CH16Q ID is moved out of inline mock text.
+CH16NA-002	CH16MOCK-001	pass	N16-1 states CH16Q-003 as reported/about 176 TWh 2023 estimate.	Measured TWh row stays distinct from scenario row.
+CH16NA-003	CH16MOCK-001	pass	N16-1 states CH16Q-004 as modeled 325-580 TWh 2028 scenario.	Range, year, modeled, and scenario labels survive.
+CH16NA-004	CH16MOCK-001	pass	N16-1 states CH16Q-005 as reported/about 4.4 percent U.S. 2023 share.	U.S. scope and measured-year label survive.
+CH16NA-005	CH16MOCK-001	pass	N16-1 states CH16Q-006 as projected possible 6.7 to 12 percent 2028 scenario.	Range, projected/possible, and scenario labels survive.
+CH16NA-006	CH16MOCK-001	pass	SVG places N16-1 as a same-page sidenote connected to the paragraph by a dashed leader.	Final PDF still needs page-render QA; mock proximity passes.
+CH16NA-007	CH16MOCK-001	pass	CH16Q-017 remains inline in the NVIDIA AI-factory company-framing sentence.	No note-only treatment for the company-claim blocker.
+CH16NA-008	CH16MOCK-001	pass	CH16Q-018 remains inline in the energy-per-token exclusion sentence.	No note-only treatment for the explicit exclusion.
+CH16NA-009	CH16MOCK-001	pass	CH16Q-015 and CH16Q-016 remain inline in the Uptime operator-survey paragraph.	Operator signal note testing remains deferred.
+CH16NA-010	CH16MOCK-001	pass	Mock introduces no new TWh, MW, PUE, rack-density, Wh/token, or NVIDIA/GTC performance claim.	All exact quantitative/exclusion text maps to existing CH16Q rows.
+CH16NA-011	CH16MOCK-001	pass_with_caveat	Dense inline LBNL/DOE clusters are replaced by one N16-1 anchor and nearby note.	Readability appears better in mock; real PDF may still fail if the sidenote crowds the page.
+CH16NA-012	CH16MOCK-001	pass	manuscript/16-speed-to-power.md remains unchanged in this pass.	Mock is a gate artifact, not a prose merge.
