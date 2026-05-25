@@ -60,3 +60,4 @@
 - Readability audits should distinguish source clutter from permission cues: combine adjacent source-only brackets freely, but keep row IDs inline until a note system can prove the same exact-claim mapping.
 - Final captions need a shared-footnote strategy: keep the caption body short enough for layout, then put release-status, price-quality, task-superiority, and "not live rank" blocks into one nearby footnote instead of repeating every caveat twice.
 - Appendix placement should teach before it ranks: orient the reader, define the terms, show methodology, then show row order, with the footnote and prohibited-use note before any price or benchmark handoff.
+- Source-candidate packs narrow a blocker without closing it: I-0056 found cutoff-compatible ChatGPT adoption/reception handles, but C-0010 stays active until each candidate has local/archive capture, source-chain normalization, quote limits, and triangulation.
