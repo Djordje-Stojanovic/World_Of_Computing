@@ -75,7 +75,7 @@ Required caveats:
 
 This appendix should eventually produce four charts:
 
-1. **Leaderboard Anatomy** - how rank is produced, where votes enter, and where caveats attach.
+1. **Leaderboard Anatomy** - how rank is produced, where votes enter, and where caveats attach. Pass I-0034 adds the first concrete chart package, `assets/visual_system/lmarena-may19-text-style-control-top12.svg`, using S-0080/SNAP-20260525-008 historical `text_style_control` rows published 2026-05-19.
 2. **Price-Quality Frontier** - model/provider rows plotted only after price and rank snapshots are captured.
 3. **Context Window vs Price Basis** - context length, input price, output price, and caveat flags.
 4. **Benchmark Caveat Matrix** - Arena, SWE-bench, LiveCodeBench, provider evals, and what each can/cannot prove.

@@ -1,0 +1,13 @@
+chart_row_id	source_row_id	rank	model_name	organization	rating	rating_lower	rating_upper	vote_count	bar_width_percent	label_note
+LMA-CHART-001	LMA-CLEAN-0001	1	claude-opus-4-6-thinking	anthropic	1501.98	1497.55	1506.41	27454	100.0	Top row in this historical dataset slice.
+LMA-CHART-002	LMA-CLEAN-0002	2	claude-opus-4-7-thinking	anthropic	1500.25	1494.50	1506.01	12920	98.5	Rating overlaps with rank 1 confidence interval.
+LMA-CHART-003	LMA-CLEAN-0003	3	claude-opus-4-6	anthropic	1498.06	1493.75	1502.38	29240	96.5	Non-thinking variant remains near the top.
+LMA-CHART-004	LMA-CLEAN-0004	4	claude-opus-4-7	anthropic	1492.39	1486.67	1498.12	13571	91.6	Rating gap is small relative to top cluster.
+LMA-CHART-005	LMA-CLEAN-0005	5	muse-spark	meta	1489.49	1483.38	1495.60	11103	89.1	Historical dataset organization field says meta.
+LMA-CHART-006	LMA-CLEAN-0006	6	gemini-3.1-pro-preview	google	1488.18	1483.92	1492.44	34189	88.0	Preview model; do not treat as stable product availability.
+LMA-CHART-007	LMA-CLEAN-0007	7	gemini-3-pro	google	1485.82	1481.95	1489.68	41331	85.9	Largest vote count in top twelve.
+LMA-CHART-008	LMA-CLEAN-0008	8	gpt-5.5-high	openai	1481.32	1475.03	1487.62	10172	82.1	Use only as historical dataset row, not independent product-release evidence.
+LMA-CHART-009	LMA-CLEAN-0009	9	gemini-3.5-flash	google	1480.04	1472.30	1487.78	5907	81.0	Lowest vote count in top twelve.
+LMA-CHART-010	LMA-CLEAN-0010	10	gpt-5.4-high	openai	1479.60	1474.62	1484.58	21023	80.7	Use only as historical dataset row, not independent product-release evidence.
+LMA-CHART-011	LMA-CLEAN-0011	11	gpt-5.5	openai	1477.99	1471.68	1484.31	10294	79.4	Use only as historical dataset row, not independent product-release evidence.
+LMA-CHART-012	LMA-CLEAN-0012	12	grok-4.20-beta1	xai	1477.98	1473.13	1482.83	22458	79.4	Beta label should remain visible if used in prose.
