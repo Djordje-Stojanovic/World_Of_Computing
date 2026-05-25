@@ -1,0 +1,7 @@
+source_id	local_asset_path	bytes	sha256	commit_policy	provenance_note
+S-0026	assets/source_docs/china/S-0026_qwen2-arxiv-abs.html	56044	5DCC242357EE6FAFA545E31E0FB6B6248D1A9515850B502F5E41C2E07EA507FB	commit-lightweight-html	Qwen2 arXiv abstract page captured during I-0105 for local provenance.
+S-0027	assets/source_docs/china/S-0027_qwen3-arxiv-abs.html	55594	302D7A6B6C4CC556A3C6DD1FDE20415EA922C99463E3D60CB09286A02E167C0B	commit-lightweight-html	Qwen3 arXiv abstract page captured during I-0105 for local provenance.
+S-0028	assets/source_docs/china/S-0028_deepseek-v3-arxiv-abs.html	77968	FED22D7E672EE84B167125461ED980BA7997A4F844131F86038079197661B7C4	commit-lightweight-html	DeepSeek-V3 arXiv abstract page captured during I-0105 for local provenance.
+S-0029	assets/source_docs/china/S-0029_deepseek-r1-arxiv-abs.html	80029	0166B468D8D8650065CB9B8A72017B25EB51970FC948C2C59F5D4D66FE088171	commit-lightweight-html	DeepSeek-R1 arXiv abstract page captured during I-0105 for local provenance.
+S-0030	assets/source_docs/china/S-0030_glm-4-arxiv-abs.html	56730	31105F661378520EA13B508BC956610F058150E5A559C7B87AB3BB8BAE434A6F	commit-lightweight-html	GLM-4 arXiv abstract page captured during I-0105 for local provenance.
+S-0031	assets/source_docs/china/S-0031_kimi-k1-5-arxiv-abs.html	61715	17A790530E9A1318FE3F474FE5D64B04FF59162DE5E071EB32EC26F694DE743A	commit-lightweight-html	Kimi k1.5 arXiv abstract page captured during I-0105 for local provenance.
