@@ -1,0 +1,9 @@
+check_id	order_slot	component	required_evidence	integration_result	remaining_blocker
+CH13INT-001	1	orientation paragraph	LAPP-001;LCAP-006	Inserted before ranking sources; states the appendix is an evidence path, not a live crown.	None for layout order.
+CH13INT-002	2	condensed glossary	LMG-001;LMG-002;LMG-003;LMG-004;LMG-005;LMG-006;LMG-007;LMG-008;LMG-009	Inserted nine short definitions before any figure, including vote, config, split, category, rating, confidence interval, publication date, snapshot, and permission gate.	None for glossary placement; source tables remain the detailed authority.
+CH13INT-003	3	methodology figure before rank chart	A-0014;LCAP-001;LAPP-003	Placed A-0014 caption and asset instruction before A-0013.	Final page layout still needs rendered PDF verification.
+CH13INT-004	4	narrow transition before sorted rows	LCAP-007;LAPP-004	Inserted the approved transition limiting the chart to a tight top-cluster claim.	None for prose permission.
+CH13INT-005	5	historical rank chart caption	A-0013;LCAP-003;S-0080;SNAP-20260525-008	Inserted full A-0013 caption with config, split, category, top-twelve scope, publication date, source ID, snapshot ID, and uncertainty-overlap wording.	Does not authorize live ranks or release status.
+CH13INT-006	6	shared footnote	LCAP-005;RRM-009;C-0046	Inserted one shared footnote directly after A-0013 instructions instead of duplicating caveats in every caption.	C-0046 remains active for price-quality joins.
+CH13INT-007	7	prohibited-use note	LCAP-008;LAPP-007	Inserted compact negative-control wording blocking best-model, current-leaderboard, price-performance, release-status, coding, safety, and enterprise captions.	None for current appendix wording.
+CH13INT-008	8	price-quality handoff	LAPP-008;data/price_quality_join_audit_i0036.tsv	Inserted the hard-divider rule for any later price section.	C-0046 remains active until same-scope price/rank chart is ready.
