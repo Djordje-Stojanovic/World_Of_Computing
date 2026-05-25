@@ -98,9 +98,91 @@ The result was not a mind with values. It was stranger and more historically imp
 
 That is why alignment belongs before the ChatGPT chapter. The interface event only worked because the model had learned more than how to continue text. It had learned, imperfectly and institutionally, when to help, when to hedge, and when to say no.
 
+## Figure 6.1 Is The Chapter In Miniature
+
+The alignment pipeline visual should not be treated as ornament. It is the chapter's argument compressed into a stack. The first layer is the base model: next-token pretraining gives the system broad continuation ability before assistant behavior is shaped. That layer explains why a model can sound fluent across many domains, but it does not explain why the model should follow a user's instruction, refuse a request, or admit uncertainty. The figure begins there because every later behavior is built on top of that substrate.
+
+The second layer is demonstration. In the InstructGPT pipeline, humans supplied examples of desired behavior and prompts drawn from API use. The quote-safe table now makes the product-post phrasing available too: OpenAI described labelers who would "provide demonstrations" and rank outputs. [S-0074] That phrase is short, but it matters. The assistant did not simply emerge from scale as a finished personality. People showed it what an answer should look like under a particular product goal.
+
+The third and fourth layers are comparison and reward modeling. Preference comparisons turn a hard-to-write objective into ranked examples. A reward model then learns to predict which output a rater would prefer. [S-0014] This is elegant and dangerous in the same breath. It lets a lab optimize toward qualities that are hard to express as a simple rule. It also creates a proxy. A proxy can be useful, gamed, overoptimized, or quietly misaligned with the situation the user actually cares about.
+
+The fifth layer is policy optimization. The model is pushed toward the learned preference signal. Here the chapter should be especially careful with verbs. The system is not taught truth as a metaphysical property. It is optimized to produce answers that score better under a learned model of preferences produced by a process. The result can be dramatically more useful and still brittle. It can become more helpful and still hallucinate. It can become more harmless under one policy and still fail under another. It can become more honest in the average case and still produce false confidence.
+
+The sixth layer is the constitutional or principle-guided branch. Anthropic's Constitutional AI adds a different route: written principles, model-generated critiques and revisions, and AI-generated preference judgments. [S-0019] The visual puts this as a branch rather than a replacement because the point is not to declare a winner. The point is to show that the field began searching for ways to make assistant behavior less dependent on one narrow form of direct human comparison, while still leaving the hard questions of principle choice, conflict resolution, and product accountability open.
+
+The seventh layer is behavior specification. OpenAI's Model Spec gave assistant behavior a written surface: "desired behavior," "objectives, rules, and defaults," and a priority order in which platform, developer, user, and tool instructions did not all have equal authority. [S-0075] That is product architecture, not just safety prose. It tells readers that what appears as one assistant voice is partly a command hierarchy. The user may feel as if they are speaking to the model directly, but the product has already arranged the conversation before the first user token arrives.
+
+The final layer is the evaluation and release loop: red teams, system cards, evals, deployment observation, mitigation, and another release. GPT-4 and GPT-4o system cards make that loop visible as first-party disclosure. [S-0076] [S-0077] The quote table gives the chapter a useful humility phrase from GPT-4's system card: mitigations could remain "limited and remain brittle." That is exactly the tone the book needs. System cards are not certificates of solved safety. They are evidence that release had become an evaluated, documented, contested process.
+
+## What The Quote Table Allows
+
+The quote-safe table is a permission map, not a decoration. It keeps the chapter from doing the two bad things alignment prose likes to do: quoting too much first-party language as if it were neutral truth, or avoiding exact wording so thoroughly that the reader cannot see how the labs described their own work.
+
+For OpenAI's instruction-following post, the table permits short, renderer-caveated phrases. The chapter can say OpenAI framed InstructGPT around "following user intentions" and contrasted that goal with a model trained to predict the next word rather than "safely perform" the user's task. [S-0074] Those fragments are not enough to prove safety. They are enough to show the public product frame: the problem was no longer only benchmark performance, but whether the model did what the user meant in a way the provider could stand behind.
+
+The same table permits the API-default point with restraint. OpenAI's product post can support the claim that InstructGPT models became the API's "default language models" at that moment. [S-0074] That is a narrow deployment statement, not a universal adoption claim. It does not say every OpenAI customer used them, that the system was safe, that the market preferred them, or that the alignment problem was closed. It says the instruction-tuned model moved from research result into the production surface.
+
+The quote table also carries a built-in antidote to hype: the phrase "far from fully aligned." [S-0074] That belongs near the chapter's strongest claims because it is the lab's own caveat. InstructGPT made outputs more aligned with a particular training and deployment process; it did not represent all users, all cultures, all risk tolerances, or all downstream contexts. The phrase keeps the reader from mistaking a product improvement for a philosophical endpoint.
+
+For the Model Spec, the safe phrases are structural. "Desired behavior" names the document's purpose. "Objectives, rules, and defaults" names its hierarchy. [S-0075] The quoted priority chain, "Platform > Developer > User > Tool," is useful because it makes the product reality concrete. A chat assistant is not a democratic surface where every instruction has the same force. It is a layered system in which the user's request sits inside constraints chosen by the provider and, in some contexts, the application developer.
+
+For system cards, the table is deliberately conservative. It allows short phrases such as GPT-4's "safety processes" and the note that mitigations were "limited and remain brittle." [S-0076] It allows GPT-4o's "more than 100 external red teamers" only as a first-party signal about release preparation, not as proof that the model was safe across the world. [S-0077] The reader should see the machinery of evaluation without being asked to treat a lab's paperwork as the verdict.
+
+This is the chapter's evidence discipline. Exact wording is allowed only when it clarifies a source's role. Otherwise, paraphrase is stronger. The book is not trying to sound like a policy appendix. It is trying to show how the assistant became an engineered behavior surface.
+
+## The Alignment Tax And The Product Trade
+
+One reason alignment became a product drama is that every improvement has a trade. OpenAI's instruction-following post used the phrase "alignment tax" for the possibility that making a model better match customer intent could reduce performance on some conventional academic NLP tasks. [S-0074] The phrase is valuable because it reminds readers that alignment was not just a moral layer placed on top of capability. It changed what the system optimized for.
+
+A base model can be impressive in a way that is alien to ordinary users. It may complete a prompt with dazzling fluency but ignore the user's implicit goal. It may write in the requested style while inventing facts. It may follow the form of an answer but miss the responsibility of answering. Instruction tuning and preference optimization attempt to trade some raw continuation freedom for product usefulness.
+
+That trade can be worth it. A user who asks for a recipe, a code explanation, or a contract summary usually does not want the statistically most plausible next document. The user wants an answer. They want format, relevance, caution, and closure. A product assistant has to behave as if the prompt is a request, not just a prefix.
+
+But the trade can also distort. Preference-trained assistants may become verbose because raters reward completeness. They may hedge because caution is rewarded. They may apologize when no apology is needed. They may flatter. They may refuse too much. They may refuse too little. They may learn the surface of helpfulness: organized bullets, confident tone, warm caveats, and a polished ending. The product improves, but the improvement has a style.
+
+The alignment tax therefore has two meanings in the book. The narrow meaning is the technical trade identified by OpenAI: performance on some academic tasks may not be the same as customer-task alignment. [S-0074] The broader narrative meaning is that assistant behavior is not free. A model optimized to be useful in a product is shaped by examples, preferences, policies, and business context. That shaping creates value. It also creates artifacts.
+
+Those artifacts became part of the user experience. People learned to recognize the voice of a tuned assistant: careful, structured, sometimes evasive, sometimes startlingly useful. They also learned to push against it. Jailbreaks, prompt injections, adversarial phrasing, and elaborate role play all exploited the fact that the assistant was a layered product. Users were no longer merely asking questions. They were probing a hierarchy.
+
+## Why Refusal Became A New Interface Genre
+
+The refusal deserves its own place in the story because it is one of the strangest inventions of the LLM era. Software had always had errors, warnings, permissions, and access controls. But the chat refusal had a different flavor. It was written in the same voice as the helpful answer. It sounded conversational. It often explained itself. It might offer a safer alternative. It made policy feel like a person speaking.
+
+That design choice solved one problem and created another. A refusal in ordinary language can educate, redirect, or de-escalate. It can keep a product from becoming a universal completion engine for harmful requests. It can make boundaries visible. But because it speaks with the assistant's voice, it can also feel moralizing, arbitrary, or fake. A user might not know whether the refusal came from pretraining, instruction tuning, a system message, a safety classifier, a policy rule, a retrieval decision, or a product bug. The voice unifies the stack; the stack obscures the reason.
+
+The Model Spec helps here because it makes conflict explicit. Objectives, rules, defaults, and instruction priority exist because user intent is not the only force acting on the answer. A user can ask for one thing while the platform requires another. A developer can frame a task while the platform limits it. A tool can return information that changes what the assistant should say. Alignment, in product practice, is the management of those conflicts.
+
+That is why refusals should not be written as proof that the model has values. A refusal is behavior, not ontology. It may reflect a rule, a learned pattern, a policy classifier, a reward-model preference, a system instruction, or some interaction among them. The historically important fact is not that the model "cares." It is that language models became products where care had to be simulated, specified, tested, and contested.
+
+The best refusal is almost invisible: brief, accurate, proportional, and useful. The worst refusal becomes theater. It consumes the user's attention while failing to solve the underlying task. The race to build assistants was therefore also a race to make the refusal feel less like a wall and more like part of competent help.
+
+## Evaluation Became A Public Ritual
+
+System cards changed launch rhythm. A frontier model release could no longer be just a paper, a demo, or a benchmark score. It needed a public account of risks, mitigations, external testing, and remaining limitations. GPT-4's system card and GPT-4o's later system card are first-party documents, but they are important because they show the ritual becoming standard. [S-0076] [S-0077]
+
+The ritual had several audiences. Users wanted to know whether the model was reliable. Developers wanted to know what could break. Enterprises wanted risk language they could pass through procurement and security review. Researchers wanted enough detail to scrutinize claims. Regulators and journalists wanted visible accountability. The lab wanted to ship. The system card sat at the intersection of all those needs.
+
+That position made system cards both valuable and limited. They disclose some categories of risk. They describe some mitigations. They name some testing procedures. They may mention external experts or red-team scale. But they are still authored by the provider, scoped by the provider, and constrained by what the provider chooses to reveal. A system card is an artifact of governance and marketing as well as safety.
+
+The book should use these documents neither cynically nor naively. Cynicism would miss their evidentiary value: they show what labs measured, feared, and publicly promised. Naivete would mistake disclosure for proof. The right posture is forensic. What risk categories appear? What is quantified? What is left qualitative? Which mitigations are admitted to be brittle? Which claims are first-party only? Which require independent tests before they become book facts?
+
+That forensic posture also connects alignment to evaluation. If assistant behavior is produced by a stack, then no single score can certify it. A model can pass a multiple-choice exam and fail a conversation. It can refuse harmful requests and still be vulnerable to prompt injection. It can do well in English and fail in another language. It can look safe in short tests and degrade in long workflows. Evaluation becomes a portfolio, not a finish line.
+
+## ChatGPT Was The Alignment Demo The Public Could Touch
+
+The next chapter begins when this machinery becomes ordinary enough for the public to try. ChatGPT's novelty was not only that it answered in a chat box. It was that the answer usually behaved as if the prompt were a request. It followed instructions often enough, refused often enough, apologized often enough, and stayed in role often enough that people treated it as a counterpart.
+
+That counterpart feeling depended on the entire Chapter 6 stack. Pretraining gave the model language and knowledge-like behavior. Supervised demonstrations showed the shape of an answer. Preference comparisons rewarded outputs people liked better. RL optimization tuned toward that reward. Specifications and policies arranged conflicts. Red teams and evals exposed failures. The product interface made the whole bundle speak in one voice.
+
+This also explains why ChatGPT's failures were so culturally intense. A raw autocomplete failure is easy to dismiss. An assistant failure feels personal. If the model fabricates, the user experiences not only error but betrayal of the assistant frame. If it refuses incorrectly, the user experiences not only denial but judgment. If it gives harmful advice, the product has failed at the very boundary alignment was supposed to manage.
+
+The public did not need to know the acronym RLHF to feel its effects. They felt it in the difference between a completion and an answer. They felt it in the refusal, the apology, the caveat, the format-following, the conversational memory inside a session, and the model's tendency to act as if it had been asked to help. The interface made the training philosophy tangible.
+
+That is the clean handoff. Chapter 5 showed how prompting and APIs made language models programmable. Chapter 6 shows how instruction tuning and alignment work made them assistant-shaped. Chapter 7 can now show what happened when the assistant shape met the public.
+
 ## Verification Tasks Before Next Promotion
 
-- Use `data/alignment_quote_safe_table_i0033.tsv` before adding exact Model Spec, GPT-4 system-card, or GPT-4o system-card wording; keep OpenAI's instruction-following post paraphrase-only until S-0074 has a local capture beyond the HTTP 403 note.
+- Use `data/alignment_quote_safe_table_i0033.tsv` before adding exact Model Spec, GPT-4 system-card, GPT-4o system-card, or instruction-following product-post wording; keep quotations short and tied to their snapshot caveats.
 - Add a visual RLHF pipeline with row-level caveats for demonstrations, comparisons, reward modeling, RL optimization, red teaming, and product policy layers.
 - Add Anthropic Claude product sources in the later Anthropic chapter to show how Constitutional AI moved from research signature to assistant brand.
 - Keep this chapter separate from regulation and copyright; use safety only where it changes LLM product behavior, reliability, or deployment.
