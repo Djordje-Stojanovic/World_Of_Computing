@@ -2,15 +2,15 @@
 
 Current champion dashboard source: `manuscript/00-claim-coverage-dashboard.md`.
 
-Promoted in pass I-0014 on 2026-05-24 and refreshed in passes I-0016, I-0017, I-0018, I-0019, I-0020, I-0021, I-0022, I-0023, I-0024, I-0025, I-0026, I-0027, I-0028, I-0029, I-0031, I-0032, I-0033, I-0034, I-0035, I-0036, I-0037, and I-0038 on 2026-05-25 because it converts the claim ledger, source ledger, snapshot protocol, and chapter files into a visible quality gate:
+Promoted in pass I-0014 on 2026-05-24 and refreshed in passes I-0016, I-0017, I-0018, I-0019, I-0020, I-0021, I-0022, I-0023, I-0024, I-0025, I-0026, I-0027, I-0028, I-0029, I-0031, I-0032, I-0033, I-0034, I-0035, I-0036, I-0037, I-0038, and I-0039 on 2026-05-25 because it converts the claim ledger, source ledger, snapshot protocol, and chapter files into a visible quality gate:
 
-- 65 claims audited.
-- 57 supported claims.
+- 66 claims audited.
+- 58 supported claims.
 - 8 needs-verification claims.
 - 90 source rows.
 - 14 captured snapshot rows.
 - 8 snapshot gap rows.
-- 13 visual asset rows.
+- 14 visual asset rows.
 - Chapter 6 is in target band at 242.7 words per source; Chapter 7 is in target band at 221.5 words per source; Chapter 15 opening is in target band at 212.9 words per source; Chapter 16 opening is in target band at 156 words per source.
 - I-0027 added AI factory stack visual A-0012 while preserving C-0021/C-0047 because NVIDIA performance, revenue, partner, roadmap, availability, and deployment claims remain attributed or blocked.
 - I-0028 captured the OpenAI Model Spec and GPT-4/GPT-4o system-card artifacts; I-0038 later captured the instruction-following product post as text-rendered evidence, while C-0044 still needs quote-limit extraction for longer policy/system-card/red-team passages.
@@ -23,5 +23,6 @@ Promoted in pass I-0014 on 2026-05-24 and refreshed in passes I-0016, I-0017, I-
 - I-0036 added a same-scope price-quality join audit table that identifies limited candidate rows while excluding fine-tuning, missing-price, reasoning, deprecated, model-version mismatch, batch/data-sharing, and post-cutoff-price-capture traps before any frontier chart.
 - I-0037 drafted and promoted the Chapter 16 "speed to power" opening from the datacenter evidence pack, keeping scenarios and NVIDIA AI-factory framing attributed while adding a target-density infrastructure chapter opening.
 - I-0038 captured S-0074 through a text-render snapshot and refreshed the Chapter 6 quote-safe table, moving the instruction-following product post from paraphrase-only to short-quote-ready while keeping C-0044 open for longer system-card/red-team/policy extraction.
+- I-0039 added leaderboard-methodology visual A-0014 so Chapter 13 can teach votes, filters, uncertainty, publication date, snapshot ID, and chart-use gates before presenting ranked model rows.
 
 This champion marker should be replaced only when the underlying dashboard tables are regenerated and the replacement is recorded in `scoreboard.tsv`.

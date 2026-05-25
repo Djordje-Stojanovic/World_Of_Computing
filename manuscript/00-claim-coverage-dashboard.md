@@ -1,21 +1,21 @@
 # Claim Coverage Dashboard
 
-Status: promoted data pass I-0014 on 2026-05-24; refreshed by source-capture pass I-0016, caption/provenance pass I-0017, chapter-draft pass I-0018, claim-audit pass I-0019, source-density pass I-0020, OpenAI pricing-normalization pass I-0021, GTC chapter-opening pass I-0022, alignment-visual pass I-0023, LMArena normalization pass I-0024, ChatGPT product-page capture pass I-0025, provider-pricing normalization pass I-0026, AI-factory visual pass I-0027, alignment-source capture pass I-0028, clean LMArena dataset pass I-0029, Mistral pricing pass I-0031, datacenter infrastructure source-pack pass I-0032, alignment quote-table pass I-0033, LMArena chart pass I-0034, ChatGPT alternate-capture pass I-0035, price-quality join audit pass I-0036, Chapter 16 speed-to-power prose pass I-0037, and instruction-following alternate-capture pass I-0038 on 2026-05-25.
+Status: promoted data pass I-0014 on 2026-05-24; refreshed by source-capture pass I-0016, caption/provenance pass I-0017, chapter-draft pass I-0018, claim-audit pass I-0019, source-density pass I-0020, OpenAI pricing-normalization pass I-0021, GTC chapter-opening pass I-0022, alignment-visual pass I-0023, LMArena normalization pass I-0024, ChatGPT product-page capture pass I-0025, provider-pricing normalization pass I-0026, AI-factory visual pass I-0027, alignment-source capture pass I-0028, clean LMArena dataset pass I-0029, Mistral pricing pass I-0031, datacenter infrastructure source-pack pass I-0032, alignment quote-table pass I-0033, LMArena chart pass I-0034, ChatGPT alternate-capture pass I-0035, price-quality join audit pass I-0036, Chapter 16 speed-to-power prose pass I-0037, instruction-following alternate-capture pass I-0038, and leaderboard-methodology visual pass I-0039 on 2026-05-25.
 
 This dashboard turns the project ledgers into a recurring quality gate. It does not make new historical claims about LLMs; it exposes which existing claims are supported, which claims are still quarantined, and where chapter drafts are drifting away from the source-density target.
 
 ## Current Snapshot
 
-- Claims audited: 65.
-- Supported claims: 57.
+- Claims audited: 66.
+- Supported claims: 58.
 - Needs-verification claims: 8.
 - Source rows: 90.
 - Primary or local-primary source rows: 87.
 - Captured snapshot rows: 14.
 - Snapshot gap rows: 8.
-- Visual asset rows: 13.
+- Visual asset rows: 14.
 - Main chapter count: 24.
-- Pending idea rows after pass I-0038: 5.
+- Pending idea rows after pass I-0039: 6.
 
 The eight needs-verification rows are C-0007, C-0010, C-0013, C-0021, C-0029, C-0044, C-0046, and C-0047. They should be treated as a work queue, not as acceptable residue.
 
@@ -24,6 +24,8 @@ The eight needs-verification rows are C-0007, C-0010, C-0013, C-0021, C-0029, C-
 First priority: mutable rank and price facts. Pass I-0019 resolved the stale capture-gap rows C-0017 and C-0018 because local or clearly labeled alternate official captures now exist. Pass I-0029 resolves C-0045 by capturing and normalizing 100 official LMArena/Arena historical `text_style_control` `overall` rows published 2026-05-19; those rows are chart candidates only with source, config, category, and publish-date labels, not live May 24 wording. Pass I-0031 resolves the missing Mistral pricing pair by capturing official Mistral pricing pages and normalizing candidate rows. Pass I-0036 creates the same-scope price-quality audit table in `data/price_quality_join_audit_i0036.tsv`, but C-0046 still blocks final frontier charts because coverage is sparse, OpenAI lacks comparable standard inference rows, Mistral needs cutoff-price corroboration, and cache/tier/batch/reasoning/fine-tuning/deprecated exclusions must stay visible. Pass I-0024 normalized a conservative subset of LMArena visible-order rows from SNAP-20260524-001, but the captured title stream contains post-cutoff-looking model names, so it remains an audit/filtering artifact rather than final rank data. Pass I-0021 normalized visible OpenAI pricing rows from SNAP-20260525-001 with row-level cutoff caveats and post-cutoff model-name exclusions, but the rows still cannot be used as exact cutoff-day chart data until corroborated.
 
 Pass I-0034 turns the clean LMArena/Arena historical rows into chart asset A-0013, a lightweight SVG explicitly labeled as `text_style_control`, `latest`, `overall`, published 2026-05-19, S-0080/SNAP-20260525-008. This supports a Chapter 13 visual but does not authorize live May 24 ranking, release-status, price-quality, or task-specific superiority claims.
+
+Pass I-0039 adds methodology visual A-0014, `assets/visual_system/leaderboard-methodology-flow.svg`, with companion rows in `data/leaderboard_methodology_i0039.tsv`. A-0014 should appear before A-0013 so readers see votes, config/category filters, uncertainty, publication date, snapshot ID, and permission gates before reading any sorted model list.
 
 Pass I-0035 adds text-render source handles for ChatGPT productization evidence: SNAP-20260525-013 for S-0078 ChatGPT Plus, SNAP-20260525-014 for S-0089 ChatGPT Release Notes, and SNAP-20260525-015 for S-0090 What is ChatGPT Plus? These make launch/pricing/benefit and Enterprise release-note feature wording quote-ready with caveats, but they do not authorize adoption, public-reception, customer-productivity, named-customer, or original Enterprise product-post quotation claims.
 
