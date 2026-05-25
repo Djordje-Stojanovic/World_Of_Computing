@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Chapter 21 Train-Time Versus Test-Time Compute Axes</title>
+  <desc id="desc">Three-axis schematic separating training compute, post-training, and test-time compute for reasoning systems.</desc>
+  <rect width="1200" height="760" fill="#fbfaf7"/>
+  <text x="70" y="72" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#111827">Reasoning adds a new compute axis</text>
+  <text x="70" y="108" font-family="Arial, sans-serif" font-size="17" fill="#4b5563">Model size is no longer the only budget readers need to see.</text>
+  <g font-family="Arial, sans-serif">
+    <line x1="180" y1="590" x2="920" y2="590" stroke="#111827" stroke-width="4"/>
+    <line x1="180" y1="590" x2="180" y2="180" stroke="#111827" stroke-width="4"/>
+    <line x1="180" y1="590" x2="500" y2="330" stroke="#111827" stroke-width="4"/>
+    <text x="470" y="640" font-size="21" font-weight="700" fill="#111827">training compute</text>
+    <text x="64" y="380" font-size="21" font-weight="700" fill="#111827" transform="rotate(-90 64 380)">test-time compute</text>
+    <text x="515" y="320" font-size="21" font-weight="700" fill="#111827">post-training</text>
+    <circle cx="300" cy="515" r="18" fill="#2563eb"/>
+    <text x="328" y="522" font-size="16" fill="#1f2937">fast single-pass response</text>
+    <circle cx="455" cy="430" r="18" fill="#16a34a"/>
+    <text x="483" y="437" font-size="16" fill="#1f2937">instruction-tuned assistant</text>
+    <circle cx="625" cy="340" r="18" fill="#d97706"/>
+    <text x="653" y="347" font-size="16" fill="#1f2937">reasoning model / search</text>
+    <circle cx="760" cy="245" r="18" fill="#7c3aed"/>
+    <text x="788" y="252" font-size="16" fill="#1f2937">tool-using reasoning system</text>
+    <rect x="770" y="430" width="305" height="140" rx="8" fill="#ffffff" stroke="#d1d5db"/>
+    <text x="795" y="465" font-size="20" font-weight="700" fill="#111827">Test-time ingredients</text>
+    <text x="795" y="497" font-size="15" fill="#1f2937">scratch work, samples, search</text>
+    <text x="795" y="522" font-size="15" fill="#1f2937">verifiers, tools, retries</text>
+    <text x="795" y="547" font-size="15" fill="#1f2937">hidden tokens, latency, cost</text>
+    <rect x="770" y="165" width="305" height="96" rx="8" fill="#111827"/>
+    <text x="795" y="202" font-size="19" font-weight="700" fill="#ffffff">Blocked caption</text>
+    <text x="795" y="231" font-size="15" fill="#fef3c7">Not a measured frontier curve.</text>
+  </g>
+  <text x="70" y="700" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">Sources: S-0168; S-0169; S-0170; S-0171; S-0172; S-0173; CH21REASON-001/002/003/004/008/009. Schematic only.</text>
+</svg>
