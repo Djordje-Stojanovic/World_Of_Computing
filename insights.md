@@ -70,3 +70,4 @@
 - A layout mock can pass without authorizing a manuscript merge: N16-1 shows the cue cleanup is plausible, but production page breaks, note proximity, and blocker visibility still need render QA before removing CH16Q IDs from live prose.
 - Leaderboard appendix layout QA should test the reading path, not just the figures: heading flow, glossary order, caption scope, footnote proximity, prohibited-use visibility, and price-quality dividers are all claim-control surfaces.
 - Source normalization is the membrane between capture and prose: a locally captured article can still be unusable for narrative claims when the metric definition, source chain, primary-vs-secondary role, or quote allowance remains unresolved.
+- Reception chronologies should stay institutional before they become cultural: two school districts, one developer site, and one bank are a sequence of named responses, not proof of public panic or universal workplace policy.
