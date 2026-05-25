@@ -60,3 +60,14 @@ This pass resolves the C-0045 clean cutoff-bounded leaderboard-row blocker for a
 - Normalized table: `data/mistral_pricing_rows_i0031.tsv`.
 
 This pass resolves the missing Mistral pricing-source pair from I-0026. It does not close C-0046 because the captures happened one day after cutoff and final price-quality charts still need cutoff-status checks and same-scope rank joins.
+
+## I-0075 ChatGPT Enterprise Text Render
+
+- SNAP-20260525-026 / S-0079: OpenAI `Introducing ChatGPT Enterprise` product post captured through the established r.jina.ai text-render route at `data/source_snapshots/2026-05-25/2026-05-25__S-0079__product-post__chatgpt-enterprise__text-render.md`.
+- Direct shell HTML capture of the official OpenAI page still returned a JavaScript/cookie challenge during I-0075.
+- HTTP status: 200 for the text-render route.
+- Bytes: 6,172.
+- SHA256: `62C0C6AF6F8DC89A9F1E5DE7FEF6CD003E9E7962FAA1D797D35B8243B5828DCD`.
+- Extraction table: `data/chatgpt_enterprise_quote_safe_rows_i0075.tsv`.
+
+This pass upgrades S-0079 from original-post quotation blocked to quote-ready with a renderer caveat for short OpenAI-attributed product-post wording, the Fortune 500 registered-account statement and footnote definition, and vendor-hosted customer quote context. It does not authorize paid Enterprise adoption, neutral named-customer deployment, or productivity-outcome prose without customer-side or independent corroboration.
