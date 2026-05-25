@@ -1,0 +1,7 @@
+source_id	path	bytes	sha256	note
+S-0138	assets/source_docs/nvidia_cuda/S-0138_cuda_programming_guide.html	3925183	A2FF54788E897B7ADC7D013C33C8399035DA2BBA20977AE52CD5961A87B033B3	Official NVIDIA CUDA Programming Guide local HTML capture for Chapter 14.
+S-0139	assets/source_docs/nvidia_cuda/S-0139_hopper_architecture_blog.html	409668	CBE2189F269093C25C8437D5958516F5F802F93FE7FFFB42EA5325E3D0516E6A	Official NVIDIA Hopper architecture technical-blog capture for Chapter 14.
+S-0140	assets/source_docs/nvidia_cuda/S-0140_blackwell_architecture.html	305616	B35A9934ABC0E87913C742DA466B62AA4DE66BE8D4897F85C9CC2660AF70F14E	Official NVIDIA Blackwell architecture page capture for Chapter 14; mutable page caveat.
+S-0141	assets/source_docs/nvidia_cuda/S-0141_cudnn_deep_learning_blog.html	206595	981A927932AD83F7B736F6DE51E93B740D0CD15DD44C594CB9157D40FEE9DD25	Official NVIDIA cuDNN technical-blog capture for Chapter 14.
+S-0142	assets/source_docs/nvidia_cuda/S-0142_tensorrt_llm.html	52895	03D9AFB729E613DD1849C14DA4ACB5CE82781D05110AA4443AD83A94FDAB5E84	Official NVIDIA TensorRT-LLM developer page capture for Chapter 14; mutable page caveat.
+S-0143	assets/source_docs/nvidia_cuda/S-0143_nvlink_nvswitch_llm_inference.html	264936	65E7A308276562CD80D84F4CB21C5381B63EA82CD30F902903D05B9789C86D50	Official NVIDIA NVLink/NVSwitch LLM inference technical-blog capture for Chapter 14.

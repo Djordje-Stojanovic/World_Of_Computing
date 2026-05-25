@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html lang='en' class='h-100' data-color-scheme='light'>
+  <head>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="yaZ173TYKpQu5jUB2m4F_GeDTyUL6R46Q-xiq-KNCbdPGVnWmzuNpPx6OqKMBforDTnj8xZXpL_1OIVO2O1UXg" />
+    <meta name="csp-nonce" />
+    <title>TensorRT LLM | NVIDIA Developer</title>
+<meta name="description" content="An open-source library built to deliver high-performance, real-time inference optimization for LLMs on NVIDIA GPUs - on a desktop or in a data center.">
+<meta name="keywords" content="tensorrt, llm, inference optimization, inference performance, deep learning inference, python api, nvidia">
+<link rel="canonical" href="https://developer.nvidia.com/tensorrt-llm">
+<link rel="alternate" href="https://developer.nvidia.com/tensorrt-llm" hreflang="x-default">
+<link rel="alternate" href="https://developer.nvidia.com/tensorrt-llm" hreflang="en-us">
+<link rel="alternate" href="https://developer.nvidia.cn/tensorrt-llm" hreflang="zh-cn">
+<meta property="og:site_name" content="NVIDIA Developer">
+<meta property="og:title" content="NVIDIA TensorRT LLM">
+<meta property="og:description" content="Maximize inference performance while minimizing operational costs.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://developer.download.nvidia.com/images/tensorrt-llm/tensorrt-llm-1200x630.jpg">
+<meta property="og:url" content="https://developer.nvidia.com/tensorrt-llm">
+<meta name="twitter:title" content="NVIDIA TensorRT LLM">
+<meta name="twitter:description" content="Helps developers maximize inference performance to serve more users in parallel, while minimizing operational costs and delivering blazingly fast experiences.">
+<meta name="twitter:image" content="https://developer.download.nvidia.com/images/tensorrt-llm/tensorrt-llm-1200x630.jpg">
+<meta name="twitter:site" content="@NVIDIA">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:creator" content="@NVIDIAAIDev">
+<meta property="interest" content="Data Science">
+      <link rel="alternate" type="text/markdown" title="Page Markdown" href="https://developer.nvidia.com/tensorrt-llm.md">
+
+    <link rel="stylesheet" href="https://developer.nvidia.com/assets/application-de0dfeb89ab4403528e5b9685074245e3303c48d350220e68ed0036165ad8020.css" media="all" />
+
+    <script>
+  const NvAssets = {
+    CSS: {
+      highlightJs: "https://developer.nvidia.com/assets/highlight-7c6157fe69da4cc401cddeb387737d6991b2012dc14e90f3d52764a3a58fd3da.css",
+    }
+  }
+</script>
+
+
+    
+  <link rel="stylesheet" href="https://developer.nvidia.com/assets/one-trust-bea625cf16a072ce5fdb0707a19f2645daf63c05eb1a016db72773eba008fc07.css" />
+  <script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js" charset="UTF-8" data-document-language="true" data-domain-script="3e2b62ff-7ae7-4ac5-87c8-d5949ecafff5"></script>
+
+<script src="https://images.nvidia.com/aem-dam/Solutions/ot-js/ot-custom.js"></script>
+
+<script>
+  function OptanonWrapper() {
+    let event = new Event('bannerLoaded');
+    window.dispatchEvent(event);
+
+      if (window.OnetrustActiveGroups && window.OnetrustActiveGroups.includes("C0002")) {
+        window.DD_RUM && window.DD_RUM.init({
+          clientToken: 'pub0430c74fae5d2b467bcb8d48b13e5b32',
+          applicationId: '9fc963c7-14e6-403d-bdec-ee671550bb7f',
+          site: 'datadoghq.com',
+          service: 'devzone',
+          env: 'prod',
+          version: 'v2.60.0',
+          sessionSampleRate: 10,
+          sessionReplaySampleRate: 5,
+          trackUserInteractions: true,
+          trackResources: true,
+          trackLongTasks: true,
+          defaultPrivacyLevel: 'mask-user-input',
+        });
+      }
+  }
+</script>
+
+
+    <script>
+  (function() {
+    var didInit = false;
+    function initMunchkin() {
+      if(didInit === false) {
+        didInit = true;
+        Munchkin.init('156-OFN-742');
+      }
+    }
+    var s = document.createElement('script');
+    s.type = 'text/javascript';
+    s.async = true;
+    s.src = '//munchkin.marketo.net/munchkin.js';
+    s.onreadystatechange = function() {
+      if (this.readyState == 'complete' || this.readyState == 'loaded') {
+        initMunchkin();
+      }
+    };
+    s.onload = initMunchkin;
+    document.getElementsByTagName('head')[0].appendChild(s);
+})();
+</script>
+
+    <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "NVIDIA Developer",
+    "url": "https://developer.nvidia.com",
+    "logo": "https://www.nvidia.com/en-us/about-nvidia/legal-info/logo-brand-usage/_jcr_content/root/responsivegrid/nv_container_392921705/nv_container_412055486/nv_image.coreimg.100.630.png/1703060329095/nvidia-logo-horz.png",
+    "sameAs": [
+      "https://github.com/nvidia",
+      "https://www.linkedin.com/company/nvidia/",
+      "https://x.com/nvidiadeveloper"
+    ]
+  }
+</script>
+
+        <meta name='typesense-host' content='typesense.svc.nvidia.com'>
+<meta name='typesense-key' content='uFs9XGl9BWS7af7eAIbKNQ49sJnjEfQk'>
+<script src="https://developer.download.nvidia.com/scripts/typesense.js"></script>
+
+
+    <script src="https://assets.adobedtm.com/5d4962a43b79/c1061d2c5e7b/launch-191c2462b890.min.js" data-ot-ignore="true"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://developer.nvidia.com/assets/bootstrap/5.1.3/bootstrap.bundle.min-51ad1d8cab4ebd9873a0429f5e67ca717a71fd96daf8025bc04a88848e5b375c.js"></script>
+
+
+    <link rel="icon" type="image/x-icon" href="https://developer.nvidia.com/assets/favicon-81bff16cada05fcff11e5711f7e6212bdc2e0a32ee57cd640a8cf66c87a6cbe6.ico" />
+  </head>
+
+  <body class='d-flex flex-column h-100'>
+    
+    
+
+      <div id='header'></div>
+
+
+
+
+    
+
+
+
+
+
+
+    <div id='page-mobile-nav-container'></div>
+    <div class='page'>
+      <div class="product-page">
+<div class="container breadcrumb-container"><ol class="breadcrumb">
+<li class="breadcrumb-item"><a href="/topics/" id="ivemf6-2-2">Topic</a></li>
+<div id="ixwtf2-2-2" class="breadcrumb-item"><a href="/topics/ai/ai-inference/" id="ia686f">AI Inference</a></div>
+<div id="ixwtf2-2-2-2" class="breadcrumb-item"><a href="/tensorrt" id="id3fdw">TensorRT</a></div>
+<div id="irsh5h-2-2" class="breadcrumb-item active">TensorRT LLM</div>
+</ol></div>
+<div class="container page"><div class="row">
+<div class="col-xl-2 col-lg-3 col-md-12 col-sm-12 col-sidebar"><aside class="page__sidebar with-sticky-nav"><div class="page-navigation-container"><div data-react-class="PageNavigation" data-react-props='{"draggable":"true","editable":"true","id":"ignksn-2"}' data-react-cache-id="PageNavigation-ignksn-2"></div></div></aside></div>
+<div class="col-xl-1 col-lg-1 col-separator with-border"></div>
+<div class="col-xl-9 col-lg-9 col-md-12 col-sm-12 col-main-content"><main class="page__content"><section class="page__section page__first-section"><div class="separator separator--no-scale separator--60 d-md-block d-lg-none"></div>
+<h1 title="Introduction" class="h--large section__heading toc-item">NVIDIA TensorRT LLM</h1>
+<p class="p--large text-color-gray mb-0">NVIDIA TensorRT™ LLM is an open-source library built to deliver high-performance, real-time inference optimization for large language models (LLMs) on NVIDIA GPUs—whether on a desktop or in a data center. It includes a modular Python runtime, PyTorch-native model authoring, and a stable production API. Specifically customized for NVIDIA platforms, TensorRT LLM helps developers maximize inference performance to serve more users in parallel, while minimizing operational costs and delivering blazingly fast experiences. <br></p>
+<div class="separator separator--30"></div>
+<p id="download-2"><a href="https://catalog.ngc.nvidia.com/orgs/nvidia/teams/tensorrt-llm/containers/release" target="_blank" title="Download at NVIDIA NGC" class="btn btn-cta me-2 mt-2">Download at NVIDIA NGC</a><a href="https://github.com/NVIDIA/TensorRT-LLM" target="_blank" title="Download on Github" class="btn btn-cta me-2 mt-2">Download on Github</a><a href="https://nvidia.github.io/TensorRT-LLM/quick-start-guide.html" target="_blank" title="Quick-Start Guide" class="btn btn-cta me-2 mt-2 btn-cta--light">Read the Quick-Start Guide</a></p></section><hr class="separator separator--md">
+<div id="download-previous-2"><div data-react-class="Accordion" data-react-props='{"id":"ibd1qik-2"}' data-react-cache-id="Accordion-ibd1qik-2"></div></div>
+<p class="mb-0"></p>
+<section class="page__section page__second-section pt-0 pb-0"><h2 title="How TensorRT LLM Works" class="h--medium section__heading toc-item">How TensorRT LLM Works </h2>
+<div data-react-class="Accordion" data-react-props='{"id":"i9btvl-3"}' data-react-cache-id="Accordion-i9btvl-3"></div>
+<p id="idd61k">The latest TensorRT LLM architecture is purpose-built to streamline the developer experience—enabling faster iteration and smoother deployment without sacrificing its industry-leading inference performance. The architecture provides easy-to-use Python APIs, a simple CLI, PyTorch model authorship, and an extensible Python framework to enable innovation.<br><br>Optimized for peak performance on NVIDIA platforms, TensorRT LLM leverages deep hardware-software integration to deliver unmatched efficiency and speed for LLM inference. Kernels specially designed for NVIDIA hardware achieve peak performance for common LLM inference operations, and runtime optimizations drive GPU utilization and end-user response speeds. Key optimizations include FP8 and NVFP4 quantization, disaggregated serving, parallelization techniques, including wide expert parallelism (EP), and advanced speculative decoding techniques, including EAGLE-3 and multi-token prediction.<br></p>
+<div class="separator separator--30"></div></section><hr class="separator separator--md">
+<section class="page__section page__second-section pt-0 pb-0"><h2 title="Demo" class="h--medium section__heading toc-item">Demo</h2>
+<h4 class="h--small">TensorRT LLM v1.0 in Action</h4>
+<p id="imns12-2">The release of TRT LLM v1.0 provides simple inference deployment with an open-source and extensible framework. This includes record PyTorch model authorship for rapid development, modular Python runtime for flexibility, and a stable LLM API for seamless deployment. With record-setting 8X AI inference performance improvement, TensorRT LLM v1.0 makes it simple to deliver real-time, cost-efficient LLMs on NVIDIA GPUs.<br></p>
+<a href="https://www.youtube.com/live/sTpQQSbta1k?si=nX5DNLej3O7A7L9a" target="_blank" id="iffvbz-4-2-3-2-2" class="link-cta text-transform-unset fw-bold">Watch the Developer Livestream </a><div class="separator separator--30"></div>
+<figure id="iiuagg-2" title="Side-by-side video comparison of text-based AI inference on NVIDIA TRT LLM v1.0 and HuggingFace, showing enhanced user interactivity with lower inter-token latency for TRT LLM."><img src="https://developer.download.nvidia.com/images/tensorrt-llm/trt-llm-1.0-v1.gif" class="card-img-top"><figcaption></figcaption></figure><div data-react-class="Accordion" data-react-props='{"id":"i9btvl-3-3"}' data-react-cache-id="Accordion-i9btvl-3-3"></div></section><hr class="separator separator--md">
+<section class="page__section pt-0 pb-0"><h2 title="Get Started with TensorRT LLM" class="h--medium section__heading toc-item">Get Started with TensorRT LLM</h2>
+<div id="izdixh"><div class="row cards__list">
+<div id="ic4exo-2-2-3" class="col-sm-12 col-md-6 col-lg-4 col-xl-4"><div class="card-wrapper"><div class="card"><div class="card__content">
+<h3 class="txt-clr--blck h--smallest">
+<span id="docs-internal-guid-1b73ac93-7fff-98aa-bbdc-af9edc339e3a-2-3"><span id="imolkg-2-3">Installation Guides </span></span><br>
+</h3>
+<p id="i3t3yb">Install TensorRT LLM on Linux by using pip install or by building from source. </p>
+<div class="card__cta"><a href="https://nvidia.github.io/TensorRT-LLM/installation/linux.html" target="_blank" id="iffvbz-4-2-3" class="link-cta text-transform-unset fw-bold">Install Now</a></div>
+</div></div></div></div>
+<div id="ic4exo-2-2-3-5" class="col-sm-12 col-md-6 col-lg-4 col-xl-4"><div class="card-wrapper"><div class="card"><div class="card__content">
+<h3 class="txt-clr--blck h--smallest">
+<span id="docs-internal-guid-1b73ac93-7fff-98aa-bbdc-af9edc339e3a-2-3-5"><span id="imolkg-2-3-5">Get TensorRT LLM Containers</span></span><br>
+</h3>
+<p id="i3t3yb-5">Containers freely available on NVIDIA NGC™ make it easy to build with TensorRT LLM in a cloud environment. </p>
+<div class="card__cta"><a href="https://catalog.ngc.nvidia.com/containers?orgName=nvidia&amp;teamName=tensorrt-llm&amp;resourceType=containers&amp;slug=devel&amp;filters=&amp;orderBy=scoreDESC&amp;query=label%3A%22NSPECT-95LK-6FZF%22&amp;page=&amp;pageSize=" target="_blank" id="iffvbz-4-2-3-5" class="link-cta text-transform-unset fw-bold">Get Containers</a></div>
+</div></div></div></div>
+<div id="ic4exo-2-2-3-4" class="col-sm-12 col-md-6 col-lg-4 col-xl-4"><div class="card-wrapper"><div class="card"><div class="card__content">
+<h3 class="txt-clr--blck h--smallest">
+<span id="docs-internal-guid-1b73ac93-7fff-98aa-bbdc-af9edc339e3a-2-3-4"><span id="imolkg-2-3-4">API Quick-Start Guide</span></span><br>
+</h3>
+<p id="i3t3yb-4">Quickly get set up and start optimizing inference with the LLM API. </p>
+<div class="card__cta"><a href="https://nvidia.github.io/TensorRT-LLM/quick-start-guide.html" target="_blank" id="iffvbz-4-2-3-4" class="link-cta text-transform-unset fw-bold">Get Started</a></div>
+</div></div></div></div>
+</div></div>
+<div id="ioo6qo-2"></div></section><hr class="separator separator--md">
+<section class="page__section page__second-section pb-0 pt-0"><h2 title="Key Features" class="h--medium section__heading toc-item">Key Features</h2>
+<div class="row cards__list">
+<div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+<h3 id="i2tdz3-3-4-4" class="h--smallest">Modular Runtime Built in Python</h3>
+<p id="i998ul-4-3">TensorRT LLM is designed to be modular and easy to modify. Its PyTorch-native architecture allows developers to experiment with the runtime or extend functionality. Several popular models are also predefined and can be customized using native PyTorch code, making it easy to adapt the system to specific needs.<br><br></p>
+</div>
+<div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+<h3 id="i2tdz3-3-4-3-2" class="h--smallest">PyTorch-Based Model Authoring for Stable LLM API</h3>
+<p id="i998ul-4-3-2"><a href="https://github.com/NVIDIA/TensorRT-LLM/blob/main/docs/source/torch/arch_overview.md" id="i5ll1k" target="_blank">Architected on PyTorch</a>, TensorRT LLM provides a high-level Python <a href="https://nvidia.github.io/TensorRT-LLM/quick-start-guide.html#llm-api" id="i5awb6" target="_blank">LLM API</a> that supports a wide range of inference setups—from single-GPU to multi-GPU and multi-node deployments. It includes built-in support for various parallelism strategies and advanced features. The LLM API integrates seamlessly with the broader inference ecosystem, including <a href="https://github.com/ai-dynamo/dynamo" id="ir4494" target="_blank">NVIDIA Dynamo</a>. </p>
+</div>
+<div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+<h3 id="i2tdz3-3-4-2-2" class="h--smallest">State-of-the-Art Optimizations <br>
+</h3>
+<p id="i998ul-4-2-2">TensorRT LLM provides state-of-the-art optimizations, including custom attention kernels, in-flight batching, paged key-value (KV) caching, quantization (FP8, FP4, INT4 AWQ, INT8 SmoothQuant), speculative decoding, and much more, to perform inference efficiently on NVIDIA GPUs.<br><br></p>
+</div>
+</div>
+<div data-react-class="Accordion" data-react-props='{"id":"i9btvl-3-2"}' data-react-cache-id="Accordion-i9btvl-3-2"></div></section><hr class="separator separator--md">
+<section class="page__section pt-0 pb-0"><h2 title="Starter Kits" class="h--medium section__heading toc-item">Starter Kits</h2>
+<div id="ioo6qo-2-2"><div class="row cards__list">
+<div class="col-md-12 col-sm-12 col-lg-6 col-xl-4">
+<h3 id="i2tdz3" class="h--smaller">Accelerated Computing Hub <br>
+</h3>
+<ul id="ieevaj" class="nv-list">
+<li id="ivk7zb" data-icon="file"><div><p class="mb-0"><a href="https://nvidia.github.io/TensorRT-LLM/torch/adding_new_model.html" id="iystxk" target="_blank">Adding a New Model in PyTorch Backend </a>(GitHub)</p></div></li>
+<li id="if9wmj" data-icon="file"><div><p class="mb-0"><a href="https://www.googlecloudcommunity.com/gc/Community-Blogs/Optimizing-LLMs-serving-with-the-new-NVIDIA-TensorRT-LLM/ba-p/922254" id="ihq0zk" target="_blank">Optimizing LLMs Serving With the New NVIDIA TensorRT LLM Container on Google Vertex AI</a> (Google Cloud Article)</p></div></li>
+</ul>
+</div>
+<div class="col-md-12 col-sm-12 col-lg-6 col-xl-4">
+<h3 id="i2tdz3-4" class="h--smaller">Benchmark and Performance Tune LLMs</h3>
+<ul id="ieevaj-4" class="nv-list">
+<li id="ivk7zb-4" data-icon="file"><div><p class="mb-0"><a href="https://developer.nvidia.com/blog/llm-inference-benchmarking-performance-tuning-with-tensorrt-llm/" id="ivcd9a" target="_blank">LLM Inference Benchmarking: Performance Tuning With TensorRT LLM</a> (Blog)</p></div></li>
+<li id="if9wmj-3" data-icon="file"><div><p class="mb-0"><a href="https://github.com/nvidia/TensorRT-LLM/blob/main/docs/source/blogs/Best_perf_practice_on_DeepSeek-R1_in_TensorRT-LLM.md" id="i3viw3" target="_blank">Performance Tuning Guide</a> (GitHub)</p></div></li>
+<li id="ioaao2-3" data-icon="file"><div><p class="mb-0">trtllm-bench documentation in the <a href="https://nvidia.github.io/TensorRT-LLM/performance/perf-benchmarking.html" id="i99no1" target="_blank">TensorRT LLM Benchmarking page</a> (GitHub)</p></div></li>
+<li id="io8ryi-3" data-icon="file"><div><p class="mb-0"><a href="https://nvidia.github.io/TensorRT-LLM/performance/perf-analysis.html" id="i3uwmk" target="_blank">Performance Analysis </a>(GitHub) to use NVIDIA Nsight™ Systems to profile model execution</p></div></li>
+<li id="idmw58-3" data-icon="file"><div id="iilh0l"><p class="mb-0"><a href="https://github.com/NVIDIA/TensorRT-LLM/blob/main/tests/README.md" id="iip46g" target="_blank">How to Run TensorRT LLM Tests</a> (GitHub)</p></div></li>
+</ul>
+</div>
+<div class="col-md-12 col-sm-12 col-lg-6 col-xl-4">
+<h3 id="i2tdz3-2" class="h--smaller">Optimize and Deploy Custom LLMs </h3>
+<ul id="ieevaj-3" class="nv-list">
+<li id="ivk7zb-3" data-icon="file"><div><p class="mb-0"><a href="https://developer.nvidia.com/blog/nvidia-tensorrt-llm-now-supports-recurrent-drafting-for-optimizing-llm-inference/" id="i02vrt">NVIDIA TensorRT LLM Supports Recurrent Drafting for Optimizing LLM Inference </a>(Blog)</p></div></li>
+<li id="if9wmj-2" data-icon="file"><div><p class="mb-0"><a href="https://nvidia.github.io/TensorRT-LLM/blogs/tech_blog/blog6_Llama4_maverick_eagle_guide.html" id="i46hgj" target="_blank">How to Launch Llama4 Maverick + Eagle3 TRT LLM Server With feat/llama4</a></p></div></li>
+<li id="ioaao2-2" data-icon="file"><div id="ibh104"><p class="mb-0"><a href="https://nvidia.github.io/TensorRT-LLM/torch/adding_new_model.html" id="iir2x3" target="_blank">Adding a New Model in PyTorch Backend </a>(GitHub)<br></p></div></li>
+<li id="io8ryi-2" data-icon="file"><div><p class="mb-0"><a href="https://developer.nvidia.com/blog/optimizing-llms-for-performance-and-accuracy-with-post-training-quantization/" id="ill5r3" target="_blank">Optimizing LLMs for Performance and Accuracy with Post-Training Quantization</a></p></div></li>
+<li id="idmw58-2" data-icon="file"><div id="i80v3h"><p class="mb-0"><a href="https://nvidia.github.io/TensorRT-LLM/installation/build-from-source-linux.html" id="idy9no" target="_blank">Building From Source Code on Linux</a> (GitHub)</p></div></li>
+</ul>
+</div>
+</div></div></section><hr class="separator separator--md">
+<section class="page__section pt-0 pb-0"><h2 title="Learning Library" class="h--medium section__heading toc-item">Learning Library</h2>
+<div id="ixdxnl-2"><div class="row extra-resources cards__list">
+<div class="col-sm-12 d-flex col-lg-4 col-md-6"><div class="extra-resource">
+<div class="separator separator--15"></div>
+        <div class="custom-html-wrapper">
+          <div class="custom-html-wrapper__code"><div class="card-badges">
+  <div class="badge badge--instructional">Documentation
+  </div>
+</div></div>
+          <div data-react-class="CustomHtml" data-react-props='{"preview":false}'></div>
+        </div>
+        <div class="separator separator--15"></div>
+<p id="ip29ok-2-2-2-2" class="h--smallest text-start">TensorRT Documentation</p>
+<p id="ifvnny-2-2-2-2" class="text-start">Explore the quick-start guide, installation guide, release notes, support matrix, and more for TensorRT.<br></p>
+<a href="https://docs.nvidia.com/deeplearning/tensorrt/" id="ifp1lx-2-2-2-2" target="_blank"></a>
+</div></div>
+<div class="col-sm-12 d-flex col-lg-4 col-md-6"><div class="extra-resource">
+<div class="separator separator--15"></div>
+        <div class="custom-html-wrapper">
+          <div class="custom-html-wrapper__code"><div class="card-badges">
+  <div class="badge badge--informational">Tech Blog
+  </div>
+</div></div>
+          <div data-react-class="CustomHtml" data-react-props='{"preview":false}'></div>
+        </div>
+        <div class="separator separator--15"></div>
+<p id="ip29ok-2-2-2-2-9" class="h--smallest text-start">NVIDIA TensorRT Developer Guide</p>
+<p id="ifvnny-2-2-2-2-9" class="text-start"><b>TensorRT</b><br><br>See how to get started with TensorRT in this step-by-step developer and API reference guide.<br></p>
+<a href="https://docs.nvidia.com/deeplearning/tensorrt/developer-guide/index.html" id="ifp1lx-2-2-2-2-9" target="_blank"></a>
+</div></div>
+<div class="col-sm-12 d-flex col-lg-4 col-md-6"><div class="extra-resource">
+<div class="separator separator--15"></div>
+        <div class="custom-html-wrapper">
+          <div class="custom-html-wrapper__code"><div class="card-badges">
+  <div class="badge badge--code">Sample App
+  </div>
+</div></div>
+          <div data-react-class="CustomHtml" data-react-props='{"preview":false}'></div>
+        </div>
+        <div class="separator separator--15"></div>
+<p id="ip29ok-2-2-2-2-4-2" class="h--smallest text-start">TensorRT LLM GitHub Repository</p>
+<p id="ifvnny-2-2-2-2-4-2" class="text-start"><b>TensorRT LLM GitHub Repository</b><br><br>Access TensorRT LLM, an easy-to-use Python API for defining LLMs and building TensorRT engines that contain state-of-the-art optimizations to perform inference efficiently on NVIDIA GPUs.<br></p>
+<a href="https://github.com/NVIDIA/TensorRT-LLM" id="ifp1lx-2-2-2-2-4-2" target="_blank"></a>
+</div></div>
+<div class="col-sm-12 d-flex col-lg-4 col-md-6"><div class="extra-resource">
+<div class="separator separator--15"></div>
+        <div class="custom-html-wrapper">
+          <div class="custom-html-wrapper__code"><div class="card-badges">
+  <div class="badge badge--misc">Modal
+  </div>
+</div></div>
+          <div data-react-class="CustomHtml" data-react-props='{"preview":false}'></div>
+        </div>
+        <div class="separator separator--15"></div>
+<p id="ip29ok-2-2-2-2-3-6" class="h--smallest text-start">TensorRT LLM Develop</p>
+<p id="ifvnny-2-2-2-2-3-6" class="text-start">TensorRT LLM provides users with an easy-to-use Python API to define LLMs and supports state-of-the-art optimizations to perform inference efficiently on NVIDIA GPUs.<br></p>
+<a href="https://catalog.ngc.nvidia.com/orgs/nvidia/teams/tensorrt-llm/containers/devel" id="ifp1lx-2-2-2-2-3-6" target="_blank"></a>
+</div></div>
+<div class="col-sm-12 d-flex col-lg-4 col-md-6"><div class="extra-resource">
+<div class="separator separator--15"></div>
+        <div class="custom-html-wrapper">
+          <div class="custom-html-wrapper__code"><div class="card-badges">
+  <div class="badge badge--informational">Tech Blog
+  </div>
+</div></div>
+          <div data-react-class="CustomHtml" data-react-props='{"preview":false}'></div>
+        </div>
+        <div class="separator separator--15"></div>
+<p id="ip29ok-2-2-2-2-8" class="h--smallest text-start">Post-Training Quantization of LLMs With NVIDIA NeMo and NVIDIA TensorRT Model Optimizer</p>
+<p id="ifvnny-2-2-2-2-8" class="text-start"><b>NeMo | TensorRT | TensorRT LLM</b><br><br>As LLMs are becoming even bigger, it's increasingly important to provide easy-to-use and…<br></p>
+<a href="https://developer.nvidia.com/blog/post-training-quantization-of-llms-with-nvidia-nemo-and-nvidia-tensorrt-model-optimizer/" id="ifp1lx-2-2-2-2-8" target="_blank"></a>
+</div></div>
+<div class="col-sm-12 d-flex col-lg-4 col-md-6"><div class="extra-resource">
+<div class="separator separator--15"></div>
+        <div class="custom-html-wrapper">
+          <div class="custom-html-wrapper__code"><div class="card-badges">
+  <div class="badge badge--informational">Tech Blog
+  </div>
+</div></div>
+          <div data-react-class="CustomHtml" data-react-props='{"preview":false}'></div>
+        </div>
+        <div class="separator separator--15"></div>
+<p id="ip29ok-2-2-2-2-7" class="h--smallest text-start">LLM Inference Benchmarking: Performance Tuning With TensorRT LLM</p>
+<p id="ifvnny-2-2-2-2-7" class="text-start">This is the third post in the large language model latency-throughput benchmarking series, which aims to instruct developers on how to benchmark LLM inference.</p>
+<a href="https://developer.nvidia.com/blog/llm-inference-benchmarking-performance-tuning-with-tensorrt-llm/" id="ifp1lx-2-2-2-2-7" target="_blank"></a>
+</div></div>
+<div class="col-sm-12 d-flex col-lg-4 col-md-6"><div class="extra-resource">
+<div class="separator separator--15"></div>
+        <div class="custom-html-wrapper">
+          <div class="custom-html-wrapper__code"><div class="card-badges">
+  <div class="badge badge--code">Sample App
+  </div>
+</div></div>
+          <div data-react-class="CustomHtml" data-react-props='{"preview":false}'></div>
+        </div>
+        <div class="separator separator--15"></div>
+<p id="ip29ok-2-2-2-2-4" class="h--smallest text-start">RAG Chatbot on Windows Reference Project</p>
+<p id="ifvnny-2-2-2-2-4" class="text-start">A developer reference project for creating retrieval-augmented generation (RAG) chatbots on Windows using TensorRT LLM.<br></p>
+<a href="https://github.com/NVIDIA/trt-llm-rag-windows/tree/release/1.0" id="ifp1lx-2-2-2-2-4" target="_blank"></a>
+</div></div>
+<div class="col-sm-12 d-flex col-lg-4 col-md-6"><div class="extra-resource">
+<div class="separator separator--15"></div>
+        <div class="custom-html-wrapper">
+          <div class="custom-html-wrapper__code"><div class="card-badges">
+  <div class="badge badge--misc">Modal
+  </div>
+</div></div>
+          <div data-react-class="CustomHtml" data-react-props='{"preview":false}'></div>
+        </div>
+        <div class="separator separator--15"></div>
+<p id="ip29ok-2-2-2-2-3" class="h--smallest text-start">Dynamo Tensorrt-LLM gpt-oss</p>
+<p id="ifvnny-2-2-2-2-3" class="text-start">This container image delivers a ready-to-deploy runtime for Dynamo’s distributed inference framework, purpose-built for OpenAI-compatible models (gpt-oss).<br></p>
+<a href="https://catalog.ngc.nvidia.com/orgs/nvidia/teams/ai-dynamo/containers/tensorrtllm-gpt-oss" id="ifp1lx-2-2-2-2-3" target="_blank"></a>
+</div></div>
+<div class="col-sm-12 d-flex col-lg-4 col-md-6"><div class="extra-resource">
+<div class="separator separator--15"></div>
+        <div class="custom-html-wrapper">
+          <div class="custom-html-wrapper__code"><div class="card-badges">
+  <div class="badge badge--misc">Modal
+  </div>
+</div></div>
+          <div data-react-class="CustomHtml" data-react-props='{"preview":false}'></div>
+        </div>
+        <div class="separator separator--15"></div>
+<p id="ip29ok-2-2-2-2-3-5" class="h--smallest text-start">Llama 2 7B Chat (TensorRT LLM)</p>
+<p id="ifvnny-2-2-2-2-3-5" class="text-start"><b>NVIDIA Product</b><br><br>Llama 2 is a large language AI model comprising a collection of models capable of generating text and code in response to prompts.<br></p>
+<a href="https://catalog.ngc.nvidia.com/orgs/nvidia/models/llama_2_7b_chat_trtllm" id="ifp1lx-2-2-2-2-3-5" target="_blank"></a>
+</div></div>
+<div class="col-sm-12 d-flex col-lg-4 col-md-6"><div class="extra-resource">
+<div class="separator separator--15"></div>
+        <div class="custom-html-wrapper">
+          <div class="custom-html-wrapper__code"><div class="card-badges">
+  <div class="badge badge--misc">Modal
+  </div>
+</div></div>
+          <div data-react-class="CustomHtml" data-react-props='{"preview":false}'></div>
+        </div>
+        <div class="separator separator--15"></div>
+<p id="ip29ok-2-2-2-2-3-4" class="h--smallest text-start">Gemma 2B Instruct (TensorRT LLM)</p>
+<p id="ifvnny-2-2-2-2-3-4" class="text-start">Gemma-2B is a 2.5 billion-parameter model from Google’s Gemma family of models. It has been instruction-tuned so it can respond to prompts in a conversational manner.<br></p>
+<a href="https://catalog.ngc.nvidia.com/orgs/nvidia/models/gemma_2b_it_trtllm" id="ifp1lx-2-2-2-2-3-4" target="_blank"></a>
+</div></div>
+<div class="col-sm-12 d-flex col-lg-4 col-md-6"><div class="extra-resource">
+<div class="separator separator--15"></div>
+        <div class="custom-html-wrapper">
+          <div class="custom-html-wrapper__code"><div class="card-badges">
+  <div class="badge badge--misc">Modal
+  </div>
+</div></div>
+          <div data-react-class="CustomHtml" data-react-props='{"preview":false}'></div>
+        </div>
+        <div class="separator separator--15"></div>
+<p id="ip29ok-2-2-2-2-3-3" class="h--smallest text-start">Mistral 7B Instruct (TensorRT LLM)</p>
+<p id="ifvnny-2-2-2-2-3-3" class="text-start">Mistral-7B-Instruct is a language model that can follow instructions, complete requests, and generate creative text formats.<br><a href="https://catalog.ngc.nvidia.com/orgs/nvidia/models/mistral-7b-it-v02_trtllm" id="ifp1lx-2-2-2-2-3-3" target="_blank"></a></p>
+</div></div>
+<div class="col-sm-12 d-flex col-lg-4 col-md-6"><div class="extra-resource">
+<div class="separator separator--15"></div>
+        <div class="custom-html-wrapper">
+          <div class="custom-html-wrapper__code"><div class="card-badges">
+  <div class="badge badge--misc">Modal
+  </div>
+</div></div>
+          <div data-react-class="CustomHtml" data-react-props='{"preview":false}'></div>
+        </div>
+        <div class="separator separator--15"></div>
+<p id="ip29ok-2-2-2-2-3-2" class="h--smallest text-start">Phi-2 (TensorRT LLM)</p>
+<p id="ifvnny-2-2-2-2-3-2" class="text-start">Phi-2 is a 2.7 billion-parameter language model developed by Microsoft Research. The phi-2 model is best suited for prompts using question-answer (QA), chat format, and code formats.<br></p>
+<a href="https://catalog.ngc.nvidia.com/orgs/nvidia/models/phi_2_trtllm" id="ifp1lx-2-2-2-2-3-2" target="_blank"></a>
+</div></div>
+</div></div></section><hr class="separator separator--md">
+<section class="page__section page__second-section pt-0 pb-0"><div class="row nv-waterfall">
+<div class="col-md-12 col-sm-12 text-column js-text-column col-lg-6 col-xl-6">
+<h4 class="h--small">NVIDIA Blackwell Ultra Delivers up to 50x Better Performance and 35x Lower Cost for Agentic AI</h4>
+<p id="iy33ph">Built to accelerate the next generation of agentic AI, NVIDIA Blackwell Ultra delivers breakthrough inference performance with dramatically lower cost. Cloud providers such as Microsoft, CoreWeave, and Oracle Cloud Infrastructure are deploying NVIDIA GB300 NVL72 systems at scale for low-latency and long-context use cases, such as agentic coding and coding assistants.<br><br>This is enabled by deep co-design across NVIDIA Blackwell, NVLink™, and NVLink Switch for scale-out; NVFP4 for low-precision accuracy; and NVIDIA Dynamo and TensorRT™ LLM for speed and flexibility—as well as development with community frameworks SGLang, vLLM, and more.<br></p>
+<div class="card__cta"><a href="https://developer.nvidia.com/deep-learning-performance-training-inference/ai-inference" target="" id="iffvbz-4-2-3-5-4-2" class="link-cta text-transform-unset fw-bold">Explore technical results</a></div>
+</div>
+<div class="col-md-12 col-sm-12 image-column js-image-column col-lg-6 col-xl-6"><figure id="iqvxook" title="Data center illustration showing multi-modal AI tokens for image, audio, visual and more as part of the NVIDIA “Think SMART” framework."><img src="https://developer.download.nvidia.com/images/dgx-press-gb300-1920x1080.jpg" alt="Data center illustration showing multi-modal AI tokens for image, audio, visual and more as part of the NVIDIA “Think SMART” framework." class="card-img-top"></figure></div>
+</div></section><hr class="separator separator--md">
+<section class="page__section pt-0 pb-0"><h2 class="h--medium toc-item section__heading">Ecosystem</h2>
+<p id="iie1yi" class="p--large">TensorRT LLM is being widely adopted across industries.</p>
+<div id="ivdvgj-2-3-2"><div class="row justify-content-center pt-3">
+<div class="col-xl-3 col-lg-3 col-sm-6 col-6 col-md-4"><figure id="idpxf12" title="TensorRT LLM Ecosystem Partner- AWS"><img alt="TensorRT LLM Ecosystem Partner- AWS" src="https://developer.download.nvidia.com/images/logos/aws-logo.svg" class="img-fluid svg-icon"></figure></div>
+<div class="col-xl-3 col-lg-3 col-sm-6 col-6 col-md-4"><figure id="idpxf12-11" title="TensorRT LLM Ecosystem Partner- Baseten"><img alt="TensorRT LLM Ecosystem Partner- Baseten" src="https://developer.download.nvidia.com/images/logos/Baseten_Primary_Logo.svg" class="img-fluid svg-icon"></figure></div>
+<div class="col-xl-3 col-lg-3 col-sm-6 col-6 col-md-4"><figure id="idpxf12-9" title="TensorRT LLM Ecosystem Partner- Deci"><img alt="TensorRT LLM Ecosystem Partner- Deci" src="https://developer.download.nvidia.com/images/logos/deci-logo.svg" class="img-fluid svg-icon"></figure></div>
+<div class="col-xl-3 col-lg-3 col-sm-6 col-6 col-md-4"><figure id="idpxf12-10" title="TensorRT LLM Ecosystem Partner- DeepInfra"><img alt="TensorRT LLM Ecosystem Partner- DeepInfra" src="https://developer.download.nvidia.com/images/logos/deep-infra-logo.svg" class="img-fluid svg-icon pt-4"></figure></div>
+<div class="col-xl-3 col-lg-3 col-sm-6 col-6 col-md-4"><figure id="idpxf12-6" title="TensorRT LLM Ecosystem Partner - Grammarly"><img alt="TensorRT LLM Ecosystem Partner - Grammarly" src="https://developer.download.nvidia.com/images/logos/grammarly-logo.svg" class="img-fluid svg-icon"></figure></div>
+<div class="col-xl-3 col-lg-3 col-sm-6 col-6 col-md-4"><figure id="idpxf12-7" title="TensorRT LLM Ecosystem Partner - Google Cloud"><img alt="TensorRT LLM Ecosystem Partner - Google Cloud" src="https://developer.download.nvidia.com/images/logos/google-cloud-logo.svg" class="img-fluid svg-icon"></figure></div>
+<div class="col-xl-3 col-lg-3 col-sm-6 col-6 col-md-4"><figure id="idpxf12-12" title="TensorRT LLM Ecosystem Partner- Microsoft"><img alt="TensorRT LLM Ecosystem Partner- Microsoft" src="https://developer.download.nvidia.com/images/logos/logo-microsoft.svg" class="img-fluid svg-icon"></figure></div>
+<div class="col-xl-3 col-lg-3 col-sm-6 col-6 col-md-4"><figure id="idpxf12-3" title="TensorRT LLM Ecosystem Partner - OctoML"><img alt="TensorRT LLM Ecosystem Partner - OctoML" src="https://developer.download.nvidia.com/images/logos/octo-ml-logo.svg" class="img-fluid svg-icon"></figure></div>
+<div class="col-xl-3 col-lg-3 col-sm-6 col-6 col-md-4"><figure id="idpxf12-5" title="TensorRT LLM Ecosystem Partner - Tabnine"><img alt="TensorRT LLM Ecosystem Partner - Tabnine" src="https://developer.download.nvidia.com/images/logos/tabnine-logo.svg" class="img-fluid svg-icon"></figure></div>
+</div></div></section><hr class="separator separator--md">
+<section class="page__section page__last-section pb-0 pt-0"><h2 class="h--medium section__heading toc-item tablet-45">More Resources</h2>
+<div id="iedinv-2-2-2"><div class="row cards__list">
+<div id="ibgu4h-2-2-2-2" class="col-lg-4 col-md-4 col-sm-12"><div title="NVIDIA Tech Blog" class="card-wrapper">
+<a href="https://developer.nvidia.com/blog/tag/inference-performance/" id="ibllhc-2-2-2-2" target="_blank"></a><div class="card extra-resource">
+<img src="https://developer.download.nvidia.com/icons/m48-people-group.svg" id="ifszp9-2-2-2-2" alt="NVIDIA Tech Blog" class="img-fluid mw-6-rem mx-auto svg-icon"><h3 class="txt-clr--blck mb-0 text-center h--smallest">Read Blogs</h3>
+<a href="https://developer.nvidia.com/blog/tag/inference-performance/" target="_blank" id="i462f2-2-2-2-2"></a>
+</div>
+</div></div>
+<div id="ibgu4h-2-2-2" class="col-lg-4 col-md-4 col-sm-12"><div title="NVIDIA Training and Certification" class="card-wrapper">
+<a href="https://learn.nvidia.com/en-us/training/find-training" id="ibllhc-2-2-2" target="_blank"></a><div class="card extra-resource">
+<img src="https://developer.download.nvidia.com/icons/m48-certification-ribbon-2.svg" id="ifszp9-2-2-2" alt="NVIDIA Training and Certification" class="img-fluid mw-6-rem mx-auto svg-icon"><h3 class="txt-clr--blck mb-0 text-center h--smallest">Get Training and Certification</h3>
+<a href="https://learn.nvidia.com/en-us/training/find-training" target="_blank" id="i462f2-2-2-2"></a>
+</div>
+</div></div>
+<div id="ir7h78-2-2" class="col-lg-4 col-md-4 col-sm-12"><div title="Explore Features and Bug Fixes on GitHub" class="card-wrapper">
+<a href="https://www.nvidia.com/en-us/startups/" id="i7lwq8-2-2" target="_blank"></a><div class="card extra-resource">
+<img src="https://developer.download.nvidia.com/images/isaac/m48-ai-startup-256px-blk.png" id="i9pjs2-2-2" alt="Explore Features and Bug Fixes on GitHub" class="img-fluid mw-6-rem mx-auto svg-icon"><h3 class="txt-clr--blck mb-0 text-center h--smallest">Explore Features and Bug Fixes on GitHub </h3>
+<a href="https://github.com/NVIDIA/TensorRT-LLM" target="_blank" id="i16c9u-2-2"></a>
+</div>
+</div></div>
+<div id="ir7h78-2-2-2" class="col-lg-4 col-md-4 col-sm-12"><div title="NVIDIA Developer Newsletter" class="card-wrapper">
+<a href="https://developer.nvidia.com/email-signup" id="i7lwq8-2-2-2" target=""></a><div class="card extra-resource">
+<img src="https://developer.download.nvidia.com/icons/m48-email-settings.svg" id="i9pjs2-2-2-2" alt="NVIDIA Developer Newsletter" class="img-fluid mw-6-rem mx-auto svg-icon"><h3 class="txt-clr--blck mb-0 text-center h--smallest">Sign up for CUDA Developer Newsletter</h3>
+<a href="/email-signup" target="" id="i16c9u-2-2-2"></a>
+</div>
+</div></div>
+<div id="iucjy8-2-2-2-2-2" class="col-lg-4 col-md-4 col-sm-12"><div title="NVIDIA TensorRT LLM FAQ" class="card-wrapper">
+<a href="https://forums.developer.nvidia.com/search?q=TensorRT-LLM" id="ib782k-2-2-2-2-3" target=""></a><div class="card extra-resource">
+<img alt="NVIDIA TensorRT LLM FAQ" src="https://developer.download.nvidia.com/icons/m48-misc-question-faq.svg" id="ia0mj5-2-2-2" class="img-fluid mw-6-rem mx-auto"><h3 id="iuxh6x-2-2-2" class="txt-clr--blck mb-0 text-center h--smallest">Read the FAQ</h3>
+<a href="https://forums.developer.nvidia.com/search?q=TensorRT-LLM" id="ib782k-2-2-2-2-2-2" target="_blank"></a>
+</div>
+</div></div>
+<div id="iucjy8-2-2-2-2" class="col-lg-4 col-md-4 col-sm-12"><div title="Join the NVIDIA Developer Program" class="card-wrapper">
+<a href="/developer-program" id="ib782k-2-2-2-2" target=""></a><div class="card extra-resource">
+<img alt="Join the NVIDIA Developer Program" src="https://developer.download.nvidia.com/icons/m48-developer-1.svg" id="ia0mj5-2-2" class="img-fluid mw-6-rem mx-auto"><h3 id="iuxh6x-2-2" class="txt-clr--blck mb-0 text-center h--smallest">Join the NVIDIA Developer Program</h3>
+<a href="/developer-program" id="ib782k-2-2-2-2-2" target="_blank"></a>
+</div>
+</div></div>
+</div></div></section><section class="page__section page__second-section pt-0"><hr class="separator separator--md">
+<h2 title="Ethical AI" class="h--medium section__heading toc-item">Ethical AI </h2>
+<div data-react-class="Accordion" data-react-props='{"id":"i9btvl-2-2"}' data-react-cache-id="Accordion-i9btvl-2-2"></div>
+<p id="ig3n8ea-2" class="p--large">NVIDIA believes Trustworthy AI is a shared responsibility and we have established policies and practices to enable development for a wide array of AI applications. When downloaded or used in accordance with our terms of service, developers should work with their supporting model team to ensure this model meets requirements for the relevant industry and use case and addresses unforeseen product misuse. <br><br>For more detailed information on ethical considerations for this model, please see the Model Card++ Explainability, Bias, Safety &amp; Security, and Privacy Subcards. Please report security vulnerabilities or NVIDIA AI Concerns <a href="https://www.nvidia.com/en-us/support/submit-security-vulnerability/" id="ie1poi" target="_blank">here</a>.</p></section><section class="page__section page__section--light-gray page__last-section page__cta-section"><p class="p--large lead text-center fw-bold">Get started with TensorRT LLM today.<br></p>
+<p class="text-center mb-0"><a href="https://github.com/NVIDIA/TensorRT-LLM" target="_blank" title="Download Now on Github" class="btn btn-cta">Download Now</a></p></section></main></div>
+</div></div>
+<div class="separator separator--90 phone-0"></div>
+</div>
+    </div>
+
+
+
+
+
+
+          <script type="text/javascript">
+  (() => {
+    const handleQuotesBlock = (quotesBlock, idx) => {
+      const blockquotes = quotesBlock.querySelectorAll('blockquote');
+      if (blockquotes.length < 1) {
+        return;
+      }
+
+      const navContainer = document.createElement('ul');
+      navContainer.classList.add('quotes-list-navigation');
+      for (let i = 0; i < blockquotes.length; i++) {
+        let navItem = document.createElement('li');
+        let btn = document.createElement('button');
+        btn.type = 'button';
+        btn.dataset['group'] = idx.toString();
+        btn.dataset['length'] = blockquotes.length.toString();
+        btn.value = i.toString();
+
+        btn.addEventListener('click', (e) => {
+          const group = e.target.dataset['group'];
+          const groupActiveButtons = document.querySelectorAll(`button[data-group="${group}"].active`);
+          groupActiveButtons.forEach((activeButton) => {
+            activeButton.classList.remove('active');
+          });
+          e.target.classList.add('active');
+          const viewPortWidth = quotesBlock.getBoundingClientRect().width;
+          const clickedSlide = parseInt(e.target.value);
+          quotesBlock.querySelector('.quotes-list').style.transform = `translate(-${viewPortWidth * clickedSlide}px)`;
+        });
+        navItem.appendChild(btn);
+        navContainer.appendChild(navItem);
+
+        if (i === 0) {
+          btn.click();
+        }
+      }
+      quotesBlock.appendChild(navContainer);
+    };
+
+    const refreshQuotesBlock = () => {
+      document.querySelectorAll('.quotes-list-navigation button.active').forEach((b) => {
+        const currentItem = parseInt(b.value);
+        const maxItem = parseInt(b.dataset['length']);
+        const group = parseInt(b.dataset['group']);
+        const next = currentItem + 1;
+        if (next < maxItem) {
+          document.querySelectorAll(`button[data-group="${group}"]`)[next].click();
+        } else {
+          document.querySelectorAll(`button[data-group="${group}"]`)[0].click();
+        }
+      });
+    };
+
+    const refreshInterval = 4000;
+    const quotesBlocks = document.querySelectorAll('.quotes-list-viewport');
+
+    if (quotesBlocks.length) {
+      quotesBlocks.forEach(handleQuotesBlock);
+      setInterval(refreshQuotesBlock, refreshInterval);
+    }
+  })();
+</script>
+
+      <script type="text/javascript" charset="utf-8">
+  (() => {
+    const doInit = (accordionRoot, idx) => {
+      const baseID = `page-accordion-${idx}`;
+      accordionRoot.id = baseID;
+      const headings = accordionRoot.querySelectorAll('.accordion-header');
+      if (!headings.length) {
+        return;
+      }
+
+      const collapseElements = accordionRoot.querySelectorAll('.accordion-collapse');
+
+      headings.forEach((headingElement, idx) => {
+        const headingID = `${baseID}-heading-${idx}`;
+        const targetID = `${baseID}-target-${idx}`;
+        headingElement.id = headingID;
+        const headingButton = headingElement.querySelector('.accordion-button');
+        if (!headingButton) {
+          return;
+        }
+        headingButton.type = 'button';
+        headingButton.dataset['bsToggle'] = 'collapse';
+        headingButton.dataset['bsTarget'] = `#${targetID}`;
+        headingButton.setAttribute('aria-expanded', true);
+        headingButton.setAttribute('aria-controls', targetID);
+        headingButton.setAttribute('role', 'button');
+
+        if (!collapseElements[idx].classList.contains('show')) {
+          headingButton.classList.add('collapsed');
+        }
+
+        collapseElements[idx].id = targetID;
+        collapseElements[idx].setAttribute('aria-labelledby', headingID);
+      });
+
+      new bootstrap.Collapse(accordionRoot);
+    };
+
+    const initAccordions = () => {
+      const accordions = document.querySelectorAll('section.page__section div.accordion');
+      if (!accordions.length) {
+        return;
+      }
+
+      let accordionIndex = 0;
+      accordions.forEach((accordion) => {
+        doInit(accordion, accordionIndex);
+        accordionIndex += 1;
+      });
+    };
+    
+    document.addEventListener('DOMContentLoaded', initAccordions)
+  })();
+</script>
+
+      <script src="https://developer.nvidia.com/assets/grapesjs-tabs-f0b094476ecf56695b765f533e437303138b1e0824d993c50ff672e16dcccd8f.js"></script>
+      <script src="https://developer.nvidia.com/assets/grapesjs-code-container-d9f9220defaa8a53ba3e8b7a6b1d155f6a1e5e5b37b9fa2282a7ace75bc60ae2.js"></script>
+      <script src="https://developer.nvidia.com/assets/legacy-chart/d3.v4.min-41cfecdf7c41476e805de7afacf4aacdd1a4be6947fbecf95217e947ebc2faf5.js"></script>
+      <script src="https://developer.nvidia.com/assets/legacy-chart/visualize-d-6a082dca95b2facd89f05ef138213cffea2419e9195042f6ceed4aa706943cb1.js"></script>
+      <script src="https://developer.nvidia.com/assets/momentjs/moment-b955adb4137f92dd932ff2c3179ce60cb5e1daed5fcc4423f95cf17df02b4d68.js"></script>
+      <script src="https://developer.nvidia.com/assets/momentjs/moment-timezone-with-data-10-year-range-dd05517070a46fa0052f9e706803d57a4fc38c1a223137ab480369e6308ba8d4.js"></script>
+      <script src="https://developer.nvidia.com/assets/calendar-256ba38a1da92b24c057388ff6623eddd4cf1498f51d1a389cc4dfac501ab87c.js"></script>
+      <script src="https://developer.nvidia.com/assets/hoverable-tooltip-06658c1c074450575999f586a2be4df71fb000fa8fbc3eec0955c1484012c593.js"></script>
+
+    <script src="https://developer.nvidia.com/assets/nv-developer-menu-c88ee4614adbf7a100e9a74ffafb4d2c78601cff8c61752d42de9d8ba1b5d769.js"></script>
+  <div id='footer' class='mt-auto'></div>
+  <script src="https://www.nvidia.com/content/dam/en-zz/Solutions/librarian/bundle-search-prod-pub-v3.1.js"></script>
+  <div id="librarian-overlay"></div>
+  <script defer>
+    setTimeout(() => {
+      LIBRARIAN.Home.mount({
+        elementId: 'librarian-overlay',
+        searchPage: false,
+        placeholder: '',
+        site: 'https://developer.nvidia.com',
+        retainFilters: true,
+        overlay: true,
+        pillsOpen: true,
+        suggestedSearchPills: []
+      })
+    }, 1000)
+  </script>
+<script>
+  let menuLocale = 'en';
+
+  if (menuLocale == 'en') {
+    menuLocale = 'en-US';
+  }
+
+  function mountHeader(data = false) {
+    const headerTarget = document.getElementById('header');
+    if (!headerTarget) {
+      return;
+    }
+    let options = {
+      baseURL: window.location.origin,
+      signedIn: false,
+      locale: menuLocale
+    };
+
+    if (data) {
+      options.secondaryMenu = data;
+    }
+
+
+    options.showMembershipCardLink = true;
+
+    new NVDeveloperHeader({
+      target: headerTarget,
+      props: options
+    });
+  }
+
+  function mountFooter(data = false) {
+    const footerTarget = document.getElementById('footer');
+    if (!footerTarget) {
+      return;
+    }
+    let options = {
+      menu: data,
+      locale: menuLocale
+    };
+
+    new NVDeveloperFooter({
+      target: document.getElementById('footer'),
+      props: options
+    });
+  }
+
+  let url = 'd29g4g2dyqv443.cloudfront.net';
+  let headerMenuURL = "https://d29g4g2dyqv443.cloudfront.net/menu/en-US/header-secondary.json";
+
+  if (headerMenuURL) {
+    fetch(headerMenuURL)
+      .then(response => response.json())
+      .then(data => {
+        mountHeader(data);
+      })
+      .catch((error) => {
+        mountHeader();
+        window.nv.tracing.addError('menu', error);
+      });
+  } else {
+    mountHeader();
+  }
+
+  fetch(`https://${url}/menu/${menuLocale}/footer.json`)
+    .then(response => response.json())
+    .then(data => {
+      mountFooter(data);
+    })
+    .catch((error) => {
+      mountFooter();
+      window.nv.tracing.addError('menu', error);
+    });
+</script>
+
+      <script src="https://www.datadoghq-browser-agent.com/us1/v5/datadog-rum.js"></script>
+
+    
+    
+      <script>
+  let silentAuthHost = 'www.nvidia.com';
+  let crossOriginPageUrl = `https://${silentAuthHost}/auth/hints/`;
+
+  function readHint() {
+    return new Promise((resolve) => {
+      const { origin: targetOrigin } = new URL(crossOriginPageUrl);
+
+      const iframe = document.createElement('iframe');
+      iframe.hidden = true;
+      iframe.src = crossOriginPageUrl;
+
+      function responseHandler(event) {
+        if (event.origin === targetOrigin) {
+          iframe.parentNode.removeChild(iframe);
+          return resolve(event.data);
+        }
+      }
+
+      window.addEventListener('message', responseHandler, { once: true });
+
+      iframe.onload = () => {
+        iframe.contentWindow.postMessage({ type: 'read' }, targetOrigin);
+      }
+
+      document.body.appendChild(iframe);
+    });
+  }
+
+  function writeHint(login_hint, idp_id, timestamp, sub) {
+    const { origin: targetOrigin } = new URL(crossOriginPageUrl);
+
+    const iframe = document.createElement('iframe');
+    iframe.hidden = true;
+    iframe.src = crossOriginPageUrl;
+
+    iframe.onload = () => {
+      const message = { type: 'write', login_hint, idp_id, timestamp, sub };
+      iframe.contentWindow.postMessage(message, targetOrigin);
+    }
+
+    document.body.appendChild(iframe);
+  }
+
+  function deleteHint() {
+    const { origin: targetOrigin } = new URL(crossOriginPageUrl);
+
+    const iframe = document.createElement('iframe');
+    iframe.hidden = true;
+    iframe.src = crossOriginPageUrl;
+
+    iframe.onload = () => {
+      iframe.contentWindow.postMessage({ type: 'delete' }, targetOrigin);
+    }
+
+    document.body.appendChild(iframe);
+  }
+
+
+</script>
+
+    <script>_satellite.pageBottom();</script>
+    <script src="https://api-prod.nvidia.com/search/nvidia-search-library.js"></script>
+
+    <script src="https://developer.nvidia.com/assets/nv-gallery-widget-d1571cad15d961fd3ba013f57119be04a2adf32aa31b16be44a0f10f4671c37b.js"></script>
+    <script src="https://developer.nvidia.com/packs/js/runtime-69f8104525d1541ca92d.js" defer="defer"></script>
+<script src="https://developer.nvidia.com/packs/js/4692-a478c93816dbe985b4fa.js" defer="defer"></script>
+<script src="https://developer.nvidia.com/packs/js/6772-af55f33929ab7fc7fa0c.js" defer="defer"></script>
+<script src="https://developer.nvidia.com/packs/js/9878-ace6038de3dd10e07189.js" defer="defer"></script>
+<script src="https://developer.nvidia.com/packs/js/8465-34d1ba762d9cdeef15fb.js" defer="defer"></script>
+<script src="https://developer.nvidia.com/packs/js/4622-0f5e83f2067789287ec7.js" defer="defer"></script>
+<script src="https://developer.nvidia.com/packs/js/7053-3ae29c3142fd9b1b1abb.js" defer="defer"></script>
+<script src="https://developer.nvidia.com/packs/js/486-4ee95e78721864401fdd.js" defer="defer"></script>
+<script src="https://developer.nvidia.com/packs/js/8311-bc04e55c282e625862a2.js" defer="defer"></script>
+<script src="https://developer.nvidia.com/packs/js/1252-e6af78d36c708e01c2a6.js" defer="defer"></script>
+<script src="https://developer.nvidia.com/packs/js/8823-1bca151f7e292c3ba6e8.js" defer="defer"></script>
+<script src="https://developer.nvidia.com/packs/js/2104-422759a9ac3c8ce5e556.js" defer="defer"></script>
+<script src="https://developer.nvidia.com/packs/js/6900-63a582c4651b48934668.js" defer="defer"></script>
+<script src="https://developer.nvidia.com/packs/js/application-e3ef63a0e4f6245fabdd.js" defer="defer"></script>
+<script src="https://developer.nvidia.com/packs/js/ls_track-b3d3055e95f0b20901db.js" defer="defer"></script>
+  </body>
+</html>
