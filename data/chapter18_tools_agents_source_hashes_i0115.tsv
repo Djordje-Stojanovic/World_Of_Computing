@@ -1,0 +1,5 @@
+source_id	path	bytes	sha256	note
+S-0038	assets/source_docs/tools_agents/S-0038_rag-arxiv-abs.html	50532	BD4AB5349D1667CAE0B5F5AC5562D0C5062A9B4DB9C3AEC51E172C4225D0D56D	Local source capture present before I-0115; ledgered in this pass.
+S-0135	assets/source_docs/tools_agents/S-0135_react-arxiv-abs.html	48550	739218FF78575588F4A85FE3BA8BAEE51FB4B0768A68AC62B47021C19C873771	Local source capture present before I-0115; ledgered in this pass.
+S-0136	assets/source_docs/tools_agents/S-0136_toolformer-arxiv-abs.html	45853	A1EFB1D05AED528F4654FF4BCD557B4DA2031E6B6C9B7512BCC9CE1F6978E489	Local source capture present before I-0115; ledgered in this pass.
+S-0137	assets/source_docs/tools_agents/S-0137_prompt-injection-arxiv-abs.html	48470	4D1FEB00A8004DEB964B6A6E2B1DE95090F2134E8EAE1055BE91F584E7FC017D	Local source capture present before I-0115; ledgered in this pass.
