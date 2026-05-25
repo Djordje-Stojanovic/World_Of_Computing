@@ -1,0 +1,9 @@
+source_id	path	status	bytes	sha256
+S-0145	assets/source_docs/frontier_i0119/S-0145_mistral-7b-arxiv-abs.html	captured	46921	1577747fea5c92680eb1446af2803a94e3073ff12e4c07de419ca040aa50c8dd
+S-0146	assets/source_docs/frontier_i0119/S-0146_mixtral-of-experts-arxiv-abs.html	captured	50067	1bbfbbcc4c1f996de72f14de38963f3434295c25467e519108af71cab3e51980
+S-0147	assets/source_docs/frontier_i0119/S-0147_mistral-medium-3.html	captured	209407	5bd692f3b246409f40d6e0ead3540fd8f08bf4dce6897925b891b6cde5bbd575
+S-0148	assets/source_docs/frontier_i0119/S-0148_xai-grok-1-open-release.html	capture_failed_403	0	
+S-0149	assets/source_docs/frontier_i0119/S-0149_xai-grok-3.html	capture_failed_403	0	
+S-0150	assets/source_docs/frontier_i0119/S-0150_cohere-command-a.html	captured	330176	18930a704c59bac0e451ae99458fab4156170a116047034cac4825b1074637e7
+S-0151	assets/source_docs/frontier_i0119/S-0151_cohere-aya.html	captured	318529	f2791f1ec704db3f3bbbffe959dda3b310715b3056c78528e2d14837ff0360d3
+S-0152	assets/source_docs/frontier_i0119/S-0152_ai21-jamba-1-5.html	captured	79063	528b348ca5a858efbfe7ea7820c0709df0440ca3a3cbe2d52f640c05b929ecc8
