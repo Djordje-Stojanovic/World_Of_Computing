@@ -1,0 +1,3 @@
+source_id	path	bytes	sha256	note
+S-0043	assets/source_docs/chatgpt_opener/S-0043_tiktoken_github.html	304295	2173368B0E0347CEC299C14529A8953CAF83376AE3E535B66AFAEEC4C20C06AA	OpenAI tiktoken GitHub page captured during I-0117 for tokenization provenance.
+S-0006	assets/source_docs/chatgpt_opener/S-0006_chatgpt_launch.html	0	capture_failed_403	OpenAI ChatGPT launch page returned HTTP 403 to shell capture during I-0117; source remains ledgered but direct quotation stays blocked.
