@@ -1,0 +1,2 @@
+source_id	file_path	bytes	sha256	commit_plan	notes
+S-0019	assets/source_docs/anthropic/S-0019_constitutional-ai-arxiv-abs.html	54000	951B974BE32EDAE17FCBB2DABBD3BE1143097EDE54847C8AAD3FA549E79B02CE	commit-lightweight-html	Constitutional AI arXiv abstract capture added during I-0109 for Anthropic source-gap permission table.

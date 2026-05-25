@@ -1,0 +1,14 @@
+source_id	status	local_asset	claim_families	remaining_gap
+S-0019	available_local_html	assets/source_docs/anthropic/S-0019_constitutional-ai-arxiv-abs.html	constitutional_ai	Need quote-safe method/principle extraction before detailed method prose.
+S-0020	available_local_html	assets/source_docs/anthropic/S-0020_claude-3-family.html	claude_3_family	Need model-card row extraction before final safety/evaluation captions.
+S-0021	available_local_html	assets/source_docs/anthropic/S-0021_claude-3-5-sonnet.html	claude_3_5_sonnet	Need paired pricing/benchmark normalization before comparative charts.
+S-0022	available_local_html	assets/source_docs/anthropic/S-0022_claude-code-overview.html	claude_code_workflow;claude_3_7_and_claude_code	Need settings/permissions docs before exact command/default prose.
+S-0048	available_local_html	assets/source_docs/anthropic/S-0048_claude-3-7-sonnet-claude-code.html	claude_3_7_and_claude_code;adoption_productivity_enterprise	Need product claims separated from customer/internal-use anecdotes.
+S-0049	available_local_html	assets/source_docs/coding_agents/S-0049_claude-code-best-practices.html	claude_code_workflow	Need quote-safe command/default rows.
+S-0050	available_local_html	assets/source_docs/coding_agents/S-0050_claude-code-security.html	claude_code_workflow;adoption_productivity_enterprise	Need settings/permissions page capture before final defaults.
+S-0051	available_local_html	assets/source_docs/coding_agents/S-0051_claude-code-common-workflows.html	claude_code_workflow	Need quote-safe workflow examples.
+S-0055	available_local_html	assets/source_docs/anthropic/S-0055_model-context-protocol.html	mcp_protocol	Need external adoption/security rows before ecosystem-standard claims.
+S-0007	available_local_html	assets/source_docs/anthropic/S-0007_claude-4.html	claude_4_models;benchmark_results	Need benchmark/scaffold/product-claim extraction before numeric prose.
+S-0060	available_snapshot	data/source_snapshots/2026-05-24;data/provider_pricing_rows_i0026.tsv	pricing_context_windows	Need same-scope comparison and cutoff-status fields before price-quality chart.
+S-0109	available_local_html	assets/source_docs/anthropic/S-0109_claude-3-5-computer-use.html	computer_use	Need UI-action rows separated from safety/evaluation claims.
+S-0110	available_local_pdf_ignored	assets/source_docs/anthropic/S-0110_claude-3-model-card.pdf	claude_3_family	Need extracted row table; PDF remains ignored as heavyweight media.
