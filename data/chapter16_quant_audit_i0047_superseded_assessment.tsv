@@ -1,0 +1,8 @@
+check_id	i0047_requirement	current_evidence	assessment	action
+I0047-SUP-001	Quantitative-claim audit table for the new power-to-token visual and speed-to-power opening.	data/chapter16_quant_claim_audit_i0043.tsv; manuscript/16-quantitative-claim-audit.md	Satisfied by promoted pass I-0043; audit scope explicitly covers manuscript/16-speed-to-power.md and data/power_to_token_flow_i0042.tsv.	Do not duplicate table.
+I0047-SUP-002	Separate measured values.	CH16Q-001;CH16Q-003;CH16Q-005	Satisfied; rows label measured_estimate claims for global share, U.S. TWh, and U.S. percentage.	Use existing CH16Q rows.
+I0047-SUP-003	Separate scenarios.	CH16Q-002;CH16Q-004;CH16Q-006;CH16Q-011;CH16Q-012	Satisfied; rows label forecast_scenario claims and require projection language.	Use existing CH16Q rows.
+I0047-SUP-004	Separate advisory estimates.	CH16Q-007;CH16Q-009;CH16Q-010;CH16Q-013;CH16Q-014	Satisfied; rows label advisory_or_industry_estimate, risk_estimate, and advisory_estimate claims.	Use existing CH16Q rows.
+I0047-SUP-005	Separate source caveats and prose permission.	All CH16Q rows	Satisfied; table has prose_permission, caveat, and next_action fields.	No new audit table needed.
+I0047-SUP-006	Keep energy-per-token exclusion auditable.	CH16Q-018	Satisfied; row explicitly excludes Wh/token or energy-per-token estimates from current evidence.	Keep exclusion active until separate source pack exists.
+I0047-SUP-007	Keep NVIDIA/GTC performance and roadmap claims blocked.	CH16Q-017;C-0021;C-0047	Satisfied; row blocks neutral NVIDIA/GTC performance, throughput, revenue, partner, roadmap, availability, and deployment claims.	Leave C-0021/C-0047 active.
