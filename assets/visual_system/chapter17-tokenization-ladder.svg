@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Tokenization Ladder</title>
+  <desc id="desc">A Chapter 17 diagram showing how human text becomes subword pieces, token IDs, context budget, and next-token prediction with caveats.</desc>
+  <style>
+    .bg{fill:#f7f4ee}.ink{fill:#1f2933;font-family:Arial,Helvetica,sans-serif}.muted{fill:#5d6470;font-family:Arial,Helvetica,sans-serif}.title{font-size:38px;font-weight:800}.sub{font-size:19px}.label{font-size:22px;font-weight:800}.small{font-size:16px}.tiny{font-size:12px}.box{fill:#fffdf7;stroke:#c8c1b5;stroke-width:2}.data{fill:#e8f5ef;stroke:#0f8b6f;stroke-width:3}.model{fill:#e7efff;stroke:#2563eb;stroke-width:3}.risk{fill:#fff0ec;stroke:#c2412d;stroke-width:3}.line{fill:none;stroke:#1f2933;stroke-width:4;marker-end:url(#arrow)}
+  </style>
+  <defs><marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 Z" fill="#1f2933"/></marker></defs>
+  <rect class="bg" width="1200" height="760"/>
+  <text class="ink title" x="60" y="72">Tokenization Ladder</text>
+  <text class="muted sub" x="60" y="108">Chapter 17 mechanism: the page becomes pieces, IDs, context budget, and a prediction target.</text>
+  <rect class="box" x="80" y="170" width="235" height="105" rx="8"/><text class="ink label" x="112" y="208">Human text</text><text class="muted small" x="112" y="238">words, code, scripts,</text><text class="muted small" x="112" y="260">punctuation, spaces</text>
+  <rect class="data" x="365" y="170" width="235" height="105" rx="8"/><text class="ink label" x="398" y="208">Subword pieces</text><text class="muted small" x="398" y="238">BPE / SentencePiece</text><text class="muted small" x="398" y="260">rare-word handling</text>
+  <rect class="data" x="650" y="170" width="205" height="105" rx="8"/><text class="ink label" x="690" y="208">Token IDs</text><text class="muted small" x="684" y="238">integer sequence</text><text class="muted small" x="684" y="260">for training/inference</text>
+  <rect class="model" x="905" y="170" width="215" height="105" rx="8"/><text class="ink label" x="940" y="208">Next token</text><text class="muted small" x="938" y="238">predict from prior</text><text class="muted small" x="938" y="260">token context</text>
+  <path class="line" d="M315 222 H360"/><path class="line" d="M600 222 H645"/><path class="line" d="M855 222 H900"/>
+  <rect class="risk" x="120" y="385" width="295" height="105" rx="8"/><text class="ink label" x="150" y="424">Not word-count math</text><text class="muted small" x="150" y="454">A million tokens is not a</text><text class="muted small" x="150" y="476">million human words.</text>
+  <rect class="risk" x="455" y="385" width="295" height="105" rx="8"/><text class="ink label" x="485" y="424">Uneven representation</text><text class="muted small" x="485" y="454">Languages, code, tables,</text><text class="muted small" x="485" y="476">and formatting vary.</text>
+  <rect class="risk" x="790" y="385" width="295" height="105" rx="8"/><text class="ink label" x="820" y="424">Blocked precision</text><text class="muted small" x="820" y="454">No exact tokenizer behavior</text><text class="muted small" x="820" y="476">without extracted rows.</text>
+  <rect class="box" x="105" y="615" width="990" height="58" rx="8"/>
+  <text class="ink small" x="130" y="645">Use rule: explains tokenization mechanics only; does not prove language neutrality, exact model behavior, or quantitative token costs.</text>
+  <text class="muted tiny" x="130" y="665">Figure A-0064. Sources: S-0153; S-0154; S-0043. Claim rows: CH17DATA-001/002/003.</text>
+</svg>
