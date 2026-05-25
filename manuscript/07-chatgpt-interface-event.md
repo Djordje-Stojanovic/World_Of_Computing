@@ -1,8 +1,8 @@
 # 7. ChatGPT: The Interface Event
 
-Status: first promoted draft, pass I-0003, 2026-05-24.
+Status: first promoted draft, pass I-0003, 2026-05-24; source-specific claim audit pass I-0041, 2026-05-25.
 
-Source note: This chapter draft uses source IDs from `sources.tsv`. It is deliberately conservative about adoption numbers, private scenes, internal motives, and boardroom drama. Future passes should add sourced contemporary reporting and source snapshots before sharpening chronology, reception, and character-level narrative.
+Source note: This chapter draft uses source IDs from `sources.tsv`. It is deliberately conservative about adoption numbers, private scenes, internal motives, and boardroom drama. For productization claims, `data/chatgpt_productization_quote_table_i0040.tsv` is the local permission table: S-0078/SNAP-20260525-013 supports ChatGPT Plus launch date, $20/month launch price, benefit wording, and broad availability with a text-render caveat; S-0089/SNAP-20260525-014 supports the August 28, 2023 ChatGPT Enterprise release-note launch and feature wording with an official-alternate caveat; S-0090/SNAP-20260525-015 can only cross-check mutable Plus plan wording; S-0079 remains blocked for original Enterprise product-post quotations, adoption percentages, named-customer claims, and customer-productivity claims. Future passes should add sourced contemporary reporting and source snapshots before sharpening reception or character-level narrative.
 
 ## The Box
 
@@ -42,7 +42,7 @@ The product did not stay a box for long. In March 2023, OpenAI announced ChatGPT
 
 That shift matters for the later chapters on agents and coding systems. A model that can call tools is a different product species from a model that only emits text. The underlying language model still predicts tokens, but the product can now turn text into action: retrieve a document, run code, query a service, or ask for user confirmation before an external operation. The interface event began to merge with the workflow event.
 
-The business surface changed just as quickly. In February 2023, OpenAI introduced ChatGPT Plus as a subscription pilot, promising general access during peak demand, faster responses, and priority access to new features. [S-0078] That was a product clue as much as a pricing clue. ChatGPT was no longer only a free research preview collecting feedback. It was becoming a service with reliability expectations, feature tiers, and paying users.
+The business surface changed just as quickly. In February 2023, OpenAI introduced ChatGPT Plus as a $20-a-month subscription pilot, promising general access during peak demand, faster responses, and priority access to new features. [S-0078] That was a product clue as much as a pricing clue. ChatGPT was no longer only a free research preview collecting feedback. It was becoming a service with reliability expectations, feature tiers, and paying users. The chapter should not inflate OpenAI's own feedback and use-case language into adoption statistics; the captured Plus evidence supports the subscription mechanics, not a market-size claim.
 
 In November 2023, OpenAI introduced GPTs, custom versions of ChatGPT that users could configure for particular purposes. [S-0045] This was another attempt to convert a general conversational model into a platform: not just one assistant, but many situated assistants, each with instructions, knowledge, and possible tools. Whether every custom assistant was useful is less important than the platform logic. The chat window was becoming a container for software-like behavior.
 
@@ -60,7 +60,7 @@ This is one of the reasons ChatGPT frightened incumbents. It was not merely a po
 
 That flywheel was not automatic. Inference could be expensive. Models could be slow. Safety failures could travel at consumer scale. Enterprise customers wanted controls that a viral demo did not need. But after ChatGPT, every major lab and cloud company had to answer a new question: if language is a universal interface, where does your platform sit?
 
-OpenAI's August 2023 ChatGPT Enterprise launch showed the same interface being repackaged for organizations: privacy and security commitments, admin controls, higher-speed GPT-4 access, longer context, and advanced data analysis. [S-0079] The chapter should not turn OpenAI's enterprise adoption claims into neutral market statistics without snapshots and triangulation. The safer point is structural: once ChatGPT entered workplaces, the chat box had to become an administered product, not merely a public demo.
+OpenAI's August 2023 ChatGPT Enterprise release-note entry showed the same interface being repackaged for organizations: enterprise-grade security and privacy, higher-speed GPT-4 access, longer context, advanced data analysis, customization, and related workplace features. [S-0089] The original Enterprise product post is still represented locally by a blocked-capture note, not a quote-ready page. [S-0079] The chapter should not turn OpenAI's Enterprise adoption, named-customer, or customer-productivity claims into neutral market statistics without a local original-page capture and independent triangulation. The safer point is structural: once ChatGPT entered workplaces, the chat box had to become an administered product, not merely a public demo.
 
 ## What The Interface Hid
 
@@ -90,7 +90,8 @@ For one winter, though, the story narrowed to a cursor blinking in a box. The us
 
 ## Verification Tasks Before Next Promotion
 
-- Add sourced adoption/reception chronology only after finding primary or clearly attributable sources for exact figures.
-- Snapshot OpenAI pages for ChatGPT, ChatGPT Plus, plugins, ChatGPT Enterprise, GPTs, GPT-4o, and relevant system cards before extracting quotes or figures.
+- Add sourced adoption/reception chronology only after finding primary or clearly attributable sources for exact figures; C-0010 still blocks quantitative adoption, public reception, named-customer, and customer-productivity claims.
+- Use S-0078/SNAP-20260525-013 for Plus launch price and benefit wording; use S-0089/SNAP-20260525-014 for Enterprise release-note launch and feature wording; do not quote S-0079 until the original Enterprise product page is locally captured or otherwise archived.
+- Snapshot or archive OpenAI pages for ChatGPT, plugins, GPTs, GPT-4o, and the original ChatGPT Enterprise product post before extracting quotes or figures beyond the existing quote-safe tables.
 - Add secondary reporting only to triangulate public reaction, institutional urgency, and Microsoft/OpenAI business context.
 - Convert the "Box to Platform" section into a visual timeline after the visual grammar pass.
