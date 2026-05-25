@@ -68,3 +68,4 @@
 - ChatGPT adoption sources need a two-layer capture model: archive or local HTML can make Reuters, Stack Overflow, and Chalkbeat auditable, but metric claims still need source-chain normalization and social-post claims need readable primary evidence before prose.
 - Note-layout acceptance must be stricter than note-layout invention: a note is allowed only when it improves readability and preserves row-level measured/scenario mapping, nearby visibility, and inline blockers for tempting false claims.
 - A layout mock can pass without authorizing a manuscript merge: N16-1 shows the cue cleanup is plausible, but production page breaks, note proximity, and blocker visibility still need render QA before removing CH16Q IDs from live prose.
+- Leaderboard appendix layout QA should test the reading path, not just the figures: heading flow, glossary order, caption scope, footnote proximity, prohibited-use visibility, and price-quality dividers are all claim-control surfaces.
