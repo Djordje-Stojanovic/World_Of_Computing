@@ -49,3 +49,4 @@
 - Infrastructure visuals should trace dependency order before quantities: electricity, interconnection, facility/cooling, accelerators, scheduling, and tokens make a safer first figure than a premature energy-per-token estimate.
 - Quantitative infrastructure prose needs permission rows before more elegance: TWh, MW, percentages, lead times, PUE, rack density, and Wh/token language each belong in separate measured/scenario/advisory/operator/exclusion lanes.
 - Leaderboard figures need a reading order as much as a caption: methodology must precede sorted rank rows or readers will turn uncertainty-clustered historical slices into false "best model" claims.
+- Leaderboard methodology terms should be defined once and reused everywhere: a term table keeps captions short while preserving the source ID, snapshot, uncertainty, release-status, and price-quality caveats that prevent rank rows from hardening into false product claims.

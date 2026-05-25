@@ -2,10 +2,10 @@
 
 Current champion dashboard source: `manuscript/00-claim-coverage-dashboard.md`.
 
-Promoted in pass I-0014 on 2026-05-24 and refreshed in passes I-0016, I-0017, I-0018, I-0019, I-0020, I-0021, I-0022, I-0023, I-0024, I-0025, I-0026, I-0027, I-0028, I-0029, I-0031, I-0032, I-0033, I-0034, I-0035, I-0036, I-0037, I-0038, I-0039, I-0040, I-0041, I-0042, I-0043, and I-0044 on 2026-05-25 because it converts the claim ledger, source ledger, snapshot protocol, and chapter files into a visible quality gate:
+Promoted in pass I-0014 on 2026-05-24 and refreshed in passes I-0016, I-0017, I-0018, I-0019, I-0020, I-0021, I-0022, I-0023, I-0024, I-0025, I-0026, I-0027, I-0028, I-0029, I-0031, I-0032, I-0033, I-0034, I-0035, I-0036, I-0037, I-0038, I-0039, I-0040, I-0041, I-0042, I-0043, I-0044, and I-0045 on 2026-05-25 because it converts the claim ledger, source ledger, snapshot protocol, and chapter files into a visible quality gate:
 
-- 71 claims audited.
-- 63 supported claims.
+- 72 claims audited.
+- 64 supported claims.
 - 8 needs-verification claims.
 - 90 source rows.
 - 14 captured snapshot rows.
@@ -29,5 +29,6 @@ Promoted in pass I-0014 on 2026-05-24 and refreshed in passes I-0016, I-0017, I-
 - I-0042 added power-to-token visual A-0015 and champion marker `champion/16-power-to-token-flow.md` for Chapter 16, tracing electricity, interconnection, facility/cooling, accelerators, scheduling, and token output while preserving scenario, advisory, engineering-gap, and C-0021/C-0047 caveats.
 - I-0043 added `data/chapter16_quant_claim_audit_i0043.tsv` and champion marker `champion/16-quantitative-claim-audit.md`, turning Chapter 16 TWh, MW, percentage, lead-time, PUE, rack-density, NVIDIA/GTC, and energy-per-token language into row-level permissions or exclusions.
 - I-0044 added `champion/13-leaderboard-caption-use-note.md`, requiring A-0014 before A-0013 and blocking live-rank, release-status, price-quality, task-superiority, and generic "best model" interpretations of the historical chart.
+- I-0045 added `champion/13-leaderboard-methodology-terms.md` and `data/leaderboard_methodology_terms_i0045.tsv`, turning vote, prompt sample, rating, confidence interval, category filter, snapshot, publication date, and release-status caveat into reusable Chapter 13 vocabulary while keeping C-0046 active.
 
 This champion marker should be replaced only when the underlying dashboard tables are regenerated and the replacement is recorded in `scoreboard.tsv`.
