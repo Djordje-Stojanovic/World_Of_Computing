@@ -1,0 +1,4 @@
+chart_id	title	type	purpose	source_ids	status	next_gate
+CH3V-001	Loss Scaling Is Not Capability	scaling schematic	Show a sober log-log-style loss curve with a hard label distinguishing measured loss from downstream capability, truth, safety, and product claims.	S-0003	queued	Build only as schematic unless exact Kaplan values are extracted and row-audited.
+CH3V-002	Compute Data Parameter Triangle	tradeoff diagram	Show compute budget as allocation among model size, training tokens, and optimization/data quality, with Chinchilla-style balance warning.	S-0003;S-0015	queued	Caption must block "bigger parameters alone" and any exact token/parameter formula until extracted.
+CH3V-003	Scaling Claim Permission Map	claim-control table/figure	Separate measured, modeled, interpretive, blocked, and future-work scaling claims so prose cannot turn curves into prophecy.	S-0003;S-0015;S-0004	queued	Use as chart-control surface before any final scaling-law visual.
