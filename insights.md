@@ -58,3 +58,4 @@
 - Broad blocker rows should be decomposed before research prose resumes: C-0010 became more useful only when split into claim families with primary-source candidates, triangulation needs, exact-quote blockers, prohibited prose, allowed current prose, and next actions.
 - Retroactive planning should be rejected when the action already happened: if a queued "before merge" plan is overtaken by a promoted prose merge, record exact coverage evidence and move to the post-merge quality pass instead of inventing a stale plan.
 - Readability audits should distinguish source clutter from permission cues: combine adjacent source-only brackets freely, but keep row IDs inline until a note system can prove the same exact-claim mapping.
+- Final captions need a shared-footnote strategy: keep the caption body short enough for layout, then put release-status, price-quality, task-superiority, and "not live rank" blocks into one nearby footnote instead of repeating every caveat twice.
