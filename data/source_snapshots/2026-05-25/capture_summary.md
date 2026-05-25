@@ -71,3 +71,12 @@ This pass resolves the missing Mistral pricing-source pair from I-0026. It does 
 - Extraction table: `data/chatgpt_enterprise_quote_safe_rows_i0075.tsv`.
 
 This pass upgrades S-0079 from original-post quotation blocked to quote-ready with a renderer caveat for short OpenAI-attributed product-post wording, the Fortune 500 registered-account statement and footnote definition, and vendor-hosted customer quote context. It does not authorize paid Enterprise adoption, neutral named-customer deployment, or productivity-outcome prose without customer-side or independent corroboration.
+
+## I-0076 Stack Overflow Policy Revisions
+
+- SNAP-20260525-027 / S-0093: current revisions page captured at `data/source_snapshots/2026-05-25/2026-05-25__S-0093__policy-page__meta-stackoverflow-ai-ban__revisions-html.html`.
+- SNAP-20260525-028 / S-0093: older revisions page 5 captured at `data/source_snapshots/2026-05-25/2026-05-25__S-0093__policy-page__meta-stackoverflow-ai-ban__revisions-page5-html.html`.
+- SNAP-20260525-029 / S-0093: raw source for revision 1 captured at `data/source_snapshots/2026-05-25/2026-05-25__S-0093__policy-page__meta-stackoverflow-ai-ban__revision1-source.txt`.
+- Extraction table: `data/stackoverflow_ai_policy_quote_safe_rows_i0076.tsv`.
+
+This pass separates the original Dec. 5, 2022 temporary ChatGPT-generated-posts policy from the later/current mutable generative-AI policy page. Chapter 7 may use Stack Overflow as one dated developer-community moderation example, but it must not generalize to all developers, all workplaces, or public panic.
