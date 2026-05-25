@@ -8,14 +8,15 @@ Manifest asset-type count:
 
 - SVG charts/diagrams/claim cards/layout mocks: 67 total.
 - Photo/screenshot/source-screenshot/extracted-slide slots: 26 total.
-- Target: 80-100 charts/diagrams and 50-60 photos/screenshots/photo slots.
+- Former target at the time of I-0134: 80-100 charts/diagrams and 50-60 photos/screenshots/photo slots.
+- Current target after the later GOAL.md update: at least 100 curated visual/source exhibits across charts, diagrams, photos, screenshots, extracted slides, paper redraws, source-page screenshots, and source-excerpt cards.
 
 Gap to target:
 
 - Charts/diagrams: need 13 more to reach the low end of 80, and at most 33 more before the high end of 100.
-- Photos/screenshots/photo slots: need 24 more to reach the low end of 50, and at most 34 more before the high end of 60.
+- Photos/screenshots/photo slots: I-0134 identified a gap against the older 50-60 target. Future passes should instead build and curate the broader 100-exhibit program, not treat 60 as enough.
 
-The book is now diagram-heavy but still photo-light. The next visual strategy should not simply add four more schematic packages to chapters that already have enough diagrams. It should prioritize early technical chapters with zero visuals, Chapter 24 synthesis, Chapter 12/Anthropic continuity, and private-use screenshot/photo acquisition.
+The book is now diagram-heavy but still thin on real source surfaces, paper artifacts, physical infrastructure, chips, fabs, GTC charts, and product/document screenshots. The next visual strategy should not simply add more schematic packages to chapters that already have enough diagrams. It should prioritize early technical chapters, Chapter 24 synthesis, Chapter 12/Anthropic continuity, private-use screenshot/photo acquisition, paper/source-excerpt exhibits, and a final 100-exhibit curation pass.
 
 ## Per-Chapter Diagnosis
 
@@ -34,7 +35,7 @@ The detailed 24-row table is in `data/full_book_visual_inventory_i0134.tsv`. The
 3. Run I-0137 before adding more Llama/Qwen/DeepSeek/GLM/Kimi figures, to avoid logo-parade duplication.
 4. Run I-0138 for Anthropic/Claude, but explicitly decide whether the visual belongs in Chapter 12, Chapter 20, or a renamed chapter slot.
 5. Add early technical visuals for Chapters 2-4: Transformer/self-attention, pre-Transformer bottlenecks, and scaling-law evidence lanes.
-6. Add a screenshot/photo acquisition pass aimed at the 24-photo-slot gap rather than another broad schematic pass.
+6. Add screenshot, photo, paper-redraw, source-excerpt, and GTC chart acquisition passes aimed at a curated 100-exhibit program rather than another broad schematic pass.
 
 ## Duplicate-Grammar Risks
 

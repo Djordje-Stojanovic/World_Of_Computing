@@ -52,6 +52,7 @@ desktop.ini
 *.tmp
 *.temp
 *.log
+.~lock.*#
 __pycache__/
 .pytest_cache/
 .ruff_cache/

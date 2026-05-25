@@ -12,16 +12,17 @@ Latest recorded champion state:
 - **Chapters:** 24
 - **Charts/diagrams:** 78
 - **Photo/screenshot/source-surface slots:** 36
+- **Visual/source exhibit target:** at least 100 curated charts, diagrams, photos, screenshots, extracted slides, paper redraws, source-page screenshots, or short source-excerpt cards
 - **Sources:** 173
 - **Claims:** 166 supported / 8 needs-verification
 - **Latest promoted pass:** `I-0143`, Chapter 12/20 Anthropic continuity audit
-- **Current queue:** 25 pending ideas, including a 20-task quality runway aimed at publication, sales, and award readiness
+- **Current queue:** 53 pending ideas, including quality, source-acquisition, image-acquisition, 100-exhibit curation, GTC chart-mining, publishing, and award-readiness runways
 
 The book is a real manuscript with a serious spine, but it is **not yet publication-ready**. The next phase emphasizes truth, timeline integrity, unsupported-claim burn-down, prose addiction, visual placement, source density, rendering, packaging, and award-readiness.
 
 ## Mission
 
-Build a 100,000-120,000 word, exactly 24-chapter, visually beautiful, prize-aspiring book about LLMs: models, labs, chips, data, tools, coding agents, inference economics, infrastructure, and trust.
+Build a 100,000-120,000 word, exactly 24-chapter, visually beautiful, prize-aspiring book about LLMs: models, labs, chips, data, tools, coding agents, inference economics, infrastructure, and trust. The visual/source program should reach at least 100 curated exhibits, with roughly 3-4 strong candidates per chapter and every exhibit carrying provenance, rights status, story purpose, and blocked-claim notes.
 
 Quality targets include the seriousness, narrative force, and durability of books such as:
 
@@ -68,7 +69,7 @@ The immediate FIFO queue begins with:
 4. Chapter 11 supported-vs-gap source board.
 5. Chapter 12/20 Anthropic screenshot acquisition package.
 
-After that, the newly added 20-task runway focuses on:
+After that, the added runways focus on:
 
 - full-book timeline integrity,
 - unsupported-claim burn-down,
@@ -76,6 +77,8 @@ After that, the newly added 20-task runway focuses on:
 - chapter-by-chapter prose upgrades,
 - source-density and primary-source audits,
 - visual placement and caption QA,
+- canonical paper, chip, fab, datacenter, GTC, benchmark, dataset, and interface acquisition,
+- a master 100-exhibit curation program,
 - commercial publishing package,
 - award/shortlist readiness package.
 

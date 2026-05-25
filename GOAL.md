@@ -14,7 +14,7 @@ These never change. If a candidate violates any item, revert or reject it immedi
 
 - Factual cutoff: May 24, 2026. No post-cutoff event may be written as happened history. Announced roadmaps, expectations, and forecasts known by the cutoff may appear only with clear labels.
 - Topic: LLMs specifically. Include hardware, datacenters, power, CUDA, chips, CPUs, datasets, tools, coding agents, evaluation, and companies only where they explain LLM progress.
-- Final target: exactly 24 main chapters, >100,000 and <120,000 words, 80-100 charts/diagrams, and 50-60 photos/screenshots/photo slots.
+- Final target: exactly 24 main chapters, >100,000 and <120,000 words, and **at least 100 curated visual/source exhibits** across charts, diagrams, photos, screenshots, extracted slides, paper-figure redraws, source-page screenshots, and short source-excerpt cards. Aim for 3-4 strong exhibit candidates per chapter on average, with final selection governed by truth, rights, legibility, and narrative value rather than count inflation.
 - Sourcing standard: investigative. No fabricated quotes, interviews, scenes, captions, leaked claims, or insider access.
 - Unsupported factual claim count must trend to zero and must be zero before done-enough.
 - Truth outranks beauty; beauty outranks completeness when both versions are equally true.
@@ -88,9 +88,9 @@ Programmatic metrics:
 
 - Word count is >100,000 and <120,000.
 - Chapter count is exactly 24 main chapters.
-- Charts/diagrams count is 80-100.
-- Photos/screenshots/photo slots count is 50-60.
-- Every visual has caption, source/provenance, and story purpose.
+- Curated visual/source exhibit count is at least 100 across charts, diagrams, photos, screenshots, extracted slides, paper-figure redraws, source-page screenshots, and short source-excerpt cards.
+- Every chapter has 3-4 strong exhibit candidates on average, while final layout may use fewer where prose rhythm or rights constraints demand restraint.
+- Every visual/source exhibit has caption, source/provenance, rights status, story purpose, and blocked-claim note.
 - Source density target is one citation per 150-250 words in factual/reporting-heavy sections.
 - Unsupported factual claim count trends to zero.
 - Primary-source ratio is tracked and raised when possible.

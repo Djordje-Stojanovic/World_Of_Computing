@@ -139,7 +139,7 @@ First uses:
 
 ## Photo And Screenshot Slots
 
-The book target is 50-60 photos/screenshots/photo slots. This visual grammar does not add raster assets. It creates slots and rules.
+The book target is now at least 100 curated visual/source exhibits across charts, diagrams, photos, screenshots, extracted slides, paper-figure redraws, source-page screenshots, and short source-excerpt cards. This visual grammar does not add raster assets. It creates slots and rules.
 
 High-value slot types:
 
@@ -157,19 +157,19 @@ Rules:
 
 ## Chapter-Level Visual Quota
 
-Working target: 84 charts/diagrams and 54 photos/screenshots/photo slots.
+Working target: at least 100 curated visual/source exhibits, averaging 3-4 strong candidates per chapter before final layout selection.
 
-Allocation:
+Initial exhibit mix:
 
-- 24 chapter-opening micro-timelines or chapter maps.
-- 18 mechanism diagrams.
-- 12 model/lab family trees or landscapes.
-- 12 benchmark/economics charts.
-- 10 infrastructure/power diagrams.
-- 8 evidence/caveat panels.
-- 54 photo/screenshot slots distributed across product, hardware, datacenter, source, and presentation evidence.
+- Chapter-opening micro-timelines or chapter maps where they clarify the reading path.
+- Mechanism diagrams for architecture, tools, data, evaluation, economics, and infrastructure.
+- Model/lab family trees or landscapes where lineage or ecosystem position matters.
+- Benchmark, scaling, economics, and evidence-lane charts where the data is scoped.
+- Infrastructure, power, chip, fab, and physical-system visuals where they explain LLM scaling.
+- Evidence/caveat panels and source-excerpt cards where the reader needs claim discipline.
+- Product, documentation, source-page, GTC, paper, benchmark, dataset, and interface screenshots when the actual surface carries history.
 
-This allocation is adjustable, but every future pass should keep the book within the hard target of 80-100 charts/diagrams and 50-60 photos/screenshots/photo slots.
+This allocation is adjustable, but every future pass should improve the curated exhibit program rather than merely increasing raw asset count. Every exhibit must have provenance, rights status, story purpose, and blocked-claim language before final layout use.
 
 ## Promotion Rationale
 
