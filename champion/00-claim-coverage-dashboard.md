@@ -2,10 +2,10 @@
 
 Current champion dashboard source: `manuscript/00-claim-coverage-dashboard.md`.
 
-Promoted in pass I-0014 on 2026-05-24 and refreshed in passes I-0016, I-0017, I-0018, I-0019, I-0020, I-0021, I-0022, I-0023, I-0024, I-0025, I-0026, I-0027, I-0028, I-0029, I-0031, I-0032, I-0033, I-0034, I-0035, I-0036, I-0037, I-0038, I-0039, I-0040, I-0041, and I-0042 on 2026-05-25 because it converts the claim ledger, source ledger, snapshot protocol, and chapter files into a visible quality gate:
+Promoted in pass I-0014 on 2026-05-24 and refreshed in passes I-0016, I-0017, I-0018, I-0019, I-0020, I-0021, I-0022, I-0023, I-0024, I-0025, I-0026, I-0027, I-0028, I-0029, I-0031, I-0032, I-0033, I-0034, I-0035, I-0036, I-0037, I-0038, I-0039, I-0040, I-0041, I-0042, and I-0043 on 2026-05-25 because it converts the claim ledger, source ledger, snapshot protocol, and chapter files into a visible quality gate:
 
-- 69 claims audited.
-- 61 supported claims.
+- 70 claims audited.
+- 62 supported claims.
 - 8 needs-verification claims.
 - 90 source rows.
 - 14 captured snapshot rows.
@@ -27,5 +27,6 @@ Promoted in pass I-0014 on 2026-05-24 and refreshed in passes I-0016, I-0017, I-
 - I-0040 added `data/chatgpt_productization_quote_table_i0040.tsv`, separating Chapter 7 ChatGPT Plus and Enterprise launch, price, feature, availability, adoption, and productivity fields so quote-ready productization facts do not license blocked market or customer-productivity claims.
 - I-0041 applied that table back into Chapter 7 prose, naming S-0078/SNAP-20260525-013 for Plus, S-0089/SNAP-20260525-014 for Enterprise release-note wording, and S-0079 as blocked for original Enterprise/adoption/productivity claims.
 - I-0042 added power-to-token visual A-0015 and champion marker `champion/16-power-to-token-flow.md` for Chapter 16, tracing electricity, interconnection, facility/cooling, accelerators, scheduling, and token output while preserving scenario, advisory, engineering-gap, and C-0021/C-0047 caveats.
+- I-0043 added `data/chapter16_quant_claim_audit_i0043.tsv` and champion marker `champion/16-quantitative-claim-audit.md`, turning Chapter 16 TWh, MW, percentage, lead-time, PUE, rack-density, NVIDIA/GTC, and energy-per-token language into row-level permissions or exclusions.
 
 This champion marker should be replaced only when the underlying dashboard tables are regenerated and the replacement is recorded in `scoreboard.tsv`.

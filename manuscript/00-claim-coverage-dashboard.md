@@ -1,13 +1,13 @@
 # Claim Coverage Dashboard
 
-Status: promoted data pass I-0014 on 2026-05-24; refreshed by source-capture pass I-0016, caption/provenance pass I-0017, chapter-draft pass I-0018, claim-audit pass I-0019, source-density pass I-0020, OpenAI pricing-normalization pass I-0021, GTC chapter-opening pass I-0022, alignment-visual pass I-0023, LMArena normalization pass I-0024, ChatGPT product-page capture pass I-0025, provider-pricing normalization pass I-0026, AI-factory visual pass I-0027, alignment-source capture pass I-0028, clean LMArena dataset pass I-0029, Mistral pricing pass I-0031, datacenter infrastructure source-pack pass I-0032, alignment quote-table pass I-0033, LMArena chart pass I-0034, ChatGPT alternate-capture pass I-0035, price-quality join audit pass I-0036, Chapter 16 speed-to-power prose pass I-0037, instruction-following alternate-capture pass I-0038, leaderboard-methodology visual pass I-0039, ChatGPT productization quote-table pass I-0040, Chapter 7 source-specific claim-audit pass I-0041, and Chapter 16 power-to-token visual pass I-0042 on 2026-05-25.
+Status: promoted data pass I-0014 on 2026-05-24; refreshed by source-capture pass I-0016, caption/provenance pass I-0017, chapter-draft pass I-0018, claim-audit pass I-0019, source-density pass I-0020, OpenAI pricing-normalization pass I-0021, GTC chapter-opening pass I-0022, alignment-visual pass I-0023, LMArena normalization pass I-0024, ChatGPT product-page capture pass I-0025, provider-pricing normalization pass I-0026, AI-factory visual pass I-0027, alignment-source capture pass I-0028, clean LMArena dataset pass I-0029, Mistral pricing pass I-0031, datacenter infrastructure source-pack pass I-0032, alignment quote-table pass I-0033, LMArena chart pass I-0034, ChatGPT alternate-capture pass I-0035, price-quality join audit pass I-0036, Chapter 16 speed-to-power prose pass I-0037, instruction-following alternate-capture pass I-0038, leaderboard-methodology visual pass I-0039, ChatGPT productization quote-table pass I-0040, Chapter 7 source-specific claim-audit pass I-0041, Chapter 16 power-to-token visual pass I-0042, and Chapter 16 quantitative audit pass I-0043 on 2026-05-25.
 
 This dashboard turns the project ledgers into a recurring quality gate. It does not make new historical claims about LLMs; it exposes which existing claims are supported, which claims are still quarantined, and where chapter drafts are drifting away from the source-density target.
 
 ## Current Snapshot
 
-- Claims audited: 69.
-- Supported claims: 61.
+- Claims audited: 70.
+- Supported claims: 62.
 - Needs-verification claims: 8.
 - Source rows: 90.
 - Primary or local-primary source rows: 87.
@@ -15,7 +15,7 @@ This dashboard turns the project ledgers into a recurring quality gate. It does 
 - Snapshot gap rows: 8.
 - Visual asset rows: 15.
 - Main chapter count: 24.
-- Pending idea rows after pass I-0042 refill: 5.
+- Pending idea rows after pass I-0043 refill: 5.
 
 The eight needs-verification rows are C-0007, C-0010, C-0013, C-0021, C-0029, C-0044, C-0046, and C-0047. They should be treated as a work queue, not as acceptable residue.
 
@@ -40,6 +40,8 @@ Second priority: benchmark, performance, and behavior-policy claims. C-0013, C-0
 Chapter 16 infrastructure readiness: pass I-0032 adds independent IEA, LBNL/DOE, EPRI, DOE-SEAB, and Uptime rows for datacenter demand, grid bottlenecks, physical supply, facility scale, flexibility, cooling, and rack-density caution. Pass I-0037 converts those rows into the Chapter 16 opening in `manuscript/16-speed-to-power.md`, now 1,092 words with 7 source refs and in the target density band. The opening still does not retire C-0021 or C-0047 because NVIDIA AI-factory claims require attribution and independent triangulation, and Chapter 16 quantitative scenario language deserves its own claim audit before expansion.
 
 Pass I-0042 adds visual asset A-0015, `assets/visual_system/power-to-token-flow.svg`, with companion rows in `data/power_to_token_flow_i0042.tsv`, placement note `manuscript/16-power-to-token-flow.md`, and champion marker `champion/16-power-to-token-flow.md`. The figure traces electricity demand, grid interconnection, facility/cooling constraints, accelerators, inference scheduling, and token output while labeling forecast, advisory, engineering-gap, and NVIDIA company-framing caveats. It should appear before dense Chapter 16 quantitative claims, not as an energy-per-token estimate.
+
+Pass I-0043 adds `data/chapter16_quant_claim_audit_i0043.tsv`, with companion notes in `manuscript/16-quantitative-claim-audit.md` and `champion/16-quantitative-claim-audit.md`. It maps every current Chapter 16 TWh, MW, percentage, lead-time, PUE, rack-density, NVIDIA/GTC, and energy-per-token lane to measured estimate, forecast/scenario, advisory estimate, operator-survey signal, blocked claim, or explicit exclusion. The audit supports the current prose but does not close C-0021 or C-0047.
 
 Third priority: source-exactness gaps. C-0007, C-0010, and C-0029 need cutoff-bounded support before they become clean prose: Qwen/DeepSeek frontier-release naming, ChatGPT adoption and reception, and GPT-3 API/Copilot ecosystem figures. Pass I-0035 narrows the Chapter 7 gap: Plus launch/pricing/benefit wording and Enterprise release-note feature wording can now be quoted from text-rendered official/official-alternate captures with caveats. Pass I-0040 adds the field-level quote table that prevents those supported facts from blending with adoption, public reception, customer productivity, named-customer claims, detailed availability language beyond captured lines, and original Enterprise product-post quotations. Pass I-0041 moves that distinction into the chapter's sentences and verification tasks, but C-0010 remains open for the blocked adoption, reception, productivity, and original Enterprise claims.
 
