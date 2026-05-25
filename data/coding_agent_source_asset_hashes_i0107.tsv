@@ -1,0 +1,6 @@
+source_id	file_path	bytes	sha256	commit_plan	notes
+S-0035	assets/source_docs/coding_agents/S-0035_swe-bench-arxiv-abs.html	47643	998A92461B56F5D6109A4C9161C6A2A12649F95CA14715B0A439BFCF01F16885	commit-lightweight-html	SWE-bench arXiv abstract capture for repository-issue evaluation claims.
+S-0037	assets/source_docs/coding_agents/S-0037_livecodebench-arxiv-abs.html	48077	C394E902FCCB4705DCFCF3DF5AA08C4376D19EF202A8879FAFF1107232333720	commit-lightweight-html	LiveCodeBench arXiv abstract capture for contamination-free and broader code-evaluation claims.
+S-0049	assets/source_docs/coding_agents/S-0049_claude-code-best-practices.html	1432204	D627F624A8FE2C175708F0DF3CDCD9254D745C200AED1AF906E5D70A95D972E9	commit-lightweight-html	Claude Code best-practices capture for context/workflow claims.
+S-0050	assets/source_docs/coding_agents/S-0050_claude-code-security.html	1059848	5F9C66BFFA364514ED30F09609540E320ACDF86F33767198F8172A11BC50610F	commit-lightweight-html	Claude Code security capture for permissions, approval, and safety-boundary claims.
+S-0051	assets/source_docs/coding_agents/S-0051_claude-code-common-workflows.html	1496447	EA7F28F47F503605C08CB6F4FBD32F0D9837B57EFE9140D9EDDBB95F8A2042A6	commit-lightweight-html	Claude Code common-workflows capture for task-type and workflow claims.
