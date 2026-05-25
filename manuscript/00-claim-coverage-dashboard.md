@@ -1,21 +1,21 @@
 # Claim Coverage Dashboard
 
-Status: promoted data pass I-0014 on 2026-05-24; refreshed by source-capture pass I-0016, caption/provenance pass I-0017, chapter-draft pass I-0018, claim-audit pass I-0019, source-density pass I-0020, OpenAI pricing-normalization pass I-0021, GTC chapter-opening pass I-0022, alignment-visual pass I-0023, LMArena normalization pass I-0024, ChatGPT product-page capture pass I-0025, provider-pricing normalization pass I-0026, AI-factory visual pass I-0027, alignment-source capture pass I-0028, clean LMArena dataset pass I-0029, Mistral pricing pass I-0031, datacenter infrastructure source-pack pass I-0032, alignment quote-table pass I-0033, LMArena chart pass I-0034, ChatGPT alternate-capture pass I-0035, price-quality join audit pass I-0036, Chapter 16 speed-to-power prose pass I-0037, instruction-following alternate-capture pass I-0038, leaderboard-methodology visual pass I-0039, ChatGPT productization quote-table pass I-0040, Chapter 7 source-specific claim-audit pass I-0041, Chapter 16 power-to-token visual pass I-0042, Chapter 16 quantitative audit pass I-0043, Chapter 13 caption-use pass I-0044, and Chapter 13 leaderboard-terms pass I-0045 on 2026-05-25.
+Status: promoted data pass I-0014 on 2026-05-24; refreshed by source-capture pass I-0016, caption/provenance pass I-0017, chapter-draft pass I-0018, claim-audit pass I-0019, source-density pass I-0020, OpenAI pricing-normalization pass I-0021, GTC chapter-opening pass I-0022, alignment-visual pass I-0023, LMArena normalization pass I-0024, ChatGPT product-page capture pass I-0025, provider-pricing normalization pass I-0026, AI-factory visual pass I-0027, alignment-source capture pass I-0028, clean LMArena dataset pass I-0029, Mistral pricing pass I-0031, datacenter infrastructure source-pack pass I-0032, alignment quote-table pass I-0033, LMArena chart pass I-0034, ChatGPT alternate-capture pass I-0035, price-quality join audit pass I-0036, Chapter 16 speed-to-power prose pass I-0037, instruction-following alternate-capture pass I-0038, leaderboard-methodology visual pass I-0039, ChatGPT productization quote-table pass I-0040, Chapter 7 source-specific claim-audit pass I-0041, Chapter 16 power-to-token visual pass I-0042, Chapter 16 quantitative audit pass I-0043, Chapter 13 caption-use pass I-0044, Chapter 13 leaderboard-terms pass I-0045, and Chapter 7 interface-to-business timeline pass I-0046 on 2026-05-25.
 
 This dashboard turns the project ledgers into a recurring quality gate. It does not make new historical claims about LLMs; it exposes which existing claims are supported, which claims are still quarantined, and where chapter drafts are drifting away from the source-density target.
 
 ## Current Snapshot
 
-- Claims audited: 72.
-- Supported claims: 64.
+- Claims audited: 73.
+- Supported claims: 65.
 - Needs-verification claims: 8.
 - Source rows: 90.
 - Primary or local-primary source rows: 87.
 - Captured snapshot rows: 14.
 - Snapshot gap rows: 8.
-- Visual asset rows: 15.
+- Visual asset rows: 16.
 - Main chapter count: 24.
-- Pending idea rows after pass I-0045 refill: 5.
+- Pending idea rows after pass I-0046 refill: 5.
 
 The eight needs-verification rows are C-0007, C-0010, C-0013, C-0021, C-0029, C-0044, C-0046, and C-0047. They should be treated as a work queue, not as acceptable residue.
 
@@ -36,6 +36,8 @@ Pass I-0035 adds text-render source handles for ChatGPT productization evidence:
 Pass I-0040 turns those captures into `data/chatgpt_productization_quote_table_i0040.tsv`, a field-by-field Chapter 7 permission table. It separates Plus launch date, $20/month price, benefit wording, and broad availability from blocked adoption/public-reception/productivity claims; it also separates Enterprise release-note launch and feature wording from the still-blocked original Enterprise product post.
 
 Pass I-0041 applies that table back into Chapter 7 prose: the Plus paragraph now names the $20/month subscription evidence without turning OpenAI feedback language into adoption data, and the Enterprise paragraph now cites the S-0089 release-note entry while explicitly preserving S-0079 as blocked for original-page quotations, adoption, named-customer, and productivity claims.
+
+Pass I-0046 adds visual asset A-0016, `assets/visual_system/chatgpt-interface-business-timeline.svg`, with companion rows in `data/chatgpt_interface_business_timeline_i0046.tsv`, placement note `manuscript/07-chatgpt-interface-business-timeline.md`, and champion marker `champion/07-chatgpt-interface-business-timeline.md`. The figure places ChatGPT launch, Plus, plugins, Enterprise release-note entry, GPTs, and GPT-4o on one source-labeled chronology rail while keeping adoption, public reception, named-customer, revenue, and customer-productivity claims in a blocked lane under C-0010.
 
 Pass I-0036 adds a price-quality join audit rather than a chart. The safe candidates are limited to Grok 4.3, Gemini 2.5 Pro tiered rows, Gemini 2.5 Flash text/image/video, Claude Opus 4.1, and Claude Haiku 4.5, with Mistral Large 3 blocked by post-cutoff price capture. Excluded rows are as important as candidates: OpenAI fine-tuning prices, missing standard inference prices, reasoning variants, deprecated rows, batch/data-sharing tiers, and version mismatches must not be silently plotted.
 
