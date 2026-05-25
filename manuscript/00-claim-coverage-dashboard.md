@@ -1,13 +1,13 @@
 # Claim Coverage Dashboard
 
-Status: promoted data pass I-0014 on 2026-05-24; refreshed by source-capture pass I-0016, caption/provenance pass I-0017, chapter-draft pass I-0018, claim-audit pass I-0019, source-density pass I-0020, OpenAI pricing-normalization pass I-0021, GTC chapter-opening pass I-0022, alignment-visual pass I-0023, LMArena normalization pass I-0024, ChatGPT product-page capture pass I-0025, provider-pricing normalization pass I-0026, AI-factory visual pass I-0027, alignment-source capture pass I-0028, clean LMArena dataset pass I-0029, Mistral pricing pass I-0031, datacenter infrastructure source-pack pass I-0032, alignment quote-table pass I-0033, and LMArena chart pass I-0034 on 2026-05-25.
+Status: promoted data pass I-0014 on 2026-05-24; refreshed by source-capture pass I-0016, caption/provenance pass I-0017, chapter-draft pass I-0018, claim-audit pass I-0019, source-density pass I-0020, OpenAI pricing-normalization pass I-0021, GTC chapter-opening pass I-0022, alignment-visual pass I-0023, LMArena normalization pass I-0024, ChatGPT product-page capture pass I-0025, provider-pricing normalization pass I-0026, AI-factory visual pass I-0027, alignment-source capture pass I-0028, clean LMArena dataset pass I-0029, Mistral pricing pass I-0031, datacenter infrastructure source-pack pass I-0032, alignment quote-table pass I-0033, LMArena chart pass I-0034, and ChatGPT alternate-capture pass I-0035 on 2026-05-25.
 
 This dashboard turns the project ledgers into a recurring quality gate. It does not make new historical claims about LLMs; it exposes which existing claims are supported, which claims are still quarantined, and where chapter drafts are drifting away from the source-density target.
 
 ## Current Snapshot
 
 - Claims audited: 61.
-- Supported claims: 53.
+- Supported claims: 54.
 - Needs-verification claims: 8.
 - Source rows: 88.
 - Primary or local-primary source rows: 87.
@@ -15,7 +15,7 @@ This dashboard turns the project ledgers into a recurring quality gate. It does 
 - Snapshot gap rows: 8.
 - Visual asset rows: 13.
 - Main chapter count: 24.
-- Pending idea rows after pass I-0034: 5.
+- Pending idea rows after pass I-0035: 4.
 
 The eight needs-verification rows are C-0007, C-0010, C-0013, C-0021, C-0029, C-0044, C-0046, and C-0047. They should be treated as a work queue, not as acceptable residue.
 
@@ -25,11 +25,13 @@ First priority: mutable rank and price facts. Pass I-0019 resolved the stale cap
 
 Pass I-0034 turns the clean LMArena/Arena historical rows into chart asset A-0013, a lightweight SVG explicitly labeled as `text_style_control`, `latest`, `overall`, published 2026-05-19, S-0080/SNAP-20260525-008. This supports a Chapter 13 visual but does not authorize live May 24 ranking, release-status, price-quality, or task-specific superiority claims.
 
+Pass I-0035 adds text-render source handles for ChatGPT productization evidence: SNAP-20260525-013 for S-0078 ChatGPT Plus, SNAP-20260525-014 for S-0089 ChatGPT Release Notes, and SNAP-20260525-015 for S-0090 What is ChatGPT Plus? These make launch/pricing/benefit and Enterprise release-note feature wording quote-ready with caveats, but they do not authorize adoption, public-reception, customer-productivity, named-customer, or original Enterprise product-post quotation claims.
+
 Second priority: benchmark, performance, and behavior-policy claims. C-0013, C-0021, C-0044, and C-0047 should stay caveated until benchmark harnesses, NVIDIA keynote claims, roadmap status, availability language, assistant-behavior policy wording, and independent triangulation are separated. Pass I-0023 adds a source-bearing Chapter 6 alignment pipeline visual, and pass I-0028 captures the OpenAI Model Spec plus GPT-4/GPT-4o system-card artifacts. Pass I-0033 narrows C-0044 by adding a quote-safe table for captured Model Spec, GPT-4 System Card, and GPT-4o System Card artifacts, but C-0044 still blocks exact instruction-following product-post quotations, labeler-process details, and API-default wording because S-0074 remains shell-blocked. Pass I-0019 resolved C-0033's exact-slide-wording gap because GTC slide captions now carry row-level caveats, and pass I-0022 used those caveats in the Chapter 15 opening; C-0047 still keeps the remaining rule visible: slide-derived quantitative, partner, roadmap, availability, and deployment claims are not independent facts. Pass I-0027 adds a Chapter 15 AI factory stack diagram as explanatory infrastructure synthesis, not as validation of NVIDIA performance, revenue, partner, roadmap, availability, or deployment claims.
 
 Chapter 16 infrastructure readiness: pass I-0032 adds independent IEA, LBNL/DOE, EPRI, DOE-SEAB, and Uptime rows for datacenter demand, grid bottlenecks, physical supply, facility scale, flexibility, cooling, and rack-density caution. These rows make Chapter 16 draftable around "speed to power," but they do not retire C-0021 or C-0047 because NVIDIA AI-factory claims still require attribution and independent triangulation.
 
-Third priority: source-exactness gaps. C-0007, C-0010, and C-0029 need cutoff-bounded support before they become clean prose: Qwen/DeepSeek frontier-release naming, ChatGPT adoption and reception, and GPT-3 API/Copilot ecosystem figures. Pass I-0025 documented that ChatGPT Plus and Enterprise official pages are browser-readable but shell-blocked with HTTP 403, so Chapter 7 may keep structural product-evolution paraphrases but still cannot use direct quotes, exact Plus pricing, Enterprise adoption percentages, customer productivity claims, or detailed availability language as final facts.
+Third priority: source-exactness gaps. C-0007, C-0010, and C-0029 need cutoff-bounded support before they become clean prose: Qwen/DeepSeek frontier-release naming, ChatGPT adoption and reception, and GPT-3 API/Copilot ecosystem figures. Pass I-0035 narrows the Chapter 7 gap: Plus launch/pricing/benefit wording and Enterprise release-note feature wording can now be quoted from text-rendered official/official-alternate captures with caveats. C-0010 still blocks adoption, public reception, customer productivity, named-customer claims, detailed availability language beyond captured lines, and original Enterprise product-post quotations.
 
 ## Chapter Source Density
 
