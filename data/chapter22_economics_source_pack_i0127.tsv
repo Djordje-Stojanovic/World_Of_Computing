@@ -1,0 +1,10 @@
+source_or_data_id	topic	source_or_table	chapter_permission	blocked_claims
+S-0078;S-0090	consumer subscription	ChatGPT Plus product/help sources	Supports subscription/productization and $20/month framing with capture caveats.	Blocks subscribers, revenue, margin, paid-user totals, broad adoption, and exact launch-page quotes.
+S-0069	API distribution	OpenAI API launch source	Supports API access as a business-model/interface shift.	Blocks downstream app counts, adoption, productivity, and revenue without additional rows.
+data/provider_pricing_rows_i0026.tsv	provider pricing	Anthropic/Google/xAI/Mistral model-doc normalized rows	Supports input/output/cache/batch/tier complexity as product-pricing evidence.	Blocks live prices, final price-quality charts, margins, and total cost-to-serve.
+data/openai_pricing_rows_i0021.tsv	OpenAI pricing	Official alternate OpenAI docs pricing normalization	Supports negative/caveated pricing examples and post-cutoff capture caution.	Blocks exact May 24 OpenAI standard inference prices and general price-quality joins.
+data/mistral_pricing_rows_i0031.tsv	Mistral pricing	Official Mistral pricing normalization	Supports Mistral pricing pair with post-cutoff capture caveat.	Blocks proven May 24 price truth and model-version chart use without cutoff-status checks.
+data/price_quality_join_audit_i0036.tsv	price-quality audit	Same-scope price-quality join audit	Supports exclusion logic for rank/price charts.	Blocks frontier crowns and broad price-quality claims until more rows are normalized.
+S-0138;S-0142;S-0143	inference infrastructure	NVIDIA CUDA/TensorRT/NVLink rows	Supports qualitative serving-stack and inference-rent mechanism.	Blocks exact TCO, cost per token, performance ratios, and deployment claims.
+C-0136;C-0141	Microsoft/OpenAI cloud bargain	Chapter 8 prose and visual blockers	Supports cloud-to-product and inference-capacity framing.	Blocks Azure margin, workload volume, revenue, active use, ROI, and productivity.
+S-0103	enterprise access	PwC / ChatGPT Enterprise corroboration	Supports commercial-role/access-scale caution with attribution.	Blocks pricing, active usage, productivity, ROI, and revenue.
