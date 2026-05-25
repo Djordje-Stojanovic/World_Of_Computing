@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Training vs Inference Capacity Map</title>
+  <desc id="desc">A Chapter 14 map separating training and inference capacity needs across compute, memory, network, software, latency, utilization, and blocker lanes.</desc>
+  <style>
+    .bg{fill:#f7f4ee}.ink{fill:#1f2933;font-family:Arial,Helvetica,sans-serif}.muted{fill:#5d6470;font-family:Arial,Helvetica,sans-serif}.title{font-size:37px;font-weight:800}.sub{font-size:18px}.label{font-size:20px;font-weight:800}.small{font-size:15px}.tiny{font-size:12px}.card{fill:#fffdf7;stroke:#c8c1b5;stroke-width:2}.train{fill:#e7efff;stroke:#2563eb;stroke-width:3}.infer{fill:#e8f5ef;stroke:#0f8b6f;stroke-width:3}.risk{fill:#fff0ec;stroke:#c2412d;stroke-width:3}.barT{fill:#2563eb}.barI{fill:#0f8b6f}.axis{stroke:#1f2933;stroke-width:3}
+  </style>
+  <rect class="bg" width="1200" height="760"/>
+  <text class="ink title" x="60" y="72">Training vs Inference: Two Capacity Problems</text>
+  <text class="muted sub" x="60" y="108">The same GPU stack serves different economics: synchronized learning runs and low-latency product serving.</text>
+
+  <rect class="train" x="80" y="155" width="485" height="430" rx="10"/>
+  <text class="ink label" x="125" y="198">Training run</text>
+  <text class="muted small" x="125" y="230">Goal: update model weights across data</text>
+  <text class="muted small" x="125" y="260">Pressure: synchronized compute, gradients,</text>
+  <text class="muted small" x="125" y="282">large batches, cluster communication</text>
+  <text class="muted small" x="125" y="324">Useful questions:</text>
+  <text class="muted small" x="150" y="354">Can accelerators stay busy?</text>
+  <text class="muted small" x="150" y="384">Can memory and interconnect carry the model?</text>
+  <text class="muted small" x="150" y="414">Can failures be recovered without losing the run?</text>
+
+  <rect class="infer" x="635" y="155" width="485" height="430" rx="10"/>
+  <text class="ink label" x="680" y="198">Inference service</text>
+  <text class="muted small" x="680" y="230">Goal: answer users at acceptable latency</text>
+  <text class="muted small" x="680" y="260">Pressure: KV cache, batching, routing,</text>
+  <text class="muted small" x="680" y="282">serving software, cost per token</text>
+  <text class="muted small" x="680" y="324">Useful questions:</text>
+  <text class="muted small" x="705" y="354">How much context and concurrency?</text>
+  <text class="muted small" x="705" y="384">How much batching before latency breaks?</text>
+  <text class="muted small" x="705" y="414">Can TensorRT-LLM/software improve utilization?</text>
+
+  <line class="axis" x1="140" y1="498" x2="505" y2="498"/><rect class="barT" x="165" y="472" width="250" height="20" rx="4"/><text class="muted tiny" x="165" y="525">Schematic emphasis: synchronization and cluster throughput</text>
+  <line class="axis" x1="695" y1="498" x2="1060" y2="498"/><rect class="barI" x="720" y="472" width="200" height="20" rx="4"/><text class="muted tiny" x="720" y="525">Schematic emphasis: latency, batching, cache, utilization</text>
+
+  <rect class="risk" x="135" y="625" width="930" height="65" rx="8"/>
+  <text class="ink label" x="165" y="655">Blocked comparison lane</text>
+  <text class="muted small" x="165" y="676">No exact throughput, utilization, energy, TCO, price, supply, deployment, or performance-ratio claims without normalized rows.</text>
+  <text class="muted tiny" x="130" y="723">Figure A-0073. Sources: S-0139; S-0142; S-0143; C-0146. Claim rows: CH14CUDA-003/005/006 plus Chapter 22 cost caveats.</text>
+</svg>
