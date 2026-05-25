@@ -1,0 +1,9 @@
+source_id	local_asset_path	bytes	sha256	commit_policy	provenance_note
+S-0008	assets/source_docs/meta/S-0008_llama-4-meta-ai-blog.html	230053	BD902BCD0BA2937FAB31419B857291BEF55DEFB66C0C8D1396BC9C777246F627	commit-lightweight-html	Official Meta Llama 4 blog page captured during I-0104 for local provenance.
+S-0023	assets/source_docs/meta/S-0023_llama-2-arxiv-abs.html	57320	88AC7B8DA8DAE1D60589602DDA6405751F1AFCF8BE1345FEF5D119EBBE90AFAC	commit-lightweight-html	Llama 2 arXiv abstract page captured during I-0104 for local provenance.
+S-0024	assets/source_docs/meta/S-0024_llama-3-herd-arxiv-abs.html	138918	061E3DC736FADDF4827234FDF529E1A827B3450C7917A87A6AF1BA8A0A236CC4	commit-lightweight-html	Llama 3 Herd arXiv abstract page captured during I-0104 for local provenance.
+S-0025	assets/source_docs/meta/S-0025_code-llama-arxiv-abs.html	48571	993BCEB39729874A68B50D97F280CE117661B98BE2E44C8A29FA2F548673AEDC	commit-lightweight-html	Code Llama arXiv abstract page captured during I-0104 for local provenance.
+S-0111	assets/source_docs/meta/S-0111_llama-1-meta-ai-blog.html	193097	950EDFDA0F45B68F1D052D6E54AC952AD0E13A69776B3D653025A418C84D6A4C	commit-lightweight-html	Official Meta LLaMA 1 blog page captured during I-0104 for local provenance.
+S-0112	assets/source_docs/meta/S-0112_meta-llama-3-blog.html	234202	5983308BA812DD719CB22C5DC6A5C3BEA571F9FDE431BFA832C0FEE598B8F3FE	commit-lightweight-html	Official Meta Llama 3 blog page captured during I-0104 for local provenance.
+S-0113	assets/source_docs/meta/S-0113_meta-llama-3-1-blog.html	234987	0F810FAAB0CAEE174BB90B246AA86125218FCD98DC9C13EBE3692C155BA6D574	commit-lightweight-html	Official Meta Llama 3.1 blog page captured during I-0104 for local provenance.
+S-0114	assets/source_docs/meta/S-0114_meta-llama-github.html	334144	0D692FF9E63AE327ECF164A760CE7D70EF4024B1120D89459C001C28334ADE48	commit-lightweight-html	Meta Llama GitHub repository page captured during I-0104 for local provenance.
