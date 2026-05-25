@@ -7,6 +7,8 @@ from pathlib import Path
 
 import fitz
 
+from render_smoke import ImageSmokeSpec, smoke_rows
+
 
 ROOT = Path(__file__).resolve().parents[1]
 MANUSCRIPT = ROOT / "manuscript" / "13-model-rankings-appendix.md"
@@ -322,6 +324,34 @@ def qa_rows(result: RenderResult) -> list[dict[str, str]]:
             "notes": "No new rank, price, context-window, benchmark-superiority, release-status, safety, latency, coding, or enterprise-usefulness claim is introduced.",
         },
     ]
+    rows.extend(
+        {
+            "check_id": row["check_id"],
+            "gate_id": "RENDER-SMOKE",
+            "evidence": row["evidence"],
+            "result": row["result"],
+            "decision": "pdf_gate_passed" if row["result"] == "pass" else "do_not_promote_render",
+            "notes": row["notes"],
+        }
+        for row in smoke_rows(
+            root=ROOT,
+            prefix="CH13SMOKE",
+            text=text,
+            required_text=[
+                "Shared footnote",
+                "Prohibited-use note",
+                "A-0013 is not a price-quality chart",
+                "C-0046 remains active",
+                "uncertainty-overlap cluster",
+                "S-0080/SNAP-20260525-008",
+            ],
+            image_specs=[
+                ImageSmokeSpec(result.pages[0], "P01", min_unique_colors=16, min_colorfulness=2.0),
+                ImageSmokeSpec(result.pages[1], "P02", min_unique_colors=16, min_colorfulness=2.0),
+            ],
+            artifacts=[result.pdf, result.text, *result.pages],
+        )
+    )
     return rows
 
 
