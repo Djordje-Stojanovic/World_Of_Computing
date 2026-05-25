@@ -2,16 +2,16 @@
 
 Current champion dashboard source: `manuscript/00-claim-coverage-dashboard.md`.
 
-Promoted in pass I-0014 on 2026-05-24 and refreshed in passes I-0016, I-0017, I-0018, I-0019, I-0020, I-0021, I-0022, I-0023, I-0024, I-0025, I-0026, I-0027, I-0028, I-0029, I-0031, I-0032, I-0033, I-0034, I-0035, I-0036, I-0037, I-0038, I-0039, I-0040, I-0041, I-0042, I-0043, I-0044, I-0045, I-0046, and the I-0047 superseded-rejection pass on 2026-05-25 because it converts the claim ledger, source ledger, snapshot protocol, and chapter files into a visible quality gate:
+Promoted in pass I-0014 on 2026-05-24 and refreshed in passes I-0016, I-0017, I-0018, I-0019, I-0020, I-0021, I-0022, I-0023, I-0024, I-0025, I-0026, I-0027, I-0028, I-0029, I-0031, I-0032, I-0033, I-0034, I-0035, I-0036, I-0037, I-0038, I-0039, I-0040, I-0041, I-0042, I-0043, I-0044, I-0045, I-0046, the I-0047 superseded-rejection pass, and I-0048 on 2026-05-25 because it converts the claim ledger, source ledger, snapshot protocol, and chapter files into a visible quality gate:
 
-- 73 claims audited.
-- 65 supported claims.
+- 74 claims audited.
+- 66 supported claims.
 - 8 needs-verification claims.
 - 90 source rows.
 - 14 captured snapshot rows.
 - 8 snapshot gap rows.
 - 16 visual asset rows.
-- Chapter 6 is in target band at 242.7 words per source; Chapter 7 is in target band at 217.9 words per source; Chapter 15 opening is in target band at 212.9 words per source; Chapter 16 opening is in target band at 156 words per source.
+- Chapter 6 is in target band at 242.7 words per source; Chapter 7 is in target band at 217.9 words per source; Chapter 15 opening is in target band at 212.9 words per source; Chapter 16 opening is in target band at 158.4 words per source.
 - I-0027 added AI factory stack visual A-0012 while preserving C-0021/C-0047 because NVIDIA performance, revenue, partner, roadmap, availability, and deployment claims remain attributed or blocked.
 - I-0028 captured the OpenAI Model Spec and GPT-4/GPT-4o system-card artifacts; I-0038 later captured the instruction-following product post as text-rendered evidence, while C-0044 still needs quote-limit extraction for longer policy/system-card/red-team passages.
 - I-0029 captured a clean LMArena/Arena historical dataset table for `text_style_control` overall rows published 2026-05-19, resolving C-0045 while preserving publish-date and category caveats.
@@ -32,5 +32,6 @@ Promoted in pass I-0014 on 2026-05-24 and refreshed in passes I-0016, I-0017, I-
 - I-0045 added `champion/13-leaderboard-methodology-terms.md` and `data/leaderboard_methodology_terms_i0045.tsv`, turning vote, prompt sample, rating, confidence interval, category filter, snapshot, publication date, and release-status caveat into reusable Chapter 13 vocabulary while keeping C-0046 active.
 - I-0046 added visual asset A-0016 and `champion/07-chatgpt-interface-business-timeline.md`, placing ChatGPT launch, Plus, plugins, Enterprise release-note entry, GPTs, and GPT-4o on one source-labeled rail while keeping C-0010 adoption, public-reception, named-customer, revenue, and productivity claims visibly blocked.
 - I-0047 was rejected as superseded by I-0043 after `data/chapter16_quant_audit_i0047_superseded_assessment.tsv` confirmed that CH16Q-001 through CH16Q-018 already cover the requested Chapter 16 measured, scenario, advisory, source-caveat, prose-permission, NVIDIA/GTC-blocker, and energy-per-token-exclusion lanes.
+- I-0048 refreshed `champion/16-speed-to-power.md` and `manuscript/16-speed-to-power.md` with compact CH16Q source cues beside exact Chapter 16 quantitative and exclusion claims, keeping C-0021/C-0047 active and preserving the energy-per-token block.
 
 This champion marker should be replaced only when the underlying dashboard tables are regenerated and the replacement is recorded in `scoreboard.tsv`.
