@@ -59,3 +59,4 @@
 - Retroactive planning should be rejected when the action already happened: if a queued "before merge" plan is overtaken by a promoted prose merge, record exact coverage evidence and move to the post-merge quality pass instead of inventing a stale plan.
 - Readability audits should distinguish source clutter from permission cues: combine adjacent source-only brackets freely, but keep row IDs inline until a note system can prove the same exact-claim mapping.
 - Final captions need a shared-footnote strategy: keep the caption body short enough for layout, then put release-status, price-quality, task-superiority, and "not live rank" blocks into one nearby footnote instead of repeating every caveat twice.
+- Appendix placement should teach before it ranks: orient the reader, define the terms, show methodology, then show row order, with the footnote and prohibited-use note before any price or benchmark handoff.

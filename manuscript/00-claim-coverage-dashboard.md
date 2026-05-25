@@ -1,13 +1,13 @@
 # Claim Coverage Dashboard
 
-Status: promoted data pass I-0014 on 2026-05-24; refreshed by source-capture pass I-0016, caption/provenance pass I-0017, chapter-draft pass I-0018, claim-audit pass I-0019, source-density pass I-0020, OpenAI pricing-normalization pass I-0021, GTC chapter-opening pass I-0022, alignment-visual pass I-0023, LMArena normalization pass I-0024, ChatGPT product-page capture pass I-0025, provider-pricing normalization pass I-0026, AI-factory visual pass I-0027, alignment-source capture pass I-0028, clean LMArena dataset pass I-0029, Mistral pricing pass I-0031, datacenter infrastructure source-pack pass I-0032, alignment quote-table pass I-0033, LMArena chart pass I-0034, ChatGPT alternate-capture pass I-0035, price-quality join audit pass I-0036, Chapter 16 speed-to-power prose pass I-0037, instruction-following alternate-capture pass I-0038, leaderboard-methodology visual pass I-0039, ChatGPT productization quote-table pass I-0040, Chapter 7 source-specific claim-audit pass I-0041, Chapter 16 power-to-token visual pass I-0042, Chapter 16 quantitative audit pass I-0043, Chapter 13 caption-use pass I-0044, Chapter 13 leaderboard-terms pass I-0045, Chapter 7 interface-to-business timeline pass I-0046, I-0047 superseded-rejection pass, Chapter 16 source-cue prose pass I-0048, Chapter 13 methodology glossary supplement pass I-0049, Chapter 13 rank-row microstyle pass I-0050, Chapter 7 adoption/reception gap pass I-0051, I-0052 superseded-rejection pass, Chapter 16 source-cue readability pass I-0053, and Chapter 13 final-caption microcopy pass I-0054 on 2026-05-25.
+Status: promoted data pass I-0014 on 2026-05-24; refreshed by source-capture pass I-0016, caption/provenance pass I-0017, chapter-draft pass I-0018, claim-audit pass I-0019, source-density pass I-0020, OpenAI pricing-normalization pass I-0021, GTC chapter-opening pass I-0022, alignment-visual pass I-0023, LMArena normalization pass I-0024, ChatGPT product-page capture pass I-0025, provider-pricing normalization pass I-0026, AI-factory visual pass I-0027, alignment-source capture pass I-0028, clean LMArena dataset pass I-0029, Mistral pricing pass I-0031, datacenter infrastructure source-pack pass I-0032, alignment quote-table pass I-0033, LMArena chart pass I-0034, ChatGPT alternate-capture pass I-0035, price-quality join audit pass I-0036, Chapter 16 speed-to-power prose pass I-0037, instruction-following alternate-capture pass I-0038, leaderboard-methodology visual pass I-0039, ChatGPT productization quote-table pass I-0040, Chapter 7 source-specific claim-audit pass I-0041, Chapter 16 power-to-token visual pass I-0042, Chapter 16 quantitative audit pass I-0043, Chapter 13 caption-use pass I-0044, Chapter 13 leaderboard-terms pass I-0045, Chapter 7 interface-to-business timeline pass I-0046, I-0047 superseded-rejection pass, Chapter 16 source-cue prose pass I-0048, Chapter 13 methodology glossary supplement pass I-0049, Chapter 13 rank-row microstyle pass I-0050, Chapter 7 adoption/reception gap pass I-0051, I-0052 superseded-rejection pass, Chapter 16 source-cue readability pass I-0053, Chapter 13 final-caption microcopy pass I-0054, and Chapter 13 appendix placement pass I-0055 on 2026-05-25.
 
 This dashboard turns the project ledgers into a recurring quality gate. It does not make new historical claims about LLMs; it exposes which existing claims are supported, which claims are still quarantined, and where chapter drafts are drifting away from the source-density target.
 
 ## Current Snapshot
 
-- Claims audited: 79.
-- Supported claims: 71.
+- Claims audited: 80.
+- Supported claims: 72.
 - Needs-verification claims: 8.
 - Source rows: 90.
 - Primary or local-primary source rows: 87.
@@ -15,7 +15,7 @@ This dashboard turns the project ledgers into a recurring quality gate. It does 
 - Snapshot gap rows: 8.
 - Visual asset rows: 16.
 - Main chapter count: 24.
-- Pending idea rows after pass I-0054 refill: 5.
+- Pending idea rows after pass I-0055 refill: 5.
 
 The eight needs-verification rows are C-0007, C-0010, C-0013, C-0021, C-0029, C-0044, C-0046, and C-0047. They should be treated as a work queue, not as acceptable residue.
 
@@ -36,6 +36,8 @@ Pass I-0049 extends that package with `data/leaderboard_methodology_glossary_i00
 Pass I-0050 adds `data/leaderboard_rank_row_microstyle_i0050.tsv`, with companion notes in `manuscript/13-rank-row-footnote-microstyle.md` and `champion/13-rank-row-footnote-microstyle.md`. It standardizes the short wording for historical slice, config/split/category, confidence overlap, non-live rank labels, release-status caveats, price-quality blocks, task-superiority blocks, and the required A-0014-before-A-0013 reading order.
 
 Pass I-0054 adds `data/leaderboard_final_caption_microcopy_i0054.tsv`, `manuscript/13-final-caption-microcopy.md`, and `champion/13-final-caption-microcopy.md`. It turns the I-0045/I-0049 glossary and I-0050 microstyle guide into final full captions, short captions, shared footnotes, paired sequence language, prose-transition language, and prohibited caption language for A-0014 and A-0013 without weakening the non-live-rank, release-status, task-superiority, or C-0046 price-quality caveats.
+
+Pass I-0055 adds `data/leaderboard_appendix_placement_i0055.tsv`, `manuscript/13-appendix-placement-note.md`, and `champion/13-appendix-placement-note.md`. It fixes the Chapter 13 appendix reading order as orientation paragraph, condensed glossary, A-0014 methodology figure, narrow transition sentence, A-0013 historical chart, shared chart footnote, prohibited-use note, and price-quality handoff, preserving C-0046 before any provider-price section.
 
 Pass I-0035 adds text-render source handles for ChatGPT productization evidence: SNAP-20260525-013 for S-0078 ChatGPT Plus, SNAP-20260525-014 for S-0089 ChatGPT Release Notes, and SNAP-20260525-015 for S-0090 What is ChatGPT Plus? These make launch/pricing/benefit and Enterprise release-note feature wording quote-ready with caveats, but they do not authorize adoption, public-reception, customer-productivity, named-customer, or original Enterprise product-post quotation claims.
 
