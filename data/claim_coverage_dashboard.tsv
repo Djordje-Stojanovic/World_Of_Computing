@@ -8,4 +8,4 @@
 "snapshot_gap_rows"	"8"	"risk"	"SNAP-20260524-003;SNAP-20260524-006;SNAP-20260524-007;SNAP-20260525-001;SNAP-20260525-002;SNAP-20260525-003;SNAP-20260525-004;SNAP-20260525-011"	"I-0036 adds a same-scope price-quality audit table, but final frontier charts still need broader coverage, Mistral cutoff-price corroboration, OpenAI standard inference rows, and GTC triangulation before exact claims."
 "asset_rows"	"16"	"baseline"	"Rows in assets_manifest.tsv."	"Use A-0016 in Chapter 7 before platform/business prose so readers see the supported chronology and blocked adoption/productivity lane."
 "chapter_count"	"24"	"passes"	"Main chapter headings in manuscript/00-master-outline.md."	"Invariant must remain exactly 24."
-"pending_ideas"	"5"	"passes"	"Pending rows in ideas.tsv after I-0051 refill."	"Refill queue whenever pending ideas drop below five."
+"pending_ideas"	"5"	"passes"	"Pending rows in ideas.tsv after I-0052 rejection and refill."	"Refill queue whenever pending ideas drop below five."
