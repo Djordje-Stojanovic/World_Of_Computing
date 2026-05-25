@@ -72,3 +72,4 @@
 - Source normalization is the membrane between capture and prose: a locally captured article can still be unusable for narrative claims when the metric definition, source chain, primary-vs-secondary role, or quote allowance remains unresolved.
 - Reception chronologies should stay institutional before they become cultural: two school districts, one developer site, and one bank are a sequence of named responses, not proof of public panic or universal workplace policy.
 - Adoption-count prose needs metric firewalls: "users," monthly active users, daily unique visitors, registered accounts, and fastest-growing comparisons are different claims even when they travel through the same viral-growth paragraph.
+- Production note gates need visual evidence, not intent: a mock can prove a note idea is plausible, but live prose should wait for same-page, proximity, collision, line-length, blocker-visibility, and A/B render checks.
