@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Token to Answer Schematic</title>
+  <desc id="desc">A Chapter 1 schematic showing human text becoming tokens, token IDs, context, next-token prediction, and generated answer with blocker labels.</desc>
+  <style>
+    .bg{fill:#f7f4ee}.ink{fill:#1f2933;font-family:Arial,Helvetica,sans-serif}.muted{fill:#5d6470;font-family:Arial,Helvetica,sans-serif}.title{font-size:38px;font-weight:800}.sub{font-size:18px}.label{font-size:20px;font-weight:800}.small{font-size:15px}.tiny{font-size:12px}.card{fill:#fffdf7;stroke:#c8c1b5;stroke-width:2}.human{fill:#fff3d8;stroke:#b7791f;stroke-width:3}.token{fill:#e8f5ef;stroke:#0f8b6f;stroke-width:3}.model{fill:#e7efff;stroke:#2563eb;stroke-width:3}.risk{fill:#fff0ec;stroke:#c2412d;stroke-width:3}.line{fill:none;stroke:#1f2933;stroke-width:4;marker-end:url(#arrow)}.pill{fill:#ffffff;stroke:#0f8b6f;stroke-width:2}.mono{font-family:Consolas,Menlo,monospace;font-size:16px;fill:#1f2933}
+  </style>
+  <defs><marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 Z" fill="#1f2933"/></marker></defs>
+  <rect class="bg" width="1200" height="760"/>
+  <text class="ink title" x="58" y="72">From Prompt to Answer, One Token at a Time</text>
+  <text class="muted sub" x="58" y="108">Tokenization and next-token prediction explain the interface without claiming truth, understanding, or exact tokenizer behavior.</text>
+
+  <rect class="human" x="70" y="175" width="215" height="115" rx="8"/>
+  <text class="ink label" x="103" y="214">Human prompt</text>
+  <text class="muted small" x="103" y="244">"Explain this bug"</text>
+  <text class="muted tiny" x="103" y="270">natural language input</text>
+
+  <path class="line" d="M292 232 H368"/>
+  <rect class="token" x="380" y="155" width="285" height="155" rx="8"/>
+  <text class="ink label" x="412" y="194">Tokenizer</text>
+  <rect class="pill" x="410" y="218" width="74" height="32" rx="16"/><text class="mono" x="427" y="240">Explain</text>
+  <rect class="pill" x="496" y="218" width="48" height="32" rx="16"/><text class="mono" x="512" y="240">this</text>
+  <rect class="pill" x="556" y="218" width="50" height="32" rx="16"/><text class="mono" x="573" y="240">bug</text>
+  <text class="muted tiny" x="412" y="282">Allowed: qualitative token machinery. Source: S-0043.</text>
+
+  <path class="line" d="M672 232 H748"/>
+  <rect class="model" x="760" y="155" width="330" height="155" rx="8"/>
+  <text class="ink label" x="790" y="194">Context + model</text>
+  <text class="muted small" x="790" y="224">previous tokens become a</text>
+  <text class="muted small" x="790" y="246">probability distribution over</text>
+  <text class="muted small" x="790" y="268">the next token</text>
+
+  <path class="line" d="M925 318 V395"/>
+  <rect class="model" x="760" y="405" width="330" height="126" rx="8"/>
+  <text class="ink label" x="790" y="443">Generated answer</text>
+  <text class="muted small" x="790" y="472">repeat prediction, append token,</text>
+  <text class="muted small" x="790" y="494">condition on the growing text</text>
+  <text class="muted tiny" x="790" y="516">Sources: S-0004; S-0005; S-0014; S-0006.</text>
+
+  <rect class="risk" x="92" y="430" width="540" height="104" rx="8"/>
+  <text class="ink label" x="122" y="468">Blocked inference lane</text>
+  <text class="muted small" x="122" y="496">This diagram does not claim exact token IDs, vocabulary size, model-specific tokenizer behavior,</text>
+  <text class="muted small" x="122" y="518">human-like understanding, guaranteed reasoning, or truthfulness.</text>
+
+  <rect class="card" x="92" y="650" width="1005" height="52" rx="8"/>
+  <text class="ink small" x="120" y="679">Use rule: teach the mechanism that made the plain chat box powerful while keeping fluency separate from truth.</text>
+  <text class="muted tiny" x="120" y="697">Figure A-0069. Sources: S-0043; S-0004; S-0005; S-0014; S-0006. Claim rows: CH1SHOCK-002; CH1SHOCK-003.</text>
+</svg>

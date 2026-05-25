@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">First Institutional Response Chronology</title>
+  <desc id="desc">A Chapter 1 chronology showing named early institutional responses from Stack Overflow, NYC schools, Seattle schools, and JPMorgan with scope blockers.</desc>
+  <style>
+    .bg{fill:#f7f4ee}.ink{fill:#1f2933;font-family:Arial,Helvetica,sans-serif}.muted{fill:#5d6470;font-family:Arial,Helvetica,sans-serif}.title{font-size:37px;font-weight:800}.sub{font-size:18px}.label{font-size:19px;font-weight:800}.small{font-size:15px}.tiny{font-size:12px}.card{fill:#fffdf7;stroke:#c8c1b5;stroke-width:2}.dev{fill:#e7efff;stroke:#2563eb;stroke-width:3}.school{fill:#e8f5ef;stroke:#0f8b6f;stroke-width:3}.work{fill:#fff3d8;stroke:#b7791f;stroke-width:3}.block{fill:#fff0ec;stroke:#c2412d;stroke-width:3}.line{stroke:#1f2933;stroke-width:5;stroke-linecap:round}.tick{stroke:#1f2933;stroke-width:4}.dot{fill:#1f2933}
+  </style>
+  <rect class="bg" width="1200" height="760"/>
+  <text class="ink title" x="55" y="72">Local Alarms: First Institutional Response Chronology</text>
+  <text class="muted sub" x="55" y="108">The same chat box became different procedure problems for developer, school, and workplace institutions.</text>
+
+  <line class="line" x1="95" y1="332" x2="1105" y2="332"/>
+  <line class="tick" x1="175" y1="308" x2="175" y2="356"/><circle class="dot" cx="175" cy="332" r="9"/>
+  <line class="tick" x1="425" y1="308" x2="425" y2="356"/><circle class="dot" cx="425" cy="332" r="9"/>
+  <line class="tick" x1="685" y1="308" x2="685" y2="356"/><circle class="dot" cx="685" cy="332" r="9"/>
+  <line class="tick" x1="945" y1="308" x2="945" y2="356"/><circle class="dot" cx="945" cy="332" r="9"/>
+
+  <rect class="dev" x="60" y="160" width="260" height="122" rx="8"/>
+  <text class="ink label" x="88" y="198">Dec. 5, 2022</text>
+  <text class="muted small" x="88" y="226">Meta Stack Overflow:</text>
+  <text class="muted small" x="88" y="248">quality/moderation response</text>
+  <text class="muted tiny" x="88" y="271">Named developer-community example. S-0093.</text>
+
+  <rect class="school" x="335" y="390" width="260" height="122" rx="8"/>
+  <text class="ink label" x="363" y="428">Jan. 3, 2023</text>
+  <text class="muted small" x="363" y="456">NYC schools:</text>
+  <text class="muted small" x="363" y="478">device/network access control</text>
+  <text class="muted tiny" x="363" y="501">Named education example. S-0094.</text>
+
+  <rect class="school" x="612" y="160" width="260" height="122" rx="8"/>
+  <text class="ink label" x="640" y="198">Jan. 2023 row</text>
+  <text class="muted small" x="640" y="226">Seattle Public Schools:</text>
+  <text class="muted small" x="640" y="248">district-device/WiFi control</text>
+  <text class="muted tiny" x="640" y="271">Source handle, scoped locally. S-0096.</text>
+
+  <rect class="work" x="878" y="390" width="260" height="122" rx="8"/>
+  <text class="ink label" x="906" y="428">Feb. 2023</text>
+  <text class="muted small" x="906" y="456">JPMorgan Chase:</text>
+  <text class="muted small" x="906" y="478">third-party software control</text>
+  <text class="muted tiny" x="906" y="501">No specific incident claim. S-0097.</text>
+
+  <rect class="block" x="105" y="575" width="995" height="76" rx="8"/>
+  <text class="ink label" x="132" y="610">Scope blocker</text>
+  <text class="muted small" x="132" y="636">These rows show named local responses, not broad public panic, all developers, national school bans, boardroom panic, permanent bans, or quantified reception.</text>
+
+  <text class="muted tiny" x="120" y="704">Figure A-0070. Sources: S-0093; S-0094; S-0096; S-0097. Claim row: CH1SHOCK-005. Use rule: local-control examples only.</text>
+</svg>
