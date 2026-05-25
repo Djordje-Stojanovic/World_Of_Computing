@@ -2,10 +2,10 @@
 
 Current champion dashboard source: `manuscript/00-claim-coverage-dashboard.md`.
 
-Promoted in pass I-0014 on 2026-05-24 and refreshed in passes I-0016, I-0017, I-0018, I-0019, I-0020, I-0021, I-0022, I-0023, I-0024, I-0025, I-0026, I-0027, I-0028, I-0029, I-0031, I-0032, I-0033, I-0034, I-0035, I-0036, I-0037, I-0038, and I-0039 on 2026-05-25 because it converts the claim ledger, source ledger, snapshot protocol, and chapter files into a visible quality gate:
+Promoted in pass I-0014 on 2026-05-24 and refreshed in passes I-0016, I-0017, I-0018, I-0019, I-0020, I-0021, I-0022, I-0023, I-0024, I-0025, I-0026, I-0027, I-0028, I-0029, I-0031, I-0032, I-0033, I-0034, I-0035, I-0036, I-0037, I-0038, I-0039, and I-0040 on 2026-05-25 because it converts the claim ledger, source ledger, snapshot protocol, and chapter files into a visible quality gate:
 
-- 66 claims audited.
-- 58 supported claims.
+- 67 claims audited.
+- 59 supported claims.
 - 8 needs-verification claims.
 - 90 source rows.
 - 14 captured snapshot rows.
@@ -24,5 +24,6 @@ Promoted in pass I-0014 on 2026-05-24 and refreshed in passes I-0016, I-0017, I-
 - I-0037 drafted and promoted the Chapter 16 "speed to power" opening from the datacenter evidence pack, keeping scenarios and NVIDIA AI-factory framing attributed while adding a target-density infrastructure chapter opening.
 - I-0038 captured S-0074 through a text-render snapshot and refreshed the Chapter 6 quote-safe table, moving the instruction-following product post from paraphrase-only to short-quote-ready while keeping C-0044 open for longer system-card/red-team/policy extraction.
 - I-0039 added leaderboard-methodology visual A-0014 so Chapter 13 can teach votes, filters, uncertainty, publication date, snapshot ID, and chart-use gates before presenting ranked model rows.
+- I-0040 added `data/chatgpt_productization_quote_table_i0040.tsv`, separating Chapter 7 ChatGPT Plus and Enterprise launch, price, feature, availability, adoption, and productivity fields so quote-ready productization facts do not license blocked market or customer-productivity claims.
 
 This champion marker should be replaced only when the underlying dashboard tables are regenerated and the replacement is recorded in `scoreboard.tsv`.
