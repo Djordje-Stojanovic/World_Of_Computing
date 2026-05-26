@@ -230,3 +230,7 @@ Real-world image acquisition should fail closed and keep both successes and miss
 ## 2026-05-26 - I-0211 Open-Frontier Exhibit Balance
 
 Middle-frontier visuals need different verbs by chapter: Meta/Llama should show control transfer, China/open models should show source permission and visible gaps, Anthropic/Claude should show behavior-to-action, and rankings should show measurement permission before any row order.
+
+## 2026-05-26 - I-0212 Hardware/GTC/Infrastructure Balance
+
+Industrial chapters need a three-part proof rhythm: Chapter 14 teaches the accelerator and software stack, Chapter 15 treats NVIDIA's AI-factory keynote as source-actor stagecraft, and Chapter 16 tests that rhetoric against independent power, interconnection, cooling, procurement, and usable-capacity constraints.
