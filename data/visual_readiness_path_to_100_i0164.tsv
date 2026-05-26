@@ -1,0 +1,11 @@
+metric	value	evidence	note
+manifest_rows	120	assets_manifest.tsv	All rows have caption, source/provenance, rights/private-use note, and story purpose populated.
+ready_exhibits	90	available + available_local_ignored + local_ignored_raster_hashed	Ready means usable as a current exhibit candidate or private-use local evidence handle; final layout may prune overfull chapters.
+hard_floor_gap	10	100 - ready_exhibits	The path to the minimum exhibit floor requires at least 10 more ready exhibits, preferably non-diagram surfaces.
+available_diagrams_and_charts	82	asset_type counts for ready rows	The book is diagram-rich; additional gains should not be automatic SVG packages unless they fill zero/low chapters.
+ready_photo_screenshot_slide_source_surfaces	8	local slide renders and hashed/source-surface rows	Physical/product/source texture remains the main weakness, despite many acquisition-ready slots.
+acquisition_ready_or_blocked_candidates	30	non-ready manifest statuses	Best near-term source pool: A-0036 through A-0055 product/interface/source screenshots, A-0119/A-0120 Anthropic screenshots, A-0104/A-0105 physical photo slots, and pending Chapter 15/16 source surfaces.
+zero_ready_chapters	03,04	per-chapter manifest grouping	Chapters 3 and 4 are the highest visual-placement deficit; they need canonical paper redraw/source-excerpt work.
+under_target_chapters	05,06,07,11	per-chapter manifest grouping	These chapters have 1-2 ready exhibits and should receive source-surface or paper/card additions before more late-book diagrams.
+overfull_chapters	15,16	per-chapter manifest grouping	Chapter 15 has 15 ready rows and Chapter 16 has 7; final layout should prune or replace duplicates rather than use everything.
+caption_qa_result	pass	manifest field audit	No manifest row is missing caption, source/provenance, rights/private-use note, or story purpose.
