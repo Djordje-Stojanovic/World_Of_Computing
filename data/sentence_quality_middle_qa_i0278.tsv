@@ -1,0 +1,10 @@
+check	status	note
+rewrite_count	pass	Rows 16, completed 16.
+chapter_scope_9_16	pass	Chapters touched: CH09,CH10,CH11,CH13,CH14,CH15,CH16.
+word_count_in_bounds	pass	Word count is 102560; delta -127.
+middle_word_delta_bounded	pass	Middle words 37091; delta -127.
+chapter_count_24	pass	Chapter count is 24.
+figure_callouts_preserved	pass	Figure callout count is 94.
+source_refs_not_reduced	pass	Source refs total 545; middle 217.
+production_residue_removed	pass	Chapter 9 production status residue removed.
+row_delta_bounded	pass	Max row word delta is 22.

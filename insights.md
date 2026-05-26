@@ -481,3 +481,7 @@ A good analogy should add handle, not haze. The pattern that works is concrete i
 ## 2026-05-26 - I-0277 Early Prose
 
 Opening-book polish should remove the writer's scaffolding before it adds ornament. The strongest early edits cut meta phrases, tighten lists, preserve caveats, and leave one memorable sentence where a paragraph used to explain itself.
+
+## 2026-05-26 - I-0278 Middle Prose
+
+Middle-book polish should make caveats feel like authority, not paperwork. The strongest edits compress repeated conditionals, cut production residue, and turn platform/infrastructure paragraphs into clean strategic motion while leaving source limits visible.

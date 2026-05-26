@@ -1,0 +1,17 @@
+rewrite_id	chapter	kind	old_words	new_words	delta_words	status	reason
+SQM-001	CH09	remove residue	22	0	-22	removed	Remove visible production status from the reader surface.
+SQM-002	CH09	rhythm	107	93	-14	rewritten	Tighten the opening inventory and make the contrast land faster.
+SQM-003	CH09	compression	85	80	-5	rewritten	Replace meta phrasing with a clearer thesis and cleaner cadence.
+SQM-004	CH09	clarity	79	69	-10	rewritten	Compress and sharpen the product-mechanism point.
+SQM-005	CH09	transition	55	48	-7	rewritten	Cut excess transition language while keeping the cross-chapter handoff.
+SQM-006	CH10	precision	95	75	-20	rewritten	Tighten caveat prose without weakening the license/source distinction.
+SQM-007	CH11	compression	81	64	-17	rewritten	Reduce list drag and keep the anti-scoreboard warning.
+SQM-008	CH11	voice	69	68	-1	rewritten	Make the framing more decisive while preserving source boundaries.
+SQM-009	CH13	clarity	64	61	-3	rewritten	Remove repetition and keep the memorable caveat.
+SQM-010	CH13	compression	53	49	-4	rewritten	Tighten the Chapter 13 contract without turning it into apparatus.
+SQM-011	CH14	rhythm	68	65	-3	rewritten	Smooth repetitive sentence starts and preserve the punchline.
+SQM-012	CH14	compression	79	69	-10	rewritten	Reduce repetitive conditionals and improve momentum.
+SQM-013	CH15	precision	78	78	0	rewritten	Keep the source caveat while making the assessment cleaner.
+SQM-014	CH15	voice	63	61	-2	rewritten	Remove procedural phrasing while preserving the critical turn.
+SQM-015	CH16	clarity	72	70	-2	rewritten	Make the chapter contract more direct.
+SQM-016	CH16	rhythm	89	82	-7	rewritten	Break the repetitive if-chain and improve explanatory force.

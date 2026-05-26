@@ -1464,7 +1464,7 @@ Google enters under a stranger burden: it already owned research depth, consumer
 > Source note: Sources: S-0002;S-0016;S-0108;S-0115;S-0116;S-0117;S-0118;S-0119;S-0121;S-0122;S-0123;S-0124. Rights path: ready_svg. Story role: Google conversion timeline.
 
 
-The strangest thing about Google's generative-AI panic was that it did not begin in ignorance. It began inside the company whose researchers had helped build the modern substrate. The Transformer was a Google paper before it became everyone else's factory floor. Tensor Processing Units were Google's answer to the question of how to make neural computation an internal utility. DeepMind had turned neural systems into a public spectacle of superhuman play and scientific ambition. Search had made Google the default front door to the web. Gmail, Docs, Android, Chrome, YouTube, Maps, and Cloud gave it more surfaces for an assistant than any startup could dream of owning.
+The strangest thing about Google's generative-AI panic was that it did not begin in ignorance. It began inside the company whose researchers had helped build the modern substrate. The Transformer was a Google paper before it became everyone else's factory floor. TPUs were Google's bid to make neural computation an internal utility. DeepMind had turned neural systems into a public spectacle of superhuman play and scientific ambition. Search was the web's front door. Gmail, Docs, Android, Chrome, YouTube, Maps, and Cloud gave Google more assistant surfaces than any startup could dream of owning.
 
 And yet the public shock did not arrive wearing Google colors.
 
@@ -1472,9 +1472,7 @@ That is the puzzle this chapter has to hold. It is too easy to say that Google m
 
 The sleeping giant was not asleep because it lacked models. It was half-paralyzed by the fact that its models had to wake up inside an empire.
 
-This is the chapter's discipline: Google should not be flattened into a slow follower. It was a research leader, an infrastructure owner, an advertising incumbent, a mobile platform, a document suite, a cloud provider, and a consumer habit machine all at once. ChatGPT embarrassed Google not because Google had no ingredients, but because a focused rival found the public interface first. The hard part for Google was not waking up. It was deciding which part of the giant could move without stepping on the rest.
-
-Status: Google/DeepMind prose upgrade promoted in I-0156, 2026-05-26; first full Chapter 9 draft and I-0132 visual package preserved as source context.
+The chapter's discipline is to refuse the lazy version of the story. Google was not simply a slow follower; it was a research leader, infrastructure owner, advertising incumbent, mobile platform, document suite, cloud provider, and consumer habit machine at once. ChatGPT embarrassed Google not because Google lacked ingredients, but because a focused rival found the public interface first. The hard part was not waking up. It was deciding which part of the giant could move without stepping on the rest.
 
 ### Pathways Before Panic
 
@@ -1526,7 +1524,7 @@ That is the giant's burden. A startup can make one miracle. Google had to make a
 
 Gemini 1.5 sharpened one of Google's strongest product arguments: context length. The Gemini 1.5 technical report framed the model around multimodal understanding across very long contexts. [S-0117] Google's May 2024 product update brought Gemini 1.5 Pro to Gemini Advanced subscribers and described a one-million-token context window in a consumer assistant setting. [S-0123] A developer update the same month described Gemini 1.5 Pro and 1.5 Flash availability, and mentioned a two-million-token context window path for developers and cloud customers through Google AI Studio or Vertex AI. [S-0124]
 
-Long context is not glamorous in the same way as a benchmark crown. It does not produce a single clean headline like "beats model X." Its value is more practical and more Google-shaped. A long context window lets a model read many pages, scan code, compare documents, follow a thread, or reason over a pile of user material without forcing everything through a brittle retrieval step. It turns the assistant from a clever autocomplete surface into a workspace reader.
+Long context is less glamorous than a benchmark crown. It does not produce a clean headline like "beats model X." Its value is practical and Google-shaped: a model can read many pages, scan code, compare documents, follow a thread, or reason over a pile of user material without forcing everything through a brittle retrieval step. The assistant stops looking like clever autocomplete and starts looking like a workspace reader.
 
 This matched Google's product estate. Gmail, Drive, Docs, Sheets, Meet, Android, and Search all generate context. The question was not only whether Gemini could answer an isolated prompt. The question was whether it could sit inside a user's accumulated work and make that work searchable, summarizable, transformable, and actionable. Long context became a bridge between model capability and product distribution.
 
@@ -1544,7 +1542,7 @@ The point is leverage, not triumph. A TPU is not a product people ask for at bre
 
 The book should avoid turning this into a clean TPU-versus-GPU morality play. The real story is messier. TPUs can be a strength for internal training and serving, a differentiator for cloud, and a constraint if developer ecosystems, libraries, or customer habits point elsewhere. GPUs can be expensive and supply-constrained, while also benefiting from CUDA's enormous software gravity. Google lived with both realities. Its internal stack gave it power. The external market still judged products, APIs, prices, compatibility, and trust.
 
-The TPU difference therefore belongs in this chapter as a strategic fact, not as a victory lap. It helps explain why Google could remain technically serious even when its consumer narrative wobbled. It also sets up Chapter 14, where the broader GPU/CUDA moat explains why most of the industry did not have Google's option.
+The TPU difference belongs here as a strategic fact, not a victory lap. It explains why Google could remain technically serious even when its consumer narrative wobbled. It also prepares Chapter 14, where the GPU/CUDA moat shows why most of the industry did not have Google's option.
 
 ### Search Gravity
 
@@ -1636,7 +1634,7 @@ The LLM race looked, at first, like a race toward closed interfaces. OpenAI put 
 
 Meta changed the argument by making model weights a strategic instrument. The Llama line did not make Meta an academic charity, and it did not remove the need for licenses, safety filters, data provenance, or compute. But it did make a different object central to the public story: a downloadable foundation model that researchers, developers, startups, hobbyists, cloud providers, and rival labs could study, adapt, quantize, fine-tune, host, criticize, and build around.
 
-That is the open-weight shock. It was not the same as open source in the classic software sense. A model release can include weights while withholding training data, full data curation details, exact training infrastructure, internal safety review, or unrestricted license rights. It can be open enough to transform the ecosystem while still remaining controlled in important ways. [S-0023] The chapter has to live in that tension. If it says "open source" loosely, it will flatten the most interesting part of Meta's strategy. If it says "closed" too broadly, it will miss why Llama mattered.
+That is the open-weight shock. It was not open source in the classic software sense. A release can include weights while withholding training data, curation details, training infrastructure, internal safety review, or unrestricted license rights. It can be open enough to transform the ecosystem while remaining controlled in important ways. [S-0023] The chapter has to live in that tension: say "open source" loosely and Meta's strategy blurs; say "closed" too broadly and Llama's force disappears.
 
 Figure 10.1 follows the family as a sequence of release objects rather than a rank chart: LLaMA as a research release, Llama 2 as an open foundation and chat-model family, Code Llama as the code-specialized branch, Llama 3 and 3.1 as larger and more polished public families, and Llama 4 as a natively multimodal, mixture-of-experts turn. [S-0111] [S-0023] [S-0025] [S-0024] [S-0113] [S-0008] The point is not that every later model is simply better in every sense. The point is that the release surface changed what other people could do.
 
@@ -1799,9 +1797,9 @@ The Chinese frontier widens the map again, but the chapter treats each lab as ev
 
 The American version of the LLM race is easy to narrate: OpenAI lit the interface fuse, Microsoft supplied cloud partnership and distribution, Google defended search and converted research depth into Gemini, Anthropic turned assistant behavior into a brand, Meta pushed open weights, and NVIDIA sold the factories. That story is true enough to be useful. It is also incomplete.
 
-China's model ecosystem became too technically important to treat as a footnote. The evidence does not support a single patriotic scoreboard, and this chapter should not build one. The supported story is more specific: Alibaba's Qwen line, DeepSeek's V3 and R1 reports, Zhipu/THUDM's GLM-4 work, and Moonshot's Kimi k1.5 show that frontier LLM progress was no longer a neat U.S.-centered sequence. [S-0026] [S-0028] [S-0030] [S-0031]
+China's model ecosystem became too technically important to treat as a footnote. The evidence does not support a single patriotic scoreboard, and the book should not build one. The supported story is sharper: Alibaba's Qwen line, DeepSeek's V3 and R1 reports, Zhipu/THUDM's GLM-4 work, and Moonshot's Kimi k1.5 show that frontier LLM progress was no longer a neat U.S.-centered sequence. [S-0026] [S-0028] [S-0030] [S-0031]
 
-The chapter begins with a warning. "China" is not a lab. It is a national market, a policy environment, a talent pool, a hardware constraint, a cloud ecosystem, a language environment, and a set of companies with different strategies. Alibaba, DeepSeek, Zhipu AI, Moonshot, Baidu, Tencent, MiniMax, Xiaomi, and StepFun should not be flattened into one character. Some systems are open-weight. Some are API products. Some are research reports. Some are product announcements. Some are still source gaps in this manuscript.
+The chapter begins with a warning: "China" is not a lab. It is a national market, policy environment, talent pool, hardware constraint, cloud ecosystem, language environment, and group of companies with different strategies. Alibaba, DeepSeek, Zhipu AI, Moonshot, Baidu, Tencent, MiniMax, Xiaomi, and StepFun should not be flattened into one character. Some systems are open-weight; some are APIs, reports, announcements, or still-unfilled source gaps.
 
 That is why Figure 11.1 is a source map rather than a league table. The safe evidence today supports six primary lanes: Qwen2, Qwen3, DeepSeek-V3, DeepSeek-R1, GLM-4, and Kimi k1.5. It also preserves a gap lane for MiniMax, Baidu, Tencent, Xiaomi MiMo, StepFun, Qwen 3.5/3.6, and DeepSeek V4-era claims. The visual is a promise not to fake certainty.
 
@@ -2197,7 +2195,7 @@ The allowed claim is narrow: "In this captured historical dataset slice, these r
 
 The Arena-style evidence used here begins with human judgments. A user sees model outputs, expresses a preference, and those preferences accumulate into ratings. That is useful evidence because the central experience of an LLM is conversational: people ask fuzzy questions, compare fuzzy answers, and reward answers that feel useful. It is also dangerous evidence because "people in this interface preferred this answer under this prompt mix" is not the same claim as "the model is generally superior."
 
-The methodology paper and LMArena source rows make that distinction essential. A preference arena can reveal how models fare against one another under the arena's prompts, users, display rules, sampling settings, and inclusion policy. It cannot, by itself, measure internal reasoning, legal reliability, production latency, operating margin, enterprise security posture, or exact suitability for a developer's codebase. It is an instrument, not a courtroom.
+The methodology paper and LMArena source rows make that distinction essential. A preference arena can reveal how models fare under the arena's prompts, users, display rules, sampling settings, and inclusion policy. By itself, it cannot measure internal reasoning, legal reliability, production latency, operating margin, enterprise security posture, or exact suitability for a developer's codebase. It is an instrument, not a courtroom.
 
 The minimum safe unit is therefore not a model name. It is a full row label: [S-0080]
 
@@ -2338,7 +2336,7 @@ This is the deeper reason the chapter uses A-0019 instead of rushing to the fron
 
 ### The Editorial Contract
 
-The model-rankings chapter has one job in the finished book: make the reader more sophisticated before the next claim arrives. It should not slow the story into a database manual. It should give the reader a practiced skepticism, the ability to ask, "Which row? Which date? Which task? Which price basis? Which caveat?"
+The model-rankings chapter has one job: make the reader more sophisticated before the next claim arrives. It should not slow the story into a database manual. It should give the reader a practiced skepticism, the habit of asking, "Which row? Which date? Which task? Which price basis? Which caveat?"
 
 That skepticism pays off in later chapters. It keeps the Claude Code chapter from treating coding benchmarks as deployed productivity. It keeps the NVIDIA chapters from treating tokens per second as business value without workload context. It keeps the open-weight chapters from treating license and download counts as model quality. It keeps the China/top-labs chapter from flattening Qwen, DeepSeek, GLM/Z.ai, Kimi, MiniMax, Baidu, Tencent, Xiaomi MiMo, and StepFun into a patriotic horse race. It keeps the conclusion from writing future events as if they have happened.
 
@@ -2443,9 +2441,9 @@ cuDNN is a clean example. NVIDIA introduced cuDNN in 2014 as a GPU-accelerated l
 
 The same pattern later mattered for transformers and LLM inference. TensorRT and TensorRT-LLM represent the inference side of the stack: graph optimization, precision choices, kernel selection, batching, memory management, and deployment-oriented performance work. NVIDIA describes TensorRT-LLM as a library for optimizing and accelerating large language model inference on NVIDIA GPUs. [S-0142] The exact performance claims on product pages should remain NVIDIA-attributed until normalized. The safer claim is structural: inference became a software problem as much as a hardware problem.
 
-This is the part of NVIDIA's position that rivals struggled to clone quickly. A company can design an accelerator. It can advertise a faster number on a narrow benchmark. It can sell a cheaper chip. But model builders live inside frameworks, kernels, profilers, container images, cloud drivers, distributed-training libraries, inference servers, and weird production bugs. A competitor has to win the developer's day, not only the spec sheet.
+This is the part of NVIDIA's position that rivals struggled to clone quickly. A company can design an accelerator, advertise a faster number on a narrow benchmark, or sell a cheaper chip. But model builders live inside frameworks, kernels, profilers, container images, cloud drivers, distributed-training libraries, inference servers, and weird production bugs. A competitor has to win the developer's day, not just the spec sheet.
 
-The moat also worked through fear. If a lab had a model to train and billions of dollars at stake, the safe path was the stack already proven at scale. If an inference provider needed high utilization, it wanted known tooling. If a cloud customer needed support, it wanted a path that vendor engineers, open-source maintainers, and community examples had already walked. CUDA's lock-in was not only contractual or proprietary. It was operational. The cost of switching included uncertainty.
+The moat also worked through fear. A lab with a model to train and billions of dollars at stake preferred the stack already proven at scale. An inference provider chasing utilization wanted known tooling. A cloud customer needing support wanted a path vendor engineers, open-source maintainers, and community examples had already walked. CUDA's lock-in was not only contractual or proprietary. It was operational. The cost of switching included uncertainty.
 
 That uncertainty did not make NVIDIA invulnerable. It made the contest harder. AMD, Google TPUs, AWS Trainium/Inferentia, custom ASICs, Groq, Cerebras, and other architectures all mattered in different slices of the market. The book should not pretend NVIDIA is the only hardware story. But CUDA explains why the LLM race could concentrate around NVIDIA even when buyers had every financial reason to seek alternatives. The stack reduced risk at the moment when model labs were spending historic sums to buy capability.
 
@@ -2656,7 +2654,7 @@ This is the hinge between Chapter 14 and Chapter 16. Chapter 14 should explain h
 
 ### The One-Gigawatt Argument
 
-The page 49 system comparison is the most dangerous kind of slide: vivid, quantitative, and perfect for a narrative. NVIDIA compared a one-gigawatt X86-plus-Hopper AI factory with a Vera Rubin system across GPU count, AI FLOPS, scale-up bandwidth, memory bandwidth, and tokens per second. It is excellent as a visual of NVIDIA's thesis: the factory is a system, and system-level efficiency is the product. It is not, by itself, independent evidence of throughput in deployed customer sites. [S-0001]
+The page 49 system comparison is the most dangerous kind of slide: vivid, quantitative, and perfect for a narrative. NVIDIA compared a one-gigawatt X86-plus-Hopper AI factory with a Vera Rubin system across GPU count, AI FLOPS, scale-up bandwidth, memory bandwidth, and tokens per second. As a visual of NVIDIA's thesis, it is excellent: the factory is a system, and system-level efficiency is the product. By itself, it is not independent evidence of throughput in deployed customer sites. [S-0001]
 
 Place A-0027, `assets/visual_system/gtc-page49-system-comparison-card.svg`, before any prose that discusses the comparison. The card tells layout and readers what to do: use the comparison as NVIDIA's promotional system argument; do not promote exact ratios, token throughput, revenue, or deployed capacity into neutral facts. [S-0001; S-0010; A-0007; C-0047]
 
@@ -2698,7 +2696,7 @@ It also reveals a change in who mattered. In the early language-model story, the
 
 The factory metaphor also changes the emotional weather of the story. A chatbot feels intimate. A coding agent feels like a colleague. A factory feels impersonal, expensive, and strategic. That tension is the book's territory. The same technology that made computing feel conversational also made computing more industrial. The friendly text box depended on a production stack with the bargaining power of a refinery and the depreciation schedule of a utility asset.
 
-This is where the chapter should stay a little uncomfortable. NVIDIA's phrase makes the economics clear, but it also tries to make the future feel inevitable. Factories are built. Factories produce. Factories justify capital. Factories imply owners, suppliers, inputs, outputs, and throughput. By renaming the datacenter a factory, NVIDIA was not merely describing a change. It was inviting everyone else to finance one.
+Here the chapter should stay a little uncomfortable. NVIDIA's phrase makes the economics clear, but it also tries to make the future feel inevitable. Factories are built. Factories produce. Factories justify capital. Factories imply owners, suppliers, inputs, outputs, and throughput. By renaming the datacenter a factory, NVIDIA was not merely describing a change. It was inviting everyone else to finance one.
 
 ### The Claim-Control Surface
 
@@ -2787,7 +2785,7 @@ It looked like a substation.
 
 For years, the frontier race had trained its participants to speak in tokens, parameters, GPUs, dense racks, memory bandwidth, networking fabrics, training runs, inference latency, and capital expenditure. Chapter 14 followed the software-and-accelerator stack that made those words operational. Chapter 15 followed the stagecraft that tried to rename the whole stack an AI factory. This chapter follows the claim down to the floor. A lab could move from a model card to a product announcement in weeks. A chip vendor could turn a keynote into a calendar of platforms, racks, and roadmaps. NVIDIA could stand on a stage and sell the "AI factory" as the next industrial unit: a place where electricity, chips, networking, software, and cooling turned into tokens. That was a company argument, and it belonged in the NVIDIA chapter as an argument. The harder physical truth behind it was less theatrical. By the middle of the 2020s, the model race was learning that compute could move faster than power. [S-0001; S-0083; CH16Q-017]
 
-This chapter is not an energy morality play. It is a mechanism chapter. It asks what happens when a technology whose visible output is weightless starts to compete for heavy things: megawatts, transformers, turbines, switchgear, substations, permits, cooling capacity, water plans, local politics, and grid patience. The answer matters because the frontier model is no longer just a file on a server. It is a claim on a place. [S-0083; S-0084; S-0087]
+This is not an energy morality play. It is a mechanism chapter: what happens when a technology whose visible output is weightless starts to compete for heavy things like megawatts, transformers, turbines, switchgear, substations, permits, cooling capacity, water plans, local politics, and grid patience? The answer matters because the frontier model is no longer just a file on a server. It is a claim on a place. [S-0083; S-0084; S-0087]
 
 Place Figure 16.1, A-0015, `assets/visual_system/power-to-token-flow.svg`, near the start of the chapter. The figure should teach the reader that a token is the last mile of a dependency chain: electricity demand, grid interconnection, facility and cooling constraints, accelerators and networks, inference scheduling, and software output. Caption rule: this is a mechanism diagram, not a quantified energy-per-token model and not proof of NVIDIA performance, partner, roadmap, availability, or deployment claims. [S-0083; S-0084; S-0085; S-0086; S-0087; S-0088; CH16Q-017; CH16Q-018]
 
@@ -2888,7 +2886,7 @@ Place Figure 16.4, A-0022, `assets/visual_system/chapter16-cooling-rack-density-
 
 Cooling is also where the AI factory metaphor becomes both useful and suspicious. It is useful because it reminds the reader that tokens have a production stack. It is suspicious because the metaphor can make industrialization sound cleaner than it is. A factory is a place of standardized process. AI infrastructure in this period was still a negotiation among new rack designs, older facilities, supply chains, grid queues, water constraints, local politics, and fast-changing model demand.
 
-That negotiation affected model design indirectly. If inference became expensive, labs looked for efficiency. If output tokens were costly, product teams changed defaults. If long context was expensive, tools summarized, retrieved, cached, and routed. If dense racks were hard to deploy, capacity became a product constraint. If capacity was a product constraint, then model behavior, pricing, context windows, rate limits, and availability were all shaped by infrastructure. The user might experience that as a queue, a slower answer, a smaller context window, a higher price, or a model picker.
+That negotiation affected model design indirectly. Expensive inference pushed labs toward efficiency. Costly output tokens changed product defaults. Expensive long context made tools summarize, retrieve, cache, and route. Dense racks that were hard to deploy turned capacity into a product constraint; once capacity became a product constraint, model behavior, pricing, context windows, rate limits, and availability all bent around infrastructure. The user might experience that as a queue, a slower answer, a smaller context window, a higher price, or a model picker.
 
 The physical system did not merely support the software system. It fed back into it.
 

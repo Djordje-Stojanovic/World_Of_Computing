@@ -173,4 +173,4 @@ The immediate next phase should prioritize:
 The project is past idea stage. It is now in the conversion phase: turning a substantial, sourced manuscript into a finished object. The next decisive gains come from truth cleanup, rights cleanup, source capture, page design, render QA, cover/package work, reader sampling, pricing, launch mechanics, and award calendar discipline.
 
 
-Current manuscript baseline: 102687 words after I-0277 early-book sentence-quality pass; 24 chapters, 94 full-draft figure callouts, and source references remain intact.
+Current manuscript baseline: 102560 words after I-0278 middle-book sentence-quality pass; 24 chapters, 94 full-draft figure callouts, and source references remain intact.
