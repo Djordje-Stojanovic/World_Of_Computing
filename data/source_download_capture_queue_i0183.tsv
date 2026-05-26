@@ -1,0 +1,16 @@
+queue_field	required	allowed_values_or_format	purpose	validation_rule
+capture_id	yes	CAP-YYYYMMDD-NNN	Stable job ID for capture queue and log linkage	Must be unique across the queue/log.
+source_ids	yes	semicolon-separated S- IDs	Connects capture to sources.tsv	Every S- ID must already exist in sources.tsv or queue status is needs_source_row.
+asset_ids	no	semicolon-separated A- IDs or none	Links screenshot/page render to visual asset slots	If non-none, every A- ID should exist in assets_manifest.tsv or be planned in a manifest draft.
+source_kind	yes	paper_pdf;local_pdf;web_page;docs;pricing_page;leaderboard;benchmark_dashboard;repo;deck;screenshot;photo;api_json;capture_note	Controls capture method and required metadata	Must map to a workflow in data/source_download_automation_plan_i0183.tsv.
+url_or_path	yes	URL or local path	Source target	URLs must include scheme; local paths must be relative to workspace unless explicitly external.
+accessed_at	yes	ISO timestamp with timezone or YYYY-MM-DD	Cutoff/access provenance	Must not be blank; if post-cutoff, cutoff_status must explain why the artifact is valid.
+capture_method	yes	html;text_render;pdf;hash_only;screenshot;api_json;page_render;capture_note;external_archive	Defines output expectations	Must be compatible with source_kind.
+target_local_path	yes	repo-relative path	Expected output or capture note path	Heavy extensions under assets/ are allowed only as ignored private-use paths.
+expected_hash_fields	yes	sha256;html_sha256;pdf_sha256;image_sha256;note_sha256;none	Hash audit contract	At least one hash required except queue-only planned rows.
+quote_limit_words	yes	integer	Quote discipline	Use 0 for screenshot-only/no-quote capture; default 25 otherwise.
+allowed_use	yes	paraphrase_only;short_quote_ok;data_row_ok;chart_ok_after_normalization;caption_ok;private_visual_reference;provenance_handle_only	Prevents capture from becoming overbroad evidence	Allowed use cannot include chart/data unless normalization fields are planned.
+cutoff_status	yes	pre_cutoff_artifact;cutoff_day_capture;post_cutoff_page_for_pre_cutoff_artifact;post_cutoff_capture_of_pre_cutoff_artifact;roadmap_or_announced;support_pending	Date/cutoff claim control	Post-cutoff captures need artifact date or caveat.
+robots_rights_note	yes	free text	Robots/terms/rights/fair-use notes	Must state checked/unknown/blocked, not blank.
+blocked_claims	yes	semicolon-separated blockers	Caption and claim firewall	Must include no_live_rank/no_adoption/no_revenue/etc when relevant.
+next_action	yes	free text	Follow-up work	Must say capture, normalize, rights_review, manifest_sync, reject, or supersede.

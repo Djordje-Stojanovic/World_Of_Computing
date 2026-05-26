@@ -1,0 +1,11 @@
+pattern_or_path	status	why_it_matters	required_action
+*.pdf	ignored	Prevents heavyweight PDFs and copied source media from entering Git.	Keep ignored; record PDF hashes and capture notes instead.
+!GOAL_ARCHITECT.md	allowlisted	Allows the project text file despite the global PDF/large-media pattern section not being relevant to markdown.	No change needed.
+assets/**/*.png	ignored	Private screenshots, rendered slides, and large rasters should not be committed.	Commit hashes, dimensions, manifests, and notes only.
+assets/**/*.jpg;assets/**/*.jpeg;assets/**/*.webp;assets/**/*.gif;assets/**/*.tif;assets/**/*.tiff;assets/**/*.bmp	ignored	Photo and screenshot candidates are rights-sensitive and can be large.	Keep binaries out of Git unless user explicitly changes policy.
+assets/**/*.mp4;assets/**/*.mov;assets/**/*.mkv;assets/**/*.webm;assets/**/*.mp3;assets/**/*.wav;assets/**/*.flac	ignored	Video/audio source media are heavyweight and usually rights-sensitive.	Record provenance notes and hashes only.
+assets/**/*.zip;assets/**/*.7z;assets/**/*.tar;assets/**/*.gz	ignored	Archive downloads can hide large/unreviewed payloads.	Extract only needed lightweight metadata and keep archive hashes in logs.
+!assets/**/*.svg;!assets/**/*.csv;!assets/**/*.tsv;!assets/**/*.json;!assets/**/*.md;!assets/**/*.txt	allowlisted	Allows source ledgers, lightweight diagrams, manifests, and notes to be committed.	Use these formats for provenance artifacts whenever possible.
+rendered/**/*.pdf;rendered/**/*.png;rendered/**/*.jpg;rendered/**/*.txt	ignored	Render outputs are QA artifacts, not source ledgers.	Do not commit; summarize render QA in TSV/MD.
+__pycache__/;.pytest_cache/;.ruff_cache/;node_modules/	ignored	Prevents tooling/cache churn.	No change needed.
+.~lock.*#	ignored	Prevents LibreOffice/editor lock files.	No change needed; existing GTC lock noise remains ignored.
