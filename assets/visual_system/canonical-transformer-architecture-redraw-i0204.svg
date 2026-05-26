@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="860" viewBox="0 0 1400 860" role="img" aria-labelledby="title desc">
+  <title id="title">Transformer Architecture Source Redraw</title>
+  <desc id="desc">An original house-style redraw of the core Transformer architecture concepts from Attention Is All You Need, separating encoder-decoder source scope from later decoder-only LLM use.</desc>
+  <rect width="1400" height="860" fill="#f8faf9"/>
+  <text x="70" y="72" font-family="Arial, sans-serif" font-size="36" font-weight="700" fill="#111827">The Transformer is a repeatable block, not a magic mind</text>
+  <text x="70" y="110" font-family="Arial, sans-serif" font-size="18" fill="#4b5563">Source lane: S-0002. Original schematic; inspired by paper architecture concepts, not traced from paper geometry.</text>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#365e8c"/>
+    </marker>
+    <style>
+      .label{font-family:Arial,sans-serif;font-size:19px;font-weight:700;fill:#111827}
+      .sub{font-family:Arial,sans-serif;font-size:14px;fill:#4b5563}
+      .tiny{font-family:Arial,sans-serif;font-size:13px;fill:#6b7280}
+    </style>
+  </defs>
+  <g font-family="Arial, sans-serif">
+    <rect x="92" y="188" width="286" height="548" rx="8" fill="#ffffff" stroke="#365e8c" stroke-width="3"/>
+    <text x="126" y="230" class="label">Encoder stack</text>
+    <text x="126" y="258" class="sub">Reads the source sequence</text>
+    <rect x="128" y="310" width="214" height="72" rx="8" fill="#eef5ff" stroke="#365e8c" stroke-width="2"/>
+    <text x="154" y="340" class="label">Self-attention</text>
+    <text x="154" y="365" class="sub">positions mix information</text>
+    <rect x="128" y="422" width="214" height="72" rx="8" fill="#e8f1ec" stroke="#5f8c78" stroke-width="2"/>
+    <text x="154" y="452" class="label">Feed-forward</text>
+    <text x="154" y="477" class="sub">per-position transform</text>
+    <rect x="128" y="536" width="214" height="82" rx="8" fill="#fff4d8" stroke="#c99a3a" stroke-width="2"/>
+    <text x="154" y="568" class="label">Residual + norm</text>
+    <text x="154" y="593" class="sub">wrapper around sublayers</text>
+    <text x="126" y="678" class="tiny">Repeated in depth. Paper source is sequence transduction, not chatbot product behavior.</text>
+    <line x1="235" y1="278" x2="235" y2="306" stroke="#365e8c" stroke-width="3" marker-end="url(#arrow)"/>
+    <line x1="235" y1="382" x2="235" y2="418" stroke="#365e8c" stroke-width="3" marker-end="url(#arrow)"/>
+    <line x1="235" y1="494" x2="235" y2="532" stroke="#365e8c" stroke-width="3" marker-end="url(#arrow)"/>
+
+    <rect x="546" y="188" width="306" height="548" rx="8" fill="#ffffff" stroke="#5f8c78" stroke-width="3"/>
+    <text x="580" y="230" class="label">Decoder stack</text>
+    <text x="580" y="258" class="sub">Generates while masking the future</text>
+    <rect x="586" y="302" width="226" height="66" rx="8" fill="#eef5ff" stroke="#365e8c" stroke-width="2"/>
+    <text x="612" y="330" class="label">Masked self-attention</text>
+    <text x="612" y="353" class="sub">no look-ahead in generation</text>
+    <rect x="586" y="398" width="226" height="66" rx="8" fill="#ffffff" stroke="#6b7280" stroke-width="2"/>
+    <text x="612" y="426" class="label">Encoder attention</text>
+    <text x="612" y="449" class="sub">attend to source states</text>
+    <rect x="586" y="494" width="226" height="66" rx="8" fill="#e8f1ec" stroke="#5f8c78" stroke-width="2"/>
+    <text x="612" y="522" class="label">Feed-forward</text>
+    <text x="612" y="545" class="sub">per-position transform</text>
+    <rect x="586" y="590" width="226" height="66" rx="8" fill="#fff4d8" stroke="#c99a3a" stroke-width="2"/>
+    <text x="612" y="618" class="label">Residual + norm</text>
+    <text x="612" y="641" class="sub">wrapper around sublayers</text>
+    <line x1="699" y1="270" x2="699" y2="298" stroke="#5f8c78" stroke-width="3" marker-end="url(#arrow)"/>
+    <line x1="699" y1="368" x2="699" y2="394" stroke="#5f8c78" stroke-width="3" marker-end="url(#arrow)"/>
+    <line x1="699" y1="464" x2="699" y2="490" stroke="#5f8c78" stroke-width="3" marker-end="url(#arrow)"/>
+    <line x1="699" y1="560" x2="699" y2="586" stroke="#5f8c78" stroke-width="3" marker-end="url(#arrow)"/>
+    <path d="M378 430 C440 430 476 430 540 430" fill="none" stroke="#6b7280" stroke-width="4" marker-end="url(#arrow)"/>
+    <text x="408" y="410" class="tiny">encoder states</text>
+
+    <rect x="1014" y="208" width="286" height="148" rx="8" fill="#111827"/>
+    <text x="1044" y="246" font-size="21" font-weight="700" fill="#ffffff">Source boundary</text>
+    <text x="1044" y="281" font-size="15" fill="#fde68a">The paper architecture is encoder-decoder</text>
+    <text x="1044" y="306" font-size="15" fill="#fde68a">for sequence transduction.</text>
+    <text x="1044" y="331" font-size="15" fill="#fde68a">Later LLMs often use decoder-style branches.</text>
+
+    <rect x="1014" y="414" width="286" height="148" rx="8" fill="#ffffff" stroke="#c99a3a" stroke-width="2"/>
+    <text x="1044" y="452" class="label">What this permits</text>
+    <text x="1044" y="486" class="sub">attention-centered blocks, position signals,</text>
+    <text x="1044" y="511" class="sub">parallel training fit, repeatable depth.</text>
+
+    <rect x="1014" y="620" width="286" height="96" rx="8" fill="#ffffff" stroke="#c2412d" stroke-width="2"/>
+    <text x="1044" y="658" class="label">What it blocks</text>
+    <text x="1044" y="690" class="sub">truth, consciousness, modern equivalence,</text>
+    <text x="1044" y="713" class="sub">or architecture-alone causality.</text>
+  </g>
+  <text x="70" y="806" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">Caption contract: cite S-0002; describe concepts in source scope; do not imply the original figure is reproduced or that the architecture itself explains later product behavior.</text>
+</svg>

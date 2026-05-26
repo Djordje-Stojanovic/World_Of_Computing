@@ -1,0 +1,6 @@
+review_id	asset_id	source_ids	redraw_type	copied_source_geometry	exact_values_used	rights_status	blocked_until
+RDR-20260526-001	A-0146	S-0002	conceptual_redraw	no	no	needs_page_ref_review	S-0002 page/figure refs and final caption wording are recorded
+RDR-20260526-002	A-0147	S-0003;S-0004;S-0016	conceptual_redraw	no	no	needs_numeric_extraction_review	any numeric curve, exponent, or benchmark value is extracted and attributed
+RDR-20260526-003	A-0148	S-0015;S-0190	conceptual_redraw	no	no	needs_page_ref_review	S-0015/S-0190 duplicate-source decision and formula/page refs are recorded
+RDR-20260526-004	A-0010	S-0011;S-0012;S-0013;S-0004;S-0069;S-0052;S-0070	existing_original_svg	no	no	manifest_recorded	Chapter 5 final caption needs additional source-page refs if used as a canonical paper spread
+RDR-20260526-005	A-0011	S-0004;S-0014;S-0019;S-0074;S-0075;S-0076;S-0077	existing_original_svg	no	no	manifest_recorded	Chapter 6 final caption needs quote/page review for any direct source language

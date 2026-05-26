@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="860" viewBox="0 0 1400 860" role="img" aria-labelledby="title desc">
+  <title id="title">Compute-Optimal Balance Redraw</title>
+  <desc id="desc">A schematic explaining the Chinchilla-style correction that model size, data tokens, and compute budget must be balanced rather than maximizing parameter count alone.</desc>
+  <rect width="1400" height="860" fill="#f7f4ee"/>
+  <text x="70" y="72" font-family="Arial, sans-serif" font-size="36" font-weight="700" fill="#111827">Scale is a balance problem, not a parameter contest</text>
+  <text x="70" y="110" font-family="Arial, sans-serif" font-size="18" fill="#4b5563">Source lane: S-0015 / S-0190. Original schematic; no formula, plotted value, or later-lab behavior is asserted.</text>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#1f2933"/>
+    </marker>
+    <style>
+      .label{font-family:Arial,sans-serif;font-size:20px;font-weight:700;fill:#111827}
+      .sub{font-family:Arial,sans-serif;font-size:15px;fill:#4b5563}
+      .src{font-family:Arial,sans-serif;font-size:14px;font-weight:700;fill:#0f8b6f}
+    </style>
+  </defs>
+  <g font-family="Arial, sans-serif">
+    <rect x="110" y="210" width="310" height="160" rx="8" fill="#ffffff" stroke="#365e8c" stroke-width="3"/>
+    <text x="145" y="252" class="label">Old easy intuition</text>
+    <text x="145" y="286" class="sub">More parameters look like the obvious route.</text>
+    <text x="145" y="316" class="sub">Data can become the quiet bottleneck.</text>
+    <text x="145" y="348" class="src">Blocked: parameter count is not a crown.</text>
+
+    <rect x="545" y="170" width="310" height="120" rx="8" fill="#e8f1ec" stroke="#5f8c78" stroke-width="3"/>
+    <text x="580" y="212" class="label">Compute budget</text>
+    <text x="580" y="246" class="sub">Training work is finite.</text>
+    <rect x="545" y="370" width="310" height="120" rx="8" fill="#eef5ff" stroke="#365e8c" stroke-width="3"/>
+    <text x="580" y="412" class="label">Model parameters</text>
+    <text x="580" y="446" class="sub">Capacity is one side of the tradeoff.</text>
+    <rect x="545" y="570" width="310" height="120" rx="8" fill="#fff4d8" stroke="#c99a3a" stroke-width="3"/>
+    <text x="580" y="612" class="label">Training tokens</text>
+    <text x="580" y="646" class="sub">Data volume and quality shape returns.</text>
+
+    <path d="M420 290 C470 250 492 235 540 230" stroke="#1f2933" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+    <path d="M420 290 C475 382 486 420 540 430" stroke="#1f2933" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+    <path d="M420 290 C476 520 486 620 540 630" stroke="#1f2933" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+
+    <rect x="990" y="260" width="310" height="250" rx="8" fill="#111827"/>
+    <text x="1025" y="304" font-size="22" font-weight="700" fill="#ffffff">Compute-optimal question</text>
+    <text x="1025" y="346" font-size="16" fill="#fde68a">Given a fixed budget, how should</text>
+    <text x="1025" y="374" font-size="16" fill="#fde68a">parameters and tokens be balanced?</text>
+    <text x="1025" y="424" font-size="16" fill="#fde68a">This corrects model-size-only intuition,</text>
+    <text x="1025" y="452" font-size="16" fill="#fde68a">but does not prove later deployment choices.</text>
+    <path d="M856 230 C940 258 955 316 986 350" stroke="#1f2933" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+    <path d="M856 430 C930 430 946 405 986 392" stroke="#1f2933" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+    <path d="M856 630 C940 590 960 492 986 438" stroke="#1f2933" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+
+    <rect x="170" y="712" width="1060" height="64" rx="8" fill="#ffffff" stroke="#c2412d" stroke-width="2"/>
+    <text x="200" y="750" class="label">Caption blocker:</text>
+    <text x="376" y="750" class="sub">no universal token/parameter law, no proof all labs followed it, no product guarantee, no exact plotted value.</text>
+  </g>
+  <text x="70" y="822" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">Caption contract: source the balance concept to S-0015/S-0190; schedule exact formula and plot extraction separately before numeric claims.</text>
+</svg>

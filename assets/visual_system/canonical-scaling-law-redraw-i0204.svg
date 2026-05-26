@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="860" viewBox="0 0 1400 860" role="img" aria-labelledby="title desc">
+  <title id="title">Scaling Law Evidence Redraw</title>
+  <desc id="desc">A rights-clean schematic showing scaling-law evidence as measured loss curves, fitted extrapolation, and blocked product claims.</desc>
+  <rect width="1400" height="860" fill="#fbfaf7"/>
+  <text x="70" y="72" font-family="Arial, sans-serif" font-size="36" font-weight="700" fill="#111827">Scaling laws are evidence lanes, not prophecy</text>
+  <text x="70" y="110" font-family="Arial, sans-serif" font-size="18" fill="#4b5563">Source lane: S-0003 with bounded GPT-3/PaLM context from S-0004 and S-0016. Schematic only; no numeric values plotted.</text>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#25636f"/>
+    </marker>
+    <style>
+      .label{font-family:Arial,sans-serif;font-size:20px;font-weight:700;fill:#111827}
+      .sub{font-family:Arial,sans-serif;font-size:15px;fill:#4b5563}
+    </style>
+  </defs>
+  <g font-family="Arial, sans-serif">
+    <line x1="130" y1="600" x2="810" y2="600" stroke="#111827" stroke-width="4"/>
+    <line x1="130" y1="600" x2="130" y2="200" stroke="#111827" stroke-width="4"/>
+    <text x="360" y="654" class="label">more compute, parameters, and data within a study design</text>
+    <text x="72" y="424" class="label" transform="rotate(-90 72 424)">loss proxy</text>
+    <path d="M165 535 C265 435 350 380 472 340 C596 298 706 266 785 238" fill="none" stroke="#25636f" stroke-width="8"/>
+    <path d="M472 340 C578 285 682 250 810 214" fill="none" stroke="#d08b25" stroke-width="5" stroke-dasharray="14 12"/>
+    <circle cx="260" cy="440" r="12" fill="#25636f"/>
+    <circle cx="472" cy="340" r="12" fill="#25636f"/>
+    <circle cx="706" cy="266" r="12" fill="#25636f"/>
+    <text x="178" y="188" font-size="14" fill="#6b7280">Lower is better</text>
+
+    <rect x="900" y="184" width="390" height="82" rx="8" fill="#e8f1ec" stroke="#5f8c78" stroke-width="2"/>
+    <text x="930" y="218" class="label">Measured points</text>
+    <text x="930" y="246" class="sub">Loss behavior inside the paper's experiments.</text>
+    <rect x="900" y="292" width="390" height="82" rx="8" fill="#fff4d8" stroke="#c99a3a" stroke-width="2"/>
+    <text x="930" y="326" class="label">Fitted relation</text>
+    <text x="930" y="354" class="sub">A model of trend, not a guarantee of history.</text>
+    <rect x="900" y="400" width="390" height="82" rx="8" fill="#eef2ff" stroke="#5b6fa6" stroke-width="2"/>
+    <text x="930" y="434" class="label">Strategic interpretation</text>
+    <text x="930" y="462" class="sub">Labs read scale as a budget and systems question.</text>
+    <rect x="900" y="508" width="390" height="82" rx="8" fill="#ffffff" stroke="#6b7280" stroke-width="2"/>
+    <text x="930" y="542" class="label">Bounded examples</text>
+    <text x="930" y="570" class="sub">GPT-3 and PaLM remain source-scoped examples.</text>
+
+    <rect x="160" y="704" width="1120" height="72" rx="8" fill="#111827"/>
+    <text x="190" y="735" font-size="20" font-weight="700" fill="#ffffff">Blocked lane</text>
+    <text x="330" y="736" font-size="15" fill="#fde68a">No exact exponent, emergence cliff, truth, safety, cheap inference, revenue, or product-success claim follows from this schematic.</text>
+  </g>
+  <text x="70" y="822" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">Caption contract: use only as a reader map for scaling evidence; numeric curves require extraction from the source figures or tables before publication.</text>
+</svg>
