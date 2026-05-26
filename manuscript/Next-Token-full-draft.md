@@ -81,6 +81,8 @@ The launch became legendary almost immediately, and legends like clean numbers. 
 
 By the first Monday after launch, Sam Altman posted that ChatGPT had crossed one million users. The source is useful, but the metric label matters: "users" did not specify monthly active users, registered accounts, unique visitors, repeat users, or anything like product retention. [S-0092] Two months later, Reuters reported that a UBS study, drawing on Similarweb data, estimated ChatGPT reached 100 million monthly active users in January 2023, with about 13 million daily unique visitors on average. [S-0098; S-0102] That was a different evidence chain and a different metric type.
 
+The public person in this scene is visible only through a public post, and that limit is useful. Altman's one-million-users note can show how quickly the launch became a founder-level signal, but it cannot become a private window into OpenAI's mood, retention, revenue, or strategy. The book gets texture from the timestamp and the ambiguity together: a named executive, a startling number, and a metric that still has to be handled with gloves. [S-0092]
+
 The book will not turn those into one swelling number. That restraint makes the event stronger, not weaker. The one-million post showed launch-week astonishment from the company's public face. The Reuters/UBS/Similarweb chain showed that the public use signal had not evaporated after the novelty rush. Together they tell a story of speed. Separately labeled, they do not pretend to be the same instrument.
 
 The tempting sentence is that ChatGPT was the fastest-growing app in history. The current evidence ledger keeps that headline quarantined. The UBS note itself is not locally captured as a primary artifact, and the comparison class is slippery. The safer sentence is more precise: Reuters, citing UBS and Similarweb data, reported an extraordinary early consumer-app ramp. [C-0010] That is enough. Prize nonfiction should not need a slogan when the facts already have voltage.
@@ -606,6 +608,8 @@ This is why the later data chapter is not a copyright detour or a library sideba
 
 PaLM belongs here as a bounded example of the scaling era moving through a major lab. The PaLM paper presented a large language model trained with Google's Pathways system and framed scaling as part of a broader infrastructure and model-quality push. [S-0016] This chapter should not unpack every PaLM result. That belongs later in the Google chapter. The point here is institutional: by the early 2020s, the scaling bet had become a lab strategy.
 
+A paper like PaLM is therefore also a public trace of an institution making a bet. It turns a lab's internal appetite for scale into a reproducible artifact: authors, model size, training system, benchmark tables, and caveats arranged so other researchers can argue with the claim. The scene is not a secret meeting; it is a technical report becoming a strategy document. [S-0016]
+
 OpenAI, Google, DeepMind, Anthropic, Meta, and later a global field of frontier labs would each build their own version of this logic. Some emphasized closed APIs. Some released open weights. Some optimized inference cost. Some specialized in coding, long context, reasoning, or multilingual coverage. But the shared grammar was visible: choose a Transformer-family architecture, assemble data, spend compute, measure loss and benchmarks, then decide what product surface or release strategy could carry the result.
 
 PaLM also shows why scaling was never only a model story. Infrastructure systems, distributed training, hardware strategy, and organizational patience mattered. [S-0016] A scaling law can fit on a chart. A frontier model requires a factory of people and machines to make the chart real.
@@ -775,6 +779,8 @@ Codex sharpened the point because code is language with consequences. The Codex 
 
 GitHub Copilot brought that action into the editor. GitHub's announcement described a technical preview in Visual Studio Code, powered by OpenAI Codex and built with OpenAI. [S-0070] The location was the story. The model was not in a paper, a web playground, or a lab demo. It was next to the code a developer was already writing. At the cursor, the line between autocomplete and collaboration became psychologically unstable. A completion could be a variable name. It could be a function. It could be a test. It could be wrong in a way that looked plausible enough to review. Copilot did not make the model an engineer, but it made the model a participant in engineering work.
 
+That public product surface gives the chapter a human scale without inventing a private user. The developer in the evidence is any developer looking at a file in VS Code, deciding whether the ghostly suggestion belongs in the project. The drama is small and repeatable: accept, edit, reject, run, debug. A language model entered software work not as a person with judgment, but as a new interruption at the exact place judgment was already required. [S-0070]
+
 Read across those rows, the lineage table becomes a conversion machine. Pretraining converts unlabeled text into representations. Prompting converts context into a task. The API converts a lab model into infrastructure. Codex converts natural language into executable candidate artifacts. Copilot converts the model into an ambient editor surface. The conversion is the chapter's spine.
 
 ### GPT-1 Made Transfer Feel Native
@@ -920,6 +926,8 @@ The base model had learned language from the world. The assistant had to learn m
 
 Anthropic approached the same product problem with a different public grammar. Constitutional AI tried to reduce direct human labeling of harmful outputs by using a list of principles as a source of supervision. In the supervised phase, a model generated critiques and revisions of its own responses; in the reinforcement phase, AI-generated preference judgments helped train the model through reinforcement learning from AI feedback. [S-0019]
 
+The public texture here is written, almost bureaucratic, and that is why it matters. Anthropic made principles part of the training story, turning assistant behavior into something that could be argued over in documents rather than hidden entirely inside weights. The human drama is not a cinematic rescue; it is a lab trying to make behavior legible enough to become identity. [S-0019]
+
 The phrase "constitutional" did a lot of work. It suggested that the assistant should not simply imitate whatever a user or labeler preferred in the moment. It should be shaped by explicit principles. That made the system more inspectable in one sense: the training process could point to a written constitution. It also opened a new set of questions. Who chooses the principles? How are conflicts resolved? How does a model apply a principle outside the examples that trained it? How does the product prevent a principle from becoming a slogan?
 
 For this book, the important point is not that Constitutional AI was the morally superior route or the final answer. The important point is that alignment became a competitive product identity. OpenAI emphasized human feedback, deployment iteration, system cards, and behavior specifications. Anthropic emphasized helpful, harmless, honest assistants and constitutional training. Both were trying to solve the same market problem: a raw model was too willing to continue; a product assistant had to choose.
@@ -978,6 +986,8 @@ That is why alignment belongs before the ChatGPT chapter. The interface event on
 The alignment pipeline visual should not be treated as ornament. It is the chapter's argument compressed into a stack. The first layer is the base model: next-token pretraining gives the system broad continuation ability before assistant behavior is shaped. That layer explains why a model can sound fluent across many domains, but it does not explain why the model should follow a user's instruction, refuse a request, or admit uncertainty. The figure begins there because every later behavior is built on top of that substrate.
 
 The second layer is demonstration. In the InstructGPT pipeline, humans supplied examples of desired behavior and prompts drawn from API use. The quote-safe table now makes the product-post phrasing available too: OpenAI described labelers who would "provide demonstrations" and rank outputs. [S-0074] That phrase is short, but it matters. The assistant did not simply emerge from scale as a finished personality. People showed it what an answer should look like under a particular product goal.
+
+This is one of the book's quiet human scenes. Not the mythic founder onstage, but a labeler comparing answers, writing a better one, or ranking which response better matched the task. The public documents do not give private biography, and the chapter should not invent it. They do show that assistant behavior was shaped through many small acts of judgment before the public saw a single fluent reply. [S-0014] [S-0074]
 
 The third and fourth layers are comparison and reward modeling. Preference comparisons turn a hard-to-write objective into ranked examples. A reward model then learns to predict which output a rater would prefer. [S-0014] This is elegant and dangerous in the same breath. It lets a lab optimize toward qualities that are hard to express as a simple rule. It also creates a proxy. A proxy can be useful, gamed, overoptimized, or quietly misaligned with the situation the user actually cares about.
 
@@ -1081,6 +1091,8 @@ ChatGPT is the moment that behavior met the public: not as a paper, but as an in
 
 
 On November 30, 2022, OpenAI published a product post with a plain invitation: try a conversational model called ChatGPT. The interface did not look like a scientific milestone. It looked like a text box. That was the trick, and also the rupture. A research trajectory that had been moving through papers, demos, APIs, and benchmark tables arrived in the old shape of computing's most forgiving command line: write something, press return, see what comes back. [S-0006]
+
+The launch scene the evidence permits is austere: an official post, a product name, a chat box, and users discovering that the machine would answer back in paragraphs. No private war room is needed. The public surface carries enough tension because the invitation was so ordinary. Try it. Ask. Revise. Wonder whether the answer was useful, wrong, or both. [S-0006] [S-0092]
 
 This is the third conversion in the OpenAI spine. GPT-3 had made the prompt a workbench. InstructGPT and RLHF had made assistant behavior a training target. ChatGPT made the two feel like a public interface. The result was not a straight line of destiny; it was a stack of earlier choices suddenly becoming legible to anyone with a question.
 
@@ -1282,6 +1294,8 @@ Status: Microsoft/OpenAI cloud-bargain strengthening pass promoted in I-0155, 20
 ### The 2019 Bet
 
 Microsoft and OpenAI announced an exclusive computing partnership in July 2019. [S-0125] The announcement framed Microsoft as OpenAI's preferred partner for commercializing new AI technologies and said the companies would work on Azure AI supercomputing technologies. [S-0125] The timing matters. This was before ChatGPT, before the public interface shock, and before "generative AI" became a boardroom reflex. Microsoft was buying into a hypothesis before the category had a mass-market face.
+
+That is the public decision scene: not a consumer spectacle, but a cloud company and a model lab naming each other before the market knew what to call the category. The document lets the reader see two organizations choosing dependency early. OpenAI needed scale it could not casually rent; Microsoft needed a frontier workload that could make Azure feel strategically distinct. [S-0125] [S-0126]
 
 The bet had two layers. The first was straightforward: frontier AI would require large-scale compute. The second was more strategic: if large-scale compute became the scarce input for frontier AI, then the cloud provider that could supply it would not merely rent servers. It would shape the frontier's route to market.
 
@@ -1669,6 +1683,8 @@ A code model has a natural community of testers. Developers can run completions 
 Code Llama also changed the politics of developer tooling. If coding assistance required only a closed API, then the provider controlled availability, price, update cadence, data policy, and model behavior. If open code models were good enough for some tasks, then editor vendors, enterprises, and individual developers had more bargaining power. They could choose between hosted frontier quality and local control. They could run smaller models for privacy-sensitive workflows. They could experiment without sending every prompt to a remote provider.
 
 The safe claim is not that Code Llama beat Copilot, Codex, Claude Code, or any later coding agent. It did not, by itself, industrialize repository work. It was a model branch, not a complete agent system with permissions, test loops, and human review. But it mattered because it made code capability part of the open-weight ecosystem early. [S-0025] Later coding-agent chapters can build on that distinction: a code model predicts code; an agent works inside a tool environment.
+
+The open-weight scene is a release artifact meeting a builder. A model card, a repository, a license, and weights do not have the romance of a keynote, but they change who can touch the system. The character is not a single heroic user; it is the adopter who now has to download, host, evaluate, fine-tune, secure, and explain what the release made possible and what it left unfinished. [S-0025] [S-0111] [S-0112]
 
 This is one reason Meta's strategy cannot be reduced to generosity. Open-weight code models seeded demand for inference stacks, hardware optimization, quantization, fine-tuning services, safety tools, and developer products. They made Meta's model family a substrate for other people's businesses and research. Even when Meta did not directly monetize every use, it gained influence over the default architecture of the ecosystem.
 
@@ -2754,6 +2770,10 @@ The phrase was stagecraft, but it named a real pressure, and pressure changes st
 
 The AI factory was persuasive on a keynote screen because it turned tokens into industrial destiny. Then the metaphor hit the ground. A factory needs a site, a substation, cooling, transformers, permits, and time; after the applause, the book walks out of the convention hall and into the physical internet that has to carry the promise. [S-0083] [S-0084] [S-0086] [S-0087]
 
+GTC gives the book a public stage without pretending the stage is neutral. NVIDIA's deck can show how the company wanted the world to see the transition: systems, roadmaps, partners, and the AI-factory frame arranged as an industrial story. The reader should feel the salesmanship and the constraint at the same time. A slide can announce a frame; a grid connection has to survive physics, capital, and time. [S-0001] [S-0206]
+
+Jensen Huang belongs here as a public stage figure, not as an invented inner life. NVIDIA's own event framing made the CEO and the keynote part of the evidence surface: the company was not merely publishing specifications; it was asking customers, partners, investors, and governments to imagine accelerated computing as industrial infrastructure. The character work is therefore rhetorical and public: who gets to name the factory, and who has to build it? [S-0001] [S-0206]
+
 <a id="chapter-16-datacenters-power-and-the-physical-internet"></a>
 
 # Chapter 16: Datacenters, Power, and the Physical Internet
@@ -3497,6 +3517,8 @@ Autocomplete made the first generation of AI coding tools feel like a faster key
 
 Claude Code marked a different product idea: put the model in the terminal, give it a view of the repository, let it inspect files, propose edits, run commands, and iterate against errors. Anthropic introduced Claude Code alongside Claude 3.7 Sonnet in February 2025 as a command-line tool for agentic coding. [S-0048] By the Claude 4 launch in May 2025, Anthropic framed coding and agentic work as central to the model family, with Claude Opus 4 and Claude Sonnet 4 positioned around software engineering, long-running tasks, and benchmark performance. [S-0007]
 
+The scene is not the agent magically writing software alone. It is a developer at a terminal deciding how much authority to grant: read this file, inspect that error, edit this branch, run that test, stop before touching the dangerous command. The documentation makes the drama procedural, which is exactly the point. Agency becomes a permissions interface before it becomes a productivity story. [S-0048] [S-0050] [S-0051]
+
 The important change was not that code became another text genre. That had already happened. Codex showed in 2021 that a GPT-style model trained on code could synthesize Python programs and made HumanEval part of the shared language of code-model evaluation. [S-0052] GitHub Copilot made model-written code part of the ordinary editing loop. AlphaCode showed a different path, using large-scale sampling and reranking to compete in programming contests. [S-0053] Code Llama and other open code models spread the capability beyond a single vendor. [S-0025]
 
 Claude Code belonged to the next phase because it treated software engineering as repository work. The agent did not merely predict a function body. It could ask, "What is this project?" It could search. It could read tests. It could edit several files. It could run a command and respond to the failure. The unit of interaction shifted from completion to task.
@@ -4116,6 +4138,8 @@ Fluency became trust work because prose is seductive. A wrong answer in fluent l
 This is why the ledgers behind the book matter even when the reader never sees their raw form. A history of LLMs is unusually exposed to claim drift. Model names change. Leaderboards move. Prices change. Context windows, tool access, safety policies, and product bundles mutate. A live page can be true on one date and misleading on another. The book's source rows, capture notes, claim blockers, and asset manifest are a small nonfiction version of the trust stack it describes: provenance before confidence, permission before rhetoric, source scope before elegance.
 
 That stance should not make the prose timid. Restraint is not the opposite of force. It is what lets force survive contact with evidence. The strongest sentence is often the one that refuses one extra inch of drama. ChatGPT can be a shock without becoming proof of public panic. Claude Code can be important without proving autonomous software engineering. A data-center load forecast can matter without becoming destiny. A benchmark can reveal compression at the frontier without naming the permanent champion. A price table can explain the meter without exposing margin. A system card can be a primary source without becoming a guarantee. That is the book's contract with the reader. [CH24SYN-008; CH24SYN-011]
+
+The final human scene is the reader doing verification. A confident answer, a system card, a benchmark row, a price table, or a roadmap slide all ask for belief. The book's job is to slow that belief down without killing curiosity: who said this, what did they measure, what did they omit, and what would make the claim false? [S-0005] [S-0056] [S-0057]
 
 What, then, was still unsettled by the cutoff?
 

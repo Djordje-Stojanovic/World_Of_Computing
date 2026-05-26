@@ -469,3 +469,7 @@ A visual replacement is not done while the manuscript still names the old weak a
 ## 2026-05-26 - I-0274 Reader Pull
 
 Chapter endings should not merely announce the next topic. The stronger pattern is a sourced pressure turn: restate what just changed, name the unresolved cost or risk, and make the next chapter feel like the answer to a live problem.
+
+## 2026-05-26 - I-0275 Public Scenes
+
+Public documents can carry scene when the prose treats them as surfaces of action: a product post, repo, terminal, model card, deck, or policy page shows what people and institutions chose to expose without inventing private rooms or motives.

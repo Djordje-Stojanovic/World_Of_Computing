@@ -1,0 +1,10 @@
+check	status	note
+scene_count	pass	Recorded 12 scenes; present in manuscript: 12.
+chapter_spread	pass	Scene chapters: CH01,CH04,CH05,CH06,CH07,CH08,CH10,CH12,CH15,CH20,CH24.
+word_count_in_bounds	pass	Word count is 102754; delta 812.
+chapter_count_24	pass	Chapter count is 24.
+figure_callouts_preserved	pass	Figure callout count is 94.
+source_refs_not_reduced	pass	Source reference count is 545.
+public_evidence_only	pass	No private interiority, secret-room, or speculative-motive language in added scenes.
+quote_control	pass	Quoted fragments in added scenes: 0.
+scene_modes_diverse	pass	Scene modes: 12.
