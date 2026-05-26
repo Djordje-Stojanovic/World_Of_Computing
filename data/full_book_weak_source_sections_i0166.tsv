@@ -1,0 +1,25 @@
+chapter	weak_section_count	zero_source_sections	over_400_words_per_source_sections	representative_weak_sections	repair_lane
+01	2	2	0	The Answer That Lied Beautifully (0 ids); The Central Question (0 ids)	Add source IDs or relabel as essay/synthesis sections.
+02	4	2	2	The Older Machine (0 ids); The Geometry Of Meaning (405 w/source); What Attention Changed (478 w/source); The Hidden Continuity (0 ids)	Add canonical paper citations at point of use.
+03	1	1	0	What The Transformer Did Not Solve (0 ids)	Attach Transformer limitation/source-boundary IDs.
+04	1	1	0	What Scaling Did Not Buy (0 ids)	Attach measured/modeled/interpretive source IDs.
+05	2	1	1	The Platform Primitive (0 ids); The API Made Distribution A Technical Fact (406 w/source)	Add GPT/API post citations locally.
+06	4	3	1	The Assistant As A Bundle (0 ids); The Alignment Tax And The Product Trade (402 w/source); Why Refusal Became A New Interface Genre (0 ids); ChatGPT Was The Alignment Demo The Public Could Touch (0 ids)	Use alignment quote-safe rows and local source-role notes.
+07	5	2	3	The Product Was A Training Method With A Face (475 w/source); The Disappearing Manual (0 ids); What The Interface Hid (558 w/source); Why Everyone Had To Answer (498 w/source)	Move adoption/product/reception citations to the exact paragraphs that use them.
+08	5	5	0	The Backend Becomes The Plot (0 ids); The Risk Of Mutual Dependence (0 ids); Search, Office, And The Incumbent's Revenge (0 ids); Inference Is The Rent (0 ids)	Add partnership/cloud/Copilot source IDs section by section.
+09	2	2	0	The Company That Had Already Built the Future (0 ids); Handoff To The Open Race (0 ids)	Add Google/DeepMind source IDs to framing sections.
+10	2	2	0	The Control Stack (0 ids); What Llama Changed (0 ids)	Add Llama source IDs and control-stack audit refs locally.
+11	4	4	0	A Different Kind Of Openness (0 ids); The Missing Rows Are Part Of The Story (0 ids); Why The Frontier Became Multipolar (0 ids); What This Chapter Can Say Today (0 ids)	Add gap-lane references and lab-specific source IDs before prose expansion.
+12	4	3	1	The Race Outside the Center (0 ids); What "Rest of Frontier" Cannot Be Allowed to Mean (0 ids); The Frontier as a Portfolio (0 ids); The Lab That Made Behavior Its Brand (556 w/source)	Resolve chapter conflict, then cite Anthropic/rest-frontier lanes separately.
+13	2	1	1	The Historical Slice (474 w/source); The Editorial Contract (0 ids)	Add snapshot/scaffold IDs and rank-use prohibition locally.
+14	4	3	1	The Invisible Platform Under The Miracle (475 w/source); Parallelism Becomes A Habit (0 ids); What The NVIDIA Chapter Must Not Do (0 ids); What The Hardware Middle Must Do (0 ids)	Add CUDA/GPU/source-role IDs to guardrail sections.
+15	2	2	0	From Tokens To Capital Equipment (0 ids); The Hinge Chapter (0 ids)	Add GTC page IDs and roadmap labels to stagecraft sections.
+16	4	2	2	The Queue Behind The Plug (562 w/source); From Tokens Back To Land (0 ids); Useful Capacity Is Not Nameplate Capacity (896 w/source); The Race For The Right To Plug In (0 ids)	Split measured, forecast, advisory, survey, and photo evidence lanes.
+17	4	4	0	The Library Before the Factory (0 ids); Synthetic Data and the Second Library (0 ids); The Data Moat Is A Process (0 ids); What This Chapter Still Refuses (0 ids)	Add corpus/tokenization/source IDs at section openings and blockers.
+18	4	1	3	Retrieval: Memory Without Memory (638 w/source); Function Calling: The Model As Router (439 w/source); Prompt Injection: The Instruction/Data Problem Returns (420 w/source); What Changed, And What Did Not (0 ids)	Add harness/source-role citations inside each mechanism section.
+19	5	3	2	The New Shape Of Reading (0 ids); The Contest Laboratory (458 w/source); Open Code Models And The Diffusion Of Skill (462 w/source); The Repository Becomes The Prompt (0 ids)	Add benchmark/code-source IDs and productivity blockers.
+20	1	1	0	What The Agent Still Cannot Own (0 ids)	Add Claude Code docs and benchmark blocker IDs.
+21	1	0	1	opening (403 w/source)	Split the chapter into sourced mechanism sections with inference-contract fields.
+22	3	3	0	The Meter Appears (0 ids); The Subsidy Question (0 ids); Intelligence as a Layer (0 ids)	Add exact price/source IDs and margin blockers.
+23	0	0	0	none detected by section heuristic	Split long chapter body anyway so density remains visible in final layout.
+24	1	1	0	opening (0 ids)	Add source/claim bridge rows to the final synthesis.
