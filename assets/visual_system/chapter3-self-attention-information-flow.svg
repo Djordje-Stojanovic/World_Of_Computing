@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Self-Attention Information Flow</title>
+  <desc id="desc">A simplified Transformer self-attention schematic showing tokens, position signals, query/key/value projections, attention weights, multi-head mixing, and a feed-forward wrapper.</desc>
+  <rect width="1200" height="760" fill="#f8faf9"/>
+  <text x="70" y="72" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#111827">Attention is a mixing operation, not a mind</text>
+  <text x="70" y="108" font-family="Arial, sans-serif" font-size="17" fill="#4b5563">Source lane: S-0002 and S-0108. Simplified from the Transformer paper; not a full modern LLM implementation.</text>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#365e8c"/>
+    </marker>
+  </defs>
+  <g font-family="Arial, sans-serif">
+    <rect x="80" y="185" width="170" height="82" rx="8" fill="#ffffff" stroke="#365e8c" stroke-width="3"/>
+    <text x="105" y="218" font-size="19" font-weight="700" fill="#111827">Tokens</text>
+    <text x="105" y="246" font-size="14" fill="#4b5563">word pieces enter</text>
+    <rect x="80" y="300" width="170" height="82" rx="8" fill="#ffffff" stroke="#365e8c" stroke-width="3"/>
+    <text x="105" y="333" font-size="19" font-weight="700" fill="#111827">Position signal</text>
+    <text x="105" y="361" font-size="14" fill="#4b5563">order is supplied</text>
+    <line x1="250" y1="226" x2="318" y2="278" stroke="#365e8c" stroke-width="3" marker-end="url(#arrow)"/>
+    <line x1="250" y1="341" x2="318" y2="304" stroke="#365e8c" stroke-width="3" marker-end="url(#arrow)"/>
+    <rect x="320" y="220" width="180" height="150" rx="8" fill="#eef5ff" stroke="#365e8c" stroke-width="3"/>
+    <text x="348" y="254" font-size="20" font-weight="700" fill="#111827">Projection</text>
+    <text x="348" y="287" font-size="15" fill="#1f2937">Query</text>
+    <text x="348" y="314" font-size="15" fill="#1f2937">Key</text>
+    <text x="348" y="341" font-size="15" fill="#1f2937">Value</text>
+    <line x1="500" y1="295" x2="575" y2="295" stroke="#365e8c" stroke-width="3" marker-end="url(#arrow)"/>
+    <rect x="580" y="194" width="210" height="202" rx="8" fill="#ffffff" stroke="#6b7280" stroke-width="2"/>
+    <text x="610" y="233" font-size="20" font-weight="700" fill="#111827">Compare Q to K</text>
+    <text x="610" y="264" font-size="15" fill="#4b5563">Which token positions</text>
+    <text x="610" y="289" font-size="15" fill="#4b5563">should shape this one?</text>
+    <path d="M625 330 C655 300 705 300 735 330" fill="none" stroke="#d97706" stroke-width="4"/>
+    <circle cx="625" cy="330" r="8" fill="#d97706"/>
+    <circle cx="735" cy="330" r="8" fill="#d97706"/>
+    <line x1="790" y1="295" x2="864" y2="295" stroke="#365e8c" stroke-width="3" marker-end="url(#arrow)"/>
+    <rect x="870" y="220" width="230" height="150" rx="8" fill="#e8f1ec" stroke="#5f8c78" stroke-width="3"/>
+    <text x="900" y="254" font-size="20" font-weight="700" fill="#111827">Mix values</text>
+    <text x="900" y="286" font-size="15" fill="#35524f">Weighted value mixture</text>
+    <text x="900" y="313" font-size="15" fill="#35524f">per attention head</text>
+    <text x="900" y="340" font-size="15" fill="#35524f">then concatenate</text>
+    <rect x="180" y="470" width="260" height="98" rx="8" fill="#fff4d8" stroke="#c99a3a" stroke-width="2"/>
+    <text x="205" y="506" font-size="20" font-weight="700" fill="#111827">Multi-head branch</text>
+    <text x="205" y="536" font-size="15" fill="#5a4a1d">Several learned relation channels operate in parallel.</text>
+    <rect x="500" y="470" width="260" height="98" rx="8" fill="#ffffff" stroke="#6b7280" stroke-width="2"/>
+    <text x="525" y="506" font-size="20" font-weight="700" fill="#111827">Feed-forward block</text>
+    <text x="525" y="536" font-size="15" fill="#4b5563">Position-wise transformation after mixing.</text>
+    <rect x="820" y="470" width="260" height="98" rx="8" fill="#111827"/>
+    <text x="845" y="506" font-size="20" font-weight="700" fill="#ffffff">Guardrail</text>
+    <text x="845" y="536" font-size="15" fill="#fde68a">No intention, truth, grounding, or stable human-readable head role is implied.</text>
+    <path d="M985 370 C980 430 820 430 695 470" fill="none" stroke="#5f8c78" stroke-width="3" marker-end="url(#arrow)"/>
+    <line x1="440" y1="520" x2="492" y2="520" stroke="#c99a3a" stroke-width="3" marker-end="url(#arrow)"/>
+    <line x1="760" y1="520" x2="812" y2="520" stroke="#6b7280" stroke-width="3" marker-end="url(#arrow)"/>
+  </g>
+  <text x="70" y="704" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">Caption contract: Self-attention routes information among token positions; it does not make distance free, explain consciousness, or license full production-model implementation claims.</text>
+</svg>

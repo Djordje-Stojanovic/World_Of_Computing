@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Scaling Evidence-Lane Chart</title>
+  <desc id="desc">A schematic scaling-law permission chart separating measured loss, modeled extrapolation, industry interpretation, bounded examples, and blocked product claims.</desc>
+  <rect width="1200" height="760" fill="#fbfaf7"/>
+  <text x="70" y="72" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#111827">Loss is a map, not a product guarantee</text>
+  <text x="70" y="108" font-family="Arial, sans-serif" font-size="17" fill="#4b5563">Source lane: S-0003, S-0015, S-0004, S-0016. Schematic only; no exact exponent or benchmark value is plotted.</text>
+  <g font-family="Arial, sans-serif">
+    <line x1="130" y1="535" x2="710" y2="535" stroke="#111827" stroke-width="4"/>
+    <line x1="130" y1="535" x2="130" y2="190" stroke="#111827" stroke-width="4"/>
+    <text x="310" y="584" font-size="20" font-weight="700" fill="#111827">more training compute / data / parameters</text>
+    <text x="70" y="350" font-size="20" font-weight="700" fill="#111827" transform="rotate(-90 70 350)">loss / error proxy</text>
+    <path d="M155 485 C250 390 330 338 430 302 C530 266 612 236 690 215" fill="none" stroke="#25636f" stroke-width="7"/>
+    <path d="M430 302 C520 252 610 218 700 192" fill="none" stroke="#d08b25" stroke-width="4" stroke-dasharray="12 10"/>
+    <circle cx="238" cy="401" r="10" fill="#25636f"/>
+    <circle cx="430" cy="302" r="10" fill="#25636f"/>
+    <circle cx="640" cy="229" r="10" fill="#25636f"/>
+    <rect x="760" y="172" width="360" height="78" rx="8" fill="#e8f1ec" stroke="#5f8c78" stroke-width="2"/>
+    <text x="788" y="205" font-size="19" font-weight="700" fill="#111827">Measured lane</text>
+    <text x="788" y="231" font-size="14" fill="#35524f">Observed loss/performance within a study scope</text>
+    <rect x="760" y="268" width="360" height="78" rx="8" fill="#fff4d8" stroke="#c99a3a" stroke-width="2"/>
+    <text x="788" y="301" font-size="19" font-weight="700" fill="#111827">Modeled extrapolation lane</text>
+    <text x="788" y="327" font-size="14" fill="#5a4a1d">Fit and forecast are not the same as history</text>
+    <rect x="760" y="364" width="360" height="78" rx="8" fill="#eef2ff" stroke="#5b6fa6" stroke-width="2"/>
+    <text x="788" y="397" font-size="19" font-weight="700" fill="#111827">Industry interpretation lane</text>
+    <text x="788" y="423" font-size="14" fill="#374162">Scaling becomes strategy, not proof of outcome</text>
+    <rect x="760" y="460" width="360" height="78" rx="8" fill="#ffffff" stroke="#6b7280" stroke-width="2"/>
+    <text x="788" y="493" font-size="19" font-weight="700" fill="#111827">Bounded examples lane</text>
+    <text x="788" y="519" font-size="14" fill="#4b5563">GPT-3 and PaLM are cited only at their source scope</text>
+    <rect x="150" y="615" width="970" height="70" rx="8" fill="#111827"/>
+    <text x="180" y="646" font-size="20" font-weight="700" fill="#ffffff">Blocked lane</text>
+    <text x="310" y="647" font-size="15" fill="#fde68a">No emergence cliff, truth, safety, cheap inference, revenue, product success, or trust claim follows from this curve.</text>
+  </g>
+  <text x="130" y="168" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">Lower is better</text>
+  <text x="70" y="724" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">Caption contract: scaling evidence supports measured and modeled tradeoffs only after row-level extraction; product and social claims need separate same-scope evidence.</text>
+</svg>

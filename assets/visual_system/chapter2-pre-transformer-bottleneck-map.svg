@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Pre-Transformer Bottleneck Map</title>
+  <desc id="desc">A pressure-chain diagram from sparse counts through embeddings, recurrent state, encoder-decoder bottlenecks, attention relief, and the Transformer handoff.</desc>
+  <rect width="1200" height="760" fill="#fbfaf7"/>
+  <text x="70" y="72" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#17202a">The bottleneck before the breakthrough</text>
+  <text x="70" y="108" font-family="Arial, sans-serif" font-size="17" fill="#4b5563">Source lane: S-0104, S-0105, S-0106, S-0107, S-0002. Pressure chain, not a complete NLP history.</text>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#315f72"/>
+    </marker>
+  </defs>
+  <g font-family="Arial, sans-serif">
+    <rect x="70" y="175" width="176" height="128" rx="8" fill="#ffffff" stroke="#315f72" stroke-width="3"/>
+    <text x="94" y="215" font-size="20" font-weight="700" fill="#17202a">Sparse counts</text>
+    <text x="94" y="246" font-size="14" fill="#4b5563">N-gram context</text>
+    <text x="94" y="270" font-size="14" fill="#4b5563">thins out fast</text>
+    <rect x="282" y="175" width="176" height="128" rx="8" fill="#ffffff" stroke="#315f72" stroke-width="3"/>
+    <text x="306" y="215" font-size="20" font-weight="700" fill="#17202a">Representations</text>
+    <text x="306" y="246" font-size="14" fill="#4b5563">Words become</text>
+    <text x="306" y="270" font-size="14" fill="#4b5563">learned vectors</text>
+    <rect x="494" y="175" width="176" height="128" rx="8" fill="#ffffff" stroke="#315f72" stroke-width="3"/>
+    <text x="518" y="215" font-size="20" font-weight="700" fill="#17202a">Sequence state</text>
+    <text x="518" y="246" font-size="14" fill="#4b5563">Recurrent models</text>
+    <text x="518" y="270" font-size="14" fill="#4b5563">carry context stepwise</text>
+    <rect x="706" y="175" width="176" height="128" rx="8" fill="#ffffff" stroke="#315f72" stroke-width="3"/>
+    <text x="730" y="215" font-size="20" font-weight="700" fill="#17202a">Fixed vector</text>
+    <text x="730" y="246" font-size="14" fill="#4b5563">Seq2seq compresses</text>
+    <text x="730" y="270" font-size="14" fill="#4b5563">before decoding</text>
+    <rect x="918" y="175" width="212" height="128" rx="8" fill="#e5f0ed" stroke="#5d8d83" stroke-width="3"/>
+    <text x="942" y="215" font-size="20" font-weight="700" fill="#17202a">Attention relief</text>
+    <text x="942" y="246" font-size="14" fill="#35524f">Decoder can address</text>
+    <text x="942" y="270" font-size="14" fill="#35524f">source positions</text>
+    <line x1="246" y1="239" x2="274" y2="239" stroke="#315f72" stroke-width="3" marker-end="url(#arrow)"/>
+    <line x1="458" y1="239" x2="486" y2="239" stroke="#315f72" stroke-width="3" marker-end="url(#arrow)"/>
+    <line x1="670" y1="239" x2="698" y2="239" stroke="#315f72" stroke-width="3" marker-end="url(#arrow)"/>
+    <line x1="882" y1="239" x2="910" y2="239" stroke="#315f72" stroke-width="3" marker-end="url(#arrow)"/>
+    <path d="M1024 303 C1024 392 768 425 612 425 C455 425 250 398 158 505" fill="none" stroke="#a8772b" stroke-width="4" marker-end="url(#arrow)"/>
+    <rect x="70" y="505" width="380" height="118" rx="8" fill="#fff4d8" stroke="#c99a3a" stroke-width="2"/>
+    <text x="96" y="543" font-size="22" font-weight="700" fill="#17202a">Transformer handoff</text>
+    <text x="96" y="574" font-size="15" fill="#5a4a1d">Make relations inside the sequence addressable, then repeat the block at scale.</text>
+    <rect x="540" y="500" width="590" height="128" rx="8" fill="#17202a"/>
+    <text x="568" y="537" font-size="21" font-weight="700" fill="#ffffff">Blocked caption</text>
+    <text x="568" y="568" font-size="15" fill="#f7e7ba">Not first-invention history, not a state-of-the-art chart, not attention as consciousness.</text>
+    <text x="568" y="594" font-size="15" fill="#f7e7ba">The figure explains pressure and handoff only.</text>
+  </g>
+  <text x="70" y="704" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">Caption contract: Figure 2.x shows technical pressures that made attention and Transformer blocks useful; every priority, adoption, and ranking claim remains outside this schematic.</text>
+</svg>
