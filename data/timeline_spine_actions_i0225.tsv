@@ -1,0 +1,9 @@
+action_id	priority	scope	action	blocker_or_gate
+I0225-ACT-001	high	Master timeline	Use A-0220 as a navigation spine only; do not compress all 24 chapters into a claim-dense final figure until page proof passes.	Master timeline is orientation, not a replacement for chapter-level source notes.
+I0225-ACT-002	high	Chapter strips	Generate individual chapter-local strips from TL-01 through TL-24 only after final chapter order and figure numbering are stable.	Blocks premature layout churn.
+I0225-ACT-003	high	Cutoff handling	Every strip that reaches 2026 must show May 24, 2026 as the hard history boundary; roadmap/forecast lanes must be visually different.	Blocks post-cutoff events written as history.
+I0225-ACT-004	high	Chapter 16	Forecast/scenario dates such as 2028 must use a forecast/scenario lane, not the happened-history rail.	Blocks scenario-as-history.
+I0225-ACT-005	medium	Chapter 11	Keep unsupported frontier-lab/version rows as source-permission gaps instead of timeline points.	Blocks national logo parade and unsupported release claims.
+I0225-ACT-006	medium	Timeline style	Apply I-0224 time motif consistently: brass ticks for dated events, red cutoff tick, muted forecast lane.	Requires render proof at final scale.
+I0225-ACT-007	medium	Caption QA	Add "date type" to future caption audits: happened, source-published, roadmap, forecast/scenario, mutable-page snapshot, support-pending.	Prevents ambiguous time language.
+I0225-ACT-008	medium	Render QA	Test A-0220 and A-0221 at half-page and full-spread sizes; if labels fail, use the TSV as production source for smaller per-chapter strips.	Page-image proof remains required.

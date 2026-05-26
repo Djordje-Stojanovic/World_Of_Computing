@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Master timeline spine</title>
+  <desc id="desc">A whole-book timeline spine from early language modeling through the May 24 2026 cutoff, with chapter clusters and forecast/roadmap caveats.</desc>
+  <style>.bg{fill:#f7f5ef}.ink{fill:#20242a}.muted{fill:#5f6872}.rail{stroke:#b7791f;stroke-width:5}.tick{stroke:#b7791f;stroke-width:3}.cutoff{stroke:#c2412d;stroke-width:5}.card{fill:#fffdf7;stroke:#d8d2c5;stroke-width:2}.early{fill:#e7f3ed;stroke:#0f8b6f;stroke-width:2}.product{fill:#eaf1ff;stroke:#2563eb;stroke-width:2}.industry{fill:#fff4e1;stroke:#b7791f;stroke-width:2}.trust{fill:#fff0ec;stroke:#c2412d;stroke-width:2}.title{font-family:Arial,Helvetica,sans-serif;font-size:44px;font-weight:700}.h{font-family:Arial,Helvetica,sans-serif;font-size:22px;font-weight:700}.body{font-family:Arial,Helvetica,sans-serif;font-size:17px}.tiny{font-family:Arial,Helvetica,sans-serif;font-size:13px}</style>
+  <rect class="bg" width="1600" height="900"/>
+  <text class="title ink" x="70" y="88">Master Timeline Spine</text>
+  <text class="body muted" x="70" y="122">Orientation rail for the 24-chapter book. Forecasts, roadmaps, and support-pending lanes are not happened history.</text>
+  <line class="rail" x1="120" y1="420" x2="1460" y2="420"/>
+  <line class="tick" x1="150" y1="390" x2="150" y2="450"/><text class="tiny muted" x="118" y="470">2003</text>
+  <line class="tick" x1="410" y1="390" x2="410" y2="450"/><text class="tiny muted" x="378" y="470">2017</text>
+  <line class="tick" x1="645" y1="390" x2="645" y2="450"/><text class="tiny muted" x="613" y="470">2020</text>
+  <line class="tick" x1="845" y1="390" x2="845" y2="450"/><text class="tiny muted" x="813" y="470">2022</text>
+  <line class="tick" x1="1060" y1="390" x2="1060" y2="450"/><text class="tiny muted" x="1028" y="470">2024</text>
+  <line class="cutoff" x1="1360" y1="365" x2="1360" y2="475"/><text class="tiny" x="1310" y="500" fill="#c2412d">May 24 2026 cutoff</text>
+  <rect class="card early" x="90" y="205" width="300" height="115" rx="8"/><text class="h ink" x="120" y="247">Ch. 2-4: Mechanism</text><text class="body muted" x="120" y="280">language models, attention,</text><text class="body muted" x="120" y="306">Transformer, scaling</text>
+  <rect class="card product" x="430" y="205" width="330" height="115" rx="8"/><text class="h ink" x="460" y="247">Ch. 5-9: Product Turn</text><text class="body muted" x="460" y="280">GPT, alignment, ChatGPT,</text><text class="body muted" x="460" y="306">Microsoft, Google/Gemini</text>
+  <rect class="card early" x="805" y="205" width="300" height="115" rx="8"/><text class="h ink" x="835" y="247">Ch. 10-13: Frontier</text><text class="body muted" x="835" y="280">open weights, China lanes,</text><text class="body muted" x="835" y="306">Claude, measurements</text>
+  <rect class="card industry" x="90" y="545" width="365" height="115" rx="8"/><text class="h ink" x="120" y="587">Ch. 14-16: Industrial Stack</text><text class="body muted" x="120" y="620">CUDA, GTC stagecraft,</text><text class="body muted" x="120" y="646">power and facility constraints</text>
+  <rect class="card product" x="500" y="545" width="365" height="115" rx="8"/><text class="h ink" x="530" y="587">Ch. 17-20: Data To Action</text><text class="body muted" x="530" y="620">tokens, corpora, tools,</text><text class="body muted" x="530" y="646">code, coding agents</text>
+  <rect class="card trust" x="910" y="545" width="390" height="115" rx="8"/><text class="h ink" x="940" y="587">Ch. 21-24: Reasoning To Trust</text><text class="body muted" x="940" y="620">test-time compute, economics,</text><text class="body muted" x="940" y="646">failure modes, synthesis</text>
+  <path d="M240 320 V420 M595 320 V420 M955 320 V420 M275 545 V420 M680 545 V420 M1105 545 V420" stroke="#d8d2c5" stroke-width="2"/>
+  <rect class="card" x="70" y="735" width="1270" height="82" rx="8"/><text class="body ink" x="100" y="774">Rule: date type must be visible: happened, source-published, roadmap, forecast/scenario, mutable-page snapshot, or support-pending.</text><text class="tiny muted" x="100" y="802">Source: data/timeline_spine_package_i0225.tsv. Original SVG planning art; not final page proof.</text>
+</svg>

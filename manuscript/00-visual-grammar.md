@@ -71,6 +71,8 @@ First uses:
 
 Prototype: `assets/visual_system/chronology-rail-prototype.svg`.
 
+Whole-book spine package: `data/timeline_spine_package_i0225.tsv`, with master orientation art in `assets/visual_system/master-timeline-spine-i0225.svg` and chapter-strip atlas art in `assets/visual_system/chapter-timeline-strip-atlas-i0225.svg`.
+
 ### 2. System Stack Diagrams
 
 Use for mechanisms: Transformer block, RLHF, RAG, tool use, coding-agent loops, AI factories.

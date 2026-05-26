@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Chapter timeline strip atlas</title>
+  <desc id="desc">A planning atlas for chapter-local timeline strips across all 24 chapters, grouped by book act and governed by the May 24 2026 cutoff.</desc>
+  <style>.bg{fill:#f7f5ef}.ink{fill:#20242a}.muted{fill:#5f6872}.card{fill:#fffdf7;stroke:#d8d2c5;stroke-width:2}.rail{stroke:#b7791f;stroke-width:3}.cut{stroke:#c2412d;stroke-width:4}.dot{fill:#0f8b6f}.road{fill:#fff4e1;stroke:#b7791f;stroke-width:2}.title{font-family:Arial,Helvetica,sans-serif;font-size:42px;font-weight:700}.h{font-family:Arial,Helvetica,sans-serif;font-size:18px;font-weight:700}.tiny{font-family:Arial,Helvetica,sans-serif;font-size:12px}.body{font-family:Arial,Helvetica,sans-serif;font-size:15px}</style>
+  <rect class="bg" width="1600" height="1000"/>
+  <text class="title ink" x="60" y="78">Chapter Timeline Strip Atlas</text>
+  <text class="body muted" x="60" y="112">Each local strip inherits the same grammar: source-dated ticks, a red cutoff when needed, and blocked-claim text nearby.</text>
+  <g transform="translate(60,155)">
+    <rect class="card" width="700" height="210" rx="8"/><text class="h ink" x="28" y="38">Act I - Mechanism And Public Shock</text>
+    <line class="rail" x1="30" y1="82" x2="650" y2="82"/><circle class="dot" cx="60" cy="82" r="6"/><circle class="dot" cx="205" cy="82" r="6"/><circle class="dot" cx="330" cy="82" r="6"/><circle class="dot" cx="470" cy="82" r="6"/><line class="cut" x1="600" y1="55" x2="600" y2="110"/>
+    <text class="tiny muted" x="28" y="125">Ch.1 public shock</text><text class="tiny muted" x="170" y="125">Ch.2 prehistory</text><text class="tiny muted" x="300" y="125">Ch.3 attention</text><text class="tiny muted" x="445" y="125">Ch.4 scaling</text>
+    <text class="tiny muted" x="28" y="170">Gate: no merged adoption metric, no first-invention story, no universal scaling claim.</text>
+  </g>
+  <g transform="translate(840,155)">
+    <rect class="card" width="700" height="210" rx="8"/><text class="h ink" x="28" y="38">Act II - Products, Platforms, Frontier Labs</text>
+    <line class="rail" x1="30" y1="82" x2="650" y2="82"/><circle class="dot" cx="70" cy="82" r="6"/><circle class="dot" cx="180" cy="82" r="6"/><circle class="dot" cx="285" cy="82" r="6"/><circle class="dot" cx="390" cy="82" r="6"/><circle class="dot" cx="500" cy="82" r="6"/><line class="cut" x1="610" y1="55" x2="610" y2="110"/>
+    <text class="tiny muted" x="28" y="125">Ch.5 GPT</text><text class="tiny muted" x="138" y="125">Ch.6 RLHF</text><text class="tiny muted" x="250" y="125">Ch.7 ChatGPT</text><text class="tiny muted" x="360" y="125">Ch.8-9 cloud/Google</text><text class="tiny muted" x="500" y="125">Ch.10-13 frontier/eval</text>
+    <text class="tiny muted" x="28" y="170">Gate: product launches are not adoption, revenue, or benchmark proof.</text>
+  </g>
+  <g transform="translate(60,430)">
+    <rect class="card" width="700" height="210" rx="8"/><text class="h ink" x="28" y="38">Act III - Industrial Stack</text>
+    <line class="rail" x1="30" y1="82" x2="650" y2="82"/><circle class="dot" cx="120" cy="82" r="6"/><circle class="dot" cx="260" cy="82" r="6"/><circle class="dot" cx="400" cy="82" r="6"/><rect class="road" x="500" y="62" width="85" height="40" rx="6"/><line class="cut" x1="470" y1="55" x2="470" y2="110"/>
+    <text class="tiny muted" x="90" y="125">Ch.14 CUDA</text><text class="tiny muted" x="230" y="125">Ch.15 GTC</text><text class="tiny muted" x="370" y="125">Ch.16 power</text><text class="tiny muted" x="500" y="125">2028 scenarios</text>
+    <text class="tiny muted" x="28" y="170">Gate: roadmap and forecast lanes are visually separate from happened history.</text>
+  </g>
+  <g transform="translate(840,430)">
+    <rect class="card" width="700" height="210" rx="8"/><text class="h ink" x="28" y="38">Act IV - Data, Tools, Code, Agents</text>
+    <line class="rail" x1="30" y1="82" x2="650" y2="82"/><circle class="dot" cx="100" cy="82" r="6"/><circle class="dot" cx="240" cy="82" r="6"/><circle class="dot" cx="380" cy="82" r="6"/><circle class="dot" cx="520" cy="82" r="6"/><line class="cut" x1="610" y1="55" x2="610" y2="110"/>
+    <text class="tiny muted" x="75" y="125">Ch.17 data</text><text class="tiny muted" x="210" y="125">Ch.18 tools</text><text class="tiny muted" x="350" y="125">Ch.19 code</text><text class="tiny muted" x="490" y="125">Ch.20 agents</text>
+    <text class="tiny muted" x="28" y="170">Gate: context and agency strips need permission/check/review blockers.</text>
+  </g>
+  <g transform="translate(60,705)">
+    <rect class="card" width="1480" height="190" rx="8"/><text class="h ink" x="28" y="38">Act V - Reasoning, Economics, Trust, Synthesis</text>
+    <line class="rail" x1="30" y1="82" x2="1330" y2="82"/><circle class="dot" cx="160" cy="82" r="6"/><circle class="dot" cx="430" cy="82" r="6"/><circle class="dot" cx="700" cy="82" r="6"/><circle class="dot" cx="970" cy="82" r="6"/><line class="cut" x1="1220" y1="55" x2="1220" y2="110"/>
+    <text class="tiny muted" x="125" y="125">Ch.21 reasoning</text><text class="tiny muted" x="385" y="125">Ch.22 economics</text><text class="tiny muted" x="655" y="125">Ch.23 trust</text><text class="tiny muted" x="930" y="125">Ch.24 synthesis</text><text class="tiny" x="1170" y="125" fill="#c2412d">May 24 2026 cutoff</text>
+    <text class="tiny muted" x="28" y="165">Gate: the finale reprises timeline motifs without prophecy, AGI claims, or post-cutoff history.</text>
+  </g>
+  <text class="tiny muted" x="60" y="960">Source: data/timeline_spine_package_i0225.tsv. Original SVG planning art; final chapter strips require page-image proof and source-note proximity.</text>
+</svg>

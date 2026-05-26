@@ -282,3 +282,7 @@ The first three visuals should behave like a sentence: shock, mechanism, consequ
 ## 2026-05-26 - I-0224 Recurring Motif System
 
 Motifs are strongest when they are verbs with blockers: tokenize, prompt, date, accelerate, power, bound, hand off. A recurring shape should help the reader recognize a mechanism or claim boundary across chapters; if it only creates visual continuity, it becomes design noise and should be removed.
+
+## 2026-05-26 - I-0225 Timeline Spine
+
+Chronology should be a navigation system, not another dense exhibit. The master timeline can orient the reader only if each local strip preserves date type: happened, source-published, roadmap, forecast/scenario, mutable snapshot, or support-pending. The May 24, 2026 cutoff must behave like a visible design element, not a buried rule.
