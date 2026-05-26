@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">The Accelerator Is A Package, Not Just A Chip</title>
+  <desc id="desc">A rights-safe Chapter 14/16 advanced-packaging schematic replacing unavailable HBM and TSMC-specific photos with an original stack diagram.</desc>
+  <style>
+    .bg{fill:#f3f5ef}.ink{fill:#20242a}.muted{fill:#5f6872}.logic{fill:#e4edf7;stroke:#3c6382;stroke-width:2}.mem{fill:#e3f0de;stroke:#47733f;stroke-width:2}.pack{fill:#f1e1cb;stroke:#a45a28;stroke-width:2}.risk{fill:#f7e1df;stroke:#9f4b45;stroke-width:2}.line{stroke:#4b5560;stroke-width:3;fill:none;marker-end:url(#arrow)}.title{font-family:Arial,Helvetica,sans-serif;font-size:38px;font-weight:700}.label{font-family:Arial,Helvetica,sans-serif;font-size:24px;font-weight:700}.small{font-family:Arial,Helvetica,sans-serif;font-size:19px}.note{font-family:Arial,Helvetica,sans-serif;font-size:17px;fill:#5f6872}
+  </style>
+  <defs><marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 Z" fill="#4b5560"/></marker></defs>
+  <rect class="bg" width="1200" height="760"/>
+  <text class="title ink" x="60" y="70">The Accelerator Is A Package, Not Just A Chip</text>
+  <text class="small muted" x="60" y="108">When HBM and CoWoS photos are risky, an original cross-section can teach the supply-chain mechanism.</text>
+  <rect class="pack" x="170" y="500" width="860" height="80" rx="8"/>
+  <text class="label ink" x="205" y="550">Substrate / board connection</text>
+  <rect class="pack" x="260" y="385" width="680" height="85" rx="8"/>
+  <text class="label ink" x="295" y="438">Interposer / advanced package</text>
+  <rect class="logic" x="355" y="230" width="245" height="125" rx="8"/>
+  <text class="label ink" x="390" y="278">Logic die</text>
+  <text class="small ink" x="390" y="315">matrix math and control</text>
+  <rect class="mem" x="650" y="205" width="92" height="150" rx="8"/>
+  <rect class="mem" x="765" y="205" width="92" height="150" rx="8"/>
+  <text class="label ink" x="660" y="180">HBM stacks</text>
+  <text class="small ink" x="660" y="390">memory close to compute</text>
+  <path class="line" d="M600 292 H640"/>
+  <path class="line" d="M745 292 H755"/>
+  <rect class="logic" x="90" y="185" width="180" height="95" rx="8"/>
+  <text class="label ink" x="120" y="226">EUV / fab</text>
+  <text class="small ink" x="120" y="258">upstream layer</text>
+  <path class="line" d="M275 235 H340"/>
+  <rect class="pack" x="930" y="185" width="185" height="95" rx="8"/>
+  <text class="label ink" x="960" y="226">Assembly</text>
+  <text class="small ink" x="960" y="258">test and yield</text>
+  <path class="line" d="M865 235 H920"/>
+  <rect class="risk" x="160" y="620" width="880" height="62" rx="8"/>
+  <text class="small ink" x="195" y="658">Caption firewall: no CoWoS capacity, HBM rank, customer allocation, yield, package price, or shortage quantification.</text>
+  <text class="note" x="60" y="725">Sources: S-0220, S-0221, S-0222, S-0223, S-0224, S-0226; substitute path for TSMC/HBM photo gaps.</text>
+</svg>

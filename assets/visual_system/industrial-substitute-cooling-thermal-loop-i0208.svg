@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Cooling Is The Other Half Of Density</title>
+  <desc id="desc">A rights-safe Chapter 16 thermal-loop schematic replacing ambiguous cooling-tower photos with a facility heat-rejection diagram.</desc>
+  <style>
+    .bg{fill:#f3f5ef}.ink{fill:#20242a}.muted{fill:#5f6872}.rack{fill:#e4edf7;stroke:#3c6382;stroke-width:2}.loop{fill:#e3f0de;stroke:#47733f;stroke-width:2}.tower{fill:#f1e1cb;stroke:#a45a28;stroke-width:2}.risk{fill:#f7e1df;stroke:#9f4b45;stroke-width:2}.line{stroke:#4b5560;stroke-width:4;fill:none;marker-end:url(#arrow)}.return{stroke:#47733f;stroke-width:4;stroke-dasharray:8 8;fill:none;marker-end:url(#arrow)}.title{font-family:Arial,Helvetica,sans-serif;font-size:38px;font-weight:700}.label{font-family:Arial,Helvetica,sans-serif;font-size:25px;font-weight:700}.small{font-family:Arial,Helvetica,sans-serif;font-size:20px}.note{font-family:Arial,Helvetica,sans-serif;font-size:17px;fill:#5f6872}
+  </style>
+  <defs><marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 Z" fill="#4b5560"/></marker></defs>
+  <rect class="bg" width="1200" height="760"/>
+  <text class="title ink" x="60" y="70">Cooling Is The Other Half Of Density</text>
+  <text class="small muted" x="60" y="108">A cooling-tower image is picturesque; the constraint is the loop from chip heat to outside air or water.</text>
+  <rect class="rack" x="80" y="220" width="250" height="210" rx="8"/>
+  <text class="label ink" x="115" y="270">Accelerator racks</text>
+  <text class="small ink" x="115" y="312">dense compute</text>
+  <text class="small ink" x="115" y="348">fans or liquid plates</text>
+  <text class="small ink" x="115" y="384">heat becomes facility work</text>
+  <path class="line" d="M345 325 H465"/>
+  <rect class="loop" x="480" y="220" width="250" height="210" rx="8"/>
+  <text class="label ink" x="515" y="270">Facility loop</text>
+  <text class="small ink" x="515" y="312">pumps</text>
+  <text class="small ink" x="515" y="348">exchangers</text>
+  <text class="small ink" x="515" y="384">operating tradeoffs</text>
+  <path class="line" d="M745 325 H865"/>
+  <rect class="tower" x="880" y="220" width="250" height="210" rx="8"/>
+  <text class="label ink" x="915" y="270">Heat rejection</text>
+  <text class="small ink" x="915" y="312">air, water, chillers</text>
+  <text class="small ink" x="915" y="348">weather and site limits</text>
+  <text class="small ink" x="915" y="384">no universal method</text>
+  <path class="return" d="M1005 455 C870 555 335 555 205 455"/>
+  <rect class="risk" x="175" y="610" width="850" height="62" rx="8"/>
+  <text class="small ink" x="210" y="648">Caption firewall: no water-use, PUE, rack-density, operator, nuclear-service, or site-efficiency claim.</text>
+  <text class="note" x="60" y="725">Sources: S-0087, S-0088 and A-0022 lineage; substitute for A-0143/A-0144 until photo licenses are exact.</text>
+</svg>

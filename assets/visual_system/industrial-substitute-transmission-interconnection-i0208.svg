@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Transmission Is A Timing Constraint</title>
+  <desc id="desc">A rights-safe Chapter 16 schematic replacing an unverified transmission-line photo with a grid, queue, substation, and data-center load path.</desc>
+  <style>
+    .bg{fill:#f3f5ef}.ink{fill:#20242a}.muted{fill:#5f6872}.grid{fill:#e4edf7;stroke:#3c6382;stroke-width:2}.queue{fill:#f1e1cb;stroke:#a45a28;stroke-width:2}.site{fill:#e3f0de;stroke:#47733f;stroke-width:2}.risk{fill:#f7e1df;stroke:#9f4b45;stroke-width:2}.line{stroke:#4b5560;stroke-width:3;fill:none;marker-end:url(#arrow)}.wire{stroke:#39424e;stroke-width:5;fill:none}.tower{stroke:#39424e;stroke-width:5;fill:none}.title{font-family:Arial,Helvetica,sans-serif;font-size:38px;font-weight:700}.label{font-family:Arial,Helvetica,sans-serif;font-size:25px;font-weight:700}.small{font-family:Arial,Helvetica,sans-serif;font-size:20px}.note{font-family:Arial,Helvetica,sans-serif;font-size:17px;fill:#5f6872}
+  </style>
+  <defs><marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 Z" fill="#4b5560"/></marker></defs>
+  <rect class="bg" width="1200" height="760"/>
+  <text class="title ink" x="60" y="70">Transmission Is A Timing Constraint</text>
+  <text class="small muted" x="60" y="108">A photo can show wires; the book needs a source-scoped path from planning to usable site power.</text>
+  <g transform="translate(110 170)">
+    <path class="wire" d="M0 58 C95 15 195 15 290 58"/>
+    <path class="wire" d="M0 105 C95 62 195 62 290 105"/>
+    <path class="tower" d="M55 180 L105 20 L155 180 M85 82 H125 M68 132 H142"/>
+    <path class="tower" d="M200 180 L250 20 L300 180 M230 82 H270 M213 132 H287"/>
+  </g>
+  <rect class="grid" x="70" y="410" width="255" height="120" rx="8"/>
+  <text class="label ink" x="105" y="455">Existing grid</text>
+  <text class="small ink" x="105" y="495">wires, substations, studies</text>
+  <path class="line" d="M340 470 H455"/>
+  <rect class="queue" x="470" y="385" width="260" height="170" rx="8"/>
+  <text class="label ink" x="505" y="432">Interconnection queue</text>
+  <text class="small ink" x="505" y="474">requests</text>
+  <text class="small ink" x="505" y="508">studies</text>
+  <text class="small ink" x="505" y="542">upgrade timing</text>
+  <path class="line" d="M745 470 H860"/>
+  <rect class="site" x="875" y="410" width="255" height="120" rx="8"/>
+  <text class="label ink" x="910" y="455">AI facility load</text>
+  <text class="small ink" x="910" y="495">specific site, hour, ramp</text>
+  <rect class="risk" x="210" y="610" width="780" height="62" rx="8"/>
+  <text class="small ink" x="245" y="648">Caption firewall: no capacity, congestion, named-campus service, fuel mix, reliability, or delivered-power claim.</text>
+  <text class="note" x="60" y="725">Sources: S-0083, S-0086, S-0087; reduces risk from A-0140 until exact photo license is verified.</text>
+</svg>

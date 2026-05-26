@@ -214,3 +214,7 @@
 ## 2026-05-26 - I-0207 Industrial Photo Rights Triage
 
 Industrial photography should be promoted only after its caption burden is smaller than its visual value. Public-domain and CC0 infrastructure photos can safely add physical texture when captions block named-customer, capacity, workload, yield, and power-delivery inferences; ambiguous Commons targets should become replacement tasks, not quiet layout debt.
+
+## 2026-05-26 - I-0208 Rights-Safe Industrial Substitutes
+
+For industrial subjects, original synthesis art is often stronger than a weakly cleared photo: transmission, gas, cooling, and HBM/packaging visuals can teach mechanisms while avoiding photo-license ambiguity and preventing a picture from implying capacity, allocation, delivered power, workload, emissions, yield, or supplier-rank claims.
