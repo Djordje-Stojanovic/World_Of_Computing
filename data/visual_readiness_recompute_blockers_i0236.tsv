@@ -1,0 +1,7 @@
+"priority"	"blocker"	"affected_rows"	"next_action"
+"P0"	"Full render proof absent"	"100"	"Assemble draft, insert figure callouts, render PDF/HTML, and inspect captions/source notes at page scale."
+"P0"	"Screenshot/source-screenshot capture or replacement"	"17"	"Capture/hash or replace with source cards/redraws before final layout."
+"P0"	"Photo permission or substitution"	"7"	"Verify license/attribution or swap to schematic/source card."
+"P0"	"Company/source-surface fair-use review"	"6"	"Use source-actor framing, redraw, or reserve/cut."
+"P1"	"Caption length/claim-language gates"	"67"	"Create short captions plus nearby source/caveat notes."
+"P1"	"Chapter rhythm defects"	"9"	"Prune crowded chapters and add prose/source relief to mechanism runs."

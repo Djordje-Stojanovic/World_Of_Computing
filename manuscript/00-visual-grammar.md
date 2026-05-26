@@ -285,6 +285,17 @@ Rules:
 - Treat company slides and product surfaces as source-actor evidence; redraw or cut them when fair-use, crop, or claim burden is larger than their visual value.
 - The next readiness dashboard must fail closed on unresolved high-risk rows.
 
+## Visual Readiness Recompute
+
+`data/visual_readiness_recompute_dashboard_i0236.tsv` is the current fail-closed readiness estimate. It supersedes optimistic readings of the earlier 99% roadmap.
+
+Rules:
+
+- Do not call any selected figure publication-ready until rights, capture/replacement, caption, source-note, and final page-render gates all pass together.
+- Keep "visual ambition" separate from "visual publication readiness."
+- Treat the current 62.7/100 planning score as a blocker map, not as a final quality score.
+- The next visual readiness update should reduce high-risk rows, caption gates, rhythm defects, and render-proof failures rather than increase exhibit count.
+
 ## Promotion Rationale
 
 Before this pass, the book had visual candidates but no visual grammar and no manifest-tracked diagrams. This pass adds the first three lightweight prototypes and establishes design rules for timelines, systems, family trees, tradeoffs, caveats, screenshots, and photo slots. It improves visual/data usefulness without introducing unsupported factual claims.

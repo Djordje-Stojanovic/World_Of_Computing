@@ -6,21 +6,21 @@ This repository is the working memory, manuscript lab, source ledger, visual sys
 
 ## Current Book State
 
-Updated **2026-05-26** after 59 same-day commits.
+Updated **2026-05-26** after pass `I-0236`.
 
-- **Latest recorded pass:** `I-0183`, source-download automation and provenance plan.
-- **Latest exhibit dashboard pass:** `I-0196`, 100-exhibit readiness dashboard.
+- **Latest recorded pass:** `I-0236`, visual readiness recomputation.
+- **Latest exhibit dashboard pass:** `I-0236`, fail-closed visual readiness recomputation.
 - **Words:** 99,300 recorded in the latest scoreboard row; the hard target is 100,000-120,000, so the book is roughly 700 words below the floor.
 - **Chapters:** 24 / 24.
-- **Charts/diagrams:** 91.
-- **Photo/screenshot/source-surface slots:** 62.
-- **Sources:** 285.
-- **Claims:** 205 supported / 8 needs-verification.
+- **Charts/diagrams:** 142.
+- **Photo/screenshot/source-surface slots:** 78.
+- **Sources:** 299.
+- **Claims:** 248 supported / 8 needs-verification.
 - **Asset/provenance rows:** 144.
-- **Idea queue:** 189 done / 3 pending / 4 rejected.
+- **Idea queue:** active FIFO continues; next pending pass is recorded in `ideas.tsv`.
 - **Ledger BookScore:** 100.0, but this is a loop scoring proxy, not a publication certificate.
 
-The book is a real manuscript with a serious spine, but it is **not yet publication-ready**. The strongest current distinction is this: the top-100 exhibit program has selected 100 candidates and placed all 100 by chapter, but 26 selected items still need publication readiness work.
+The book is a real manuscript with a serious spine, but it is **not yet publication-ready**. The strongest current distinction is this: the top-100 exhibit program has stable IDs, chapter placement, caption/provenance scaffolding, page-flow mocks, reader-effect audits, prose bridges, and rights triage, but the fail-closed recomputation still gives 0 final publication-ready visual rows because render, capture, rights, caption, and source-note gates have not closed together.
 
 ## Readiness Snapshot
 
@@ -31,7 +31,8 @@ Rough editorial/commercial estimates as of 2026-05-26:
 - **Hard invariant compliance:** 70-75% because word count is still below target, 8 claims need verification, and full render QA is not complete.
 - **Source/claim discipline:** 75-80%.
 - **Visual ambition:** 85-90%.
-- **Visual publication readiness:** 60-65%.
+- **Visual planning maturity:** 60-65%.
+- **Visual publication readiness:** 25-35% under fail-closed render/rights/caption gates.
 - **Commercial launch-ready:** 35-45%.
 - **Award/shortlist-ready:** 25-35%.
 - **Revenue-generating beautiful book:** 40-50% for a disciplined self-published launch after package, rights, render, and cover work; lower for traditional/major-prize lanes until a finished packet exists.
@@ -44,14 +45,15 @@ Current selected-exhibit program:
 
 - **100** selected rows.
 - **100** selected rows assigned to chapters.
-- **74** ready SVG/chart rows.
-- **26** selected rows not yet publication-ready.
+- **69** original SVG/chart rows are conditionally publishable after render/caption/source-note gates.
+- **30** selected rows are high-risk.
 - **17** private/source screenshot captures still needed.
 - **7** photo-rights reviews still needed.
-- **2** local hashed GTC surfaces pending rights/fair-use or duplicate decisions.
-- **10** canonical paper redraws marked redraw-now.
-- **4** chapters under target: chapters 2, 3, 4, and 5.
-- **11** chapters over target and needing pruning.
+- **6** company/source-surface rows need fair-use/source-actor review or redraw.
+- **67** selected rows still have caption warning/fail gates.
+- **9** chapters still show crowding or reader-fatigue defects.
+- **0** selected rows have final full-book render proof.
+- **0** selected rows should be called publication-ready yet.
 
 ## Most Useful Reader Samples
 
@@ -65,6 +67,7 @@ For a fast feel of the book, read:
 
 For production/readiness context, read:
 
+- `manuscript/visual-readiness-recompute-i0236.md`.
 - `manuscript/exhibit-readiness-dashboard-i0196.md`.
 - `manuscript/commercial-publishing-package-i0167.md`.
 - `manuscript/award-shortlist-readiness-package-i0168.md`.
@@ -117,8 +120,8 @@ The immediate next phase should prioritize:
 1. Add the missing 700+ high-quality words only where the book genuinely needs them.
 2. Verify or rewrite the 8 remaining needs-verification claims.
 3. Execute the source-download/capture automation plan without committing heavyweight media.
-4. Convert the 26 selected non-ready exhibits into rights-reviewed, hashed, captioned publication assets.
-5. Fill the early chapter visual gap in chapters 2-5 and prune overfull later chapters.
+4. Convert the 30 high-risk selected exhibits into captured, permissioned, redrawn, replaced, reserved, or cut decisions.
+5. Close 67 caption warning/fail gates, fill the early chapter visual gap in chapters 2-5, and prune overfull later chapters.
 6. Run full-book render QA, page QA, caption QA, and source-note QA.
 7. Freeze commercial metadata, cover direction, reader sample, launch plan, and award packet only after the book gates close.
 

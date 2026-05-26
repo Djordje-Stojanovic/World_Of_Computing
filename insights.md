@@ -326,3 +326,7 @@ Figures need runway and landing prose before final beauty matters. The paragraph
 ## 2026-05-26 - I-0235 Rights-Risk Triage
 
 Rights readiness should fail closed. Original SVGs can move toward render proof, but screenshot slots, source screenshots, photo candidates, and company surfaces need capture, crop, permission, attribution, or source-actor review; every high-risk exhibit should carry a named source-card, redraw, verified-photo, reserve, or cut alternative before assembly.
+
+## 2026-05-26 - I-0236 Visual Readiness Recompute
+
+Visual readiness is not near 99 just because the selected-100 program is structured. The honest split is ambition high, planning maturity moderate, publication readiness low: 30 high-risk rows, 67 caption gates, 9 rhythm defects, and zero final render-proven figures mean the next gains must close blockers rather than add inventory.
