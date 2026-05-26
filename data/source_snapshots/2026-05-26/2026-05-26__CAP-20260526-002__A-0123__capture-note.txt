@@ -1,0 +1,13 @@
+Capture note for CAP-20260526-002 / A-0123.
+
+Target: https://openai.com/index/introducing-chatgpt-enterprise/
+Source IDs: S-0079; S-0089
+Intended artifact: private-use screenshot for ChatGPT Enterprise source surface.
+Attempt date: 2026-05-26.
+Status: capture_blocked.
+
+Reason: the in-app browser backend reported unavailable for browser id iab. Local fallback checks found no Python playwright, selenium, pyppeteer, or PIL package and no msedge, chrome, chromium, or firefox executable on PATH. No screenshot raster was created.
+
+Allowed use after failure: provenance handle only. This note does not support exact quotes, customer adoption, enterprise ROI, productivity, security effectiveness, revenue, deployment scale, or current UI claims.
+
+Next action: retry browser capture when the in-app browser or another approved screenshot runtime is available.

@@ -1,0 +1,13 @@
+Capture note for CAP-20260526-005 / A-0127.
+
+Target: https://github.blog/news-insights/product-news/introducing-github-copilot-ai-pair-programmer/
+Source IDs: S-0070
+Intended artifact: private-use screenshot for GitHub Copilot coding assistant surface.
+Attempt date: 2026-05-26.
+Status: capture_blocked.
+
+Reason: the in-app browser backend reported unavailable for browser id iab. Local fallback checks found no Python playwright, selenium, pyppeteer, or PIL package and no msedge, chrome, chromium, or firefox executable on PATH. No screenshot raster was created.
+
+Allowed use after failure: provenance handle only. This note does not support exact quotes, productivity, code quality, adoption, revenue, security, developer replacement, or current UI claims.
+
+Next action: retry browser capture when the in-app browser or another approved screenshot runtime is available.
