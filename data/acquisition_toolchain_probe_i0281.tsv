@@ -1,0 +1,29 @@
+capability	status	tool	local_path	sha256	evidence	blocked_or_next_action
+command:python	pass	python	C:\Python314\python.EXE		command found	Use for acquisition jobs.
+command:node	pass	node	C:\Program Files\nodejs\node.EXE		command found	Use for acquisition jobs.
+command:npm	pass	npm	C:\Program Files\nodejs\npm.CMD		command found	Use for acquisition jobs.
+command:magick	not_required	magick			command not found on PATH; covered by verified Python/Node fallback route	Install only if a future pass specifically requires this CLI rather than the verified fallback.
+command:tesseract	not_required	tesseract			command not found on PATH; covered by verified Python/Node fallback route	Install only if a future pass specifically requires this CLI rather than the verified fallback.
+command:mutool	not_required	mutool			command not found on PATH; covered by verified Python/Node fallback route	Install only if a future pass specifically requires this CLI rather than the verified fallback.
+command:pdftoppm	not_required	pdftoppm			command not found on PATH; covered by verified Python/Node fallback route	Install only if a future pass specifically requires this CLI rather than the verified fallback.
+command:pdftotext	not_required	pdftotext			command not found on PATH; covered by verified Python/Node fallback route	Install only if a future pass specifically requires this CLI rather than the verified fallback.
+command:gs	not_required	gs			command not found on PATH; covered by verified Python/Node fallback route	Install only if a future pass specifically requires this CLI rather than the verified fallback.
+command:chrome_common_path	pass	Chrome/Edge	C:\Program Files\Google\Chrome\Application\chrome.exe	2755630a2b432bd863ca95e9f0871af5b2341014c1f8b728bb9488c4c72035ae	browser executable found	Use headless Chrome for deterministic screenshots.
+python_module:requests	pass	requests			importable	Available for pipeline scripts.
+python_module:bs4	pass	bs4			importable	Available for pipeline scripts.
+python_module:fitz	pass	fitz			importable	Available for pipeline scripts.
+python_module:pandas	pass	pandas			importable	Available for pipeline scripts.
+python_module:numpy	pass	numpy			importable	Available for pipeline scripts.
+python_module:PIL	pass	PIL			importable	Available for pipeline scripts.
+python_module:pdfplumber	pass	pdfplumber			importable	Available for pipeline scripts.
+python_module:pytesseract	pass	pytesseract			importable	Available for pipeline scripts.
+python_module:playwright	pass	playwright			importable	Available for pipeline scripts.
+python_module:selenium	pass	selenium			importable	Available for pipeline scripts.
+python_module:cv2	pass	cv2			importable	Available for pipeline scripts.
+browser_screenshot_probe	pass	chrome_headless	assets\private_use_screenshots\i0281_probe\chrome_local_probe.png	956143da4ef5edb4462c409055dc70c3cc8acf17f9d873e6ec07ce629033362c	local HTML rendered to PNG; bytes=12806	Use same route for static/public pages; dynamic pages still need capture notes and rights rows.
+playwright_screenshot_probe	pass	python_playwright+system_chrome	assets\private_use_screenshots\i0281_probe\playwright_local_probe.png	9dbeb5faf33ac4d1ab47f65abf82f475f7700295b7e8b73897c0118ccd9832c2	Playwright rendered local HTML title='I-0281 capture probe'; bytes=13010	Use this route for dynamic pages that need viewport control.
+pdf_page_render_probe	pass	PyMuPDF	assets\source_surfaces\i0281_probe\gtc_page001_probe.png	428251734657c5f35b6e4d10d90290856659aa6d710e7fcb214e73de470b0f53	rendered page 1 from local GTC PDF; source_sha256=cc3674320b276374; bytes=28497	Use page-level rows before promoting any PDF/deck surface as an exhibit.
+html_text_clip_probe	pass	BeautifulSoup	data\acquisition_text_clip_i0281.txt	25afb4020f831ac37ce8ee484b2490cd4fd3bcf9c65c4d2d5d5c19e91223a087	extracted 111 chars from local HTML probe	Use for source cards and quote-limit review; exact source quotes still need per-source caps.
+image_processing_probe	pass	Pillow/OpenCV	assets\source_surfaces\i0281_probe\image_processing_probe.jpg	05c4eb22ab3297aebd6be3529505d76ee1c12b84a8b0b4ff5a2cc53326d6e1f9	created crop/contact-sheet probe from playwright_local_probe.png; dimensions=1200x800; cv2 importable	Use this route for resizing, contact sheets, and first-pass quality review.
+node_module_bundle	pass	node	.tooling\i0281\node\node_modules		playwright=ok;sharp=ok;tesseract.js=ok;pdfjs-dist=ok	Use Node bundle as fallback for sharp/pdfjs/tesseract.js/playwright routes.
+ocr_probe	pass	tesseract.js	data\acquisition_ocr_probe_i0281.txt	1cce0e418efd3d19e9847ea3d7829548f0842bd89f83b8c1ba18dde187b3f419	OCR recognized probe text: 1-0281 capture probe Local screenshot verification for private-edition source acquisition.	Use OCR only as assistive extraction; captions/claims still need source review.

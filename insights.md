@@ -493,3 +493,7 @@ Ending-book polish should make restraint feel like earned authority. The stronge
 ## 2026-05-27 - I-0280 Layout Polish
 
 Final layout work should repair the page-level proof, not merely rerender the PDF. The high-leverage move is to make provenance readable and early in the caption block, then verify image objects, source-note proximity, caption type size, blank pages, and visual fatigue against the rendered pages.
+
+## 2026-05-27 - I-0281 Acquisition Toolchain
+
+Acquisition readiness should be proved with local files before it touches the web at scale. A screenshot path, a PDF page-render path, image-prep path, OCR/text path, hashes, and folder conventions are the minimum honest kit; system CLI gaps can remain as fallback notes only when the baseline route has actually rendered, clipped, hashed, and been visually inspected.

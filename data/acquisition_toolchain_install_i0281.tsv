@@ -1,0 +1,14 @@
+ecosystem	package	version	install_path	status	git_policy
+python	pillow	12.2.0	.tooling\i0281\python	installed	ignored by .gitignore; reinstall from ledger if needed
+python	pdfplumber	0.11.9	.tooling\i0281\python	installed	ignored by .gitignore; reinstall from ledger if needed
+python	pytesseract	0.3.13	.tooling\i0281\python	installed	ignored by .gitignore; reinstall from ledger if needed
+python	playwright	1.60.0	.tooling\i0281\python	installed	ignored by .gitignore; reinstall from ledger if needed
+python	selenium	4.44.0	.tooling\i0281\python	installed	ignored by .gitignore; reinstall from ledger if needed
+python	opencv-python-headless	4.13.0.92	.tooling\i0281\python	installed	ignored by .gitignore; reinstall from ledger if needed
+python	numpy	2.4.6	.tooling\i0281\python	installed	ignored by .gitignore; reinstall from ledger if needed
+python	pdfminer.six	20251230	.tooling\i0281\python	installed	ignored by .gitignore; reinstall from ledger if needed
+python	pypdfium2	5.8.0	.tooling\i0281\python	installed	ignored by .gitignore; reinstall from ledger if needed
+node	playwright	1.60.0	.tooling\i0281\node	installed	ignored by .gitignore; reinstall with npm install --prefix .tooling\i0281\node --no-save if needed
+node	sharp	0.34.5	.tooling\i0281\node	installed	ignored by .gitignore; reinstall with npm install --prefix .tooling\i0281\node --no-save if needed
+node	tesseract.js	7.0.0	.tooling\i0281\node	installed	ignored by .gitignore; reinstall with npm install --prefix .tooling\i0281\node --no-save if needed
+node	pdfjs-dist	5.7.284	.tooling\i0281\node	installed	ignored by .gitignore; reinstall with npm install --prefix .tooling\i0281\node --no-save if needed

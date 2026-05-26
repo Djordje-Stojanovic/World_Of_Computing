@@ -1,0 +1,11 @@
+pass_id	check_id	category	result	evidence	recommended_action
+I-0281	I0281-001	local_runtime	pass	python=3.14.0; requests=True; fitz=True	Keep using Python/PyMuPDF as the baseline capture pipeline.
+I-0281	I0281-002	browser_screenshot	pass	chrome=local HTML rendered to PNG; bytes=12806; playwright=Playwright rendered local HTML title='I-0281 capture probe'; bytes=13010	Use Playwright+system Chrome for dynamic pages and Chrome headless CLI for simple/static captures.
+I-0281	I0281-003	pdf_page_render	pass	rendered page 1 from local GTC PDF; source_sha256=cc3674320b276374; bytes=28497	Use page-level rows before promoting any PDF/deck surface as an exhibit.
+I-0281	I0281-004	text_clipping	pass	extracted 111 chars from local HTML probe	Use for source cards and quote-limit review; exact source quotes still need per-source caps.
+I-0281	I0281-005	folder_conventions	pass	9 asset-family README files and TSV rows written	Use these folders and required provenance fields in I-0284 through I-0289.
+I-0281	I0281-006	missing_optional_tools	pass	pass=22; fallback_not_required=6; warn=0; fail=0	Use the verified Python/Chrome/Playwright/Pillow/OpenCV/Node routes first; install optional system CLIs only for a future pass that needs them.
+I-0281	I0281-007	hard_probe_failures	pass	hard_probe_failures=0	Repair failed screenshot/PDF/text probes before acquisition batches.
+I-0281	I0281-008	image_processing	pass	created crop/contact-sheet probe from playwright_local_probe.png; dimensions=1200x800; cv2 importable	Use this route for resizing, contact sheets, and first-pass quality review.
+I-0281	I0281-009	node_fallback_bundle	pass	playwright=ok;sharp=ok;tesseract.js=ok;pdfjs-dist=ok	Use Node bundle as fallback for sharp/pdfjs/tesseract.js/playwright routes.
+I-0281	I0281-010	ocr_probe	pass	OCR recognized probe text: 1-0281 capture probe Local screenshot verification for private-edition source acquisition.	Use OCR only as assistive extraction; captions/claims still need source review.
