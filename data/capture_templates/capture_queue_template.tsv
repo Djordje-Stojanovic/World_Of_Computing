@@ -1,0 +1,2 @@
+capture_id	status	source_ids	asset_ids	source_kind	url_or_path	accessed_at	cutoff_status	capture_method	target_local_path	expected_hash_fields	quote_limit_words	allowed_use	robots_rights_note	blocked_claims	next_action	owner_pass
+CAP-YYYYMMDD-001	planned	S-0000	A-0000	web_page	https://example.com/source-page	YYYY-MM-DD	pre_cutoff_artifact	html	data/source_snapshots/YYYY-MM-DD/YYYY-MM-DD__S-0000__web_page__slug.html	sha256;html_sha256	25	short_quote_ok	checked_or_unknown	no_adoption;no_revenue;no_live_rank	capture	I-0000

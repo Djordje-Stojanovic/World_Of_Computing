@@ -1,0 +1,2 @@
+review_id	capture_id	source_ids	asset_ids	rights_status	license_or_terms_source	creator_or_org	attribution_required	quote_limit_words	excerpt_text_or_none	paraphrase_fallback	allowed_publication_use	private_use_note	blocked_claims	reviewer_note	owner_pass
+RQR-YYYYMMDD-001	CAP-YYYYMMDD-001	S-0000	A-0000	rights_review_needed	URL_or_local_note	creator	yes_or_no	25	none	paraphrase_available	private_visual_reference	Private-use until rights/fair-use review completes.	no_adoption;no_revenue	Do not promote to final art yet.	I-0000

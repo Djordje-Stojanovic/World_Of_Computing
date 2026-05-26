@@ -1,13 +1,13 @@
 # Source Snapshots
 
-This directory stores lightweight notes, manifests, hashes, and text/HTML captures for mutable sources. Use `manuscript/00-source-snapshot-protocol.md` as the authority for filenames, access dates, quote limits, and ledger updates.
+Lightweight source snapshots and capture notes live here by access date.
 
-Date-specific captures should live under:
+Use date folders such as `data/source_snapshots/2026-05-26/`.
 
-```text
-data/source_snapshots/YYYY-MM-DD/
-```
+Allowed committed files:
 
-Screenshots and visual captures belong under `assets/source_snapshots/YYYY-MM-DD/` and must also be recorded in `assets_manifest.tsv`.
+- small HTML/text snapshots when terms and size are acceptable
+- JSON/CSV/TSV normalized inputs when lightweight
+- capture notes for blocked, dynamic, paywalled, account-specific, or binary captures
 
-Do not commit heavyweight pages, videos, audio, large rasters, caches, or private browser profiles. Commit the provenance row, normalized data, and hash or archive note instead.
+Heavy PDFs, rasters, archives, browser profiles, and caches belong under ignored `assets/` paths with hashes recorded in data ledgers.
