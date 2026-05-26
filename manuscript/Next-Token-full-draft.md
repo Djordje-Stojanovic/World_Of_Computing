@@ -63,7 +63,7 @@ This chapter uses source IDs and claim rows already normalized for Chapter 7, bu
 
 ### A Machine Made Of Nexts
 
-The phrase "next token" sounds smaller than the thing it explains. A token is a unit in the model's text machinery: sometimes a word, sometimes part of a word, sometimes punctuation, sometimes a fragment that makes sense only inside the tokenizer's vocabulary. OpenAI's `tiktoken` repository is one practical sign of that machinery: before the model can process text, text must be encoded into tokens. [S-0043]
+The phrase "next token" sounds too small for the thing it explains, like calling a city a stack of bricks. A token is one brick in the model's text machinery: sometimes a word, sometimes part of a word, sometimes punctuation, sometimes a fragment that makes sense only inside the tokenizer's vocabulary. OpenAI's `tiktoken` repository is one practical sign of that machinery: before the model can process text, language has to be chopped into pieces the machine can count, price, remember, and predict. [S-0043]
 
 This is not decoration. Tokenization is one of the reasons the magic has edges. A model does not see a page the way a reader sees a page. It receives a sequence of discrete symbols and learns statistical structure over those sequences. The model's central training game is brutally simple to state and difficult to scale: given previous tokens, predict the next one. Do that across immense amounts of text, with enough parameters, data, compute, and training discipline, and the machine begins to internalize patterns that look like grammar, style, fact, code, explanation, and reasoning.
 
@@ -248,7 +248,7 @@ The curse of dimensionality is an ugly phrase for a simple frustration: language
 
 This is why distributed representation was more than a technical convenience. It was a way to make the model less brittle in the face of novelty. Bengio and his coauthors described a neural language model that learned word feature vectors jointly with the probability function. The model could therefore represent similarities among words as part of the learned system rather than only through hand-designed classes. [S-0104] That shift did not abolish sparsity. It gave the machine a way to generalize through learned neighborhoods.
 
-A useful analogy is a map, with the usual warning that the map is not the territory. If every town is represented only by its name, a traveler who has never seen one town knows nothing about where it lies. If the towns have coordinates, a traveler can infer distance, direction, and neighborhood. Word vectors gave language models a rough coordinate system. The coordinates were learned from text, not from human definitions, but they made similarity calculable. [S-0105]
+A useful analogy is a map, with the usual warning that the map is not the territory. If every town is represented only by its name, a traveler who has never seen one town knows nothing about where it lies. If the towns have coordinates, distance and neighborhood become calculable. Word vectors gave language models that rough coordinate system for words. The coordinates were learned from text rather than drawn by a human cartographer, so they could be useful and weird at the same time: good enough to reveal neighborhoods, not good enough to guarantee meaning. [S-0105]
 
 The price of that move was compression. A vector is useful because it throws away detail. It stores enough regularity to help the model, not enough reality to make the word fully known. This is one reason the chapter should resist romantic language about early embeddings. They did not contain meaning as a human contains meaning. They contained learned statistical structure. That distinction will matter later when fluent systems look as if they possess concepts more securely than they do.
 
@@ -286,7 +286,7 @@ The chapter should also keep a useful skepticism here. Attention did not make mo
 
 ### What Attention Changed
 
-Attention is easy to describe badly. The lazy description says the model "pays attention" as if it had a little spotlight of consciousness. The better description is mechanical. A model computes relationships among positions in a sequence. It uses those relationships to mix information. A token's representation becomes a function not only of itself but of other tokens, weighted by learned relevance.
+Attention is easy to describe badly. The lazy version gives the model a tiny theater spotlight and a suspiciously human inner life. The mechanical version is stranger and better: each position asks, in numbers, which other positions should matter to this one right now. The model computes those relationships and uses them to mix information. A token's representation becomes not a lonely bead on a string, but a bead whose color changes after looking at the rest of the necklace.
 
 That mechanism matters because language is relational. A pronoun depends on an antecedent. A verb depends on its subject. A technical term depends on the qualifier before it. In code, a function call depends on a definition somewhere else. In a legal sentence, a condition at the beginning may govern a clause at the end. A model that can directly compute pairwise or position-wise relationships has a different kind of tool than a model that must carry everything through a single recurrent state.
 
@@ -668,7 +668,7 @@ The next chapter turns that possibility into a lineage: GPT-1, GPT-2, GPT-3, and
 
 ---
 
-A loss curve could promise direction, but it could not promise a business, a user habit, or a useful answer. The GPT line made the bet frighteningly concrete: pretrain broadly, open a prompt-shaped door, and discover whether prediction could be coaxed into work before the costs swallowed the prize. [S-0011] [S-0012] [S-0013] [S-0004]
+A loss curve could promise direction, but it could not promise a business, a user habit, or a useful answer. It was a weather report, not a harvest. The GPT line made the bet frighteningly concrete: pretrain broadly, open a prompt-shaped door, and discover whether prediction could be coaxed into work before the costs swallowed the prize. [S-0011] [S-0012] [S-0013] [S-0004]
 
 <a id="chapter-05-gpt-1-to-gpt-3-the-door-opens"></a>
 
@@ -885,7 +885,7 @@ This is the second conversion in the OpenAI spine. Chapter 5 showed models becom
 
 That difference sounds small until it becomes the whole interface. If a user asks for a summary, the desired behavior is not merely a statistically plausible completion after the words "summarize this." The desired behavior is a bounded act: read the source, preserve the important facts, compress without inventing, match the requested audience, and stop. If a user asks a harmful question, the product may need the model not to continue the pattern at all. If a user asks a confused question, the best answer may be a correction, not obedience.
 
-This is the point at which alignment entered the product. It was not an abstract philosophical garnish placed on top of the LLM story. It was the mechanism that made the model tolerable as an assistant.
+This is the point at which alignment entered the product. It was not an abstract philosophical garnish sprinkled on top of the LLM story. It was the behavior workshop: the place where a fluent continuation engine was pushed, imperfectly, toward something users could treat as an assistant.
 
 OpenAI's InstructGPT work stated the product gap bluntly: making language models larger does not inherently make them better at following a user's intent. The paper described a pipeline that began with labeler-written demonstrations and API prompts, trained a supervised model, collected rankings of outputs, trained a reward model from those preferences, and then used reinforcement learning from human feedback to improve the policy. [S-0014] The OpenAI product post around that work made the contrast even more legible: GPT-3 could be coaxed with careful prompts, but it could also produce untruthful, toxic, or harmful outputs because it was trained to predict text rather than safely perform the user's task. [S-0074]
 
@@ -1532,7 +1532,7 @@ Long context is not glamorous in the same way as a benchmark crown. It does not 
 
 This matched Google's product estate. Gmail, Drive, Docs, Sheets, Meet, Android, and Search all generate context. The question was not only whether Gemini could answer an isolated prompt. The question was whether it could sit inside a user's accumulated work and make that work searchable, summarizable, transformable, and actionable. Long context became a bridge between model capability and product distribution.
 
-But long context also needed caveats. A million tokens of input is not a million tokens of understanding. The model may miss details, overweight irrelevant passages, summarize with false confidence, or fail to preserve provenance. A long context window changes the failure mode. It can make the assistant feel more grounded because it has access to more material, while still leaving the user to ask whether the answer actually followed from the source. For this chapter, the safe claim is that Gemini 1.5 made long context a central Google product and developer theme. It is not safe, without narrower evaluation rows, to claim that long context solved retrieval, memory, legal review, codebase understanding, or enterprise knowledge work.
+But long context also needed caveats. A million tokens of input is not a million tokens of understanding; a bigger desk does not guarantee a better lawyer. The model may miss details, overweight irrelevant passages, summarize with false confidence, or fail to preserve provenance. A long context window changes the failure mode. It can make the assistant feel more grounded because more material is on the desk, while still leaving the user to ask whether the answer actually followed from the source. For this chapter, the safe claim is that Gemini 1.5 made long context a central Google product and developer theme. It is not safe, without narrower evaluation rows, to claim that long context solved retrieval, memory, legal review, codebase understanding, or enterprise knowledge work.
 
 Long context also connects back to the infrastructure story. Serving large contexts is expensive. It changes memory use, latency, pricing, batching, caching, and user expectations. That is why the pricing and infrastructure chapters will return to Gemini. Context length is not just a feature. It is a business and systems decision.
 
@@ -1653,7 +1653,7 @@ That research framing made sense for Meta's position. The company had enormous d
 
 The chapter should not romanticize the first release. Access was gated. The release did not make the whole training process transparent. It did not settle license questions. It did not guarantee safety or eliminate the risk that weights could be misused. But it showed that a frontier-adjacent model could be treated as something other than a remote service. The model could become an artifact in the hands of outsiders.
 
-That change altered the social physics of model progress. A closed API improves when the provider ships a new endpoint. An open-weight model improves when a wider community builds adapters, quantizers, fine-tunes, evaluation harnesses, safety wrappers, inference servers, deployment recipes, and local experiments. Some of that work is rigorous. Some is noisy. Some is unsafe. Some is commercially useful. The point is not that the crowd is wiser than the lab. The point is that the locus of iteration changes.
+That change altered the social physics of model progress. A closed API improves when the provider ships a new endpoint. An open-weight model becomes a workshop with many doors: adapters, quantizers, fine-tunes, evaluation harnesses, safety wrappers, inference servers, deployment recipes, and local experiments start appearing around it. Some of that work is rigorous. Some is noisy. Some is unsafe. Some is commercially useful. The point is not that the crowd is wiser than the lab. The point is that the locus of iteration changes.
 
 For a book about computing, this matters because software history is full of moments when access to the object changed the field. The personal computer, Unix tools, Linux, the web browser, open-source libraries, and cloud APIs all mattered partly because people could build without asking the original inventor for each next move. LLaMA did not become Linux for language models in any simple sense. But it made the comparison unavoidable.
 
@@ -3576,7 +3576,7 @@ Claude Code also sits inside a broader Anthropic bet: agents need standardized w
 
 MCP is not magic plumbing. It is a protocol and ecosystem, and protocols import security problems as well as convenience. But its existence shows how quickly the field moved beyond chat. The assistant was becoming a client for a tool world.
 
-Claude Code made that tool world feel concrete. The terminal already is a plugboard for software: git, test runners, package managers, linters, shells, editors, cloud CLIs. Putting an LLM there gave the model access to the place where software is actually assembled. It also forced the model into a harsher environment. A compiler does not care whether an answer sounds confident. A shell command either runs, fails, or does something you regret.
+Claude Code made that tool world feel concrete. The terminal already is a plugboard for software: git, test runners, package managers, linters, shells, editors, cloud CLIs. Putting an LLM there moved the model from the seminar room to the workbench. It also forced the model into a harsher environment. A compiler does not care whether an answer sounds confident. A shell command either runs, fails, or does something you regret.
 
 That last category is the one the chapter must keep in view. Agentic coding is powerful because it can act. It is risky for the same reason.
 
@@ -3797,7 +3797,7 @@ The audit work now belongs beside the chapter: keep OpenAI o1/o3/o4-mini and Gem
 
 ---
 
-If test-time compute becomes another scaling axis, intelligence stops being only a capability question and becomes a meter running in real time. The pause before an answer is no longer empty; it is a bill, a routing choice, and sometimes the difference between cheap fluency and work worth paying for. [S-0060] [S-0063] [S-0064] [S-0128] [S-0134]
+If test-time compute becomes another scaling axis, intelligence stops being only a capability question and becomes a meter running in real time. The pause before an answer is no longer empty; it is the taxi meter of inference, a routing choice, and sometimes the difference between cheap fluency and work worth paying for. [S-0060] [S-0063] [S-0064] [S-0128] [S-0134]
 
 <a id="chapter-22-the-economics-of-intelligence-on-tap"></a>
 
@@ -4139,7 +4139,7 @@ This is why the ledgers behind the book matter even when the reader never sees t
 
 That stance should not make the prose timid. Restraint is not the opposite of force. It is what lets force survive contact with evidence. The strongest sentence is often the one that refuses one extra inch of drama. ChatGPT can be a shock without becoming proof of public panic. Claude Code can be important without proving autonomous software engineering. A data-center load forecast can matter without becoming destiny. A benchmark can reveal compression at the frontier without naming the permanent champion. A price table can explain the meter without exposing margin. A system card can be a primary source without becoming a guarantee. That is the book's contract with the reader. [CH24SYN-008; CH24SYN-011]
 
-The final human scene is the reader doing verification. A confident answer, a system card, a benchmark row, a price table, or a roadmap slide all ask for belief. The book's job is to slow that belief down without killing curiosity: who said this, what did they measure, what did they omit, and what would make the claim false? [S-0005] [S-0056] [S-0057]
+The final human scene is the reader doing verification. A confident answer, a system card, a benchmark row, a price table, or a roadmap slide all ask for belief. The book's job is to install a speed bump without killing the road trip: who said this, what did they measure, what did they omit, and what would make the claim false? [S-0005] [S-0056] [S-0057]
 
 What, then, was still unsettled by the cutoff?
 

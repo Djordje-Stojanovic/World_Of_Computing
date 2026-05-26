@@ -1,0 +1,11 @@
+rewrite_id	chapter	topic	old_words	new_words	delta_words	status	reader_gain
+AX-0276-001	CH01	tokenization	65	83	18	rewritten	Turns tokenization from definition into physical/commercial intuition.
+AX-0276-002	CH02	embeddings	78	97	19	rewritten	Adds delight and caveat to embedding map analogy.
+AX-0276-003	CH03	attention	62	80	18	rewritten	Makes self-attention memorable without implying consciousness.
+AX-0276-004	CH04	scaling	53	61	8	rewritten	Separates measured trend from outcome destiny in one line.
+AX-0276-005	CH06	alignment	36	47	11	rewritten	Makes alignment concrete while preserving limits.
+AX-0276-006	CH09	long context	118	127	9	rewritten	Makes long-context caveat intuitive and slightly wry.
+AX-0276-007	CH10	open weights	80	84	4	rewritten	Turns ecosystem mechanics into a usable workshop image.
+AX-0276-008	CH20	terminal agents	72	70	-2	rewritten	Makes the terminal shift tactile without overselling autonomy.
+AX-0276-009	CH21	test-time compute	55	58	3	rewritten	Makes reasoning cost instantly legible.
+AX-0276-010	CH24	verification	62	64	2	rewritten	Adds a memorable trust metaphor without softening the skepticism.

@@ -1,0 +1,10 @@
+check	status	note
+rewrite_count	pass	Recorded 10 analogy/explanation rewrites.
+chapter_spread	pass	Rewrite chapters: CH01,CH02,CH03,CH04,CH06,CH09,CH10,CH20,CH21,CH24.
+topic_spread	pass	Rewrite topics: alignment,attention,embeddings,long context,open weights,scaling,terminal agents,test-time compute,tokenization,verification.
+word_count_in_bounds	pass	Word count is 102844; delta 90.
+chapter_count_24	pass	Chapter count is 24.
+figure_callouts_preserved	pass	Figure callout count is 94.
+source_refs_not_reduced	pass	Source reference count is 545.
+analogy_phrases_present	pass	Analogy phrase hits: 11.
+no_hype_claims	pass	No hype phrases introduced by rewrite ledger.

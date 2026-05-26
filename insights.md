@@ -473,3 +473,7 @@ Chapter endings should not merely announce the next topic. The stronger pattern 
 ## 2026-05-26 - I-0275 Public Scenes
 
 Public documents can carry scene when the prose treats them as surfaces of action: a product post, repo, terminal, model card, deck, or policy page shows what people and institutions chose to expose without inventing private rooms or motives.
+
+## 2026-05-26 - I-0276 Explanation Delight
+
+A good analogy should add handle, not haze. The pattern that works is concrete image plus explicit boundary: map but not territory, bigger desk but not better lawyer, taxi meter but not intelligence proof.
