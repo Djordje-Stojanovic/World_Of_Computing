@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="820" viewBox="0 0 1400 820" role="img" aria-labelledby="title desc">
+  <title id="title">Chapter 1 cold-open visual sequence</title>
+  <desc id="desc">Layout storyboard choosing A-0068, A-0069, and A-0070 as the first three Chapter 1 exhibits, with reserve source cards and claim blockers.</desc>
+  <style>.bg{fill:#f7f5ef}.ink{fill:#20242a}.muted{fill:#5e6873}.band{fill:#263238}.card{fill:#fffdf7;stroke:#d8d2c5;stroke-width:2}.hero{fill:#e8f2f1;stroke:#168477;stroke-width:3}.warn{fill:#fff0ec;stroke:#c2412d;stroke-width:2}.reserve{fill:#eef0ff;stroke:#5b5ea6;stroke-width:2}.title{font-family:Arial,Helvetica,sans-serif;font-size:42px;font-weight:700}.h{font-family:Arial,Helvetica,sans-serif;font-size:24px;font-weight:700}.body{font-family:Arial,Helvetica,sans-serif;font-size:18px}.tiny{font-family:Arial,Helvetica,sans-serif;font-size:14px}.num{font-family:Arial,Helvetica,sans-serif;font-size:30px;font-weight:700}</style>
+  <rect class="bg" width="1400" height="820"/>
+  <rect class="band" width="1400" height="50"/>
+  <text class="tiny" x="60" y="32" fill="#ffffff">LAYOUT STORYBOARD / CHAPTER 1 / I-0223 / DIRECT QUOTE: NO</text>
+  <text class="title ink" x="60" y="108">Chapter 1 Cold-Open Sequence</text>
+  <text class="body muted" x="60" y="142">The first three exhibits should make one promise: shock, mechanism, local consequences.</text>
+  <rect class="card hero" x="60" y="190" width="400" height="300" rx="8"/>
+  <text class="num ink" x="90" y="236">1</text>
+  <text class="h ink" x="130" y="234">A-0068</text>
+  <text class="h ink" x="90" y="282">The shock chronology</text>
+  <text class="body muted" x="90" y="322">Open full-width. Separate</text>
+  <text class="body muted" x="90" y="350">launch, one-million signal,</text>
+  <text class="body muted" x="90" y="378">and later MAU estimate.</text>
+  <text class="tiny muted" x="90" y="430">Reader effect: public event without hype.</text>
+  <rect class="card" x="500" y="190" width="400" height="300" rx="8"/>
+  <text class="num ink" x="530" y="236">2</text>
+  <text class="h ink" x="570" y="234">A-0069</text>
+  <text class="h ink" x="530" y="282">The mechanism bridge</text>
+  <text class="body muted" x="530" y="322">Prompt, tokens, context,</text>
+  <text class="body muted" x="530" y="350">next-token prediction,</text>
+  <text class="body muted" x="530" y="378">answer, then verification.</text>
+  <text class="tiny muted" x="530" y="430">Reader effect: mystery becomes machinery.</text>
+  <rect class="card" x="940" y="190" width="400" height="300" rx="8"/>
+  <text class="num ink" x="970" y="236">3</text>
+  <text class="h ink" x="1010" y="234">A-0070</text>
+  <text class="h ink" x="970" y="282">The local alarms</text>
+  <text class="body muted" x="970" y="322">Stack Overflow, schools,</text>
+  <text class="body muted" x="970" y="350">and JPMorgan translate</text>
+  <text class="body muted" x="970" y="378">the box into procedure.</text>
+  <text class="tiny muted" x="970" y="430">Reader effect: one interface, many controls.</text>
+  <rect class="warn" x="60" y="545" width="820" height="120" rx="8"/>
+  <text class="h ink" x="90" y="588">Cold-open blockers</text>
+  <text class="body ink" x="90" y="624">No fastest-growing-app slogan, merged adoption metric, truth guarantee, human-like understanding,</text>
+  <text class="body ink" x="90" y="652">broad public panic, national school-ban claim, productivity proof, revenue, or paid-user inference.</text>
+  <rect class="reserve" x="920" y="545" width="420" height="120" rx="8"/>
+  <text class="h ink" x="950" y="588">Reserve rhythm cards</text>
+  <text class="body muted" x="950" y="624">A-0208 for launch-source texture.</text>
+  <text class="body muted" x="950" y="652">A-0211 for Stack Overflow source texture.</text>
+  <text class="tiny muted" x="60" y="742">Sources travel through the underlying assets: A-0068, A-0069, A-0070, with reserve cards A-0208 and A-0211. This storyboard is original SVG planning art, not final page proof.</text>
+</svg>

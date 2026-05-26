@@ -274,3 +274,7 @@ Source cards work best as paraphrase-first evidence objects, not decorative quot
 ## 2026-05-26 - I-0222 Fun Source-Excerpt Card Batch
 
 Reader delight can come from caveats when the card names the right source tension: a launch post becoming a threshold, a withheld model becoming a historical signal, a benchmark warning about contamination, or a blueprint refusing to be a factory. The safest fun is paraphrase-first and blocker-forward, because the surprise stays truthful instead of turning into an unsupported quote or crown.
+
+## 2026-05-26 - I-0223 Chapter 1 Cold Open
+
+The first three visuals should behave like a sentence: shock, mechanism, consequence. A-0068 earns the opening slot because it makes the plain text box feel historically explosive without merging metrics; A-0069 then explains the machinery; A-0070 localizes the institutional pressure. Reserve source cards are useful only if render rhythm, not asset novelty, demands them.

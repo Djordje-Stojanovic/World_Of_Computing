@@ -1,0 +1,9 @@
+action_id	priority	scope	action	blocker_or_gate
+I0223-ACT-001	high	Figure 1.1	Render A-0068 at the intended opener width and inspect source/caveat text; if small labels fail, create a simplified first-spread variant rather than shrinking the full chronology.	Page-image proof is required before publication readiness.
+I0223-ACT-002	high	Figure 1.1	Keep the visible caption's metric-language split: launch post, one-million-user signal, and Reuters/UBS/Similarweb estimate cannot collapse into one adoption metric.	Blocks fastest-growing-app and merged adoption claims.
+I0223-ACT-003	high	Figure 1.2	Place A-0069 only after the reader has felt the plain chat box; the mechanism should answer curiosity, not preempt the opening scene.	Blocks textbook-dry opening sequence.
+I0223-ACT-004	medium	Figure 1.2	Check all token labels at mobile and print sizes; replace tiny labels with numbered steps if needed.	Legibility gate remains open.
+I0223-ACT-005	high	Figure 1.3	Keep A-0070 scoped to named institutions and dates; do not add unsourced generalized reception language to the caption.	Blocks public-panic, all-developer, and national-school-ban claims.
+I0223-ACT-006	medium	Reserve cards	Use A-0208 or A-0211 only as rhythm substitutes if the first three exhibits become too timeline-heavy in page proof.	Reserve source cards still require source-note proximity and selected-100 replacement decision.
+I0223-ACT-007	medium	Chapter 1 flow	Test the first-screen sequence in both prose-first and figure-first orders during the next render pass.	Cold-open package is a decision artifact, not final page proof.
+I0223-ACT-008	medium	Full-book visual system	Propagate the "shock, mechanism, local response" three-beat opener grammar to later chapter-opening audits only after Chapter 1 render succeeds.	Do not turn this into a universal template prematurely.
