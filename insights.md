@@ -330,3 +330,7 @@ Rights readiness should fail closed. Original SVGs can move toward render proof,
 ## 2026-05-26 - I-0236 Visual Readiness Recompute
 
 Visual readiness is not near 99 just because the selected-100 program is structured. The honest split is ambition high, planning maturity moderate, publication readiness low: 30 high-risk rows, 67 caption gates, 9 rhythm defects, and zero final render-proven figures mean the next gains must close blockers rather than add inventory.
+
+## 2026-05-26 - I-0237 Full-Book Assembly
+
+A single visible draft changes the problem from inventory to bookmaking. The assembly now proves the manuscript can be opened as one 102k-word object with 24 chapter headings and 100 figure placeholders, but it also makes the old drift unavoidable: Chapter 12 must be normalized rather than letting Anthropic/Claude and Europe/xAI silently compete for the same slot.
