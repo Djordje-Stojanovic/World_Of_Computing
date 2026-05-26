@@ -6,23 +6,24 @@ This repository is the working memory, manuscript lab, source ledger, visual sys
 
 ## Current Book State
 
-Updated **2026-05-27** after pass `I-0243`.
+Updated **2026-05-27** after pass `I-0244`.
 
-- **Latest recorded pass:** `I-0243`, real-world image candidate placement.
+- **Latest recorded pass:** `I-0244`, source-card quote extraction.
 - **Latest exhibit dashboard pass:** `I-0236`, fail-closed visual readiness recomputation.
 - **Words:** 102,196 assembled source words across the canonical 24-chapter draft, including 3,911 retained supplemental Anthropic/Claude words; the primary-only spine is 98,285 words, so the floor is conditionally cleared rather than permanently solved.
 - **Chapters:** 24 / 24.
 - **Charts/diagrams:** 142.
 - **Photo/screenshot/source-surface slots:** 78.
 - **Sources:** 299.
-- **Claims:** 255 supported / 8 needs-verification.
+- **Claims:** 256 supported / 8 needs-verification.
 - **Asset/provenance rows:** 144.
 - **Idea queue:** active FIFO continues; next pending pass is recorded in `ideas.tsv`.
 - **Ledger BookScore:** 100.0, but this is a loop scoring proxy, not a publication certificate.
 - **Current rough PDF:** `rendered/full_book_i0240/Next-Token-full-draft-i0240.pdf` exists locally; after the figure-callout pass it is 413 pages and intentionally not committed. Prior smoke QA passed artifact, chapter, figure-ID, link, blank-page, and code-block checks; final overflow/layout quality remains unproven.
 - **Real-world image layer:** 24 blocked candidate callouts are now marked in the assembled draft across 12 chapters, with story-fit, diversity, quality, rights-gate, and next-action notes; 9 are linked to existing local/source-media ledger candidates, 15 still need capture or replacement, and 0 are publication-ready.
+- **Source-card extraction layer:** 22 quote-safe extraction rows now have local line/page/slide-note anchors across chapters 6, 7, 15, and 16; the largest direct-quote count from any one source in the pass is 19 words, and final card layout/page proof remains pending.
 
-The book is a real manuscript with a serious spine, but it is **not yet publication-ready**. The strongest current distinction is this: the top-100 exhibit program has stable IDs, chapter placement, caption/provenance scaffolding, page-flow mocks, reader-effect audits, prose bridges, rights triage, and a first real-world candidate layer, but the fail-closed recomputation still gives 0 final publication-ready visual rows because render, capture, rights, caption, and source-note gates have not closed together.
+The book is a real manuscript with a serious spine, but it is **not yet publication-ready**. The strongest current distinction is this: the top-100 exhibit program has stable IDs, chapter placement, caption/provenance scaffolding, page-flow mocks, reader-effect audits, prose bridges, rights triage, a first real-world candidate layer, and a first quote-safe source-card extraction layer, but the fail-closed recomputation still gives 0 final publication-ready visual rows because render, capture, rights, caption, and source-note gates have not closed together.
 
 ## Readiness Snapshot
 

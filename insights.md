@@ -358,3 +358,7 @@ Figures become part of the book only when they enter the reading flow. A chapter
 ## 2026-05-27 - I-0243 Real-World Image Layer
 
 The book needs real surfaces, but the honest first move is placement, not clearance. A 24-candidate layer across product UI, company launch pages, papers, infrastructure, repositories, and the GTC deck gives the draft visual texture and next actions while preserving the fail-closed rule: no screenshot, photo, source page, or slide render is publication-ready until crop, rights, attribution, caption, and page-legibility gates close.
+
+## 2026-05-27 - I-0244 Source-Card Quotability
+
+Source cards earn trust when they carry tiny, anchored fragments rather than decorative quotation. The strongest cards should start from local line/page proof, keep per-source quote counts visibly below the limit, and preserve a blocked-claims footer; anything without that anchor should remain paraphrase-only or blocked until page proof exists.
