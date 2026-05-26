@@ -1,0 +1,48 @@
+unit	kind	action	source_lane	guardrail	status
+CH01-CH02	boundary	already_absorbed	S-0104;S-0105;S-0106;S-0107;S-0002	Source lane supports chapter-level mechanism handoff only; it does not authorize new quotations, exact metrics, rankings, market claims, future fulfillment, or scene detail.	changed
+CH02-CH03	boundary	already_absorbed	S-0002;S-0108	Source lane supports chapter-level mechanism handoff only; it does not authorize new quotations, exact metrics, rankings, market claims, future fulfillment, or scene detail.	changed
+CH03-CH04	boundary	already_absorbed	S-0002;S-0003;S-0015;S-0004	Source lane supports chapter-level mechanism handoff only; it does not authorize new quotations, exact metrics, rankings, market claims, future fulfillment, or scene detail.	changed
+CH04-CH05	boundary	already_absorbed	S-0011;S-0012;S-0013;S-0004	Source lane supports chapter-level mechanism handoff only; it does not authorize new quotations, exact metrics, rankings, market claims, future fulfillment, or scene detail.	changed
+CH05-CH06	boundary	already_absorbed	S-0014;S-0074	Source lane supports chapter-level mechanism handoff only; it does not authorize new quotations, exact metrics, rankings, market claims, future fulfillment, or scene detail.	changed
+CH06-CH07	boundary	already_absorbed	S-0006;S-0074;S-0078;S-0079	Source lane supports chapter-level mechanism handoff only; it does not authorize new quotations, exact metrics, rankings, market claims, future fulfillment, or scene detail.	changed
+CH07-CH08	boundary	already_absorbed	S-0125;S-0126;S-0130;S-0132	Source lane supports chapter-level mechanism handoff only; it does not authorize new quotations, exact metrics, rankings, market claims, future fulfillment, or scene detail.	changed
+CH08-CH09	boundary	already_absorbed	S-0002;S-0115;S-0116;S-0117;S-0121	Source lane supports chapter-level mechanism handoff only; it does not authorize new quotations, exact metrics, rankings, market claims, future fulfillment, or scene detail.	changed
+CH09-CH10	boundary	already_absorbed	S-0111;S-0112;S-0113;S-0114	Source lane supports chapter-level mechanism handoff only; it does not authorize new quotations, exact metrics, rankings, market claims, future fulfillment, or scene detail.	changed
+CH10-CH11	boundary	already_absorbed	S-0026;S-0027;S-0028;S-0029;S-0031	Source lane supports chapter-level mechanism handoff only; it does not authorize new quotations, exact metrics, rankings, market claims, future fulfillment, or scene detail.	changed
+CH11-CH12	boundary	already_absorbed	S-0032;S-0033;S-0034;S-0019;S-0048	Source lane supports chapter-level mechanism handoff only; it does not authorize new quotations, exact metrics, rankings, market claims, future fulfillment, or scene detail.	changed
+CH12-CH13	boundary	already_absorbed	S-0035;S-0036;S-0037	Source lane supports chapter-level mechanism handoff only; it does not authorize new quotations, exact metrics, rankings, market claims, future fulfillment, or scene detail.	changed
+CH13-CH14	boundary	already_absorbed	S-0039;S-0065;S-0066	Source lane supports chapter-level mechanism handoff only; it does not authorize new quotations, exact metrics, rankings, market claims, future fulfillment, or scene detail.	changed
+CH14-CH15	boundary	already_absorbed	S-0001;S-0010	Source lane supports chapter-level mechanism handoff only; it does not authorize new quotations, exact metrics, rankings, market claims, future fulfillment, or scene detail.	changed
+CH15-CH16	boundary	already_absorbed	S-0083;S-0084;S-0086;S-0087	Source lane supports chapter-level mechanism handoff only; it does not authorize new quotations, exact metrics, rankings, market claims, future fulfillment, or scene detail.	changed
+CH16-CH17	boundary	already_absorbed	S-0040;S-0041;S-0042;S-0043	Source lane supports chapter-level mechanism handoff only; it does not authorize new quotations, exact metrics, rankings, market claims, future fulfillment, or scene detail.	changed
+CH17-CH18	boundary	already_absorbed	S-0038;S-0052;S-0053;S-0055;S-0109	Source lane supports chapter-level mechanism handoff only; it does not authorize new quotations, exact metrics, rankings, market claims, future fulfillment, or scene detail.	changed
+CH18-CH19	boundary	already_absorbed	S-0035;S-0037;S-0056;S-0057;S-0058	Source lane supports chapter-level mechanism handoff only; it does not authorize new quotations, exact metrics, rankings, market claims, future fulfillment, or scene detail.	changed
+CH19-CH20	boundary	already_absorbed	S-0022;S-0048;S-0049;S-0050;S-0051	Source lane supports chapter-level mechanism handoff only; it does not authorize new quotations, exact metrics, rankings, market claims, future fulfillment, or scene detail.	changed
+CH20-CH21	boundary	already_absorbed	S-0029;S-0031;S-0059;S-0061;S-0062	Source lane supports chapter-level mechanism handoff only; it does not authorize new quotations, exact metrics, rankings, market claims, future fulfillment, or scene detail.	changed
+CH21-CH22	boundary	already_absorbed	S-0060;S-0063;S-0064;S-0128;S-0134	Source lane supports chapter-level mechanism handoff only; it does not authorize new quotations, exact metrics, rankings, market claims, future fulfillment, or scene detail.	changed
+CH22-CH23	boundary	already_absorbed	S-0005;S-0069;S-0070;S-0071;S-0072;S-0073;S-0074	Source lane supports chapter-level mechanism handoff only; it does not authorize new quotations, exact metrics, rankings, market claims, future fulfillment, or scene detail.	changed
+CH23-CH24	boundary	already_absorbed	S-0006;S-0002;S-0003;S-0038;S-0075;S-0076;S-0077	Source lane supports chapter-level mechanism handoff only; it does not authorize new quotations, exact metrics, rankings, market claims, future fulfillment, or scene detail.	changed
+CH01	opener	already_present		No fastest-growing-app superlative, OpenAI-confirmed 100M claim, revenue, retention, or productivity outcome without same-scope support.	not_changed
+CH02	opener	already_present		No modern LLM capability, semantic understanding, or inevitability claim from early language-model mechanisms.	not_changed
+CH03	opener	already_present		No attention-as-mind, consciousness, interpretability, or universal reasoning claim.	not_changed
+CH04	opener	already_present		No product guarantee, emergence threshold, universal law, or safety inference from scaling curves.	not_changed
+CH05	opener	already_present		No API usage scale, Copilot productivity, revenue, legal, licensing, or broad transformation claim.	not_changed
+CH06	opener	already_present		No solved truth, solved safety, solved alignment, jailbreak resistance, conscience, or universal preference claim.	not_changed
+CH07	opener	already_present		No adoption, revenue, paid-user, productivity, market-share, or current-UI claim beyond dated sources.	not_changed
+CH08	opener	already_present		No revenue, customer ROI, active-use, margin, workload-volume, market-share, or model-superiority claim.	not_changed
+CH09	opener	already_present		No adoption, search-share, click-behavior, revenue, benchmark-superiority, or product-preference claim.	not_changed
+CH10	opener	already_present		No open-source legal equivalence, download count, adoption scale, benchmark superiority, safety, or ecosystem dominance claim.	not_changed
+CH11	opener	already_present		No national ranking, benchmark crown, adoption, export-control effect, or unsupported future-model claim.	not_changed
+CH12	opener	already_present		No chapter identity drift, Claude/Anthropic duplication, unsupported xAI/Mistral adoption, or benchmark crown claim.	not_changed
+CH13	opener	already_present		No live rank, best-model claim, price-quality recommendation, ROI, or durable performance claim without dated snapshot.	not_changed
+CH14	opener	already_present		No performance, adoption, market-share, revenue, CUDA lock-in, or roadmap claim beyond sourced scope.	not_changed
+CH15	opener	already_present		No neutral industry definition, deployed-capacity proof, performance proof, revenue, or customer-adoption claim from NVIDIA stagecraft alone.	not_changed
+CH16	opener	already_present		No delivered-electrons, site fuel mix, energy-per-token, named-campus workload, emissions, or guaranteed flexibility claim.	not_changed
+CH17	opener	already_present		No closed-model corpus composition, legality, consent, representativeness, or data-quality superiority claim.	not_changed
+CH18	opener	already_present		No production reliability, complete factuality, broad planning competence, or autonomous operation claim.	not_changed
+CH19	opener	already_present		No autonomous programming, security quality, productivity lift, adoption, or broad replacement claim.	not_changed
+CH20	opener	already_present		No developer replacement, enterprise productivity, autonomy, secure-code guarantee, or benchmark transfer claim.	not_changed
+CH21	opener	already_present		No mind-access, faithful-chain-of-thought, solved reasoning, truth guarantee, or production autonomy claim.	not_changed
+CH22	opener	already_present		No margin, ROI, cost-per-token, revenue, utilization, or price-quality frontier claim without same-scope evidence.	not_changed
+CH23	opener	already_present		No production prevalence, uniform vulnerability, solved safety, all-model personality, or incident generalization claim.	not_changed
+CH24	opener	already_present		No governance adequacy, final-state prediction, AGI arrival, or technology-destiny claim.	not_changed

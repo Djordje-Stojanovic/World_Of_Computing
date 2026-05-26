@@ -449,3 +449,7 @@ Technical fact-checking should classify claims by permission, not by vibes. The 
 ## 2026-05-26 - I-0269 Chapter Structure
 
 A mandatory-spine topic should not live as a visible supplemental appendix. When two good chapter candidates collide, the repair is to assign jobs: one block carries the main narrative arc, the other carries bounded pressure tests, and the surrounding chapters keep their own operating territory.
+
+## 2026-05-26 - I-0270 Narrative Flow
+
+Continuity scaffolding should earn its way into the book as prose or leave the reader-facing surface. The useful conversion preserves source IDs and claim boundaries in the ledger while letting chapter endings and openings read like authored momentum instead of production notes.

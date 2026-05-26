@@ -47,6 +47,10 @@ Assembly note: current main chapter
 
 ## 1. The Shock
 
+<!-- OPENER-DOOR I-0270 CH01 -->
+The book opens at the smallest possible threshold: a blank text box that made a deep technical stack feel suddenly public.
+<!-- /OPENER-DOOR I-0270 CH01 -->
+
 ### The Box That Was Too Easy
 
 <!-- FIGURE-CALLOUT F01.01 ch01-fig01 -->
@@ -221,10 +225,9 @@ That older story matters because it strips the launch of both myths at once. Cha
 
 ---
 
-<!-- CONTINUITY-STITCH I-0247 CH01-CH02 -->
-> **Continuity stitch (I-0247, CH01-CH02):** The public shock now turns into the older engineering problem: before a text box could feel conversational, language had to become something a machine could represent, compare, and predict.
-> Source lane (I-0248): [S-0104] [S-0105] [S-0106] [S-0107] [S-0002]
-<!-- /CONTINUITY-STITCH I-0247 CH01-CH02 -->
+<!-- NARRATIVE-FLOW I-0270 CH01-CH02 -->
+The public shock now turns into the older engineering problem: before a text box could feel conversational, language had to become something a machine could represent, compare, and predict. [S-0104] [S-0105] [S-0106] [S-0107] [S-0002]
+<!-- /NARRATIVE-FLOW I-0270 CH01-CH02 -->
 
 <a id="chapter-02-before-the-transformer"></a>
 
@@ -234,6 +237,10 @@ Assembly source: `manuscript/01-before-the-transformer.md`.
 Assembly note: filename remains 01 from earlier drift; assembly maps it to outline chapter 2
 
 ## 2. Before the Transformer: The Machine Learns Sequence
+
+<!-- OPENER-DOOR I-0270 CH02 -->
+Before that box could feel natural, language had to be squeezed into representations a machine could compare, score, and extend.
+<!-- /OPENER-DOOR I-0270 CH02 -->
 
 ### The Older Machine
 > Source lane (I-0266): [S-0104] [S-0105] [S-0106] [S-0107]
@@ -389,10 +396,9 @@ That question belongs to the next chapter. The answer begins with attention catc
 
 ---
 
-<!-- CONTINUITY-STITCH I-0247 CH02-CH03 -->
-> **Continuity stitch (I-0247, CH02-CH03):** The bottleneck was not only that machines handled words badly; it was that sequence models struggled to move information cleanly across distance. Attention enters as the mechanism that lets the history of a sentence stay available.
-> Source lane (I-0248): [S-0002] [S-0108]
-<!-- /CONTINUITY-STITCH I-0247 CH02-CH03 -->
+<!-- NARRATIVE-FLOW I-0270 CH02-CH03 -->
+The bottleneck was not only that machines handled words badly; it was that sequence models struggled to move information cleanly across distance. Attention enters as the mechanism that lets the history of a sentence stay available. [S-0002] [S-0108]
+<!-- /NARRATIVE-FLOW I-0270 CH02-CH03 -->
 
 <a id="chapter-03-attention-catches-fire"></a>
 
@@ -402,6 +408,10 @@ Assembly source: `manuscript/02-attention-catches-fire.md`.
 Assembly note: filename remains 02 from earlier drift; assembly maps it to outline chapter 3
 
 ## 3. Attention Catches Fire: The Architecture That Wanted To Scale
+
+<!-- OPENER-DOOR I-0270 CH03 -->
+The next breakthrough begins with a bottleneck: sequence models could remember, but not freely enough for the scale that was coming.
+<!-- /OPENER-DOOR I-0270 CH03 -->
 
 ### The Break In The Loop
 
@@ -560,10 +570,9 @@ The next chapter is the moment that question becomes a bet.
 
 ---
 
-<!-- CONTINUITY-STITCH I-0247 CH03-CH04 -->
-> **Continuity stitch (I-0247, CH03-CH04):** Once attention made sequence modeling more parallel and expressive, the next question became brutally empirical: what happens if the same architecture is made larger, fed more data, and measured without sentimentality?
-> Source lane (I-0248): [S-0002] [S-0003] [S-0015] [S-0004]
-<!-- /CONTINUITY-STITCH I-0247 CH03-CH04 -->
+<!-- NARRATIVE-FLOW I-0270 CH03-CH04 -->
+Once attention made sequence modeling more parallel and expressive, the next question became brutally empirical: what happens if the same architecture is made larger, fed more data, and measured without sentimentality? [S-0002] [S-0003] [S-0015] [S-0004]
+<!-- /NARRATIVE-FLOW I-0270 CH03-CH04 -->
 
 <a id="chapter-04-the-scaling-bet"></a>
 
@@ -573,6 +582,10 @@ Assembly source: `manuscript/03-scaling-bet.md`.
 Assembly note: filename remains 03 from earlier drift; assembly maps it to outline chapter 4
 
 ## 4. The Scaling Bet: When Loss Became A Map
+
+<!-- OPENER-DOOR I-0270 CH04 -->
+Scaling enters the story as an empirical gamble, where curves became strategy before anyone knew what products they would justify.
+<!-- /OPENER-DOOR I-0270 CH04 -->
 
 ### The Curve Before The Product
 
@@ -743,10 +756,9 @@ The next chapter turns that possibility into a lineage: GPT-1, GPT-2, GPT-3, and
 
 ---
 
-<!-- CONTINUITY-STITCH I-0247 CH04-CH05 -->
-> **Continuity stitch (I-0247, CH04-CH05):** Scaling turned loss curves into strategy, but strategy still needed a vehicle. The GPT line made the wager concrete: pretrain a model broadly, then see how far prompting and access could carry it.
-> Source lane (I-0248): [S-0011] [S-0012] [S-0013] [S-0004]
-<!-- /CONTINUITY-STITCH I-0247 CH04-CH05 -->
+<!-- NARRATIVE-FLOW I-0270 CH04-CH05 -->
+Scaling turned loss curves into strategy, but strategy still needed a vehicle. The GPT line made the wager concrete: pretrain a model broadly, then see how far prompting and access could carry it. [S-0011] [S-0012] [S-0013] [S-0004]
+<!-- /NARRATIVE-FLOW I-0270 CH04-CH05 -->
 
 <a id="chapter-05-gpt-1-to-gpt-3-the-door-opens"></a>
 
@@ -756,6 +768,10 @@ Assembly source: `manuscript/05-gpt-1-to-gpt-3-door-opens.md`.
 Assembly note: current main chapter
 
 ## 5. GPT-1 to GPT-3: The Door Opens
+
+<!-- OPENER-DOOR I-0270 CH05 -->
+The GPT line turns the gamble into a service surface, a door through which builders could start treating prediction as infrastructure.
+<!-- /OPENER-DOOR I-0270 CH05 -->
 
 ### The Model That Learned To Begin
 
@@ -951,10 +967,9 @@ The final image of Chapter 5 is therefore not a triumphant model, but a problem 
 
 ---
 
-<!-- CONTINUITY-STITCH I-0247 CH05-CH06 -->
-> **Continuity stitch (I-0247, CH05-CH06):** The door opened by GPT-3 was powerful but unruly. If language models were going to become products, they needed more than continuation; they needed to behave like assistants under pressure from users, policies, and markets.
-> Source lane (I-0248): [S-0014] [S-0074]
-<!-- /CONTINUITY-STITCH I-0247 CH05-CH06 -->
+<!-- NARRATIVE-FLOW I-0270 CH05-CH06 -->
+The door opened by GPT-3 was powerful but unruly. If language models were going to become products, they needed more than continuation; they needed to behave like assistants under pressure from users, policies, and markets. [S-0014] [S-0074]
+<!-- /NARRATIVE-FLOW I-0270 CH05-CH06 -->
 
 <a id="chapter-06-alignment-enters-the-product"></a>
 
@@ -964,6 +979,10 @@ Assembly source: `manuscript/06-alignment-enters-product.md`.
 Assembly note: current main chapter
 
 ## 6. Alignment Enters the Product
+
+<!-- OPENER-DOOR I-0270 CH06 -->
+Once prediction became a product, the central problem changed from fluent continuation to behavior under instruction, pressure, and refusal.
+<!-- /OPENER-DOOR I-0270 CH06 -->
 
 ### The Model That Needed A Boss
 
@@ -1189,10 +1208,9 @@ That is the clean handoff. Chapter 5 showed how prompting and APIs made language
 
 ---
 
-<!-- CONTINUITY-STITCH I-0247 CH06-CH07 -->
-> **Continuity stitch (I-0247, CH06-CH07):** Alignment work made the assistant shape possible, but ChatGPT tested that shape in public. The next chapter moves from training loop to interface event: what happened when the assistant became easy enough for anyone to try.
-> Source lane (I-0248): [S-0006] [S-0074] [S-0078] [S-0079]
-<!-- /CONTINUITY-STITCH I-0247 CH06-CH07 -->
+<!-- NARRATIVE-FLOW I-0270 CH06-CH07 -->
+Alignment work made the assistant shape possible, but ChatGPT tested that shape in public. The next chapter moves from training loop to interface event: what happened when the assistant became easy enough for anyone to try. [S-0006] [S-0074] [S-0078] [S-0079]
+<!-- /NARRATIVE-FLOW I-0270 CH06-CH07 -->
 
 <a id="chapter-07-chatgpt-the-interface-event"></a>
 
@@ -1202,6 +1220,10 @@ Assembly source: `manuscript/07-chatgpt-interface-event.md`.
 Assembly note: current main chapter
 
 ## 7. ChatGPT: The Interface Event
+
+<!-- OPENER-DOOR I-0270 CH07 -->
+ChatGPT is the moment that behavior met the public: not as a paper, but as an interface ordinary people could test with ordinary language.
+<!-- /OPENER-DOOR I-0270 CH07 -->
 
 ### The Box
 
@@ -1412,10 +1434,9 @@ The answer will not come from OpenAI alone. Microsoft will turn the shock into p
 
 ---
 
-<!-- CONTINUITY-STITCH I-0247 CH07-CH08 -->
-> **Continuity stitch (I-0247, CH07-CH08):** The interface event created demand that no model paper could satisfy alone. To turn conversation into a durable product category, OpenAI needed cloud capacity, distribution, and institutional muscle.
-> Source lane (I-0248): [S-0125] [S-0126] [S-0130] [S-0132]
-<!-- /CONTINUITY-STITCH I-0247 CH07-CH08 -->
+<!-- NARRATIVE-FLOW I-0270 CH07-CH08 -->
+The interface event created demand that no model paper could satisfy alone. To turn conversation into a durable product category, OpenAI needed cloud capacity, distribution, and institutional muscle. [S-0125] [S-0126] [S-0130] [S-0132]
+<!-- /NARRATIVE-FLOW I-0270 CH07-CH08 -->
 
 <a id="chapter-08-microsoft-openai-and-the-cloud-bargain"></a>
 
@@ -1425,6 +1446,10 @@ Assembly source: `manuscript/08-microsoft-openai-cloud-bargain.md`.
 Assembly note: current main chapter
 
 ## 8. Microsoft, OpenAI, and the Cloud Bargain
+
+<!-- OPENER-DOOR I-0270 CH08 -->
+The interface event created a capacity problem, and capacity turned Microsoft and OpenAI's bargain into strategy, distribution, and governance.
+<!-- /OPENER-DOOR I-0270 CH08 -->
 
 ### The Backend Becomes The Plot
 > Source lane (I-0266): [S-0041] [S-0047] [S-0125] [S-0126] [S-0127] [S-0130]
@@ -1630,10 +1655,9 @@ Together, they made the soft box on the screen reveal the hard factory behind it
 
 ---
 
-<!-- CONTINUITY-STITCH I-0247 CH08-CH09 -->
-> **Continuity stitch (I-0247, CH08-CH09):** Microsoft's bargain showed one way to convert models into platform leverage. Google's problem was different: it already owned research depth, consumer habits, and infrastructure, and had to decide how quickly to move them together.
-> Source lane (I-0248): [S-0002] [S-0115] [S-0116] [S-0117] [S-0121]
-<!-- /CONTINUITY-STITCH I-0247 CH08-CH09 -->
+<!-- NARRATIVE-FLOW I-0270 CH08-CH09 -->
+Microsoft's bargain showed one way to convert models into platform leverage. Google's problem was different: it already owned research depth, consumer habits, and infrastructure, and had to decide how quickly to move them together. [S-0002] [S-0115] [S-0116] [S-0117] [S-0121]
+<!-- /NARRATIVE-FLOW I-0270 CH08-CH09 -->
 
 <a id="chapter-09-google-and-deepmind-wake-the-sleeping-giant"></a>
 
@@ -1643,6 +1667,10 @@ Assembly source: `manuscript/09-google-deepmind-gemini.md`.
 Assembly note: current main chapter
 
 ## 9. Google and DeepMind Wake the Sleeping Giant
+
+<!-- OPENER-DOOR I-0270 CH09 -->
+Google enters under a stranger burden: it already owned research depth, consumer habit, and infrastructure, and had to move them without breaking them.
+<!-- /OPENER-DOOR I-0270 CH09 -->
 
 ### The Company That Had Already Built the Future
 > Source lane (I-0266): [S-0016] [S-0017] [S-0115] [S-0116] [S-0121]
@@ -1827,10 +1855,9 @@ The giant woke. The hard part was deciding which part of the giant was supposed 
 
 ---
 
-<!-- CONTINUITY-STITCH I-0247 CH09-CH10 -->
-> **Continuity stitch (I-0247, CH09-CH10):** Google's response kept the race inside the world of giant platforms; Meta changed the surface of the race by pushing powerful weights toward researchers, developers, and adopters outside a closed API lane.
-> Source lane (I-0248): [S-0111] [S-0112] [S-0113] [S-0114]
-<!-- /CONTINUITY-STITCH I-0247 CH09-CH10 -->
+<!-- NARRATIVE-FLOW I-0270 CH09-CH10 -->
+Google's response kept the race inside the world of giant platforms; Meta changed the surface of the race by pushing powerful weights toward researchers, developers, and adopters outside a closed API lane. [S-0111] [S-0112] [S-0113] [S-0114]
+<!-- /NARRATIVE-FLOW I-0270 CH09-CH10 -->
 
 <a id="chapter-10-meta-llama-and-the-open-weight-shock"></a>
 
@@ -1840,6 +1867,10 @@ Assembly source: `manuscript/10-meta-llama-open-weight-shock.md`.
 Assembly note: current main chapter
 
 ## 10. Meta, Llama, and the Open-Weight Shock
+
+<!-- OPENER-DOOR I-0270 CH10 -->
+Meta changes the surface of the race by making powerful weights downloadable objects, which made openness feel practical and governance harder.
+<!-- /OPENER-DOOR I-0270 CH10 -->
 
 ### The Downloadable Object
 
@@ -2019,10 +2050,9 @@ But as a historical event in computing, the change is already visible. The LLM w
 
 ---
 
-<!-- CONTINUITY-STITCH I-0247 CH10-CH11 -->
-> **Continuity stitch (I-0247, CH10-CH11):** Open weights widened the field, but they did not make it simple. The next frontier was multipolar: Chinese labs, papers, repositories, and product surfaces made the race harder to reduce to a Western platform story.
-> Source lane (I-0248): [S-0026] [S-0027] [S-0028] [S-0029] [S-0031]
-<!-- /CONTINUITY-STITCH I-0247 CH10-CH11 -->
+<!-- NARRATIVE-FLOW I-0270 CH10-CH11 -->
+Open weights widened the field, but they did not make it simple. The next frontier was multipolar: Chinese labs, papers, repositories, and product surfaces made the race harder to reduce to a Western platform story. [S-0026] [S-0027] [S-0028] [S-0029] [S-0031]
+<!-- /NARRATIVE-FLOW I-0270 CH10-CH11 -->
 
 <a id="chapter-11-the-chinese-frontier"></a>
 
@@ -2032,6 +2062,10 @@ Assembly source: `manuscript/11-chinese-frontier-open-models.md`.
 Assembly note: current main chapter
 
 ## 11. The Chinese Frontier
+
+<!-- OPENER-DOOR I-0270 CH11 -->
+The Chinese frontier widens the map again, but the chapter treats each lab as evidence, not as a national scoreboard.
+<!-- /OPENER-DOOR I-0270 CH11 -->
 
 ### Too Important To Treat As A Footnote
 
@@ -2218,14 +2252,17 @@ That is the point. The frontier became too distributed for one narrator's shortc
 
 ---
 
-<!-- CONTINUITY-STITCH I-0247 CH11-CH12 -->
-> **Continuity stitch (I-0247, CH11-CH12):** The frontier then spreads rather than narrows. Europe, xAI, Mistral, Anthropic, and other labs each complicate the idea that one geography, one license model, or one assistant philosophy owns the future.
-> Source lane (I-0248): [S-0032] [S-0033] [S-0034] [S-0019] [S-0048]
-<!-- /CONTINUITY-STITCH I-0247 CH11-CH12 -->
+<!-- NARRATIVE-FLOW I-0270 CH11-CH12 -->
+The frontier then spreads rather than narrows. Europe, xAI, Mistral, Anthropic, and other labs each complicate the idea that one geography, one license model, or one assistant philosophy owns the future. [S-0032] [S-0033] [S-0034] [S-0019] [S-0048]
+<!-- /NARRATIVE-FLOW I-0270 CH11-CH12 -->
 
 <a id="chapter-12-anthropic-claude-and-the-plural-frontier"></a>
 
 # Chapter 12: Anthropic, Claude, and the Plural Frontier
+
+<!-- OPENER-DOOR I-0270 CH12 -->
+The frontier then becomes plural: Claude supplies the behavior-to-action arc while Mistral, xAI, Cohere, and AI21 test other constraints.
+<!-- /OPENER-DOOR I-0270 CH12 -->
 
 ## 12. Anthropic, Claude, and the Plural Frontier
 
@@ -2435,14 +2472,17 @@ But plural also means the field remained alive. The next token was not being wri
 
 ---
 
-<!-- CONTINUITY-STITCH I-0247 CH12-CH13 -->
-> **Continuity stitch (I-0247, CH12-CH13):** A crowded frontier creates a measurement hunger. Once readers have met many labs and model families, the book has to slow down and ask what a rank, benchmark, or arena score can honestly prove.
-> Source lane (I-0248): [S-0035] [S-0036] [S-0037]
-<!-- /CONTINUITY-STITCH I-0247 CH12-CH13 -->
+<!-- NARRATIVE-FLOW I-0270 CH12-CH13 -->
+A crowded frontier creates a measurement hunger. Once readers have met many labs and model families, the book has to slow down and ask what a rank, benchmark, or arena score can honestly prove. [S-0035] [S-0036] [S-0037]
+<!-- /NARRATIVE-FLOW I-0270 CH12-CH13 -->
 
 <a id="chapter-13-benchmarks-arenas-and-the-mirage-of-rank"></a>
 
 # Chapter 13: Benchmarks, Arenas, and the Mirage of Rank
+
+<!-- OPENER-DOOR I-0270 CH13 -->
+After so many contenders, the reader naturally wants a crown; this chapter shows why rankings are evidence, not verdicts.
+<!-- /OPENER-DOOR I-0270 CH13 -->
 
 Assembly source: `manuscript/13-model-rankings-appendix.md`.
 Assembly note: filename still says appendix; assembly treats it as main chapter
@@ -2678,10 +2718,9 @@ The final sentence of the chapter should make the reader carry the habit forward
 
 ---
 
-<!-- CONTINUITY-STITCH I-0247 CH13-CH14 -->
-> **Continuity stitch (I-0247, CH13-CH14):** The measurement chapter explains why model comparisons are unstable; the hardware chapter asks a deeper question underneath them: what kind of machine and software stack makes any of these comparisons possible?
-> Source lane (I-0248): [S-0039] [S-0065] [S-0066]
-<!-- /CONTINUITY-STITCH I-0247 CH13-CH14 -->
+<!-- NARRATIVE-FLOW I-0270 CH13-CH14 -->
+The measurement chapter explains why model comparisons are unstable; the hardware chapter asks a deeper question underneath them: what kind of machine and software stack makes any of these comparisons possible? [S-0039] [S-0065] [S-0066]
+<!-- /NARRATIVE-FLOW I-0270 CH13-CH14 -->
 
 <a id="chapter-14-nvidia-and-cuda-the-moat-under-the-moat"></a>
 
@@ -2691,6 +2730,10 @@ Assembly source: `manuscript/14-nvidia-cuda-moat.md`.
 Assembly note: current main chapter
 
 ## 14. NVIDIA and CUDA: The Moat Under the Moat
+
+<!-- OPENER-DOOR I-0270 CH14 -->
+Under every benchmark row sits a machine stack, and NVIDIA's moat begins where silicon, software, and developer habit reinforce one another.
+<!-- /OPENER-DOOR I-0270 CH14 -->
 
 ### The Invisible Platform Under The Miracle
 > Source lane (I-0266): [S-0138] [S-0141] [S-0139]
@@ -2885,10 +2928,9 @@ Those blockers improve the chapter's ending because they define its honest job. 
 
 ---
 
-<!-- CONTINUITY-STITCH I-0247 CH14-CH15 -->
-> **Continuity stitch (I-0247, CH14-CH15):** CUDA and GPUs are the hidden substrate; GTC is the theater where that substrate is sold back to the world as destiny. The next chapter treats NVIDIA's stagecraft as evidence of framing, not proof of fulfillment.
-> Source lane (I-0248): [S-0001] [S-0010]
-<!-- /CONTINUITY-STITCH I-0247 CH14-CH15 -->
+<!-- NARRATIVE-FLOW I-0270 CH14-CH15 -->
+CUDA and GPUs are the hidden substrate; GTC is the theater where that substrate is sold back to the world as destiny. The next chapter treats NVIDIA's stagecraft as evidence of framing, not proof of fulfillment. [S-0001] [S-0010]
+<!-- /NARRATIVE-FLOW I-0270 CH14-CH15 -->
 
 <a id="chapter-15-gtc-2026-the-ai-factory-sells-itself"></a>
 
@@ -2898,6 +2940,10 @@ Assembly source: `manuscript/15-gtc-2026-ai-factory-sells-itself.md`.
 Assembly note: current main chapter
 
 ## 15. GTC 2026: The AI Factory Sells Itself
+
+<!-- OPENER-DOOR I-0270 CH15 -->
+GTC turns that stack into theater, selling the AI factory as a story the market could see before the infrastructure was finished.
+<!-- /OPENER-DOOR I-0270 CH15 -->
 
 ### The Slide That Tried To Rename The Datacenter
 
@@ -3140,14 +3186,17 @@ The phrase was stagecraft, but it named a real pressure, and pressure changes st
 
 ---
 
-<!-- CONTINUITY-STITCH I-0247 CH15-CH16 -->
-> **Continuity stitch (I-0247, CH15-CH16):** The AI factory sounds abstract until it needs a site, a substation, cooling, transformers, and time. After the keynote, the book walks out of the convention hall and into the physical internet.
-> Source lane (I-0248): [S-0083] [S-0084] [S-0086] [S-0087]
-<!-- /CONTINUITY-STITCH I-0247 CH15-CH16 -->
+<!-- NARRATIVE-FLOW I-0270 CH15-CH16 -->
+The AI factory sounds abstract until it needs a site, a substation, cooling, transformers, and time. After the keynote, the book walks out of the convention hall and into the physical internet. [S-0083] [S-0084] [S-0086] [S-0087]
+<!-- /NARRATIVE-FLOW I-0270 CH15-CH16 -->
 
 <a id="chapter-16-datacenters-power-and-the-physical-internet"></a>
 
 # Chapter 16: Datacenters, Power, and the Physical Internet
+
+<!-- OPENER-DOOR I-0270 CH16 -->
+Outside the keynote, the factory has to find land, power, cooling, transformers, network links, and time.
+<!-- /OPENER-DOOR I-0270 CH16 -->
 
 Assembly source: `manuscript/16-speed-to-power.md`.
 Assembly note: filename remains Speed To Power; assembly maps it to official outline chapter 16
@@ -3394,10 +3443,9 @@ That is why Chapter 16 belongs after the model and product chapters rather than 
 
 ---
 
-<!-- CONTINUITY-STITCH I-0247 CH16-CH17 -->
-> **Continuity stitch (I-0247, CH16-CH17):** Power is one input to the LLM machine; data is the other. Once the book has followed tokens to substations, it has to follow them backward into the libraries, crawls, filters, and tokenizers that feed training.
-> Source lane (I-0248): [S-0040] [S-0041] [S-0042] [S-0043]
-<!-- /CONTINUITY-STITCH I-0247 CH16-CH17 -->
+<!-- NARRATIVE-FLOW I-0270 CH16-CH17 -->
+Power is one input to the LLM machine; data is the other. Once the book has followed tokens to substations, it has to follow them backward into the libraries, crawls, filters, and tokenizers that feed training. [S-0040] [S-0041] [S-0042] [S-0043]
+<!-- /NARRATIVE-FLOW I-0270 CH16-CH17 -->
 
 <a id="chapter-17-data-tokens-and-the-library-problem"></a>
 
@@ -3407,6 +3455,10 @@ Assembly source: `manuscript/17-data-tokens-library-problem.md`.
 Assembly note: current main chapter
 
 ## 17. Data, Tokens, and the Library Problem
+
+<!-- OPENER-DOOR I-0270 CH17 -->
+Power is only half the supply chain; the other half is language itself, collected, filtered, tokenized, remembered, and disputed.
+<!-- /OPENER-DOOR I-0270 CH17 -->
 
 ### The Library Before the Factory
 > Source lane (I-0266): [S-0042] [S-0153] [S-0154] [S-0155] [S-0156] [S-0157]
@@ -3594,10 +3646,9 @@ Chapter 17 also has to keep shaking hands with its neighbors. Chapter 13 owns be
 
 ---
 
-<!-- CONTINUITY-STITCH I-0247 CH17-CH18 -->
-> **Continuity stitch (I-0247, CH17-CH18):** Data gives a model memory-shaped material, but tools change what the model can do with a prompt. The next step is outward: retrieval, APIs, function calls, and action boundaries.
-> Source lane (I-0248): [S-0038] [S-0052] [S-0053] [S-0055] [S-0109]
-<!-- /CONTINUITY-STITCH I-0247 CH17-CH18 -->
+<!-- NARRATIVE-FLOW I-0270 CH17-CH18 -->
+Data gives a model memory-shaped material, but tools change what the model can do with a prompt. The next step is outward: retrieval, APIs, function calls, and action boundaries. [S-0038] [S-0052] [S-0053] [S-0055] [S-0109]
+<!-- /NARRATIVE-FLOW I-0270 CH17-CH18 -->
 
 <a id="chapter-18-tools-retrieval-and-the-agent-turn"></a>
 
@@ -3607,6 +3658,10 @@ Assembly source: `manuscript/18-tools-retrieval-agent-turn.md`.
 Assembly note: current main chapter
 
 ## 18. Tools, Retrieval, and the Agent Turn
+
+<!-- OPENER-DOOR I-0270 CH18 -->
+Tools move the model outward, turning answers into actions that need context, permissions, observations, and rollback.
+<!-- /OPENER-DOOR I-0270 CH18 -->
 
 ### The Text Box Grows Hands
 
@@ -3796,10 +3851,9 @@ The remaining editorial work is no longer a chapter-ending to-do list. It belong
 
 ---
 
-<!-- CONTINUITY-STITCH I-0247 CH18-CH19 -->
-> **Continuity stitch (I-0247, CH18-CH19):** General tool use shows the harness; code shows the first domain where language becomes executable and testable. The agent turn becomes sharper when the output must compile, run, and survive review.
-> Source lane (I-0248): [S-0035] [S-0037] [S-0056] [S-0057] [S-0058]
-<!-- /CONTINUITY-STITCH I-0247 CH18-CH19 -->
+<!-- NARRATIVE-FLOW I-0270 CH18-CH19 -->
+General tool use shows the harness; code shows the first domain where language becomes executable and testable. The agent turn becomes sharper when the output must compile, run, and survive review. [S-0035] [S-0037] [S-0056] [S-0057] [S-0058]
+<!-- /NARRATIVE-FLOW I-0270 CH18-CH19 -->
 
 <a id="chapter-19-code-as-the-second-native-language"></a>
 
@@ -3809,6 +3863,10 @@ Assembly source: `manuscript/19-code-as-the-second-native-language.md`.
 Assembly note: current main chapter
 
 ## 19. Code as the Second Native Language
+
+<!-- OPENER-DOOR I-0270 CH19 -->
+Code sharpens that outward move because language can now become syntax, run against tests, and fail in public.
+<!-- /OPENER-DOOR I-0270 CH19 -->
 
 ### The Language That Compiles
 
@@ -3999,10 +4057,9 @@ The remaining editorial work should now sit beside the chapter rather than insid
 
 ---
 
-<!-- CONTINUITY-STITCH I-0247 CH19-CH20 -->
-> **Continuity stitch (I-0247, CH19-CH20):** Code made the stakes measurable; Claude Code makes the workflow visible. The next chapter narrows from code as a second native language to repository work as a supervised industrial practice.
-> Source lane (I-0248): [S-0022] [S-0048] [S-0049] [S-0050] [S-0051]
-<!-- /CONTINUITY-STITCH I-0247 CH19-CH20 -->
+<!-- NARRATIVE-FLOW I-0270 CH19-CH20 -->
+Code made the stakes measurable; Claude Code makes the workflow visible. The next chapter narrows from code as a second native language to repository work as a supervised industrial practice. [S-0022] [S-0048] [S-0049] [S-0050] [S-0051]
+<!-- /NARRATIVE-FLOW I-0270 CH19-CH20 -->
 
 <a id="chapter-20-claude-code-and-the-industrialization-of-pair-programming"></a>
 
@@ -4012,6 +4069,10 @@ Assembly source: `manuscript/20-claude-code-industrialized-pair-programming.md`.
 Assembly note: current main chapter
 
 ## 20. Claude Code and the Industrialization of Pair Programming
+
+<!-- OPENER-DOOR I-0270 CH20 -->
+Claude Code makes the agent loop concrete: the terminal becomes useful only when files, commands, tests, and review are bounded.
+<!-- /OPENER-DOOR I-0270 CH20 -->
 
 ### The Terminal Becomes A Colleague
 
@@ -4200,10 +4261,9 @@ The remaining work belongs in the source and visual ledgers: snapshot Claude Cod
 
 ---
 
-<!-- CONTINUITY-STITCH I-0247 CH20-CH21 -->
-> **Continuity stitch (I-0247, CH20-CH21):** Coding agents expose the cost of action, review, and retries. Reasoning systems expose a related cost inside inference itself: sometimes the machine spends more compute before it answers.
-> Source lane (I-0248): [S-0029] [S-0031] [S-0059] [S-0061] [S-0062]
-<!-- /CONTINUITY-STITCH I-0247 CH20-CH21 -->
+<!-- NARRATIVE-FLOW I-0270 CH20-CH21 -->
+Coding agents expose the cost of action, review, and retries. Reasoning systems expose a related cost inside inference itself: sometimes the machine spends more compute before it answers. [S-0029] [S-0031] [S-0059] [S-0061] [S-0062]
+<!-- /NARRATIVE-FLOW I-0270 CH20-CH21 -->
 
 <a id="chapter-21-reasoning-test-time-compute-and-the-new-scaling-axis"></a>
 
@@ -4213,6 +4273,10 @@ Assembly source: `manuscript/21-reasoning-test-time-compute.md`.
 Assembly note: current main chapter
 
 ## 21. Reasoning, Test-Time Compute, and the New Scaling Axis
+
+<!-- OPENER-DOOR I-0270 CH21 -->
+Reasoning systems shift some of the cost into the pause before an answer, making thought-like behavior a metered inference choice.
+<!-- /OPENER-DOOR I-0270 CH21 -->
 > Source lane (I-0266): [S-0168] [S-0169] [S-0170] [S-0171] [S-0172] [S-0173] [S-0029]
 > Boundary: Use as chapter-level source bridge until section split; no hidden-chain or benchmark-crown claim.
 
@@ -4341,10 +4405,9 @@ The audit work now belongs beside the chapter: keep OpenAI o1/o3/o4-mini and Gem
 
 ---
 
-<!-- CONTINUITY-STITCH I-0247 CH21-CH22 -->
-> **Continuity stitch (I-0247, CH21-CH22):** If test-time compute becomes another scaling axis, then intelligence becomes not only a capability question but a pricing question. The next chapter turns the pause before an answer into a meter.
-> Source lane (I-0248): [S-0060] [S-0063] [S-0064] [S-0128] [S-0134]
-<!-- /CONTINUITY-STITCH I-0247 CH21-CH22 -->
+<!-- NARRATIVE-FLOW I-0270 CH21-CH22 -->
+If test-time compute becomes another scaling axis, then intelligence becomes not only a capability question but a pricing question. The next chapter turns the pause before an answer into a meter. [S-0060] [S-0063] [S-0064] [S-0128] [S-0134]
+<!-- /NARRATIVE-FLOW I-0270 CH21-CH22 -->
 
 <a id="chapter-22-the-economics-of-intelligence-on-tap"></a>
 
@@ -4354,6 +4417,10 @@ Assembly source: `manuscript/22-economics-intelligence-on-tap.md`.
 Assembly note: current main chapter
 
 ## 22. The Economics of Intelligence on Tap
+
+<!-- OPENER-DOOR I-0270 CH22 -->
+The meter changes the business story: intelligence is sold through tokens, tiers, latency, cache rules, and scope caveats.
+<!-- /OPENER-DOOR I-0270 CH22 -->
 
 ### The Meter Appears
 > Source lane (I-0266): [S-0060] [S-0061] [S-0062] [S-0072] [S-0081] [S-0082] [C-0046]
@@ -4524,10 +4591,9 @@ The remaining editorial work belongs in the ledgers: keep the economics visual p
 
 ---
 
-<!-- CONTINUITY-STITCH I-0247 CH22-CH23 -->
-> **Continuity stitch (I-0247, CH22-CH23):** Cheap fluency still has to be trusted. After the economics of tokens, the book turns to the failures that make every confident answer a claim needing context, provenance, and review.
-> Source lane (I-0248): [S-0005] [S-0069] [S-0070] [S-0071] [S-0072] [S-0073] [S-0074]
-<!-- /CONTINUITY-STITCH I-0247 CH22-CH23 -->
+<!-- NARRATIVE-FLOW I-0270 CH22-CH23 -->
+Cheap fluency still has to be trusted. After the economics of tokens, the book turns to the failures that make every confident answer a claim needing context, provenance, and review. [S-0005] [S-0069] [S-0070] [S-0071] [S-0072] [S-0073] [S-0074]
+<!-- /NARRATIVE-FLOW I-0270 CH22-CH23 -->
 
 <a id="chapter-23-failure-modes-truth-and-trust"></a>
 
@@ -4537,6 +4603,10 @@ Assembly source: `manuscript/23-failure-modes-truth-trust.md`.
 Assembly note: current main chapter
 
 ## 23. Failure Modes, Truth, and Trust
+
+<!-- OPENER-DOOR I-0270 CH23 -->
+Trust is the price of useful fluency, because an answer that sounds finished can still be unsupported, poisoned, or wrong.
+<!-- /OPENER-DOOR I-0270 CH23 -->
 
 <!-- FIGURE-CALLOUT F23.01 ch23-fig01 -->
 > [!FIGURE] **F23.01 / A-0074 - Failure Modes Are Different Claims**  
@@ -4646,10 +4716,9 @@ The audit work now stays outside the reader's final beat: keep hallucination pro
 
 ---
 
-<!-- CONTINUITY-STITCH I-0247 CH23-CH24 -->
-> **Continuity stitch (I-0247, CH23-CH24):** The trust chapter leaves the reader with no simple crown, cure, or prophecy. The final chapter returns to the next token as both mechanism and responsibility: what humans choose to ask, build, meter, and believe.
-> Source lane (I-0248): [S-0006] [S-0002] [S-0003] [S-0038] [S-0075] [S-0076] [S-0077]
-<!-- /CONTINUITY-STITCH I-0247 CH23-CH24 -->
+<!-- NARRATIVE-FLOW I-0270 CH23-CH24 -->
+The trust chapter leaves the reader with no simple crown, cure, or prophecy. The final chapter returns to the next token as both mechanism and responsibility: what humans choose to ask, build, meter, and believe. [S-0006] [S-0002] [S-0003] [S-0038] [S-0075] [S-0076] [S-0077]
+<!-- /NARRATIVE-FLOW I-0270 CH23-CH24 -->
 
 <a id="chapter-24-next-token"></a>
 
@@ -4659,6 +4728,10 @@ Assembly source: `manuscript/24-next-token.md`.
 Assembly note: current main chapter
 
 ## 24. Next Token
+
+<!-- OPENER-DOOR I-0270 CH24 -->
+The ending returns to the mechanism itself: every next token is both a technical act and a human decision about what to ask, build, and believe.
+<!-- /OPENER-DOOR I-0270 CH24 -->
 > Source lane (I-0266): [S-0006] [S-0002] [S-0003] [S-0004] [S-0014] [S-0041] [S-0047] [S-0138] [S-0083] [S-0153] [S-0038] [S-0035] [S-0164]
 > Boundary: Use as final synthesis bridge; chapter claims must still point back to local chapter evidence.
 

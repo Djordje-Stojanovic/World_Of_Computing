@@ -1,0 +1,9 @@
+check	status	note
+no_visible_continuity_stitch_blocks	pass	Old visible continuity-stitch callouts removed.
+no_visible_source_lane_blocks	pass	Old source-lane blockquote labels removed from boundary prose.
+all_23_boundaries_absorbed	pass	All 23 boundary stitches converted to prose.
+all_24_openers_present	pass	All 24 opener-door paragraphs present.
+chapter_count_24	pass	Top-level chapter count is 24.
+word_count_in_bounds	pass	Assembled word count is 108934.
+no_forbidden_new_claim_terms	pass	No common hype/unsupported terms introduced by the pass.
+source_refs_preserved_on_boundaries	pass	Every absorbed boundary retains at least one source reference.
