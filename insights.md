@@ -222,3 +222,7 @@ For industrial subjects, original synthesis art is often stronger than a weakly 
 ## 2026-05-26 - I-0209 Early Technical Exhibit Fill
 
 Early mechanism chapters need source texture as much as diagrams: paraphrase-only source cards can close chapter-balance gaps and show the pressure chain from sparse counts to embeddings, seq2seq, attention, Transformer, scaling, and GPT/API surfaces, while leaving exact quote/page extraction as a separate rights and accuracy gate.
+
+## 2026-05-26 - I-0210 Real-World Source-Media Wave
+
+Real-world image acquisition should fail closed and keep both successes and misses visible: local hashes make people, fabs, data centers, chips, model pages, coding-agent docs, and DeepSeek reports usable as private production evidence, but final exhibit readiness still depends on rights, attribution, cutoff-status, quote limits, caption firewalls, and render placement.

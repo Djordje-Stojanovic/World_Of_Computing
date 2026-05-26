@@ -34,6 +34,7 @@ assets/**/*.zip
 assets/**/*.7z
 assets/**/*.tar
 assets/**/*.gz
+assets/source_media/**/*.html
 
 # Keep lightweight, auditable assets trackable
 !assets/**/*.svg
