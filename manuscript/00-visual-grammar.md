@@ -203,6 +203,17 @@ Rules:
 - Batch, cache, priority, long-context, data-sharing, and fine-tuning rows must not be merged into standard inference pricing.
 - Margin, cost-per-token, revenue, utilization, ROI, productivity, price-quality frontier, hidden reasoning budget, and exact latency remain blocked unless separately sourced at the same scope.
 
+## Figure IDs And Anchors
+
+`data/full_book_figure_list_i0229.tsv` is the temporary canonical selected-figure ledger. Book-facing references use `Fcc.nn` IDs and `chcc-fignn` anchors; asset IDs remain production handles only.
+
+Rules:
+
+- Use the figure list before writing any figure cross-reference or render-smoke checklist.
+- Update the figure list in the same pass as any selected-exhibit insertion, removal, or chapter move.
+- Do not treat generated alt text as final accessibility proof; revise it during page layout when the exact crop and surrounding prose are known.
+- Do not mark selected exhibits as publication-ready until render, rights, caption, and source-note gates pass.
+
 ## Promotion Rationale
 
 Before this pass, the book had visual candidates but no visual grammar and no manifest-tracked diagrams. This pass adds the first three lightweight prototypes and establishes design rules for timelines, systems, family trees, tradeoffs, caveats, screenshots, and photo slots. It improves visual/data usefulness without introducing unsupported factual claims.

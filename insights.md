@@ -298,3 +298,7 @@ The AI-factory spread works only if demand, training, serving, chips, software, 
 ## 2026-05-26 - I-0228 Token Economics
 
 Token economics becomes concrete when the public meter and hidden ledger are separated on the page. Input, cached input, output, context, reasoning, batching, routing, and channel are visible service-contract surfaces; margin, cost per token, utilization, revenue, ROI, and price-quality frontiers stay blocked until same-scope cost and pricing evidence exists.
+
+## 2026-05-26 - I-0229 Figure Numbering
+
+Figure IDs should be book-facing contracts, not asset handles. A stable `Fcc.nn` ledger lets render QA, captions, alt text, source notes, and cross-references point to the same object, while planned statuses keep "selected" separate from "rendered," "rights-cleared," and "publication-ready."
