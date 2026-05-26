@@ -215,6 +215,10 @@ That older story matters because it strips the launch of both myths at once. Cha
 
 ---
 
+<!-- CONTINUITY-STITCH I-0247 CH01-CH02 -->
+> **Continuity stitch (I-0247, CH01-CH02):** The public shock now turns into the older engineering problem: before a text box could feel conversational, language had to become something a machine could represent, compare, and predict.
+<!-- /CONTINUITY-STITCH I-0247 CH01-CH02 -->
+
 <a id="chapter-02-before-the-transformer"></a>
 
 # Chapter 02: Before the Transformer
@@ -365,6 +369,10 @@ The technical history before the Transformer is therefore not a preface to the r
 That question belongs to the next chapter. The answer begins with attention catching fire.
 
 ---
+
+<!-- CONTINUITY-STITCH I-0247 CH02-CH03 -->
+> **Continuity stitch (I-0247, CH02-CH03):** The bottleneck was not only that machines handled words badly; it was that sequence models struggled to move information cleanly across distance. Attention enters as the mechanism that lets the history of a sentence stay available.
+<!-- /CONTINUITY-STITCH I-0247 CH02-CH03 -->
 
 <a id="chapter-03-attention-catches-fire"></a>
 
@@ -528,6 +536,10 @@ The Transformer therefore does not end the technical history. It starts the mode
 The next chapter is the moment that question becomes a bet.
 
 ---
+
+<!-- CONTINUITY-STITCH I-0247 CH03-CH04 -->
+> **Continuity stitch (I-0247, CH03-CH04):** Once attention made sequence modeling more parallel and expressive, the next question became brutally empirical: what happens if the same architecture is made larger, fed more data, and measured without sentimentality?
+<!-- /CONTINUITY-STITCH I-0247 CH03-CH04 -->
 
 <a id="chapter-04-the-scaling-bet"></a>
 
@@ -703,6 +715,10 @@ That sentence is the hinge. The next chapters will show labs acting as if possib
 The next chapter turns that possibility into a lineage: GPT-1, GPT-2, GPT-3, and the road from pretraining to prompting.
 
 ---
+
+<!-- CONTINUITY-STITCH I-0247 CH04-CH05 -->
+> **Continuity stitch (I-0247, CH04-CH05):** Scaling turned loss curves into strategy, but strategy still needed a vehicle. The GPT line made the wager concrete: pretrain a model broadly, then see how far prompting and access could carry it.
+<!-- /CONTINUITY-STITCH I-0247 CH04-CH05 -->
 
 <a id="chapter-05-gpt-1-to-gpt-3-the-door-opens"></a>
 
@@ -900,6 +916,10 @@ The hand-off should be sober. RLHF did not solve truth, safety, bias, robustness
 The final image of Chapter 5 is therefore not a triumphant model, but a problem made legible. The GPT line opened the door. Behind it was a room full of users, developers, prompts, code, policies, failures, business dependencies, and expectations. The next chapter asks how a continuation machine learned to act as if it had been asked for help.
 
 ---
+
+<!-- CONTINUITY-STITCH I-0247 CH05-CH06 -->
+> **Continuity stitch (I-0247, CH05-CH06):** The door opened by GPT-3 was powerful but unruly. If language models were going to become products, they needed more than continuation; they needed to behave like assistants under pressure from users, policies, and markets.
+<!-- /CONTINUITY-STITCH I-0247 CH05-CH06 -->
 
 <a id="chapter-06-alignment-enters-the-product"></a>
 
@@ -1122,6 +1142,10 @@ That is the clean handoff. Chapter 5 showed how prompting and APIs made language
 
 ---
 
+<!-- CONTINUITY-STITCH I-0247 CH06-CH07 -->
+> **Continuity stitch (I-0247, CH06-CH07):** Alignment work made the assistant shape possible, but ChatGPT tested that shape in public. The next chapter moves from training loop to interface event: what happened when the assistant became easy enough for anyone to try.
+<!-- /CONTINUITY-STITCH I-0247 CH06-CH07 -->
+
 <a id="chapter-07-chatgpt-the-interface-event"></a>
 
 # Chapter 07: ChatGPT: The Interface Event
@@ -1328,6 +1352,10 @@ The answer will not come from OpenAI alone. Microsoft will turn the shock into p
 
 ---
 
+<!-- CONTINUITY-STITCH I-0247 CH07-CH08 -->
+> **Continuity stitch (I-0247, CH07-CH08):** The interface event created demand that no model paper could satisfy alone. To turn conversation into a durable product category, OpenAI needed cloud capacity, distribution, and institutional muscle.
+<!-- /CONTINUITY-STITCH I-0247 CH07-CH08 -->
+
 <a id="chapter-08-microsoft-openai-and-the-cloud-bargain"></a>
 
 # Chapter 08: Microsoft, OpenAI, and the Cloud Bargain
@@ -1529,6 +1557,10 @@ Together, they made the soft box on the screen reveal the hard factory behind it
 
 ---
 
+<!-- CONTINUITY-STITCH I-0247 CH08-CH09 -->
+> **Continuity stitch (I-0247, CH08-CH09):** Microsoft's bargain showed one way to convert models into platform leverage. Google's problem was different: it already owned research depth, consumer habits, and infrastructure, and had to decide how quickly to move them together.
+<!-- /CONTINUITY-STITCH I-0247 CH08-CH09 -->
+
 <a id="chapter-09-google-and-deepmind-wake-the-sleeping-giant"></a>
 
 # Chapter 09: Google and DeepMind Wake the Sleeping Giant
@@ -1715,6 +1747,10 @@ The giant woke. The hard part was deciding which part of the giant was supposed 
 
 ---
 
+<!-- CONTINUITY-STITCH I-0247 CH09-CH10 -->
+> **Continuity stitch (I-0247, CH09-CH10):** Google's response kept the race inside the world of giant platforms; Meta changed the surface of the race by pushing powerful weights toward researchers, developers, and adopters outside a closed API lane.
+<!-- /CONTINUITY-STITCH I-0247 CH09-CH10 -->
+
 <a id="chapter-10-meta-llama-and-the-open-weight-shock"></a>
 
 # Chapter 10: Meta, Llama, and the Open-Weight Shock
@@ -1895,6 +1931,10 @@ The old platform move was to gather users behind a service. The Llama move was s
 But as a historical event in computing, the change is already visible. The LLM was no longer only something you asked through a window. It was something you could hold, alter, compress, host, and embed. That made Llama one of the names by which next-token prediction escaped the chat box and became part of the ordinary material of software.
 
 ---
+
+<!-- CONTINUITY-STITCH I-0247 CH10-CH11 -->
+> **Continuity stitch (I-0247, CH10-CH11):** Open weights widened the field, but they did not make it simple. The next frontier was multipolar: Chinese labs, papers, repositories, and product surfaces made the race harder to reduce to a Western platform story.
+<!-- /CONTINUITY-STITCH I-0247 CH10-CH11 -->
 
 <a id="chapter-11-the-chinese-frontier"></a>
 
@@ -2077,6 +2117,10 @@ The chapter's ending, then, is not a flag wave. It is a map widening. The LLM ra
 That is the point. The frontier became too distributed for one narrator's shortcut. A serious book has to slow down enough to name the systems correctly.
 
 ---
+
+<!-- CONTINUITY-STITCH I-0247 CH11-CH12 -->
+> **Continuity stitch (I-0247, CH11-CH12):** The frontier then spreads rather than narrows. Europe, xAI, Mistral, Anthropic, and other labs each complicate the idea that one geography, one license model, or one assistant philosophy owns the future.
+<!-- /CONTINUITY-STITCH I-0247 CH11-CH12 -->
 
 <a id="chapter-12-europe-xai-and-the-rest-of-the-frontier"></a>
 
@@ -2353,6 +2397,10 @@ The verification blockers also remain active. Downloaded Anthropic source assets
 
 ---
 
+<!-- CONTINUITY-STITCH I-0247 CH12-CH13 -->
+> **Continuity stitch (I-0247, CH12-CH13):** A crowded frontier creates a measurement hunger. Once readers have met many labs and model families, the book has to slow down and ask what a rank, benchmark, or arena score can honestly prove.
+<!-- /CONTINUITY-STITCH I-0247 CH12-CH13 -->
+
 <a id="chapter-13-benchmarks-arenas-and-the-mirage-of-rank"></a>
 
 # Chapter 13: Benchmarks, Arenas, and the Mirage of Rank
@@ -2585,6 +2633,10 @@ The final sentence of the chapter should make the reader carry the habit forward
 
 ---
 
+<!-- CONTINUITY-STITCH I-0247 CH13-CH14 -->
+> **Continuity stitch (I-0247, CH13-CH14):** The measurement chapter explains why model comparisons are unstable; the hardware chapter asks a deeper question underneath them: what kind of machine and software stack makes any of these comparisons possible?
+<!-- /CONTINUITY-STITCH I-0247 CH13-CH14 -->
+
 <a id="chapter-14-nvidia-and-cuda-the-moat-under-the-moat"></a>
 
 # Chapter 14: NVIDIA and CUDA: The Moat Under the Moat
@@ -2774,6 +2826,10 @@ The remaining verification tasks are therefore boundary tasks, not merely cleanu
 Those blockers improve the chapter's ending because they define its honest job. Chapter 14 can say how NVIDIA made accelerated computing feel ordinary enough for frontier labs to build on. It cannot say the whole AI factory had already been built, that every roadmap claim shipped, or that every customer had no alternative. The chapter gives the reader the machine grammar. The next chapter shows the company trying to make that grammar sound like destiny.
 
 ---
+
+<!-- CONTINUITY-STITCH I-0247 CH14-CH15 -->
+> **Continuity stitch (I-0247, CH14-CH15):** CUDA and GPUs are the hidden substrate; GTC is the theater where that substrate is sold back to the world as destiny. The next chapter treats NVIDIA's stagecraft as evidence of framing, not proof of fulfillment.
+<!-- /CONTINUITY-STITCH I-0247 CH14-CH15 -->
 
 <a id="chapter-15-gtc-2026-the-ai-factory-sells-itself"></a>
 
@@ -3019,6 +3075,10 @@ The phrase was stagecraft, but it named a real pressure, and pressure changes st
 
 ---
 
+<!-- CONTINUITY-STITCH I-0247 CH15-CH16 -->
+> **Continuity stitch (I-0247, CH15-CH16):** The AI factory sounds abstract until it needs a site, a substation, cooling, transformers, and time. After the keynote, the book walks out of the convention hall and into the physical internet.
+<!-- /CONTINUITY-STITCH I-0247 CH15-CH16 -->
+
 <a id="chapter-16-datacenters-power-and-the-physical-internet"></a>
 
 # Chapter 16: Datacenters, Power, and the Physical Internet
@@ -3259,6 +3319,10 @@ That is why Chapter 16 belongs after the model and product chapters rather than 
 
 ---
 
+<!-- CONTINUITY-STITCH I-0247 CH16-CH17 -->
+> **Continuity stitch (I-0247, CH16-CH17):** Power is one input to the LLM machine; data is the other. Once the book has followed tokens to substations, it has to follow them backward into the libraries, crawls, filters, and tokenizers that feed training.
+<!-- /CONTINUITY-STITCH I-0247 CH16-CH17 -->
+
 <a id="chapter-17-data-tokens-and-the-library-problem"></a>
 
 # Chapter 17: Data, Tokens, and the Library Problem
@@ -3441,6 +3505,10 @@ The visual package already names the right four jobs: tokenization ladder, web-c
 Chapter 17 also has to keep shaking hands with its neighbors. Chapter 13 owns benchmark contamination from the scoreboard side. Chapter 17 owns contamination from the corpus side. Chapter 18 owns retrieval and tools as ways to bring evidence back at inference time. Chapter 21 owns reasoning and synthetic traces where test-time compute and generated curricula begin to overlap. The data chapter is the hinge: it shows that the model's apparent intelligence begins as a supply chain, not a spell.
 
 ---
+
+<!-- CONTINUITY-STITCH I-0247 CH17-CH18 -->
+> **Continuity stitch (I-0247, CH17-CH18):** Data gives a model memory-shaped material, but tools change what the model can do with a prompt. The next step is outward: retrieval, APIs, function calls, and action boundaries.
+<!-- /CONTINUITY-STITCH I-0247 CH17-CH18 -->
 
 <a id="chapter-18-tools-retrieval-and-the-agent-turn"></a>
 
@@ -3627,6 +3695,10 @@ The remaining editorial work is no longer a chapter-ending to-do list. It belong
 
 ---
 
+<!-- CONTINUITY-STITCH I-0247 CH18-CH19 -->
+> **Continuity stitch (I-0247, CH18-CH19):** General tool use shows the harness; code shows the first domain where language becomes executable and testable. The agent turn becomes sharper when the output must compile, run, and survive review.
+<!-- /CONTINUITY-STITCH I-0247 CH18-CH19 -->
+
 <a id="chapter-19-code-as-the-second-native-language"></a>
 
 # Chapter 19: Code as the Second Native Language
@@ -3812,6 +3884,10 @@ The second native language did not replace the first. It made the first more pow
 The remaining editorial work should now sit beside the chapter rather than inside its ending: normalize OpenAI Codex and Codex paper captures before exact HumanEval or model-size claims, add the benchmark-permission table for HumanEval, contests, SWE-bench, LiveCodeBench, and terminal tasks, build the code-as-language visual package, and keep productivity, employment displacement, live leaderboards, broad replacement, and security-quality claims blocked until same-scope evidence exists.
 
 ---
+
+<!-- CONTINUITY-STITCH I-0247 CH19-CH20 -->
+> **Continuity stitch (I-0247, CH19-CH20):** Code made the stakes measurable; Claude Code makes the workflow visible. The next chapter narrows from code as a second native language to repository work as a supervised industrial practice.
+<!-- /CONTINUITY-STITCH I-0247 CH19-CH20 -->
 
 <a id="chapter-20-claude-code-and-the-industrialization-of-pair-programming"></a>
 
@@ -4006,6 +4082,10 @@ The remaining work belongs in the source and visual ledgers: snapshot Claude Cod
 
 ---
 
+<!-- CONTINUITY-STITCH I-0247 CH20-CH21 -->
+> **Continuity stitch (I-0247, CH20-CH21):** Coding agents expose the cost of action, review, and retries. Reasoning systems expose a related cost inside inference itself: sometimes the machine spends more compute before it answers.
+<!-- /CONTINUITY-STITCH I-0247 CH20-CH21 -->
+
 <a id="chapter-21-reasoning-test-time-compute-and-the-new-scaling-axis"></a>
 
 # Chapter 21: Reasoning, Test-Time Compute, and the New Scaling Axis
@@ -4138,6 +4218,10 @@ By May 24, 2026, the new scaling axis had not replaced the old one. Labs still n
 The audit work now belongs beside the chapter: keep OpenAI o1/o3/o4-mini and Gemini 2.5 vendor-attributed, distinguish displayed summaries from hidden chain-of-thought, treat DeepSeek-R1 and Kimi k1.5 as reasoning/RL/distillation lanes, block exact latency, hidden-token, price, and inference-budget comparisons until same-scope rows exist, and keep "reasoning" as a capability family rather than solved truth.
 
 ---
+
+<!-- CONTINUITY-STITCH I-0247 CH21-CH22 -->
+> **Continuity stitch (I-0247, CH21-CH22):** If test-time compute becomes another scaling axis, then intelligence becomes not only a capability question but a pricing question. The next chapter turns the pause before an answer into a meter.
+<!-- /CONTINUITY-STITCH I-0247 CH21-CH22 -->
 
 <a id="chapter-22-the-economics-of-intelligence-on-tap"></a>
 
@@ -4308,6 +4392,10 @@ The remaining editorial work belongs in the ledgers: keep the economics visual p
 
 ---
 
+<!-- CONTINUITY-STITCH I-0247 CH22-CH23 -->
+> **Continuity stitch (I-0247, CH22-CH23):** Cheap fluency still has to be trusted. After the economics of tokens, the book turns to the failures that make every confident answer a claim needing context, provenance, and review.
+<!-- /CONTINUITY-STITCH I-0247 CH22-CH23 -->
+
 <a id="chapter-23-failure-modes-truth-and-trust"></a>
 
 # Chapter 23: Failure Modes, Truth, and Trust
@@ -4424,6 +4512,10 @@ That is the bridge to the final chapter. The story began with prediction: given 
 The audit work now stays outside the reader's final beat: keep hallucination prose qualitative unless row-level evidence is added, treat TruthfulQA as benchmark evidence rather than a live ranking, treat sycophancy, reward-tampering, adversarial suffix, and prompt-injection sources as research and attack-surface lanes rather than deployed prevalence claims, keep system cards framed as vendor-authored disclosures, and require incident rows before naming legal, medical, enterprise, prompt-leak, or data-exfiltration cases.
 
 ---
+
+<!-- CONTINUITY-STITCH I-0247 CH23-CH24 -->
+> **Continuity stitch (I-0247, CH23-CH24):** The trust chapter leaves the reader with no simple crown, cure, or prophecy. The final chapter returns to the next token as both mechanism and responsibility: what humans choose to ask, build, meter, and believe.
+<!-- /CONTINUITY-STITCH I-0247 CH23-CH24 -->
 
 <a id="chapter-24-next-token"></a>
 

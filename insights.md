@@ -370,3 +370,7 @@ A serious technical book still needs a front door. Reader-facing copy should pro
 ## 2026-05-27 - I-0246 Chapter Doors
 
 Chapter openers need a contract before they need polish. The useful unit is not just a hook sentence, but a promise, first beat, first figure, reader-effect job, and claim guardrail; this lets future live edits become more beautiful without smuggling in invented scenes, weak source claims, or visual overreach.
+
+## 2026-05-27 - I-0247 Boundary Stitches
+
+Full-book flow is easiest to improve when chapter boundaries are treated as their own prose surface. Candidate stitches should connect mechanism to mechanism and pressure to pressure; final integration must absorb them into real chapter endings/openings so the book gains momentum without accumulating visible scaffolding.
