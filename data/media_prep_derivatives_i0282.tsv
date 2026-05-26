@@ -1,0 +1,11 @@
+candidate_id	variant	mode	local_path	sha256	width	height	alpha_preserved
+MP-0282-001	book_wide	center_crop	assets\source_media\i0282_probe\derivatives\MP-0282-001_book_wide.png	23cbf815c9fa8cbfbff551ced9dc44c052e37f4cdbdb2448f9663b3a5b9f66b8	1400	850	no
+MP-0282-001	thumb	fit	assets\source_media\i0282_probe\derivatives\MP-0282-001_thumb.png	b0dfffdc5f1fa5f755e0dfbd4eef1f31bc53589a6337bb1e0f7538884edaa096	360	240	no
+MP-0282-002	book_wide	center_crop	assets\source_media\i0282_probe\derivatives\MP-0282-002_book_wide.png	756a03c624d3f624ea7f8d0b02ca7331d308bc97060f026800e46a023bb071ea	1400	850	no
+MP-0282-002	thumb	fit	assets\source_media\i0282_probe\derivatives\MP-0282-002_thumb.png	03f45e96d08a1043a905d2f8a5dc0100d46c7020012568e2173418ae0b4f0109	360	240	no
+MP-0282-003	logo_square	contain_transparency	assets\source_media\i0282_probe\derivatives\MP-0282-003_logo_square.png	9620e032e6bbea89b9655e088813421022275ca76d734104abc8fefbb41151ff	512	512	yes
+MP-0282-003	thumb	fit	assets\source_media\i0282_probe\derivatives\MP-0282-003_thumb.png	119225fe95db4af2ec37c34db3d713724d761c217cc7ccdd15b25cfd62fd48b4	360	144	yes
+MP-0282-004	portrait_crop	center_crop	assets\source_media\i0282_probe\derivatives\MP-0282-004_portrait_crop.png	b467bbf4b8c61e70351b49e1c9387761e15742943918142815193fbe53f7440e	640	800	no
+MP-0282-004	thumb	fit	assets\source_media\i0282_probe\derivatives\MP-0282-004_thumb.png	ff305653a1bb5ab618ee226409eef3c684d29bed4caa7a9c0da4b3f6d31a64dd	196	240	no
+MP-0282-005	book_wide	center_crop	assets\source_media\i0282_probe\derivatives\MP-0282-005_book_wide.png	cc5211ef6a380216b6b75260f087a9f3c4794924f5a0775d3fd6b1b4eca1375e	1400	850	no
+MP-0282-005	thumb	fit	assets\source_media\i0282_probe\derivatives\MP-0282-005_thumb.png	37d760b2fca38683b341241c54829126adb8db4e11025b09a51aa09a03bd82bc	360	102	yes

@@ -1,0 +1,2 @@
+group_id	candidate_ids	method	recommended_action
+DUP-001	MP-0282-001;MP-0282-002	imagehash.phash distance <= 6	keep strongest provenance/quality row; mark others duplicate_or_alternate_crop

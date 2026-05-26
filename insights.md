@@ -497,3 +497,6 @@ Final layout work should repair the page-level proof, not merely rerender the PD
 ## 2026-05-27 - I-0281 Acquisition Toolchain
 
 Acquisition readiness should be proved with local files before it touches the web at scale. A screenshot path, a PDF page-render path, image-prep path, OCR/text path, hashes, and folder conventions are the minimum honest kit; system CLI gaps can remain as fallback notes only when the baseline route has actually rendered, clipped, hashed, and been visually inspected.
+## 2026-05-27 - I-0282 Media Prep
+
+Bulk visual acquisition needs a triage machine before it needs more images. The useful gate is candidate in, ignored original out, derivative variants, perceptual hash, quality score, duplicate group, provenance fields, and a contact sheet the editor can actually look at; otherwise a photo sprint becomes an unreviewable pile.

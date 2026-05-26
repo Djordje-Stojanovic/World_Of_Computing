@@ -1,0 +1,10 @@
+capability	status	evidence	local_path	sha256
+python_imports	pass	imagehash=True; numpy=True; colorthief=True; piexif=True; cv2=True		
+candidate_intake	pass	candidate_rows=5; roles={'photo': 1, 'photo_duplicate': 1, 'logo': 1, 'person': 1, 'web_image': 1}	data/media_prep_candidates_i0282.tsv	2b64178b74410fa308e9baafe3a9492da85615632eeaf90ced97ec5ece63fa22
+web_image_retrieval	pass	downloaded	assets\source_media\i0282_probe\originals\i0282_web_logo_probe.png	9c121e619bfe02eaba582d7080eea46fd53ec0b50717e6794a948fada4ae8f3c
+resize_crop_derivatives	pass	derivatives=10; variants={'book_wide': 3, 'thumb': 5, 'logo_square': 1, 'portrait_crop': 1}	data/media_prep_derivatives_i0282.tsv	15467889cdabe8e2a5056776c2aa69bdf1f436de3cb2fafa45cc74d32693aff2
+logo_transparency	pass	MP-0282-003 logo_square preserves alpha channel	assets/source_media/i0282_probe/derivatives/MP-0282-003_logo_square.png	9620e032e6bbea89b9655e088813421022275ca76d734104abc8fefbb41151ff
+person_photo_crop	pass	MP-0282-004 portrait_crop is 640x800	assets/source_media/i0282_probe/derivatives/MP-0282-004_portrait_crop.png	b467bbf4b8c61e70351b49e1c9387761e15742943918142815193fbe53f7440e
+duplicate_detection	pass	duplicate_groups=1; MP-0282-001;MP-0282-002	data/media_prep_duplicate_groups_i0282.tsv	d9a49aafaebcb733f0678b341f18bbcebacad239ab8499417e4be414073e3157
+quality_scoring	pass	quality_scores=['69.1', '69.1', '50.9', '68.8', '35.7']	data/media_prep_quality_scores_i0282.tsv	8fa9d0be8073a430468a5da61fb7d2eca9008206a7e5189a1291249886cb25cb
+contact_sheet	pass	contact_sheet=assets\source_media\i0282_probe\contact_sheet_i0282.jpg; bytes=81364	assets\source_media\i0282_probe\contact_sheet_i0282.jpg	9196d1bab024c50f502ee49a01ef2bf7ca463c0a03dde29bff3eac77c4807d75

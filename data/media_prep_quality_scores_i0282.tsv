@@ -1,0 +1,6 @@
+candidate_id	role	local_original	phash	width	height	megapixels	aspect_ratio	brightness	contrast	sharpness_laplacian	quality_score	dominant_color	quality_gate
+MP-0282-001	photo	assets\source_media\i0282_probe\originals\i0282_datacenter_photo_probe.jpg	e644393b193b66c5	1200	800	0.96	1.50	102.7	227	515.3	69.1	#535969	pass
+MP-0282-002	photo_duplicate	assets\source_media\i0282_probe\originals\i0282_datacenter_photo_probe_duplicate.jpg	e644393f193b66c4	1200	800	0.96	1.50	102.7	234	521.2	69.1	#535969	pass
+MP-0282-003	logo	assets\source_media\i0282_probe\originals\i0282_logo_transparency_probe.png	e0e01f281f1fe11f	900	360	0.32	2.50	29.9	252	454.6	50.9	#14141c	pass
+MP-0282-004	person	assets\source_media\i0282_probe\originals\i0282_person_profile_probe.jpg	a95a07689d66e699	900	1100	0.99	0.82	176.1	218	360.2	68.8	#5483d3	pass
+MP-0282-005	web_image	assets\source_media\i0282_probe\originals\i0282_web_logo_probe.png	87f8dff800e0f807	580	164	0.10	3.54	240.0	255	1082.1	35.7	#fcdf59	pass

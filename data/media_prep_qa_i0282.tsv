@@ -1,0 +1,10 @@
+pass_id	check_id	category	result	evidence	recommended_action
+I-0282	I0282-001	python_imports	pass	imagehash=True; numpy=True; colorthief=True; piexif=True; cv2=True	Use this route in I-0284/I-0287.
+I-0282	I0282-002	candidate_intake	pass	candidate_rows=5; roles={'photo': 1, 'photo_duplicate': 1, 'logo': 1, 'person': 1, 'web_image': 1}	Use this route in I-0284/I-0287.
+I-0282	I0282-003	web_image_retrieval	pass	downloaded	Use this route in I-0284/I-0287.
+I-0282	I0282-004	resize_crop_derivatives	pass	derivatives=10; variants={'book_wide': 3, 'thumb': 5, 'logo_square': 1, 'portrait_crop': 1}	Use this route in I-0284/I-0287.
+I-0282	I0282-005	logo_transparency	pass	MP-0282-003 logo_square preserves alpha channel	Use this route in I-0284/I-0287.
+I-0282	I0282-006	person_photo_crop	pass	MP-0282-004 portrait_crop is 640x800	Use this route in I-0284/I-0287.
+I-0282	I0282-007	duplicate_detection	pass	duplicate_groups=1; MP-0282-001;MP-0282-002	Use this route in I-0284/I-0287.
+I-0282	I0282-008	quality_scoring	pass	quality_scores=['69.1', '69.1', '50.9', '68.8', '35.7']	Use this route in I-0284/I-0287.
+I-0282	I0282-009	contact_sheet	pass	contact_sheet=assets\source_media\i0282_probe\contact_sheet_i0282.jpg; bytes=81364	Use this route in I-0284/I-0287.
