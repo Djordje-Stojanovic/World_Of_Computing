@@ -226,3 +226,7 @@ Early mechanism chapters need source texture as much as diagrams: paraphrase-onl
 ## 2026-05-26 - I-0210 Real-World Source-Media Wave
 
 Real-world image acquisition should fail closed and keep both successes and misses visible: local hashes make people, fabs, data centers, chips, model pages, coding-agent docs, and DeepSeek reports usable as private production evidence, but final exhibit readiness still depends on rights, attribution, cutoff-status, quote limits, caption firewalls, and render placement.
+
+## 2026-05-26 - I-0211 Open-Frontier Exhibit Balance
+
+Middle-frontier visuals need different verbs by chapter: Meta/Llama should show control transfer, China/open models should show source permission and visible gaps, Anthropic/Claude should show behavior-to-action, and rankings should show measurement permission before any row order.
