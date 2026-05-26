@@ -1,0 +1,16 @@
+pass_id	chapter	rows	supported	supported_with_caveat	blocked_not_promoted	fact_check_status
+I-0268	02	13	13	0	0	pass_with_guardrails
+I-0268	03	13	13	0	0	pass_with_guardrails
+I-0268	04	11	10	1	0	pass_with_guardrails
+I-0268	05	10	7	2	1	pass_with_guardrails
+I-0268	06	11	8	1	2	pass_with_guardrails
+I-0268	13	4	3	1	0	pass_with_guardrails
+I-0268	14	8	3	4	1	pass_with_guardrails
+I-0268	16	18	9	9	0	pass_with_guardrails
+I-0268	17	12	10	1	1	pass_with_guardrails
+I-0268	18	7	3	3	1	pass_with_guardrails
+I-0268	19	9	9	0	0	pass_with_guardrails
+I-0268	20	5	4	0	1	pass_with_guardrails
+I-0268	21	11	10	1	0	pass_with_guardrails
+I-0268	22	9	4	4	1	pass_with_guardrails
+I-0268	23	10	9	1	0	pass_with_guardrails

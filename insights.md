@@ -442,3 +442,7 @@ Source-density repair is most useful when it binds evidence to exact section job
 ## 2026-05-26 - I-0267 Source Apparatus
 
 A useful final-note pass should separate three jobs: manuscript anchors for traceability now, bibliography rows with access dates and source roles, and compressed clusters for repeated evidence. Rendered page numbers and same-page caveat placement are a later proof step, not something a table can honestly claim.
+
+## 2026-05-26 - I-0268 Technical Fact-Check
+
+Technical fact-checking should classify claims by permission, not by vibes. The valuable table says which prose is allowed, which prose is allowed only with source-role/date/harness caveats, and which tempting claims remain barred from neutral prose, charts, and captions.

@@ -1,0 +1,7 @@
+check_id	check	status	detail
+I0268-QA-001	requested_chapter_coverage	pass	covered=02;03;04;05;06;13;14;16;17;18;19;20;21;22;23
+I0268-QA-002	fact_check_rows_created	pass	138
+I0268-QA-003	all_source_ids_resolve	pass	
+I0268-QA-004	all_claim_guardrails_resolve	pass	
+I0268-QA-005	blocked_rows_not_promoted	pass	8
+I0268-QA-006	caveated_rows_preserve_caveats	pass	28
