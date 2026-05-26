@@ -1,7 +1,5 @@
 # 9. Google and DeepMind Wake the Sleeping Giant
 
-Source note: This chapter is a first full draft for the Google/DeepMind/Gemini slot. It is anchored on local captures of PaLM, Gemini, Gemini 1.5, Bard/Gemini product posts, Gemini 2.5 product framing, Google DeepMind model-card pages, and the existing Transformer/price ledgers. It treats Google posts as Google-attributed product framing, not neutral proof of market leadership, adoption, benchmark superiority, or revenue. See `data/chapter9_google_deepmind_claim_audit_i0111.tsv` and `data/chapter9_google_deepmind_chronology_i0111.tsv`.
-
 ## The Company That Had Already Built the Future
 
 The strangest thing about Google's generative-AI panic was that it did not begin in ignorance. It began inside the company whose researchers had helped build the modern substrate. The Transformer was a Google paper before it became everyone else's factory floor. Tensor Processing Units were Google's answer to the question of how to make neural computation an internal utility. DeepMind had turned neural systems into a public spectacle of superhuman play and scientific ambition. Search had made Google the default front door to the web. Gmail, Docs, Android, Chrome, YouTube, Maps, and Cloud gave it more surfaces for an assistant than any startup could dream of owning.
@@ -11,6 +9,14 @@ And yet the public shock did not arrive wearing Google colors.
 That is the puzzle this chapter has to hold. It is too easy to say that Google missed the moment. It is more useful, and more damning, to say that Google understood too much about the consequences of the moment. A lab with no search business could ship a charmingly unreliable chat box and let the world discover its weaknesses in public. Google had a search franchise built on habit, trust, ranking, ads, and a page of blue links that had become the operating system of knowledge work. A fluent assistant was not only an opportunity. It was a solvent. It could dissolve the interface that made Google rich.
 
 The sleeping giant was not asleep because it lacked models. It was half-paralyzed by the fact that its models had to wake up inside an empire.
+
+This is the chapter's discipline: Google should not be flattened into a slow follower. It was a research leader, an infrastructure owner, an advertising incumbent, a mobile platform, a document suite, a cloud provider, and a consumer habit machine all at once. ChatGPT embarrassed Google not because Google had no ingredients, but because a focused rival found the public interface first. The hard part for Google was not waking up. It was deciding which part of the giant could move without stepping on the rest.
+
+## Drafting Controls
+
+Status: Google/DeepMind prose upgrade promoted in I-0156, 2026-05-26; first full Chapter 9 draft and I-0132 visual package preserved as source context.
+
+Source note: This chapter is anchored on local captures of PaLM, Gemini, Gemini 1.5, Bard/Gemini product posts, Gemini 2.5 product framing, Google DeepMind model-card pages, and the existing Transformer/price ledgers. It treats Google posts as Google-attributed product framing, not neutral proof of market leadership, adoption, benchmark superiority, revenue, search-share effects, click behavior, cloud share, productivity, subscriber totals, or TPU cost/performance superiority. See `data/chapter9_google_deepmind_claim_audit_i0111.tsv`, `data/chapter9_google_deepmind_chronology_i0111.tsv`, and `data/chapter9_google_deepmind_visual_package_i0132.tsv`.
 
 ## Pathways Before Panic
 
@@ -65,6 +71,8 @@ Long context also connects back to the infrastructure story. Serving large conte
 Google's infrastructure story cannot be reduced to TPUs, but TPUs are the visible symbol of a deeper strategic choice. The Gemini launch materials tied Gemini training to Google's AI-optimized infrastructure and named TPU generations in the public product frame. [S-0121] PaLM likewise belonged to a Pathways scaling story rather than a generic cloud-rental story. [S-0115]
 
 This gave Google a different kind of leverage from model-only labs. It could design chips, datacenters, frameworks, training systems, serving systems, and products inside one company. That did not mean it was invulnerable. NVIDIA GPUs and CUDA remained central to the wider frontier ecosystem, and Google's cloud customers still lived in a heterogeneous world. But Google's custom silicon gave it a story that looked less like buying capacity and more like owning part of the machine that makes capacity useful.
+
+The point is leverage, not triumph. A TPU is not a product people ask for at breakfast. It is a way to make the research and serving problem more internally controllable. Search users, Workspace users, Android users, and developers do not reward a chip for existing. They reward answers, latency, price, privacy, reliability, and integration. Google's infrastructure strength therefore had to pass through product conversion before it became visible to most of the market.
 
 The book should avoid turning this into a clean TPU-versus-GPU morality play. The real story is messier. TPUs can be a strength for internal training and serving, a differentiator for cloud, and a constraint if developer ecosystems, libraries, or customer habits point elsewhere. GPUs can be expensive and supply-constrained, while also benefiting from CUDA's enormous software gravity. Google lived with both realities. Its internal stack gave it power. The external market still judged products, APIs, prices, compatibility, and trust.
 
