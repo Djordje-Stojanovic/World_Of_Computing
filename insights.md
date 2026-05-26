@@ -318,3 +318,7 @@ The book's visual advantage is mechanism plus evidence discipline, but the shelf
 ## 2026-05-26 - I-0233 Reader-Addiction Visual Audit
 
 Visual addiction is a state change, not an inventory count. A figure earns its place when it creates shock, suspense, surprise, delight, clarity, memory, or responsibility; if it only proves research diligence, it should become apparatus, a source note, or a reserve candidate.
+
+## 2026-05-26 - I-0234 Prose Around Figures
+
+Figures need runway and landing prose before final beauty matters. The paragraph before should tell the reader why to look; the paragraph after should tell the reader what not to overread, especially around attention-as-mind, leaderboard crowns, GTC source-actor claims, energy-per-token inference, token-economics margins, and final-chapter prophecy.

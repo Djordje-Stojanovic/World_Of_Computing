@@ -1,0 +1,9 @@
+action_id	priority	target	action	verification_gate
+PAFA-001	P0	CH03 self-attention bridge	Use PAF-002 with a shortened caption and a nearby source note.	Caption and bridge together block mind/truth/grounding claims while preserving awe.
+PAFA-002	P0	CH13 leaderboard sequence	Place methodology prose and figure before any rank rows.	Reader sees scoring scope before sorted rank evidence.
+PAFA-003	P0	CH15 GTC source-actor surfaces	Wrap any keynote slide with source-actor prose before and independent-evidence return after.	No slide placement reads as neutral performance or deployment proof.
+PAFA-004	P0	CH16 power/token anchor	Make A-0015 the main physical-constraint handoff and prune nearby duplicate pressure visuals.	Chapter no longer buries the token-to-grid punch under repeated infrastructure exhibits.
+PAFA-005	P0	CH24 final synthesis	Ensure final visual is followed by responsibility prose, not checklist apparatus.	Last visible chapter beat is judgment/motif.
+PAFA-006	P1	CH02-CH05 sparse technical run	Add only bridge prose or source texture that increases tension.	Early chapters gain warmth without inflating figure count.
+PAFA-007	P1	CH06-CH07 product surfaces	Introduce product screenshots after mechanism or launch-stakes prose, not as decorative surfaces.	Surviving screenshots have memory purpose and blocked business claims.
+PAFA-008	P1	CH22 economics visuals	Choose the economics board order by reader pressure, not asset novelty.	No back-to-back meter visuals without a prose breather.

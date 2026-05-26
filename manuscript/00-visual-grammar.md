@@ -261,6 +261,18 @@ Rules:
 - Crowded industrial chapters should prune before they add.
 - The final chapter must end on judgment and motif, not visual inventory.
 
+## Prose Around Figures
+
+`data/prose_around_figures_quality_i0234.tsv` defines bridge prose for high-risk exhibits. Use it during chapter assembly and layout editing.
+
+Rules:
+
+- The paragraph before a figure must tell the reader why to look.
+- The paragraph after a figure must tell the reader what not to overread.
+- Do not let captions carry all claim safety; surrounding prose must block the tempting inference too.
+- Source-actor visuals need source-actor setup before the image and independent-evidence return after it.
+- Final synthesis visuals must hand back to prose responsibility rather than ending on inventory.
+
 ## Promotion Rationale
 
 Before this pass, the book had visual candidates but no visual grammar and no manifest-tracked diagrams. This pass adds the first three lightweight prototypes and establishes design rules for timelines, systems, family trees, tradeoffs, caveats, screenshots, and photo slots. It improves visual/data usefulness without introducing unsupported factual claims.
