@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Company and lab network map</title>
+  <desc id="desc">A whole-book relationship map for major LLM labs, companies, open-weight ecosystems, benchmark institutions, NVIDIA, and cloud/datacenter substrate, with typed edges and claim blockers.</desc>
+  <style>.bg{fill:#f7f5ef}.ink{fill:#20242a}.muted{fill:#5f6872}.card{fill:#fffdf7;stroke:#d8d2c5;stroke-width:2}.lab{fill:#eaf1ff;stroke:#2563eb;stroke-width:3}.infra{fill:#fff4e1;stroke:#b7791f;stroke-width:3}.open{fill:#e7f3ed;stroke:#0f8b6f;stroke-width:3}.eval{fill:#fff0ec;stroke:#c2412d;stroke-width:3}.gap{fill:#f0edff;stroke:#6d5bd0;stroke-width:3}.edge{stroke:#8a8176;stroke-width:3;fill:none}.dash{stroke-dasharray:9 8}.title{font-family:Arial,Helvetica,sans-serif;font-size:42px;font-weight:700}.h{font-family:Arial,Helvetica,sans-serif;font-size:20px;font-weight:700}.body{font-family:Arial,Helvetica,sans-serif;font-size:15px}.tiny{font-family:Arial,Helvetica,sans-serif;font-size:12px}</style>
+  <rect class="bg" width="1600" height="1000"/>
+  <text class="title ink" x="60" y="78">Company/Lab Network Map</text>
+  <text class="body muted" x="60" y="112">Edges are typed relationships, not proof of ownership, revenue, superiority, adoption, or causality.</text>
+  <path class="edge" d="M260 230 C350 190 420 190 520 230"/>
+  <path class="edge" d="M260 230 C350 330 470 360 610 400"/>
+  <path class="edge" d="M520 230 C610 250 700 260 820 250"/>
+  <path class="edge" d="M860 430 C990 390 1120 390 1260 430"/>
+  <path class="edge" d="M1090 230 C1160 270 1210 330 1260 430"/>
+  <path class="edge" d="M610 400 C690 470 760 520 860 590"/>
+  <path class="edge" d="M1010 590 C1110 560 1190 520 1260 430"/>
+  <path class="edge dash" d="M1010 590 C1110 650 1230 680 1380 695"/>
+  <path class="edge dash" d="M610 400 C520 520 470 615 420 735"/>
+  <rect class="card lab" x="120" y="180" width="280" height="100" rx="10"/><text class="h ink" x="150" y="220">OpenAI</text><text class="tiny muted" x="150" y="250">models, ChatGPT, API, reasoning</text>
+  <rect class="card infra" x="460" y="180" width="280" height="100" rx="10"/><text class="h ink" x="490" y="220">Microsoft</text><text class="tiny muted" x="490" y="250">Azure capacity, distribution</text>
+  <rect class="card lab" x="790" y="180" width="280" height="100" rx="10"/><text class="h ink" x="820" y="220">Google / DeepMind</text><text class="tiny muted" x="820" y="250">research-to-product conversion</text>
+  <rect class="card lab" x="1120" y="180" width="280" height="100" rx="10"/><text class="h ink" x="1150" y="220">Anthropic</text><text class="tiny muted" x="1150" y="250">Claude, behavior, coding docs</text>
+  <rect class="card open" x="120" y="360" width="280" height="100" rx="10"/><text class="h ink" x="150" y="400">Meta / Llama</text><text class="tiny muted" x="150" y="430">open-weight releases and repo</text>
+  <rect class="card open" x="470" y="350" width="280" height="110" rx="10"/><text class="h ink" x="500" y="392">Open-weight ecosystems</text><text class="tiny muted" x="500" y="422">weights, licenses, hosting burden</text>
+  <rect class="card gap" x="820" y="380" width="300" height="110" rx="10"/><text class="h ink" x="850" y="422">Chinese frontier cluster</text><text class="tiny muted" x="850" y="452">DeepSeek, Qwen, gaps visible</text>
+  <rect class="card infra" x="1210" y="380" width="280" height="110" rx="10"/><text class="h ink" x="1240" y="422">NVIDIA</text><text class="tiny muted" x="1240" y="452">accelerators, platform, GTC</text>
+  <rect class="card gap" x="250" y="680" width="300" height="110" rx="10"/><text class="h ink" x="280" y="722">DeepSeek / Qwen lanes</text><text class="tiny muted" x="280" y="752">source-supported, version-gated</text>
+  <rect class="card eval" x="720" y="540" width="310" height="110" rx="10"/><text class="h ink" x="750" y="582">Benchmark institutions</text><text class="tiny muted" x="750" y="612">Arena, SWE-bench, LiveCodeBench</text>
+  <rect class="card infra" x="1220" y="645" width="310" height="110" rx="10"/><text class="h ink" x="1250" y="687">Cloud/datacenter substrate</text><text class="tiny muted" x="1250" y="717">capacity, power, interconnection</text>
+  <rect class="card" x="80" y="835" width="1420" height="90" rx="8"/>
+  <text class="body ink" x="110" y="875">Map rule: edge labels must come from data/company_lab_network_edges_i0226.tsv. No edge silently means control, funding, market share, adoption, benchmark truth, productivity, or causality.</text>
+  <text class="tiny muted" x="110" y="902">Sources/assets: company source rows, chapter visual packages, benchmark rows, GTC rows, and open-frontier balance tables. Original SVG planning art; final page proof pending.</text>
+</svg>

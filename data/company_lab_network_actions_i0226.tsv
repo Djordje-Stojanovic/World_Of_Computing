@@ -1,0 +1,9 @@
+action_id	priority	scope	action	blocker_or_gate
+I0226-ACT-001	high	Network map	Use A-0222 as an orientation map only; do not infer ownership, market share, causality, or funding unless the edge table says so.	Every edge must cite edge_type and evidence_scope.
+I0226-ACT-002	high	OpenAI/Microsoft	Keep cloud-capacity partnership separate from control, profit, workload, and model-quality claims.	Requires E-001/E-003 source notes.
+I0226-ACT-003	high	Google/DeepMind	Show integration as source-framed product/research conversion, not as internal governance proof.	Requires S-0121/S-0120 caveats.
+I0226-ACT-004	high	China frontier cluster	Keep Chinese frontier labs as a source-permission/gap cluster with DeepSeek/Qwen lanes called out; do not collapse into a national monolith.	Unsupported labs/version families stay visible gaps.
+I0226-ACT-005	medium	NVIDIA	Use NVIDIA edges as hardware/platform/source-stagecraft relationships, not independent deployment or performance proof.	GTC/DSX source-actor caveats required.
+I0226-ACT-006	medium	Benchmark institutions	Place benchmark institutions outside lab clusters as measurement infrastructure, not judges of universal quality.	Every benchmark edge needs date/version/scaffold fields before final caption.
+I0226-ACT-007	medium	Render QA	Render A-0222 at full-spread size and inspect label collision; if dense, split into one company map and one substrate/evaluation map.	Page-image proof remains required.
+I0226-ACT-008	low	Future chapters	Use this network package as a cast guide in chapter openers only where it clarifies relationships the reader needs immediately.	Blocks decorative network wallpaper.

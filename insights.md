@@ -286,3 +286,7 @@ Motifs are strongest when they are verbs with blockers: tokenize, prompt, date, 
 ## 2026-05-26 - I-0225 Timeline Spine
 
 Chronology should be a navigation system, not another dense exhibit. The master timeline can orient the reader only if each local strip preserves date type: happened, source-published, roadmap, forecast/scenario, mutable snapshot, or support-pending. The May 24, 2026 cutoff must behave like a visible design element, not a buried rule.
+
+## 2026-05-26 - I-0226 Company/Lab Network Map
+
+Institutional maps are useful only when the edges have verbs and limits. "OpenAI-Microsoft" means a sourced cloud/capacity and distribution relationship, not control or profit; "NVIDIA-cloud" means hardware/platform substrate, not delivered capacity; "benchmark-lab" means measurement surface, not a crown. Typed edges keep reader orientation from becoming conspiracy-board inference.
