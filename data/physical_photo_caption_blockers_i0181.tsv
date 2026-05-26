@@ -1,0 +1,9 @@
+blocker_id	applies_to	blocked_claim	caption_rule
+PPCB-0181-001	all physical photos	operational attribution	A photo may show visible equipment or setting, but cannot identify hidden workloads, model training, or inference service without same-site evidence.
+PPCB-0181-002	ASML; fab; wafer	supply capacity	Do not infer EUV allocation, wafer starts, yield, node, packaging capacity, HBM supply, or AI-accelerator volume from a generic manufacturing image.
+PPCB-0181-003	server racks; data centers	GPU inventory	Do not count GPUs, accelerators, power draw, utilization, or training capacity unless the image and caption are tied to a sourced inventory.
+PPCB-0181-004	substation; transmission	power availability	Grid imagery illustrates interconnection and transmission concepts, not available megawatts, queue position, reliability, or fuel mix.
+PPCB-0181-005	gas turbine	emissions or runtime	A turbine photo does not prove runtime, fuel contract, emissions rate, delivered capacity, or data-center service.
+PPCB-0181-006	battery storage	solved intermittency	Batteries should be captioned as one grid component, not as proof that storage solves AI data-center power constraints.
+PPCB-0181-007	nuclear plant; cooling tower	delivered nuclear power	A nuclear or cooling-tower image does not prove a PPA delivered power, an SMR operates, or a data center is supplied by that plant.
+PPCB-0181-008	all licensed images	rights clearance	A license candidate is not publication-ready until exact license, creator, attribution, file revision, and commercial-use compatibility are recorded.
