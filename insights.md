@@ -354,3 +354,7 @@ Smoke QA should be allowed to say both "real artifact" and "not ready." The firs
 ## 2026-05-27 - I-0242 Figure Callouts
 
 Figures become part of the book only when they enter the reading flow. A chapter-opening inventory proves coverage, but section-level callouts create editorial pressure: each visual must justify its local purpose, caption, rights status, source proximity, and next gate before final layout can make it beautiful.
+
+## 2026-05-27 - I-0243 Real-World Image Layer
+
+The book needs real surfaces, but the honest first move is placement, not clearance. A 24-candidate layer across product UI, company launch pages, papers, infrastructure, repositories, and the GTC deck gives the draft visual texture and next actions while preserving the fail-closed rule: no screenshot, photo, source page, or slide render is publication-ready until crop, rights, attribution, caption, and page-legibility gates close.

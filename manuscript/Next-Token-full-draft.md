@@ -985,6 +985,7 @@ This is where Anthropic enters the larger narrative before the Claude chapter. C
 > Role: ChatGPT product surface. Status: selected_pending_capture. Rights: private_capture_needed. Sources: S-0006.  
 > Caption stub: F06.02: ChatGPT Product Surface. Shows ChatGPT product surface. Source and blocker notes remain required at placement.  
 > Manifest: `assets/private_use_screenshots/i0180/A-0121_chatgpt_launch_product_surface.png`. Next gate: Capture screenshot/hash; rights review.
+> Real-world candidate (I-0243): first ChatGPT product surface. Story fit: anchors the text in the moment when a model became a daily product rather than an abstract benchmark. Quality note: needs fresh capture with readable interface chrome and no private account data. Gate: capture from public OpenAI surface or replace with self-made facsimile after terms review.
 <!-- /FIGURE-CALLOUT F06.02 -->
 
 
@@ -1051,6 +1052,7 @@ The final layer is the evaluation and release loop: red teams, system cards, eva
 > Role: Plus productization surface. Status: selected_pending_capture. Rights: private_capture_needed. Sources: S-0078;S-0089.  
 > Caption stub: F06.03: ChatGPT Plus Productization Surface. Shows Plus productization surface. Source and blocker notes remain required at placement.  
 > Manifest: `assets/private_use_screenshots/i0180/A-0122_chatgpt_plus_product_surface.png`. Next gate: Capture screenshot/hash; strict caption.
+> Real-world candidate (I-0243): subscription productization surface. Story fit: shows the conversion layer that turned usage pressure into recurring revenue. Quality note: best as tight page render around plan language, not as a generic homepage. Gate: public page capture requires terms and attribution review.
 <!-- /FIGURE-CALLOUT F06.03 -->
 
 
@@ -1170,6 +1172,7 @@ Source note: This chapter uses source IDs from `sources.tsv` and remains conserv
 > Role: ChatGPT launch surface. Status: selected_pending_capture. Rights: private_capture_needed. Sources: S-0006.  
 > Caption stub: F07.02: ChatGPT launch surface. Shows ChatGPT launch surface. Source and blocker notes remain required at placement.  
 > Manifest: `assets/private_use_screenshots/i0112/A-0036_chatgpt_launch_page.png`. Next gate: Capture/hash or use archival fallback.
+> Real-world candidate (I-0243): ChatGPT launch artifact. Story fit: places the adoption shock beside the original public announcement surface. Quality note: use archival or current source page render with date visible where possible. Gate: needs source-page capture provenance and fair-use/permission decision.
 <!-- /FIGURE-CALLOUT F07.02 -->
 
 
@@ -1236,6 +1239,7 @@ This is why the chapter should treat plugins, GPTs, and GPT-4o as interface mile
 > Role: Enterprise surface. Status: selected_pending_capture. Rights: private_capture_needed. Sources: S-0079.  
 > Caption stub: F07.04: ChatGPT Enterprise launch surface. Shows Enterprise surface. Source and blocker notes remain required at placement.  
 > Manifest: `assets/private_use_screenshots/i0112/A-0038_chatgpt_enterprise_page.png`. Next gate: Capture/hash; block productivity and customer outcomes.
+> Real-world candidate (I-0243): enterprise packaging surface. Story fit: bridges consumer virality to procurement and workplace distribution. Quality note: needs a page crop that makes enterprise positioning legible. Gate: public page capture requires rights review and no implied endorsement.
 <!-- /FIGURE-CALLOUT F07.04 -->
 
 
@@ -1286,6 +1290,7 @@ Most of all, it hid responsibility. A wrong answer could be blamed on the model,
 > Role: plugins surface. Status: selected_pending_capture. Rights: private_capture_needed. Sources: S-0044.  
 > Caption stub: F07.05: ChatGPT plugins surface. Shows plugins surface. Source and blocker notes remain required at placement.  
 > Manifest: `assets/private_use_screenshots/i0112/A-0039_chatgpt_plugins_page.png`. Next gate: Capture/hash; block ecosystem adoption.
+> Real-world candidate (I-0243): plugin ecosystem surface. Story fit: visualizes the first tool-market framing of ChatGPT as a platform. Quality note: prefer official page or archived screenshot over third-party commentary. Gate: needs capture source, terms review, and caption restraint.
 <!-- /FIGURE-CALLOUT F07.05 -->
 
 
@@ -1672,6 +1677,7 @@ The same rule applies to pricing. The Gemini Developer API pricing snapshot is a
 > Role: Gemini/Bard source surface. Status: selected_pending_capture. Rights: private_capture_needed. Sources: S-0119;S-0121;S-0123;S-0124.  
 > Caption stub: F09.05: Gemini/Bard Product Surface. Shows Gemini/Bard source surface. Source and blocker notes remain required at placement.  
 > Manifest: `assets/private_use_screenshots/i0180/A-0129_gemini_bard_product_surface.png`. Next gate: Capture/hash; block Search-share and productivity claims.
+> Real-world candidate (I-0243): Google Gemini/Bard surface. Story fit: shows the incumbent-search response as a product and brand surface. Quality note: local source-media page exists but still needs rendered image crop. Gate: rights and attribution pending for captured Google page.
 <!-- /FIGURE-CALLOUT F09.05 -->
 
 
@@ -1825,6 +1831,7 @@ The strongest version of this chapter will eventually include a visual ecosystem
 > Role: LLaMA launch surface. Status: selected_pending_capture. Rights: private_capture_needed. Sources: S-0111.  
 > Caption stub: F10.04: LLaMA launch surface. Shows LLaMA launch surface. Source and blocker notes remain required at placement.  
 > Manifest: `assets/private_use_screenshots/i0112/A-0044_llama_launch_page.png`. Next gate: Capture/hash; block adoption.
+> Real-world candidate (I-0243): Meta open-model launch surface. Story fit: contrasts closed frontier launches with the open-weight distribution move. Quality note: local source-media capture exists; needs page render and legibility check. Gate: rights and attribution pending for Meta page surface.
 <!-- /FIGURE-CALLOUT F10.04 -->
 
 
@@ -1855,6 +1862,7 @@ That control-stack framing also protects the chapter from two easy mistakes. It 
 > Role: Llama repository surface. Status: selected_pending_capture. Rights: private_capture_needed. Sources: S-0114.  
 > Caption stub: F10.05: Llama GitHub surface. Shows Llama repository surface. Source and blocker notes remain required at placement.  
 > Manifest: `assets/private_use_screenshots/i0112/A-0047_llama_github_repo.png`. Next gate: Capture/hash; mutable repo numbers blocked.
+> Real-world candidate (I-0243): GitHub distribution surface. Story fit: makes open-model release mechanics tangible through repository infrastructure. Quality note: needs current repository screenshot with commit/release context if used. Gate: GitHub UI and repository license review required.
 <!-- /FIGURE-CALLOUT F10.05 -->
 
 
@@ -1966,6 +1974,7 @@ What remains blocked is just as important. DeepSeek V4-era claims stay out of pr
 > Role: Qwen2 source surface. Status: selected_pending_capture. Rights: private_capture_needed. Sources: S-0026.  
 > Caption stub: F11.03: Qwen2 source surface. Shows Qwen2 source surface. Source and blocker notes remain required at placement.  
 > Manifest: `assets/private_use_screenshots/i0112/A-0048_qwen2_arxiv_abs.png`. Next gate: Capture/hash; do not rank.
+> Real-world candidate (I-0243): Qwen2 source surface. Story fit: adds China/open-model competition to the visual field without relying on charts alone. Quality note: needs source capture with model identity and release context readable. Gate: source-page permission and attribution pending.
 <!-- /FIGURE-CALLOUT F11.03 -->
 
 
@@ -1998,6 +2007,7 @@ The key phrase for this chapter is source permission. Qwen2 and Qwen3 have permi
 > Role: Qwen3 source surface. Status: selected_pending_capture. Rights: private_capture_needed. Sources: S-0027.  
 > Caption stub: F11.04: Qwen3 source surface. Shows Qwen3 source surface. Source and blocker notes remain required at placement.  
 > Manifest: `assets/private_use_screenshots/i0112/A-0049_qwen3_arxiv_abs.png`. Next gate: Capture/hash; Qwen 3.5/3.6 remains blocked.
+> Real-world candidate (I-0243): Qwen3 source surface. Story fit: updates the competition arc from one release to a continuing model line. Quality note: needs a second Qwen surface that is not visually redundant with F11.03. Gate: source-page permission and attribution pending.
 <!-- /FIGURE-CALLOUT F11.04 -->
 
 
@@ -2028,6 +2038,7 @@ This discipline gives the chapter a rhythm: supported lanes in prose, missing la
 > Role: DeepSeek-R1 source surface. Status: selected_pending_capture. Rights: private_capture_needed. Sources: S-0029.  
 > Caption stub: F11.05: DeepSeek-R1 source surface. Shows DeepSeek-R1 source surface. Source and blocker notes remain required at placement.  
 > Manifest: `assets/private_use_screenshots/i0112/A-0050_deepseek_r1_arxiv_abs.png`. Next gate: Capture/hash; benchmark extraction separate.
+> Real-world candidate (I-0243): DeepSeek paper/source surface. Story fit: turns the efficiency-price shock into a visible research and company artifact. Quality note: local PDF/home capture exists; choose paper first page or official page after legibility test. Gate: arXiv/public-page use and caption wording need review.
 <!-- /FIGURE-CALLOUT F11.05 -->
 
 
@@ -2261,6 +2272,7 @@ Claude 3 also exposed the tension at the heart of assistant design: fewer unnece
 > Role: computer-use source surface. Status: selected_pending_capture. Rights: private_capture_needed. Sources: S-0109.  
 > Caption stub: F12.05: Computer Use Source Surface. Shows computer-use source surface. Source and blocker notes remain required at placement.  
 > Manifest: `assets/private_use_screenshots/i0148/A-0119_claude_computer_use_announcement.png`. Next gate: Capture/hash; block autonomy.
+> Real-world candidate (I-0243): computer-use demo surface. Story fit: grounds the agency chapter in a concrete interface-taking-action artifact. Quality note: needs source crop that shows task context without overclaiming autonomy. Gate: demo screenshot permission and safety-context caption review pending.
 <!-- /FIGURE-CALLOUT F12.05 -->
 
 
@@ -2307,6 +2319,7 @@ This is where the chapter must stop before it becomes Chapter 20. The Anthropic 
 > Role: Claude product source surface. Status: selected_pending_capture. Rights: private_capture_needed. Sources: S-0007;S-0245.  
 > Caption stub: F12.06: Claude Product Surface. Shows Claude product source surface. Source and blocker notes remain required at placement.  
 > Manifest: `assets/private_use_screenshots/i0180/A-0130_claude_product_surface.png`. Next gate: Capture/hash; block safety success.
+> Real-world candidate (I-0243): Claude product surface. Story fit: adds a visible alternative assistant surface in the agent/product chapter. Quality note: local Claude news page exists; may need separate product UI capture for better specificity. Gate: Anthropic page capture rights and attribution pending.
 <!-- /FIGURE-CALLOUT F12.06 -->
 
 
@@ -2678,6 +2691,7 @@ Hopper also demonstrates the difference between training and inference. Training
 > Role: lithography/ASML proxy. Status: selected_pending_rights_review. Rights: rights_review_needed. Sources: S-0273;S-0274.  
 > Caption stub: F14.04: Lithography/ASML proxy physical texture.. Shows lithography/ASML proxy. Source and blocker notes remain required at placement.  
 > Manifest: `assets/photo_candidates/i0181/A-0133_lithography_asml_proxy_candidate.txt`. Next gate: Find stronger ASML-machine photo or caption as proxy.
+> Real-world candidate (I-0243): lithography supply-chain texture. Story fit: makes the chip chapter visibly depend on manufacturing systems, not just abstract silicon. Quality note: ASML page capture exists; final should prefer licensed photo or clean source-page crop. Gate: permission or replacement image required for physical photo use.
 <!-- /FIGURE-CALLOUT F14.04 -->
 
 
@@ -2704,6 +2718,7 @@ This is where Chapter 14 hands forward to the economics chapter. A token has a m
 > Role: cleanroom photo. Status: selected_pending_rights_review. Rights: rights_review_needed. Sources: S-0275.  
 > Caption stub: F14.05: Cleanroom manufacturing environment.. Shows cleanroom photo. Source and blocker notes remain required at placement.  
 > Manifest: `assets/photo_candidates/i0181/A-0134_fab_cleanroom_candidate.txt`. Next gate: Verify exact license and attribution.
+> Real-world candidate (I-0243): cleanroom environment. Story fit: adds human-scale and environmental context to fabrication capacity. Quality note: needs a high-resolution licensed cleanroom image with non-generic caption. Gate: permission or public-domain/CC replacement required.
 <!-- /FIGURE-CALLOUT F14.05 -->
 
 
@@ -2734,6 +2749,7 @@ This is why the word "moat" should be used carefully. A moat can be a protective
 > Role: server rack photo. Status: selected_pending_rights_review. Rights: rights_review_needed. Sources: S-0277.  
 > Caption stub: F14.06: Server racks as compute infrastructure.. Shows server rack photo. Source and blocker notes remain required at placement.  
 > Manifest: `assets/photo_candidates/i0181/A-0136_gpu_server_rack_candidate.txt`. Next gate: Verify license; block named workload.
+> Real-world candidate (I-0243): server-rack compute texture. Story fit: connects chip supply to deployed compute rooms and systems integration. Quality note: needs non-stock image that matches AI compute context closely enough. Gate: photo license and source specificity pending.
 <!-- /FIGURE-CALLOUT F14.06 -->
 
 
@@ -2919,6 +2935,7 @@ But reference designs are not deployments. A release can prove a product positio
 > Role: GTC page 29 slide render. Status: selected_pending_source_surface_review. Rights: local_ignored_hash_available. Sources: S-0001;local:GTC-2026-Keynote.pdf page 29.  
 > Caption stub: F15.06: NVIDIA frames the AI factory as industrial infrastructure: inference is the workload, tokens are the commodity, and compute is revenue.. Shows GTC page 29 slide render. Source and blocker notes remain required at placement.  
 > Manifest: `assets/gtc_2026/slides/page-029-ai-factories.png`. Next gate: Choose against A-0024; avoid duplication.
+> Real-world candidate (I-0243): GTC keynote slide evidence. Story fit: uses the local keynote asset to show NVIDIA's own AI-factory framing. Quality note: local PDF source exists; needs page crop QA and quote-length/copyright discipline. Gate: presentation excerpt use and attribution review required.
 <!-- /FIGURE-CALLOUT F15.06 -->
 
 
@@ -2962,6 +2979,7 @@ The claim cards A-0024 through A-0029 exist because this is a visual problem as 
 > Role: page 29 hashed source surface. Status: selected_pending_source_surface_review. Rights: local_ignored_hash_available. Sources: S-0001.  
 > Caption stub: F15.07: NVIDIA's page 29 AI-factory thesis as attributed stagecraft/source rhetoric.. Shows page 29 hashed source surface. Source and blocker notes remain required at placement.  
 > Manifest: `assets/gtc_2026/slides/page-029-ai-factories.png`. Next gate: Use as private evidence handle or final source surface after rights review.
+> Real-world candidate (I-0243): AI factory source rhetoric. Story fit: pairs the chapter's infrastructure argument with an attributed NVIDIA surface. Quality note: needs choice between keynote page render and H100/product-page context to avoid duplication. Gate: NVIDIA source-surface use and attribution pending.
 <!-- /FIGURE-CALLOUT F15.07 -->
 
 
@@ -3143,6 +3161,7 @@ The physical system did not merely support the software system. It fed back into
 > Role: data-center hall photo. Status: selected_pending_rights_review. Rights: rights_review_needed. Sources: S-0278.  
 > Caption stub: F16.06: Data-center hall physical texture.. Shows data-center hall photo. Source and blocker notes remain required at placement.  
 > Manifest: `assets/photo_candidates/i0181/A-0137_data_center_hall_candidate.txt`. Next gate: Verify original license trail.
+> Real-world candidate (I-0243): data-center hall texture. Story fit: makes the energy chapter start from physical halls rather than invisible demand curves. Quality note: local Wikimedia candidate exists but must be checked for license, resolution, and crop. Gate: license, attribution, and suitability pending.
 <!-- /FIGURE-CALLOUT F16.06 -->
 
 
@@ -3167,6 +3186,7 @@ The physical bottleneck therefore became a narrative bottleneck. It slowed the m
 > Role: substation photo. Status: selected_pending_rights_review. Rights: rights_review_needed. Sources: S-0280.  
 > Caption stub: F16.07: Grid interconnection texture.. Shows substation photo. Source and blocker notes remain required at placement.  
 > Manifest: `assets/photo_candidates/i0181/A-0139_substation_candidate.txt`. Next gate: Verify license; no site-service claim.
+> Real-world candidate (I-0243): grid interconnection texture. Story fit: moves the reader from compute demand to the bottleneck of grid connection. Quality note: needs specific grid/interconnection image, not generic transmission-line wallpaper. Gate: photo source and license pending.
 <!-- /FIGURE-CALLOUT F16.07 -->
 
 
@@ -3195,6 +3215,7 @@ For the reader, this section should have a practical aftertaste. When a company 
 > Role: gas turbine photo. Status: selected_pending_rights_review. Rights: rights_review_needed. Sources: S-0282.  
 > Caption stub: F16.08: Gas turbine speed-to-power texture.. Shows gas turbine photo. Source and blocker notes remain required at placement.  
 > Manifest: `assets/photo_candidates/i0181/A-0141_gas_turbine_candidate.txt`. Next gate: Verify license and caption as generic.
+> Real-world candidate (I-0243): gas turbine speed-to-power texture. Story fit: visualizes the speed tradeoff in power procurement for compute campuses. Quality note: needs credible plant/turbine image with dateable context. Gate: photo source and license pending.
 <!-- /FIGURE-CALLOUT F16.08 -->
 
 
@@ -3572,6 +3593,7 @@ The best agent systems will act like paranoid bureaucrats. They will isolate unt
 > Role: ChatGPT tools/GPTs surface. Status: selected_pending_capture. Rights: private_capture_needed. Sources: S-0044;S-0045;S-0046.  
 > Caption stub: F18.05: ChatGPT Tool Surface. Shows ChatGPT tools/GPTs surface. Source and blocker notes remain required at placement.  
 > Manifest: `assets/private_use_screenshots/i0180/A-0124_chatgpt_tools_gpts_product_surface.png`. Next gate: Capture/hash; block adoption.
+> Real-world candidate (I-0243): tool-enabled ChatGPT surface. Story fit: shows the interface shift from text box to tool-using workbench. Quality note: needs current UI capture with tool affordance visible and private content excluded. Gate: OpenAI UI terms, capture provenance, and no-private-data check pending.
 <!-- /FIGURE-CALLOUT F18.05 -->
 
 
@@ -3749,6 +3771,7 @@ The difference is not caution for caution's sake. It preserves the wonder. The r
 > Role: GitHub Copilot surface. Status: selected_pending_capture. Rights: private_capture_needed. Sources: S-0070.  
 > Caption stub: F19.05: GitHub Copilot Coding Surface. Shows GitHub Copilot surface. Source and blocker notes remain required at placement.  
 > Manifest: `assets/private_use_screenshots/i0180/A-0127_github_copilot_product_surface.png`. Next gate: Capture/hash; block productivity.
+> Real-world candidate (I-0243): GitHub Copilot coding surface. Story fit: grounds the coding chapter in the developer workflow where AI assistance appears. Quality note: needs readable IDE or GitHub capture without proprietary code. Gate: UI terms, repository license, and code-content clearance pending.
 <!-- /FIGURE-CALLOUT F19.05 -->
 
 
@@ -3939,6 +3962,7 @@ The second durable change is organizational. Code review becomes more important,
 > Role: Claude Code surface. Status: selected_pending_capture. Rights: private_capture_needed. Sources: S-0048;S-0049;S-0050;S-0051.  
 > Caption stub: F20.05: Claude Code Surface. Shows Claude Code surface. Source and blocker notes remain required at placement.  
 > Manifest: `assets/private_use_screenshots/i0180/A-0131_claude_code_product_surface.png`. Next gate: Capture/hash; block autonomy.
+> Real-world candidate (I-0243): Claude Code product/docs surface. Story fit: makes coding agents visible as a productized workflow rather than only a concept. Quality note: local page/doc captures exist but need render crop and product-vs-docs choice. Gate: Anthropic page/docs capture rights and attribution pending.
 <!-- /FIGURE-CALLOUT F20.05 -->
 
 
