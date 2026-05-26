@@ -374,3 +374,7 @@ Chapter openers need a contract before they need polish. The useful unit is not 
 ## 2026-05-27 - I-0247 Boundary Stitches
 
 Full-book flow is easiest to improve when chapter boundaries are treated as their own prose surface. Candidate stitches should connect mechanism to mechanism and pressure to pressure; final integration must absorb them into real chapter endings/openings so the book gains momentum without accumulating visible scaffolding.
+
+## 2026-05-27 - I-0248 Source Proximity
+
+Narrative glue still needs visible evidence lanes when it carries factual mechanism claims. The fastest safe citation-density repair is to place bounded source IDs beside newly added transition prose, then state what those lanes do not support so continuity does not become a back door for unsupported metrics, rankings, markets, quotations, or scenes.
