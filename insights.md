@@ -418,3 +418,7 @@ Source cards are the safest bridge between raw evidence and a beautiful page. A 
 ## 2026-05-27 - I-0261 Empty Slots
 
 A selected exhibit list should never point at a missing future asset. If a screenshot or photo is not rights-ready, the honest repair is to cut it or replace it with a source card/diagram now, then let a later rights pass upgrade it only if the stronger asset clears.
+
+## 2026-05-27 - I-0262 Visual PDF v3
+
+Object-level PDF QA should distinguish presence from beauty. Getting 100 image-bearing callouts into the PDF is a real threshold, but it only proves the book is visually material; page screenshots still have to prove legibility, rhythm, caption compression, and source-note proximity.
