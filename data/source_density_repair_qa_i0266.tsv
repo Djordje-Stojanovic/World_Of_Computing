@@ -1,0 +1,7 @@
+check_id	check	status	detail
+I0266-QA-001	target_headings_found	pass	63/63
+I0266-QA-002	new_source_lanes_present	pass	63
+I0266-QA-003	boundary_notes_present	pass	63
+I0266-QA-004	inserted_source_refs	pass	295
+I0266-QA-005	idempotent_or_inserted	pass	inserted=63; lanes=63
+I0266-QA-006	inserted_source_ids_exist	pass	295 inserted source refs resolve to source IDs present in sources.tsv.

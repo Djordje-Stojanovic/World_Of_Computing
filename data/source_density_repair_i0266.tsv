@@ -1,0 +1,64 @@
+pass_id	heading	heading_line_before	words_before	unique_sources_before	inserted_sources	inserted_source_count	boundary	action
+I-0266	The Answer That Lied Beautifully	152	531	0	S-0005;S-0093;S-0164	3	Use for hallucination and early moderation/truth framing; no prevalence or legal-outcome claim.	inserted_source_lane
+I-0266	The Central Question	198	307	0	S-0006;S-0041;S-0047;S-0138;S-0083	5	Use as source bridge across interface, cloud, compute, and power; no single source proves the whole book thesis.	inserted_source_lane
+I-0266	The Older Machine	232	406	0	S-0104;S-0105;S-0106;S-0107	4	Use as technical ancestry lane; do not imply inevitability.	inserted_source_lane
+I-0266	The Geometry Of Meaning	262	405	1	S-0104;S-0105	2	Use for distributed representations and word-vector geometry; analogy claims stay bounded.	inserted_source_lane
+I-0266	What Attention Changed	318	478	1	S-0106;S-0107;S-0002	3	Use for sequence bottleneck and attention lineage; not proof of reliability.	inserted_source_lane
+I-0266	The Hidden Continuity	346	511	2	S-0104;S-0105;S-0106;S-0107;S-0002	5	Use for ancestry synthesis only.	inserted_source_lane
+I-0266	What The Transformer Did Not Solve	528	342	4	S-0002;S-0108	2	Use for architecture boundary; no claim that attention solved truth, memory, or reasoning.	inserted_source_lane
+I-0266	What Scaling Did Not Buy	706	352	4	S-0003;S-0015;S-0004	3	Use for measured/modelled scaling boundaries; no threshold-intelligence claim.	inserted_source_lane
+I-0266	The Platform Primitive	814	269	0	S-0004;S-0071;S-0070	3	Use for GPT-3 API and code-product history; no adoption or productivity inference.	inserted_source_lane
+I-0266	The API Made Distribution A Technical Fact	884	406	1	S-0071;S-0070;S-0052	3	Use for distribution/interface turn; outcome claims remain blocked.	inserted_source_lane
+I-0266	The Assistant As A Bundle	1025	245	0	S-0014;S-0074;S-0075;S-0076;S-0077	5	Use for behavior-spec and safety-documentation lanes; no solved-alignment claim.	inserted_source_lane
+I-0266	The Alignment Tax And The Product Trade	1098	402	1	S-0074;S-0014;S-0076	3	Use for first-party limits and tradeoffs; quote only via approved rows.	inserted_source_lane
+I-0266	Why Refusal Became A New Interface Genre	1112	362	0	S-0075;S-0076;S-0077	3	Use for policy/interface framing; do not generalize to all labs.	inserted_source_lane
+I-0266	ChatGPT Was The Alignment Demo The Public Could Touch	1136	375	4	S-0006;S-0014;S-0074;S-0092;S-0098;S-0102	6	Use for launch/adoption/behavior bridge; keep metric units separate.	inserted_source_lane
+I-0266	The Product Was A Training Method With A Face	1198	573	1	S-0006;S-0014;S-0074	3	Use for ChatGPT/InstructGPT relation; do not infer hidden training details.	inserted_source_lane
+I-0266	The Disappearing Manual	1221	470	0	S-0006;S-0078;S-0089	3	Use for product-surface chronology; no usage or retention claim.	inserted_source_lane
+I-0266	What The Interface Hid	1294	558	1	S-0006;S-0043;S-0041;S-0047	4	Use for tokenizer/cloud/product stack bridge; no cost or margin claim.	inserted_source_lane
+I-0266	Why Everyone Had To Answer	1316	590	1	S-0093;S-0094;S-0096;S-0097;S-0047	5	Use for named institutional reactions; no national panic claim.	inserted_source_lane
+I-0266	The Backend Becomes The Plot	1375	384	0	S-0041;S-0047;S-0125;S-0126;S-0127;S-0130	6	Use for Microsoft/OpenAI infrastructure and partnership chronology.	inserted_source_lane
+I-0266	The Risk Of Mutual Dependence	1493	220	0	S-0041;S-0047;S-0130;S-0133	4	Use for strategic dependence framing; no private-contract economics.	inserted_source_lane
+I-0266	Search, Office, And The Incumbent's Revenge	1515	646	0	S-0131;S-0133;S-0047	3	Use for product-distribution surfaces; no market-share result.	inserted_source_lane
+I-0266	Inference Is The Rent	1539	352	0	S-0041;S-0133;S-0060;S-0061;S-0062;S-0072	6	Use for serving/capacity/economics bridge; price is not margin.	inserted_source_lane
+I-0266	The Company That Had Already Built the Future	1581	408	0	S-0016;S-0017;S-0115;S-0116;S-0121	5	Use for Google/DeepMind research lineage; no inevitability claim.	inserted_source_lane
+I-0266	Handoff To The Open Race	1744	359	4	S-0121;S-0122;S-0023;S-0024;S-0026;S-0029	6	Use for transition from Gemini to open/frontier plurality.	inserted_source_lane
+I-0266	The Control Stack	1893	300	0	S-0023;S-0024;S-0111;S-0114;S-0008	5	Use for open-weight control surfaces; license/current-state claims need row checks.	inserted_source_lane
+I-0266	What Llama Changed	1924	533	5	S-0111;S-0023;S-0024;S-0114;S-0008	5	Use for access/distribution shift; no adoption or safety outcome claim.	inserted_source_lane
+I-0266	A Different Kind Of Openness	2041	347	0	S-0026;S-0027;S-0028;S-0029;S-0030;S-0031	6	Use for China/open-frontier source lanes; gap-only names remain quarantined.	inserted_source_lane
+I-0266	The Missing Rows Are Part Of The Story	2072	374	0	S-0026;S-0027;S-0028;S-0029;C-0007	4	Use for evidence-boundary prose; do not write Qwen 3.5/3.6 or DeepSeek V4 as happened releases.	inserted_source_lane
+I-0266	Why The Frontier Became Multipolar	2084	758	0	S-0026;S-0027;S-0028;S-0029;S-0030;S-0031;S-0145;S-0150	8	Use for plurality of labs/mechanisms; no equal-weight scoreboard.	inserted_source_lane
+I-0266	What This Chapter Can Say Today	2113	465	5	S-0026;S-0027;S-0028;S-0029;S-0030;S-0031;C-0007	6	Use for explicit permission boundary.	inserted_source_lane
+I-0266	The Race Outside the Center	2149	384	0	S-0145;S-0146;S-0147;S-0148;S-0149;S-0150;S-0151;S-0152	8	Use for rest-of-frontier map; vendor claims stay attributed.	inserted_source_lane
+I-0266	"What ""Rest of Frontier"" Cannot Be Allowed to Mean"	2233	613	0	S-0145;S-0146;S-0147;S-0150;S-0151;S-0152	6	Use for scope discipline; do not flatten labs into a logo parade.	inserted_source_lane
+I-0266	The Frontier as a Portfolio	2255	508	0	S-0145;S-0146;S-0147;S-0150;S-0151;S-0152;S-0026;S-0029	8	Use for portfolio metaphor with mechanism-specific evidence.	inserted_source_lane
+I-0266	The Lab That Made Behavior Its Brand	2273	568	1	S-0019;S-0020;S-0021;S-0109;S-0007	5	Use for Anthropic/Claude behavior arc; no safety-success claim.	inserted_source_lane
+I-0266	The Historical Slice	2479	484	1	S-0036;S-0056;S-0057;S-0080	4	Use for dated leaderboard slice; no live rank or universal winner.	inserted_source_lane
+I-0266	The Editorial Contract	2606	249	0	S-0036;S-0057;S-0080;C-0046	3	Use for rank/price-quality caveats.	inserted_source_lane
+I-0266	The Invisible Platform Under The Miracle	2662	544	1	S-0138;S-0141;S-0139	3	Use for CUDA/software platform; no exact modern performance claim.	inserted_source_lane
+I-0266	Parallelism Becomes A Habit	2690	507	0	S-0002;S-0138;S-0139;S-0143	4	Use for architecture-hardware parallelism bridge; speedup claims need rows.	inserted_source_lane
+I-0266	What The NVIDIA Chapter Must Not Do	2810	397	0	S-0039;S-0040;S-0139;S-0140;C-0021;C-0047	4	Use for vendor-attribution guardrail.	inserted_source_lane
+I-0266	What The Hardware Middle Must Do	2833	306	2	S-0138;S-0141;S-0142;S-0143	4	Use for software/interconnect/inference layer.	inserted_source_lane
+I-0266	From Tokens To Capital Equipment	3001	425	0	S-0001;S-0064;S-0065;S-0066;S-0067;C-0021;C-0047	5	Use for GTC stagecraft and roadmap attribution; no independent deployment proof.	inserted_source_lane
+I-0266	The Hinge Chapter	3072	529	4	S-0001;S-0064;S-0083;S-0084;S-0085	5	Use for GTC-to-power handoff; separate vendor slides from grid evidence.	inserted_source_lane
+I-0266	From Tokens Back To Land	3232	646	0	S-0083;S-0084;S-0085;S-0088;S-0175;S-0176;S-0177	7	Use for physical infrastructure evidence; no named AI workload from photo candidates.	inserted_source_lane
+I-0266	Useful Capacity Is Not Nameplate Capacity	3257	988	1	S-0084;S-0085;S-0086;S-0087;S-0088	5	Use for measured/scenario/advisory/survey separation.	inserted_source_lane
+I-0266	The Race For The Right To Plug In	3313	469	4	S-0083;S-0084;S-0085;S-0086;S-0087	5	Use for interconnection/power planning; no universal grid-burden number.	inserted_source_lane
+I-0266	The Library Before the Factory	3351	462	0	S-0042;S-0153;S-0154;S-0155;S-0156;S-0157	6	Use for tokenization and corpus provenance; not a proprietary-corpus claim.	inserted_source_lane
+I-0266	Synthetic Data and the Second Library	3481	431	0	S-0160;S-0161;S-0162;S-0163	4	Use for data quality/memorization/evaluation tension; no universal recipe.	inserted_source_lane
+I-0266	The Data Moat Is A Process	3503	351	0	S-0156;S-0158;S-0159;S-0160;S-0163	5	Use for curation/process moat; no legal certainty.	inserted_source_lane
+I-0266	What This Chapter Still Refuses	3515	291	5	S-0156;S-0161;S-0162;S-0163	4	Use for explicit corpus-ignorance boundary.	inserted_source_lane
+I-0266	Retrieval: Memory Without Memory	3561	690	1	S-0038;S-0135	2	Use for RAG and reasoning/action lineage; no product reliability claim.	inserted_source_lane
+I-0266	Function Calling: The Model As Router	3589	439	1	S-0044;S-0136;S-0055	3	Use for tools/interface routing; no arbitrary-tool mastery claim.	inserted_source_lane
+I-0266	Prompt Injection: The Instruction/Data Problem Returns	3658	420	1	S-0137;S-0038;S-0135	3	Use for risk framing; no prevalence or mitigation claim.	inserted_source_lane
+I-0266	What Changed, And What Did Not	3701	352	5	S-0038;S-0135;S-0136;S-0137;S-0055	5	Use for mechanism summary and boundaries.	inserted_source_lane
+I-0266	The New Shape Of Reading	3779	361	0	S-0052;S-0070;S-0132	3	Use for code assistant/product positioning; no productivity proof.	inserted_source_lane
+I-0266	The Contest Laboratory	3791	524	1	S-0053;S-0052;S-0037	3	Use for code benchmarks and contest evaluation; no labor-market claim.	inserted_source_lane
+I-0266	Open Code Models And The Diffusion Of Skill	3817	522	1	S-0025;S-0052;S-0037	3	Use for open code-model lane; no broad deployment/adoption claim.	inserted_source_lane
+I-0266	The Repository Becomes The Prompt	3857	573	0	S-0035;S-0037;S-0048;S-0049;S-0051	5	Use for repository-work benchmarks/workflows; no autonomous-engineer claim.	inserted_source_lane
+I-0266	What The Agent Still Cannot Own	4053	595	0	S-0007;S-0022;S-0048;S-0049;S-0050;S-0051;S-0035;S-0037;C-0013	8	Use for agent boundary and benchmark firewall.	inserted_source_lane
+I-0266	## 21. Reasoning, Test-Time Compute, and the New Scaling Axis	4116	4401	15	S-0168;S-0169;S-0170;S-0171;S-0172;S-0173;S-0029	7	Use as chapter-level source bridge until section split; no hidden-chain or benchmark-crown claim.	inserted_source_lane
+I-0266	The Meter Appears	4256	447	0	S-0060;S-0061;S-0062;S-0072;S-0081;S-0082;C-0046	6	Use for price surfaces; price is not margin.	inserted_source_lane
+I-0266	The Subsidy Question	4362	380	0	S-0060;S-0061;S-0062;S-0072;C-0046	4	Use for price-vs-cost boundary; no profitability inference.	inserted_source_lane
+I-0266	Intelligence as a Layer	4398	531	7	S-0060;S-0061;S-0062;S-0072;S-0133;S-0131	6	Use for product/economics synthesis; no ROI claim.	inserted_source_lane
+I-0266	## 24. Next Token	4550	3436	0	S-0006;S-0002;S-0003;S-0004;S-0014;S-0041;S-0047;S-0138;S-0083;S-0153;S-0038;S-0035;S-0164	13	Use as final synthesis bridge; chapter claims must still point back to local chapter evidence.	inserted_source_lane

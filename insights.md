@@ -434,3 +434,7 @@ Rights closure is not the same as permission. The useful move is to retire unsaf
 ## 2026-05-26 - I-0265 Claim Burn-Down
 
 Unsupported-claim burn-down should not convert caveats into false certainty. The right resolution for many stale blockers is a supported guardrail: prove that the manuscript quarantines or attributes the risky claim, then record exactly what still cannot be said until a later source pack proves it.
+
+## 2026-05-26 - I-0266 Source Density
+
+Source-density repair is most useful when it binds evidence to exact section jobs and claim boundaries, not just when it raises citation counts. A temporary visible source lane is acceptable as a production bridge only if the next notes pass is responsible for compressing it into reader-quality endnotes.

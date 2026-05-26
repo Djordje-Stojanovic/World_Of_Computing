@@ -150,6 +150,9 @@ This is why the chapter must not make ChatGPT a magic trick. Magic tricks end wh
 The interface was the distribution. It carried the model into classrooms, offices, code editors, family group chats, newsrooms, search strategies, and executive meetings. It made the next-token machine socially contagious.
 
 ### The Answer That Lied Beautifully
+> Source lane (I-0266): [S-0005] [S-0093] [S-0164]
+> Boundary: Use for hallucination and early moderation/truth framing; no prevalence or legal-outcome claim.
+
 
 The most unnerving thing about ChatGPT was not that it made mistakes. Software has always made mistakes. The unnerving thing was that it made mistakes in prose.
 
@@ -196,6 +199,9 @@ This is why the narrative cannot stay inside OpenAI. ChatGPT is the opening scen
 The opener's job is to keep those strands connected. A reader should never lose the thread that a token on the screen is attached to chips, data, people, capital, electricity, institutions, and trust. The text box was simple. The system was not.
 
 ### The Central Question
+> Source lane (I-0266): [S-0006] [S-0041] [S-0047] [S-0138] [S-0083]
+> Boundary: Use as source bridge across interface, cloud, compute, and power; no single source proves the whole book thesis.
+
 
 This book is not a biography of one product. ChatGPT is the opening because it made the question unavoidable.
 
@@ -230,6 +236,9 @@ Assembly note: filename remains 01 from earlier drift; assembly maps it to outli
 ## 2. Before the Transformer: The Machine Learns Sequence
 
 ### The Older Machine
+> Source lane (I-0266): [S-0104] [S-0105] [S-0106] [S-0107]
+> Boundary: Use as technical ancestry lane; do not imply inevitability.
+
 
 <!-- FIGURE-CALLOUT F02.01 ch02-fig01 -->
 > [!FIGURE] **F02.01 / A-0115 - The Bottleneck Before The Breakthrough**  
@@ -260,6 +269,9 @@ That bet runs through the neural probabilistic language model proposed by Yoshua
 This is one of the quiet origins of the modern story. The future LLM would become famous for scale, dialogue, and surprising fluency. But underneath those public properties sits a simpler idea: words are not only labels. They can be learned coordinates. Once words become coordinates, language modeling is no longer only a counting problem. It becomes a geometry problem.
 
 ### The Geometry Of Meaning
+> Source lane (I-0266): [S-0104] [S-0105]
+> Boundary: Use for distributed representations and word-vector geometry; analogy claims stay bounded.
+
 
 Distributed representation changed the reader's mental picture of language. The old picture was a dictionary: word, definition, usage. The new picture was a field. A word's meaning was not stored as a sentence. It was partly expressed by where the word sat relative to other words after training. That did not make the model understand in the human sense. It made meaning operational enough for computation.
 
@@ -316,6 +328,9 @@ This is one of the bridges from translation to general-purpose LLMs. A future as
 The chapter should also keep a useful skepticism here. Attention did not make models reliable. It made one route for information flow more flexible. A model can attend to the wrong token, learn a spurious relation, or produce a fluent answer from shallow cues. The point is architectural permission, not epistemic guarantee. [S-0107]
 
 ### What Attention Changed
+> Source lane (I-0266): [S-0106] [S-0107] [S-0002]
+> Boundary: Use for sequence bottleneck and attention lineage; not proof of reliability.
+
 
 Attention is easy to describe badly. The lazy description says the model "pays attention" as if it had a little spotlight of consciousness. The better description is mechanical. A model computes relationships among positions in a sequence. It uses those relationships to mix information. A token's representation becomes a function not only of itself but of other tokens, weighted by learned relevance.
 
@@ -344,6 +359,9 @@ That is why this chapter ends at the edge of the Transformer rather than treatin
 The reader should leave this opening with two ideas held together. First, the modern LLM is not an alien object. Its components have ancestry: probability, representation, sequence, alignment, attention. Second, ancestry is not destiny. The combination mattered because it met a moment when data and compute could turn architectural permission into industrial force.
 
 ### The Hidden Continuity
+> Source lane (I-0266): [S-0104] [S-0105] [S-0106] [S-0107] [S-0002]
+> Boundary: Use for ancestry synthesis only.
+
 
 The continuity matters because the book is not about one paper dropping from the sky. It is about a long conversion of language into computable pressure. Each stage changed the question slightly.
 
@@ -526,6 +544,9 @@ A third optional diagram can show a "model stack view": embeddings at the bottom
 These diagrams matter because architecture prose can easily become soup. A reader can follow "query, key, value" for a paragraph and lose the larger shape. Visuals should keep the mechanism visible: what enters, what mixes, what repeats, what exits, and where the chapter is simplifying.
 
 ### What The Transformer Did Not Solve
+> Source lane (I-0266): [S-0002] [S-0108]
+> Boundary: Use for architecture boundary; no claim that attention solved truth, memory, or reasoning.
+
 
 Every architecture chapter needs a humility section. The Transformer did not solve truth. It did not solve grounding. It did not solve memory in the human sense. It did not make models immune to hallucination, prompt injection, data contamination, or brittle reasoning. It did not remove the cost of long context. It did not make attention weights a faithful explanation of every output.
 
@@ -704,6 +725,9 @@ The third is a permission map for scaling claims. Rows should separate measured,
 These charts should be beautiful but sober. No glowing exponential rocket. No inevitability arrow pointing to artificial general intelligence. The visual grammar should say: here is what was measured; here is what was inferred; here is what the industry believed; here is what remains unproven.
 
 ### What Scaling Did Not Buy
+> Source lane (I-0266): [S-0003] [S-0015] [S-0004]
+> Boundary: Use for measured/modelled scaling boundaries; no threshold-intelligence claim.
+
 
 Scaling did not buy truth. It did not buy source provenance. It did not buy safe tool use. It did not buy memory in the human sense. It did not buy data rights. It did not buy cheap inference. It did not buy electricity, cooling, or transmission lines. It did not buy user trust.
 
@@ -812,6 +836,9 @@ That placement mattered. GPT-3's API made language models callable. Copilot made
 Codex also changes the book's chronology. It is not merely a side branch for programmers. It is the bridge from language models to agents. Once a model can write code, it can write instructions for machines. Once it can operate inside an editor or repository, the prompt becomes closer to a work order. Later coding agents would read files, run tests, inspect errors, and propose diffs. But the conceptual path starts here: text in, code out, machine behavior changed.
 
 ### The Platform Primitive
+> Source lane (I-0266): [S-0004] [S-0071] [S-0070]
+> Boundary: Use for GPT-3 API and code-product history; no adoption or productivity inference.
+
 
 By the time ChatGPT arrived, several pieces were already in place. GPT-1 had shown generative pretraining as transfer. GPT-2 had shown unsupervised multitask behavior and forced a debate over release. GPT-3 had shown few-shot prompting and API distribution. Codex and Copilot had shown that language models could live inside the developer workflow and generate executable text.
 
@@ -882,6 +909,9 @@ That wrapping is the missing middle between research and ChatGPT. Before the cha
 The chapter should therefore describe GPT-3 as a platform primitive, not a finished assistant. A primitive is powerful precisely because it is incomplete. It can be embedded in many systems. It can also fail in many systems. GPT-3 gave developers a new kind of material: language behavior exposed through an API and shaped by context. The later assistant layer would make that material feel polite, conversational, and bounded. But the raw primitive came first.
 
 ### The API Made Distribution A Technical Fact
+> Source lane (I-0266): [S-0071] [S-0070] [S-0052]
+> Boundary: Use for distribution/interface turn; outcome claims remain blocked.
+
 
 Distribution often gets treated as business context, something that happens after the science. In the GPT line, distribution became technical. A model available only as a paper is different from a model available through a hosted endpoint. The endpoint shapes what developers try, how fast they try it, what risks the provider can monitor, what terms govern use, and what forms of product can appear. [S-0069]
 
@@ -1023,6 +1053,9 @@ These documents should not be read as neutral certificates of safety. They are f
 That package changed the race. A lab could not merely say, "The model is smarter." It had to say, "The model is smarter, and here is how we tried to keep it from doing some classes of unwanted things." The stronger the model, the more the launch needed a theory of behavior.
 
 ### The Assistant As A Bundle
+> Source lane (I-0266): [S-0014] [S-0074] [S-0075] [S-0076] [S-0077]
+> Boundary: Use for behavior-spec and safety-documentation lanes; no solved-alignment claim.
+
 
 The user experiences one voice. Underneath, there is a bundle.
 
@@ -1096,6 +1129,9 @@ For system cards, the table is deliberately conservative. It allows short phrase
 This is the chapter's evidence discipline. Exact wording is allowed only when it clarifies a source's role. Otherwise, paraphrase is stronger. The book is not trying to sound like a policy appendix. It is trying to show how the assistant became an engineered behavior surface.
 
 ### The Alignment Tax And The Product Trade
+> Source lane (I-0266): [S-0074] [S-0014] [S-0076]
+> Boundary: Use for first-party limits and tradeoffs; quote only via approved rows.
+
 
 One reason alignment became a product drama is that every improvement has a trade. OpenAI's instruction-following post used the phrase "alignment tax" for the possibility that making a model better match customer intent could reduce performance on some conventional academic NLP tasks. [S-0074] The phrase is valuable because it reminds readers that alignment was not just a moral layer placed on top of capability. It changed what the system optimized for.
 
@@ -1110,6 +1146,9 @@ The alignment tax therefore has two meanings in the book. The narrow meaning is 
 Those artifacts became part of the user experience. People learned to recognize the voice of a tuned assistant: careful, structured, sometimes evasive, sometimes startlingly useful. They also learned to push against it. Jailbreaks, prompt injections, adversarial phrasing, and elaborate role play all exploited the fact that the assistant was a layered product. Users were no longer merely asking questions. They were probing a hierarchy.
 
 ### Why Refusal Became A New Interface Genre
+> Source lane (I-0266): [S-0075] [S-0076] [S-0077]
+> Boundary: Use for policy/interface framing; do not generalize to all labs.
+
 
 The refusal deserves its own place in the story because it is one of the strangest inventions of the LLM era. Software had always had errors, warnings, permissions, and access controls. But the chat refusal had a different flavor. It was written in the same voice as the helpful answer. It sounded conversational. It often explained itself. It might offer a safer alternative. It made policy feel like a person speaking.
 
@@ -1134,6 +1173,9 @@ The book should use these documents neither cynically nor naively. Cynicism woul
 That forensic posture also connects alignment to evaluation. If assistant behavior is produced by a stack, then no single score can certify it. A model can pass a multiple-choice exam and fail a conversation. It can refuse harmful requests and still be vulnerable to prompt injection. It can do well in English and fail in another language. It can look safe in short tests and degrade in long workflows. Evaluation becomes a portfolio, not a finish line.
 
 ### ChatGPT Was The Alignment Demo The Public Could Touch
+> Source lane (I-0266): [S-0006] [S-0014] [S-0074] [S-0092] [S-0098] [S-0102]
+> Boundary: Use for launch/adoption/behavior bridge; keep metric units separate.
+
 
 The next chapter begins when this machinery becomes ordinary enough for the public to try. ChatGPT's novelty was not only that it answered in a chat box. It was that the answer usually behaved as if the prompt were a request. It followed instructions often enough, refused often enough, apologized often enough, and stayed in role often enough that people treated it as a counterpart.
 
@@ -1196,6 +1238,9 @@ Status: OpenAI spine continuity pass promoted in I-0154, 2026-05-26; first promo
 Source note: This chapter uses source IDs from `sources.tsv` and remains conservative about adoption numbers, private scenes, internal motives, boardroom drama, and unsupported market or productivity claims. Productization, adoption, reception, and Enterprise caveats now sit beside the paragraphs that need them; C-0010 remains active for unattributed quantitative adoption, broad public-reception, named-customer deployment, and customer-productivity claims.
 
 ### The Product Was A Training Method With A Face
+> Source lane (I-0266): [S-0006] [S-0014] [S-0074]
+> Boundary: Use for ChatGPT/InstructGPT relation; do not infer hidden training details.
+
 
 <!-- FIGURE-CALLOUT F07.02 ch07-fig02 -->
 > [!FIGURE] **F07.02 / A-0036 - ChatGPT launch surface**  
@@ -1219,6 +1264,9 @@ But the face also created expectations the training method could not always sati
 This is why the November 2022 launch belongs near the beginning of the book even though the underlying science started much earlier. The public did not meet the Transformer in a diagram. It met the Transformer through a role. The question was no longer, "Can a large neural network model language?" It was, "What happens when ordinary users treat a large neural network as something to ask?"
 
 ### The Disappearing Manual
+> Source lane (I-0266): [S-0006] [S-0078] [S-0089]
+> Boundary: Use for product-surface chronology; no usage or retention claim.
+
 
 Most important consumer technologies hide a manual inside the object. A spreadsheet cell teaches formulas by accepting them. A search box teaches keywords by rewarding some queries and punishing others. ChatGPT taught prompting by letting people talk badly and still get something back.
 
@@ -1292,6 +1340,9 @@ The distinction is not pedantry. Enterprise software is where demos go to encoun
 That also changed the Microsoft/OpenAI story. If ChatGPT was merely a viral website, the cloud partnership was a backend fact. If ChatGPT was the beginning of a new enterprise interface, the cloud partnership became strategic terrain. The companies were not only serving curiosity. They were trying to supply a new layer of workplace computing, one where language sat above documents, spreadsheets, code, search, and workflow tools.
 
 ### What The Interface Hid
+> Source lane (I-0266): [S-0006] [S-0043] [S-0041] [S-0047]
+> Boundary: Use for tokenizer/cloud/product stack bridge; no cost or margin claim.
+
 
 The smoothness of ChatGPT hid several unresolved problems.
 
@@ -1314,6 +1365,9 @@ It hid cost. Every satisfying answer consumed inference resources somewhere else
 Most of all, it hid responsibility. A wrong answer could be blamed on the model, the user, the product, the provider, the training data, the prompt, or the absence of verification. That ambiguity made ChatGPT hard to categorize legally, ethically, and operationally. The chapter does not need to become a regulation chapter to name the product fact: when software speaks in complete sentences, people look for someone to hold responsible for the sentence.
 
 ### Why Everyone Had To Answer
+> Source lane (I-0266): [S-0093] [S-0094] [S-0096] [S-0097] [S-0047]
+> Boundary: Use for named institutional reactions; no national panic claim.
+
 
 <!-- FIGURE-CALLOUT F07.05 ch07-fig05 -->
 > [!FIGURE] **F07.05 / A-0039 - ChatGPT plugins surface**  
@@ -1373,6 +1427,9 @@ Assembly note: current main chapter
 ## 8. Microsoft, OpenAI, and the Cloud Bargain
 
 ### The Backend Becomes The Plot
+> Source lane (I-0266): [S-0041] [S-0047] [S-0125] [S-0126] [S-0127] [S-0130]
+> Boundary: Use for Microsoft/OpenAI infrastructure and partnership chronology.
+
 
 <!-- FIGURE-CALLOUT F08.01 ch08-fig01 -->
 > [!FIGURE] **F08.01 / A-0056 - Microsoft/OpenAI: The Cloud Bargain Timeline**  
@@ -1491,6 +1548,9 @@ The partnership became a distribution engine. OpenAI could move from model lab t
 The bargain was not clean. That is why it was interesting.
 
 ### The Risk Of Mutual Dependence
+> Source lane (I-0266): [S-0041] [S-0047] [S-0130] [S-0133]
+> Boundary: Use for strategic dependence framing; no private-contract economics.
+
 
 The bargain also created a new kind of dependence. OpenAI gained the advantage of a hyperscale partner, but a partner is never just capacity. A partner has product priorities, enterprise customers, investor expectations, legal constraints, and platform ambitions. Microsoft gained privileged access to OpenAI's models and brand energy, but that access also exposed Microsoft to the volatility of a frontier lab: model delays, safety controversies, governance drama, cost surprises, and the possibility that customers would treat model quality as the whole story even when the product depended on integration.
 
@@ -1513,6 +1573,9 @@ What it can support is the interface shift. ChatGPT taught users to converse wit
 That is why the chapter's title is the cloud bargain, not the cloud backend. The backend became a route into the foreground.
 
 ### Search, Office, And The Incumbent's Revenge
+> Source lane (I-0266): [S-0131] [S-0133] [S-0047]
+> Boundary: Use for product-distribution surfaces; no market-share result.
+
 
 <!-- FIGURE-CALLOUT F08.04 ch08-fig04 -->
 > [!FIGURE] **F08.04 / A-0059 - Enterprise Claim Blocker Map**  
@@ -1537,6 +1600,9 @@ This is the hidden seriousness of the cloud bargain. The cloud was not only a pl
 The next chapters should preserve this split. Consumer search and workplace Copilot are both Microsoft/OpenAI distribution channels, but they ask for different evidence. Search claims need behavior, share, ad, and publisher evidence. Workplace claims need customer-side usage, productivity, governance, and ROI evidence. This chapter can set up both pathways without pretending that product announcements prove either one.
 
 ### Inference Is The Rent
+> Source lane (I-0266): [S-0041] [S-0133] [S-0060] [S-0061] [S-0062] [S-0072]
+> Boundary: Use for serving/capacity/economics bridge; price is not margin.
+
 
 Training gets the mythic attention: the giant run, the frontier model, the expensive cluster. But productized LLMs live or die through inference. Every user prompt creates a serving cost. Every longer context, tool call, retry, safety pass, or low-latency expectation turns model capability into a cloud economics problem.
 
@@ -1579,6 +1645,9 @@ Assembly note: current main chapter
 ## 9. Google and DeepMind Wake the Sleeping Giant
 
 ### The Company That Had Already Built the Future
+> Source lane (I-0266): [S-0016] [S-0017] [S-0115] [S-0116] [S-0121]
+> Boundary: Use for Google/DeepMind research lineage; no inevitability claim.
+
 
 <!-- FIGURE-CALLOUT F09.01 ch09-fig01 -->
 > [!FIGURE] **F09.01 / A-0086 - Research Became Product In Stages**  
@@ -1742,6 +1811,9 @@ DeepMind complicated this in a useful way. It gave Google a research brand with 
 The tension remained: a research lab wants to be right; a product organization wants to be used; an ad company wants to be profitable; a cloud company wants developers and enterprises; a platform company wants default status. Gemini had to serve all of them.
 
 ### Handoff To The Open Race
+> Source lane (I-0266): [S-0121] [S-0122] [S-0023] [S-0024] [S-0026] [S-0029]
+> Boundary: Use for transition from Gemini to open/frontier plurality.
+
 
 This chapter should not end with Google declared ahead or behind. That would be leaderboard theater. Its job is to put Google back into the race as a structurally different competitor.
 
@@ -1891,6 +1963,9 @@ This does not make Meta the anti-OpenAI. The contrast is useful but incomplete. 
 That structure explains why Llama belongs near the center of the book, not in a side note. It changed the bargaining table. Developers could ask whether they needed a frontier API. Enterprises could ask whether local control mattered more than top score. Governments and researchers could ask whether dependence on a few closed providers was acceptable. Hardware companies could optimize around public models. Benchmark communities could test models that everyone could run.
 
 ### The Control Stack
+> Source lane (I-0266): [S-0023] [S-0024] [S-0111] [S-0114] [S-0008]
+> Boundary: Use for open-weight control surfaces; license/current-state claims need row checks.
+
 
 The cleanest way to explain the Llama strategy is not "open versus closed." It is a control stack. At the bottom are model weights: can an outside actor obtain the trained parameters? Above that is the license: what may they legally do with those weights, at what scale, and under what acceptable-use rules? Above that is training transparency: what does the release reveal about data, filtering, post-training, safety evaluations, and known limits? Above that is operational control: who hosts the model, monitors it, updates it, pays for inference, handles abuse, and answers when something fails?
 
@@ -1922,6 +1997,9 @@ The fourth temptation is to ignore safety because openness feels virtuous. Meta'
 These caveats do not weaken the chapter. They give it force. Llama mattered because it was not clean. It was a strategic release by a giant platform company, an ecosystem accelerant, a pressure campaign against closed APIs, a boon to researchers and developers, a licensing puzzle, a safety challenge, and a hardware workload. The open-weight shock was not a slogan. It was a new political economy for models.
 
 ### What Llama Changed
+> Source lane (I-0266): [S-0111] [S-0023] [S-0024] [S-0114] [S-0008]
+> Boundary: Use for access/distribution shift; no adoption or safety outcome claim.
+
 
 Llama changed what counted as participation in the LLM race. Before open weights became a central strategy, many outsiders could only prompt, pay, benchmark, or speculate. After Llama, they could adapt. That one verb changed the field.
 
@@ -2039,6 +2117,9 @@ Moonshot/Kimi also helps the book avoid an overly open-weight-only view of China
 This is why the chapter needs a source-gap table. MiniMax, Baidu, Tencent, Xiaomi MiMo, and StepFun all belong on the mandatory topic spine, but they do not yet have the same local primary-source support in this workspace as Qwen, DeepSeek, GLM, and Kimi. The honest move is not to omit them silently or inflate them with vague prose. The honest move is to list them as required source targets and block final claims until rows exist.
 
 ### A Different Kind Of Openness
+> Source lane (I-0266): [S-0026] [S-0027] [S-0028] [S-0029] [S-0030] [S-0031]
+> Boundary: Use for China/open-frontier source lanes; gap-only names remain quarantined.
+
 
 The Meta chapter used a control-stack frame: weights, license, training transparency, operational control, safety governance, ecosystem activity, and benchmark claims are separate layers. The China chapter needs the same discipline, but with another layer added: cross-border visibility. A model can be technically open and still hard for a non-Chinese reader to understand because documentation, platform pages, license terms, repositories, or product demos are split across languages and platforms. A model can be closed and still important because it shapes a domestic user base or cloud ecosystem.
 
@@ -2070,6 +2151,9 @@ The danger is to overexplain everything through scarcity. Scarcity can produce c
 Still, the pattern is real enough to matter. The Chinese frontier made efficiency public. It made open release and distillation public. It made reasoning models global. It made multilingual and domestic-product pressure harder to ignore. It forced U.S. readers to stop treating the model race as a private contest among Silicon Valley, Seattle, and London.
 
 ### The Missing Rows Are Part Of The Story
+> Source lane (I-0266): [S-0026] [S-0027] [S-0028] [S-0029] [C-0007]
+> Boundary: Use for evidence-boundary prose; do not write Qwen 3.5/3.6 or DeepSeek V4 as happened releases.
+
 
 The gap lane in Figure 11.1 is not a bureaucratic embarrassment. It is part of the story the book is trying to tell. Frontier AI moves faster than a sober manuscript can safely absorb. Product names circulate before papers. Benchmark screenshots travel before model cards. English summaries simplify Chinese announcements. GitHub repositories, Hugging Face pages, corporate posts, chat-product launches, and API docs disagree in level of detail. If the writer follows the excitement rather than the evidence, the chapter becomes obsolete and possibly false before the ink dries.
 
@@ -2082,6 +2166,9 @@ The same rule applies to version suffixes. Qwen 3.5, Qwen 3.6, and DeepSeek V4-e
 This discipline gives the chapter a rhythm: supported lanes in prose, missing lanes in a table, and explicit handoffs to future passes. It may feel slower than a magazine survey. It is better. A book trying to outlast the release cycle has to make its uncertainty visible.
 
 ### Why The Frontier Became Multipolar
+> Source lane (I-0266): [S-0026] [S-0027] [S-0028] [S-0029] [S-0030] [S-0031] [S-0145] [S-0150]
+> Boundary: Use for plurality of labs/mechanisms; no equal-weight scoreboard.
+
 
 <!-- FIGURE-CALLOUT F11.05 ch11-fig05 -->
 > [!FIGURE] **F11.05 / A-0050 - DeepSeek-R1 source surface**  
@@ -2111,6 +2198,9 @@ That mesh is uncomfortable for readers who want one answer. It makes procurement
 That is also why this chapter should stay technical before it becomes political. The politics are real, but the model reports show the mechanism: routing, reinforcement learning, distillation, multilingual training, release terms, and inference budgets. Those details are the durable evidence. They make the larger rivalry concrete without asking the reader to accept a mood. A reader should feel the pressure of the global race through the machinery itself, not through a prewritten theory of who is destined to win or lose. That restraint is a form of respect, and also a form of power.
 
 ### What This Chapter Can Say Today
+> Source lane (I-0266): [S-0026] [S-0027] [S-0028] [S-0029] [S-0030] [S-0031] [C-0007]
+> Boundary: Use for explicit permission boundary.
+
 
 This chapter can say that China's LLM ecosystem had several source-supported frontier lanes by the cutoff: Qwen for Alibaba's open/developer model family, DeepSeek for MoE efficiency and reasoning releases, GLM-4 for multilingual/multimodal chat-model research, and Kimi k1.5 for reinforcement-learning reasoning.
 
@@ -2147,6 +2237,9 @@ Status: promoted Chapter 12 draft candidate, pass I-0119, 2026-05-26.
 Placement note: This was the official Chapter 12 slot from the original 24-chapter outline. Pass I-0158 promoted `manuscript/12-anthropic-and-claude-spine-section.md` into the strongest Anthropic/Claude live-order candidate because the mandatory spine needs a full behavior-to-action Claude chapter, not only Chapter 6 context and Chapter 20 Claude Code material. This Europe/xAI/rest-of-frontier draft remains a valuable chapter candidate or merge source, and a later outline pass must preserve Mistral, xAI, Cohere, AI21, and other mechanism-gated frontier labs without duplicating Anthropic or breaking the 24-chapter limit.
 
 ### The Race Outside the Center
+> Source lane (I-0266): [S-0145] [S-0146] [S-0147] [S-0148] [S-0149] [S-0150] [S-0151] [S-0152]
+> Boundary: Use for rest-of-frontier map; vendor claims stay attributed.
+
 
 <!-- FIGURE-CALLOUT F12.01 ch12-fig01 -->
 > [!FIGURE] **F12.01 / A-0094 - Constitutional AI As Behavior Grammar**  
@@ -2231,6 +2324,9 @@ For readers, AI21 functions like a side road that reveals the highway. The main 
 AI21 also keeps the book from over-Americanizing or over-Sinicizing the frontier. Israel's LLM contribution was not a national substitute for OpenAI or Google. It was a concrete technical bet inside a global market. That is a more useful unit of analysis than country pride. The book's job is to show which technical bets changed the reader's understanding of LLMs. Jamba's hybrid architecture does that.
 
 ### What "Rest of Frontier" Cannot Be Allowed to Mean
+> Source lane (I-0266): [S-0145] [S-0146] [S-0147] [S-0150] [S-0151] [S-0152]
+> Boundary: Use for scope discipline; do not flatten labs into a logo parade.
+
 
 <!-- FIGURE-CALLOUT F12.03 ch12-fig03 -->
 > [!FIGURE] **F12.03 / A-0096 - From Assistant To Action Surface**  
@@ -2253,6 +2349,9 @@ That restraint explains the source gaps. Mistral's official and arXiv rows can c
 This is not timid writing. It is the kind of writing that lets the book be serious. A weaker chapter would make every lab sound like a winner. A stronger chapter shows what each lab pressures and what remains unproved. That produces a more useful suspense: not "which logo gets crowned?" but "which constraint becomes decisive next?"
 
 ### The Frontier as a Portfolio
+> Source lane (I-0266): [S-0145] [S-0146] [S-0147] [S-0150] [S-0151] [S-0152] [S-0026] [S-0029]
+> Boundary: Use for portfolio metaphor with mechanism-specific evidence.
+
 
 The rest-of-frontier chapter should end by changing the reader's mental model. Up to this point, the book has marched through origins, OpenAI, alignment, ChatGPT, Microsoft, Google, Meta, China, and now the labs that do not fit the clean bins. The temptation is to rank them. Who won Europe? Was Grok ahead of Gemini? Did Command A beat Mistral Medium? Was Jamba a dead end or an omen? Those are fair questions for a benchmark appendix. They are dangerous as chapter architecture.
 
@@ -2271,6 +2370,9 @@ But plural also means the field remained alive. The next token was not being wri
 ## Anthropic and Claude: The Assistant as a Safety Argument
 
 ### The Lab That Made Behavior Its Brand
+> Source lane (I-0266): [S-0019] [S-0020] [S-0021] [S-0109] [S-0007]
+> Boundary: Use for Anthropic/Claude behavior arc; no safety-success claim.
+
 
 Anthropic enters this book as more than another frontier-model company. Its importance is that it turned assistant behavior into a public identity. OpenAI made ChatGPT the interface shock. Google had the Transformer, DeepMind, search, and a deep model-research bench. Meta made open weights a strategic argument. Anthropic made the question of how an assistant should behave feel like the company itself.
 
@@ -2477,6 +2579,9 @@ This is also why the confidence interval matters. A leaderboard has a rank colum
 The book's house rule is stricter than most product marketing. A rank claim must carry its row universe. A price claim must carry its price basis. A context-window claim must carry its model/version and tier. A benchmark claim must carry its task, harness, split, and date. If a sentence cannot carry those details without collapsing under its own weight, it probably belongs in a chart, table, note, or claim ledger instead of main prose.
 
 ### The Historical Slice
+> Source lane (I-0266): [S-0036] [S-0056] [S-0057] [S-0080]
+> Boundary: Use for dated leaderboard slice; no live rank or universal winner.
+
 
 Only after that machinery is visible should the reader see the sorted model rows.
 
@@ -2604,6 +2709,9 @@ Dates have the same narrative function. A model-ranking dataset published on 202
 This is the deeper reason the chapter uses A-0019 instead of rushing to the frontier curve. The missing curve is a visible act of honesty. It tells readers that the book knows what they want to see and refuses to show it before the row joins deserve it. That refusal is part of the narrative: by 2026, the frontier was no longer hard to rank because nobody had numbers. It was hard to rank because there were too many numbers, each with a habitat, a timestamp, and a trapdoor.
 
 ### The Editorial Contract
+> Source lane (I-0266): [S-0036] [S-0057] [S-0080] [C-0046]
+> Boundary: Use for rank/price-quality caveats.
+
 
 The model-rankings chapter has one job in the finished book: make the reader more sophisticated before the next claim arrives. It should not slow the story into a database manual. It should give the reader a practiced skepticism, the ability to ask, "Which row? Which date? Which task? Which price basis? Which caveat?"
 
@@ -2660,6 +2768,9 @@ Assembly note: current main chapter
 ## 14. NVIDIA and CUDA: The Moat Under the Moat
 
 ### The Invisible Platform Under The Miracle
+> Source lane (I-0266): [S-0138] [S-0141] [S-0139]
+> Boundary: Use for CUDA/software platform; no exact modern performance claim.
+
 
 <!-- FIGURE-CALLOUT F14.01 ch14-fig01 -->
 > [!FIGURE] **F14.01 / A-0071 - CUDA Stack: The Moat Under The Moat**  
@@ -2688,6 +2799,9 @@ Source note: This chapter uses NVIDIA primary sources and local captures from I-
 Continuity note: Chapter 14 owns the software-and-system moat: CUDA habits, libraries, kernels, accelerator memory, interconnect, and the conversion of model ambition into usable accelerator work. Chapter 15 owns NVIDIA's public AI-factory stagecraft and roadmap framing. Chapter 16 owns independent physical constraints: power, interconnection, cooling, and useful capacity. The handoff should feel like a narrowing doorway, not three separate essays.
 
 ### Parallelism Becomes A Habit
+> Source lane (I-0266): [S-0002] [S-0138] [S-0139] [S-0143]
+> Boundary: Use for architecture-hardware parallelism bridge; speedup claims need rows.
+
 
 <!-- FIGURE-CALLOUT F14.02 ch14-fig02 -->
 > [!FIGURE] **F14.02 / A-0072 - GPU Memory and Interconnect: The Traffic Pattern**  
@@ -2808,6 +2922,9 @@ There is a second dependency: people. CUDA created a labor market. Engineers lea
 This is why the word "moat" should be used carefully. A moat can be a protective barrier for a company, but it can also be a canal through which everyone else has to move. NVIDIA's moat made the LLM boom easier to build and harder to diversify. It accelerated the field and concentrated it. Both statements can be true.
 
 ### What The NVIDIA Chapter Must Not Do
+> Source lane (I-0266): [S-0039] [S-0040] [S-0139] [S-0140] [C-0021] [C-0047]
+> Boundary: Use for vendor-attribution guardrail.
+
 
 <!-- FIGURE-CALLOUT F14.06 ch14-fig06 -->
 > [!FIGURE] **F14.06 / A-0136 - Server racks as compute infrastructure.**  
@@ -2831,6 +2948,9 @@ The chapter's final note should be humility. NVIDIA's stack did not create the T
 In an LLM world, that was enough to become strategic infrastructure.
 
 ### What The Hardware Middle Must Do
+> Source lane (I-0266): [S-0138] [S-0141] [S-0142] [S-0143]
+> Boundary: Use for software/interconnect/inference layer.
+
 
 The next two chapters should not repeat this chapter's moat language. Chapter 15 should show how NVIDIA tried to turn the moat into a public doctrine: inference as workload, tokens as commodity, compute as revenue, factory as metaphor and sales architecture. Chapter 16 should then strip the metaphor back down to physical gates: interconnection, substations, cooling, load concentration, clean-procurement ambiguity, and useful capacity.
 
@@ -2999,6 +3119,9 @@ The chapter should explain why repeatability mattered. Frontier AI capacity was 
 But reference designs are not deployments. A release can prove a product position. It cannot prove adoption scale, customer economics, uptime, facility performance, power availability, or operational success without further evidence. This is why C-0047 stays open. The chapter can use DSX as a public NVIDIA bid to own the factory blueprint. It cannot pretend the blueprint had already become the world.
 
 ### From Tokens To Capital Equipment
+> Source lane (I-0266): [S-0001] [S-0064] [S-0065] [S-0066] [S-0067] [C-0021] [C-0047]
+> Boundary: Use for GTC stagecraft and roadmap attribution; no independent deployment proof.
+
 
 <!-- FIGURE-CALLOUT F15.06 ch15-fig06 -->
 > [!FIGURE] **F15.06 / A-0004 - NVIDIA frames the AI factory as industrial infrastructure: inference is the workload, tokens are the commodity, and compute is revenue.**  
@@ -3070,6 +3193,9 @@ It also helps the reader understand DSX. A reference design is a moat multiplier
 This is the kind of strategic claim the book can make without pretending to know what every customer deployed. It is supported by the structure of NVIDIA's public argument, the official release rows, and the slide sequence. It does not require the book to verify every performance number. The strategy is visible even while the metrics remain attributed.
 
 ### The Hinge Chapter
+> Source lane (I-0266): [S-0001] [S-0064] [S-0083] [S-0084] [S-0085]
+> Boundary: Use for GTC-to-power handoff; separate vendor slides from grid evidence.
+
 
 Chapter 15 is the hinge between two kinds of power. Chapter 14 is about the power of a platform: CUDA, accelerators, memory, networking, software ecosystems, and the way a hardware company became the moat under the LLM moat. Chapter 16 is about electrical and institutional power: substations, interconnection, cooling, load growth, procurement, and useful capacity. Chapter 15 is where NVIDIA tries to make those powers sound like one thing.
 
@@ -3230,6 +3356,9 @@ That negotiation affected model design indirectly. If inference became expensive
 The physical system did not merely support the software system. It fed back into it.
 
 ### From Tokens Back To Land
+> Source lane (I-0266): [S-0083] [S-0084] [S-0085] [S-0088] [S-0175] [S-0176] [S-0177]
+> Boundary: Use for physical infrastructure evidence; no named AI workload from photo candidates.
+
 
 <!-- FIGURE-CALLOUT F16.06 ch16-fig06 -->
 > [!FIGURE] **F16.06 / A-0137 - Data-center hall physical texture.**  
@@ -3255,6 +3384,9 @@ This is where the chapter should carry a bit of human tension without inventing 
 The physical bottleneck therefore became a narrative bottleneck. It slowed the myth of frictionless intelligence. It made the reader ask what an LLM really was. Not only a neural network. Not only a product. Not only a set of weights, prompts, and tools. A frontier LLM was also an operating claim on a machine room, a power system, and a geography.
 
 ### Useful Capacity Is Not Nameplate Capacity
+> Source lane (I-0266): [S-0084] [S-0085] [S-0086] [S-0087] [S-0088]
+> Boundary: Use for measured/scenario/advisory/survey separation.
+
 
 <!-- FIGURE-CALLOUT F16.07 ch16-fig07 -->
 > [!FIGURE] **F16.07 / A-0139 - Grid interconnection texture.**  
@@ -3311,6 +3443,9 @@ It must not quantify energy per token. The current visual package is a mechanism
 Those exclusions keep the chapter from becoming either boosterish or scolding. The prose can be dramatic because the mechanism is dramatic. It does not need to inflate the claims.
 
 ### The Race For The Right To Plug In
+> Source lane (I-0266): [S-0083] [S-0084] [S-0085] [S-0086] [S-0087]
+> Boundary: Use for interconnection/power planning; no universal grid-burden number.
+
 
 <!-- FIGURE-CALLOUT F16.09 ch16-fig09 -->
 > [!FIGURE] **F16.09 / A-0143 - Nuclear/cooling tower power texture.**  
@@ -3349,6 +3484,9 @@ Assembly note: current main chapter
 ## 17. Data, Tokens, and the Library Problem
 
 ### The Library Before the Factory
+> Source lane (I-0266): [S-0042] [S-0153] [S-0154] [S-0155] [S-0156] [S-0157]
+> Boundary: Use for tokenization and corpus provenance; not a proprietary-corpus claim.
+
 
 <!-- FIGURE-CALLOUT F17.01 ch17-fig01 -->
 > [!FIGURE] **F17.01 / A-0064 - Tokenization Ladder**  
@@ -3479,6 +3617,9 @@ Memorization connects to privacy, copyright, benchmark integrity, and product tr
 The clean sentence is this: LLMs do not remember like people, but they can reproduce like machines.
 
 ### Synthetic Data and the Second Library
+> Source lane (I-0266): [S-0160] [S-0161] [S-0162] [S-0163]
+> Boundary: Use for data quality/memorization/evaluation tension; no universal recipe.
+
 
 <!-- FIGURE-CALLOUT F17.04 ch17-fig04 -->
 > [!FIGURE] **F17.04 / A-0067 - Memorization and Contamination Blocker Map**  
@@ -3501,6 +3642,9 @@ The data story therefore bends toward agency. A tool-using model can create new 
 This is the moment to resist doom-loop prose. Synthetic data is neither automatic collapse nor automatic salvation. It is another curation problem. The question is not whether the text came from a human or a model. The question is what process created it, what errors it contains, what tasks it represents, what diversity it preserves, what labels it carries, and how the training recipe uses it.
 
 ### The Data Moat Is A Process
+> Source lane (I-0266): [S-0156] [S-0158] [S-0159] [S-0160] [S-0163]
+> Boundary: Use for curation/process moat; no legal certainty.
+
 
 It is tempting to call data a moat. Sometimes it is. Proprietary user interactions, licensed archives, code repositories, enterprise documents, search logs, product telemetry, and high-quality human feedback can differentiate a system. But for LLMs, data is rarely a static wall. It is a process.
 
@@ -3513,6 +3657,9 @@ The data chapter's final claim is modest and central: LLMs are not trained on la
 The next chapter turns that last move into machinery. Retrieval, function calling, connectors, and agents are not departures from the data problem. They are what happens when the data problem becomes live.
 
 ### What This Chapter Still Refuses
+> Source lane (I-0266): [S-0156] [S-0161] [S-0162] [S-0163]
+> Boundary: Use for explicit corpus-ignorance boundary.
+
 
 The final discipline is to keep the missing rows visible. Exact tokenizer and vocabulary-size examples belong only where a figure has row-level support. Model-specific synthetic-data shares need a source pack before they become prose. Copyright and licensing belong here as provenance and trust constraints unless a later legal source pack licenses actual legal findings. Proprietary corpus composition remains blocked unless a paper, card, filing, audit, or lab disclosure makes the claim specific.
 
@@ -3559,6 +3706,9 @@ The result was not one invention. It was a stack: retrieval, tool description, a
 Status: promoted continuity draft, pass I-0161, 2026-05-26. Source note: This chapter uses existing source IDs from `sources.tsv` plus the I-0115 tools/agents source pack. It treats retrieval, function calling, computer use, MCP, and planner/executor loops as tool-control surfaces, not as proof of reliable autonomy. It blocks adoption, productivity, safety, and broad "agents can do work" claims until separate benchmark, deployment, and incident rows exist.
 
 ### Retrieval: Memory Without Memory
+> Source lane (I-0266): [S-0038] [S-0135]
+> Boundary: Use for RAG and reasoning/action lineage; no product reliability claim.
+
 
 <!-- FIGURE-CALLOUT F18.02 ch18-fig02 -->
 > [!FIGURE] **F18.02 / A-0061 - Function-Call Boundary**  
@@ -3587,6 +3737,9 @@ The most honest visual for this chapter is not a glowing brain connected to a da
 This also keeps the boundary with the next two chapters clean. Retrieval is not yet coding, and it is not yet a terminal agent. It is the first lesson in mediated agency: the answer depends on what the system chose to bring into the room.
 
 ### Function Calling: The Model As Router
+> Source lane (I-0266): [S-0044] [S-0136] [S-0055]
+> Boundary: Use for tools/interface routing; no arbitrary-tool mastery claim.
+
 
 Retrieval gave the model more to read. Function calling gave it something to ask others to do.
 
@@ -3656,6 +3809,9 @@ That fragility is not a side issue. It defines the limits of the agent turn. LLM
 The prize-book version of this chapter should let readers feel both emotions at once. The agent loop is a genuine expansion of what LLM systems can do. It is also a multiplication of failure surfaces.
 
 ### Prompt Injection: The Instruction/Data Problem Returns
+> Source lane (I-0266): [S-0137] [S-0038] [S-0135]
+> Boundary: Use for risk framing; no prevalence or mitigation claim.
+
 
 The most elegant failure has a simple form: "Ignore the previous instructions."
 
@@ -3699,6 +3855,9 @@ That last sentence is not a joke. In the agent era, prose became infrastructure.
 Chapter 19 takes that idea into software itself. In ordinary tools, prose tells the model how to call another system. In code, prose and machinery begin to share a workbench: comments, tests, issue descriptions, stack traces, function names, and shell output all become language the model can use to propose changes. The agent turn made the model a controller. Code made the controller's target unusually legible.
 
 ### What Changed, And What Did Not
+> Source lane (I-0266): [S-0038] [S-0135] [S-0136] [S-0137] [S-0055]
+> Boundary: Use for mechanism summary and boundaries.
+
 
 The agent turn changed the felt boundary of computing. Before, a user asked a model for words. After, a user could ask a model to help operate a system. That is the bridge from ChatGPT to Claude Code, from the text box to the terminal, from answer generation to supervised work.
 
@@ -3777,6 +3936,9 @@ The risk is that plausibility is seductive. A confident code suggestion borrows 
 The same pattern would repeat in later coding agents. The model lowers the cost of trying. The human and the organization inherit the cost of deciding.
 
 ### The New Shape Of Reading
+> Source lane (I-0266): [S-0052] [S-0070] [S-0132]
+> Boundary: Use for code assistant/product positioning; no productivity proof.
+
 
 The earliest public excitement around coding models focused on writing. The model wrote a function. It wrote a test. It wrote a small game. It wrote a web scraper. That made for clean demos because creation is visible: empty editor, prompt, code appears.
 
@@ -3789,6 +3951,9 @@ The best use of these systems therefore looks less like delegation and more like
 That reading loop also explains why code models felt personal. A spreadsheet assistant or writing assistant might change a task. A coding assistant touched the way builders understood their own systems. It sat at the boundary between memory and action: close enough to help with comprehension, close enough to make mistakes that entered the code. For many programmers, that was the unsettling part. The model was not only finishing syntax. It was participating in the act of understanding.
 
 ### The Contest Laboratory
+> Source lane (I-0266): [S-0053] [S-0052] [S-0037]
+> Boundary: Use for code benchmarks and contest evaluation; no labor-market claim.
+
 
 <!-- FIGURE-CALLOUT F19.03 ch19-fig03 -->
 > [!FIGURE] **F19.03 / A-0092 - Coding Scores Need A Harness Story**  
@@ -3815,6 +3980,9 @@ The distinction matters for the sequence. Chapter 18 explained the general harne
 Every programmer has felt the little betrayal of a program that does exactly what was written rather than what was meant. LLM coding tools entered that gap. They were trained on what people wrote, prompted by what people meant, and judged by what machines would accept.
 
 ### Open Code Models And The Diffusion Of Skill
+> Source lane (I-0266): [S-0025] [S-0052] [S-0037]
+> Boundary: Use for open code-model lane; no broad deployment/adoption claim.
+
 
 <!-- FIGURE-CALLOUT F19.04 ch19-fig04 -->
 > [!FIGURE] **F19.04 / A-0093 - The Repository Became The Prompt**  
@@ -3855,6 +4023,9 @@ That contract is the only honest way to write about coding progress. The book ma
 The difference is not caution for caution's sake. It preserves the wonder. The real story is astonishing enough: by the middle of the LLM boom, the field had built systems that could read natural-language issue descriptions, inspect code, propose patches, and be judged by tests. That does not make them colleagues. It makes them machinery close enough to colleagues that the boundary matters.
 
 ### The Repository Becomes The Prompt
+> Source lane (I-0266): [S-0035] [S-0037] [S-0048] [S-0049] [S-0051]
+> Boundary: Use for repository-work benchmarks/workflows; no autonomous-engineer claim.
+
 
 <!-- FIGURE-CALLOUT F19.05 ch19-fig05 -->
 > [!FIGURE] **F19.05 / A-0127 - GitHub Copilot Coding Surface**  
@@ -4051,6 +4222,9 @@ The first durable change may be pedagogical. Junior developers learn systems by 
 The second durable change is organizational. Code review becomes more important, not less. Branch hygiene becomes more important. Continuous integration becomes more important. Clear repository instructions become more important. The model can multiply attempts, but the organization still decides what enters the system. The bottleneck moves from typing to trust.
 
 ### What The Agent Still Cannot Own
+> Source lane (I-0266): [S-0007] [S-0022] [S-0048] [S-0049] [S-0050] [S-0051] [S-0035] [S-0037] [C-0013]
+> Boundary: Use for agent boundary and benchmark firewall.
+
 
 <!-- FIGURE-CALLOUT F20.05 ch20-fig05 -->
 > [!FIGURE] **F20.05 / A-0131 - Claude Code Surface**  
@@ -4114,6 +4288,9 @@ Assembly source: `manuscript/21-reasoning-test-time-compute.md`.
 Assembly note: current main chapter
 
 ## 21. Reasoning, Test-Time Compute, and the New Scaling Axis
+> Source lane (I-0266): [S-0168] [S-0169] [S-0170] [S-0171] [S-0172] [S-0173] [S-0029]
+> Boundary: Use as chapter-level source bridge until section split; no hidden-chain or benchmark-crown claim.
+
 
 <!-- FIGURE-CALLOUT F21.01 ch21-fig01 -->
 > [!FIGURE] **F21.01 / A-0078 - Reasoning Adds A New Compute Axis**  
@@ -4254,6 +4431,9 @@ Assembly note: current main chapter
 ## 22. The Economics of Intelligence on Tap
 
 ### The Meter Appears
+> Source lane (I-0266): [S-0060] [S-0061] [S-0062] [S-0072] [S-0081] [S-0082] [C-0046]
+> Boundary: Use for price surfaces; price is not margin.
+
 
 <!-- FIGURE-CALLOUT F22.01 ch22-fig01 -->
 > [!FIGURE] **F22.01 / A-0082 - The Meter Is Visible Before The Margin Is Knowable**  
@@ -4360,6 +4540,9 @@ This is why procurement became a central LLM battleground. A buyer did not only 
 The enterprise chapter also keeps the provider honest. If a provider claims transformational productivity, the book needs customer-side evidence, not only vendor case studies. If a provider claims margins, the book needs financial evidence. If a company announces thousands of seats, the book should ask whether those are paid seats, covered users, active users, or eligible employees. The difference is not pedantry; it is the difference between a business and a press release.
 
 ### The Subsidy Question
+> Source lane (I-0266): [S-0060] [S-0061] [S-0062] [S-0072] [C-0046]
+> Boundary: Use for price-vs-cost boundary; no profitability inference.
+
 
 <!-- FIGURE-CALLOUT F22.04 ch22-fig04 -->
 > [!FIGURE] **F22.04 / A-0085 - The Tempting Economics Claims Are Not The Sourced Ones**  
@@ -4396,6 +4579,9 @@ Batch pricing says the same thing about time. If the customer can wait, the prov
 The economic frontier, then, is not only cheaper tokens. It is better allocation. Serve easy requests cheaply. Spend expensive reasoning only where it changes the answer. Use retrieval to avoid putting every fact in weights. Use small models to route large ones. Cache what repeats. Batch what can wait. Keep humans in the loop where failure is costly. The winner may not be the lab with the single best model; it may be the company with the best model portfolio and the best taste about when to use each part.
 
 ### Intelligence as a Layer
+> Source lane (I-0266): [S-0060] [S-0061] [S-0062] [S-0072] [S-0133] [S-0131]
+> Boundary: Use for product/economics synthesis; no ROI claim.
+
 
 The deeper economic shift was not that one company found a perfect price. It was that intelligence became a layer other products could call.
 
@@ -4548,6 +4734,9 @@ Assembly source: `manuscript/24-next-token.md`.
 Assembly note: current main chapter
 
 ## 24. Next Token
+> Source lane (I-0266): [S-0006] [S-0002] [S-0003] [S-0004] [S-0014] [S-0041] [S-0047] [S-0138] [S-0083] [S-0153] [S-0038] [S-0035] [S-0164]
+> Boundary: Use as final synthesis bridge; chapter claims must still point back to local chapter evidence.
+
 
 <!-- FIGURE-CALLOUT F24.01 ch24-fig01 -->
 > [!FIGURE] **F24.01 / A-0108 - From Next Token To Computing Stack**  
