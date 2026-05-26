@@ -366,3 +366,7 @@ Source cards earn trust when they carry tiny, anchored fragments rather than dec
 ## 2026-05-27 - I-0245 Front Door
 
 A serious technical book still needs a front door. Reader-facing copy should promise the machine, the interface, and the hidden stack in plain language while naming the cutoff and anti-hype contract up front; otherwise even a strong manuscript can feel like a dossier rather than a book.
+
+## 2026-05-27 - I-0246 Chapter Doors
+
+Chapter openers need a contract before they need polish. The useful unit is not just a hook sentence, but a promise, first beat, first figure, reader-effect job, and claim guardrail; this lets future live edits become more beautiful without smuggling in invented scenes, weak source claims, or visual overreach.
