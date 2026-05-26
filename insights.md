@@ -338,3 +338,7 @@ A single visible draft changes the problem from inventory to bookmaking. The ass
 ## 2026-05-26 - I-0238 Chapter Identity
 
 Book-facing identity should be a data contract before it is a filesystem cleanup. A canonical chapter map can stabilize render slugs, titles, figure IDs, and cross-references immediately, while physical renames wait until provenance ledgers are migrated; otherwise a tidy directory can quietly damage the audit trail.
+
+## 2026-05-26 - I-0239 Word-Count Truth
+
+Word-count closure is conditional until structure is stable. The assembled draft clears 100k only because the Anthropic/Claude supplemental section remains inside Chapter 12; the primary-only spine is still under the floor, so future edits must add useful sourced texture or resolve Chapter 12 with replacement prose instead of celebrating a fragile count.

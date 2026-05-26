@@ -6,16 +6,16 @@ This repository is the working memory, manuscript lab, source ledger, visual sys
 
 ## Current Book State
 
-Updated **2026-05-26** after pass `I-0236`.
+Updated **2026-05-26** after pass `I-0239`.
 
-- **Latest recorded pass:** `I-0236`, visual readiness recomputation.
+- **Latest recorded pass:** `I-0239`, full-draft word-count and gap audit.
 - **Latest exhibit dashboard pass:** `I-0236`, fail-closed visual readiness recomputation.
-- **Words:** 99,300 recorded in the latest scoreboard row; the hard target is 100,000-120,000, so the book is roughly 700 words below the floor.
+- **Words:** 102,196 assembled source words across the canonical 24-chapter draft, including 3,911 retained supplemental Anthropic/Claude words; the primary-only spine is 98,285 words, so the floor is conditionally cleared rather than permanently solved.
 - **Chapters:** 24 / 24.
 - **Charts/diagrams:** 142.
 - **Photo/screenshot/source-surface slots:** 78.
 - **Sources:** 299.
-- **Claims:** 248 supported / 8 needs-verification.
+- **Claims:** 251 supported / 8 needs-verification.
 - **Asset/provenance rows:** 144.
 - **Idea queue:** active FIFO continues; next pending pass is recorded in `ideas.tsv`.
 - **Ledger BookScore:** 100.0, but this is a loop scoring proxy, not a publication certificate.
@@ -28,7 +28,7 @@ Rough editorial/commercial estimates as of 2026-05-26:
 
 - **Manuscript substance:** 80-85%.
 - **Structural completeness:** 85-90%.
-- **Hard invariant compliance:** 70-75% because word count is still below target, 8 claims need verification, and full render QA is not complete.
+- **Hard invariant compliance:** 75-80% because the assembled draft now clears the word-count target only conditionally, while 8 claims still need verification and full render QA is not complete.
 - **Source/claim discipline:** 75-80%.
 - **Visual ambition:** 85-90%.
 - **Visual planning maturity:** 60-65%.
