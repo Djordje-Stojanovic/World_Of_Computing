@@ -1,11 +1,5 @@
 # 11. The Chinese Frontier
 
-Status: promoted chapter draft, pass I-0105, 2026-05-25.
-
-Source note: This chapter uses existing source IDs from `sources.tsv` plus local arXiv captures under `assets/source_docs/china/`. It writes only the China/open-model claims supported by current cutoff-bounded source rows: Qwen2, Qwen3, DeepSeek-V3, DeepSeek-R1, GLM-4, and Kimi k1.5. It does not write Qwen 3.5, Qwen 3.6, DeepSeek V4-era systems, MiniMax, Baidu, Tencent, Xiaomi MiMo, or StepFun as happened releases unless the source-gap table has a supporting row.
-
-Visual integration: Figure 11.1, `assets/visual_system/china-open-model-source-map.svg`, maps supported primary-source lanes and unsupported gap lanes. The row data lives in `data/chapter11_china_open_model_source_map_i0105.tsv`.
-
 ## Too Important To Treat As A Footnote
 
 The American version of the LLM race is easy to narrate: OpenAI lit the interface fuse, Microsoft supplied cloud partnership and distribution, Google defended search and converted research depth into Gemini, Anthropic turned assistant behavior into a brand, Meta pushed open weights, and NVIDIA sold the factories. That story is true enough to be useful. It is also incomplete.
@@ -15,6 +9,14 @@ China's model ecosystem became too technically important to treat as a footnote.
 The chapter begins with a warning. "China" is not a lab. It is a national market, a policy environment, a talent pool, a hardware constraint, a cloud ecosystem, a language environment, and a set of companies with different strategies. Alibaba, DeepSeek, Zhipu AI, Moonshot, Baidu, Tencent, MiniMax, Xiaomi, and StepFun should not be flattened into one character. Some systems are open-weight. Some are API products. Some are research reports. Some are product announcements. Some are still source gaps in this manuscript.
 
 That is why Figure 11.1 is a source map rather than a league table. The safe evidence today supports six primary lanes: Qwen2, Qwen3, DeepSeek-V3, DeepSeek-R1, GLM-4, and Kimi k1.5. It also preserves a gap lane for MiniMax, Baidu, Tencent, Xiaomi MiMo, StepFun, Qwen 3.5/3.6, and DeepSeek V4-era claims. The visual is a promise not to fake certainty.
+
+The chapter's job is different from the Meta chapter's job and different again from the next frontier chapter's job. Meta explains the control stack: what happens when weights, license, hosting, safety, ecosystem, and benchmarks no longer sit cleanly inside one provider. China explains source permission: what can be written from Qwen, DeepSeek, GLM, and Kimi rows today, and what must remain a gap lane until a cutoff-bounded primary source exists. Chapter 12 then widens the aperture to Mistral, xAI, Cohere, AI21, and other labs only when each changes a mechanism. The sequence should feel like a widening map, not like three chapters of names.
+
+Status: promoted chapter draft, pass I-0105, 2026-05-25.
+
+Source note: This chapter uses existing source IDs from `sources.tsv` plus local arXiv captures under `assets/source_docs/china/`. It writes only the China/open-model claims supported by current cutoff-bounded source rows: Qwen2, Qwen3, DeepSeek-V3, DeepSeek-R1, GLM-4, and Kimi k1.5. It does not write Qwen 3.5, Qwen 3.6, DeepSeek V4-era systems, MiniMax, Baidu, Tencent, Xiaomi MiMo, or StepFun as happened releases unless the source-gap table has a supporting row.
+
+Visual integration: Figure 11.1, `assets/visual_system/china-open-model-source-map.svg`, maps supported primary-source lanes and unsupported gap lanes. The row data lives in `data/chapter11_china_open_model_source_map_i0105.tsv`.
 
 ## Qwen and the Alibaba Route
 

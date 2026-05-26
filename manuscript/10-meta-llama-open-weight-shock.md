@@ -1,11 +1,5 @@
 # 10. Meta, Llama, and the Open-Weight Shock
 
-Status: promoted chapter draft, pass I-0104, 2026-05-25.
-
-Source note: This chapter uses source IDs from `sources.tsv` plus local source assets captured under `assets/source_docs/meta/`. It treats "open weights" and "open source" as separate claims. It does not infer license freedom, benchmark superiority, deployment scale, fine-tune quality, safety, commercial adoption, or ecosystem size unless a row-level source supports that exact claim.
-
-Visual integration: Figure 10.1, `assets/visual_system/llama-family-open-weight-map.svg`, sketches the Llama family as a release-and-claim map rather than a capability leaderboard. The row data lives in `data/chapter10_llama_family_tree_i0104.tsv`.
-
 ## The Downloadable Object
 
 The LLM race looked, at first, like a race toward closed interfaces. OpenAI put GPT-3 behind an API, then ChatGPT behind a box. Google had model research, search distribution, and cloud products. Anthropic made assistant behavior part of the brand. A user might touch the model through a chat page, a subscription, a cloud endpoint, or an enterprise bundle. The model itself remained elsewhere: in a datacenter, behind policy, updated on a schedule the user did not control.
@@ -15,6 +9,12 @@ Meta changed the argument by making model weights a strategic instrument. The Ll
 That is the open-weight shock. It was not the same as open source in the classic software sense. A model release can include weights while withholding training data, full data curation details, exact training infrastructure, internal safety review, or unrestricted license rights. It can be open enough to transform the ecosystem while still remaining controlled in important ways. [S-0023] The chapter has to live in that tension. If it says "open source" loosely, it will flatten the most interesting part of Meta's strategy. If it says "closed" too broadly, it will miss why Llama mattered.
 
 Figure 10.1 follows the family as a sequence of release objects rather than a rank chart: LLaMA as a research release, Llama 2 as an open foundation and chat-model family, Code Llama as the code-specialized branch, Llama 3 and 3.1 as larger and more polished public families, and Llama 4 as a natively multimodal, mixture-of-experts turn. [S-0111] [S-0023] [S-0025] [S-0024] [S-0113] [S-0008] The point is not that every later model is simply better in every sense. The point is that the release surface changed what other people could do.
+
+Status: promoted chapter draft, pass I-0104, 2026-05-25.
+
+Source note: This chapter uses source IDs from `sources.tsv` plus local source assets captured under `assets/source_docs/meta/`. It treats "open weights" and "open source" as separate claims. It does not infer license freedom, benchmark superiority, deployment scale, fine-tune quality, safety, commercial adoption, or ecosystem size unless a row-level source supports that exact claim.
+
+Visual integration: Figure 10.1, `assets/visual_system/llama-family-open-weight-map.svg`, sketches the Llama family as a release-and-claim map rather than a capability leaderboard. The row data lives in `data/chapter10_llama_family_tree_i0104.tsv`. Figure 10.2, queued by pass I-0142, should make the control stack explicit: weights, license, training transparency, hosting burden, safety governance, ecosystem work, and benchmark permission move differently.
 
 ## LLaMA Begins as Research Infrastructure
 
@@ -117,6 +117,8 @@ Llama changed what counted as participation in the LLM race. Before open weights
 Researchers could study model behavior more directly. Startups could build products without beginning as pure API resellers. Cloud providers could offer hosted variants. Hardware companies could optimize inference. Developers could run smaller models locally. Safety researchers could test failure modes. Hobbyists could quantize and tinker. Enterprises could imagine private deployments, even when the practical work remained hard.
 
 The result was not a single open commons. It was a layered ecosystem with asymmetric power. Meta still set upstream terms. Hardware still mattered. Data still mattered. Expertise still mattered. Distribution still mattered. But the weights gave the ecosystem a handle.
+
+That handle is the bridge into the next two frontier chapters. Chapter 11 should not treat Qwen, DeepSeek, GLM, and Kimi as a national logo parade; it should ask which release surfaces and source permissions each lane actually has. Chapter 12 should not gather Mistral, xAI, Cohere, AI21, and other labs as leftovers; it should ask which mechanism each one pressures: open-weight deployment, compute speed, enterprise retrieval, multilingual coverage, or architecture search. Llama belongs before those chapters because it supplies the control-stack grammar for reading them.
 
 That handle is why Meta's chapter must sit beside OpenAI, Google, Anthropic, China, NVIDIA, and the coding-agent chapters. OpenAI made the chat interface unavoidable. Google supplied much of the architecture and fought to productize it. Anthropic made assistant behavior a brand. NVIDIA sold the factories. Chinese labs and open model builders globalized the frontier. Meta made a bet that the model itself should circulate.
 
