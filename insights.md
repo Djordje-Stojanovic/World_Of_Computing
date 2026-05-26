@@ -382,3 +382,7 @@ Narrative glue still needs visible evidence lanes when it carries factual mechan
 ## 2026-05-27 - I-0249 Endnote Apparatus
 
 Back-of-book source-ID-first endnotes are the safest apparatus prototype for the current rough renderer. They preserve traceability and render cleanly across the whole draft, while postponing footnote proximity, bibliographic compression, page anchors, and typography until the book has a real page template.
+
+## 2026-05-27 - I-0250 Rights Staging
+
+Rights staging should turn visual ambiguity into layout action, not legal confidence. Original SVGs can be marked publish-after-QA, but raw source surfaces, product screenshots, and photos need local-only, redraw/source-card, permission, or replacement paths before the book can claim publication readiness.

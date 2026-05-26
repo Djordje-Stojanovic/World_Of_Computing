@@ -6,16 +6,16 @@ This repository is the working memory, manuscript lab, source ledger, visual sys
 
 ## Current Book State
 
-Updated **2026-05-27** after pass `I-0249`.
+Updated **2026-05-27** after pass `I-0250`.
 
-- **Latest recorded pass:** `I-0249`, full-book endnote apparatus prototype.
+- **Latest recorded pass:** `I-0250`, full-book image rights staging board.
 - **Latest exhibit dashboard pass:** `I-0236`, fail-closed visual readiness recomputation.
 - **Words:** 102,196 assembled source words across the canonical 24-chapter draft, including 3,911 retained supplemental Anthropic/Claude words; the primary-only spine is 98,285 words, so the floor is conditionally cleared rather than permanently solved.
 - **Chapters:** 24 / 24.
 - **Charts/diagrams:** 142.
 - **Photo/screenshot/source-surface slots:** 78.
 - **Sources:** 299.
-- **Claims:** 261 supported / 8 needs-verification.
+- **Claims:** 262 supported / 8 needs-verification.
 - **Asset/provenance rows:** 144.
 - **Idea queue:** active FIFO continues; next pending pass is recorded in `ideas.tsv`.
 - **Ledger BookScore:** 100.0, but this is a loop scoring proxy, not a publication certificate.
@@ -26,8 +26,9 @@ Updated **2026-05-27** after pass `I-0249`.
 - **Chapter-opener package:** `data/chapter_openers_package_i0246.tsv` now gives all 24 chapters a one-sentence promise, opening beat, unique candidate opening figure, reader-effect job, claim guardrail, and integration gate; live chapter prose is not yet rewritten from this board.
 - **Continuity stitch layer:** `manuscript/Next-Token-full-draft.md` now contains 23 marked I-0247 candidate boundary stitches from CH01-CH02 through CH23-CH24, backed by `data/prose_continuity_stitch_i0247.tsv`; I-0248 adds visible bounded source lanes to all 23 stitch blocks, totaling 99 source-ID placements while preserving guardrails against new quotations, exact metrics, rankings, market claims, or scene detail.
 - **Source apparatus prototype:** `data/endnote_placeholders_i0249.tsv` now contains 315 source-ID-first placeholder endnotes covering 153 unique source IDs. A local ignored 461-page full-book prototype PDF with bracketed back-of-book endnotes passed 6/6 render QA checks in `data/endnote_render_qa_i0249.tsv`; final bibliography prose, page anchors, note compression, and typography remain open.
+- **Image rights staging:** `data/image_rights_staging_i0250.tsv` classifies all 100 selected figure callouts as 74 publish-after-QA rows, 2 local-only rows, 3 redraw/source-card rows, 21 permission-needed rows, 0 replace rows, and 0 drop rows. This is staging only: no raster/screenshot/photo/source-surface row is publication-ready.
 
-The book is a real manuscript with a serious spine, but it is **not yet publication-ready**. The strongest current distinction is this: the top-100 exhibit program has stable IDs, chapter placement, caption/provenance scaffolding, page-flow mocks, reader-effect audits, prose bridges, rights triage, a first real-world candidate layer, a first quote-safe source-card extraction layer, a reader-facing front door, a 24-chapter opener contract, a source-laned continuity-stitch layer, and a render-tested endnote prototype in the assembled draft, but the fail-closed recomputation still gives 0 final publication-ready visual rows because render, capture, rights, caption, and source-note gates have not closed together.
+The book is a real manuscript with a serious spine, but it is **not yet publication-ready**. The strongest current distinction is this: the top-100 exhibit program has stable IDs, chapter placement, caption/provenance scaffolding, page-flow mocks, reader-effect audits, prose bridges, rights triage, a first real-world candidate layer, a first quote-safe source-card extraction layer, a reader-facing front door, a 24-chapter opener contract, a source-laned continuity-stitch layer, a render-tested endnote prototype, and a full rights-staging board in the assembled draft, but the fail-closed recomputation still gives 0 final publication-ready visual rows because render, capture, rights, caption, and source-note gates have not closed together.
 
 ## Readiness Snapshot
 
@@ -52,11 +53,11 @@ Current selected-exhibit program:
 
 - **100** selected rows.
 - **100** selected rows assigned to chapters.
-- **69** original SVG/chart rows are conditionally publishable after render/caption/source-note gates.
-- **30** selected rows are high-risk.
-- **17** private/source screenshot captures still needed.
-- **7** photo-rights reviews still needed.
-- **6** company/source-surface rows need fair-use/source-actor review or redraw.
+- **74** original SVG/chart/card rows are staged as publish-after-render/caption/source-note QA.
+- **26** selected rows remain non-publish under fail-closed rights staging.
+- **21** screenshot/photo rows are permission-needed.
+- **3** source-screenshot rows should become redraw/source-card work before publication.
+- **2** raw slide/source-surface rows are local-only pending permission or fair-use/source-actor review.
 - **67** selected rows still have caption warning/fail gates.
 - **9** chapters still show crowding or reader-fatigue defects.
 - **0** selected rows have final full-book render proof.
