@@ -928,7 +928,7 @@ This is where Anthropic enters the larger narrative before the Claude chapter. C
 
 ### Red Teams, System Cards, And The Public Boundary
 
-> [!FIGURE] **F06.02 / A-0121 - ChatGPT Product Surface**
+> [!FIGURE] **F06.02 / A-0260-004 - Behavior became a written product spec**
 > Caption: F06.02: ChatGPT Product Surface.
 > Source note: Sources: S-0006. Rights path: private_capture_needed. Story role: ChatGPT product surface.
 
@@ -991,7 +991,7 @@ The final layer is the evaluation and release loop: red teams, system cards, eva
 
 ### What The Quote Table Allows
 
-> [!FIGURE] **F06.03 / A-0122 - ChatGPT Plus Productization Surface**
+> [!FIGURE] **F06.03 / A-0260-001 - Paid access became a product surface**
 > Caption: F06.03: ChatGPT Plus Productization Surface.
 > Source note: Sources: S-0078;S-0089. Rights path: private_capture_needed. Story role: Plus productization surface.
 
@@ -1101,7 +1101,7 @@ The order matters. Stack Overflow was not a school. A school district was not a 
 
 ### The Product Was A Training Method With A Face
 
-> [!FIGURE] **F07.02 / A-0036 - ChatGPT launch surface**
+> [!FIGURE] **F07.02 / A-0208 - ChatGPT Starts As A Public Threshold. Paraphrase-first source card treats launch and...**
 > Caption: F07.02: ChatGPT launch surface.
 > Source note: Sources: S-0006. Rights path: private_capture_needed. Story role: ChatGPT launch surface.
 
@@ -1136,7 +1136,7 @@ That was democratizing in one sense and destabilizing in another. More people co
 
 ### From Answer Box To Platform
 
-> [!FIGURE] **F07.03 / A-0037 - ChatGPT Plus conversion**
+> [!FIGURE] **F07.03 / A-0260-001 - Paid access became a product surface**
 > Caption: F07.03: ChatGPT Plus conversion.
 > Source note: Sources: S-0078. Rights path: private_capture_needed. Story role: ChatGPT Plus surface.
 
@@ -1161,7 +1161,7 @@ This is why the chapter should treat plugins, GPTs, and GPT-4o as interface mile
 
 ### The Cloud Behind The Conversation
 
-> [!FIGURE] **F07.04 / A-0038 - ChatGPT Enterprise launch surface**
+> [!FIGURE] **F07.04 / A-0260-002 - Enterprise ChatGPT added workplace controls**
 > Caption: F07.04: ChatGPT Enterprise launch surface.
 > Source note: Sources: S-0079. Rights path: private_capture_needed. Story role: Enterprise surface.
 
@@ -1208,7 +1208,7 @@ Most of all, it hid responsibility. A wrong answer could be blamed on the model,
 
 ### Why Everyone Had To Answer
 
-> [!FIGURE] **F07.05 / A-0039 - ChatGPT plugins surface**
+> [!FIGURE] **F07.05 / A-0260-003 - Release notes are product archaeology**
 > Caption: F07.05: ChatGPT plugins surface.
 > Source note: Sources: S-0044. Rights path: private_capture_needed. Story role: plugins surface.
 
@@ -1563,7 +1563,7 @@ The same rule applies to pricing. The Gemini Developer API pricing snapshot is a
 
 ### Developers, Cloud, And The Second Audience
 
-> [!FIGURE] **F09.05 / A-0129 - Gemini/Bard Product Surface**
+> [!FIGURE] **F09.05 / A-0260-009 - Gemini arrived as a public product**
 > Caption: F09.05: Gemini/Bard Product Surface.
 > Source note: Sources: S-0119;S-0121;S-0123;S-0124. Rights path: private_capture_needed. Story role: Gemini/Bard source surface.
 
@@ -1703,7 +1703,7 @@ The strongest version of this chapter will eventually include a visual ecosystem
 
 ### The Economics of Giving Away The Machine
 
-> [!FIGURE] **F10.04 / A-0044 - LLaMA launch surface**
+> [!FIGURE] **F10.04 / A-0260-012 - LLaMA was a release artifact**
 > Caption: F10.04: LLaMA launch surface.
 > Source note: Sources: S-0111. Rights path: private_capture_needed. Story role: LLaMA launch surface.
 
@@ -1730,7 +1730,7 @@ That control-stack framing also protects the chapter from two easy mistakes. It 
 
 ### The Open-Weight Caveats
 
-> [!FIGURE] **F10.05 / A-0047 - Llama GitHub surface**
+> [!FIGURE] **F10.05 / A-0260-013 - Open weights became developer infrastructure**
 > Caption: F10.05: Llama GitHub surface.
 > Source note: Sources: S-0114. Rights path: private_capture_needed. Story role: Llama repository surface.
 
@@ -1831,7 +1831,7 @@ What remains blocked is just as important. DeepSeek V4-era claims stay out of pr
 
 ### GLM, Kimi, and The Broader Frontier
 
-> [!FIGURE] **F11.03 / A-0048 - Qwen2 source surface**
+> [!FIGURE] **F11.03 / A-0260-014 - Qwen evidence starts with the paper**
 > Caption: F11.03: Qwen2 source surface.
 > Source note: Sources: S-0026. Rights path: private_capture_needed. Story role: Qwen2 source surface.
 
@@ -1860,7 +1860,7 @@ The key phrase for this chapter is source permission. Qwen2 and Qwen3 have permi
 
 ### Hardware Constraints and Model Style
 
-> [!FIGURE] **F11.04 / A-0049 - Qwen3 source surface**
+> [!FIGURE] **F11.04 / A-0260-015 - Qwen3 needs its own dated anchor**
 > Caption: F11.04: Qwen3 source surface.
 > Source note: Sources: S-0027. Rights path: private_capture_needed. Story role: Qwen3 source surface.
 
@@ -1887,7 +1887,7 @@ This discipline gives the chapter a rhythm: supported lanes in prose, missing la
 
 ### Why The Frontier Became Multipolar
 
-> [!FIGURE] **F11.05 / A-0050 - DeepSeek-R1 source surface**
+> [!FIGURE] **F11.05 / A-0260-016 - DeepSeek-R1 anchors reasoning claims**
 > Caption: F11.05: DeepSeek-R1 source surface.
 > Source note: Sources: S-0029. Rights path: private_capture_needed. Story role: DeepSeek-R1 source surface.
 
@@ -2455,7 +2455,7 @@ Hopper also demonstrates the difference between training and inference. Training
 
 ### Blackwell, GB200, And The Rack Becomes The Computer
 
-> [!FIGURE] **F14.04 / A-0133 - Lithography/ASML proxy physical texture.**
+> [!FIGURE] **F14.04 / A-0261-001 - Lithography Evidence Becomes Packaging Logic**
 > Caption: F14.04: Lithography/ASML proxy physical texture..
 > Source note: Sources: S-0273;S-0274. Rights path: rights_review_needed. Story role: lithography/ASML proxy.
 
@@ -2478,7 +2478,7 @@ This is where Chapter 14 hands forward to the economics chapter. A token has a m
 
 ### The Moat Is Also A Dependency
 
-> [!FIGURE] **F14.05 / A-0134 - Cleanroom manufacturing environment.**
+> [!FIGURE] **F14.05 / A-0261-002 - Cleanrooms Are Too Weak Without Rights**
 > Caption: F14.05: Cleanroom manufacturing environment..
 > Source note: Sources: S-0275. Rights path: rights_review_needed. Story role: cleanroom photo.
 
@@ -2505,7 +2505,7 @@ This is why the word "moat" should be used carefully. A moat can be a protective
 
 ### What The NVIDIA Chapter Must Not Do
 
-> [!FIGURE] **F14.06 / A-0136 - Server racks as compute infrastructure.**
+> [!FIGURE] **F14.06 / A-0261-003 - Racks Need Systems, Not Stock Photos**
 > Caption: F14.06: Server racks as compute infrastructure..
 > Source note: Sources: S-0277. Rights path: rights_review_needed. Story role: server rack photo.
 
@@ -2671,7 +2671,7 @@ But reference designs are not deployments. A release can prove a product positio
 
 ### From Tokens To Capital Equipment
 
-> [!FIGURE] **F15.06 / A-0004 - NVIDIA frames the AI factory as industrial infrastructure: inference is the workload, tokens are the commodity, and compute is revenue.**
+> [!FIGURE] **F15.06 / A-0260-021 - AI factories are source-actor framing**
 > Caption: F15.06: NVIDIA frames the AI factory as industrial infrastructure: inference is the workload, tokens are the commodity, and compute is revenue..
 > Source note: Sources: S-0001;local:GTC-2026-Keynote.pdf page 29. Rights path: local_ignored_hash_available. Story role: GTC page 29 slide render.
 
@@ -2711,7 +2711,7 @@ The claim cards A-0024 through A-0029 exist because this is a visual problem as 
 
 ### The Moat Under The Factory
 
-> [!FIGURE] **F15.07 / A-0106 - NVIDIA's page 29 AI-factory thesis as attributed stagecraft/source rhetoric.**
+> [!FIGURE] **F15.07 / A-0260-022 - Inference compute is a roadmap argument**
 > Caption: F15.07: NVIDIA's page 29 AI-factory thesis as attributed stagecraft/source rhetoric..
 > Source note: Sources: S-0001. Rights path: local_ignored_hash_available. Story role: page 29 hashed source surface.
 
@@ -2876,7 +2876,7 @@ The physical system did not merely support the software system. It fed back into
 
 ### From Tokens Back To Land
 
-> [!FIGURE] **F16.06 / A-0137 - Data-center hall physical texture.**
+> [!FIGURE] **F16.06 / A-0260-025 - DSX is a reference-design claim**
 > Caption: F16.06: Data-center hall physical texture..
 > Source note: Sources: S-0278. Rights path: rights_review_needed. Story role: data-center hall photo.
 
@@ -2897,7 +2897,7 @@ The physical bottleneck therefore became a narrative bottleneck. It slowed the m
 
 ### Useful Capacity Is Not Nameplate Capacity
 
-> [!FIGURE] **F16.07 / A-0139 - Grid interconnection texture.**
+> [!FIGURE] **F16.07 / A-0261-004 - Interconnection Is A Queue, Not Atmosphere**
 > Caption: F16.07: Grid interconnection texture..
 > Source note: Sources: S-0280. Rights path: rights_review_needed. Story role: substation photo.
 
@@ -2922,7 +2922,7 @@ For the reader, this section should have a practical aftertaste. When a company 
 
 ### What This Chapter Must Not Claim
 
-> [!FIGURE] **F16.08 / A-0141 - Gas turbine speed-to-power texture.**
+> [!FIGURE] **F16.08 / A-0261-005 - Fast Power Is A Constraint Stack**
 > Caption: F16.08: Gas turbine speed-to-power texture..
 > Source note: Sources: S-0282. Rights path: rights_review_needed. Story role: gas turbine photo.
 
@@ -2945,7 +2945,7 @@ Those exclusions keep the chapter from becoming either boosterish or scolding. T
 
 ### The Race For The Right To Plug In
 
-> [!FIGURE] **F16.09 / A-0143 - Nuclear/cooling tower power texture.**
+> [!FIGURE] **F16.09 / A-0261-006 - Nuclear Evidence Needs Specific Claims**
 > Caption: F16.09: Nuclear/cooling tower power texture..
 > Source note: Sources: S-0284. Rights path: rights_review_needed. Story role: nuclear/cooling tower photo.
 
@@ -3269,7 +3269,7 @@ The best agent systems will act like paranoid bureaucrats. They will isolate unt
 
 ### The Harness Is The Product
 
-> [!FIGURE] **F18.05 / A-0124 - ChatGPT Tool Surface**
+> [!FIGURE] **F18.05 / A-0260-003 - Release notes are product archaeology**
 > Caption: F18.05: ChatGPT Tool Surface.
 > Source note: Sources: S-0044;S-0045;S-0046. Rights path: private_capture_needed. Story role: ChatGPT tools/GPTs surface.
 
@@ -3432,7 +3432,7 @@ The difference is not caution for caution's sake. It preserves the wonder. The r
 
 ### The Repository Becomes The Prompt
 
-> [!FIGURE] **F19.05 / A-0127 - GitHub Copilot Coding Surface**
+> [!FIGURE] **F19.05 / A-0260-020 - Copilot entered as pair-programming rhetoric**
 > Caption: F19.05: GitHub Copilot Coding Surface.
 > Source note: Sources: S-0070. Rights path: private_capture_needed. Story role: GitHub Copilot surface.
 
@@ -3608,7 +3608,7 @@ The second durable change is organizational. Code review becomes more important,
 
 ### What The Agent Still Cannot Own
 
-> [!FIGURE] **F20.05 / A-0131 - Claude Code Surface**
+> [!FIGURE] **F20.05 / A-0260-019 - Claude Code turned coding into an agent surface**
 > Caption: F20.05: Claude Code Surface.
 > Source note: Sources: S-0048;S-0049;S-0050;S-0051. Rights path: private_capture_needed. Story role: Claude Code surface.
 

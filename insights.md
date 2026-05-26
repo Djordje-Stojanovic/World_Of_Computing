@@ -461,3 +461,7 @@ Production metadata should not masquerade as book prose. The right cleanup remov
 ## 2026-05-26 - I-0272 Compression
 
 Compression is safest when it removes apparatus rather than evidence. Once source-boundary prose has been absorbed into ledgers and final notes, keeping it in the reader draft costs momentum without adding trust.
+
+## 2026-05-26 - I-0273 Visual Curation
+
+A visual replacement is not done while the manuscript still names the old weak asset. Source cards and original cards only improve reader trust after figure callouts, captions, manifests, and render assets all point at the same curated object.

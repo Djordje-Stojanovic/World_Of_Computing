@@ -1,0 +1,9 @@
+check	status	note
+figure_callout_count_preserved	pass	Figure callout count is 94.
+chapter_count_preserved	pass	Top-level chapter count remains 24.
+word_count_in_bounds	pass	Word count is 101710.
+manifest_asset_sync	pass	0 callouts mismatch the I-0261 manifest asset IDs.
+old_slot_assets_removed	pass	0 stale placeholder asset IDs remain: 
+source_card_replacements_visible	pass	24 source/card replacement callouts updated.
+placeholder_language_reduced	pass	Placeholder/proxy/texture words remaining in callout titles: 0.
+curation_rows_recorded	pass	Recorded 24 callout title/asset curation changes.

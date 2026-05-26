@@ -171,3 +171,6 @@ The immediate next phase should prioritize:
 ## Publication Reality
 
 The project is past idea stage. It is now in the conversion phase: turning a substantial, sourced manuscript into a finished object. The next decisive gains come from truth cleanup, rights cleanup, source capture, page design, render QA, cover/package work, reader sampling, pricing, launch mechanics, and award calendar discipline.
+
+
+Current manuscript baseline: 101,710 words after I-0273 visual callout curation; I-0273 synced 24 weak or stale reader-facing figure callouts to the curated I-0261 visual manifest without changing chapter or callout counts.
