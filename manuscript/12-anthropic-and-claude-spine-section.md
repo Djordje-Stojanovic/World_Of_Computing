@@ -1,9 +1,5 @@
 # Anthropic and Claude: The Assistant as a Safety Argument
 
-Status: promoted spine-section draft, pass I-0103, 2026-05-25.
-
-Source note: This section uses Anthropic source assets captured under `assets/source_docs/anthropic/`, existing source rows, and two new official Anthropic source rows. It is a future chapter/section building block for the mandatory Anthropic/Claude spine, not a final decision to change the 24-chapter outline. It avoids exact benchmark-number comparisons, exact price/context-window charts, customer productivity claims, broad adoption claims, and long quotations from live documentation until row-level extractions license them.
-
 ## The Lab That Made Behavior Its Brand
 
 Anthropic enters this book as more than another frontier-model company. Its importance is that it turned assistant behavior into a public identity. OpenAI made ChatGPT the interface shock. Google had the Transformer, DeepMind, search, and a deep model-research bench. Meta made open weights a strategic argument. Anthropic made the question of how an assistant should behave feel like the company itself.
@@ -13,6 +9,14 @@ That identity began before the Claude product line became a familiar name. Const
 That distinction matters because the frontier race was not only a race to larger models. It was a race to stable behavior under pressure. A model that can summarize, code, reason, search, and use tools is useful only if users can form expectations about it. Will it answer? Will it refuse? Will it ask for clarification? Will it admit uncertainty? Will it follow a system instruction rather than the last user demand? These questions sound soft until the assistant is placed in a workplace, a terminal, a browser, or an API serving thousands of applications. Then behavior becomes infrastructure.
 
 The constitutional frame did not solve alignment. This section must not let the phrase do too much work. A written constitution raises hard questions: who chooses the principles, how conflicts between principles are handled, how the training distribution represents real users, how refusals are evaluated, and how a model behaves outside curated examples. [C-0044] But the frame changed the competitive vocabulary. Anthropic could present Claude as an assistant shaped by principles, not only by scale or leaderboard wins. That made the Claude story both technical and rhetorical: the research program became a product promise.
+
+Status: promoted Anthropic/Claude live-order candidate, pass I-0158, 2026-05-26. Original spine-section draft promoted in pass I-0103.
+
+Placement note: This chapter is now the book's clearest candidate for the mandatory Anthropic/Claude spine. It should be treated as a Chapter 12 live-order candidate unless a later full-outline pass assigns it another main slot. The existing `manuscript/12-europe-xai-rest-frontier.md` remains a valuable rest-of-frontier draft, but the current book cannot leave Anthropic only as Chapter 6 context and Chapter 20 Claude Code material without losing the behavior-to-action company arc.
+
+Source note: This section uses Anthropic source assets captured under `assets/source_docs/anthropic/`, existing source rows, and two new official Anthropic source rows. It avoids exact benchmark-number comparisons, exact price/context-window charts, customer productivity claims, broad adoption claims, and long quotations from live documentation until row-level extractions license them.
+
+Figure plan: Use A-0094 near Constitutional AI as the behavior mechanism, A-0095 near the Claude 3/3.5/3.7/4 family sections as the release chronology, A-0096 as the bridge from computer use and MCP into Claude Code, and A-0097 only as the negative-control grid for safety, productivity, benchmark, price, memory, and adoption overclaims. Chapter 20 keeps the repository-work loop, benchmark caveats, tool permissions, and productivity blockers.
 
 ## Constitutional AI as Product Grammar
 
@@ -74,6 +78,8 @@ Claude 4 also shows how quickly "assistant" became too small a word. A chat assi
 
 That is the bridge to the coding-agents chapter. Claude Code is not important only because a famous lab made a developer tool. It is important because it reveals the next operating question for LLMs: once language can call tools, who controls the action boundary? Anthropic's safety identity makes that question feel native to the company story. The lab that made behavior its brand was now selling assistants that could take more consequential actions.
 
+This is where the chapter must stop before it becomes Chapter 20. The Anthropic chapter can say that Claude Code completes Claude's behavior-to-action arc: a safety-origin assistant enters the terminal and forces the permission question into software work. Chapter 20 owns the operational loop: repository context, issue framing, command execution, tests, benchmark harnesses, review, and the productivity trap. A reader should leave this chapter understanding why Anthropic's identity made action risky and central; the reader should enter Chapter 20 ready to watch the work loop itself.
+
 ## The Distribution Layer: APIs, Clouds, and Protocols
 
 Claude's story is also a distribution story. Anthropic's product posts repeatedly place Claude not only on Claude.ai, but through APIs and cloud platforms. Claude 3 materials described Claude API availability and cloud access. Claude 3.5 Sonnet materials named the Anthropic API, Amazon Bedrock, and Google Cloud's Vertex AI. The Claude 3.7 Sonnet post again described availability across Claude plans, the Claude Developer Platform, Amazon Bedrock, and Vertex AI. [S-0048]
@@ -98,10 +104,8 @@ The human-facing consequence is simple. A user does not experience Constitutiona
 
 That is why Anthropic belongs in the mandatory spine. The company's story connects the book's deepest strands: alignment as product behavior, model families as infrastructure menus, reasoning as a spendable resource, tools as action surfaces, and coding agents as the first domain where language models began to operate inside the machinery that builds other machinery. Claude was not the whole race. It was one of the clearest arguments about where the race was going.
 
-## Verification Tasks Before Final Integration
+## What Still Has To Stay Outside The Prose
 
-- Decide final placement in the 24-chapter outline without increasing the main-chapter count; likely options are a rebuilt frontier-labs chapter with Anthropic as its center of gravity, or a new Anthropic chapter balanced by merging smaller frontier-lab material elsewhere.
-- Keep downloaded Anthropic source assets under `assets/source_docs/anthropic/` and mirror lightweight provenance in `data/anthropic_source_asset_hashes_i0103.tsv`.
-- Keep C-0013 active until SWE-bench Verified, Terminal-bench, scaffolding, and agent framework details are checked row by row.
-- Keep C-0046 active for price-quality claims until Claude rows are joined to same-scope ranking evidence with billing semantics preserved.
-- Add a Claude model-line visual only after capture rows can label date, model, modality/tool capability, source type, and blocked benchmark/pricing inferences.
+The placement problem is not fully solved. A later outline pass must decide how to preserve Mistral, xAI, Cohere, AI21, and other rest-of-frontier labs if Anthropic occupies the official Chapter 12 slot. The answer cannot be to erase those labs, and it cannot be to inflate this chapter into a survey of every frontier company. The cleanest current boundary is: Anthropic owns behavior-to-action; rest-of-frontier owns mechanism diversity outside the big platform chapters.
+
+The verification blockers also remain active. Downloaded Anthropic source assets stay under `assets/source_docs/anthropic/`, with lightweight provenance mirrored in `data/anthropic_source_asset_hashes_i0103.tsv`. C-0013 remains active until SWE-bench Verified, Terminal-bench, scaffolding, and agent framework details are checked row by row. C-0046 remains active for price-quality claims until Claude rows are joined to same-scope ranking evidence with billing semantics preserved. Claude model-line visuals and source screenshots need date, model, modality/tool capability, source type, and blocked benchmark/pricing inferences before final layout.
