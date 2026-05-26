@@ -234,3 +234,7 @@ Middle-frontier visuals need different verbs by chapter: Meta/Llama should show 
 ## 2026-05-26 - I-0212 Hardware/GTC/Infrastructure Balance
 
 Industrial chapters need a three-part proof rhythm: Chapter 14 teaches the accelerator and software stack, Chapter 15 treats NVIDIA's AI-factory keynote as source-actor stagecraft, and Chapter 16 tests that rhetoric against independent power, interconnection, cooling, procurement, and usable-capacity constraints.
+
+## 2026-05-26 - I-0213 Data/Tools/Code Continuity
+
+Data-to-code visuals need a rising system: data materiality becomes selected context, selected context becomes bounded action, and bounded action becomes reviewed repository work. Screenshots and source cards should add concrete surfaces only after the mechanism ladder is clear, and they must not become productivity, autonomy, safety, adoption, current-UI, or developer-replacement evidence.
