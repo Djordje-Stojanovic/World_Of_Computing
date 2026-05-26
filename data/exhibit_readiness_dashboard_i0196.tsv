@@ -1,0 +1,17 @@
+metric	value	evidence	note
+selected_100	100	data/master_100_exhibit_selection_matrix_i0182.tsv	Exactly 100 rows are currently selected for the top-100 program; this is a selection target, not publication readiness.
+chapter_placed_selected	100	data/master_100_exhibit_selection_matrix_i0182.tsv	Every selected row has a chapter assignment, but chapter balance is uneven.
+rights_ready_svg	74	data/master_100_exhibit_selection_matrix_i0182.tsv	Rows marked ready_svg are the only selected rows treated as immediately layout-ready lightweight artwork.
+local_hashed_pending_rights	2	data/master_100_exhibit_selection_matrix_i0182.tsv	Local ignored GTC source/slide renders have hash handles but still need final rights/fair-use and duplicate-representation decisions.
+private_capture_needed	17	data/master_100_exhibit_selection_matrix_i0182.tsv	Product/source screenshot slots selected for the top 100 still need capture, raster/hash records, HTML/source hashes where applicable, and rights review.
+photo_rights_review_needed	7	data/master_100_exhibit_selection_matrix_i0182.tsv	Selected photo candidates need exact license, attribution, revision, and caption blocker verification before publication.
+selected_not_publication_ready	26	data/master_100_exhibit_selection_matrix_i0182.tsv	All non-ready selected rows: 17 private captures, 7 photo rights reviews, and 2 local-hash GTC surfaces.
+dropped_from_top100	4	data/master_100_exhibit_reserve_drop_i0182.tsv	Rows explicitly dropped from the top-100 selection as lower value or duplicate.
+reserve_not_selected	17	data/master_100_exhibit_reserve_drop_i0182.tsv	Reserve rows can replace weak selected rows only after a recorded choose/drop decision.
+redraw_now_backlog	10	data/canonical_paper_redraw_shortlist_i0190.tsv	Canonical paper rows marked redraw_now still need page refs, redraw specs, rights/fair-use notes, and final SVG execution.
+redraw_later_backlog	9	data/canonical_paper_redraw_shortlist_i0190.tsv	Later redraw rows should not be promoted until early mechanism gaps and page provenance are handled.
+chapters_under_target	4	data/per_chapter_exhibit_quota_board_i0187.tsv	Chapters 2, 3, 4, and 5 remain under target in the selected matrix and need early technical source/redraw texture.
+chapters_on_target	9	data/per_chapter_exhibit_quota_board_i0187.tsv	Nine chapters have three or four selected exhibits and should prioritize render QA over new acquisition.
+chapters_over_target	11	data/per_chapter_exhibit_quota_board_i0187.tsv	Eleven chapters have more than four selected exhibits and need pruning rather than more visual accumulation.
+early_chapter_floor_gap	8	data/per_chapter_exhibit_quota_board_i0187.tsv	Chapters 2-5 need roughly eight additional or replacement exhibits to reach three each without borrowing weak late-book filler.
+overfull_prune_pressure	19	data/master_100_exhibit_selection_matrix_i0182.tsv	Selected rows above four per chapter total 19; final layout should prune or move these before declaring the 100 publication-ready.
