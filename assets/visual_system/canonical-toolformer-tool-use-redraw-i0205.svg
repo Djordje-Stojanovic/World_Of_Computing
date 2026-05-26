@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="860" viewBox="0 0 1400 860" role="img" aria-labelledby="title desc">
+  <title id="title">Toolformer Tool-Use Training Pipeline</title>
+  <desc id="desc">An original schematic of Toolformer-style API-call insertion and filtering as a research lineage for tool use, with product-capability blockers.</desc>
+  <rect width="1400" height="860" fill="#f8faf9"/>
+  <text x="70" y="72" font-family="Arial, sans-serif" font-size="36" font-weight="700" fill="#111827">Tool use can be trained as a data problem</text>
+  <text x="70" y="110" font-family="Arial, sans-serif" font-size="18" fill="#4b5563">Source lane: S-0136. Original schematic; no prompt trace, table, or source figure geometry is copied.</text>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 Z" fill="#1f2933"/></marker>
+    <style>.label{font-family:Arial,sans-serif;font-size:20px;font-weight:700;fill:#111827}.sub{font-family:Arial,sans-serif;font-size:15px;fill:#4b5563}.src{font-family:Arial,sans-serif;font-size:14px;font-weight:700;fill:#0f8b6f}</style>
+  </defs>
+  <g font-family="Arial, sans-serif">
+    <rect x="96" y="230" width="220" height="116" rx="8" fill="#ffffff" stroke="#365e8c" stroke-width="3"/>
+    <text x="126" y="270" class="label">Text corpus</text><text x="126" y="302" class="sub">ordinary language data</text><text x="126" y="328" class="src">S-0136</text>
+    <rect x="386" y="230" width="250" height="116" rx="8" fill="#eef5ff" stroke="#365e8c" stroke-width="3"/>
+    <text x="416" y="270" class="label">Candidate calls</text><text x="416" y="302" class="sub">insert possible API use</text><text x="416" y="328" class="sub">around selected spans</text>
+    <rect x="706" y="230" width="250" height="116" rx="8" fill="#fff4d8" stroke="#c99a3a" stroke-width="3"/>
+    <text x="736" y="270" class="label">Filter by utility</text><text x="736" y="302" class="sub">keep calls that improve</text><text x="736" y="328" class="sub">the model's prediction target</text>
+    <rect x="1026" y="230" width="250" height="116" rx="8" fill="#e8f1ec" stroke="#5f8c78" stroke-width="3"/>
+    <text x="1056" y="270" class="label">Fine-tune</text><text x="1056" y="302" class="sub">learn when and how</text><text x="1056" y="328" class="sub">to call tools</text>
+    <path d="M316 288 H382" stroke="#1f2933" stroke-width="3" marker-end="url(#arrow)"/>
+    <path d="M636 288 H702" stroke="#1f2933" stroke-width="3" marker-end="url(#arrow)"/>
+    <path d="M956 288 H1022" stroke="#1f2933" stroke-width="3" marker-end="url(#arrow)"/>
+    <rect x="170" y="470" width="1060" height="92" rx="8" fill="#111827"/>
+    <text x="202" y="508" font-size="21" font-weight="700" fill="#ffffff">Research boundary</text>
+    <text x="202" y="538" font-size="16" fill="#fde68a">This explains a tool-use training recipe, not arbitrary deployed tool mastery, safe execution, or product-agent reliability.</text>
+    <rect x="230" y="640" width="940" height="70" rx="8" fill="#ffffff" stroke="#c2412d" stroke-width="2"/>
+    <text x="260" y="682" class="label">Blocked:</text><text x="350" y="682" class="sub">API safety, autonomy, live product behavior, all-tool competence, and workplace productivity claims.</text>
+  </g>
+  <text x="70" y="812" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">Caption contract: cite S-0136; use as pre-product tool-use lineage only; require separate product docs/evals before deployed assistant claims.</text>
+</svg>

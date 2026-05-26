@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="860" viewBox="0 0 1400 860" role="img" aria-labelledby="title desc">
+  <title id="title">DeepSeek-R1 Reasoning Mechanism Redraw</title>
+  <desc id="desc">An original schematic separating reinforcement learning, reasoning behavior, distillation, and benchmark blockers for the DeepSeek-R1 source lane.</desc>
+  <rect width="1400" height="860" fill="#f7f4ee"/>
+  <text x="70" y="72" font-family="Arial, sans-serif" font-size="36" font-weight="700" fill="#111827">Reasoning claims need a training-and-eval boundary</text>
+  <text x="70" y="110" font-family="Arial, sans-serif" font-size="18" fill="#4b5563">Source lane: S-0029. Original schematic; benchmark tables and cost claims are excluded.</text>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 Z" fill="#1f2933"/></marker>
+    <style>.label{font-family:Arial,sans-serif;font-size:20px;font-weight:700;fill:#111827}.sub{font-family:Arial,sans-serif;font-size:15px;fill:#4b5563}</style>
+  </defs>
+  <g font-family="Arial, sans-serif">
+    <rect x="100" y="250" width="230" height="120" rx="8" fill="#ffffff" stroke="#365e8c" stroke-width="3"/>
+    <text x="130" y="292" class="label">Base model lane</text><text x="130" y="326" class="sub">starting capability surface</text>
+    <rect x="430" y="250" width="230" height="120" rx="8" fill="#fff4d8" stroke="#c99a3a" stroke-width="3"/>
+    <text x="460" y="292" class="label">RL pressure</text><text x="460" y="326" class="sub">optimize behavior under tasks</text>
+    <rect x="760" y="250" width="230" height="120" rx="8" fill="#eef5ff" stroke="#365e8c" stroke-width="3"/>
+    <text x="790" y="292" class="label">Reasoning traces</text><text x="790" y="326" class="sub">visible behavior, not proof of mind</text>
+    <rect x="1090" y="250" width="230" height="120" rx="8" fill="#e8f1ec" stroke="#5f8c78" stroke-width="3"/>
+    <text x="1120" y="292" class="label">Distillation lane</text><text x="1120" y="326" class="sub">transfer behavior to other models</text>
+    <path d="M330 310 H426" stroke="#1f2933" stroke-width="3" marker-end="url(#arrow)"/>
+    <path d="M660 310 H756" stroke="#1f2933" stroke-width="3" marker-end="url(#arrow)"/>
+    <path d="M990 310 H1086" stroke="#1f2933" stroke-width="3" marker-end="url(#arrow)"/>
+    <rect x="190" y="510" width="1020" height="86" rx="8" fill="#111827"/>
+    <text x="222" y="545" font-size="21" font-weight="700" fill="#ffffff">Blocked from this diagram</text>
+    <text x="222" y="574" font-size="15" fill="#fde68a">live rank, exact cost, export-control causality, all-domain superiority, DeepSeek V4 claims, geopolitical conclusions, and solved reasoning.</text>
+    <rect x="280" y="680" width="840" height="62" rx="8" fill="#ffffff" stroke="#c2412d" stroke-width="2"/>
+    <text x="310" y="719" class="label">Use as mechanism context only until page refs and benchmark normalization exist.</text>
+  </g>
+</svg>

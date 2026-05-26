@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="860" viewBox="0 0 1400 860" role="img" aria-labelledby="title desc">
+  <title id="title">Coding Benchmark Contract Redraw</title>
+  <desc id="desc">An original schematic pairing SWE-bench and LiveCodeBench as benchmark contracts with task, scaffold, time-window, metric, and blocker fields.</desc>
+  <rect width="1400" height="860" fill="#f8faf9"/>
+  <text x="70" y="72" font-family="Arial, sans-serif" font-size="36" font-weight="700" fill="#111827">Coding scores need a harness story</text>
+  <text x="70" y="110" font-family="Arial, sans-serif" font-size="18" fill="#4b5563">Source lane: S-0035 and S-0037. Original contract diagram; no leaderboard or source table is copied.</text>
+  <defs><style>.label{font-family:Arial,sans-serif;font-size:20px;font-weight:700;fill:#111827}.sub{font-family:Arial,sans-serif;font-size:15px;fill:#4b5563}.head{font-family:Arial,sans-serif;font-size:22px;font-weight:700;fill:#ffffff}</style></defs>
+  <g font-family="Arial, sans-serif">
+    <rect x="95" y="180" width="570" height="430" rx="8" fill="#ffffff" stroke="#365e8c" stroke-width="3"/>
+    <rect x="95" y="180" width="570" height="70" rx="8" fill="#365e8c"/>
+    <text x="125" y="225" class="head">SWE-bench contract</text>
+    <text x="125" y="300" class="label">Task</text><text x="275" y="300" class="sub">real GitHub issue context</text>
+    <text x="125" y="360" class="label">Object</text><text x="275" y="360" class="sub">repository repair patch</text>
+    <text x="125" y="420" class="label">Harness</text><text x="275" y="420" class="sub">scaffold, tests, split, attempts</text>
+    <text x="125" y="480" class="label">Metric</text><text x="275" y="480" class="sub">resolved under benchmark conditions</text>
+    <text x="125" y="540" class="label">Blocked</text><text x="275" y="540" class="sub">productivity, security, live rank, best model</text>
+    <rect x="735" y="180" width="570" height="430" rx="8" fill="#ffffff" stroke="#5f8c78" stroke-width="3"/>
+    <rect x="735" y="180" width="570" height="70" rx="8" fill="#5f8c78"/>
+    <text x="765" y="225" class="head">LiveCodeBench contract</text>
+    <text x="765" y="300" class="label">Task</text><text x="935" y="300" class="sub">coding problems with date windows</text>
+    <text x="765" y="360" class="label">Object</text><text x="935" y="360" class="sub">generated code answer</text>
+    <text x="765" y="420" class="label">Harness</text><text x="935" y="420" class="sub">freshness, contamination, evaluation split</text>
+    <text x="765" y="480" class="label">Metric</text><text x="935" y="480" class="sub">scoped pass/fail result</text>
+    <text x="765" y="540" class="label">Blocked</text><text x="935" y="540" class="sub">production quality, security, broad skill, crown</text>
+    <rect x="190" y="690" width="1020" height="70" rx="8" fill="#111827"/>
+    <text x="220" y="732" font-size="20" font-weight="700" fill="#ffffff">Caption rule:</text>
+    <text x="360" y="732" font-size="15" fill="#fde68a">Every number must travel with version, split, scaffold/tools, run date, source, and what it cannot prove.</text>
+  </g>
+</svg>

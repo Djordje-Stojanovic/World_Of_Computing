@@ -1,0 +1,7 @@
+review_id	asset_id	source_ids	redraw_type	copied_source_geometry	exact_values_used	rights_status	blocked_until
+RDR-20260526-006	A-0149	S-0136	conceptual_redraw	no	no	needs_page_ref_review	Toolformer page refs and final caption wording are recorded
+RDR-20260526-007	A-0150	S-0135	conceptual_redraw	no	no	needs_page_ref_review	ReAct page refs are recorded and no prompt trace is copied
+RDR-20260526-008	A-0151	S-0035;S-0037	conceptual_redraw	no	no	needs_metric_extraction_review	split, scaffold/tool, metric, and run-date fields are extracted for any numeric use
+RDR-20260526-009	A-0152	S-0029	conceptual_redraw	no	no	needs_page_ref_review	DeepSeek-R1 page refs and benchmark/cost normalization are recorded
+RDR-20260526-010	A-0094	S-0019	existing_original_svg	no	no	manifest_recorded	Constitutional AI page refs and quote review are recorded for direct method wording
+RDR-20260526-011	A-0060	S-0038	existing_original_svg	no	no	manifest_recorded	RAG page refs are recorded if final caption names paper-specific mechanisms
