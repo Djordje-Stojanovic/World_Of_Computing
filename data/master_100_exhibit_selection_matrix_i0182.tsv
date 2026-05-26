@@ -1,0 +1,101 @@
+rank	chapter	asset_id	asset_type	selection_status	rights_status	final_role	rationale	next_gate
+001	1	A-0068	svg_diagram	selected_100	ready_svg	opener chronology	Best current opener chronology because it pairs shock with blocked metric lanes.	Render in full-book opener spread.
+002	1	A-0069	svg_diagram	selected_100	ready_svg	mechanism bridge	Keeps the chat box tied to next-token mechanics before company drama.	Check mobile/print legibility.
+003	1	A-0070	svg_diagram	selected_100	ready_svg	local response texture	Shows institutional reaction without broad public-panic overclaiming.	Keep only if prose placement stays tight.
+004	2	A-0115	svg_diagram	selected_100	ready_svg	pre-Transformer pressure chain	Fills the Chapter 2 mechanism gap with a constraint map.	Trace final caption to paper-source rows.
+005	3	A-0116	svg_diagram	selected_100	ready_svg	self-attention mechanism	Fills the Chapter 3 architecture gap with a non-mystical attention schematic.	Add exact Transformer-figure provenance before final art.
+006	4	A-0117	svg_diagram	selected_100	ready_svg	scaling evidence lanes	Fills Chapter 4 with a permissioned curve grammar rather than prophecy.	Verify plotted-value exclusions in final caption.
+007	5	A-0010	svg_diagram	selected_100	ready_svg	GPT lineage anchor	Compactly connects GPT-1/GPT-2/GPT-3/API/Codex/Copilot.	Check against Chapter 19 overlap.
+008	6	A-0011	svg_diagram	selected_100	ready_svg	alignment mechanism	Strongest RLHF/alignment pipeline visual already in house style.	Pair with one source surface, not more diagrams.
+009	6	A-0121	screenshot_slot	selected_100	private_capture_needed	ChatGPT product surface	Product texture for assistant behavior becoming a public interface.	Capture screenshot/hash; rights review.
+010	6	A-0122	screenshot_slot	selected_100	private_capture_needed	Plus productization surface	Shows subscription packaging without revenue or adoption inference.	Capture screenshot/hash; strict caption.
+011	7	A-0016	svg_diagram	selected_100	ready_svg	ChatGPT business timeline	Best safe chronology for interface-to-business conversion.	Retain blocked adoption lane.
+012	7	A-0036	screenshot_slot	selected_100	private_capture_needed	ChatGPT launch surface	High reader-recognition value for the interface event.	Capture/hash or use archival fallback.
+013	7	A-0037	screenshot_slot	selected_100	private_capture_needed	ChatGPT Plus surface	Useful paid-product bridge if it does not duplicate A-0122.	Choose one of A-0037/A-0122 in final layout.
+014	7	A-0038	screenshot_slot	selected_100	private_capture_needed	Enterprise surface	Enterprise controls surface for work-product chapter handoff.	Capture/hash; block productivity and customer outcomes.
+015	7	A-0039	screenshot_slot	selected_100	private_capture_needed	plugins surface	Tool-use bridge from ChatGPT chapter to agent chapters.	Capture/hash; block ecosystem adoption.
+016	8	A-0056	svg_diagram	selected_100	ready_svg	cloud bargain timeline	Best Microsoft/OpenAI capacity-distribution-governance diagram.	Check if chapter can carry four diagrams.
+017	8	A-0057	svg_diagram	selected_100	ready_svg	cloud-to-product flywheel	Shows Azure/product distribution bargain without revenue claims.	Prune if it duplicates A-0056 in layout.
+018	8	A-0058	svg_diagram	selected_100	ready_svg	inference cost stack	Explains hidden cost behind work surfaces.	Keep for economics handoff.
+019	8	A-0059	svg_diagram	selected_100	ready_svg	enterprise blocker map	Keeps enterprise claims honest.	May become appendix/sidebar if chapter feels over-diagrammed.
+020	9	A-0086	svg_diagram	selected_100	ready_svg	Google conversion timeline	Best Google/DeepMind conversion-pressure anchor.	Keep benchmark/adoption blockers visible.
+021	9	A-0087	svg_diagram	selected_100	ready_svg	Gemini surface conversion	Explains Google distribution pressure without caricature.	Check overlap with A-0086.
+022	9	A-0088	svg_diagram	selected_100	ready_svg	long-context product grammar	Adds technical/product distinction for Gemini long context.	Verify exact source rows before final caption.
+023	9	A-0089	svg_diagram	selected_100	ready_svg	Gemini claim blockers	Keeps search, adoption, and benchmark inferences separate.	Use if prose makes tempting claims nearby.
+024	9	A-0129	screenshot_slot	selected_100	private_capture_needed	Gemini/Bard source surface	Product texture that diagrams cannot provide.	Capture/hash; block Search-share and productivity claims.
+025	10	A-0030	svg_diagram	selected_100	ready_svg	Llama family map	Core Chapter 10 open-weight chronology visual.	Check current license-state caveats.
+026	10	A-0112	svg_diagram	selected_100	ready_svg	open-weight control stack	Separates weights, license, hosting, safety, and ecosystem burdens.	Prioritize over duplicate Llama screenshots.
+027	10	A-0113	svg_diagram	selected_100	ready_svg	adopter burden transfer	Explains why openness moves responsibility outward.	Use with Chapter 10 prose, not as generic open-source claim.
+028	10	A-0044	screenshot_slot	selected_100	private_capture_needed	LLaMA launch surface	Primary-source product/release texture for the open-weight shock.	Capture/hash; block adoption.
+029	10	A-0047	screenshot_slot	selected_100	private_capture_needed	Llama repository surface	Developer-artifact texture beyond press pages.	Capture/hash; mutable repo numbers blocked.
+030	11	A-0031	svg_diagram	selected_100	ready_svg	China source-permission map	Core source-lane guardrail for Chinese/open models.	Update if later Qwen/DeepSeek sources mature.
+031	11	A-0118	svg_diagram	selected_100	ready_svg	supported-vs-gap board	Prevents logo parade and unsupported family claims.	Keep as chapter control surface.
+032	11	A-0048	source_screenshot_slot	selected_100	private_capture_needed	Qwen2 source surface	Primary-paper texture for supported Qwen lane.	Capture/hash; do not rank.
+033	11	A-0049	source_screenshot_slot	selected_100	private_capture_needed	Qwen3 source surface	Supported cutoff-bounded Qwen source surface.	Capture/hash; Qwen 3.5/3.6 remains blocked.
+034	11	A-0050	source_screenshot_slot	selected_100	private_capture_needed	DeepSeek-R1 source surface	Bridge to reasoning chapter with source texture.	Capture/hash; benchmark extraction separate.
+035	12	A-0094	svg_diagram	selected_100	ready_svg	Constitutional AI behavior grammar	Best behavior-spec visual for Anthropic chapter.	Confirm Chapter 12 title/placement.
+036	12	A-0095	svg_diagram	selected_100	ready_svg	Claude product family	Maps Claude product family without benchmark crown.	Check overlap with A-0130.
+037	12	A-0096	svg_diagram	selected_100	ready_svg	assistant-to-action surface	Bridge from behavior to action surfaces.	Pair with source screenshot only once.
+038	12	A-0097	svg_diagram	selected_100	ready_svg	Claude claim blockers	Keeps safety and adoption claims fenced.	Use near prose with safety temptation.
+039	12	A-0119	screenshot_slot	selected_100	private_capture_needed	computer-use source surface	Important action-surface source texture.	Capture/hash; block autonomy.
+040	12	A-0130	screenshot_slot	selected_100	private_capture_needed	Claude product source surface	Product texture for Claude as assistant family.	Capture/hash; block safety success.
+041	13	A-0014	svg_diagram	selected_100	ready_svg	leaderboard methodology	Essential before any ranking visual.	Keep before A-0013 in reading order.
+042	13	A-0013	svg_chart	selected_100	ready_svg	historical leaderboard slice	Useful only after methodology guardrails.	No live rank; snapshot caption required.
+043	13	A-0019	svg_diagram	selected_100	ready_svg	price-quality exclusion map	Shows why price-quality frontier is blocked.	Keep if economics chapter does not repeat it.
+044	14	A-0071	svg_diagram	selected_100	ready_svg	CUDA stack	Core NVIDIA/CUDA moat visual.	Do not broaden into all semiconductor history.
+045	14	A-0072	svg_diagram	selected_100	ready_svg	GPU memory/interconnect	Explains traffic problem behind accelerators.	Verify legibility at book trim.
+046	14	A-0073	svg_diagram	selected_100	ready_svg	training-vs-inference capacity	Sets up Chapter 15/16 split.	Keep if not redundant with GTC slides.
+047	14	A-0133	photo_candidate_slot	selected_100	rights_review_needed	lithography/ASML proxy	Industrial texture for chipmaking constraints, with specificity caveat.	Find stronger ASML-machine photo or caption as proxy.
+048	14	A-0134	photo_candidate_slot	selected_100	rights_review_needed	cleanroom photo	Credible physical manufacturing texture.	Verify exact license and attribution.
+049	14	A-0136	photo_candidate_slot	selected_100	rights_review_needed	server rack photo	Compute infrastructure texture for hardware chapter.	Verify license; block named workload.
+050	15	A-0012	svg_diagram	selected_100	ready_svg	AI factory stack	Best neutral explainer separating NVIDIA rhetoric from infrastructure layers.	Anchor before GTC source surfaces.
+051	15	A-0024	svg_claim_card	selected_100	ready_svg	GTC AI-factory thesis card	Page-provenance claim card for GTC thesis.	Choose card or slide render, not both if crowded.
+052	15	A-0027	svg_claim_card	selected_100	ready_svg	GTC system comparison card	Useful as rhetoric/economics stagecraft, not independent proof.	Keep caption narrow.
+053	15	A-0028	svg_claim_card	selected_100	ready_svg	GTC roadmap cadence card	Shows roadmap sequencing as source rhetoric.	Block delivery/performance claims.
+054	15	A-0029	svg_claim_card	selected_100	ready_svg	GTC DSX platform card	Bridge from GTC story to physical constraints.	Pair with Chapter 16 handoff.
+055	15	A-0004	extracted_slide_render	selected_100	local_ignored_hash_available	GTC page 29 slide render	High visual drama if rights/fair-use review passes.	Choose against A-0024; avoid duplication.
+056	15	A-0106	source_screenshot_slot	selected_100	local_ignored_hash_available	page 29 hashed source surface	Provenance-ready GTC source surface.	Use as private evidence handle or final source surface after rights review.
+057	16	A-0015	svg_diagram	selected_100	ready_svg	power-to-token flow	Core Chapter 16 mechanism visual.	Keep as physical-internet spine.
+058	16	A-0020	svg_diagram	selected_100	ready_svg	load scenarios	Best measured/scenario separation for demand.	Ensure forecasts stay labeled.
+059	16	A-0021	svg_diagram	selected_100	ready_svg	interconnection queue	Shows timing bottleneck without project database overclaim.	Pair with physical grid photo if possible.
+060	16	A-0022	svg_diagram	selected_100	ready_svg	cooling/rack-density note	Explains cooling constraint without engineering overreach.	Consider replacing with photo if layout is diagram-heavy.
+061	16	A-0023	svg_diagram	selected_100	ready_svg	clean procurement vs physical supply	Important claim-control visual for power sourcing.	Keep near PPA/clean-power prose.
+062	16	A-0137	photo_candidate_slot	selected_100	rights_review_needed	data-center hall photo	Needed real-world texture for compute rooms.	Verify original license trail.
+063	16	A-0139	photo_candidate_slot	selected_100	rights_review_needed	substation photo	Physical grid texture for interconnection prose.	Verify license; no site-service claim.
+064	16	A-0141	photo_candidate_slot	selected_100	rights_review_needed	gas turbine photo	Shows speed-to-power equipment without deployment claim.	Verify license and caption as generic.
+065	16	A-0143	photo_candidate_slot	selected_100	rights_review_needed	nuclear/cooling tower photo	Power-supply debate texture without delivered-power claim.	Verify license and attribution.
+066	17	A-0064	svg_diagram	selected_100	ready_svg	tokenization ladder	Core data chapter mechanism visual.	Verify tokenizer caveats stay visible.
+067	17	A-0065	svg_diagram	selected_100	ready_svg	web-corpus filter funnel	Best data supply-chain process visual.	Block closed-corpus composition claims.
+068	17	A-0066	svg_diagram	selected_100	ready_svg	data mixture control board	Shows hidden mixtures and controls.	Keep schematic, not measured shares.
+069	17	A-0067	svg_diagram	selected_100	ready_svg	memorization blocker map	Useful trust/data caveat visual.	Keep prevalence claims blocked.
+070	18	A-0060	svg_diagram	selected_100	ready_svg	RAG evidence conveyor	Core tools/retrieval mechanism.	Do not duplicate trust chapter.
+071	18	A-0061	svg_diagram	selected_100	ready_svg	function-call boundary	Best tool-permission schematic.	Pair with API docs screenshot.
+072	18	A-0062	svg_diagram	selected_100	ready_svg	agent loop as harness	General agent loop before coding specificity.	Keep distinct from Chapter 20.
+073	18	A-0063	svg_diagram	selected_100	ready_svg	prompt-injection boundary	Safety/trust bridge for tool use.	Keep near untrusted-retrieval prose.
+074	18	A-0124	screenshot_slot	selected_100	private_capture_needed	ChatGPT tools/GPTs surface	Product texture for tool turn.	Capture/hash; block adoption.
+075	19	A-0090	svg_diagram	selected_100	ready_svg	code as language	Core Chapter 19 coding thesis visual.	Check density with prose.
+076	19	A-0091	svg_diagram	selected_100	ready_svg	assistant at cursor	Shows product placement in the IDE/workflow.	Pair with one screenshot only.
+077	19	A-0092	svg_diagram	selected_100	ready_svg	coding score harness	Benchmark context for code systems.	Do not repeat Chapter 20 matrix.
+078	19	A-0093	svg_diagram	selected_100	ready_svg	repository as prompt	Strong workflow bridge into Chapter 20.	Keep as chapter-ending setup.
+079	19	A-0127	screenshot_slot	selected_100	private_capture_needed	GitHub Copilot surface	Reader-recognition product surface.	Capture/hash; block productivity.
+080	20	A-0032	svg_diagram	selected_100	ready_svg	coding-agent harness loop	Core Chapter 20 workflow figure.	Keep human review boundary.
+081	20	A-0033	svg_diagram	selected_100	ready_svg	coding benchmark caveat matrix	Stops benchmark-to-productivity laundering.	Keep near benchmark prose.
+082	20	A-0034	svg_diagram	selected_100	ready_svg	tool-call lifecycle	Shows permission boundary in coding agent work.	Pair with Claude Code docs.
+083	20	A-0035	svg_diagram	selected_100	ready_svg	productivity blocker map	Keeps business claims blocked.	Use if chapter has vendor-product claims.
+084	20	A-0131	screenshot_slot	selected_100	private_capture_needed	Claude Code surface	Product/docs texture for repository agent.	Capture/hash; block autonomy.
+085	21	A-0078	svg_diagram	selected_100	ready_svg	reasoning compute axis	Core test-time compute visual.	Keep train-time vs answer-time distinction.
+086	21	A-0079	svg_diagram	selected_100	ready_svg	reasoning loop	Explains loops without hidden-thought mysticism.	Caption must block truth guarantees.
+087	21	A-0080	svg_diagram	selected_100	ready_svg	inference contract	Essential for reasoning benchmark claims.	Use before benchmark mentions.
+088	21	A-0081	svg_diagram	selected_100	ready_svg	thinking cost tradeoff	Connects reasoning to economics.	Keep value claims blocked.
+089	22	A-0082	svg_diagram	selected_100	ready_svg	visible meter	Core economics chapter anchor.	Verify price/currentness caveats.
+090	22	A-0083	svg_diagram	selected_100	ready_svg	routing/caching/batching/distillation	Best cost-control mechanism map.	Keep distinct from Chapter 8 cost stack.
+091	22	A-0084	svg_diagram	selected_100	ready_svg	business models	Shows monetization routes without revenue proof.	Caption blocks margin and ARR claims.
+092	22	A-0085	svg_diagram	selected_100	ready_svg	economics claim blockers	Keeps price, margin, value claims fenced.	Use as sidebar if layout is dense.
+093	23	A-0074	svg_diagram	selected_100	ready_svg	failure modes separation	Core trust chapter taxonomy.	Prevent incident montage.
+094	23	A-0075	svg_diagram	selected_100	ready_svg	trust stack	Best whole-stack trust visual.	Check if final chapter repeats it.
+095	23	A-0076	svg_diagram	selected_100	ready_svg	evaluation shadow	Connects eval design to blind spots.	Use with benchmark chapters cross-reference.
+096	23	A-0077	svg_diagram	selected_100	ready_svg	auditable claim loop	Shows evidence trace into human judgment.	Pair with source-density prose.
+097	24	A-0108	svg_diagram	selected_100	ready_svg	next-token system map	Final synthesis anchor.	Keep from becoming generic summary wallpaper.
+098	24	A-0109	svg_diagram	selected_100	ready_svg	five conversion gates	Strong closing structure visual.	Use if final prose follows conversion motif.
+099	24	A-0110	svg_diagram	selected_100	ready_svg	unsettled claims board	Honest unresolved-claims ending.	Keep if not too apparatus-heavy.
+100	24	A-0111	svg_diagram	selected_100	ready_svg	human judgment loop	Best final human-boundary image.	Use as closing visual if layout has room.

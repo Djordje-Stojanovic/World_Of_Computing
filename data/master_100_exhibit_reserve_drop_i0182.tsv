@@ -1,0 +1,22 @@
+asset_id	decision	reason	next_action
+A-0001	reserve	Prototype grammar, not final book exhibit unless a timeline needs house-style reference.	Keep as design-source asset.
+A-0002	reserve	Prototype agent-loop grammar superseded by chapter-specific agent visuals.	Keep as design-source asset.
+A-0003	reserve	Prototype tradeoff grammar superseded by chapter-specific economics/scaling visuals.	Keep as design-source asset.
+A-0005	drop_from_top100	GTC product slide is lower narrative value than page 29 thesis and DSX handoff.	Retain provenance for archive/source review.
+A-0006	drop_from_top100	GTC Vera Rubin card/roadmap rows cover the same stagecraft with less slide clutter.	Reserve only if Chapter 15 needs roadmap image.
+A-0007	drop_from_top100	System-comparison claim card is safer than the extracted slide render until rights/layout pass.	Use A-0027 instead.
+A-0008	drop_from_top100	Roadmap claim card is safer and easier to caption than full extracted slide render.	Use A-0028 instead.
+A-0100	reserve	EPRI source surface is valuable but lower final-art priority than interconnection diagram plus physical substation photo.	Use as source-evidence handle.
+A-0101	reserve	DOE source surface is useful as evidence but not among top 100 final visuals yet.	Use for citation/provenance, not layout.
+A-0102	reserve	Uptime source surface is useful but Chapter 16 is already dense.	Use if cooling section needs source-page texture.
+A-0104	reserve	Cooling plant candidate competes with A-0143 and A-0022.	Re-evaluate after photo rights verification.
+A-0105	reserve	Data-center exterior candidate competes with A-0137 and A-0139.	Re-evaluate after photo rights verification.
+A-0120	reserve	MCP surface is valuable but less central than Chapter 18 API/tools surface in the top 100.	Use if Chapter 20 needs protocol texture.
+A-0125	reserve	OpenAI API docs surface is useful but top-100 Chapter 18 already carries A-0124 plus core diagrams.	Promote if source-page texture is scarce.
+A-0126	reserve	Codex agent surface competes with Claude Code and GitHub Copilot screenshots.	Promote if Chapter 20 shifts toward OpenAI Codex.
+A-0132	reserve	Cursor-style IDE surface competes with GitHub Copilot for Chapter 19 recognition.	Promote if final prose foregrounds AI-native IDEs.
+A-0135	reserve	Wafer photo is good texture but lower chapter value than cleanroom, rack, and lithography proxy.	Promote if semiconductor section needs material close-up.
+A-0138	reserve	Exterior/cooling equipment image is useful but Chapter 16 photo budget is already tight.	Promote after license proof if data-center exterior is visually strong.
+A-0140	reserve	Transmission-line image competes with substation for grid texture.	Choose after rights/visual quality review.
+A-0142	reserve	Battery storage image is useful but can overstate solved-intermittency if crowded into Chapter 16.	Use only with strict caption if storage prose expands.
+A-0144	reserve	Generic cooling tower competes with nuclear/cooling tower and cooling schematic.	Use only if A-0143 license fails.
