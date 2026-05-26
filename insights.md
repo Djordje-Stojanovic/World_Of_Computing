@@ -262,3 +262,7 @@ A style guide becomes useful only when it can fail an exhibit. The hardened hous
 ## 2026-05-26 - I-0219 Selected SVG/Chart Legibility QA
 
 SVG source-file QA should separate scale defects from proof defects. The selected set has strong conceptual coverage, but 31 of 74 SVG rows need render-scale review before page placement, especially Chapters 8, 17, and 18; the real next gate is not more style language but page-image proof that small labels, source lines, caveats, and muted text survive final trim size.
+
+## 2026-05-26 - I-0220 Screenshot And Source-Surface Legibility QA
+
+Screenshot readiness is much weaker than screenshot provenance: among 26 selected source/photo/screenshot/slide rows, only A-0004 has a hashed high-resolution private raster, and even it needs crop, small-type, rights, and page-proof review. Hash-recorded HTML source surfaces are production handles, not book-grade images; the next useful work is capture-or-convert decisions, with weak screenshot slots becoming source cards rather than quiet placeholders.
