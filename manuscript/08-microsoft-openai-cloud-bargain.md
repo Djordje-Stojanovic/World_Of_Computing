@@ -1,7 +1,5 @@
 # 8. Microsoft, OpenAI, and the Cloud Bargain
 
-Source note: This is a first full Chapter 8 draft. It uses local captures of Microsoft/OpenAI partnership, supercomputer, GPT-3 license, Azure OpenAI Service, ChatGPT-on-Azure, Microsoft 365 Copilot, and GitHub Copilot sources. It treats Microsoft/OpenAI posts as company-attributed strategic framing, not neutral proof of revenue, productivity, adoption, market share, or model superiority. See `data/chapter8_microsoft_openai_chronology_i0113.tsv` and `data/chapter8_microsoft_openai_claim_audit_i0113.tsv`.
-
 ## The Backend Becomes The Plot
 
 The public saw a chat box. Microsoft saw a workload.
@@ -10,9 +8,17 @@ That difference explains why the Microsoft/OpenAI relationship belongs immediate
 
 Microsoft's bargain with OpenAI turned that substrate into strategy. It was not a simple investment story, and it was not only a research sponsorship. It was a conversion machine. OpenAI needed capital, compute, and a path from frontier models to products. Microsoft needed a way to make Azure, GitHub, Office, Windows, Bing, Dynamics, and enterprise software feel newly alive. The bargain joined those needs. A model lab got the cloud behind it. A cloud company got the model story in front of it.
 
+The bargain had three parts, and each one changed the plot. The capacity bargain said frontier models would need specialized cloud infrastructure before ordinary customers knew what to ask for. The distribution bargain said a model becomes more valuable when it appears inside tools people already use. The governance bargain said enterprise buyers would not buy wonder alone; they would need identity, permissions, data boundaries, logging, procurement, support, and someone accountable when the answer mattered.
+
 The stakes were larger than hosting. In the API era, a model could become infrastructure for other software. In the ChatGPT era, the infrastructure itself became part of the brand. If the model was slow, expensive, unreliable, unsafe, or hard to govern, the product promise broke. If the model could be served, governed, and embedded into work, the cloud stopped being a background utility and became the factory for a new computing interface.
 
 This chapter is about that factory bargain.
+
+## Drafting Controls
+
+Status: Microsoft/OpenAI cloud-bargain strengthening pass promoted in I-0155, 2026-05-26; first full Chapter 8 draft and I-0118 visual package preserved as source context.
+
+Source note: This chapter uses local captures of Microsoft/OpenAI partnership, supercomputer, GPT-3 license, Azure OpenAI Service, ChatGPT-on-Azure, Microsoft 365 Copilot, and GitHub Copilot sources. It treats Microsoft/OpenAI posts as company-attributed strategic framing, not neutral proof of revenue, productivity, adoption, market share, model superiority, customer ROI, workload volume, margin, or search-share effects. See `data/chapter8_microsoft_openai_chronology_i0113.tsv`, `data/chapter8_microsoft_openai_claim_audit_i0113.tsv`, and `data/chapter8_microsoft_openai_visual_package_i0118.tsv`.
 
 ## The 2019 Bet
 
@@ -131,6 +137,8 @@ The next chapters should preserve this split. Consumer search and workplace Copi
 Training gets the mythic attention: the giant run, the frontier model, the expensive cluster. But productized LLMs live or die through inference. Every user prompt creates a serving cost. Every longer context, tool call, retry, safety pass, or low-latency expectation turns model capability into a cloud economics problem.
 
 Microsoft's advantage was not only that it could help train models. It could help serve them, bill them, govern them, integrate them, and place them into products with existing customer relationships. That made the company unusually well positioned for a world where intelligence was sold by token, subscription, seat, cloud commitment, and product bundle.
+
+The word "rent" is useful because it keeps the economics physical. A model answer may feel like language, but the business behind it rents access to accelerators, memory bandwidth, networking, storage, safety passes, orchestration software, support teams, and power. Some of that rent is paid as API tokens. Some is hidden inside a subscription. Some is bundled into an enterprise suite. Some is absorbed as search or product cost. The meter changes, but the workload remains.
 
 The risk is equally important. If inference costs remain high, every generous product promise becomes a margin question. If users do not use the features deeply, the product becomes shelfware. If the model produces confident errors inside enterprise workflows, trust becomes expensive. If customers fear data exposure or compliance gaps, adoption slows. The cloud bargain turns model capability into business opportunity, but also into operational liability.
 
