@@ -1,22 +1,18 @@
 # 24. Next Token
 
-Status: first promoted draft, pass I-0146, 2026-05-26.
-
-Source note: This chapter is cross-book synthesis. It relies on the Chapter 24 scaffold, the final-system visual package, and the existing chapter/source/claim ledgers. It introduces no new external historical reporting and does not claim post-cutoff events, AGI, consciousness, settled model rankings, proven revenue, broad productivity gains, solved safety, autonomous engineering, energy-per-token estimates, or one inevitable winning path.
-
 The smallest act in this book was never a keynote, a benchmark, a lawsuit, a server rack, a venture round, or a product launch. It was a choice among possible next pieces of text.
 
 The machine saw a context and assigned probabilities to what might follow. Then it chose, sampled, or searched. A word fragment appeared. Another followed. Out of that small repetitive act came a paragraph, a reply, a program, a plan, a refusal, a citation, a hallucination, a diff, a customer-support draft, a benchmark answer, or a tool call. The act was statistical. The consequences were not small. [CH24SYN-001; CH24SYN-004]
 
 This is the last trick the subject plays on the reader. If the story is told from the inside of the model, it can sound deflationary: vectors, attention, loss, token prediction. If it is told from the outside of the market, it can sound mystical: machines that write, reason, code, and converse. The honest history sits between those two temptations. By the hard cutoff of May 24, 2026, next-token prediction had not become a mind. It had become a computing interface. [CH24SYN-006; CH24SYN-009]
 
+Status: promoted final-prose draft, pass I-0163, 2026-05-26. Source note: This chapter is cross-book synthesis. It relies on the Chapter 24 scaffold, the final-system visual package, and the existing chapter/source/claim ledgers. It introduces no new external historical reporting and does not claim post-cutoff events, AGI, consciousness, settled model rankings, proven revenue, broad productivity gains, solved safety, autonomous engineering, energy-per-token estimates, or one inevitable winning path.
+
 That distinction is the spine of the ending. An interface does not have to be conscious to change work. A spreadsheet did not understand finance. A browser did not understand publishing. A compiler did not understand the intentions of the programmer. But each made a set of actions newly cheap, visible, repeatable, and social. The LLM interface did something similar with language. It made text a control surface for computation.
 
 The opening shock of ChatGPT came from that conversion. A plain box on a screen made a long technical stack feel conversational. The user typed intent. The system answered in prose. Under the surface were tokens, pretraining, instruction tuning, safety layers, latency budgets, cloud infrastructure, and product choices. But the public experience was simpler and stranger: the computer could be addressed in ordinary language and could answer in kind. [C-0149; CH24SYN-002]
 
 The early chapters moved backward because the shock needed machinery under it. Sparse counts and hand-built features could not carry the whole future. Learned representations gave words neighborhoods. Sequence models carried state. Encoder-decoder systems exposed the pain of compression. Attention gave positions a route to other positions. The Transformer made that route repeatable, stackable, and unusually compatible with accelerator-era training. Scaling laws then turned model building into a wager that loss curves, data, parameters, and compute could be treated as a strategic surface. [C-0162; C-0148]
-
-Place Figure 24.1, `A-0108`, near this point. Caption rule: the map shows how next-token prediction became surrounded by data, architecture, training, products, tools, infrastructure, economics, evaluation, and trust. It is not proof that every layer was solved, equally mature, or causally sufficient by itself. [C-0164; CH24SYN-012]
 
 The stack that learned to speak was not one discovery. It was a chain of conversions. Data became token streams. Token streams became training examples. Architecture made context relational. Scale made loss predictable enough to finance bigger bets. Instruction tuning and RLHF changed raw continuation into assistant behavior. Chat interfaces made the capability legible to ordinary users. APIs and clouds made it distributable. Open weights made it portable and burdensome in new ways. Benchmarks made it comparable and easy to overread. [CH24SYN-005; CH24SYN-007]
 
@@ -31,8 +27,6 @@ Reasoning changed the timing. Earlier scaling stories focused on the cost of tra
 Economics changed the meter. The product could be sold by subscription, API call, token, cache hit, batch job, cloud commitment, enterprise wrapper, or bundled seat. None of those meters was the same as margin, revenue, ROI, or productivity. The book kept those claims separate because price is not profit and usage is not value. But the meters mattered anyway. They showed intelligence becoming a billable infrastructure service, and they showed why efficiency, routing, caching, distillation, and open-weight pressure became part of the story. [C-0154; CH24SYN-010]
 
 Trust changed the ending. Chapter 23 refused the easy move of treating failures as footnotes. Hallucination, sycophancy, jailbreaks, prompt injection, eval blind spots, provenance gaps, calibration, refusals, and system cards were not after-market concerns. They were the cost of turning fluent probability into institutional action. A model that can draft, summarize, code, retrieve, and call tools is not only a model. It is a trust problem with an interface. [C-0147; C-0152; CH24SYN-003]
-
-Place Figure 24.2, `A-0109`, after this synthesis. Caption rule: the five gates are overlapping pressures, not completed stages. Prediction became interface; interface became product; models became platforms; compute became infrastructure; fluency became trust work. None of those conversions was finished by the cutoff. [C-0164; CH24SYN-013]
 
 The gates are useful because they prevent a false timeline. Prediction did not become interface once and then stop. Every new product surface changed the meaning of prediction. Interface did not become product once and then stop. Chat, API, IDE, search, document editor, terminal, and agent harness each made a different bargain with the user. Model did not become platform once and then stop. OpenAI, Microsoft, Google, Anthropic, Meta, Mistral, xAI, Qwen, DeepSeek, GLM, Kimi, and others each tried to convert technical capability into distribution, control, price, trust, or ecosystem gravity under different constraints. [CH24SYN-002; CH24SYN-007]
 
@@ -58,8 +52,6 @@ This is why the ledgers behind the book matter even when the reader never sees t
 
 That stance should not make the prose timid. Restraint is not the opposite of force. It is what lets force survive contact with evidence. The strongest sentence is often the one that refuses one extra inch of drama. ChatGPT can be a shock without becoming proof of public panic. Claude Code can be important without proving autonomous software engineering. A data-center load forecast can matter without becoming destiny. A benchmark can reveal compression at the frontier without naming the permanent champion. A price table can explain the meter without exposing margin. A system card can be a primary source without becoming a guarantee. That is the book's contract with the reader. [CH24SYN-008; CH24SYN-011]
 
-Place Figure 24.3, `A-0110`, beside the unresolved-claims section. Caption rule: the board is a negative control, not a gesture of cynicism. It names claims that require same-scope evidence before the book can responsibly make them. [C-0164; CH24SYN-014]
-
 What, then, was still unsettled by the cutoff?
 
 Capability was unsettled. The field could show striking systems, rapid improvement, and model families that changed what users expected from software. It could not honestly turn a live leaderboard, vendor benchmark, or demo into a permanent crown. The best model depended on task, date, scaffold, tool access, budget, latency, safety policy, and user preference. A crown without those fields was theatre. [CH24SYN-010; CH24SYN-016]
@@ -76,23 +68,16 @@ Autonomy was unsettled. The most interesting systems were not merely answering. 
 
 Market power was unsettled. Open weights changed access but did not erase hosting burden, license constraints, safety work, evaluation needs, or ecosystem dependence. Closed APIs concentrated capability but did not make every customer outcome visible. Hyperscalers had distribution, chips, cloud, and product surfaces, but distribution did not automatically settle user trust or model quality. The race was not one race. It was a set of conversion problems under different constraints. [C-0165; C-0160; CH24SYN-011]
 
-Place Figure 24.4, `A-0111`, near the final turn if layout permits. Caption rule: the human-judgment loop does not guarantee correctness, safety, accountability, or autonomy. It shows where intent, model output, tools, evidence, audit, blockers, and decisions should meet. [C-0164; CH24SYN-015]
-
 The book therefore cannot end with a prophecy. Prophecy would be easier. It would let the final page say the machines became minds, or the labs became empires, or the agents replaced work, or the power grid broke, or the skeptics were fools, or the believers were dupes. The evidence does not deserve any of those endings. It deserves a harder sentence: by May 24, 2026, the world had built a powerful new computing interface around probabilistic text, and the work of understanding it had barely caught up with the work of using it. [CH24SYN-009; CH24SYN-011]
 
 Nor should the book end with a shrug. "Only autocomplete" is too small for what happened. The phrase is technically useful and historically insufficient. Autocomplete did not force companies to rebuild product roadmaps, cloud capacity, developer tools, model-release rituals, evaluation harnesses, pricing meters, data pipelines, security assumptions, and trust controls. The next-token objective remained a mechanism. Around it grew a system.
 
 That system did not arrive cleanly. It was assembled from research papers, code repositories, launch posts, model cards, benchmarks, cloud deals, procurement constraints, user habits, failures, policies, arguments, and capital spending. It was a scientific object and a product category. It was a software interface and an industrial demand. It was a new kind of text machine and an old kind of institution: ambitious, fragile, political, expensive, useful, error-prone, and hungry for justification.
 
-The final responsibility therefore returns to the human side of the interface. A user types. A model continues. A tool may act. A source may support or fail to support the answer. A company may claim more than the evidence proves. A benchmark may narrow the view. A price may hide the cost. A refusal may protect or merely frustrate. A fluent paragraph may help, flatter, mislead, or save time. The next token is not destiny. It is an invitation to decide what kind of system will be allowed to speak after it.
+The final responsibility therefore returns to the human side of the interface. A user types. A model continues. A tool may act. A source may support or fail to support the answer. A company may claim more than the evidence proves. A benchmark may narrow the view. A price may hide the cost. A refusal may protect or merely frustrate. A fluent paragraph may help, flatter, mislead, or save time.
+
+The next token is not destiny. It is a request for judgment.
 
 The race to build machines that learned language, code, and computing did not end at the cutoff. This book ends there because a history needs a boundary. Inside that boundary, the central fact is already large enough: prediction became interface; interface became work; work demanded infrastructure; infrastructure demanded money; money demanded metrics; metrics demanded trust; trust demanded judgment.
 
 A next token is small. Around it grew a machine for turning language into work. The machine was neither magic nor fraud. It was a stack of prediction, evidence, compute, incentives, products, tools, and human judgment. That was enough to change computing, and not enough to relieve anyone of the responsibility to understand what had been built. [CH24SYN-017]
-
-## Claim Audit Notes
-
-- Treat this chapter as synthesis over existing rows, not as new reporting.
-- Keep the cutoff sentence exact: the historical boundary is May 24, 2026.
-- Do not convert Chapter 24 figures into proof of consciousness, AGI, settled rankings, revenue, productivity, energy-per-token, solved trust, autonomy, labor replacement, or inevitability.
-- Keep "interface" as the central claim; do not anthropomorphize the model or write future-history after the cutoff.
