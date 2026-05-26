@@ -1,0 +1,10 @@
+check	status	note
+rewrite_count	pass	Rows 18, completed 18.
+chapter_scope_17_24	pass	Chapters touched: CH17,CH18,CH19,CH20,CH21,CH22,CH23,CH24.
+word_count_in_bounds	pass	Word count is 102454; delta -106.
+ending_word_delta_bounded	pass	Ending words 30755; delta -106.
+chapter_count_24	pass	Chapter count is 24.
+figure_callouts_preserved	pass	Figure callout count is 94.
+source_refs_not_reduced	pass	Source refs total 545; ending 131.
+no_future_history	pass	No explicit post-cutoff history introduced.
+row_delta_bounded	pass	Max row word delta is 16.

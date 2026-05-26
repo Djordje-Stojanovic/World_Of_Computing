@@ -1,0 +1,19 @@
+rewrite_id	chapter	kind	old_words	new_words	delta_words	status	reason
+SQF-001	CH17	voice	76	63	-13	rewritten	Remove meta phrasing and keep the provenance point moving.
+SQF-002	CH17	metaphor	82	73	-9	rewritten	Make the supply-chain metaphor more compact and memorable.
+SQF-003	CH17	clarity	79	70	-9	rewritten	Cut book-process phrasing and sharpen the lesson.
+SQF-004	CH18	rhythm	94	86	-8	rewritten	Reduce repeated sentence starts while keeping the mechanism sequence.
+SQF-005	CH18	precision	104	96	-8	rewritten	Compress the RAG explanation while preserving the source claim.
+SQF-006	CH18	voice	35	25	-10	rewritten	Remove production aspiration phrasing and tighten the claim.
+SQF-007	CH19	compression	63	58	-5	rewritten	Make the chapter contract smoother and less procedural.
+SQF-008	CH19	rhythm	92	90	-2	rewritten	Tighten the contest-programming explanation.
+SQF-009	CH19	voice	78	71	-7	rewritten	Reduce list rhythm and sharpen the developer-skill turn.
+SQF-010	CH20	clarity	86	77	-9	rewritten	Compress the terminal surface while keeping the stakes.
+SQF-011	CH20	precision	51	49	-2	rewritten	Make the autonomy caveat more decisive.
+SQF-012	CH20	voice	92	86	-6	rewritten	Cut repetition and keep the blocked-claim boundary.
+SQF-013	CH21	clarity	103	101	-2	rewritten	Tighten the chain-of-thought distinction.
+SQF-014	CH21	compression	98	98	0	rewritten	Improve cadence while preserving the comparison caveat.
+SQF-015	CH22	precision	59	57	-2	rewritten	Make the pricing caveat cleaner.
+SQF-016	CH22	rhythm	56	57	1	rewritten	Combine repetitive questions into a stronger economic turn.
+SQF-017	CH23	voice	99	83	-16	rewritten	Turn a checklist into prose without losing the audit standard.
+SQF-018	CH24	ending	61	62	1	rewritten	Give the final synthesis a stronger last beat.

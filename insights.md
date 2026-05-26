@@ -485,3 +485,7 @@ Opening-book polish should remove the writer's scaffolding before it adds orname
 ## 2026-05-26 - I-0278 Middle Prose
 
 Middle-book polish should make caveats feel like authority, not paperwork. The strongest edits compress repeated conditionals, cut production residue, and turn platform/infrastructure paragraphs into clean strategic motion while leaving source limits visible.
+
+## 2026-05-27 - I-0279 Ending Prose
+
+Ending-book polish should make restraint feel like earned authority. The strongest final-third edits compress caveat checklists into prose, keep agents and economics from overclaiming, and leave the reader with a sharper system-level synthesis rather than a bigger slogan.
