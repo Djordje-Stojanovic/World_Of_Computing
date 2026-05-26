@@ -250,3 +250,7 @@ The selected-100 exhibit program is strong but diagram-forward: 39 mechanism bea
 ## 2026-05-26 - I-0216 Caption Excellence Audit
 
 Caption excellence needs a contract before prose polish: one teaching sentence plus one provenance or caveat hook. The selected-100 audit found 33 contract-ok captions, but the real risk is beautiful concrete surfaces that mention adoption, rank, safety, cost, productivity, deployment, or autonomy without making the blocker visible at the point of use.
+
+## 2026-05-26 - I-0217 Source-Note Attribution QA
+
+Selected-100 provenance is structurally close but not publication-ready: 98 of 100 rows pass the source-note contract, while the remaining issues are exactly the kind that can slip through visual polish, a missing explicit S-0001 bridge for a GTC render and a selected-matrix/manifest status mismatch. Final source notes should carry source ID/path, creator, page/date, access date, rights status, and blocked claims together so captions can stay elegant.
