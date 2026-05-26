@@ -1,9 +1,5 @@
 # 17. Data, Tokens, and the Library Problem
 
-Status: first promoted draft, pass I-0121, 2026-05-26.
-
-Source note: This chapter uses existing source rows plus the I-0121 data/token source pack. It treats tokenization, web corpora, filtering, deduplication, memorization, and data curation as supply-chain mechanisms for LLMs, not as proof that any frontier lab disclosed its full training set. It blocks exact corpus composition, copyright/legal conclusions, contamination prevalence, memorization rates, and synthetic-data share claims until row-level extraction licenses them.
-
 ## The Library Before the Factory
 
 Before the AI factory could turn electricity into tokens, someone had to decide what counted as text.
@@ -15,6 +11,12 @@ The model did not read the library as a person reads. It did not walk through a 
 This chapter sits after datacenters because the physical story is incomplete without the library story. A gigawatt campus can train nothing if the corpus is bad, stale, contaminated, illegal to use, badly tokenized, or too narrow. It sits before the tools chapter because retrieval, function calling, and agents are partly responses to the limits of pretraining. If the model's internalized library is frozen, lossy, and opaque, tool use becomes a way to borrow fresher evidence at inference time.
 
 The library problem has three layers. First, language must be broken into pieces the machine can handle. Second, a corpus must be assembled from sources whose provenance, quality, duplication, and permissions are uneven. Third, the model must be trained without pretending that statistical exposure is the same thing as permission, knowledge, truth, or memory.
+
+Status: first promoted draft, pass I-0121, 2026-05-26. Data prose-beauty pass I-0160, 2026-05-26.
+
+Source note: This chapter uses existing source rows plus the I-0121 data/token source pack. It treats tokenization, web corpora, filtering, deduplication, memorization, and data curation as supply-chain mechanisms for LLMs, not as proof that any frontier lab disclosed its full training set. It blocks exact corpus composition, copyright/legal conclusions, contamination prevalence, memorization rates, and synthetic-data share claims until row-level extraction licenses them.
+
+Visual note: Figures A-0064 through A-0067 should make the supply chain visible: tokenization ladder, web-corpus filter funnel, data-mixture control board, and memorization/contamination blocker map. Their job is not decoration. They keep the reader from mistaking "data" for one substance.
 
 ## The Word Is Too Large
 
@@ -60,7 +62,9 @@ Closed frontier labs faced a different bargain. Full training-set disclosure cou
 
 This is why Chapter 17 should avoid exact corpus-composition claims for proprietary models unless a source row supports them. It is safe to say that web-scale corpora, books, code, documents, and curated mixtures became central to LLM training. It is not safe to say exactly what a closed model saw unless the lab, a paper, a model card, a legal filing, or a reproducible audit provides permission.
 
-Data mixtures are also narrative devices. A dataset is a choice about what world the model is asked to predict. Code teaches structure, APIs, tests, and error messages. Books teach long-form syntax and narrative. Wikipedia teaches encyclopedic style and cross-linking. Forums teach argument, slang, troubleshooting, and social mess. Academic papers teach compressed formality. Documentation teaches procedures. Synthetic examples teach obedience to tasks. The mixture is the model's childhood, but not in the sentimental sense. It is a curriculum made from extraction, filtering, and cost.
+Data mixtures are also narrative devices. A dataset is a choice about what world the model is asked to predict. Code teaches structure, APIs, tests, stack traces, and the terse habits of people who debug in public. Books teach long-form syntax, narrative pacing, argument, and quotation. Wikipedia teaches encyclopedic compression and cross-linking. Forums teach argument, slang, troubleshooting, and social mess. Academic papers teach compressed formality. Documentation teaches procedures. Tables teach brittle formats. Logs teach machine time. Synthetic examples teach obedience to tasks. The mixture is the model's childhood, but not in the sentimental sense. It is a curriculum made from extraction, filtering, and cost.
+
+This is why the data chapter needs a supply-chain frame rather than a pantry frame. Flour is not the right metaphor. A corpus is closer to a port: containers from many origins, labels of uneven quality, inspections that catch some hazards and miss others, perishable context, disputed ownership, duplicated cargo, and a final manifest that outsiders may never see. The model receives the shipment as tokens. The reader sees only the finished product and has to ask what moved through the dock.
 
 ## Duplication, Contamination, and the Echo Problem
 
@@ -106,7 +110,7 @@ The clean sentence is this: LLMs do not remember like people, but they can repro
 
 As the obvious web became more exhausted, more contested, or more heavily filtered, the frontier turned toward another library: model-generated data.
 
-Synthetic data can mean many things. It can be a model writing instruction-following examples. It can be a stronger model generating traces for a weaker model. It can be code problems, chain-of-thought-like rationales, preference pairs, simulated dialogues, tool-use trajectories, math solutions, or cleaned rewrites of messy source material. It can improve a model by making rare tasks abundant. It can also make the model world more self-referential.
+Synthetic data can mean many things. It can be a model writing instruction-following examples. It can be a stronger model generating traces for a weaker model. It can be code problems, chain-of-thought-like rationales, preference pairs, simulated dialogues, tool-use trajectories, math solutions, or cleaned rewrites of messy source material. It can look like a practice exam, a rehearsal, a lab-grown edge case, or a translation of messy human evidence into a form the training run can digest. It can improve a model by making rare tasks abundant. It can also make the model world more self-referential.
 
 This pass does not add a dedicated synthetic-data source row, so the prose must stay general and cautious. The supported claim is structural: by the mid-2020s, data was no longer only scraped human text; post-training and reasoning systems increasingly depended on generated examples, critiques, tool traces, and preference-like signals discussed elsewhere in the book. Exact synthetic-data shares for particular models remain blocked.
 
@@ -128,10 +132,10 @@ The data chapter's final claim is modest and central: LLMs are not trained on la
 
 The next chapter turns that last move into machinery. Retrieval, function calling, connectors, and agents are not departures from the data problem. They are what happens when the data problem becomes live.
 
-## Verification Tasks Before Next Promotion
+## What This Chapter Still Refuses
 
-- Extract exact tokenizer and vocabulary-size rows only if a Chapter 17 visual needs quantitative token examples.
-- Add a synthetic-data source pack before making model-specific claims about generated training data or distillation shares.
-- Add copyright/legal source rows only if the book later needs legal findings; this chapter currently treats rights as a provenance and trust constraint, not as legal adjudication.
-- Build a Chapter 17 visual package: tokenization ladder, web-corpus filter funnel, data-mixture control board, and memorization/contamination blocker map.
-- Reconcile Chapter 17 with Chapter 13 benchmark contamination caveats and Chapter 18 retrieval/tool-use mechanisms after Chapter 21 is drafted.
+The final discipline is to keep the missing rows visible. Exact tokenizer and vocabulary-size examples belong only where a figure has row-level support. Model-specific synthetic-data shares need a source pack before they become prose. Copyright and licensing belong here as provenance and trust constraints unless a later legal source pack licenses actual legal findings. Proprietary corpus composition remains blocked unless a paper, card, filing, audit, or lab disclosure makes the claim specific.
+
+The visual package already names the right four jobs: tokenization ladder, web-corpus filter funnel, data-mixture control board, and memorization/contamination blocker map. The remaining task is not to add more generic data art. It is to place those figures where they prevent mistakes: token counts are not words, cleaned web data is not clean truth, mixture boards are not closed-model recipes, and memorization evidence is not a universal leakage rate.
+
+Chapter 17 also has to keep shaking hands with its neighbors. Chapter 13 owns benchmark contamination from the scoreboard side. Chapter 17 owns contamination from the corpus side. Chapter 18 owns retrieval and tools as ways to bring evidence back at inference time. Chapter 21 owns reasoning and synthetic traces where test-time compute and generated curricula begin to overlap. The data chapter is the hinge: it shows that the model's apparent intelligence begins as a supply chain, not a spell.
