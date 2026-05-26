@@ -14,13 +14,14 @@ These never change. If a candidate violates any item, revert or reject it immedi
 
 - Factual cutoff: May 24, 2026. No post-cutoff event may be written as happened history. Announced roadmaps, expectations, and forecasts known by the cutoff may appear only with clear labels.
 - Topic: LLMs specifically. Include hardware, datacenters, power, CUDA, chips, CPUs, datasets, tools, coding agents, evaluation, and companies only where they explain LLM progress.
-- Final target: exactly 24 main chapters, >100,000 and <120,000 words, and **at least 100 curated visual/source exhibits** across charts, diagrams, photos, screenshots, extracted slides, paper-figure redraws, source-page screenshots, and short source-excerpt cards. Aim for 3-4 strong exhibit candidates per chapter on average, with final selection governed by truth, rights, legibility, and narrative value rather than count inflation.
+- Final target: exactly 24 main chapters, >100,000 and <120,000 words, **at least 100 curated charts/data/SVG/visualization exhibits**, and **50-75 real-world image exhibits** across people, labs, company/product surfaces, chips, machines, data centers, factories, source-page screenshots, PDF/page renders, presentation slides, annual-report pages, technical-report screenshots, documentation screenshots, paper-figure redraws, and short source-excerpt cards. Aim for 3-4 strong exhibit candidates per chapter on average, with final selection governed by truth, rights, legibility, aesthetic quality, diversity across the stack, and narrative value rather than count inflation.
 - Sourcing standard: investigative. No fabricated quotes, interviews, scenes, captions, leaked claims, or insider access.
 - Unsupported factual claim count must trend to zero and must be zero before done-enough.
 - Truth outranks beauty; beauty outranks completeness when both versions are equally true.
 - No generic "AI will change everything" futurism unless tightly grounded in sources available by the cutoff.
 - No robotics. No image/video diffusion history except brief contrast or context. No regulation/copyright/bureaucracy chapters except unavoidable brief context.
 - Private-use visuals may use found/company/presentation/screenshot material, but every asset must record provenance in `assets_manifest.tsv`.
+- The loop may download up to 50 real-world/source-media items per visual acquisition pass from Google, NVIDIA, DeepSeek, OpenAI, Anthropic, Meta, Microsoft, ASML, TSMC, Wikimedia, company sites, papers, PDFs, HTML pages, annual reports, presentations, newsrooms, blogs, documentation, and other relevant web sources. "Real-world image" includes photos and screenshots, but also page renders from PDFs, NVIDIA GTC presentations, DeepSeek papers/reports, company annual reports, technical reports, product pages, docs, and other real company/source surfaces. Downloaded PDFs, HTML, images, extracted page renders, and source screenshots should be kept locally in the workspace for book production, extraction, QA, and redraw/reference use, with URL, source ID, access date, file size, checksum, rights/use note, quality score, diversity role, story-fit note, and blocked-claim note recorded.
 - `GTC-2026-Keynote.pdf` is a major local source candidate for NVIDIA/GTC chapters; use it with page-level provenance.
 - Never overwrite `champion/` without a backup or clearly recorded replacement.
 - Never use destructive git operations. Never delete user files. Never leak secrets. Avoid irreversible edits.
@@ -49,7 +50,7 @@ GitHub remote:
 - Repository: `https://github.com/Djordje-Stojanovic/World_Of_Computing.git`
 - Branch: `main` is the durable autonomous-progress branch.
 - Never force-push. Never rewrite shared history. Never run destructive git commands.
-- Keep heavyweight/private-use media out of Git. Track provenance, captions, data tables, SVG/lightweight diagrams, source notes, and manuscripts; exclude rendered PDFs and large raster/video/audio assets unless the user explicitly changes this rule.
+- Keep heavyweight/private-use media out of Git by default while keeping it locally in the workspace for book production. Track provenance, captions, data tables, SVG/lightweight diagrams, source notes, and manuscripts; exclude rendered PDFs and large raster/video/audio assets from commits unless the user explicitly asks to commit them.
 
 ## 3. The Loop
 
@@ -88,9 +89,10 @@ Programmatic metrics:
 
 - Word count is >100,000 and <120,000.
 - Chapter count is exactly 24 main chapters.
-- Curated visual/source exhibit count is at least 100 across charts, diagrams, photos, screenshots, extracted slides, paper-figure redraws, source-page screenshots, and short source-excerpt cards.
+- Curated charts/data/SVG/visualization exhibit count is at least 100, separate from a 50-75 real-world image exhibit target spanning people, company/product surfaces, hardware, fabs, machines, data centers, PDF/page renders, presentation slides, annual-report pages, technical-report screenshots, documentation screenshots, and source imagery.
 - Every chapter has 3-4 strong exhibit candidates on average, while final layout may use fewer where prose rhythm or rights constraints demand restraint.
 - Every visual/source exhibit has caption, source/provenance, rights status, story purpose, and blocked-claim note.
+- Every downloaded source-media item has local path, original URL, source ID when applicable, access date, file size, checksum, rights/use note, extraction status, quality score, diversity role, story-fit note, and blocked-claim note before it is treated as an exhibit candidate.
 - Source density target is one citation per 150-250 words in factual/reporting-heavy sections.
 - Unsupported factual claim count trends to zero.
 - Primary-source ratio is tracked and raised when possible.
