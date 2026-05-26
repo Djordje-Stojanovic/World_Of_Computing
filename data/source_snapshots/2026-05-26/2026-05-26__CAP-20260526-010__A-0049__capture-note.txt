@@ -1,0 +1,13 @@
+Capture note for CAP-20260526-010 / A-0049.
+
+Target: https://arxiv.org/abs/2505.09388
+Source IDs: S-0027
+Intended artifact: private-use source screenshot for Qwen3 technical-report arXiv surface.
+Attempt date: 2026-05-26.
+Status: capture_blocked.
+
+Reason: the in-app browser backend reported unavailable for browser id iab. Local fallback checks found no Python playwright, selenium, pyppeteer, or PIL package and no msedge, chrome, chromium, or firefox executable on PATH. No screenshot raster was created.
+
+Allowed use after failure: provenance handle only. This note does not support exact quotes, Qwen 3.5 or 3.6 claims, benchmark superiority, adoption, open-weight impact, product availability, safety, or current-latest claims.
+
+Next action: retry browser capture when the in-app browser or another approved screenshot runtime is available.

@@ -1,0 +1,13 @@
+Capture note for CAP-20260526-008 / A-0053.
+
+Target: assets/source_docs/google_deepmind/S-0121_google-gemini-ai-launch-blog.html
+Source IDs: S-0121
+Intended artifact: private-use screenshot for Gemini launch product/research banner.
+Attempt date: 2026-05-26.
+Status: capture_blocked.
+
+Reason: the in-app browser backend reported unavailable for browser id iab. Local fallback checks found no Python playwright, selenium, pyppeteer, or PIL package and no msedge, chrome, chromium, or firefox executable on PATH. No screenshot raster was created.
+
+Allowed use after failure: provenance handle only. This note does not support exact quotes, benchmark superiority, model rank, adoption, revenue, Search-share effects, TPU superiority, safety, or current feature availability claims.
+
+Next action: retry browser capture when the in-app browser or another approved screenshot runtime is available.
