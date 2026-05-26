@@ -1,22 +1,26 @@
 # 1. The Shock
 
-Status: first promoted draft, pass I-0117, 2026-05-26.
-
-Source note: This opener uses source IDs and claim rows already normalized for Chapter 7, but its job is different. Chapter 1 frames the book's central question: how did next-token prediction become a general-purpose interface to language, code, work, and computing? It uses ChatGPT launch, adoption, and reception evidence only with metric firewalls and named-institution scope controls. It does not claim broad public panic, OpenAI-confirmed adoption totals, paid-user counts, revenue, or productivity outcomes.
-
 ## The Box That Was Too Easy
 
 The shock did not look like a shock.
 
-On November 30, 2022, OpenAI introduced ChatGPT as a conversational model, a sibling to InstructGPT, trained to follow instructions in a prompt and provide a detailed response. [S-0006] There was no dramatic hardware reveal, no consumer device in a hand, no blue-lit stage moment with a founder pulling the future from a pocket. The first artifact that mattered was almost embarrassingly plain: a box for typing.
+On November 30, 2022, OpenAI introduced ChatGPT as a conversational model, a sibling to InstructGPT, trained to follow instructions in a prompt and provide a detailed response. [S-0006] There was no dramatic hardware reveal. No consumer device appeared in a hand. No founder pulled the future from a pocket. The object that mattered was almost embarrassingly plain: an empty box for typing.
 
-That plainness was the rupture. The interface did not ask the public to understand transformers, loss curves, reinforcement learning from human feedback, tokenization, pretraining corpora, GPUs, datacenters, or benchmark tables. It asked for language. A user could type a question, a half-formed need, a classroom assignment, a legal-ish phrase, a line of code, a complaint, a recipe, a joke, a bug report, a poem, a sales email, or a confession of confusion. The machine answered in the same medium.
+That plainness was the rupture. The interface did not ask the public to understand transformers, loss curves, reinforcement learning from human feedback, tokenization, pretraining corpora, GPUs, datacenters, or benchmark tables. It asked for language. A user could type a question, a half-formed need, a classroom assignment, a legal-ish phrase, a line of code, a complaint, a recipe, a joke, a bug report, a poem, a sales email, or a confession of confusion. The machine answered in the same medium, with the eerie confidence of a system that had learned the shape of reply.
 
-For decades, computing had trained people to meet machines halfway. Learn the menu. Learn the syntax. Learn the file path. Learn the search query. Learn the command. ChatGPT inverted the first move. It let the user begin badly and still receive something shaped like help. The system was not always right. It was not always grounded. It could be glib, evasive, stale, overconfident, or wrong. But it was easy. Ease is a form of power.
+For decades, computing had trained people to meet machines halfway. Learn the menu. Learn the syntax. Learn the file path. Learn the search query. Learn the command. ChatGPT inverted the first move. It let the user begin badly and still receive something shaped like help. The system was not always right. It was not always grounded. It could be glib, evasive, stale, overconfident, or wrong. But it was easy, and ease is a form of power.
+
+The first surprise, then, was not that software had become omniscient. It had not. The surprise was that a fallible statistical machine could become useful enough, fast enough, to make schools, Q&A moderators, banks, programmers, executives, teachers, journalists, and bored late-night users ask the same practical question in different ways: what kind of object is this, and what do we do with it now?
 
 The book begins here not because ChatGPT invented the technology. It did not. The chapters that follow will move backward into language modeling, embeddings, attention, scaling, GPT-1, GPT-2, GPT-3, instruction tuning, RLHF, chips, data, tools, and code. ChatGPT matters as an opening scene because it converted a research trajectory into a public problem. The world did not meet a paper. It met an interface.
 
 The deepest question was hidden in the ordinary act of pressing return: how had next-token prediction become a way to operate computers?
+
+## Drafting Controls
+
+This chapter uses source IDs and claim rows already normalized for Chapter 7, but its job is different. Chapter 1 frames the book's central question: how did next-token prediction become a general-purpose interface to language, code, work, and computing? It uses ChatGPT launch, adoption, and reception evidence only with metric firewalls and named-institution scope controls. It does not claim broad public panic, OpenAI-confirmed adoption totals, paid-user counts, revenue, or productivity outcomes.
+
+Status: opener and ending rewrite promoted in pass I-0152, 2026-05-26; prior first promoted draft from pass I-0117 preserved as source context.
 
 ## A Machine Made Of Nexts
 
@@ -132,9 +136,8 @@ The first lesson is simple enough to fit inside the box and large enough to fill
 
 Before the world could get to that box, however, language modeling had to become a machine tradition. It had to pass through older statistical models, neural representations, word embeddings, recurrent bottlenecks, sequence-to-sequence translation, attention, and finally the Transformer. The next chapter starts there, before the shock, when the problem was still humbler and more stubborn: given language as it had already been written, could a machine learn enough structure to guess what should come next?
 
-## Verification Tasks Before Next Promotion
+## Handoff: Before The Box
 
-- Build a Chapter 1 visual package: ChatGPT shock chronology, token-to-answer schematic, and first-institutional-response/source chronology.
-- Capture a browser or archive-readable OpenAI ChatGPT launch page before direct quotation; shell capture returned HTTP 403 in I-0117.
-- Add a non-Chapter-7 opener QA pass to ensure Chapter 1 creates the central question while Chapter 7 remains the deeper interface/productization chapter.
-- Keep fastest-growing-app superlatives, OpenAI-confirmed adoption totals, paid-user counts, revenue, broad public panic, and productivity outcomes blocked unless row-specific sources are added.
+The shock, seen from the launch window, looked sudden. Seen from inside the machinery, it was the late public arrival of an older habit. Machines had been learning to guess language long before the web had a chat box. They had counted word frequencies, smoothed probabilities, embedded words in space, carried hidden states through sequences, translated sentences, attended across context, and finally scaled the Transformer until prediction began to look like conversation.
+
+That older story matters because it strips the launch of both myths at once. ChatGPT was not magic, and it was not trivial. It was a product-shaped threshold in a tradition of prediction. The next chapter starts before the shock, when the problem was humbler and more stubborn: given language as it had already been written, could a machine learn enough structure to guess what should come next?
