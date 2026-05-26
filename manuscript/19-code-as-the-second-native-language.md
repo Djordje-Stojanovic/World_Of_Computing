@@ -1,9 +1,5 @@
 # 19. Code as the Second Native Language
 
-Status: first promoted draft, pass I-0125, 2026-05-26.
-
-Source note: This draft uses existing source IDs from `sources.tsv` and the local coding-agent source captures already present in the workspace. It treats code models, coding assistants, and coding benchmarks as evidence for a changing work loop, not as proof that software engineering has been automated away. Exact productivity, adoption, live leaderboard, and model-superiority claims remain blocked until row-normalized evidence exists.
-
 ## The Language That Compiles
 
 Code was never merely another dataset. It was the strange twin of language: written by humans, read by humans, executed by machines, and punished by machines when it lied.
@@ -19,6 +15,8 @@ This was not magic. It was a different kind of literacy. Code on the public inte
 The most important word in that sentence is "associations." The model did not understand a codebase the way its maintainers understood it. It did not own the product, remember the pager history, or know which ugly helper existed because a customer depended on it. But it could learn enough statistical structure to make code feel newly conversational. The programmer's sentence became a possible patch.
 
 That is why code belongs near the center of the LLM story. It is where language stopped being only expression and became operation.
+
+Status: promoted continuity draft, pass I-0161, 2026-05-26. Source note: This draft uses existing source IDs from `sources.tsv` and the local coding-agent source captures already present in the workspace. It treats code models, coding assistants, and coding benchmarks as evidence for a changing work loop, not as proof that software engineering has been automated away. Exact productivity, adoption, live leaderboard, and model-superiority claims remain blocked until row-normalized evidence exists.
 
 ## From Snippet To Companion
 
@@ -61,6 +59,8 @@ AlphaCode also helped separate two questions that popular coverage often merges.
 That lesson flows directly into later coding agents and benchmark claims. Whenever a provider reports a coding score, the reader should ask: what did the model receive, what tools could it use, how many attempts were allowed, what scaffold wrapped it, what tests were visible, and what counted as success? The model is central, but the harness is part of the result.
 
 This is why Chapter 19 should not become a leaderboard chapter. Chapter 13 already explains the mirage of rank. Chapter 20 will explain the terminal-agent work loop. The role of this chapter is to show why code became the field's most legible proving ground. It combined language, formal structure, executable feedback, economic relevance, and personal stakes for the people building the software world.
+
+The distinction matters for the sequence. Chapter 18 explained the general harness: retrieval, tools, schemas, actions, observations, permissions, prompt injection. Chapter 19 explains why code was the domain where that harness could be judged with unusual sharpness. Chapter 20 can then become a case study in supervised repository work rather than a repeat of every earlier code-model milestone.
 
 Every programmer has felt the little betrayal of a program that does exactly what was written rather than what was meant. LLM coding tools entered that gap. They were trained on what people wrote, prompted by what people meant, and judged by what machines would accept.
 
@@ -108,6 +108,8 @@ This partiality defines the human role. The developer becomes a framer of tasks 
 
 That means prompt engineering in code is less about clever phrases and more about software process. Good tests are prompts. Clear errors are prompts. Repository instructions are prompts. Type systems, linters, CI checks, and review comments are prompts. They shape the model's path through the work. The better the engineering system, the better the agent can be supervised.
 
+That is the point at which code ceases to be merely an output format. The repository becomes a controlled environment for agency. The model can suggest, but the tests, types, branch, permissions, and reviewer decide how far the suggestion travels.
+
 The reverse is also true. A messy codebase can make a good model look foolish. If tests are absent, setup is fragile, naming is misleading, and conventions live only in human memory, the model must infer too much from too little. Coding agents therefore make technical debt newly visible. They do not only automate work; they reveal how much of the work was never written down.
 
 This is why Chapter 19 should end before Claude Code takes over the stage. The broad arc is now clear. Codex showed code as a language-model target. Copilot put that target inside the editor. AlphaCode showed sampling and judging in a contest setting. Code Llama and open code models spread the capability. SWE-bench and LiveCodeBench made evaluation more work-like and more contamination-aware. The repository became the prompt. Chapter 20 can now ask what happens when the model is not merely suggesting code at the cursor but operating in the terminal with tools, permissions, and a longer task loop.
@@ -130,10 +132,4 @@ That distance is where the rest of the book now stands. Tools made the text box 
 
 The second native language did not replace the first. It made the first more powerful. A user could say what they wanted. The machine could propose what might run. The world, in the form of tests, compilers, reviewers, users, and time, could answer back.
 
-## Verification Tasks Before Next Promotion
-
-- Add row-normalized local captures for OpenAI Codex and Codex paper sources before any exact HumanEval or model-size claims.
-- Add a benchmark-permission table for Chapter 19 that separates HumanEval, contest problems, SWE-bench, LiveCodeBench, and terminal benchmarks by task shape and contamination risk.
-- Reconcile Chapter 19, Chapter 18, and Chapter 20 in a continuity pass so the sequence reads as general tools, code-as-language, then Claude Code as repository-agent case study.
-- Build a Chapter 19 visual package: code-as-language ladder, editor-to-repo loop, benchmark ladder, and repository-as-prompt schematic.
-- Keep productivity, employment displacement, live coding leaderboards, broad replacement, and security quality claims blocked until same-scope evidence exists.
+The remaining editorial work should now sit beside the chapter rather than inside its ending: normalize OpenAI Codex and Codex paper captures before exact HumanEval or model-size claims, add the benchmark-permission table for HumanEval, contests, SWE-bench, LiveCodeBench, and terminal tasks, build the code-as-language visual package, and keep productivity, employment displacement, live leaderboards, broad replacement, and security-quality claims blocked until same-scope evidence exists.

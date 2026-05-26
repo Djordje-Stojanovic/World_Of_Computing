@@ -1,9 +1,5 @@
 # 20. Claude Code and the Industrialization of Pair Programming
 
-Status: first promoted draft, pass I-0004, 2026-05-24.
-
-Source note: This chapter draft uses source IDs from `sources.tsv`. It avoids private workplace anecdotes, unverified productivity claims, and benchmark triumphalism. Future passes should add source snapshots, firsthand workflow notes, and benchmark caveats before sharpening claims about adoption, enterprise use, or superiority over other coding agents.
-
 ## The Terminal Becomes A Colleague
 
 Autocomplete made the first generation of AI coding tools feel like a faster keyboard. The model waited at the cursor. It guessed the next line, the next block, the next test case. That was useful, and sometimes uncanny, but the unit of work remained small. The developer still carried the shape of the change in their head.
@@ -16,9 +12,11 @@ Claude Code belonged to the next phase because it treated software engineering a
 
 That shift made the product feel less like a helper and more like a junior colleague with shell access. The phrase is dangerous. A colleague has responsibility, memory, judgment, and accountability. A coding agent has a context window, tools, policies, and probabilistic behavior. But the social metaphor matters because it explains the new managerial burden. The developer was no longer only writing code. The developer was scoping work, granting permissions, reviewing diffs, deciding when to interrupt, and judging whether the agent had actually understood the system.
 
+Status: promoted continuity draft, pass I-0161, 2026-05-26. Source note: This chapter draft uses source IDs from `sources.tsv`. It avoids private workplace anecdotes, unverified productivity claims, and benchmark triumphalism. Future passes should add source snapshots, firsthand workflow notes, and benchmark caveats before sharpening claims about adoption, enterprise use, or superiority over other coding agents.
+
 ## From Prompt To Work Order
 
-The basic ergonomics of agentic coding are simple enough to hide their novelty. A user describes a change. The agent reads. It edits. It runs tests. It reports back. Underneath that loop are several hard problems.
+The basic ergonomics of agentic coding are simple enough to hide their novelty. A user describes a change. The agent reads. It edits. It runs tests. It reports back. Underneath that loop are several hard problems. Chapter 18 named those problems as tool agency in general. Chapter 19 showed why code made language operational. Here the two lines meet: the tool runner enters the software system and tries to leave behind an artifact that other tools can judge.
 
 First, context has to be selected. A repository is larger than a prompt. Claude Code documentation and best-practice materials emphasize context management because the model's useful attention is finite. [S-0022] [S-0049] The agent must decide which files, commands, conventions, and prior messages matter. A human developer does this through memory and project familiarity. An agent does it through search, file reads, tool calls, summaries, and whatever instructions the user or repository provides.
 
@@ -61,6 +59,8 @@ Claude Code made that tool world feel concrete. The terminal already is a plugbo
 That last category is the one the chapter must keep in view. Agentic coding is powerful because it can act. It is risky for the same reason.
 
 The plugboard image also helps explain why Claude Code belongs in a book about computing, not just a book about chatbots. The terminal is a user interface, but it is also an operating surface for the software supply chain. It speaks to version control, package registries, compilers, test runners, linters, deployment tools, cloud CLIs, database shells, and observability systems. When an LLM enters the terminal, it is not merely answering a developer. It is standing near the same levers the developer uses to change production systems.
+
+That nearness is why this chapter should not borrow the broad romance of "autonomy." The more accurate word is supervision. The agent may propose commands, inspect files, edit code, and rerun checks, but the system is valuable only when permission prompts, sandboxes, tests, branches, logs, and review keep the work legible.
 
 That makes permissions part of the narrative, not an appendix. Anthropic's security documentation describes Claude Code as read-only by default, with additional actions such as file edits, tests, and command execution requiring explicit permission. [S-0050] The same docs frame approval as direct user control and point to permission configuration for more detail. Those details are product-specific and may change, so the chapter should avoid pretending that a captured page freezes every future default. The durable point is architectural: agentic coding moved safety from content moderation into operating authority. The question became not only "What will the model say?" but "What may the model do?"
 
@@ -139,10 +139,4 @@ That is why this chapter belongs near the end of the book, after the model famil
 
 The future promised by coding agents is therefore less glamorous and more consequential than the demo. The machine will not simply write the program. It will change the cost of trying, the cadence of review, the shape of junior work, the value of tests, the importance of repository instructions, and the politics of who gets to approve code. The diff is the new conversation.
 
-## Verification Tasks Before Next Promotion
-
-- Snapshot Claude Code settings and permissions docs before quoting exact configuration behavior.
-- Add a small firsthand workflow note only if it is reproducible: task, repository state, commands allowed, model/version, diff, checks run, and failure modes.
-- Add benchmark caveats before any numeric SWE-bench, SWE-bench Verified, Terminal-bench, or LiveCodeBench comparison chart.
-- Add non-Anthropic coding-agent sources for Copilot, Cursor, Devin, OpenAI Codex, and open-source terminal agents before turning this into a full landscape chapter.
-- Build a visual workflow diagram for the repo-task lifecycle after the visual grammar pass.
+The remaining work belongs in the source and visual ledgers: snapshot Claude Code settings and permissions before exact configuration prose, add any firsthand workflow note only with reproducible task state, commands, model/version, diff, checks, and failures, normalize benchmark caveats before numeric SWE-bench, Terminal-bench, or LiveCodeBench charts, add non-Anthropic coding-agent sources before broad landscape claims, and build the repo-task lifecycle visual after the visual grammar pass.

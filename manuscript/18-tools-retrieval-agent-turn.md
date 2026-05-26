@@ -1,9 +1,5 @@
 # 18. Tools, Retrieval, and the Agent Turn
 
-Status: first promoted draft, pass I-0115, 2026-05-25.
-
-Source note: This chapter uses existing source IDs from `sources.tsv` plus the I-0115 tools/agents source pack. It treats retrieval, function calling, computer use, MCP, and planner/executor loops as tool-control surfaces, not as proof of reliable autonomy. It blocks adoption, productivity, safety, and broad "agents can do work" claims until separate benchmark, deployment, and incident rows exist.
-
 ## The Text Box Grows Hands
 
 The original ChatGPT miracle was still mostly a conversation. The model answered, refused, rewrote, summarized, translated, improvised, and explained. It could feel like a universal machine because language is the interface to so many human activities. But under the product glamour, the system was usually doing one old thing with astonishing fluency: receiving tokens and returning tokens.
@@ -15,6 +11,8 @@ Not outward in the science-fiction sense. No ghost entered the machine. What cha
 This is the agent turn. It is easy to overstate and easy to miss. Overstated, it becomes the familiar fantasy of autonomous digital workers silently completing whole jobs. Missed, it looks like just another developer feature: JSON schemas, connectors, retrieval indexes, plugins, and permission prompts. The truth is more interesting. The agent turn changed where intelligence appeared to live. Some of it remained inside the model weights. Some of it moved into context. Some of it moved into tools. Some of it moved into the harness that decided what the model was allowed to see and do.
 
 The result was not one invention. It was a stack: retrieval, tool description, action selection, observation, memory-like context, permissions, evaluation, and human review. [S-0038] [S-0044] [S-0055] Chapter 20 will follow that stack into coding, where the artifact is a diff and the judge can be a test. This chapter stays one level more general. It asks how the chat box became a tool runner.
+
+Status: promoted continuity draft, pass I-0161, 2026-05-26. Source note: This chapter uses existing source IDs from `sources.tsv` plus the I-0115 tools/agents source pack. It treats retrieval, function calling, computer use, MCP, and planner/executor loops as tool-control surfaces, not as proof of reliable autonomy. It blocks adoption, productivity, safety, and broad "agents can do work" claims until separate benchmark, deployment, and incident rows exist.
 
 ## Retrieval: Memory Without Memory
 
@@ -33,6 +31,8 @@ The better sentence is this: retrieval gave the next-token machine a way to borr
 That borrowing changed the economics of deployment. Fine-tuning asks an organization to bake patterns into a model. Retrieval asks it to maintain a corpus, an index, and a permissioned path from question to evidence. [S-0038] The second path is often more attractive because documents change faster than model weights. It is also more operationally demanding. The system now depends on ingestion pipelines, access control, embedding models, ranking, freshness, citation UX, and human governance. A weak RAG system can turn an organization's knowledge base into a fog machine.
 
 The most honest visual for this chapter is not a glowing brain connected to a database. It is a conveyor: user question, query rewriting, retrieval, filtering, ranking, context packing, generation, citation, audit. Each stage can fail. Each stage can be measured. That is why RAG belongs in the agent story. It taught the field to stop asking whether the model "knows" and start asking what evidence the whole system assembled for this answer.
+
+This also keeps the boundary with the next two chapters clean. Retrieval is not yet coding, and it is not yet a terminal agent. It is the first lesson in mediated agency: the answer depends on what the system chose to bring into the room.
 
 ## Function Calling: The Model As Router
 
@@ -119,6 +119,8 @@ The shift also explains why so many companies could plausibly claim to be in the
 
 That last sentence is not a joke. In the agent era, prose became infrastructure. Tool descriptions, system prompts, repository instructions, retrieval chunk titles, error messages, and policy text all shaped machine behavior. The next-token machine had learned to read the manuals. Now the manuals had to be written for the machine as well as the human.
 
+Chapter 19 takes that idea into software itself. In ordinary tools, prose tells the model how to call another system. In code, prose and machinery begin to share a workbench: comments, tests, issue descriptions, stack traces, function names, and shell output all become language the model can use to propose changes. The agent turn made the model a controller. Code made the controller's target unusually legible.
+
 ## What Changed, And What Did Not
 
 The agent turn changed the felt boundary of computing. Before, a user asked a model for words. After, a user could ask a model to help operate a system. That is the bridge from ChatGPT to Claude Code, from the text box to the terminal, from answer generation to supervised work.
@@ -129,10 +131,4 @@ The most important historical fact is that agency arrived as a system property. 
 
 That is why this chapter sits between the infrastructure chapters and the coding-agent chapters. The preceding chapters explain the models, rankings, GPUs, and physical systems that made capable inference possible. The next chapters show what happened when tool-using LLMs entered software work, reasoning loops, economics, and trust. Chapter 18 is the hinge. It is the moment the language machine stopped merely saying what might come next and began asking permission to try it.
 
-## Verification Tasks Before Next Promotion
-
-- Capture or normalize an official OpenAI function-calling source locally before exact quotation or schema-detail claims.
-- Build the Chapter 18 RAG/tool/agent loop visual package: retrieval conveyor, function-call boundary, and prompt-injection threat model.
-- Add Google/tool-use documentation or model-card rows if Chapter 18 later makes Gemini-specific tool claims.
-- Keep MCP adoption, computer-use reliability, agent productivity, and tool-safety claims blocked until independent ecosystem, benchmark, or incident evidence exists.
-- Reconcile Chapter 18 with Chapter 20 after Chapter 19 is drafted so the tools chapter teaches the general harness and the Claude Code chapter remains a case study.
+The remaining editorial work is no longer a chapter-ending to-do list. It belongs in the pass ledgers: normalize the OpenAI function-calling source before exact schema quotation, build the RAG/tool/prompt-injection visual package, add product-specific tool-use rows only where needed, and keep MCP adoption, computer-use reliability, agent productivity, and tool-safety claims blocked until same-scope evidence exists.
