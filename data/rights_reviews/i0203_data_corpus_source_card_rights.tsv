@@ -1,0 +1,9 @@
+review_id	card_id	source_ids	source_type	allowed_current_use	quote_limit_words	exact_excerpt_status	rights_status	blocked_until
+RQR-20260526-029	DATASC-0203-001	S-0043;S-0153;S-0154	repository and arXiv abstract local HTML	source-card planning and paraphrase-only private review	0	not_selected	needs_quote_review	exact excerpt, figure copy, and final card layout approval
+RQR-20260526-030	DATASC-0203-002	S-0155;S-0156;S-0261	arXiv abstract local HTML plus identified official web page	source-card planning and paraphrase-only private review	0	not_selected	needs_quote_review	local Common Crawl capture and exact excerpt/figure review
+RQR-20260526-031	DATASC-0203-003	S-0042;S-0157;S-0158	arXiv abstract local HTML	source-card planning and paraphrase-only private review	0	not_selected	needs_quote_review	component table/page extraction and exact excerpt review
+RQR-20260526-032	DATASC-0203-004	S-0160	arXiv abstract local HTML	source-card planning and paraphrase-only private review	0	not_selected	needs_quote_review	page-level claim extraction and figure/redraw rights review
+RQR-20260526-033	DATASC-0203-005	S-0161;S-0162	arXiv abstract local HTML	source-card planning and paraphrase-only private review	0	not_selected	needs_quote_review	definition extraction and quote/figure rights review
+RQR-20260526-034	DATASC-0203-006	S-0159;S-0262	Hugging Face local HTML plus identified arXiv paper	source-card planning and paraphrase-only private review	0	not_selected	needs_quote_review	FineWeb paper capture and exact method/table extraction
+RQR-20260526-035	DATASC-0203-007	S-0266	identified arXiv paper	source-card planning only	0	not_selected	needs_capture	local capture and quote/page review
+RQR-20260526-036	DATASC-0203-008	S-0267	identified arXiv paper	source-card planning only	0	not_selected	needs_capture	local capture and quote/page review
