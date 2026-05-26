@@ -242,3 +242,7 @@ Data-to-code visuals need a rising system: data materiality becomes selected con
 ## 2026-05-26 - I-0214 Late-Book Constraint Chain
 
 The final quarter should feel like one tightening constraint chain, not four appendices: reasoning spends at answer time, economics meters and routes the spending, trust audits whether the result deserves authority, and the finale returns judgment to people. Negative-control boards are useful reserves, but the visible ending should carry mechanism, pressure, and responsibility rather than ledger apparatus.
+
+## 2026-05-26 - I-0215 Visual Rhythm Board
+
+The selected-100 exhibit program is strong but diagram-forward: 39 mechanism beats, 25 source-texture beats, 15 comparison beats, 11 evidence beats, and 10 scene beats. The global mix is workable, but local monotony is the real design risk: early chapters need source/scene relief, Chapter 7 and 16 need source-texture spacing, Chapter 13 needs comparison interruption, and the late-book mechanism run needs human/source texture before final render.
