@@ -1,0 +1,7 @@
+action_id	priority	chapters	action_type	reason	next_artifact
+EQA-0187-001	P0	2;3;4;5	add_source_texture	These four early technical chapters sit below the 3-exhibit quota in the I-0182 selected matrix.	source-excerpt card package and canonical paper redraw shortlist
+EQA-0187-002	P0	15;16	prune_overfull_hardware	The GTC/infrastructure chapters carry 16 selected exhibits together and risk visual crowding.	GTC choose/drop board and Chapter 16 spread-render QA
+EQA-0187-003	P0	7;9;10;11;12;18;19;20	execute_selected_captures	These chapters have product/source screenshots selected but not publication-ready.	screenshot hash and rights-review execution pass
+EQA-0187-004	P1	14;16	verify_photo_rights	Physical texture is valuable only after exact license, author, revision, and attribution are recorded.	photo license proof and final download/hash pass
+EQA-0187-005	P1	8;17;21;22;23;24	render_density_check	These chapters are on target but diagram-heavy, so render QA should decide whether one source/photo surface replaces a schematic.	per-chapter spread QA after first full-art layout
+EQA-0187-006	P2	all	chapter_average_guard	The top-100 average is 4.17 selected exhibits per chapter; final layout should use this as a ceiling, not a command to print every row.	final-art placement audit after capture rights gates
