@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">GTC page 29 is NVIDIA framing</title>
+  <desc id="desc">Paraphrase-first source card for NVIDIA GTC 2026 page 29, treating the AI factory thesis as attributed stagecraft rather than independent evidence.</desc>
+  <style>.bg{fill:#f7f5ef}.ink{fill:#20242a}.muted{fill:#5f6872}.band{fill:#3d341c}.panel{fill:#fffdf7;stroke:#d8d2c5;stroke-width:2}.box{fill:#f3ead7;stroke:#b7791f;stroke-width:2}.warn{fill:#fff0ec;stroke:#c2412d;stroke-width:2}.title{font-family:Arial,Helvetica,sans-serif;font-size:38px;font-weight:700}.label{font-family:Arial,Helvetica,sans-serif;font-size:23px;font-weight:700}.small{font-family:Arial,Helvetica,sans-serif;font-size:18px}.tiny{font-family:Arial,Helvetica,sans-serif;font-size:14px}</style>
+  <rect class="bg" width="1200" height="760"/><rect class="band" width="1200" height="46"/><text class="tiny" x="60" y="30" fill="#ffffff">SOURCE CARD / CHAPTER 15 / DIRECT QUOTE: NO</text>
+  <text class="title ink" x="60" y="95">GTC page 29 is NVIDIA framing</text>
+  <text class="small muted" x="60" y="132">Use the slide as a source-actor thesis: NVIDIA tells the audience how it wants the AI factory understood.</text>
+  <rect class="panel" x="70" y="190" width="1060" height="318" rx="8"/>
+  <rect class="box" x="120" y="245" width="290" height="120" rx="8"/><text class="label ink" x="155" y="290">Actor</text><text class="small muted" x="155" y="322">NVIDIA stage</text>
+  <rect class="box" x="455" y="245" width="290" height="120" rx="8"/><text class="label ink" x="490" y="290">Thesis</text><text class="small muted" x="490" y="322">AI factory framing</text>
+  <rect class="box" x="790" y="245" width="290" height="120" rx="8"/><text class="label ink" x="825" y="290">Limit</text><text class="small muted" x="825" y="322">not independent proof</text>
+  <text class="small ink" x="120" y="435">This card can replace a raw slide when the page needs attribution more than spectacle.</text>
+  <rect class="warn" x="70" y="555" width="1060" height="82" rx="8"/><text class="small ink" x="100" y="590">Blocker: no neutral industry definition, deployed capacity, revenue, economics, or performance proof.</text><text class="tiny muted" x="100" y="617">Source: S-0001, GTC-2026-Keynote.pdf page 29. Paraphrase-only card; no slide text or image copied.</text>
+</svg>

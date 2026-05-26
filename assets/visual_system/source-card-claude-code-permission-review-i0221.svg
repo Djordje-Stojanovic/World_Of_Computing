@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Claude Code needs permissions and review</title>
+  <desc id="desc">Paraphrase-first source card for Claude Code launch and documentation surfaces, emphasizing workflow controls over productivity claims.</desc>
+  <style>.bg{fill:#f7f5ef}.ink{fill:#20242a}.muted{fill:#5f6872}.band{fill:#3d334f}.panel{fill:#fffdf7;stroke:#d8d2c5;stroke-width:2}.box{fill:#eeeafd;stroke:#6d5bd0;stroke-width:2}.warn{fill:#fff0ec;stroke:#c2412d;stroke-width:2}.title{font-family:Arial,Helvetica,sans-serif;font-size:38px;font-weight:700}.label{font-family:Arial,Helvetica,sans-serif;font-size:23px;font-weight:700}.small{font-family:Arial,Helvetica,sans-serif;font-size:18px}.tiny{font-family:Arial,Helvetica,sans-serif;font-size:14px}</style>
+  <rect class="bg" width="1200" height="760"/><rect class="band" width="1200" height="46"/><text class="tiny" x="60" y="30" fill="#ffffff">SOURCE CARD / CHAPTER 20 / DIRECT QUOTE: NO</text>
+  <text class="title ink" x="60" y="95">Claude Code needs permissions and review</text>
+  <text class="small muted" x="60" y="132">The useful source surface is the workflow contract: task, repo, tool permission, edit, test, review.</text>
+  <rect class="panel" x="70" y="190" width="1060" height="318" rx="8"/>
+  <rect class="box" x="120" y="240" width="220" height="120" rx="8"/><text class="label ink" x="155" y="287">Task</text><text class="small muted" x="155" y="320">what to change</text>
+  <rect class="box" x="380" y="240" width="220" height="120" rx="8"/><text class="label ink" x="415" y="287">Permission</text><text class="small muted" x="415" y="320">what may run</text>
+  <rect class="box" x="640" y="240" width="220" height="120" rx="8"/><text class="label ink" x="675" y="287">Review</text><text class="small muted" x="675" y="320">what changed</text>
+  <text class="small ink" x="120" y="432">Use docs as workflow evidence, not a claim that agentic coding is solved.</text>
+  <rect class="warn" x="70" y="555" width="1060" height="82" rx="8"/><text class="small ink" x="100" y="590">Blocker: no developer replacement, enterprise productivity, autonomy, or security sufficiency claim.</text><text class="tiny muted" x="100" y="617">Sources: S-0048, S-0049, S-0050, S-0051. Paraphrase-only card; no docs screenshot copied.</text>
+</svg>

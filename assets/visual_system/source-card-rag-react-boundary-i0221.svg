@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Retrieval and action are different promises</title>
+  <desc id="desc">Paraphrase-first source card distinguishing RAG evidence retrieval from ReAct action and observation loops.</desc>
+  <style>.bg{fill:#f7f5ef}.ink{fill:#20242a}.muted{fill:#5f6872}.band{fill:#20344a}.panel{fill:#fffdf7;stroke:#d8d2c5;stroke-width:2}.rag{fill:#e7f3ed;stroke:#0f8b6f;stroke-width:2}.act{fill:#e7eff8;stroke:#2563eb;stroke-width:2}.warn{fill:#fff0ec;stroke:#c2412d;stroke-width:2}.title{font-family:Arial,Helvetica,sans-serif;font-size:38px;font-weight:700}.label{font-family:Arial,Helvetica,sans-serif;font-size:23px;font-weight:700}.small{font-family:Arial,Helvetica,sans-serif;font-size:18px}.tiny{font-family:Arial,Helvetica,sans-serif;font-size:14px}</style>
+  <rect class="bg" width="1200" height="760"/><rect class="band" width="1200" height="46"/><text class="tiny" x="60" y="30" fill="#ffffff">SOURCE CARD / CHAPTER 18 / DIRECT QUOTE: NO</text>
+  <text class="title ink" x="60" y="95">Retrieval and action are different promises</text>
+  <text class="small muted" x="60" y="132">One line brings evidence into context; another lets a model act, observe, and revise.</text>
+  <rect class="panel" x="70" y="190" width="1060" height="318" rx="8"/>
+  <rect class="rag" x="130" y="245" width="330" height="140" rx="8"/><text class="label ink" x="165" y="295">Retrieval lane</text><text class="small muted" x="165" y="328">find, cite, condition</text>
+  <rect class="act" x="560" y="245" width="330" height="140" rx="8"/><text class="label ink" x="595" y="295">Action lane</text><text class="small muted" x="595" y="328">act, observe, update</text>
+  <text class="small ink" x="130" y="435">The card keeps grounding and agency separate before the chapter asks what tools can safely do.</text>
+  <rect class="warn" x="70" y="555" width="1060" height="82" rx="8"/><text class="small ink" x="100" y="590">Blocker: no complete factuality, production reliability, broad planning competence, or autonomous operation.</text><text class="tiny muted" x="100" y="617">Sources: S-0038, S-0135. Paraphrase-only card; no paper examples copied.</text>
+</svg>

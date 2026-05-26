@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Coding benchmarks are harnesses</title>
+  <desc id="desc">Paraphrase-first source card showing SWE-bench and LiveCodeBench as scoped evaluation surfaces rather than productivity or replacement evidence.</desc>
+  <style>.bg{fill:#f7f5ef}.ink{fill:#20242a}.muted{fill:#5f6872}.band{fill:#24324a}.panel{fill:#fffdf7;stroke:#d8d2c5;stroke-width:2}.box{fill:#e7eff8;stroke:#2563eb;stroke-width:2}.warn{fill:#fff0ec;stroke:#c2412d;stroke-width:2}.title{font-family:Arial,Helvetica,sans-serif;font-size:38px;font-weight:700}.label{font-family:Arial,Helvetica,sans-serif;font-size:23px;font-weight:700}.small{font-family:Arial,Helvetica,sans-serif;font-size:18px}.tiny{font-family:Arial,Helvetica,sans-serif;font-size:14px}</style>
+  <rect class="bg" width="1200" height="760"/><rect class="band" width="1200" height="46"/><text class="tiny" x="60" y="30" fill="#ffffff">SOURCE CARD / CHAPTER 13 OR 20 / DIRECT QUOTE: NO</text>
+  <text class="title ink" x="60" y="95">Coding benchmarks are harnesses</text>
+  <text class="small muted" x="60" y="132">A coding score depends on task source, repository context, scaffold, tools, attempts, and evaluator rules.</text>
+  <rect class="panel" x="70" y="188" width="1060" height="325" rx="8"/>
+  <rect class="box" x="115" y="235" width="250" height="105" rx="8"/><text class="label ink" x="151" y="278">Tasks</text><text class="small muted" x="151" y="310">issues, tests, edits</text>
+  <rect class="box" x="405" y="235" width="250" height="105" rx="8"/><text class="label ink" x="441" y="278">Scaffold</text><text class="small muted" x="441" y="310">prompt, tools, retries</text>
+  <rect class="box" x="695" y="235" width="250" height="105" rx="8"/><text class="label ink" x="731" y="278">Metric</text><text class="small muted" x="731" y="310">pass conditions</text>
+  <text class="small ink" x="120" y="420">The exhibit is a permission device: it tells the reader what must be named before a score means anything.</text>
+  <rect class="warn" x="70" y="555" width="1060" height="82" rx="8"/><text class="small ink" x="100" y="590">Blocker: no productivity proof, secure-code claim, developer replacement, or live coding crown.</text><text class="tiny muted" x="100" y="617">Sources: S-0035, S-0037. Paraphrase-only card; no benchmark table or leaderboard copied.</text>
+</svg>

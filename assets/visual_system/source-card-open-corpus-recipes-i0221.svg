@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Open recipes expose choices</title>
+  <desc id="desc">Paraphrase-first source card for RefinedWeb, RedPajama, and SlimPajama as public corpus recipe surfaces with explicit caveats.</desc>
+  <style>.bg{fill:#f7f5ef}.ink{fill:#20242a}.muted{fill:#5f6872}.band{fill:#163a35}.panel{fill:#fffdf7;stroke:#d8d2c5;stroke-width:2}.tab{fill:#e7f3ed;stroke:#0f8b6f;stroke-width:2}.warn{fill:#fff0ec;stroke:#c2412d;stroke-width:2}.title{font-family:Arial,Helvetica,sans-serif;font-size:38px;font-weight:700}.label{font-family:Arial,Helvetica,sans-serif;font-size:23px;font-weight:700}.small{font-family:Arial,Helvetica,sans-serif;font-size:18px}.tiny{font-family:Arial,Helvetica,sans-serif;font-size:14px}</style>
+  <rect class="bg" width="1200" height="760"/><rect class="band" width="1200" height="46"/><text class="tiny" x="60" y="30" fill="#ffffff">SOURCE CARD / CHAPTER 17 / DIRECT QUOTE: NO</text>
+  <text class="title ink" x="60" y="95">Open recipes expose choices</text>
+  <text class="small muted" x="60" y="132">Public dataset recipes show filters, mixtures, deduplication, and documentation limits.</text>
+  <rect class="panel" x="70" y="190" width="1060" height="318" rx="8"/>
+  <rect class="tab" x="115" y="245" width="260" height="125" rx="8"/><text class="label ink" x="150" y="292">RefinedWeb</text><text class="small muted" x="150" y="325">web-data recipe</text>
+  <rect class="tab" x="430" y="245" width="260" height="125" rx="8"/><text class="label ink" x="465" y="292">RedPajama</text><text class="small muted" x="465" y="325">reconstruction recipe</text>
+  <rect class="tab" x="745" y="245" width="260" height="125" rx="8"/><text class="label ink" x="780" y="292">SlimPajama</text><text class="small muted" x="780" y="325">filtered subset</text>
+  <text class="small ink" x="115" y="435">Use as evidence of disclosed choices, not a window into every closed frontier corpus.</text>
+  <rect class="warn" x="70" y="555" width="1060" height="82" rx="8"/><text class="small ink" x="100" y="590">Blocker: no exact replication, legality, model-quality proof, adoption impact, or full transparency claim.</text><text class="tiny muted" x="100" y="617">Sources: S-0263, S-0264, S-0265. Paraphrase-only card; final source snapshots needed before public layout.</text>
+</svg>

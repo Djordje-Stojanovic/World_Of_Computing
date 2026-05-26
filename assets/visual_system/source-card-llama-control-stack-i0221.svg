@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Open weights are a control stack</title>
+  <desc id="desc">Paraphrase-first source card for Chapter 10 showing Llama release posts and repository surfaces as access and burden evidence, not adoption or benchmark evidence.</desc>
+  <style>.bg{fill:#f7f5ef}.ink{fill:#20242a}.muted{fill:#5f6872}.band{fill:#20352f}.panel{fill:#fffdf7;stroke:#d8d2c5;stroke-width:2}.tab{fill:#e7f3ed;stroke:#0f8b6f;stroke-width:2}.warn{fill:#fff0ec;stroke:#c2412d;stroke-width:2}.title{font-family:Arial,Helvetica,sans-serif;font-size:38px;font-weight:700}.label{font-family:Arial,Helvetica,sans-serif;font-size:23px;font-weight:700}.small{font-family:Arial,Helvetica,sans-serif;font-size:18px}.tiny{font-family:Arial,Helvetica,sans-serif;font-size:14px}</style>
+  <rect class="bg" width="1200" height="760"/><rect class="band" x="0" y="0" width="1200" height="46"/>
+  <text class="tiny" x="60" y="30" fill="#ffffff">SOURCE CARD / CHAPTER 10 / DIRECT QUOTE: NO</text>
+  <text class="title ink" x="60" y="95">Open weights are a control stack</text>
+  <text class="small muted" x="60" y="132">Release posts and repositories expose different layers: weights, license terms, code paths, and user burden.</text>
+  <rect class="panel" x="70" y="185" width="1060" height="320" rx="8"/>
+  <rect class="tab" x="110" y="230" width="220" height="110" rx="8"/><text class="label ink" x="142" y="274">Release surface</text><text class="small muted" x="142" y="306">Meta posts frame</text><text class="small muted" x="142" y="332">the family.</text>
+  <rect class="tab" x="380" y="230" width="220" height="110" rx="8"/><text class="label ink" x="416" y="274">Repository</text><text class="small muted" x="416" y="306">Distribution becomes</text><text class="small muted" x="416" y="332">developer work.</text>
+  <rect class="tab" x="650" y="230" width="220" height="110" rx="8"/><text class="label ink" x="688" y="274">Access</text><text class="small muted" x="688" y="306">Open is several</text><text class="small muted" x="688" y="332">permissions.</text>
+  <rect class="tab" x="110" y="370" width="760" height="85" rx="8"/><text class="small ink" x="145" y="418">Use the card to show control transfer, not to crown a model or prove adoption.</text>
+  <rect class="warn" x="70" y="555" width="1060" height="82" rx="8"/><text class="small ink" x="100" y="590">Blocker: open weights are not open source, user counts, safety, benchmark superiority, or ecosystem dominance.</text><text class="tiny muted" x="100" y="617">Sources: S-0111, S-0112, S-0113, S-0114. Paraphrase-only card; no source text or repository screenshot copied.</text>
+</svg>

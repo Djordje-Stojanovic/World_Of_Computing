@@ -266,3 +266,7 @@ SVG source-file QA should separate scale defects from proof defects. The selecte
 ## 2026-05-26 - I-0220 Screenshot And Source-Surface Legibility QA
 
 Screenshot readiness is much weaker than screenshot provenance: among 26 selected source/photo/screenshot/slide rows, only A-0004 has a hashed high-resolution private raster, and even it needs crop, small-type, rights, and page-proof review. Hash-recorded HTML source surfaces are production handles, not book-grade images; the next useful work is capture-or-convert decisions, with weak screenshot slots becoming source cards rather than quiet placeholders.
+
+## 2026-05-26 - I-0221 Source-Excerpt Card Batch
+
+Source cards work best as paraphrase-first evidence objects, not decorative quotations. Ten new lightweight SVG cards add source texture where screenshots or dense diagrams are weak, but their publication gate is still page proof plus source-note proximity; direct quotes stayed at zero words, which is the cleanest way to gain texture without adding copyright or context debt.

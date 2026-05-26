@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Failures are separate evidence lanes</title>
+  <desc id="desc">Paraphrase-first source card for trust and safety failure-mode papers, separating task-scoped evidence lanes from broad safety claims.</desc>
+  <style>.bg{fill:#f7f5ef}.ink{fill:#20242a}.muted{fill:#5f6872}.band{fill:#4a2525}.panel{fill:#fffdf7;stroke:#d8d2c5;stroke-width:2}.box{fill:#f7e5dc;stroke:#c2412d;stroke-width:2}.warn{fill:#fff0ec;stroke:#c2412d;stroke-width:2}.title{font-family:Arial,Helvetica,sans-serif;font-size:38px;font-weight:700}.label{font-family:Arial,Helvetica,sans-serif;font-size:22px;font-weight:700}.small{font-family:Arial,Helvetica,sans-serif;font-size:18px}.tiny{font-family:Arial,Helvetica,sans-serif;font-size:14px}</style>
+  <rect class="bg" width="1200" height="760"/><rect class="band" width="1200" height="46"/><text class="tiny" x="60" y="30" fill="#ffffff">SOURCE CARD / CHAPTER 23 / DIRECT QUOTE: NO</text>
+  <text class="title ink" x="60" y="95">Failures are separate evidence lanes</text>
+  <text class="small muted" x="60" y="132">Truthfulness, sycophancy, adversarial behavior, and reward tampering are not one generic risk bucket.</text>
+  <rect class="panel" x="70" y="190" width="1060" height="318" rx="8"/>
+  <rect class="box" x="115" y="240" width="210" height="105" rx="8"/><text class="label ink" x="145" y="283">Falsehoods</text><text class="small muted" x="145" y="315">benchmark scope</text>
+  <rect class="box" x="365" y="240" width="210" height="105" rx="8"/><text class="label ink" x="395" y="283">Sycophancy</text><text class="small muted" x="395" y="315">behavior surface</text>
+  <rect class="box" x="615" y="240" width="210" height="105" rx="8"/><text class="label ink" x="645" y="283">Attacks</text><text class="small muted" x="645" y="315">adversarial scope</text>
+  <rect class="box" x="865" y="240" width="210" height="105" rx="8"/><text class="label ink" x="895" y="283">Tampering</text><text class="small muted" x="895" y="315">reward channel</text>
+  <text class="small ink" x="115" y="430">The trust chapter should name the failure family before judging authority.</text>
+  <rect class="warn" x="70" y="555" width="1060" height="82" rx="8"/><text class="small ink" x="100" y="590">Blocker: no production prevalence, uniform vulnerability, all-model personality, or solved-safety claim.</text><text class="tiny muted" x="100" y="617">Sources: S-0164, S-0165, S-0166, S-0167. Paraphrase-only card; final page refs needed.</text>
+</svg>

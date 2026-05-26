@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Reasoning methods spend inference</title>
+  <desc id="desc">Paraphrase-first source card labeling reasoning methods as inference procedures rather than proof of human-like thought or truth.</desc>
+  <style>.bg{fill:#f7f5ef}.ink{fill:#20242a}.muted{fill:#5f6872}.band{fill:#22314a}.panel{fill:#fffdf7;stroke:#d8d2c5;stroke-width:2}.box{fill:#e7eff8;stroke:#2563eb;stroke-width:2}.warn{fill:#fff0ec;stroke:#c2412d;stroke-width:2}.title{font-family:Arial,Helvetica,sans-serif;font-size:38px;font-weight:700}.label{font-family:Arial,Helvetica,sans-serif;font-size:22px;font-weight:700}.small{font-family:Arial,Helvetica,sans-serif;font-size:18px}.tiny{font-family:Arial,Helvetica,sans-serif;font-size:14px}</style>
+  <rect class="bg" width="1200" height="760"/><rect class="band" width="1200" height="46"/><text class="tiny" x="60" y="30" fill="#ffffff">SOURCE CARD / CHAPTER 21 / DIRECT QUOTE: NO</text>
+  <text class="title ink" x="60" y="95">Reasoning methods spend inference</text>
+  <text class="small muted" x="60" y="132">The methods differ, but the chapter job is the same: more procedure at answer time.</text>
+  <rect class="panel" x="70" y="190" width="1060" height="318" rx="8"/>
+  <rect class="box" x="115" y="240" width="210" height="105" rx="8"/><text class="label ink" x="145" y="283">CoT</text><text class="small muted" x="145" y="315">intermediate steps</text>
+  <rect class="box" x="365" y="240" width="210" height="105" rx="8"/><text class="label ink" x="395" y="283">Sample</text><text class="small muted" x="395" y="315">many answers</text>
+  <rect class="box" x="615" y="240" width="210" height="105" rx="8"/><text class="label ink" x="645" y="283">Process</text><text class="small muted" x="645" y="315">supervision</text>
+  <rect class="box" x="865" y="240" width="210" height="105" rx="8"/><text class="label ink" x="895" y="283">Search</text><text class="small muted" x="895" y="315">tree paths</text>
+  <text class="small ink" x="115" y="430">Use method labels; avoid quoting examples until page context and hidden-chain caveats are checked.</text>
+  <rect class="warn" x="70" y="555" width="1060" height="82" rx="8"/><text class="small ink" x="100" y="590">Blocker: no faithful explanation, truth guarantee, universal improvement, solved planning, or human-like thought.</text><text class="tiny muted" x="100" y="617">Sources: S-0170, S-0171, S-0172, S-0173. Paraphrase-only card; exact page refs still pending.</text>
+</svg>

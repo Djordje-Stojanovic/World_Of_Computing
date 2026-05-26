@@ -1,0 +1,11 @@
+audit_id	card_asset_id	source_ids	direct_quote	quote_words_used	max_allowed_words	per_source_quote_gate	attribution_stack_gate	blocker_strip_gate	paraphrase_fallback_gate	publication_gate
+I0221-QA-001	A-0198	S-0111;S-0112;S-0113;S-0114	no	0	12	ok	ok	ok	ok	page_proof_and_source_note_needed
+I0221-QA-002	A-0199	S-0035;S-0037	no	0	10	ok	ok	ok	ok	page_proof_and_source_note_needed
+I0221-QA-003	A-0200	S-0001	no	0	12	ok	ok	ok	ok	page_proof_and_source_note_needed
+I0221-QA-004	A-0201	S-0086;S-0087	no	0	18	ok	ok	ok	ok	page_proof_and_source_note_needed
+I0221-QA-005	A-0202	S-0261;S-0262	no	0	16	ok	ok	ok	ok	source_snapshot_and_page_proof_needed
+I0221-QA-006	A-0203	S-0263;S-0264;S-0265	no	0	10	ok	ok	ok	ok	source_snapshot_and_page_proof_needed
+I0221-QA-007	A-0204	S-0038;S-0135	no	0	18	ok	ok	ok	ok	page_proof_and_source_note_needed
+I0221-QA-008	A-0205	S-0048;S-0049;S-0050;S-0051	no	0	10	ok	ok	ok	ok	page_proof_and_source_note_needed
+I0221-QA-009	A-0206	S-0170;S-0171;S-0172;S-0173	no	0	10	ok	ok	ok	ok	page_refs_and_page_proof_needed
+I0221-QA-010	A-0207	S-0164;S-0165;S-0166;S-0167	no	0	10	ok	ok	ok	ok	page_refs_and_page_proof_needed
