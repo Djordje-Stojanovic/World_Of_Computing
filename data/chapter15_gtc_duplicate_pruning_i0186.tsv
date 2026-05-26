@@ -1,0 +1,8 @@
+prune_id	duplicate_family	keep_for_layout	keep_for_provenance_or_reserve	drop_from_chapter15_layout	reason
+GTC15P-0186-001	page_29_ai_factory_thesis	A-0024	A-0004;A-0106	Do not place A-0004 or A-0106 beside A-0024.	One representation is enough; the claim card carries source page, status, and blocked leaps better than a raw slide.
+GTC15P-0186-002	page_49_system_comparison	A-0027	A-0007	Do not place A-0007 beside A-0027.	Raw quantitative slide is useful evidence but visually overpersuasive; card keeps it as NVIDIA argument.
+GTC15P-0186-003	page_50_roadmap	A-0028	A-0008	Do not place A-0008 beside A-0028.	Roadmap card preserves future-status label and prevents roadmap laundering.
+GTC15P-0186-004	page_51_DSX_platform	A-0029	A-0009;A-0107	Do not place A-0009 or A-0107 beside A-0029.	DSX needs to function as a handoff to Chapter 16, not a repeated source-surface cluster.
+GTC15P-0186-005	product_announcement_cards	A-0027_or_A-0028	A-0025;A-0026	Do not use A-0025 and A-0026 in the main Chapter 15 spread unless one core card is cut.	Groq 3 LPX and Vera Rubin partner cards support prose but product-card stacking weakens the source-actor argument.
+GTC15P-0186-006	token_economics_chart	A-0145_as_source_handle	planned_redraw_from_A-0145	Do not place raw A-0145 as final art yet.	Page 32 needs axis extraction and same-scope economics checks before it becomes a reader-facing chart.
+GTC15P-0186-007	chapter_boundary	Chapter 15 cards A-0024/A-0012/A-0027/A-0028/A-0029	Chapter 16 independent physical-infrastructure visuals	Do not let any NVIDIA slide carry Chapter 16 power, deployment, or facility-performance proof.	GTC is source-actor stagecraft; Chapter 16 must test it with independent power, cooling, interconnection, and site evidence.
