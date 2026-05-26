@@ -258,3 +258,7 @@ Selected-100 provenance is structurally close but not publication-ready: 98 of 1
 ## 2026-05-26 - I-0218 Visual Style-System Hardening
 
 A style guide becomes useful only when it can fail an exhibit. The hardened house system now treats typography, palette, line weights, source/caveat labels, source-card structure, figure numbering, accessibility metadata, and caption proximity as production gates; the first SVG scan shows that most current visuals are promising drafts, but 57 of 74 selected SVG rows still need style-contract review before render legibility can be trusted.
+
+## 2026-05-26 - I-0219 Selected SVG/Chart Legibility QA
+
+SVG source-file QA should separate scale defects from proof defects. The selected set has strong conceptual coverage, but 31 of 74 SVG rows need render-scale review before page placement, especially Chapters 8, 17, and 18; the real next gate is not more style language but page-image proof that small labels, source lines, caveats, and muted text survive final trim size.
