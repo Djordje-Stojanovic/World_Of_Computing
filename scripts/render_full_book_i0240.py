@@ -39,6 +39,7 @@ def markdown_to_html(markdown: str) -> str:
     paragraph: list[str] = []
     in_ul = False
     in_code = False
+    in_blockquote = False
     code_lines: list[str] = []
 
     def flush_paragraph() -> None:
@@ -53,12 +54,19 @@ def markdown_to_html(markdown: str) -> str:
             out.append("</ul>")
             in_ul = False
 
+    def close_blockquote() -> None:
+        nonlocal in_blockquote
+        if in_blockquote:
+            out.append("</blockquote>")
+            in_blockquote = False
+
     for line in lines:
         raw = line.rstrip()
 
         if raw.startswith("```"):
             flush_paragraph()
             close_ul()
+            close_blockquote()
             if in_code:
                 out.append("<pre><code>" + html.escape("\n".join(code_lines)) + "</code></pre>")
                 code_lines = []
@@ -74,11 +82,13 @@ def markdown_to_html(markdown: str) -> str:
         if not raw.strip():
             flush_paragraph()
             close_ul()
+            close_blockquote()
             continue
 
         if raw == "---":
             flush_paragraph()
             close_ul()
+            close_blockquote()
             out.append("<hr>")
             continue
 
@@ -86,6 +96,21 @@ def markdown_to_html(markdown: str) -> str:
         if anchor:
             flush_paragraph()
             close_ul()
+            close_blockquote()
+            out.append(raw)
+            continue
+
+        if raw.startswith("<!-- FIGURE-CALLOUT"):
+            flush_paragraph()
+            close_ul()
+            close_blockquote()
+            out.append(raw)
+            continue
+
+        if raw.startswith("<!-- /FIGURE-CALLOUT"):
+            flush_paragraph()
+            close_ul()
+            close_blockquote()
             out.append(raw)
             continue
 
@@ -93,6 +118,7 @@ def markdown_to_html(markdown: str) -> str:
         if heading:
             flush_paragraph()
             close_ul()
+            close_blockquote()
             level = min(len(heading.group(1)), 6)
             title = inline_markup(heading.group(2))
             klass = "chapter-title" if level == 1 and heading.group(2).startswith("Chapter ") else ""
@@ -110,10 +136,23 @@ def markdown_to_html(markdown: str) -> str:
             out.append(f"<li{item_class}>{inline_markup(item_text)}</li>")
             continue
 
+        if raw.startswith("> "):
+            flush_paragraph()
+            close_ul()
+            if not in_blockquote:
+                out.append('<blockquote class="figure-callout">')
+                in_blockquote = True
+            quote_text = raw[2:].strip().rstrip()
+            if quote_text.endswith("  "):
+                quote_text = quote_text[:-2].rstrip()
+            out.append(f"<p>{inline_markup(quote_text)}</p>")
+            continue
+
         paragraph.append(raw.strip())
 
     flush_paragraph()
     close_ul()
+    close_blockquote()
     if in_code:
         out.append("<pre><code>" + html.escape("\n".join(code_lines)) + "</code></pre>")
     return "\n".join(out)
@@ -138,7 +177,7 @@ h3 { font-size: 12.5pt; margin: 0.18in 0 0.08in; }
 p { margin: 0 0 0.105in; }
 ul { margin: 0 0 0.14in 0.2in; padding-left: 0.18in; }
 li { margin-bottom: 0.055in; }
-.figure-placeholder {
+.figure-placeholder, .figure-callout {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 8.5pt;
   line-height: 1.32;
@@ -200,7 +239,9 @@ def main() -> int:
         raise SystemExit("Chrome completed but PDF was missing or empty")
 
     chapter_count = len(re.findall(r"^# Chapter \d\d:", markdown, flags=re.MULTILINE))
-    figure_count = len(re.findall(r"^- F\d\d\.\d\d ", markdown, flags=re.MULTILINE))
+    callout_count = len(re.findall(r"^<!-- FIGURE-CALLOUT F\d\d\.\d\d ", markdown, flags=re.MULTILINE))
+    legacy_figure_count = len(re.findall(r"^- F\d\d\.\d\d ", markdown, flags=re.MULTILINE))
+    figure_count = callout_count or legacy_figure_count
     word_count = len([w for w in re.split(r"\W+", markdown) if w])
     rows = [
         ("pass_id", "I-0240"),

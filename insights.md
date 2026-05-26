@@ -350,3 +350,7 @@ A rough PDF is a different kind of evidence than a complete Markdown file. Once 
 ## 2026-05-27 - I-0241 PDF Smoke QA
 
 Smoke QA should be allowed to say both "real artifact" and "not ready." The first 401-page PDF has no missing chapters, missing figure IDs, broken internal anchors, blank pages, or long code-block risks, but its biggest defects are structural: figures are placeholder text and overflow/page-image quality is still unproven.
+
+## 2026-05-27 - I-0242 Figure Callouts
+
+Figures become part of the book only when they enter the reading flow. A chapter-opening inventory proves coverage, but section-level callouts create editorial pressure: each visual must justify its local purpose, caption, rights status, source proximity, and next gate before final layout can make it beautiful.

@@ -1,0 +1,4 @@
+"pass_id"	"check_id"	"result"	"evidence"	"next_action"
+"I-0242"	"CALLOUT-001"	"pass"	"markdown_callouts=100; old_chapter_blocks=0; old_bullets=0"	"Proceed to real figure placement only after capture/rights/caption gates."
+"I-0242"	"CALLOUT-002"	"pass"	"chapter_headings=24; placement_rows=100"	"Keep placement ledger synchronized with draft callouts."
+"I-0242"	"RENDER-001"	"pass"	"pdf_header=%PDF-1.4; pdf_bytes=2620944; pages=413; html_callout_blocks=105"	"Run full smoke QA in a later render pass; do not overwrite I-0241 historical ledger."
