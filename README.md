@@ -6,16 +6,16 @@ This repository is the working memory, manuscript lab, source ledger, visual sys
 
 ## Current Book State
 
-Updated **2026-05-26** after pass `I-0271`.
+Updated **2026-05-26** after pass `I-0272`.
 
-- **Latest recorded pass:** `I-0271`, reader-facing residue cleanup.
+- **Latest recorded pass:** `I-0272`, apparatus compression.
 - **Latest exhibit dashboard pass:** `I-0236`, fail-closed visual readiness recomputation.
-- **Words:** 102,685 assembled source words across the canonical 24-chapter draft after the I-0271 reader-facing residue cleanup.
+- **Words:** 101,678 assembled source words across the canonical 24-chapter draft after the I-0272 compression pass.
 - **Chapters:** 24 / 24.
 - **Charts/diagrams:** 142.
 - **Photo/screenshot/source-surface slots:** 78.
 - **Sources:** 299.
-- **Claims:** 287 supported / 0 needs-verification.
+- **Claims:** 288 supported / 0 needs-verification.
 - **Asset/provenance rows:** 267.
 - **Idea queue:** active FIFO continues; next pending pass is recorded in `ideas.tsv`.
 - **Ledger BookScore:** 100.0, but this is a loop scoring proxy, not a publication certificate.
@@ -30,6 +30,7 @@ Updated **2026-05-26** after pass `I-0271`.
 - **Current claim burn-down:** I-0265 rewrites the last 8 active `needs-verification` rows into supported guardrails, quarantines, or attribution rules; `claims.tsv` now has 281 supported rows and 0 active needs-verification rows, with 5/5 QA checks passing in `data/claim_burn_down_qa_i0265.tsv`.
 - **Current source-density repair:** I-0266 inserts 63 bounded source-lane blocks and 295 source references into weak factual/reporting-heavy sections of `manuscript/Next-Token-full-draft.md`, with 6/6 QA checks passing; these lanes are a production bridge for I-0267 final notes, not finished reader-facing citation design.
 - **Current endnote/bibliography apparatus:** I-0267 expands 315 I-0249 placeholder notes plus 63 I-0266 source-density lanes into 378 readable note rows, 165 bibliography rows, and 242 compressed repeated source clusters, with access dates, source roles, manuscript anchors, caveats, and 8/8 QA passing; rendered page numbers and final note typography remain pending.
+- **Current compression pass:** I-0272 removes remaining source-boundary apparatus and editorial/audit-work notes from the reader-facing draft, preserving 24 chapters, the existing full-draft figure callout set, source references, and a safe buffer above the 100,000-word floor.
 - **Current reader-facing cleanup:** I-0271 removes assembly bookkeeping, I-0270 HTML markers, figure caption stubs, manifest/next-gate lines, selected-pending labels, pass-status lines, visible I-0266 source-lane blockquotes, and Drafting Controls headings from `manuscript/Next-Token-full-draft.md`, while preserving the existing 94 full-draft figure callouts and 24 chapters. The selected-exhibit/render path still tracks 100 image-bearing exhibits through the I-0262 visual PDF.
 - **Current narrative-flow repair:** I-0270 converts all 23 visible continuity-stitch/source-lane blocks into ordinary transition prose with source refs and adds 24 opener-door paragraphs from the opener contract board; 8/8 QA checks pass, with exactly 24 chapters preserved.
 - **Current Chapter 12 structure:** I-0269 resolves the Anthropic/Claude/Europe/xAI conflict by retitling Chapter 12 as `Anthropic, Claude, and the Plural Frontier`, placing Claude's behavior-to-action arc first, preserving Mistral/xAI/Cohere/AI21 as plural-frontier pressure lanes, and leaving Chapter 20 to own Claude Code's operational workflow.
@@ -151,7 +152,7 @@ Every serious pass should begin by reading `GOAL.md`, checking git state, and co
 The immediate next phase should prioritize:
 
 1. Protect the 100,000-120,000 word-count band while cutting or rewriting low-value production residue.
-2. Cut or compress low-value paragraphs, repeated explanations, and overlong apparatus sections to keep the final manuscript inside 100,000-120,000 words after notes and captions settle.
+2. Remove or replace every weak visual, caption, source card, or diagram that exists only to prove diligence and does not improve the reader's understanding, trust, or desire to continue.
 3. Execute the source-download/capture automation plan without committing heavyweight media.
 4. Convert the 30 high-risk selected exhibits into captured, permissioned, redrawn, replaced, reserved, or cut decisions.
 5. Close 67 caption warning/fail gates, fill the early chapter visual gap in chapters 2-5, and prune overfull later chapters.

@@ -457,3 +457,7 @@ Continuity scaffolding should earn its way into the book as prose or leave the r
 ## 2026-05-26 - I-0271 Reader Cleanup
 
 Production metadata should not masquerade as book prose. The right cleanup removes labels like assembly source, caption stub, manifest path, next gate, and selected-pending from the reader surface while preserving figure IDs, source IDs, rights paths, and provenance in ledgers.
+
+## 2026-05-26 - I-0272 Compression
+
+Compression is safest when it removes apparatus rather than evidence. Once source-boundary prose has been absorbed into ledgers and final notes, keeping it in the reader draft costs momentum without adding trust.

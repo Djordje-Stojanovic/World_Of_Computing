@@ -220,8 +220,6 @@ For a long time, the most practical answer was counting. N-gram language models 
 That is the chapter's pressure chain: counting made language computable, sparsity made counting brittle, embeddings made similarity usable, recurrence made sentence order learnable, sequence-to-sequence models made one stream of tokens become another, and attention made the fixed-memory bottleneck impossible to ignore. The history is technical, but the suspense is simple. Every solution made the machine stronger and exposed the next constraint.
 
 
-Source boundary: This chapter uses newly ledgered primary papers for the early technical spine: Bengio et al. on neural probabilistic language modeling, Mikolov et al. on efficient word-vector learning, Sutskever et al. on sequence-to-sequence learning, Bahdanau et al. on alignment/attention in neural machine translation, and Vaswani et al. on the Transformer. It is a narrative foundation, not a complete history of NLP. It deliberately avoids unsupported claims about who "invented" every component, exact state-of-the-art rankings, or hidden industrial adoption. See `data/chapter1_early_lm_claim_audit_i0092.tsv` for row-level claim permissions.
-
 The important turn was not that researchers made language less discrete. It was that they made the discreteness negotiable. A word could remain a symbol in a vocabulary while also becoming a point in a learned space. "Dog" and "cat" would still be different tokens, but the model could learn that they lived nearer to one another than either lived to "thermodynamics" or "Wednesday." The bet was that language contained reusable structure below the surface of exact word identity.
 
 That bet runs through the neural probabilistic language model proposed by Yoshua Bengio, Rejean Ducharme, Pascal Vincent, and Christian Jauvin. The paper attacked the curse of dimensionality by learning a distributed representation for words and using those representations inside a neural language model. The point was not merely to make a clever lookup table. It was to let statistical strength move across related contexts: if two words occupied nearby places in representation space, evidence about one context might help the model generalize to another. [S-0104]
@@ -372,8 +370,6 @@ The public later met this architecture through other names: GPT, BERT, T5, PaLM,
 
 This chapter should therefore avoid myth. The Transformer was not a magic mind. It was a mechanism. Its beauty is that the mechanism is simple enough to explain and rich enough to become a civilization-scale industrial object.
 
-
-Source boundary: This chapter is anchored on "Attention Is All You Need" and an official Google Research blog explanation of the Transformer. It uses Chapter 2 sources only as continuity, not as authority for extra Transformer claims. The chapter avoids exact benchmark numbers, priority fights, and claims that the Transformer alone caused later LLM products. See `data/chapter2_transformer_claim_audit_i0093.tsv` for row-level permissions and `data/chapter2_transformer_diagram_queue_i0093.tsv` for the visual queue.
 
 ### Attention Without The Metaphor
 
@@ -529,8 +525,6 @@ That is a dangerous sentence if left alone. Forecastable loss is not the same as
 
 This chapter belongs after the Transformer because architecture created the substrate and scaling made the substrate strategic. Once the model block could absorb more data and compute, the question changed. The field no longer asked only, "Can we build a better architecture?" It asked, "How much improvement can we buy by scaling the architecture we already have?"
 
-
-Source boundary: This chapter is a first scaling-laws draft anchored on Kaplan et al.'s "Scaling Laws for Neural Language Models" and Hoffmann et al.'s "Training Compute-Optimal Large Language Models." It uses GPT-3 and PaLM only as bounded examples of the scaling era, not as proof that scale alone explains every capability. It avoids exact exponents, benchmark numbers, emergent-capability claims, and frontier extrapolation until later extraction rows support them. See `data/chapter3_scaling_claim_audit_i0094.tsv` and `data/chapter3_scaling_chart_plan_i0094.tsv`.
 
 ### The Industrialization Of Prediction
 
@@ -700,8 +694,6 @@ This was not magic general intelligence. It was a new economic shape for learnin
 
 GPT-1 therefore belongs in the book not because it was huge by later standards, but because it named a reusable recipe: pretrain a generative Transformer on text, then transfer. It was a door, not the room.
 
-
-Source boundary: This chapter draft uses source IDs from `sources.tsv`. It is conservative about private motives, exact adoption numbers, API usage, and Copilot productivity claims. Future passes should snapshot OpenAI and GitHub pages before direct quotation and add secondary reporting only where it triangulates public reaction or business context.
 
 Visual anchor: Figure 5.1, `assets/visual_system/gpt-lineage-table.svg`, compresses the chapter's lineage into a sourced table: GPT-1 as pretraining and transfer, GPT-2 as prompted multitask continuation, GPT-3 as few-shot prompting, the OpenAI API as infrastructure distribution, Codex as executable-language generation, and GitHub Copilot as the cursor-level product surface. Its companion data lives in `data/gpt_lineage_visual_table.tsv`; its caveats should stay visible until usage, pricing, productivity, benchmark, and legal claims are separately snapshotted or triangulated. [S-0011] [S-0012] [S-0013] [S-0004] [S-0069] [S-0052] [S-0070]
 
@@ -893,8 +885,6 @@ OpenAI's InstructGPT work stated the product gap bluntly: making language models
 
 That was the hinge. The model still predicted tokens. But the product began to ask a second question: which tokens should this assistant prefer to produce?
 
-
-Source boundary: This chapter draft uses source IDs from `sources.tsv`. It treats alignment as a product and mechanism story: how base-model continuation became instruction following, refusal behavior, policy-shaped assistant behavior, and evaluation work. It deliberately avoids becoming a regulation chapter. Pass I-0033 adds `data/alignment_quote_safe_table_i0033.tsv` for short, reviewed quote candidates from captured Model Spec and system-card artifacts; pass I-0038 adds S-0074 text-render quote candidates for the instruction-following product post, while longer red-team, system-card, and exact policy passages still need row-specific extraction before final prose.
 
 Visual integration: Figure 6.1, `assets/visual_system/rlhf-alignment-pipeline.svg`, shows pretraining, supervised demonstrations, preference comparisons, reward/preference modeling, RL optimization, Constitutional AI/RLAIF, product policy, red teaming, and evaluation loops as a layered assistant-behavior stack. The companion rows live in `data/rlhf_alignment_pipeline_i0023.tsv`; the figure keeps the central caveat visible that refusals and caveats are product behavior built from several layers, not proof that the model "understands" the user's real-world interests. [S-0004] [S-0014] [S-0019] [S-0074] [S-0075]
 
@@ -1109,8 +1099,6 @@ The first reaction was not a single public mood. It was a set of local control p
 The order matters. Stack Overflow was not a school. A school district was not a bank. A bank restriction was not a public cultural verdict. Each institution had a different failure mode in view. For a volunteer Q&A site, the danger was moderation overload from confident junk. For schools, the danger was assessment, learning, and student use inside managed networks. For a bank, the danger was third-party software inside a controlled enterprise environment. ChatGPT looked universal because the same text box appeared everywhere, but the local anxieties were specific. The chapter should preserve that specificity, because specificity is what keeps early reception from becoming a cartoon.
 
 
-Source boundary: This chapter uses source IDs from `sources.tsv` and remains conservative about adoption numbers, private scenes, internal motives, boardroom drama, and unsupported market or productivity claims. Productization, adoption, reception, and Enterprise caveats now sit beside the paragraphs that need them; C-0010 remains active for unattributed quantitative adoption, broad public-reception, named-customer deployment, and customer-productivity claims.
-
 ### The Product Was A Training Method With A Face
 
 > [!FIGURE] **F07.02 / A-0036 - ChatGPT launch surface**
@@ -1290,8 +1278,6 @@ The stakes were larger than hosting. In the API era, a model could become infras
 This chapter is about that factory bargain.
 
 Status: Microsoft/OpenAI cloud-bargain strengthening pass promoted in I-0155, 2026-05-26; first full Chapter 8 draft and I-0118 visual package preserved as source context.
-
-Source boundary: This chapter uses local captures of Microsoft/OpenAI partnership, supercomputer, GPT-3 license, Azure OpenAI Service, ChatGPT-on-Azure, Microsoft 365 Copilot, and GitHub Copilot sources. It treats Microsoft/OpenAI posts as company-attributed strategic framing, not neutral proof of revenue, productivity, adoption, market share, model superiority, customer ROI, workload volume, margin, or search-share effects. See `data/chapter8_microsoft_openai_chronology_i0113.tsv`, `data/chapter8_microsoft_openai_claim_audit_i0113.tsv`, and `data/chapter8_microsoft_openai_visual_package_i0118.tsv`.
 
 ### The 2019 Bet
 
@@ -1478,8 +1464,6 @@ This is the chapter's discipline: Google should not be flattened into a slow fol
 
 Status: Google/DeepMind prose upgrade promoted in I-0156, 2026-05-26; first full Chapter 9 draft and I-0132 visual package preserved as source context.
 
-Source boundary: This chapter is anchored on local captures of PaLM, Gemini, Gemini 1.5, Bard/Gemini product posts, Gemini 2.5 product framing, Google DeepMind model-card pages, and the existing Transformer/price ledgers. It treats Google posts as Google-attributed product framing, not neutral proof of market leadership, adoption, benchmark superiority, revenue, search-share effects, click behavior, cloud share, productivity, subscriber totals, or TPU cost/performance superiority. See `data/chapter9_google_deepmind_claim_audit_i0111.tsv`, `data/chapter9_google_deepmind_chronology_i0111.tsv`, and `data/chapter9_google_deepmind_visual_package_i0132.tsv`.
-
 ### Pathways Before Panic
 
 Before Bard and Gemini, there was PaLM: the Pathways Language Model. The PaLM paper presented a 540-billion-parameter dense Transformer language model trained with Google's Pathways system. [S-0115] In the book's earlier scaling chapter, PaLM appears as an example of the scaling era. Here it becomes something more specific: a sign that Google was not outside the frontier race. It had a model, an infrastructure thesis, and a language for making many accelerators act like a coherent training system.
@@ -1645,8 +1629,6 @@ That is the open-weight shock. It was not the same as open source in the classic
 Figure 10.1 follows the family as a sequence of release objects rather than a rank chart: LLaMA as a research release, Llama 2 as an open foundation and chat-model family, Code Llama as the code-specialized branch, Llama 3 and 3.1 as larger and more polished public families, and Llama 4 as a natively multimodal, mixture-of-experts turn. [S-0111] [S-0023] [S-0025] [S-0024] [S-0113] [S-0008] The point is not that every later model is simply better in every sense. The point is that the release surface changed what other people could do.
 
 
-Source boundary: This chapter uses source IDs from `sources.tsv` plus local source assets captured under `assets/source_docs/meta/`. It treats "open weights" and "open source" as separate claims. It does not infer license freedom, benchmark superiority, deployment scale, fine-tune quality, safety, commercial adoption, or ecosystem size unless a row-level source supports that exact claim.
-
 Visual integration: Figure 10.1, `assets/visual_system/llama-family-open-weight-map.svg`, sketches the Llama family as a release-and-claim map rather than a capability leaderboard. The row data lives in `data/chapter10_llama_family_tree_i0104.tsv`. Figure 10.2, queued by pass I-0142, should make the control stack explicit: weights, license, training transparency, hosting burden, safety governance, ecosystem work, and benchmark permission move differently.
 
 ### LLaMA Begins as Research Infrastructure
@@ -1811,8 +1793,6 @@ That is why Figure 11.1 is a source map rather than a league table. The safe evi
 
 The chapter's job is different from the Meta chapter's job and different again from the next frontier chapter's job. Meta explains the control stack: what happens when weights, license, hosting, safety, ecosystem, and benchmarks no longer sit cleanly inside one provider. China explains source permission: what can be written from Qwen, DeepSeek, GLM, and Kimi rows today, and what must remain a gap lane until a cutoff-bounded primary source exists. Chapter 12 then widens the aperture to Mistral, xAI, Cohere, AI21, and other labs only when each changes a mechanism. The sequence should feel like a widening map, not like three chapters of names.
 
-
-Source boundary: This chapter uses existing source IDs from `sources.tsv` plus local arXiv captures under `assets/source_docs/china/`. It writes only the China/open-model claims supported by current cutoff-bounded source rows: Qwen2, Qwen3, DeepSeek-V3, DeepSeek-R1, GLM-4, and Kimi k1.5. It does not write Qwen 3.5, Qwen 3.6, DeepSeek V4-era systems, MiniMax, Baidu, Tencent, Xiaomi MiMo, or StepFun as happened releases unless the source-gap table has a supporting row.
 
 Visual integration: Figure 11.1, `assets/visual_system/china-open-model-source-map.svg`, maps supported primary-source lanes and unsupported gap lanes. The row data lives in `data/chapter11_china_open_model_source_map_i0105.tsv`.
 
@@ -2415,8 +2395,6 @@ CUDA did that work over years. It gave the GPU a developer-facing grammar: kerne
 That is why the LLM boom did not arrive as a clean contest among chips. It arrived as a contest among stacks.
 
 
-Source boundary: This chapter uses NVIDIA primary sources and local captures from I-0116. It explains CUDA, Hopper/H100, Blackwell/B200/GB200, NVLink/NVSwitch, cuDNN, and TensorRT-LLM only where they explain LLM progress. Exact performance, throughput, cost, revenue, partner, roadmap, and availability claims remain NVIDIA-attributed or blocked unless independently normalized in later rows.
-
 Continuity note: Chapter 14 owns the software-and-system moat: CUDA habits, libraries, kernels, accelerator memory, interconnect, and the conversion of model ambition into usable accelerator work. Chapter 15 owns NVIDIA's public AI-factory stagecraft and roadmap framing. Chapter 16 owns independent physical constraints: power, interconnection, cooling, and useful capacity. The handoff should feel like a narrowing doorway, not three separate essays.
 
 ### Parallelism Becomes A Habit
@@ -2586,8 +2564,6 @@ Still, the argument matters. By 2026, the most important LLM systems had become 
 
 The chapter begins there because it keeps the LLM story honest. ChatGPT made intelligence feel like a box you typed into. Coding agents made it feel like a collaborator in a terminal. But at the scale of frontier systems, every answer was also an event in a machine room. A token was not free because language felt free. A token was a tiny expenditure of silicon time, memory movement, network coordination, electricity, and cooling.
 
-
-Source boundary: This chapter uses source IDs from `sources.tsv`, the GTC slide caption register, and the I-0101 claim-card pack. It treats the GTC 2026 keynote as a staged NVIDIA argument, not as independent proof of performance, availability, partner adoption, deployment scale, revenue, facility performance, or future roadmap delivery. Exact ratios, dates, partner lists, and throughput claims remain blocked under C-0021 and C-0047 until corroborated.
 
 Visual sequence after I-0186: open with A-0024, the page 29 AI-factory thesis claim card. Use Figure 15.1, A-0012, `assets/visual_system/ai-factory-stack.svg`, as the explanatory bridge after the opening metaphor. Use A-0027 for the page 49 system-comparison guardrail, A-0028 for roadmap cadence if the spread has room, and A-0029 as the DSX reference-design handoff to Chapter 16. Keep A-0025, A-0026, and A-0145 as reserve or cite-only source surfaces until product-roadmap and token-economics claims are normalized. Keep A-0004, A-0007, A-0008, and A-0009 as private-use provenance handles rather than placing them beside their claim-card duplicates. [S-0001]
 
@@ -3016,8 +2992,6 @@ This chapter sits after datacenters because the physical story is incomplete wit
 
 The library problem has three layers. First, language must be broken into pieces the machine can handle. Second, a corpus must be assembled from sources whose provenance, quality, duplication, and permissions are uneven. Third, the model must be trained without pretending that statistical exposure is the same thing as permission, knowledge, truth, or memory.
 
-
-Source boundary: This chapter uses existing source rows plus the I-0121 data/token source pack. It treats tokenization, web corpora, filtering, deduplication, memorization, and data curation as supply-chain mechanisms for LLMs, not as proof that any frontier lab disclosed its full training set. It blocks exact corpus composition, copyright/legal conclusions, contamination prevalence, memorization rates, and synthetic-data share claims until row-level extraction licenses them.
 
 Visual note: Figures A-0064 through A-0067 should make the supply chain visible: tokenization ladder, web-corpus filter funnel, data-mixture control board, and memorization/contamination blocker map. Their job is not decoration. They keep the reader from mistaking "data" for one substance.
 
@@ -3955,8 +3929,6 @@ The chapter's final claim is modest: by the cutoff, LLMs had become economically
 
 The next chapter turns from money to trust. That sequence matters. A model can be cheap and fast and still be unusable if it lies, leaks, flatters, misroutes, or cannot be audited. The economics of intelligence on tap are inseparable from the question of whether anyone should trust what comes out of the tap. A token price is therefore not the final denominator. The real denominator is the whole cost of making an answer usable: retrieval, reasoning, tool calls, evaluation, permissions, logs, review, and the human judgment needed when the machine's confidence outruns its evidence.
 
-The remaining editorial work belongs in the ledgers: keep the economics visual package tied to token meters, price-scope exclusions, inference rent, and enterprise-value blockers; add financial-statement rows only before revenue, margin, capex, or profitability claims; add customer-side evidence before productivity or ROI claims; and keep price-quality charts blocked until same-scope prices, aliases, rank rows, cache, batch, reasoning tiers, and cutoff status are normalized.
-
 ---
 
 Cheap fluency still has to be trusted. After the economics of tokens, the book turns to the failures that make every confident answer a claim needing context, provenance, and review. [S-0005] [S-0069] [S-0070] [S-0071] [S-0072] [S-0073] [S-0074]
@@ -4060,8 +4032,6 @@ The correct image is not a brain in a box. It is an institution around a stochas
 By the hard cutoff of May 24, 2026, the honest claim was not that LLMs had become reliable in the old software sense. They had become important enough that reliability could no longer be treated as a footnote. The next-token machine had crossed from novelty into infrastructure. Once that happened, truth stopped being a philosophical property of answers and became a design requirement for systems: provenance, authority, calibration, evaluation, permission, and audit.
 
 That is the bridge to the final chapter. The story began with prediction: given the previous tokens, what comes next? It traveled through attention, scale, data, RLHF, products, chips, clouds, tools, code, reasoning, and markets. But the last question is not whether the machine can continue the sentence. It is whether people can build a civilization-scale interface around continuation without confusing fluency for knowledge, agreement for help, refusal for safety, ranking for truth, or price for value. The answer, as of the cutoff, was neither yes nor no. It was a stack of work.
-
-The audit work now stays outside the reader's final beat: keep hallucination prose qualitative unless row-level evidence is added, treat TruthfulQA as benchmark evidence rather than a live ranking, treat sycophancy, reward-tampering, adversarial suffix, and prompt-injection sources as research and attack-surface lanes rather than deployed prevalence claims, keep system cards framed as vendor-authored disclosures, and require incident rows before naming legal, medical, enterprise, prompt-leak, or data-exfiltration cases.
 
 ---
 

@@ -1,0 +1,10 @@
+check	status	note
+word_count_in_bounds	pass	Word count is 101678.
+removed_at_least_700_words	pass	Net removed 1007 words.
+not_too_close_to_floor	pass	Compression keeps at least about 1,000 words of buffer above the 100k floor.
+chapter_count_24	pass	Top-level chapter count remains 24.
+figure_count_preserved	pass	Figure callout count is 94.
+source_refs_preserved	pass	Source reference count is 522.
+source_boundary_removed	pass	Source-boundary apparatus paragraphs removed from reader-facing draft.
+cut_rows_recorded	pass	Recorded 15 cuts and 1007 removed words.
+no_forbidden_cut_of_claim_ledgers	pass	Claims ledger remains present.
