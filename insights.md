@@ -290,3 +290,7 @@ Chronology should be a navigation system, not another dense exhibit. The master 
 ## 2026-05-26 - I-0226 Company/Lab Network Map
 
 Institutional maps are useful only when the edges have verbs and limits. "OpenAI-Microsoft" means a sourced cloud/capacity and distribution relationship, not control or profit; "NVIDIA-cloud" means hardware/platform substrate, not delivered capacity; "benchmark-lab" means measurement surface, not a crown. Typed edges keep reader orientation from becoming conspiracy-board inference.
+
+## 2026-05-26 - I-0227 AI Factory System Layers
+
+The AI-factory spread works only if demand, training, serving, chips, software, facility, power, and tokens remain separate layers with flow verbs between them. Putting everything on one page can clarify the industrial machine, but only if NVIDIA's rhetoric is visibly one source lane and independent power/facility evidence carries the physical constraints.

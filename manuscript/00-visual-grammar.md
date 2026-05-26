@@ -181,6 +181,17 @@ Initial exhibit mix:
 
 This allocation is adjustable, but every future pass should improve the curated exhibit program rather than merely increasing raw asset count. Every exhibit must have provenance, rights status, story purpose, and blocked-claim language before final layout use.
 
+## AI Factory Systems Spread
+
+`A-0223` adds a wide systems-diagram grammar for the industrial chapters. It can connect user demand, training, model artifacts, inference serving, accelerators, networking/storage, software control, facility/cooling, power/interconnection, and token output on one page, but it must stay schematic until a separate quantitative chart supports any numbers.
+
+Rules:
+
+- Treat NVIDIA/GTC and DSX language as source-actor framing unless an independent source supports the same claim.
+- Use power and facility sources for electricity, interconnection, cooling, and scenario language.
+- Keep training and inference as related but distinct capacity loops.
+- Never let the spread imply exact throughput, energy per token, cost per token, revenue, margin, PUE, water use, emissions outcome, deployed capacity, model quality, or productivity.
+
 ## Promotion Rationale
 
 Before this pass, the book had visual candidates but no visual grammar and no manifest-tracked diagrams. This pass adds the first three lightweight prototypes and establishes design rules for timelines, systems, family trees, tradeoffs, caveats, screenshots, and photo slots. It improves visual/data usefulness without introducing unsupported factual claims.

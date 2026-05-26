@@ -1,0 +1,14 @@
+edge_id	from_layer	to_layer	flow_type	source_ids_or_assets	allowed_flow_language	blocked_claims
+AFEDGE-001	AFSYS-001	AFSYS-004	request_flow	A-0069;A-0015	User demand enters serving as prompts, API calls, code-agent tasks, and queued work.	exact traffic; adoption; productivity; truthfulness
+AFEDGE-002	AFSYS-002	AFSYS-003	artifact_flow	A-0073;A-0014	Training and post-training produce model artifacts that still need evaluation and release decisions.	model quality; solved safety; benchmark superiority
+AFEDGE-003	AFSYS-003	AFSYS-004	deployment_flow	A-0014;A-0206	Approved model artifacts become serving candidates under product and evaluation constraints.	hidden governance detail; release causality; live rank
+AFEDGE-004	AFSYS-004	AFSYS-010	output_flow	S-0001;A-0015	Inference produces streamed tokens, answers, code actions, and metered usage.	revenue; cost per token; energy per token; productivity
+AFEDGE-005	AFSYS-005	AFSYS-002	compute_supply	A-0073;S-0139	Accelerator capacity supports training as a synchronized build-time workload.	exact FLOPs; cluster size; utilization; training cost
+AFEDGE-006	AFSYS-005	AFSYS-004	compute_supply	A-0012;A-0073	Accelerator capacity supports inference as a latency and throughput workload.	exact throughput; neutral performance ratio; cost
+AFEDGE-007	AFSYS-006	AFSYS-002	data_movement	A-0072;S-0065	Networking and storage move parameters, activations, and training data across the system.	exact bandwidth; speedup; bottleneck ranking
+AFEDGE-008	AFSYS-006	AFSYS-004	data_movement	A-0012;A-0058	Networking, storage, routing, and retrieval paths shape serving capacity and latency.	exact latency; workload volume; universal architecture
+AFEDGE-009	AFSYS-007	AFSYS-005	control_plane	A-0071;A-0058	Software makes accelerators usable through kernels, runtimes, libraries, schedulers, and monitoring.	market dominance; quantified lock-in; universal developer preference
+AFEDGE-010	AFSYS-008	AFSYS-005	physical_enablement	A-0022;A-0158	Facilities and cooling mediate how accelerator systems can be installed and operated.	PUE; water use; facility performance; deployment scale
+AFEDGE-011	AFSYS-009	AFSYS-008	power_supply	A-0015;A-0021	Electricity and interconnection capacity precede useful facility operation.	delivered electrons; named site service; emissions outcome
+AFEDGE-012	AFSYS-009	AFSYS-004	operating_constraint	A-0015;S-0087	Power access, timing, and flexibility can shape when serving capacity is available.	routine dispatchable AI load; energy-per-token; guaranteed flexibility
+AFEDGE-013	AFSYS-010	AFSYS-001	feedback_loop	A-0015;A-0024	Metered use and product demand can feed the next capacity-planning loop.	revenue proof; demand growth; customer value; utilization

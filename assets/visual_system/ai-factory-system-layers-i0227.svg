@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">AI Factory System Layers</title>
+  <desc id="desc">A sourced planning diagram showing user demand, training, model artifacts, inference, chips, networking, software, cooling, power, and token output as one constrained system with claim blockers.</desc>
+  <defs>
+    <style>
+      .bg{fill:#f7f4ed}
+      .panel{fill:#fffdf8;stroke:#d8d1c3;stroke-width:2}
+      .lane{fill:#ffffff;stroke:#d8d1c3;stroke-width:2}
+      .ink{fill:#1f252b;font-family:Arial, Helvetica, sans-serif}
+      .muted{fill:#5f6872;font-family:Arial, Helvetica, sans-serif}
+      .tiny{font-size:20px}
+      .small{font-size:24px}
+      .body{font-size:28px}
+      .label{font-size:30px;font-weight:700}
+      .head{font-size:46px;font-weight:800}
+      .subhead{font-size:26px}
+      .badge{font-size:19px;font-weight:700;letter-spacing:0}
+      .blue{fill:#e7efff;stroke:#2f61b7}
+      .green{fill:#e5f4ee;stroke:#0f8b6f}
+      .gold{fill:#fff1d7;stroke:#b7791f}
+      .red{fill:#ffe9e4;stroke:#c2412d}
+      .violet{fill:#eee9ff;stroke:#6d5bd0}
+      .gray{fill:#eef0f1;stroke:#68707a}
+      .arrow{stroke:#39414a;stroke-width:3;fill:none;marker-end:url(#arrow)}
+      .dash{stroke:#8a929b;stroke-width:3;fill:none;stroke-dasharray:10 8;marker-end:url(#arrowMuted)}
+      .rule{stroke:#d8d1c3;stroke-width:2}
+      .block{fill:#fff8f4;stroke:#d56b4a;stroke-width:2}
+    </style>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M2,2 L10,6 L2,10 Z" fill="#39414a"/>
+    </marker>
+    <marker id="arrowMuted" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M2,2 L10,6 L2,10 Z" fill="#8a929b"/>
+    </marker>
+  </defs>
+  <rect class="bg" x="0" y="0" width="1600" height="1000"/>
+  <text class="ink head" x="70" y="78">AI Factory System Layers</text>
+  <text class="muted subhead" x="70" y="116">A service machine: demand to model to tokens, constrained by chips, software, facilities, cooling, and power.</text>
+  <text class="muted tiny" x="70" y="150">Planning asset A-0223. Schematic, not a quantitative chart. NVIDIA/GTC claims remain source-actor framing.</text>
+
+  <rect class="panel" x="55" y="178" width="1490" height="650" rx="8"/>
+  <line class="rule" x1="550" y1="200" x2="550" y2="805"/>
+  <line class="rule" x1="1050" y1="200" x2="1050" y2="805"/>
+
+  <text class="ink label" x="95" y="230">Workload And Model Loop</text>
+  <text class="ink label" x="590" y="230">Compute And Control Stack</text>
+  <text class="ink label" x="1090" y="230">Physical And Economic Boundary</text>
+
+  <rect class="lane green" x="95" y="270" width="360" height="80" rx="8"/>
+  <text class="ink body" x="122" y="318">User demand and task queue</text>
+  <text class="muted tiny" x="122" y="342">Prompts, API calls, agent work</text>
+
+  <rect class="lane blue" x="95" y="405" width="360" height="80" rx="8"/>
+  <text class="ink body" x="122" y="452">Training and post-training</text>
+  <text class="muted tiny" x="122" y="476">Build-time capacity problem</text>
+
+  <rect class="lane violet" x="95" y="540" width="360" height="80" rx="8"/>
+  <text class="ink body" x="122" y="587">Weights and release gate</text>
+  <text class="muted tiny" x="122" y="611">Eval, packaging, deployment</text>
+
+  <rect class="lane green" x="95" y="675" width="360" height="80" rx="8"/>
+  <text class="ink body" x="122" y="722">Inference serving</text>
+  <text class="muted tiny" x="122" y="746">Batching, routing, latency</text>
+
+  <rect class="lane blue" x="610" y="270" width="340" height="80" rx="8"/>
+  <text class="ink body" x="635" y="318">Accelerators and memory</text>
+  <text class="muted tiny" x="635" y="342">GPUs, CPUs, HBM, rack systems</text>
+
+  <rect class="lane gold" x="610" y="405" width="340" height="80" rx="8"/>
+  <text class="ink body" x="635" y="452">Networking and storage</text>
+  <text class="muted tiny" x="635" y="476">Interconnect, switches, data movement</text>
+
+  <rect class="lane gray" x="610" y="540" width="340" height="80" rx="8"/>
+  <text class="ink body" x="635" y="587">Software control plane</text>
+  <text class="muted tiny" x="635" y="611">CUDA, libraries, schedulers</text>
+
+  <rect class="lane red" x="1110" y="270" width="340" height="80" rx="8"/>
+  <text class="ink body" x="1135" y="318">Facility and cooling</text>
+  <text class="muted tiny" x="1135" y="342">Racks, heat, operations</text>
+
+  <rect class="lane red" x="1110" y="405" width="340" height="80" rx="8"/>
+  <text class="ink body" x="1135" y="452">Power and interconnection</text>
+  <text class="muted tiny" x="1135" y="476">Grid access, substations, supply</text>
+
+  <rect class="lane gold" x="1110" y="540" width="340" height="80" rx="8"/>
+  <text class="ink body" x="1135" y="587">Token output and meter</text>
+  <text class="muted tiny" x="1135" y="611">Answers, code diffs, billing surface</text>
+
+  <path class="arrow" d="M275 350 L275 395"/>
+  <path class="arrow" d="M275 485 L275 530"/>
+  <path class="arrow" d="M275 620 L275 665"/>
+  <path class="arrow" d="M455 715 C535 715 535 310 600 310"/>
+  <path class="arrow" d="M455 445 C535 445 535 310 600 310"/>
+  <path class="arrow" d="M455 580 C535 580 535 715 95 715"/>
+  <path class="arrow" d="M950 310 L1100 310"/>
+  <path class="arrow" d="M950 445 C1025 445 1025 310 1100 310"/>
+  <path class="arrow" d="M950 580 C1025 580 1025 445 1100 445"/>
+  <path class="arrow" d="M1280 485 L1280 530"/>
+  <path class="arrow" d="M1110 580 C1030 580 1030 715 455 715"/>
+  <path class="dash" d="M1450 580 C1510 710 760 790 455 715"/>
+
+  <rect class="block" x="610" y="675" width="840" height="80" rx="8"/>
+  <text class="ink body" x="635" y="715">Source-control rule: company rhetoric is evidence of the actor's pitch, not proof of economics, deployment, or performance.</text>
+  <text class="muted tiny" x="635" y="742">Use independent power and facility sources for electricity, interconnection, cooling, and load-scenario claims.</text>
+
+  <rect class="panel" x="55" y="850" width="1490" height="105" rx="8"/>
+  <text class="ink small" x="85" y="890">Source lanes</text>
+  <text class="muted tiny" x="85" y="922">NVIDIA/GTC and DSX: source-actor AI-factory framing. Power reports: electricity, grid, facility, and scenario constraints. Existing assets: A-0012, A-0015, A-0071, A-0072, A-0073.</text>
+  <text class="ink small" x="85" y="948">Blocked claims</text>
+  <text class="muted tiny" x="270" y="948">No exact throughput, energy per token, cost per token, revenue, margin, PUE, water use, emissions outcome, deployed capacity, model quality, or productivity.</text>
+
+  <g transform="translate(1350 70)">
+    <rect x="0" y="0" width="170" height="64" rx="8" fill="#fffdf8" stroke="#d8d1c3" stroke-width="2"/>
+    <text class="ink badge" x="18" y="26">AFSYS-001 to 010</text>
+    <text class="muted badge" x="18" y="50">ten layers, thirteen flows</text>
+  </g>
+</svg>
