@@ -2,7 +2,7 @@ pass_id	check_id	category	result	evidence	recommended_action
 I-0257	VE-001	publishable_asset_selection	pass	publishable_available_assets=74; expected=74	Repair rights/file join before rendering.
 I-0257	VE-002	html_embedding	pass	html_img_count=74; html_png_img_count=74; html_svg_img_count=0; embedded_callout_blocks=74; blocked_callout_blocks=26	Repair callout replacement if HTML lacks the 74 selected visual images.
 I-0257	VE-003	file_existence	pass	missing_files=none	Resolve or de-select missing assets.
-I-0257	VE-004	pdf_artifact	pass	pdf=C:\AI\TEMP\World_Of_Computing\rendered\full_book_i0257\Next-Token-full-draft-i0257.pdf; bytes=6771365; sha256=5d0a14ce32b4c4005850cc59ad87080ea9dbc51d7274fa2cb7b70071ea09043a	Regenerate PDF.
+I-0257	VE-004	pdf_artifact	pass	pdf=C:\AI\TEMP\World_Of_Computing\rendered\full_book_i0257\Next-Token-full-draft-i0257.pdf; bytes=6730521; sha256=55cdfb4bd34aaa5d58742b9f6d1d452dd497110e987992a186ddac58d64505b5	Regenerate PDF.
 I-0257	VE-005	figure_id_survival	pass	source_figures=100; pdf_figures=100; missing=none	Repair caption/source-note extraction for embedded figures.
 I-0257	VE-006	pdf_visual_objects	pass	embedded_images=74; pages_with_images=74; pages_with_many_drawings=0	Inspect page images before publication; raster objects alone do not prove legibility.
 I-0257	VE-007	known_limits	warn	74 original SVG/chart/card assets embedded; 26 local-only, permission-needed, or redraw rows remain blocked callouts.	Continue with I-0258/I-0259/I-0260/I-0261 to close file-level manifest, source surfaces, source cards, and remaining slots.

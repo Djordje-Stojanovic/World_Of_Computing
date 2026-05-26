@@ -402,3 +402,7 @@ Do not ask readers or buyers to judge a visually empty artifact. When the PDF ha
 ## 2026-05-27 - I-0257 Visual Embedding
 
 Embedding SVGs as vectors can still look like "zero images" to object-level PDF QA. For this book's production loop, publishable chart/card SVGs should be rasterized into local render-stage PNGs before full-book PDF output, then verified by HTML image count, PDF image XObject count, figure-ID survival, and a later page-image legibility scan.
+
+## 2026-05-27 - I-0258 Manifest Discipline
+
+A visual slot is not real until it has a file, caption, alt text, source note, rights stage, fallback action, claim boundary, and proof gate in one row. Missing screenshot/photo/source-card files should be named as blockers in the manifest, not hidden behind "permission needed" or future acquisition language.

@@ -1,0 +1,9 @@
+pass_id	check_id	category	result	evidence	recommended_action
+I-0258	VM-001	row_count	pass	rows=100; expected=100	Repair selected-figure join.
+I-0258	VM-002	unique_figure_ids	pass	unique=100; duplicates=none	Repair duplicate/missing figure IDs.
+I-0258	VM-003	required_fields	pass	missing_required_fields=none	Fill caption, alt text, source note, rights stage, fallback, and proof gate for every row.
+I-0258	VM-004	embedded_ready_rows	pass	embed_ready_after_page_qa=74; expected=74	Reconcile against I-0257 render output.
+I-0258	VM-005	blocked_rows	pass	blocked_rows=26; expected=26; statuses={'embed_ready_after_page_qa': 74, 'blocked_missing_source_file_permission-needed': 21, 'blocked_missing_source_file_redraw': 3, 'blocked_local-only': 2}	Keep unresolved slots fail-closed until capture/redraw/permission work finishes.
+I-0258	VM-006	render_join	pass	i0257_pdf_embedded_images=74; i0257_figure_ids=100	Regenerate I-0257 or repair manifest render join.
+I-0258	VM-007	source_file_missing_fail_closed	pass	missing_source_files=24; missing_publish_files=none	Do not embed missing-source rows; acquire, redraw, replace, or drop them in later passes.
+I-0258	VM-008	raster_uniqueness	pass	embed_hashes=74; unique_embed_hashes=74; duplicate_embed_hash_count=0	Regenerate raster cache if multiple selected figures collapse to identical PNGs.

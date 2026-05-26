@@ -6,22 +6,23 @@ This repository is the working memory, manuscript lab, source ledger, visual sys
 
 ## Current Book State
 
-Updated **2026-05-27** after pass `I-0257`.
+Updated **2026-05-27** after pass `I-0258`.
 
-- **Latest recorded pass:** `I-0257`, full-book visual embedding render.
+- **Latest recorded pass:** `I-0258`, 100-exhibit visual embedding manifest.
 - **Latest exhibit dashboard pass:** `I-0236`, fail-closed visual readiness recomputation.
 - **Words:** 102,196 assembled source words across the canonical 24-chapter draft, including 3,911 retained supplemental Anthropic/Claude words; the primary-only spine is 98,285 words, so the floor is conditionally cleared rather than permanently solved.
 - **Chapters:** 24 / 24.
 - **Charts/diagrams:** 142.
 - **Photo/screenshot/source-surface slots:** 78.
 - **Sources:** 299.
-- **Claims:** 266 supported / 8 needs-verification.
+- **Claims:** 267 supported / 8 needs-verification.
 - **Asset/provenance rows:** 144.
 - **Idea queue:** active FIFO continues; next pending pass is recorded in `ideas.tsv`.
 - **Ledger BookScore:** 100.0, but this is a loop scoring proxy, not a publication certificate.
 - **Current rough PDF:** `rendered/full_book_i0240/Next-Token-full-draft-i0240.pdf` exists locally; after the figure-callout pass it is 413 pages and intentionally not committed. Prior smoke QA passed artifact, chapter, figure-ID, link, blank-page, and code-block checks; final overflow/layout quality remains unproven.
 - **Current visual PDF:** `rendered/full_book_i0257/Next-Token-full-draft-i0257.pdf` exists locally and is intentionally not committed. It rasterizes and embeds the 74 publishable SVG/chart/card rows as PNG-backed figures, preserves 24/24 chapter headings and 100/100 figure IDs, and records 6 pass / 1 warn / 0 fail embedding QA rows; it is still not publication-ready.
-- **Critical visual defect now narrowed:** the current visual PDF has 74 embedded raster image XObjects across 74 pages, but 26 selected figure slots remain blocked as local-only, permission-needed, or redraw/source-card rows, and page-image legibility/caption/source-note QA remains pending.
+- **Current visual manifest:** `data/visual_embedding_manifest_i0258.tsv` maps all 100 selected figure IDs to caption, alt text, source note, rights stage, publication decision, source file, render embed file where available, fallback action, claim boundary, proof gate, and fail-closed status. Its QA ledger has 8 pass / 0 fail rows, including 74/74 unique render hashes.
+- **Critical visual defect now narrowed:** the current visual PDF has 74 embedded raster image XObjects across 74 pages, but 26 selected figure slots remain blocked: 24 are missing source/acquisition files and 2 are local-only rows. Page-image legibility, caption compression, source-note QA, rights closure, capture/redraw/replacement, and final design remain pending.
 - **Real-world image layer:** 24 blocked candidate callouts are now marked in the assembled draft across 12 chapters, with story-fit, diversity, quality, rights-gate, and next-action notes; 9 are linked to existing local/source-media ledger candidates, 15 still need capture or replacement, and 0 are publication-ready.
 - **Source-card extraction layer:** 22 quote-safe extraction rows now have local line/page/slide-note anchors across chapters 6, 7, 15, and 16; the largest direct-quote count from any one source in the pass is 19 words, and final card layout/page proof remains pending.
 - **Front matter package:** `manuscript/front-matter-reader-promise-i0245.md` now drafts the title-page language, reader promise, back-cover copy, six-promise reader contract, introduction, exact 24-entry TOC, cutoff notice, and integration gates; it is not yet inserted into the assembled full draft or render-tested.
@@ -32,7 +33,7 @@ Updated **2026-05-27** after pass `I-0257`.
 - **Page template and visual render:** `assets/book_design/full_book_page_template_i0251.css` defines the first full-book typography/page template, backed by 12 rule rows and 9/9 passing CSS checks; I-0252 applies it to produce the 407-page designed render and I-0257 extends that pipeline into a 442-page visual render with 74 embedded raster figures.
 - **Publication sprint queue:** I-0253 rejects the premature outside-reader packet and replaces the next 30 FIFO items with I-0257-I-0286, a hard publishability sprint covering embedded visuals, source captures, excerpt cards, render QA, rights, verification, rewrites, deletion, addiction, prose quality, design polish, commercial packaging, review packet, production QA, final gate, and publication candidate assembly.
 
-The book is a real manuscript with a serious spine, but it is **not yet publication-ready**. The strongest current distinction is this: the top-100 exhibit program has stable IDs, chapter placement, caption/provenance scaffolding, page-flow mocks, reader-effect audits, prose bridges, rights triage, a first real-world candidate layer, a first quote-safe source-card extraction layer, a reader-facing front door, a 24-chapter opener contract, a source-laned continuity-stitch layer, a render-tested endnote prototype, a full rights-staging board, a reusable page-template contract, a second full-book designed render, a 30-pass publication sprint queue, and now a first visual PDF with 74 embedded chart/card images. The remaining visual risk is no longer "zero visuals"; it is the 26 unresolved figure slots plus page-level legibility, caption, source-note, rights, and final design QA.
+The book is a real manuscript with a serious spine, but it is **not yet publication-ready**. The strongest current distinction is this: the top-100 exhibit program has stable IDs, chapter placement, caption/provenance scaffolding, page-flow mocks, reader-effect audits, prose bridges, rights triage, a first real-world candidate layer, a first quote-safe source-card extraction layer, a reader-facing front door, a 24-chapter opener contract, a source-laned continuity-stitch layer, a render-tested endnote prototype, a full rights-staging board, a reusable page-template contract, a second full-book designed render, a 30-pass publication sprint queue, a first visual PDF with 74 embedded chart/card images, and now a hard all-100 visual embedding manifest. The remaining visual risk is no longer "zero visuals"; it is the 26 unresolved figure slots plus page-level legibility, caption, source-note, rights, and final design QA.
 
 ## Readiness Snapshot
 
@@ -64,7 +65,9 @@ Current selected-exhibit program:
 - **2** raw slide/source-surface rows are local-only pending permission or fair-use/source-actor review.
 - **67** selected rows still have caption warning/fail gates.
 - **9** chapters still show crowding or reader-fatigue defects.
+- **100** selected rows have a hard I-0258 embedding-manifest row.
 - **74** selected rows have first full-book embedded render proof; **0** selected rows have final page-image legibility/source-note/caption proof.
+- **24** selected rows are blocked because their planned source/acquisition files are still missing.
 - **0** selected rows should be called publication-ready yet.
 
 ## Most Useful Reader Samples

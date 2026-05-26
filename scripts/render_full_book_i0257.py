@@ -72,27 +72,46 @@ def data_uri(path: Path) -> str:
     return f"data:{mime};base64,{payload}"
 
 
-def rasterize_svg(source: Path, target: Path) -> None:
+def rasterize_svg(source: Path, target: Path, chrome: Path) -> None:
     target.parent.mkdir(parents=True, exist_ok=True)
-    doc = fitz.open(source)
-    page = doc[0]
-    width = max(float(page.rect.width), 1.0)
-    zoom = min(2.0, max(1.0, 1400.0 / width))
-    pix = page.get_pixmap(matrix=fitz.Matrix(zoom, zoom), alpha=False)
-    pix.save(target)
-    doc.close()
+    html_path = target.with_suffix(".html")
+    html_path.write_text(
+        "<!doctype html><html><head><meta charset=\"utf-8\">"
+        "<style>html,body{margin:0;width:1400px;height:900px;background:#fffdf8;}"
+        "body{display:flex;align-items:center;justify-content:center;overflow:hidden;}"
+        "img{max-width:1360px;max-height:860px;width:auto;height:auto;}</style>"
+        f"</head><body><img src=\"{source.resolve().as_uri()}\"></body></html>",
+        encoding="utf-8",
+    )
+    cmd = [
+        str(chrome),
+        "--headless=new",
+        "--disable-gpu",
+        "--no-sandbox",
+        "--disable-extensions",
+        "--hide-scrollbars",
+        "--window-size=1400,900",
+        f"--screenshot={target}",
+        html_path.resolve().as_uri(),
+    ]
+    result = subprocess.run(cmd, text=True, capture_output=True, check=False)
+    if result.returncode != 0 or not target.exists() or target.stat().st_size == 0:
+        raise RuntimeError(
+            "Chrome SVG rasterization failed\n"
+            f"source={source}\ntarget={target}\nreturncode={result.returncode}\n"
+            f"stdout={result.stdout}\nstderr={result.stderr}"
+        )
 
 
-def rasterize_rows(rows: dict[str, dict[str, str]]) -> None:
+def rasterize_rows(rows: dict[str, dict[str, str]], chrome: Path) -> None:
     RASTER_DIR.mkdir(parents=True, exist_ok=True)
     for figure_id, row in rows.items():
         source = Path(row["resolved_path"])
         if source.suffix.lower() == ".svg":
             target = RASTER_DIR / f"{figure_id.replace('.', '-')}_{source.stem}.png"
-            if not target.exists() or target.stat().st_mtime < source.stat().st_mtime:
-                rasterize_svg(source, target)
+            rasterize_svg(source, target, chrome)
             row["embed_path"] = str(target)
-            row["embed_kind"] = "rasterized_png_from_svg"
+            row["embed_kind"] = "chrome_rasterized_png_from_svg"
         else:
             row["embed_path"] = str(source)
             row["embed_kind"] = source.suffix.lower().lstrip(".") or "source_file"
@@ -214,7 +233,7 @@ def html_shell(body: str, css: str) -> str:
 
 def render(chrome: Path) -> tuple[str, dict[str, dict[str, str]], int, int]:
     rows = publishable_rows()
-    rasterize_rows(rows)
+    rasterize_rows(rows, chrome)
     markdown = MARKDOWN.read_text(encoding="utf-8")
     css = CSS.read_text(encoding="utf-8")
     body, embedded_blocks, skipped_blocks = markdown_to_html_with_figures(markdown, rows)
