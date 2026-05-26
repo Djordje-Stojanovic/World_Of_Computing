@@ -246,3 +246,7 @@ The final quarter should feel like one tightening constraint chain, not four app
 ## 2026-05-26 - I-0215 Visual Rhythm Board
 
 The selected-100 exhibit program is strong but diagram-forward: 39 mechanism beats, 25 source-texture beats, 15 comparison beats, 11 evidence beats, and 10 scene beats. The global mix is workable, but local monotony is the real design risk: early chapters need source/scene relief, Chapter 7 and 16 need source-texture spacing, Chapter 13 needs comparison interruption, and the late-book mechanism run needs human/source texture before final render.
+
+## 2026-05-26 - I-0216 Caption Excellence Audit
+
+Caption excellence needs a contract before prose polish: one teaching sentence plus one provenance or caveat hook. The selected-100 audit found 33 contract-ok captions, but the real risk is beautiful concrete surfaces that mention adoption, rank, safety, cost, productivity, deployment, or autonomy without making the blocker visible at the point of use.
