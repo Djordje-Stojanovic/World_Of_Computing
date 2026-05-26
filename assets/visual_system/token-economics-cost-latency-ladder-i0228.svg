@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Token Economics Cost Latency Ladder</title>
+  <desc id="desc">A schematic ladder showing how fast, think, tool, cache, and batch paths differ by latency, compute, price scope, and blocked claims.</desc>
+  <defs>
+    <style>
+      .bg{fill:#f7f4ed}
+      .panel{fill:#fffdf8;stroke:#d8d1c3;stroke-width:2}
+      .row{fill:#ffffff;stroke:#d8d1c3;stroke-width:2}
+      .fast{fill:#e5f4ee;stroke:#0f8b6f}
+      .think{fill:#e7efff;stroke:#2f61b7}
+      .tool{fill:#eee9ff;stroke:#6d5bd0}
+      .cache{fill:#fff1d7;stroke:#b7791f}
+      .batch{fill:#eef0f1;stroke:#68707a}
+      .block{fill:#fff0eb;stroke:#c2412d}
+      .ink{fill:#1f252b;font-family:Arial, Helvetica, sans-serif}
+      .muted{fill:#5f6872;font-family:Arial, Helvetica, sans-serif}
+      .head{font-size:46px;font-weight:800}
+      .sub{font-size:25px}
+      .label{font-size:28px;font-weight:700}
+      .body{font-size:22px}
+      .tiny{font-size:18px}
+      .rule{stroke:#d8d1c3;stroke-width:2}
+      .dot{fill:#1f252b}
+    </style>
+  </defs>
+  <rect class="bg" width="1600" height="1000"/>
+  <text class="ink head" x="70" y="76">Cost, Latency, And The Service Contract</text>
+  <text class="muted sub" x="70" y="116">The same request can travel different economic paths.</text>
+  <text class="muted tiny" x="70" y="148">Planning asset A-0225. Schematic: no exact latency, savings, hidden-budget, margin, or live-price claim.</text>
+
+  <rect class="panel" x="55" y="178" width="1490" height="650" rx="8"/>
+  <text class="ink label" x="95" y="230">Path</text>
+  <text class="ink label" x="390" y="230">What changes</text>
+  <text class="ink label" x="770" y="230">Reader-visible promise</text>
+  <text class="ink label" x="1140" y="230">What stays blocked</text>
+  <line class="rule" x1="345" y1="205" x2="345" y2="800"/>
+  <line class="rule" x1="725" y1="205" x2="725" y2="800"/>
+  <line class="rule" x1="1095" y1="205" x2="1095" y2="800"/>
+
+  <rect class="row fast" x="95" y="260" width="210" height="82" rx="8"/>
+  <text class="ink label" x="123" y="309">Fast path</text>
+  <text class="muted body" x="390" y="292">Short prompt, ordinary output, minimal extra search.</text>
+  <text class="muted body" x="770" y="292">Lower visible delay, simpler service contract.</text>
+  <text class="muted body" x="1140" y="292">Exact latency, margin, quality, utilization.</text>
+
+  <rect class="row think" x="95" y="370" width="210" height="82" rx="8"/>
+  <text class="ink label" x="123" y="419">Think path</text>
+  <text class="muted body" x="390" y="402">More samples, search, verifier work, or reasoning budget.</text>
+  <text class="muted body" x="770" y="402">Potentially more inference work before answer.</text>
+  <text class="muted body" x="1140" y="402">Hidden budget, solved reasoning, cost curve.</text>
+
+  <rect class="row tool" x="95" y="480" width="210" height="82" rx="8"/>
+  <text class="ink label" x="123" y="529">Tool path</text>
+  <text class="muted body" x="390" y="512">Calls tools, retrieves evidence, executes bounded actions.</text>
+  <text class="muted body" x="770" y="512">More steps, more audit surfaces, more failure modes.</text>
+  <text class="muted body" x="1140" y="512">Autonomy, productivity, secure output.</text>
+
+  <rect class="row cache" x="95" y="590" width="210" height="82" rx="8"/>
+  <text class="ink label" x="123" y="639">Cache path</text>
+  <text class="muted body" x="390" y="622">Repeated context may use a cached-input lane.</text>
+  <text class="muted body" x="770" y="622">Meter may distinguish input from cached input.</text>
+  <text class="muted body" x="1140" y="622">Hit rate, guaranteed discount, margin.</text>
+
+  <rect class="row batch" x="95" y="700" width="210" height="82" rx="8"/>
+  <text class="ink label" x="123" y="749">Batch path</text>
+  <text class="muted body" x="390" y="732">User accepts delayed processing or different priority.</text>
+  <text class="muted body" x="770" y="732">Different price scope and latency contract.</text>
+  <text class="muted body" x="1140" y="732">Equivalent standard price, universal savings.</text>
+
+  <rect class="panel" x="55" y="850" width="1490" height="105" rx="8"/>
+  <text class="ink body" x="85" y="890">Caption contract</text>
+  <text class="muted tiny" x="260" y="890">Use this ladder to explain service-contract choices, not to plot a measured frontier. Pair any exact price with provider, model, source, snapshot date, and tier.</text>
+  <text class="ink body" x="85" y="928">Blocked</text>
+  <text class="muted tiny" x="260" y="928">live prices, exact latency, actual production routing, hidden reasoning budget, provider margin, cost per token, price-quality frontier, productivity.</text>
+</svg>

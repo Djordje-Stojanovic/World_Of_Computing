@@ -192,6 +192,17 @@ Rules:
 - Keep training and inference as related but distinct capacity loops.
 - Never let the spread imply exact throughput, energy per token, cost per token, revenue, margin, PUE, water use, emissions outcome, deployed capacity, model quality, or productivity.
 
+## Token Economics Boards
+
+`A-0224` and `A-0225` extend the Chapter 22 economics grammar. Use the control board when the reader needs the whole meter-and-margin distinction; use the ladder when the prose is about service-contract choices such as fast answers, reasoning paths, tool calls, caching, or batch processing.
+
+Rules:
+
+- Exact prices require provider, model, source, snapshot date, pricing basis, and tier.
+- OpenAI rows captured on 2026-05-25 remain audit evidence, not May 24 exact price truth, unless corroborated.
+- Batch, cache, priority, long-context, data-sharing, and fine-tuning rows must not be merged into standard inference pricing.
+- Margin, cost-per-token, revenue, utilization, ROI, productivity, price-quality frontier, hidden reasoning budget, and exact latency remain blocked unless separately sourced at the same scope.
+
 ## Promotion Rationale
 
 Before this pass, the book had visual candidates but no visual grammar and no manifest-tracked diagrams. This pass adds the first three lightweight prototypes and establishes design rules for timelines, systems, family trees, tradeoffs, caveats, screenshots, and photo slots. It improves visual/data usefulness without introducing unsupported factual claims.

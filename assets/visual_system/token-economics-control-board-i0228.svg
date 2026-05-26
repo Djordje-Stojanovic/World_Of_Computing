@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Token Economics Control Board</title>
+  <desc id="desc">A schematic control board showing token economics as visible meters, service levers, and blocked margin claims.</desc>
+  <defs>
+    <style>
+      .bg{fill:#f7f4ed}
+      .panel{fill:#fffdf8;stroke:#d8d1c3;stroke-width:2}
+      .box{fill:#ffffff;stroke:#d8d1c3;stroke-width:2}
+      .ink{fill:#1f252b;font-family:Arial, Helvetica, sans-serif}
+      .muted{fill:#5f6872;font-family:Arial, Helvetica, sans-serif}
+      .head{font-size:46px;font-weight:800}
+      .sub{font-size:25px}
+      .label{font-size:30px;font-weight:700}
+      .body{font-size:24px}
+      .tiny{font-size:19px}
+      .token{fill:#e5f4ee;stroke:#0f8b6f}
+      .context{fill:#eee9ff;stroke:#6d5bd0}
+      .compute{fill:#e7efff;stroke:#2f61b7}
+      .latency{fill:#fff1d7;stroke:#b7791f}
+      .block{fill:#fff0eb;stroke:#c2412d}
+      .market{fill:#eef0f1;stroke:#68707a}
+      .arrow{stroke:#39414a;stroke-width:3;fill:none;marker-end:url(#arrow)}
+      .dash{stroke:#8a929b;stroke-width:3;fill:none;stroke-dasharray:9 7;marker-end:url(#arrowMuted)}
+      .rule{stroke:#d8d1c3;stroke-width:2}
+    </style>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M2,2 L10,6 L2,10 Z" fill="#39414a"/>
+    </marker>
+    <marker id="arrowMuted" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M2,2 L10,6 L2,10 Z" fill="#8a929b"/>
+    </marker>
+  </defs>
+  <rect class="bg" width="1600" height="1000"/>
+  <text class="ink head" x="70" y="76">Token Economics Control Board</text>
+  <text class="muted sub" x="70" y="116">The meter is visible before the margin is knowable.</text>
+  <text class="muted tiny" x="70" y="148">Planning asset A-0224. Schematic synthesis of A-0082 through A-0085, A-0078, A-0081, and pricing audit rows.</text>
+
+  <rect class="panel" x="55" y="178" width="1490" height="650" rx="8"/>
+
+  <rect class="box token" x="95" y="240" width="390" height="170" rx="8"/>
+  <text class="ink label" x="125" y="285">Public Meter</text>
+  <text class="ink body" x="125" y="325">Input tokens</text>
+  <text class="ink body" x="125" y="358">Cached input tokens</text>
+  <text class="ink body" x="125" y="391">Output tokens</text>
+
+  <rect class="box context" x="95" y="475" width="390" height="170" rx="8"/>
+  <text class="ink label" x="125" y="520">Context Burden</text>
+  <text class="muted body" x="125" y="560">Prompt, history, retrieval,</text>
+  <text class="muted body" x="125" y="592">tool instructions, files</text>
+
+  <rect class="box compute" x="605" y="240" width="390" height="170" rx="8"/>
+  <text class="ink label" x="635" y="285">Inference Work</text>
+  <text class="muted body" x="635" y="325">Fast path, think path,</text>
+  <text class="muted body" x="635" y="357">samples, verifiers, tools</text>
+
+  <rect class="box latency" x="605" y="475" width="390" height="170" rx="8"/>
+  <text class="ink label" x="635" y="520">Service Contract</text>
+  <text class="muted body" x="635" y="560">Standard, batch, priority,</text>
+  <text class="muted body" x="635" y="592">cache, long-context tier</text>
+
+  <rect class="box market" x="1115" y="240" width="390" height="170" rx="8"/>
+  <text class="ink label" x="1145" y="285">Route To Market</text>
+  <text class="muted body" x="1145" y="325">Subscription, API meter,</text>
+  <text class="muted body" x="1145" y="357">enterprise or cloud bundle</text>
+
+  <rect class="box block" x="1115" y="475" width="390" height="170" rx="8"/>
+  <text class="ink label" x="1145" y="520">Hidden Ledger</text>
+  <text class="muted body" x="1145" y="560">Margin, utilization, capex,</text>
+  <text class="muted body" x="1145" y="592">cost per token, revenue</text>
+
+  <path class="arrow" d="M485 325 L595 325"/>
+  <path class="arrow" d="M485 560 L595 560"/>
+  <path class="arrow" d="M995 325 L1105 325"/>
+  <path class="dash" d="M995 560 L1105 560"/>
+  <path class="arrow" d="M800 410 L800 465"/>
+  <path class="arrow" d="M1310 410 L1310 465"/>
+  <path class="dash" d="M290 410 L290 465"/>
+
+  <rect class="panel" x="95" y="700" width="1410" height="80" rx="8"/>
+  <text class="ink body" x="125" y="735">Reader rule:</text>
+  <text class="muted body" x="275" y="735">A dated price table can show a meter. It does not reveal cost, margin, utilization, customer ROI, or a price-quality frontier.</text>
+  <text class="muted tiny" x="125" y="764">Cutoff and scope gates: provider, model, snapshot date, standard vs batch, cached vs cache-write, long-context tier, fine-tuning vs inference.</text>
+
+  <rect class="panel" x="55" y="850" width="1490" height="105" rx="8"/>
+  <text class="ink body" x="85" y="890">Blocked claims</text>
+  <text class="muted tiny" x="245" y="890">live prices, provider margin, cost per token, revenue, profitability, utilization, active use, productivity, price-quality frontier, exact latency, hidden reasoning budget.</text>
+  <text class="ink body" x="85" y="928">Source spine</text>
+  <text class="muted tiny" x="245" y="928">A-0082 token meter; A-0083 levers; A-0084 market channels; A-0085 blocker grid; A-0078/A-0081 reasoning compute; pricing audit rows.</text>
+</svg>

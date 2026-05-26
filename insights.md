@@ -294,3 +294,7 @@ Institutional maps are useful only when the edges have verbs and limits. "OpenAI
 ## 2026-05-26 - I-0227 AI Factory System Layers
 
 The AI-factory spread works only if demand, training, serving, chips, software, facility, power, and tokens remain separate layers with flow verbs between them. Putting everything on one page can clarify the industrial machine, but only if NVIDIA's rhetoric is visibly one source lane and independent power/facility evidence carries the physical constraints.
+
+## 2026-05-26 - I-0228 Token Economics
+
+Token economics becomes concrete when the public meter and hidden ledger are separated on the page. Input, cached input, output, context, reasoning, batching, routing, and channel are visible service-contract surfaces; margin, cost per token, utilization, revenue, ROI, and price-quality frontiers stay blocked until same-scope cost and pricing evidence exists.
