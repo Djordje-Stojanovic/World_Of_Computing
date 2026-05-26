@@ -254,3 +254,7 @@ Caption excellence needs a contract before prose polish: one teaching sentence p
 ## 2026-05-26 - I-0217 Source-Note Attribution QA
 
 Selected-100 provenance is structurally close but not publication-ready: 98 of 100 rows pass the source-note contract, while the remaining issues are exactly the kind that can slip through visual polish, a missing explicit S-0001 bridge for a GTC render and a selected-matrix/manifest status mismatch. Final source notes should carry source ID/path, creator, page/date, access date, rights status, and blocked claims together so captions can stay elegant.
+
+## 2026-05-26 - I-0218 Visual Style-System Hardening
+
+A style guide becomes useful only when it can fail an exhibit. The hardened house system now treats typography, palette, line weights, source/caveat labels, source-card structure, figure numbering, accessibility metadata, and caption proximity as production gates; the first SVG scan shows that most current visuals are promising drafts, but 57 of 74 selected SVG rows still need style-contract review before render legibility can be trusted.
