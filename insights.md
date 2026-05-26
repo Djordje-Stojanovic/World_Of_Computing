@@ -414,3 +414,7 @@ Source-media acquisition should produce handles before it claims clearance. A us
 ## 2026-05-27 - I-0260 Source Cards
 
 Source cards are the safest bridge between raw evidence and a beautiful page. A card can make a PDF feel researched without reproducing a full screenshot or report page, but only if it carries an anchor, a paraphrase, a tiny quote budget, a blocked-claims footer, and a redraw path together.
+
+## 2026-05-27 - I-0261 Empty Slots
+
+A selected exhibit list should never point at a missing future asset. If a screenshot or photo is not rights-ready, the honest repair is to cut it or replace it with a source card/diagram now, then let a later rights pass upgrade it only if the stronger asset clears.

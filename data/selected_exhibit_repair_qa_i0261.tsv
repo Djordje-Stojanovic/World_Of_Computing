@@ -1,0 +1,9 @@
+check_id	check	status	detail
+I0261-QA-001	selected_row_count	pass	100 selected rows
+I0261-QA-002	unique_figure_ids	pass	100/100 unique figure IDs
+I0261-QA-003	repair_row_count	pass	26 repaired/cut rows
+I0261-QA-004	no_missing_source_files	pass	missing=[]
+I0261-QA-005	no_empty_callouts	pass	blocked=[]
+I0261-QA-006	repair_action_mix	pass	actions={'replace_with_source_card': 19, 'replace_with_existing_source_card': 1, 'cut_photo_placeholder_replace_with_original_card': 6}
+I0261-QA-007	new_assets_manifested	pass	new_asset_missing=[]
+I0261-QA-008	successor_manifest_targets_next_render	pass	all rows marked needs_i0262_render
