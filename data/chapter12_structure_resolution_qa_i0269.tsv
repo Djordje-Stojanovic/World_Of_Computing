@@ -1,0 +1,9 @@
+check	status	note
+no_visible_supplemental_heading	pass	Supplemental review heading removed from Chapter 12.
+no_unresolved_placement_language	pass	Old unresolved-placement sentence removed from live Chapter 12.
+single_chapter12_heading	pass	Chapter 12 top heading count is 1.
+anthropic_before_rest_frontier	pass	Anthropic/Claude now precedes Mistral/xAI/Cohere/AI21 lanes.
+mandatory_lanes_preserved	pass	Chapter retains Anthropic plus plural-frontier mandatory lanes.
+toc_updated	pass	Table of contents points at the integrated title.
+chapter_count_24	pass	Draft still has exactly 24 top-level chapter headings.
+word_count_in_bounds	pass	Assembled word count is 108468.

@@ -12,7 +12,7 @@ The constitutional frame did not solve alignment. This section must not let the 
 
 Status: promoted Anthropic/Claude live-order candidate, pass I-0158, 2026-05-26. Original spine-section draft promoted in pass I-0103.
 
-Placement note: This chapter is now the book's clearest candidate for the mandatory Anthropic/Claude spine. It should be treated as a Chapter 12 live-order candidate unless a later full-outline pass assigns it another main slot. The existing `manuscript/12-europe-xai-rest-frontier.md` remains a valuable rest-of-frontier draft, but the current book cannot leave Anthropic only as Chapter 6 context and Chapter 20 Claude Code material without losing the behavior-to-action company arc.
+Placement note: Pass I-0269 resolved the Chapter 12 conflict by placing Anthropic/Claude first inside the integrated Chapter 12, then retaining Mistral, xAI, Cohere, and AI21 as plural-frontier pressure tests. Chapter 20 keeps the operational Claude Code workflow.
 
 Source note: This section uses Anthropic source assets captured under `assets/source_docs/anthropic/`, existing source rows, and two new official Anthropic source rows. It avoids exact benchmark-number comparisons, exact price/context-window charts, customer productivity claims, broad adoption claims, and long quotations from live documentation until row-level extractions license them.
 
@@ -106,6 +106,6 @@ That is why Anthropic belongs in the mandatory spine. The company's story connec
 
 ## What Still Has To Stay Outside The Prose
 
-The placement problem is not fully solved. A later outline pass must decide how to preserve Mistral, xAI, Cohere, AI21, and other rest-of-frontier labs if Anthropic occupies the official Chapter 12 slot. The answer cannot be to erase those labs, and it cannot be to inflate this chapter into a survey of every frontier company. The cleanest current boundary is: Anthropic owns behavior-to-action; rest-of-frontier owns mechanism diversity outside the big platform chapters.
+The placement problem is now resolved at the chapter-structure level. Anthropic owns the behavior-to-action spine; Mistral, xAI, Cohere, AI21, and other mechanism-gated labs own the plural-frontier pressure sequence; Chapter 20 owns the repository-work and coding-agent operating loop.
 
 The verification blockers also remain active. Downloaded Anthropic source assets stay under `assets/source_docs/anthropic/`, with lightweight provenance mirrored in `data/anthropic_source_asset_hashes_i0103.tsv`. C-0013 remains active until SWE-bench Verified, Terminal-bench, scaffolding, and agent framework details are checked row by row. C-0046 remains active for price-quality claims until Claude rows are joined to same-scope ranking evidence with billing semantics preserved. Claude model-line visuals and source screenshots need date, model, modality/tool capability, source type, and blocked benchmark/pricing inferences before final layout.

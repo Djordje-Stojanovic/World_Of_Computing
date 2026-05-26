@@ -1,8 +1,8 @@
 # Europe, xAI, and the Rest of the Frontier
 
-Status: promoted Chapter 12 draft candidate, pass I-0119, 2026-05-26.
+Status: merged into integrated Chapter 12 structure, pass I-0269, 2026-05-26.
 
-Placement note: This was the official Chapter 12 slot from the original 24-chapter outline. Pass I-0158 promoted `manuscript/12-anthropic-and-claude-spine-section.md` into the strongest Anthropic/Claude live-order candidate because the mandatory spine needs a full behavior-to-action Claude chapter, not only Chapter 6 context and Chapter 20 Claude Code material. This Europe/xAI/rest-of-frontier draft remains a valuable chapter candidate or merge source, and a later outline pass must preserve Mistral, xAI, Cohere, AI21, and other mechanism-gated frontier labs without duplicating Anthropic or breaking the 24-chapter limit.
+Placement note: Pass I-0269 resolved the Chapter 12 conflict by placing Anthropic/Claude first and retaining this draft as the plural-frontier pressure sequence inside the same chapter. Mistral, xAI, Cohere, and AI21 remain mechanism-gated lanes rather than a second chapter or a supplemental appendix.
 
 ## The Race Outside the Center
 
@@ -92,7 +92,7 @@ The rest-of-frontier chapter should end by changing the reader's mental model. U
 
 The better frame is portfolio pressure. Mistral pressures the giants on openness, cost, deployment, and sovereignty language. xAI pressures them on compute buildout speed, live distribution, and the willingness to make a product weird. Cohere pressures them on enterprise retrieval, multilingual deployment, and business-process integration. AI21 pressures them on architecture. Each pressure is partial. Each can fail. But each also prevents the frontier from collapsing into one story about scale.
 
-This is where the Anthropic placement problem matters. Anthropic deserves a major spine treatment, and pass I-0158 has now made that treatment the strongest Chapter 12 live-order candidate. That move creates a real cost: the book still needs a place for Mistral, xAI, Cohere, AI21, and the labs whose strategies are neither Chinese open-model lanes nor American platform-incumbent lanes. This draft therefore remains a valuable rest-of-frontier candidate or merge source, not a discarded survey. A later outline pass must preserve its mechanism-gate logic without duplicating Claude's behavior-to-action chapter or breaking the 24-chapter limit. [C-0133]
+Anthropic now occupies the front of the integrated Chapter 12 because Claude is the cleanest behavior-to-action company arc. This rest-of-frontier material remains in the same chapter for a different job: Mistral, xAI, Cohere, and AI21 show the pressures that kept the race plural without becoming decorative mini-chapters. [C-0133]
 
 The book also needs discipline about what this chapter cannot prove. It cannot prove Mistral's exact market share, xAI's independent benchmark rank, Cohere's enterprise adoption, AI21's architecture superiority, or Europe's AI sovereignty. It can prove a more valuable thing: by the cutoff, the LLM frontier had become plural. The race was not only who had the largest model. It was who could route sparse experts efficiently, ship open weights credibly, build clusters quickly, attach models to distribution surfaces, make multilingual coverage matter, fit assistants into enterprises, and test new architectures without losing contact with the market.
 

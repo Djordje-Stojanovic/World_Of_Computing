@@ -446,3 +446,6 @@ A useful final-note pass should separate three jobs: manuscript anchors for trac
 ## 2026-05-26 - I-0268 Technical Fact-Check
 
 Technical fact-checking should classify claims by permission, not by vibes. The valuable table says which prose is allowed, which prose is allowed only with source-role/date/harness caveats, and which tempting claims remain barred from neutral prose, charts, and captions.
+## 2026-05-26 - I-0269 Chapter Structure
+
+A mandatory-spine topic should not live as a visible supplemental appendix. When two good chapter candidates collide, the repair is to assign jobs: one block carries the main narrative arc, the other carries bounded pressure tests, and the surrounding chapters keep their own operating territory.

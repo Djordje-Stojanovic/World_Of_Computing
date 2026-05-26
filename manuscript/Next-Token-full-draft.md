@@ -17,7 +17,7 @@ This is the first single-file book draft assembled from the current manuscript s
 - [Chapter 09: Google and DeepMind Wake the Sleeping Giant](#chapter-09-google-and-deepmind-wake-the-sleeping-giant)
 - [Chapter 10: Meta, Llama, and the Open-Weight Shock](#chapter-10-meta-llama-and-the-open-weight-shock)
 - [Chapter 11: The Chinese Frontier](#chapter-11-the-chinese-frontier)
-- [Chapter 12: Europe, xAI, and the Rest of the Frontier](#chapter-12-europe-xai-and-the-rest-of-the-frontier)
+- [Chapter 12: Anthropic, Claude, and the Plural Frontier](#chapter-12-anthropic-claude-and-the-plural-frontier)
 - [Chapter 13: Benchmarks, Arenas, and the Mirage of Rank](#chapter-13-benchmarks-arenas-and-the-mirage-of-rank)
 - [Chapter 14: NVIDIA and CUDA: The Moat Under the Moat](#chapter-14-nvidia-and-cuda-the-moat-under-the-moat)
 - [Chapter 15: GTC 2026: The AI Factory Sells Itself](#chapter-15-gtc-2026-the-ai-factory-sells-itself)
@@ -2223,31 +2223,121 @@ That is the point. The frontier became too distributed for one narrator's shortc
 > Source lane (I-0248): [S-0032] [S-0033] [S-0034] [S-0019] [S-0048]
 <!-- /CONTINUITY-STITCH I-0247 CH11-CH12 -->
 
-<a id="chapter-12-europe-xai-and-the-rest-of-the-frontier"></a>
+<a id="chapter-12-anthropic-claude-and-the-plural-frontier"></a>
 
-# Chapter 12: Europe, xAI, and the Rest of the Frontier
+# Chapter 12: Anthropic, Claude, and the Plural Frontier
 
-Assembly source: `manuscript/12-europe-xai-rest-frontier.md` plus supplemental `manuscript/12-anthropic-and-claude-spine-section.md`.
-Assembly note: normalized by I-0238: official Chapter 12 title and primary source remain Europe/xAI/rest-of-frontier; Anthropic/Claude is retained as supplemental source material, not a second main chapter.
+## 12. Anthropic, Claude, and the Plural Frontier
 
-## Europe, xAI, and the Rest of the Frontier
+Chapter 12 now has one job: show how the frontier widened after the platform giants and China chapters without becoming a logo parade. Anthropic leads because Claude supplies the mandatory behavior-to-action company arc. Mistral, xAI, Cohere, and AI21 follow as pressure tests: openness and sovereignty, compute speed and social distribution, enterprise retrieval and multilingual deployment, and architecture search.
 
-Status: promoted Chapter 12 draft candidate, pass I-0119, 2026-05-26.
+## Anthropic and Claude: The Assistant as a Safety Argument
 
-Placement note: This was the official Chapter 12 slot from the original 24-chapter outline. Pass I-0158 promoted `manuscript/12-anthropic-and-claude-spine-section.md` into the strongest Anthropic/Claude live-order candidate because the mandatory spine needs a full behavior-to-action Claude chapter, not only Chapter 6 context and Chapter 20 Claude Code material. This Europe/xAI/rest-of-frontier draft remains a valuable chapter candidate or merge source, and a later outline pass must preserve Mistral, xAI, Cohere, AI21, and other mechanism-gated frontier labs without duplicating Anthropic or breaking the 24-chapter limit.
+### The Lab That Made Behavior Its Brand
+
+Anthropic enters this book as more than another frontier-model company. Its importance is that it turned assistant behavior into a public identity. OpenAI made ChatGPT the interface shock. Google had the Transformer, DeepMind, search, and a deep model-research bench. Meta made open weights a strategic argument. Anthropic made the question of how an assistant should behave feel like the company itself.
+
+That identity began before the Claude product line became a familiar name. Constitutional AI gave Anthropic a signature: train the assistant not only through direct human comparison, but through written principles, model-generated critiques, model-generated revisions, and reinforcement learning from AI feedback. [S-0019] In Chapter 6, this appears as one branch of the larger alignment story, beside InstructGPT-style RLHF, behavior specifications, red teams, and system cards. Here it becomes a company chapter, because Anthropic did not merely publish a technique. It built a product personality around the idea that a general assistant should be helpful, harmless, and honest without being reduced to either a raw completion engine or a pure refusal machine.
+
+That distinction matters because the frontier race was not only a race to larger models. It was a race to stable behavior under pressure. A model that can summarize, code, reason, search, and use tools is useful only if users can form expectations about it. Will it answer? Will it refuse? Will it ask for clarification? Will it admit uncertainty? Will it follow a system instruction rather than the last user demand? These questions sound soft until the assistant is placed in a workplace, a terminal, a browser, or an API serving thousands of applications. Then behavior becomes infrastructure.
+
+The constitutional frame did not solve alignment. This section must not let the phrase do too much work. A written constitution raises hard questions: who chooses the principles, how conflicts between principles are handled, how the training distribution represents real users, how refusals are evaluated, and how a model behaves outside curated examples. [C-0044] But the frame changed the competitive vocabulary. Anthropic could present Claude as an assistant shaped by principles, not only by scale or leaderboard wins. That made the Claude story both technical and rhetorical: the research program became a product promise.
+
+
+
+
+
+### Constitutional AI as Product Grammar
+
+The Constitutional AI paper is useful because it makes the hidden product problem visible. A base language model can continue almost any pattern. An assistant has to choose among patterns. The paper's procedure used a set of written principles to guide critiques and revisions in a supervised phase, then used AI-generated preference labels in a reinforcement-learning phase. [S-0019] In other words, the model was trained not merely to produce a fluent answer, but to evaluate and revise an answer against a stated behavioral frame.
+
+For a business reader, the important mechanism is feedback substitution. Human preference data is expensive, slow, inconsistent, and hard to scale. RLHF showed that human comparisons could move model behavior toward instructions and user preferences. Constitutional AI asked whether some of that supervision could be generated by a model using explicit principles. [S-0019] That is why the term RLAIF matters in the book. It is not a magic replacement for judgment. It is an attempt to change where judgment enters the pipeline: write principles, use the model to apply them, then train on the resulting preference signal.
+
+This changed how Claude could be narrated. The company could say, in effect: our assistant has a behavioral constitution. The statement is attractive because it converts alignment from a backstage training recipe into a public design idea. Users do not see reward models or preference datasets. They do see refusals, caveats, hedging, helpfulness, and tone. Constitutional AI gave Anthropic a way to connect those visible behaviors to a research method.
+
+The risk is that readers may hear "constitution" as law, guarantee, or moral settlement. The safer interpretation is engineering grammar. A constitution in this context is a list of principles used during training. It does not prove that the model understands law, morality, user intent, or future consequences. It does not remove the need for red-team testing, deployment monitoring, system-level controls, or product policy. It does, however, show why Anthropic's early public identity differed from a pure capability race. Capability still mattered. Claude would compete on coding, long context, multimodality, tool use, speed, and cost. But the lab's origin story kept returning to assistant behavior.
+
+That product grammar also helps explain why Claude often occupied a distinctive place in user culture. The chapter should avoid unsupported claims about broad adoption, user sentiment, or enterprise preference. The evidence here is not a statistically valid survey of taste. The supported claim is narrower: Anthropic's public materials and research lineage repeatedly tied Claude to a safety-and-behavior frame, and that frame shaped how the product family was explained. [S-0020]
+
+### The Claude 3 Family Makes A Product Line
+
+Claude became a clearer market object with the Claude 3 family. In March 2024, Anthropic announced Claude 3 Haiku, Claude 3 Sonnet, and Claude 3 Opus as a tiered family arranged around capability, speed, and cost. [S-0020] That structure mattered as much as any single benchmark chart. It turned Claude from one assistant into a lineup. Haiku could stand for speed and affordability. Sonnet could stand for the middle of the curve. Opus could stand for the most capable tier.
+
+This was the same industrial pattern that would appear across the frontier market. Model labs began packaging intelligence as a menu. The old question, "Which model is best?" became less useful than a procurement question: best for what workload, what latency, what price, what context length, what risk profile, and what tool environment? Chapter 13 treats leaderboard rank as a fragile historical slice rather than a permanent crown. [C-0046] Claude 3 made the same lesson visible inside a product family. A lab did not need one answer for every use case. It needed a portfolio.
+
+Anthropic's Claude 3 materials also pushed multimodality into the product story. The family accepted image inputs for tasks involving charts, diagrams, photos, and documents. The chapter should not overstate that as image-generation history or as proof of visual understanding. The book's topic remains LLMs. The point is that the assistant interface was becoming less text-only. A user could bring the model a screenshot, a slide, a table, or a scanned page and ask for language work around it. For a company selling assistants to knowledge workers, that mattered.
+
+The model card is especially useful because it connects product capability to risk practice. It describes the Claude 3 family, multimodal input, training methods including Constitutional AI, and safety evaluation context. [S-0110] This is a better source for sober prose than a launch post alone, because it makes the product line look less like a trophy cabinet and more like a deployment object with capabilities, limitations, and evaluation obligations.
+
+Claude 3 also exposed the tension at the heart of assistant design: fewer unnecessary refusals can be a capability improvement and a safety improvement at the same time, but only if the boundary between harmless and harmful requests is drawn well. Anthropic's launch framing said the new family was less likely to refuse harmless prompts near guardrails. [S-0020] That belongs in the chapter as a vendor-attributed product claim, not as an independent measurement that the book has verified. It is still important because it shows the problem Anthropic was trying to solve. A safe assistant that refuses too much is not useful. A useful assistant that refuses too little is not safe. The frontier product must live in that narrow band.
+
+### Sonnet Becomes The Workhorse
+
+The Claude 3.5 Sonnet launch in June 2024 sharpened the product line. Anthropic presented Claude 3.5 Sonnet as the first release in the Claude 3.5 family, available through Claude.ai, the Anthropic API, Amazon Bedrock, and Google Cloud's Vertex AI, and positioned it around intelligence, speed, cost, vision, and coding performance. [S-0021] The launch post included exact price and context-window statements, but this section does not turn them into a price chart. Provider pricing in this book is handled by source snapshots and normalized rows because billing semantics, cache prices, batch rates, tiers, model aliases, and cutoff status can quietly make clean comparisons false.
+
+Sonnet is the important name because it became the workhorse tier. Opus carried the aura of maximum capability. Haiku carried speed. Sonnet carried the market's favorite compromise: strong enough for serious work, cheaper and faster than the top tier, and available through multiple distribution channels. That middle position made it the natural model for developer workflows, enterprise pilots, and agentic experiments where cost and latency mattered.
+
+In October 2024, Anthropic announced an upgraded Claude 3.5 Sonnet, Claude 3.5 Haiku, and a public-beta computer-use capability. [S-0109] Computer use is one of the hinge points between chat and agency. The assistant was no longer only taking a prompt and returning text. Developers could direct Claude, through the API, to use a computer interface by observing a screen and taking actions such as moving a cursor, clicking, and typing. This chapter should not treat that as general autonomy. The safe claim is narrower: Anthropic made computer interaction a named product capability in public beta before the cutoff, which helped move the assistant from a conversational surface toward a tool-using agent.
+
+The computer-use announcement also clarifies why coding agents were not an isolated product gimmick. A model that can use a screen, a tool, a terminal, or a repository is part of a broader shift: language becomes the control layer for software. [S-0055] The user describes the goal in ordinary language. The model translates that into actions. The environment pushes back. The model observes, revises, and tries again. In a browser this can mean clicks and forms. In a terminal it can mean file reads, commands, tests, and diffs. In a workflow system it can mean structured API calls.
+
+That action loop is why safety and usability collide. A refusal error in chat may annoy the user. A bad action in a tool environment can change files, spend money, leak data, or create operational risk. Anthropic's safety identity therefore becomes more relevant, not less, as Claude moves from chat toward tools. The assistant-behavior problem migrates from wording to permissions.
+
+### Claude 3.7 and the Hybrid Reasoning Move
+
+In February 2025, Anthropic announced Claude 3.7 Sonnet and Claude Code. [S-0048] The launch matters for two reasons. First, Anthropic described Claude 3.7 Sonnet as a hybrid reasoning model that could produce quick responses or spend more time on extended thinking, with API controls over that thinking budget. Second, it introduced Claude Code as a command-line tool for agentic coding in a limited research preview.
+
+The reasoning claim belongs in Chapter 21 as part of the test-time compute story, but it also belongs here because it shows how Anthropic tried to preserve product simplicity. The market was beginning to split models into ordinary chat models and reasoning models. Anthropic's public framing for Claude 3.7 Sonnet argued for an integrated model that could answer normally or think longer when needed. The book should treat that as Anthropic's product philosophy, not as proof that one reasoning architecture beat another. Exact benchmark comparisons, scaffolding details, and numerical superiority claims remain blocked until a benchmark-specific pass checks the harnesses. [C-0013]
+
+Claude Code made the same philosophical move in the developer domain. Instead of asking the model only to produce a code snippet, Anthropic placed Claude in a command-line workflow where it could search and read code, edit files, write and run tests, commit or push when permitted, and use command-line tools while keeping the developer in the loop. That belongs mainly in Chapter 20. This Anthropic section uses it differently: as evidence that Claude's product line was becoming an operating layer for work.
+
+The agentic coding claim must stay disciplined. Anthropic's launch post included customer and internal-use language that can tempt a writer into productivity claims. This section does not say Claude Code generally reduces development time, outperforms human engineers, or has proven organizational productivity. Those claims need separate evidence, definitions, and controls. The safe claim is that Anthropic introduced Claude Code as a terminal-based agentic coding tool alongside Claude 3.7 Sonnet, and that the tool concentrated the work loop around repository context, bounded actions, tests, and human supervision. [S-0022]
+
+The timing is important. Claude 3.7 Sonnet appeared after the ChatGPT interface shock, after GPT-4 made multimodal and system-card discourse central, after Gemini and Llama had turned the market into a multi-lab race, and after coding benchmarks had become a public frontier signal. By early 2025, the question was no longer whether chatbots could produce impressive answers. The question was whether assistants could operate inside workflows. Anthropic answered with a model positioned around reasoning and a tool positioned around software work.
+
+### Claude 4 and the Agentic Frontier
+
+Claude 4, announced in May 2025, pushed the same arc further. Anthropic introduced Claude Opus 4 and Claude Sonnet 4, framing the generation around coding, advanced reasoning, and AI agents. [S-0007] The post also described extended thinking with tool use in beta, parallel tool use, more precise instruction following, and memory-like behavior when developers gave the model access to local files. Those are product claims from Anthropic's own source. The chapter can use them to show what the company wanted Claude to be. It should not convert them into neutral proof of model superiority.
+
+The most tempting lines in the Claude 4 announcement are benchmark lines. They make for easy drama. They also sit directly inside the book's existing blocker C-0013, because SWE-bench Verified, Terminal-bench, scaffolding, agent frameworks, and benchmark settings need careful checking before any chart or comparative ranking. [C-0013] This section therefore does not reproduce exact Claude 4 benchmark numbers. It says only what is safe: Anthropic framed Claude 4 as a major coding-and-agent generation, and the launch post used benchmark evidence as part of that positioning.
+
+The more durable story is not a number. It is the convergence of three design pressures. First, models needed stronger reasoning behavior, whether through training, test-time compute, tool use, or scaffolding. Second, assistants needed access to external state: files, tools, web search, repositories, APIs, and memory-like continuity. Third, the human role shifted from prompt writer to supervisor. Claude's arc from Constitutional AI to Claude Code makes that shift unusually legible.
+
+Claude 4 also shows how quickly "assistant" became too small a word. A chat assistant answers. An agentic assistant acts. The difference is not metaphysical. It is architectural and operational. The system needs a context strategy, a tool interface, permissions, logs, rollback, test feedback, and a human review loop. [S-0050] The model family supplies only part of that system. The product wrapper decides what the model can see and do.
+
+That is the bridge to the coding-agents chapter. Claude Code is not important only because a famous lab made a developer tool. It is important because it reveals the next operating question for LLMs: once language can call tools, who controls the action boundary? Anthropic's safety identity makes that question feel native to the company story. The lab that made behavior its brand was now selling assistants that could take more consequential actions.
+
+This is where the chapter must stop before it becomes Chapter 20. The Anthropic chapter can say that Claude Code completes Claude's behavior-to-action arc: a safety-origin assistant enters the terminal and forces the permission question into software work. Chapter 20 owns the operational loop: repository context, issue framing, command execution, tests, benchmark harnesses, review, and the productivity trap. A reader should leave this chapter understanding why Anthropic's identity made action risky and central; the reader should enter Chapter 20 ready to watch the work loop itself.
+
+### The Distribution Layer: APIs, Clouds, and Protocols
+
+Claude's story is also a distribution story. Anthropic's product posts repeatedly place Claude not only on Claude.ai, but through APIs and cloud platforms. Claude 3 materials described Claude API availability and cloud access. Claude 3.5 Sonnet materials named the Anthropic API, Amazon Bedrock, and Google Cloud's Vertex AI. The Claude 3.7 Sonnet post again described availability across Claude plans, the Claude Developer Platform, Amazon Bedrock, and Vertex AI. [S-0048]
+
+That matters because frontier models were becoming infrastructure components. A model provider did not simply publish a chat window. It offered an endpoint, a price schedule, a context limit, a safety policy, a partner-cloud route, documentation, and upgrade cadence. [S-0060] For developers and enterprises, Claude was part model and part dependency.
+
+The Model Context Protocol belongs in this layer. Anthropic introduced MCP in November 2024 as an open standard for connecting assistants to data sources and tools. [S-0055] In isolation, a protocol announcement can sound dry. Inside the Claude arc, it is a structural clue. Anthropic was not only improving models. It was helping define how assistants might reach the world around them. If a language model becomes a controller, then the connectors, permission surfaces, and context feeds around it become as important as the model weights.
+
+MCP also prevents the chapter from being too Claude-centric. The protocol's significance is not that every future agent must use Anthropic's preferred plumbing. The significance is that the field recognized a general problem: assistants needed standardized, inspectable ways to connect to tools and data. That problem will appear again in the tools, retrieval, prompt-injection, and coding-agent chapters. Claude is the case study, not the whole phenomenon.
+
+Pricing and context remain deliberately modest here. The source ledger includes a Claude API pricing page snapshot. But the book has already learned that provider pricing rows are not simple apples-to-apples evidence. Cache reads, cache writes, prompt-length tiers, batch rates, media modalities, model aliases, and changing product pages can distort a clean curve. [C-0046] The Anthropic chapter only needs the business shape: Claude was sold through consumer surfaces, APIs, and clouds, with tiered models that mapped capability and cost to different workloads. Exact price-quality claims belong in a later normalized chart pass.
+
+### What Claude Proves, And What It Does Not
+
+Claude proves that assistant behavior can become a strategic identity. Constitutional AI gave Anthropic a research signature. Claude 3 turned that signature into a tiered product family. Claude 3.5 Sonnet made the middle tier feel like a workhorse. Computer use and MCP pointed beyond chat. Claude 3.7 Sonnet and Claude Code joined reasoning and agentic coding. Claude 4 made coding, advanced reasoning, and agents the center of the public story.
+
+What Claude does not prove is just as important. It does not prove that constitutional training solves alignment. It does not prove that benchmark leadership translates into deployed productivity. It does not prove that a model with tool use is autonomous in the human sense. It does not prove that a product post is neutral market evidence. It does not prove that a pricing row can be plotted against a leaderboard row without careful normalization. [C-0046]
+
+The chapter's job is to hold both halves. Anthropic deserves a central place because it made one of the era's strongest arguments about what an assistant should be, then carried that argument into model releases, developer tools, protocols, and coding agents. But the book should resist making the company a moral protagonist. The better story is more interesting: a safety-origin lab entered a market where capability, cost, distribution, and action were pulling the assistant into more powerful environments. Its brand helped explain why safety mattered. Its products showed why safety became harder.
+
+The human-facing consequence is simple. A user does not experience Constitutional AI as a paper. They experience it as the assistant's posture: the way it helps, refuses, hedges, asks, reasons, remembers, uses tools, or declines to act. A developer does not experience Claude Code as a benchmark. They experience it as a supervised worker inside a repository, reading files and producing diffs that may or may not deserve to live. [S-0022]
+
+That is why Anthropic belongs at the front of this chapter rather than in a supplemental file. The company's story connects the book's deepest strands: alignment as product behavior, model families as infrastructure menus, reasoning as a spendable resource, tools as action surfaces, and coding agents as the first domain where language models began to operate inside the machinery that builds other machinery. Claude was not the whole race. It was one of the clearest arguments about where the race was going. The rest of this chapter widens the lens so the reader sees why no single lab, architecture, country, or product surface owned the frontier.
+
+## The Plural Frontier Outside The Center
+
+
 
 ### The Race Outside the Center
-> Source lane (I-0266): [S-0145] [S-0146] [S-0147] [S-0148] [S-0149] [S-0150] [S-0151] [S-0152]
-> Boundary: Use for rest-of-frontier map; vendor claims stay attributed.
-
-
-<!-- FIGURE-CALLOUT F12.01 ch12-fig01 -->
-> [!FIGURE] **F12.01 / A-0094 - Constitutional AI As Behavior Grammar**  
-> Role: Constitutional AI behavior grammar. Status: selected_pending_render. Rights: ready_svg. Sources: S-0019.  
-> Caption stub: F12.01: Constitutional AI As Behavior Grammar. Shows Constitutional AI behavior grammar. Source and blocker notes remain required at placement.  
-> Manifest: `assets/visual_system/chapter12-constitutional-ai-behavior-loop.svg`. Next gate: Confirm Chapter 12 title/placement.
-<!-- /FIGURE-CALLOUT F12.01 -->
-
 
 By the time the large-language-model race had acquired its familiar map, the map was already misleading. It showed OpenAI and Microsoft on one side, Google and DeepMind on another, Meta with open weights, Anthropic with safety and Claude, China with Qwen, DeepSeek, GLM, and Kimi, and NVIDIA underneath almost everyone. That map was useful. It was also too tidy. The frontier did not belong only to the obvious capitals.
 
@@ -2274,14 +2364,6 @@ The deeper Mistral point is that Europe became technical in the LLM story when s
 The narrowness is the reason it belongs in the book. LLMs turned sovereignty from a legal abstraction into an operational stack. A model could be open-weight but hosted on American GPUs. A model could be European but trained with global data, American accelerators, and cloud distribution. A model could run on premises but still depend on libraries, compilers, and expert labor from the wider ecosystem. Mistral did not dissolve those dependencies. It made them visible in a European key.
 
 ### xAI Makes Speed a Strategy
-
-<!-- FIGURE-CALLOUT F12.02 ch12-fig02 -->
-> [!FIGURE] **F12.02 / A-0095 - Claude Becomes A Product Family**  
-> Role: Claude product family. Status: selected_pending_render. Rights: ready_svg. Sources: S-0007;S-0020;S-0021;S-0048;S-0109.  
-> Caption stub: F12.02: Claude Becomes A Product Family. Shows Claude product family. Source and blocker notes remain required at placement.  
-> Manifest: `assets/visual_system/chapter12-claude-model-family-timeline.svg`. Next gate: Check overlap with A-0130.
-<!-- /FIGURE-CALLOUT F12.02 -->
-
 
 xAI entered the story with a different kind of pressure. It did not present itself as the sober European alternative, the search incumbent, or the open-weight platform. It presented Grok as the model attached to X, to a real-time information surface, and to Elon Musk's appetite for speed, spectacle, and contrarian branding. That combination was easy to ridicule and dangerous to underrate.
 
@@ -2324,17 +2406,6 @@ For readers, AI21 functions like a side road that reveals the highway. The main 
 AI21 also keeps the book from over-Americanizing or over-Sinicizing the frontier. Israel's LLM contribution was not a national substitute for OpenAI or Google. It was a concrete technical bet inside a global market. That is a more useful unit of analysis than country pride. The book's job is to show which technical bets changed the reader's understanding of LLMs. Jamba's hybrid architecture does that.
 
 ### What "Rest of Frontier" Cannot Be Allowed to Mean
-> Source lane (I-0266): [S-0145] [S-0146] [S-0147] [S-0150] [S-0151] [S-0152]
-> Boundary: Use for scope discipline; do not flatten labs into a logo parade.
-
-
-<!-- FIGURE-CALLOUT F12.03 ch12-fig03 -->
-> [!FIGURE] **F12.03 / A-0096 - From Assistant To Action Surface**  
-> Role: assistant-to-action surface. Status: selected_pending_render. Rights: ready_svg. Sources: S-0007;S-0022;S-0049;S-0050;S-0051;S-0055;S-0109.  
-> Caption stub: F12.03: From Assistant To Action Surface. Shows assistant-to-action surface. Source and blocker notes remain required at placement.  
-> Manifest: `assets/visual_system/chapter12-computer-use-mcp-code-bridge.svg`. Next gate: Pair with source screenshot only once.
-<!-- /FIGURE-CALLOUT F12.03 -->
-
 
 There is a trap in a chapter like this. Once the major players have their own chapters, the remaining labs can become a decorative parade: one paragraph for France, one for Musk, one for Canada, one for Israel, then a list of names that signals breadth without doing intellectual work. That would be worse than omission. It would teach the reader that the rest of the frontier is a miscellany instead of a set of pressure tests on the main story.
 
@@ -2349,164 +2420,18 @@ That restraint explains the source gaps. Mistral's official and arXiv rows can c
 This is not timid writing. It is the kind of writing that lets the book be serious. A weaker chapter would make every lab sound like a winner. A stronger chapter shows what each lab pressures and what remains unproved. That produces a more useful suspense: not "which logo gets crowned?" but "which constraint becomes decisive next?"
 
 ### The Frontier as a Portfolio
-> Source lane (I-0266): [S-0145] [S-0146] [S-0147] [S-0150] [S-0151] [S-0152] [S-0026] [S-0029]
-> Boundary: Use for portfolio metaphor with mechanism-specific evidence.
-
 
 The rest-of-frontier chapter should end by changing the reader's mental model. Up to this point, the book has marched through origins, OpenAI, alignment, ChatGPT, Microsoft, Google, Meta, China, and now the labs that do not fit the clean bins. The temptation is to rank them. Who won Europe? Was Grok ahead of Gemini? Did Command A beat Mistral Medium? Was Jamba a dead end or an omen? Those are fair questions for a benchmark appendix. They are dangerous as chapter architecture.
 
 The better frame is portfolio pressure. Mistral pressures the giants on openness, cost, deployment, and sovereignty language. xAI pressures them on compute buildout speed, live distribution, and the willingness to make a product weird. Cohere pressures them on enterprise retrieval, multilingual deployment, and business-process integration. AI21 pressures them on architecture. Each pressure is partial. Each can fail. But each also prevents the frontier from collapsing into one story about scale.
 
-This is where the Anthropic placement problem matters. Anthropic deserves a major spine treatment, and pass I-0158 has now made that treatment the strongest Chapter 12 live-order candidate. That move creates a real cost: the book still needs a place for Mistral, xAI, Cohere, AI21, and the labs whose strategies are neither Chinese open-model lanes nor American platform-incumbent lanes. This draft therefore remains a valuable rest-of-frontier candidate or merge source, not a discarded survey. A later outline pass must preserve its mechanism-gate logic without duplicating Claude's behavior-to-action chapter or breaking the 24-chapter limit. [C-0133]
+Anthropic now occupies the front of the integrated Chapter 12 because Claude is the cleanest behavior-to-action company arc. This rest-of-frontier material remains in the same chapter for a different job: Mistral, xAI, Cohere, and AI21 show the pressures that kept the race plural without becoming decorative mini-chapters. [C-0133]
 
 The book also needs discipline about what this chapter cannot prove. It cannot prove Mistral's exact market share, xAI's independent benchmark rank, Cohere's enterprise adoption, AI21's architecture superiority, or Europe's AI sovereignty. It can prove a more valuable thing: by the cutoff, the LLM frontier had become plural. The race was not only who had the largest model. It was who could route sparse experts efficiently, ship open weights credibly, build clusters quickly, attach models to distribution surfaces, make multilingual coverage matter, fit assistants into enterprises, and test new architectures without losing contact with the market.
 
 That plural frontier is not comforting. It means no single story is enough. The model that wins a leaderboard can lose a procurement fight. The model that delights developers can fail an enterprise security review. The model that carries national hopes can still depend on foreign chips. The model that speaks many languages can still struggle with evaluation and business demand. The model that reasons for minutes can become too expensive or too slow for a product loop.
 
 But plural also means the field remained alive. The next token was not being written by one lab, one country, one architecture, or one ideology. It was being pulled through a set of constraints: compute, openness, deployment, trust, language, architecture, product surface, and cost. Chapter 12 belongs at this point in the book because it widens the aperture before the benchmark chapter narrows it again. The reader should enter Chapter 13 ready to distrust crowns, because Chapter 12 has shown how many different games the labs were actually playing.
-
-## Supplemental Source Section Retained For Placement Review
-
-## Anthropic and Claude: The Assistant as a Safety Argument
-
-### The Lab That Made Behavior Its Brand
-> Source lane (I-0266): [S-0019] [S-0020] [S-0021] [S-0109] [S-0007]
-> Boundary: Use for Anthropic/Claude behavior arc; no safety-success claim.
-
-
-Anthropic enters this book as more than another frontier-model company. Its importance is that it turned assistant behavior into a public identity. OpenAI made ChatGPT the interface shock. Google had the Transformer, DeepMind, search, and a deep model-research bench. Meta made open weights a strategic argument. Anthropic made the question of how an assistant should behave feel like the company itself.
-
-That identity began before the Claude product line became a familiar name. Constitutional AI gave Anthropic a signature: train the assistant not only through direct human comparison, but through written principles, model-generated critiques, model-generated revisions, and reinforcement learning from AI feedback. [S-0019] In Chapter 6, this appears as one branch of the larger alignment story, beside InstructGPT-style RLHF, behavior specifications, red teams, and system cards. Here it becomes a company chapter, because Anthropic did not merely publish a technique. It built a product personality around the idea that a general assistant should be helpful, harmless, and honest without being reduced to either a raw completion engine or a pure refusal machine.
-
-That distinction matters because the frontier race was not only a race to larger models. It was a race to stable behavior under pressure. A model that can summarize, code, reason, search, and use tools is useful only if users can form expectations about it. Will it answer? Will it refuse? Will it ask for clarification? Will it admit uncertainty? Will it follow a system instruction rather than the last user demand? These questions sound soft until the assistant is placed in a workplace, a terminal, a browser, or an API serving thousands of applications. Then behavior becomes infrastructure.
-
-The constitutional frame did not solve alignment. This section must not let the phrase do too much work. A written constitution raises hard questions: who chooses the principles, how conflicts between principles are handled, how the training distribution represents real users, how refusals are evaluated, and how a model behaves outside curated examples. [C-0044] But the frame changed the competitive vocabulary. Anthropic could present Claude as an assistant shaped by principles, not only by scale or leaderboard wins. That made the Claude story both technical and rhetorical: the research program became a product promise.
-
-Status: promoted Anthropic/Claude live-order candidate, pass I-0158, 2026-05-26. Original spine-section draft promoted in pass I-0103.
-
-Placement note: This chapter is now the book's clearest candidate for the mandatory Anthropic/Claude spine. It should be treated as a Chapter 12 live-order candidate unless a later full-outline pass assigns it another main slot. The existing `manuscript/12-europe-xai-rest-frontier.md` remains a valuable rest-of-frontier draft, but the current book cannot leave Anthropic only as Chapter 6 context and Chapter 20 Claude Code material without losing the behavior-to-action company arc.
-
-Source note: This section uses Anthropic source assets captured under `assets/source_docs/anthropic/`, existing source rows, and two new official Anthropic source rows. It avoids exact benchmark-number comparisons, exact price/context-window charts, customer productivity claims, broad adoption claims, and long quotations from live documentation until row-level extractions license them.
-
-Figure plan: Use A-0094 near Constitutional AI as the behavior mechanism, A-0095 near the Claude 3/3.5/3.7/4 family sections as the release chronology, A-0096 as the bridge from computer use and MCP into Claude Code, and A-0097 only as the negative-control grid for safety, productivity, benchmark, price, memory, and adoption overclaims. Chapter 20 keeps the repository-work loop, benchmark caveats, tool permissions, and productivity blockers.
-
-### Constitutional AI as Product Grammar
-
-<!-- FIGURE-CALLOUT F12.04 ch12-fig04 -->
-> [!FIGURE] **F12.04 / A-0097 - The Tempting Claude Claims Are Not The Sourced Ones**  
-> Role: Claude claim blockers. Status: selected_pending_render. Rights: ready_svg. Sources: S-0007;S-0035;S-0037;S-0060;S-0110.  
-> Caption stub: F12.04: The Tempting Claude Claims Are Not The Sourced Ones. Shows Claude claim blockers. Source and blocker notes remain required at placement.  
-> Manifest: `assets/visual_system/chapter12-safety-productivity-blocker-grid.svg`. Next gate: Use near prose with safety temptation.
-<!-- /FIGURE-CALLOUT F12.04 -->
-
-
-The Constitutional AI paper is useful because it makes the hidden product problem visible. A base language model can continue almost any pattern. An assistant has to choose among patterns. The paper's procedure used a set of written principles to guide critiques and revisions in a supervised phase, then used AI-generated preference labels in a reinforcement-learning phase. [S-0019] In other words, the model was trained not merely to produce a fluent answer, but to evaluate and revise an answer against a stated behavioral frame.
-
-For a business reader, the important mechanism is feedback substitution. Human preference data is expensive, slow, inconsistent, and hard to scale. RLHF showed that human comparisons could move model behavior toward instructions and user preferences. Constitutional AI asked whether some of that supervision could be generated by a model using explicit principles. [S-0019] That is why the term RLAIF matters in the book. It is not a magic replacement for judgment. It is an attempt to change where judgment enters the pipeline: write principles, use the model to apply them, then train on the resulting preference signal.
-
-This changed how Claude could be narrated. The company could say, in effect: our assistant has a behavioral constitution. The statement is attractive because it converts alignment from a backstage training recipe into a public design idea. Users do not see reward models or preference datasets. They do see refusals, caveats, hedging, helpfulness, and tone. Constitutional AI gave Anthropic a way to connect those visible behaviors to a research method.
-
-The risk is that readers may hear "constitution" as law, guarantee, or moral settlement. The safer interpretation is engineering grammar. A constitution in this context is a list of principles used during training. It does not prove that the model understands law, morality, user intent, or future consequences. It does not remove the need for red-team testing, deployment monitoring, system-level controls, or product policy. It does, however, show why Anthropic's early public identity differed from a pure capability race. Capability still mattered. Claude would compete on coding, long context, multimodality, tool use, speed, and cost. But the lab's origin story kept returning to assistant behavior.
-
-That product grammar also helps explain why Claude often occupied a distinctive place in user culture. The chapter should avoid unsupported claims about broad adoption, user sentiment, or enterprise preference. The evidence here is not a statistically valid survey of taste. The supported claim is narrower: Anthropic's public materials and research lineage repeatedly tied Claude to a safety-and-behavior frame, and that frame shaped how the product family was explained. [S-0020]
-
-### The Claude 3 Family Makes A Product Line
-
-Claude became a clearer market object with the Claude 3 family. In March 2024, Anthropic announced Claude 3 Haiku, Claude 3 Sonnet, and Claude 3 Opus as a tiered family arranged around capability, speed, and cost. [S-0020] That structure mattered as much as any single benchmark chart. It turned Claude from one assistant into a lineup. Haiku could stand for speed and affordability. Sonnet could stand for the middle of the curve. Opus could stand for the most capable tier.
-
-This was the same industrial pattern that would appear across the frontier market. Model labs began packaging intelligence as a menu. The old question, "Which model is best?" became less useful than a procurement question: best for what workload, what latency, what price, what context length, what risk profile, and what tool environment? Chapter 13 treats leaderboard rank as a fragile historical slice rather than a permanent crown. [C-0046] Claude 3 made the same lesson visible inside a product family. A lab did not need one answer for every use case. It needed a portfolio.
-
-Anthropic's Claude 3 materials also pushed multimodality into the product story. The family accepted image inputs for tasks involving charts, diagrams, photos, and documents. The chapter should not overstate that as image-generation history or as proof of visual understanding. The book's topic remains LLMs. The point is that the assistant interface was becoming less text-only. A user could bring the model a screenshot, a slide, a table, or a scanned page and ask for language work around it. For a company selling assistants to knowledge workers, that mattered.
-
-The model card is especially useful because it connects product capability to risk practice. It describes the Claude 3 family, multimodal input, training methods including Constitutional AI, and safety evaluation context. [S-0110] This is a better source for sober prose than a launch post alone, because it makes the product line look less like a trophy cabinet and more like a deployment object with capabilities, limitations, and evaluation obligations.
-
-Claude 3 also exposed the tension at the heart of assistant design: fewer unnecessary refusals can be a capability improvement and a safety improvement at the same time, but only if the boundary between harmless and harmful requests is drawn well. Anthropic's launch framing said the new family was less likely to refuse harmless prompts near guardrails. [S-0020] That belongs in the chapter as a vendor-attributed product claim, not as an independent measurement that the book has verified. It is still important because it shows the problem Anthropic was trying to solve. A safe assistant that refuses too much is not useful. A useful assistant that refuses too little is not safe. The frontier product must live in that narrow band.
-
-### Sonnet Becomes The Workhorse
-
-<!-- FIGURE-CALLOUT F12.05 ch12-fig05 -->
-> [!FIGURE] **F12.05 / A-0119 - Computer Use Source Surface**  
-> Role: computer-use source surface. Status: selected_pending_capture. Rights: private_capture_needed. Sources: S-0109.  
-> Caption stub: F12.05: Computer Use Source Surface. Shows computer-use source surface. Source and blocker notes remain required at placement.  
-> Manifest: `assets/private_use_screenshots/i0148/A-0119_claude_computer_use_announcement.png`. Next gate: Capture/hash; block autonomy.
-> Real-world candidate (I-0243): computer-use demo surface. Story fit: grounds the agency chapter in a concrete interface-taking-action artifact. Quality note: needs source crop that shows task context without overclaiming autonomy. Gate: demo screenshot permission and safety-context caption review pending.
-<!-- /FIGURE-CALLOUT F12.05 -->
-
-
-The Claude 3.5 Sonnet launch in June 2024 sharpened the product line. Anthropic presented Claude 3.5 Sonnet as the first release in the Claude 3.5 family, available through Claude.ai, the Anthropic API, Amazon Bedrock, and Google Cloud's Vertex AI, and positioned it around intelligence, speed, cost, vision, and coding performance. [S-0021] The launch post included exact price and context-window statements, but this section does not turn them into a price chart. Provider pricing in this book is handled by source snapshots and normalized rows because billing semantics, cache prices, batch rates, tiers, model aliases, and cutoff status can quietly make clean comparisons false.
-
-Sonnet is the important name because it became the workhorse tier. Opus carried the aura of maximum capability. Haiku carried speed. Sonnet carried the market's favorite compromise: strong enough for serious work, cheaper and faster than the top tier, and available through multiple distribution channels. That middle position made it the natural model for developer workflows, enterprise pilots, and agentic experiments where cost and latency mattered.
-
-In October 2024, Anthropic announced an upgraded Claude 3.5 Sonnet, Claude 3.5 Haiku, and a public-beta computer-use capability. [S-0109] Computer use is one of the hinge points between chat and agency. The assistant was no longer only taking a prompt and returning text. Developers could direct Claude, through the API, to use a computer interface by observing a screen and taking actions such as moving a cursor, clicking, and typing. This chapter should not treat that as general autonomy. The safe claim is narrower: Anthropic made computer interaction a named product capability in public beta before the cutoff, which helped move the assistant from a conversational surface toward a tool-using agent.
-
-The computer-use announcement also clarifies why coding agents were not an isolated product gimmick. A model that can use a screen, a tool, a terminal, or a repository is part of a broader shift: language becomes the control layer for software. [S-0055] The user describes the goal in ordinary language. The model translates that into actions. The environment pushes back. The model observes, revises, and tries again. In a browser this can mean clicks and forms. In a terminal it can mean file reads, commands, tests, and diffs. In a workflow system it can mean structured API calls.
-
-That action loop is why safety and usability collide. A refusal error in chat may annoy the user. A bad action in a tool environment can change files, spend money, leak data, or create operational risk. Anthropic's safety identity therefore becomes more relevant, not less, as Claude moves from chat toward tools. The assistant-behavior problem migrates from wording to permissions.
-
-### Claude 3.7 and the Hybrid Reasoning Move
-
-In February 2025, Anthropic announced Claude 3.7 Sonnet and Claude Code. [S-0048] The launch matters for two reasons. First, Anthropic described Claude 3.7 Sonnet as a hybrid reasoning model that could produce quick responses or spend more time on extended thinking, with API controls over that thinking budget. Second, it introduced Claude Code as a command-line tool for agentic coding in a limited research preview.
-
-The reasoning claim belongs in Chapter 21 as part of the test-time compute story, but it also belongs here because it shows how Anthropic tried to preserve product simplicity. The market was beginning to split models into ordinary chat models and reasoning models. Anthropic's public framing for Claude 3.7 Sonnet argued for an integrated model that could answer normally or think longer when needed. The book should treat that as Anthropic's product philosophy, not as proof that one reasoning architecture beat another. Exact benchmark comparisons, scaffolding details, and numerical superiority claims remain blocked until a benchmark-specific pass checks the harnesses. [C-0013]
-
-Claude Code made the same philosophical move in the developer domain. Instead of asking the model only to produce a code snippet, Anthropic placed Claude in a command-line workflow where it could search and read code, edit files, write and run tests, commit or push when permitted, and use command-line tools while keeping the developer in the loop. That belongs mainly in Chapter 20. This Anthropic section uses it differently: as evidence that Claude's product line was becoming an operating layer for work.
-
-The agentic coding claim must stay disciplined. Anthropic's launch post included customer and internal-use language that can tempt a writer into productivity claims. This section does not say Claude Code generally reduces development time, outperforms human engineers, or has proven organizational productivity. Those claims need separate evidence, definitions, and controls. The safe claim is that Anthropic introduced Claude Code as a terminal-based agentic coding tool alongside Claude 3.7 Sonnet, and that the tool concentrated the work loop around repository context, bounded actions, tests, and human supervision. [S-0022]
-
-The timing is important. Claude 3.7 Sonnet appeared after the ChatGPT interface shock, after GPT-4 made multimodal and system-card discourse central, after Gemini and Llama had turned the market into a multi-lab race, and after coding benchmarks had become a public frontier signal. By early 2025, the question was no longer whether chatbots could produce impressive answers. The question was whether assistants could operate inside workflows. Anthropic answered with a model positioned around reasoning and a tool positioned around software work.
-
-### Claude 4 and the Agentic Frontier
-
-Claude 4, announced in May 2025, pushed the same arc further. Anthropic introduced Claude Opus 4 and Claude Sonnet 4, framing the generation around coding, advanced reasoning, and AI agents. [S-0007] The post also described extended thinking with tool use in beta, parallel tool use, more precise instruction following, and memory-like behavior when developers gave the model access to local files. Those are product claims from Anthropic's own source. The chapter can use them to show what the company wanted Claude to be. It should not convert them into neutral proof of model superiority.
-
-The most tempting lines in the Claude 4 announcement are benchmark lines. They make for easy drama. They also sit directly inside the book's existing blocker C-0013, because SWE-bench Verified, Terminal-bench, scaffolding, agent frameworks, and benchmark settings need careful checking before any chart or comparative ranking. [C-0013] This section therefore does not reproduce exact Claude 4 benchmark numbers. It says only what is safe: Anthropic framed Claude 4 as a major coding-and-agent generation, and the launch post used benchmark evidence as part of that positioning.
-
-The more durable story is not a number. It is the convergence of three design pressures. First, models needed stronger reasoning behavior, whether through training, test-time compute, tool use, or scaffolding. Second, assistants needed access to external state: files, tools, web search, repositories, APIs, and memory-like continuity. Third, the human role shifted from prompt writer to supervisor. Claude's arc from Constitutional AI to Claude Code makes that shift unusually legible.
-
-Claude 4 also shows how quickly "assistant" became too small a word. A chat assistant answers. An agentic assistant acts. The difference is not metaphysical. It is architectural and operational. The system needs a context strategy, a tool interface, permissions, logs, rollback, test feedback, and a human review loop. [S-0050] The model family supplies only part of that system. The product wrapper decides what the model can see and do.
-
-That is the bridge to the coding-agents chapter. Claude Code is not important only because a famous lab made a developer tool. It is important because it reveals the next operating question for LLMs: once language can call tools, who controls the action boundary? Anthropic's safety identity makes that question feel native to the company story. The lab that made behavior its brand was now selling assistants that could take more consequential actions.
-
-This is where the chapter must stop before it becomes Chapter 20. The Anthropic chapter can say that Claude Code completes Claude's behavior-to-action arc: a safety-origin assistant enters the terminal and forces the permission question into software work. Chapter 20 owns the operational loop: repository context, issue framing, command execution, tests, benchmark harnesses, review, and the productivity trap. A reader should leave this chapter understanding why Anthropic's identity made action risky and central; the reader should enter Chapter 20 ready to watch the work loop itself.
-
-### The Distribution Layer: APIs, Clouds, and Protocols
-
-<!-- FIGURE-CALLOUT F12.06 ch12-fig06 -->
-> [!FIGURE] **F12.06 / A-0130 - Claude Product Surface**  
-> Role: Claude product source surface. Status: selected_pending_capture. Rights: private_capture_needed. Sources: S-0007;S-0245.  
-> Caption stub: F12.06: Claude Product Surface. Shows Claude product source surface. Source and blocker notes remain required at placement.  
-> Manifest: `assets/private_use_screenshots/i0180/A-0130_claude_product_surface.png`. Next gate: Capture/hash; block safety success.
-> Real-world candidate (I-0243): Claude product surface. Story fit: adds a visible alternative assistant surface in the agent/product chapter. Quality note: local Claude news page exists; may need separate product UI capture for better specificity. Gate: Anthropic page capture rights and attribution pending.
-<!-- /FIGURE-CALLOUT F12.06 -->
-
-
-Claude's story is also a distribution story. Anthropic's product posts repeatedly place Claude not only on Claude.ai, but through APIs and cloud platforms. Claude 3 materials described Claude API availability and cloud access. Claude 3.5 Sonnet materials named the Anthropic API, Amazon Bedrock, and Google Cloud's Vertex AI. The Claude 3.7 Sonnet post again described availability across Claude plans, the Claude Developer Platform, Amazon Bedrock, and Vertex AI. [S-0048]
-
-That matters because frontier models were becoming infrastructure components. A model provider did not simply publish a chat window. It offered an endpoint, a price schedule, a context limit, a safety policy, a partner-cloud route, documentation, and upgrade cadence. [S-0060] For developers and enterprises, Claude was part model and part dependency.
-
-The Model Context Protocol belongs in this layer. Anthropic introduced MCP in November 2024 as an open standard for connecting assistants to data sources and tools. [S-0055] In isolation, a protocol announcement can sound dry. Inside the Claude arc, it is a structural clue. Anthropic was not only improving models. It was helping define how assistants might reach the world around them. If a language model becomes a controller, then the connectors, permission surfaces, and context feeds around it become as important as the model weights.
-
-MCP also prevents the chapter from being too Claude-centric. The protocol's significance is not that every future agent must use Anthropic's preferred plumbing. The significance is that the field recognized a general problem: assistants needed standardized, inspectable ways to connect to tools and data. That problem will appear again in the tools, retrieval, prompt-injection, and coding-agent chapters. Claude is the case study, not the whole phenomenon.
-
-Pricing and context remain deliberately modest here. The source ledger includes a Claude API pricing page snapshot. But the book has already learned that provider pricing rows are not simple apples-to-apples evidence. Cache reads, cache writes, prompt-length tiers, batch rates, media modalities, model aliases, and changing product pages can distort a clean curve. [C-0046] The Anthropic chapter only needs the business shape: Claude was sold through consumer surfaces, APIs, and clouds, with tiered models that mapped capability and cost to different workloads. Exact price-quality claims belong in a later normalized chart pass.
-
-### What Claude Proves, And What It Does Not
-
-Claude proves that assistant behavior can become a strategic identity. Constitutional AI gave Anthropic a research signature. Claude 3 turned that signature into a tiered product family. Claude 3.5 Sonnet made the middle tier feel like a workhorse. Computer use and MCP pointed beyond chat. Claude 3.7 Sonnet and Claude Code joined reasoning and agentic coding. Claude 4 made coding, advanced reasoning, and agents the center of the public story.
-
-What Claude does not prove is just as important. It does not prove that constitutional training solves alignment. It does not prove that benchmark leadership translates into deployed productivity. It does not prove that a model with tool use is autonomous in the human sense. It does not prove that a product post is neutral market evidence. It does not prove that a pricing row can be plotted against a leaderboard row without careful normalization. [C-0046]
-
-The chapter's job is to hold both halves. Anthropic deserves a central place because it made one of the era's strongest arguments about what an assistant should be, then carried that argument into model releases, developer tools, protocols, and coding agents. But the book should resist making the company a moral protagonist. The better story is more interesting: a safety-origin lab entered a market where capability, cost, distribution, and action were pulling the assistant into more powerful environments. Its brand helped explain why safety mattered. Its products showed why safety became harder.
-
-The human-facing consequence is simple. A user does not experience Constitutional AI as a paper. They experience it as the assistant's posture: the way it helps, refuses, hedges, asks, reasons, remembers, uses tools, or declines to act. A developer does not experience Claude Code as a benchmark. They experience it as a supervised worker inside a repository, reading files and producing diffs that may or may not deserve to live. [S-0022]
-
-That is why Anthropic belongs in the mandatory spine. The company's story connects the book's deepest strands: alignment as product behavior, model families as infrastructure menus, reasoning as a spendable resource, tools as action surfaces, and coding agents as the first domain where language models began to operate inside the machinery that builds other machinery. Claude was not the whole race. It was one of the clearest arguments about where the race was going.
-
-### What Still Has To Stay Outside The Prose
-
-The placement problem is not fully solved. A later outline pass must decide how to preserve Mistral, xAI, Cohere, AI21, and other rest-of-frontier labs if Anthropic occupies the official Chapter 12 slot. The answer cannot be to erase those labs, and it cannot be to inflate this chapter into a survey of every frontier company. The cleanest current boundary is: Anthropic owns behavior-to-action; rest-of-frontier owns mechanism diversity outside the big platform chapters.
-
-The verification blockers also remain active. Downloaded Anthropic source assets stay under `assets/source_docs/anthropic/`, with lightweight provenance mirrored in `data/anthropic_source_asset_hashes_i0103.tsv`. C-0013 remains active until SWE-bench Verified, Terminal-bench, scaffolding, and agent framework details are checked row by row. C-0046 remains active for price-quality claims until Claude rows are joined to same-scope ranking evidence with billing semantics preserved. Claude model-line visuals and source screenshots need date, model, modality/tool capability, source type, and blocked benchmark/pricing inferences before final layout.
 
 ---
 
