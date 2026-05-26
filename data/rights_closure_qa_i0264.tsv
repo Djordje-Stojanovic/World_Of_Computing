@@ -1,0 +1,9 @@
+pass_id	check_id	category	result	evidence	recommended_action
+I-0264	RC-001	old_nonpublish_count	pass	rows=26; expected=26	Rejoin I-0250 non-publish rows.
+I-0264	RC-002	old_decision_mix	pass	old_decisions={'permission-needed': 21, 'redraw': 3, 'local-only': 2}	Reconcile I-0250 staging counts.
+I-0264	RC-003	replacement_files	pass	missing_replacements=[]	Create or select replacement asset files.
+I-0264	RC-004	render_verified	pass	not_rendered_or_not_legibility_checked=[]	Rerender or rerun page-image QA.
+I-0264	RC-005	no_active_open_rights_rows	pass	open_rows=[]	Close open rows or mark local-only reserve/drop.
+I-0264	RC-006	closure_status_mix	pass	closure_statuses={'closed_replaced_by_source_card': 18, 'closed_cut_replaced_by_original_card': 6, 'closed_local_only_reserve_replaced_by_source_card': 2}	Ensure every old status maps to an exact closure.
+I-0264	RC-007	action_mix	pass	actions={'retire_old_screenshot_slot_from_publication': 18, 'drop_old_photo_candidate_from_publication': 6, 'keep_old_raster_local_only_do_not_publish': 2}	Assign final publication action for every row.
+I-0264	RC-008	fail_closed_language	pass	all_rows_have_closure_note_and_remaining_gate	Add fail-closed closure notes.

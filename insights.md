@@ -426,3 +426,7 @@ Object-level PDF QA should distinguish presence from beauty. Getting 100 image-b
 ## 2026-05-27 - I-0263 Page Legibility
 
 The first honest page-image QA should produce defects, not reassurance. Once every figure exists in the PDF, the next useful truth is which pages are too small, crowded, or visually tiring; those warnings become the design-polish backlog rather than reasons to pretend the render is finished.
+
+## 2026-05-27 - I-0264 Rights Closure
+
+Rights closure is not the same as permission. The useful move is to retire unsafe screenshot/photo/slide placeholders from the active publication path and point the book at original source cards or local-only reserves, while preserving final legal review as a separate gate.
