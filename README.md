@@ -6,21 +6,22 @@ This repository is the working memory, manuscript lab, source ledger, visual sys
 
 ## Current Book State
 
-Updated **2026-05-27** after pass `I-0252`.
+Updated **2026-05-27** after pass `I-0253`.
 
-- **Latest recorded pass:** `I-0252`, full-book designed render iteration 2.
+- **Latest recorded pass:** `I-0253`, publication sprint FIFO reset.
 - **Latest exhibit dashboard pass:** `I-0236`, fail-closed visual readiness recomputation.
 - **Words:** 102,196 assembled source words across the canonical 24-chapter draft, including 3,911 retained supplemental Anthropic/Claude words; the primary-only spine is 98,285 words, so the floor is conditionally cleared rather than permanently solved.
 - **Chapters:** 24 / 24.
 - **Charts/diagrams:** 142.
 - **Photo/screenshot/source-surface slots:** 78.
 - **Sources:** 299.
-- **Claims:** 264 supported / 8 needs-verification.
+- **Claims:** 265 supported / 8 needs-verification.
 - **Asset/provenance rows:** 144.
 - **Idea queue:** active FIFO continues; next pending pass is recorded in `ideas.tsv`.
 - **Ledger BookScore:** 100.0, but this is a loop scoring proxy, not a publication certificate.
 - **Current rough PDF:** `rendered/full_book_i0240/Next-Token-full-draft-i0240.pdf` exists locally; after the figure-callout pass it is 413 pages and intentionally not committed. Prior smoke QA passed artifact, chapter, figure-ID, link, blank-page, and code-block checks; final overflow/layout quality remains unproven.
 - **Current designed PDF:** `rendered/full_book_i0252/Next-Token-full-draft-i0252.pdf` exists locally and is intentionally not committed. It applies the I-0251 page template, is 407 pages, preserves 24/24 chapter headings, 100/100 figure IDs, and 23/23 source lanes, and has 7 pass / 1 warn / 0 fail render QA rows; it is still not publication-ready.
+- **Critical visual defect:** the current designed PDF has 0 embedded manuscript images/charts/screenshots/report excerpts. It preserves 100 figure IDs as text callouts only; I-0257 must start embedding real selected assets.
 - **Real-world image layer:** 24 blocked candidate callouts are now marked in the assembled draft across 12 chapters, with story-fit, diversity, quality, rights-gate, and next-action notes; 9 are linked to existing local/source-media ledger candidates, 15 still need capture or replacement, and 0 are publication-ready.
 - **Source-card extraction layer:** 22 quote-safe extraction rows now have local line/page/slide-note anchors across chapters 6, 7, 15, and 16; the largest direct-quote count from any one source in the pass is 19 words, and final card layout/page proof remains pending.
 - **Front matter package:** `manuscript/front-matter-reader-promise-i0245.md` now drafts the title-page language, reader promise, back-cover copy, six-promise reader contract, introduction, exact 24-entry TOC, cutoff notice, and integration gates; it is not yet inserted into the assembled full draft or render-tested.
@@ -29,8 +30,9 @@ Updated **2026-05-27** after pass `I-0252`.
 - **Source apparatus prototype:** `data/endnote_placeholders_i0249.tsv` now contains 315 source-ID-first placeholder endnotes covering 153 unique source IDs. A local ignored 461-page full-book prototype PDF with bracketed back-of-book endnotes passed 6/6 render QA checks in `data/endnote_render_qa_i0249.tsv`; final bibliography prose, page anchors, note compression, and typography remain open.
 - **Image rights staging:** `data/image_rights_staging_i0250.tsv` classifies all 100 selected figure callouts as 74 publish-after-QA rows, 2 local-only rows, 3 redraw/source-card rows, 21 permission-needed rows, 0 replace rows, and 0 drop rows. This is staging only: no raster/screenshot/photo/source-surface row is publication-ready.
 - **Page template and designed render:** `assets/book_design/full_book_page_template_i0251.css` defines the first full-book typography/page template, backed by 12 rule rows and 9/9 passing CSS checks; I-0252 applies it to produce the 407-page designed render and QA ledger in `data/full_book_render_iteration_i0252.tsv`.
+- **Publication sprint queue:** I-0253 rejects the premature outside-reader packet and replaces the next 30 FIFO items with I-0257-I-0286, a hard publishability sprint covering embedded visuals, source captures, excerpt cards, render QA, rights, verification, rewrites, deletion, addiction, prose quality, design polish, commercial packaging, review packet, production QA, final gate, and publication candidate assembly.
 
-The book is a real manuscript with a serious spine, but it is **not yet publication-ready**. The strongest current distinction is this: the top-100 exhibit program has stable IDs, chapter placement, caption/provenance scaffolding, page-flow mocks, reader-effect audits, prose bridges, rights triage, a first real-world candidate layer, a first quote-safe source-card extraction layer, a reader-facing front door, a 24-chapter opener contract, a source-laned continuity-stitch layer, a render-tested endnote prototype, a full rights-staging board, a reusable page-template contract, and a second full-book designed render, but the fail-closed recomputation still gives 0 final publication-ready visual rows because render, capture, rights, caption, and source-note gates have not closed together.
+The book is a real manuscript with a serious spine, but it is **not yet publication-ready**. The strongest current distinction is this: the top-100 exhibit program has stable IDs, chapter placement, caption/provenance scaffolding, page-flow mocks, reader-effect audits, prose bridges, rights triage, a first real-world candidate layer, a first quote-safe source-card extraction layer, a reader-facing front door, a 24-chapter opener contract, a source-laned continuity-stitch layer, a render-tested endnote prototype, a full rights-staging board, a reusable page-template contract, a second full-book designed render, and now a 30-pass publication sprint queue, but the current PDF is still visually empty because real charts/screenshots/images/report excerpts have not been embedded.
 
 ## Readiness Snapshot
 

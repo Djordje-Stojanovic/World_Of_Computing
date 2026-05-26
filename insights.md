@@ -394,3 +394,7 @@ Book design should become a contract before it becomes a PDF. A reusable CSS led
 ## 2026-05-27 - I-0252 Designed Render
 
 A designed render is a QA surface, not a finish line. Applying the page template to the full draft can reduce page count and preserve chapters, figure IDs, and source lanes, but publication readiness still depends on page-image overflow review, real artwork placement, caption compression, rights closure, and final source notes.
+
+## 2026-05-27 - I-0253 Sprint Discipline
+
+Do not ask readers or buyers to judge a visually empty artifact. When the PDF has zero embedded manuscript images, the next work must be figure embedding, source-media capture, rights closure, verification, rewriting, deletion, design polish, and commercial packaging in that order; review packets belong after the book-shaped object is visually real.

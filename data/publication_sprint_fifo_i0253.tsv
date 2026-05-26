@@ -1,0 +1,31 @@
+pass_id	sprint_order	idea_id	topic_lane	core_outcome
+I-0253	01	I-0257	visual embedding	Embed 74 publish-after-QA SVG/chart/card assets into the full-book PDF.
+I-0253	02	I-0258	visual embedding	Create file-level manifest for all 100 selected figure slots.
+I-0253	03	I-0259	image acquisition	Capture/render 25 source surfaces with provenance, hashes, rights notes, and blocker notes.
+I-0253	04	I-0260	source cards	Create 25 quote-safe excerpt/source cards from papers, reports, docs, and slides.
+I-0253	05	I-0261	visual repair	Replace or cut every selected figure row that cannot become a real exhibit.
+I-0253	06	I-0262	render QA	Render full visual PDF v3 and verify embedded visuals, figures, captions, notes, pages.
+I-0253	07	I-0263	render QA	Run page-image legibility, overflow, caption, source-note, and visual-fatigue QA.
+I-0253	08	I-0264	rights QA	Close 26 non-publish rights rows through permission, redraw, replacement, reserve, or drop.
+I-0253	09	I-0265	verification	Burn all 8 needs-verification claims to zero by verify, rewrite, quarantine, or delete.
+I-0253	10	I-0266	verification	Repair full-book source density to visible 150-250 words-per-citation target where factual.
+I-0253	11	I-0267	verification	Expand source-ID placeholders into final readable endnotes/bibliography.
+I-0253	12	I-0268	verification	Run technical fact-check across architecture, benchmarks, hardware, data, agents, economics.
+I-0253	13	I-0269	rewriting	Resolve Chapter 12 structure and Anthropic/Claude/Europe/xAI role.
+I-0253	14	I-0270	rewriting	Rewrite all chapter openings/endings and absorb continuity scaffolding.
+I-0253	15	I-0271	removing trash	Delete reader-facing ledger residue, duplicate caveats, placeholder language, scaffolding.
+I-0253	16	I-0272	removing trash	Cut/compress low-value paragraphs and apparatus to stay inside word-count target.
+I-0253	17	I-0273	removing trash	Remove or replace visuals/captions/cards that only prove diligence.
+I-0253	18	I-0274	addiction	Strengthen tension, stakes, surprise, cliffhangers, and boredom-risk chapters.
+I-0253	19	I-0275	addiction	Add sourced character/scene texture without fake private access.
+I-0253	20	I-0276	addiction	Sharpen analogy, humor, and mechanism explanations for delight and clarity.
+I-0253	21	I-0277	writing quality	Polish sentence quality in chapters 1-8.
+I-0253	22	I-0278	writing quality	Polish sentence quality in chapters 9-16.
+I-0253	23	I-0279	writing quality	Polish sentence quality in chapters 17-24.
+I-0253	24	I-0280	design polish	Tune final interior layout with embedded visuals, captions, notes, breaks, rhythm.
+I-0253	25	I-0281	commercial build	Create cover/title/subtitle/back-cover/author-note/sample package.
+I-0253	26	I-0282	commercial build	Build retail metadata, launch spine, price/category tests, review targets.
+I-0253	27	I-0283	review readiness	Create real outside-reader/technical-review packet after visual PDF exists.
+I-0253	28	I-0284	production QA	Run print/EPUB QA for links, TOC, alt text, compression, fonts, devices.
+I-0253	29	I-0285	publication gate	Make final private beta/ARC/submission/publish-candidate go/no-go decision.
+I-0253	30	I-0286	publication build	Assemble publication candidate with champion backup, final renders, ledgers, release checklist.
