@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">LLaMA was a release artifact</title>
+  <desc id="desc">The Meta launch page anchors the open-weight turn as a release event.</desc>
+  <style>
+    .bg{fill:#f6f4ed}.ink{fill:#1f2933}.muted{fill:#657181}.band{fill:#263238}
+    .panel{fill:#fffefa;stroke:#d6d0c2;stroke-width:2}.quote{fill:#eef6f1;stroke:#2f855a;stroke-width:2}
+    .warn{fill:#fff1ed;stroke:#c2412d;stroke-width:2}.rule{stroke:#c9c1af;stroke-width:2}
+    .eyebrow{font-family:Arial,Helvetica,sans-serif;font-size:15px;font-weight:700;letter-spacing:0}
+    .title{font-family:Arial,Helvetica,sans-serif;font-size:37px;font-weight:700}
+    .label{font-family:Arial,Helvetica,sans-serif;font-size:20px;font-weight:700}
+    .body{font-family:Arial,Helvetica,sans-serif;font-size:25px}
+    .small{font-family:Arial,Helvetica,sans-serif;font-size:19px}
+    .tiny{font-family:Arial,Helvetica,sans-serif;font-size:15px}
+  </style>
+  <rect class="bg" width="1200" height="760"/>
+  <rect class="band" width="1200" height="48"/>
+  <text class="eyebrow" x="64" y="31" fill="#ffffff">SOURCE CARD / SC-0260-012 / CHAPTER 10 / QUOTE WORDS 1</text>
+  <text class="title ink" x="64" y="104">LLaMA was a release artifact</text>
+  <text class="tiny muted" x="66" y="139">Source: S-0111 / S-0111 local capture</text>
+  <rect class="panel" x="64" y="182" width="1072" height="232" rx="8"/>
+  <text class="label muted" x="92" y="230">PARAPHRASE FOR THE PAGE</text>
+  <text class="body" x="92" y="272">The Meta launch page anchors the open-weight turn as a release</text>
+<text class="body" x="92" y="306">event.</text>
+  <rect class="quote" x="64" y="442" width="512" height="76" rx="8"/>
+  <text class="label muted" x="92" y="473">QUOTE FRAGMENT</text>
+  <text class="body ink" x="92" y="502">LLaMA</text>
+  <rect class="warn" x="604" y="442" width="532" height="144" rx="8"/>
+  <text class="label muted" x="632" y="473">BLOCKED CLAIMS</text>
+  <text class="small" x="92" y="532">Does not prove adoption, current license, downloads, safety, or benchmark superiority.</text>
+  <line class="rule" x1="64" y1="616" x2="1136" y2="616"/>
+  <text class="label muted" x="64" y="645">PUBLICATION-SAFE REDRAW PATH</text>
+  <text class="tiny" x="92" y="641">Use a release-card treatment; no adoption or license-currentness inference.</text>
+  <text class="tiny muted" x="64" y="724">Local evidence: assets/source_docs/meta/S-0111_llama-1-meta-ai-blog.html:3</text>
+</svg>

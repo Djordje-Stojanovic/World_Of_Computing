@@ -410,3 +410,7 @@ A visual slot is not real until it has a file, caption, alt text, source note, r
 ## 2026-05-27 - I-0259 Source Surfaces
 
 Source-media acquisition should produce handles before it claims clearance. A useful capture row needs the local input, local output, hash, source IDs, story job, rights note, and blocked-claim note together; otherwise screenshots, PDFs, and slide renders become decoration rather than evidence.
+
+## 2026-05-27 - I-0260 Source Cards
+
+Source cards are the safest bridge between raw evidence and a beautiful page. A card can make a PDF feel researched without reproducing a full screenshot or report page, but only if it carries an anchor, a paraphrase, a tiny quote budget, a blocked-claims footer, and a redraw path together.

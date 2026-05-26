@@ -1,0 +1,9 @@
+check_id	check	status	detail
+I0260-QA-001	row_count	pass	25 source-card rows
+I0260-QA-002	svg_files_exist	pass	All card SVG paths exist
+I0260-QA-003	unique_svg_hashes	pass	25/25 unique SVG hashes
+I0260-QA-004	max_quote_words_per_card	pass	max=4
+I0260-QA-005	max_quote_words_per_source	pass	max=4; totals={'S-0001': 2, 'S-0007': 1, 'S-0026': 1, 'S-0027': 1, 'S-0029': 1, 'S-0048': 2, 'S-0070': 2, 'S-0074': 4, 'S-0075': 4, 'S-0076': 3, 'S-0077': 3, 'S-0078': 2, 'S-0079': 2, 'S-0080': 1, 'S-0081': 0, 'S-0082': 0, 'S-0089': 4, 'S-0109': 2, 'S-0111': 1, 'S-0114': 1, 'S-0117': 2, 'S-0121': 1, 'S-0122': 1, 'local:GTC-2026-Keynote.pdf page 29': 2, 'local:GTC-2026-Keynote.pdf page 45': 0, 'local:GTC-2026-Keynote.pdf page 49': 0, 'local:GTC-2026-Keynote.pdf page 50': 0, 'local:GTC-2026-Keynote.pdf page 51': 0}
+I0260-QA-006	required_fields	pass	Every row has evidence, blocker, redraw, and paraphrase fields
+I0260-QA-007	publication_clearance	pass	All cards fail closed pending page/source-note/rights proof
+I0260-QA-008	chapter_spread	pass	13 chapters covered
