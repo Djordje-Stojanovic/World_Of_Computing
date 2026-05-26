@@ -249,6 +249,18 @@ Rules:
 - Cut or demote any figure that only demonstrates diligence and does not orient, prove, humanize, or slow the reader.
 - Use the benchmark scorecard as an input to reader-addiction, rights, prose-around-figures, and visual-readiness passes.
 
+## Reader-Addiction Visual Jobs
+
+`data/reader_addiction_visual_audit_i0233.tsv` assigns every chapter a reader-effect job. This is a selection gate, not a decorative layer.
+
+Rules:
+
+- A visual should create shock, suspense, surprise, delight, clarity, memory, or responsibility.
+- A figure that proves diligence but does not change the reader's state should move to apparatus, reserve, or source notes.
+- Early sparse chapters may add texture only when it increases warmth or tension.
+- Crowded industrial chapters should prune before they add.
+- The final chapter must end on judgment and motif, not visual inventory.
+
 ## Promotion Rationale
 
 Before this pass, the book had visual candidates but no visual grammar and no manifest-tracked diagrams. This pass adds the first three lightweight prototypes and establishes design rules for timelines, systems, family trees, tradeoffs, caveats, screenshots, and photo slots. It improves visual/data usefulness without introducing unsupported factual claims.

@@ -314,3 +314,7 @@ Whole-book visual rhythm has two opposite defects at once: early chapters 2-5 ar
 ## 2026-05-26 - I-0232 Competitor Visual Benchmark
 
 The book's visual advantage is mechanism plus evidence discipline, but the shelf is won by memory and materiality. To beat chip, energy, AI-history, and biography competitors, final visuals must orient, prove, humanize, or slow the reader; anything that merely displays diligence should move to apparatus or disappear.
+
+## 2026-05-26 - I-0233 Reader-Addiction Visual Audit
+
+Visual addiction is a state change, not an inventory count. A figure earns its place when it creates shock, suspense, surprise, delight, clarity, memory, or responsibility; if it only proves research diligence, it should become apparatus, a source note, or a reserve candidate.
