@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Chapter 11 Supported Versus Gap Source Board</title>
+  <desc id="desc">A source-permission board for Chapter 11, separating supported Qwen, DeepSeek, GLM, and Kimi lanes from explicit source gaps.</desc>
+  <rect width="1200" height="760" fill="#fbfaf7"/>
+  <text x="70" y="72" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#111827">Chapter 11 source permission board</text>
+  <text x="70" y="108" font-family="Arial, sans-serif" font-size="17" fill="#4b5563">Supported lanes sit beside visible gaps. This is not a national leaderboard, rank chart, or adoption map.</text>
+  <g font-family="Arial, sans-serif">
+    <rect x="70" y="150" width="510" height="480" rx="8" fill="#e8f1ec" stroke="#5f8c78" stroke-width="3"/>
+    <text x="100" y="190" font-size="24" font-weight="700" fill="#14352f">Primary-source supported</text>
+    <text x="100" y="218" font-size="14" fill="#35524f">Allowed: mechanism and placement with attribution</text>
+
+    <rect x="105" y="250" width="210" height="82" rx="8" fill="#ffffff" stroke="#5f8c78" stroke-width="2"/>
+    <text x="128" y="280" font-size="19" font-weight="700" fill="#111827">Qwen</text>
+    <text x="128" y="306" font-size="13" fill="#4b5563">S-0026 / S-0027</text>
+    <text x="128" y="326" font-size="12" fill="#35524f">Qwen2, Qwen3 lanes</text>
+
+    <rect x="340" y="250" width="210" height="82" rx="8" fill="#ffffff" stroke="#5f8c78" stroke-width="2"/>
+    <text x="363" y="280" font-size="19" font-weight="700" fill="#111827">DeepSeek</text>
+    <text x="363" y="306" font-size="13" fill="#4b5563">S-0028 / S-0029</text>
+    <text x="363" y="326" font-size="12" fill="#35524f">V3 and R1 only</text>
+
+    <rect x="105" y="362" width="210" height="82" rx="8" fill="#ffffff" stroke="#5f8c78" stroke-width="2"/>
+    <text x="128" y="392" font-size="19" font-weight="700" fill="#111827">GLM / Z.ai</text>
+    <text x="128" y="418" font-size="13" fill="#4b5563">S-0030</text>
+    <text x="128" y="438" font-size="12" fill="#35524f">Broad placement only</text>
+
+    <rect x="340" y="362" width="210" height="82" rx="8" fill="#ffffff" stroke="#5f8c78" stroke-width="2"/>
+    <text x="363" y="392" font-size="19" font-weight="700" fill="#111827">Kimi / Moonshot</text>
+    <text x="363" y="418" font-size="13" fill="#4b5563">S-0031</text>
+    <text x="363" y="438" font-size="12" fill="#35524f">Reasoning lane only</text>
+
+    <rect x="105" y="492" width="445" height="86" rx="8" fill="#14352f"/>
+    <text x="128" y="524" font-size="19" font-weight="700" fill="#ffffff">Caption contract</text>
+    <text x="128" y="552" font-size="14" fill="#d6f0e1">Source support permits prose lanes, not benchmark crowns, adoption, market impact, or national rank.</text>
+
+    <rect x="620" y="150" width="510" height="480" rx="8" fill="#fff4d8" stroke="#c99a3a" stroke-width="3"/>
+    <text x="650" y="190" font-size="24" font-weight="700" fill="#5a3a0a">Source gaps to keep visible</text>
+    <text x="650" y="218" font-size="14" fill="#6d521b">Allowed: target names only until cutoff primary evidence exists</text>
+
+    <rect x="655" y="250" width="210" height="82" rx="8" fill="#ffffff" stroke="#c99a3a" stroke-width="2"/>
+    <text x="678" y="280" font-size="18" font-weight="700" fill="#111827">Qwen 3.5 / 3.6</text>
+    <text x="678" y="306" font-size="13" fill="#6d521b">support-pending</text>
+    <text x="678" y="326" font-size="12" fill="#6d521b">no happened-release prose</text>
+
+    <rect x="890" y="250" width="210" height="82" rx="8" fill="#ffffff" stroke="#c99a3a" stroke-width="2"/>
+    <text x="913" y="280" font-size="18" font-weight="700" fill="#111827">DeepSeek V4-era</text>
+    <text x="913" y="306" font-size="13" fill="#6d521b">support-pending</text>
+    <text x="913" y="326" font-size="12" fill="#6d521b">no chronology or rank</text>
+
+    <rect x="655" y="362" width="445" height="82" rx="8" fill="#ffffff" stroke="#c99a3a" stroke-width="2"/>
+    <text x="678" y="392" font-size="18" font-weight="700" fill="#111827">MiniMax / Baidu / Tencent / Xiaomi MiMo / StepFun</text>
+    <text x="678" y="418" font-size="13" fill="#6d521b">future source-pack targets</text>
+    <text x="678" y="438" font-size="12" fill="#6d521b">no release, adoption, benchmark, product, or geopolitical claims</text>
+
+    <rect x="655" y="492" width="445" height="86" rx="8" fill="#5a3a0a"/>
+    <text x="678" y="524" font-size="19" font-weight="700" fill="#ffffff">Blocked leaps</text>
+    <text x="678" y="552" font-size="14" fill="#fdecc2">No logo parade, no best-model claim, no price-quality frontier, no broad deployment inference.</text>
+
+    <rect x="70" y="670" width="1060" height="50" rx="8" fill="#111827"/>
+    <text x="95" y="701" font-size="15" fill="#ffffff">Reading order: supported sources first, visible gaps second, screenshot priorities later. Source surfaces prove provenance, not popularity or product outcomes.</text>
+  </g>
+</svg>
