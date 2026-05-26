@@ -1,0 +1,8 @@
+pass_id	check_id	category	result	evidence	recommended_action
+I-0259	SS-001	row_count	pass	rows=25; expected=25	Repair acquisition list.
+I-0259	SS-002	input_files	pass	missing_inputs=none	Resolve local source inputs before trusting captures.
+I-0259	SS-003	output_files	pass	missing_outputs=none	Regenerate missing source surfaces.
+I-0259	SS-004	hashes	pass	hashes=25; unique_hashes=25	Investigate duplicate or missing hashes.
+I-0259	SS-005	visual_nonblank_proxy	pass	low_quality=none	Inspect low-color captures and regenerate as cards if needed.
+I-0259	SS-006	source_kind_diversity	pass	source_kinds=7; kinds=arxiv_html;company_html;company_text_render;dataset_json;gtc_slide_render;pdf_page;repo_html	Add missing PDF/arXiv/company/docs/repo/GTC variety.
+I-0259	SS-007	rights_fail_closed	pass	all_rows_have_rights_and_blocked_claim_notes=yes	Add rights and blocker notes to every surface.

@@ -406,3 +406,7 @@ Embedding SVGs as vectors can still look like "zero images" to object-level PDF 
 ## 2026-05-27 - I-0258 Manifest Discipline
 
 A visual slot is not real until it has a file, caption, alt text, source note, rights stage, fallback action, claim boundary, and proof gate in one row. Missing screenshot/photo/source-card files should be named as blockers in the manifest, not hidden behind "permission needed" or future acquisition language.
+
+## 2026-05-27 - I-0259 Source Surfaces
+
+Source-media acquisition should produce handles before it claims clearance. A useful capture row needs the local input, local output, hash, source IDs, story job, rights note, and blocked-claim note together; otherwise screenshots, PDFs, and slide renders become decoration rather than evidence.
