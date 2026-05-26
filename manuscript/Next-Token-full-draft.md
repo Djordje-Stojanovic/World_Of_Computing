@@ -17,7 +17,7 @@ This is the first single-file book draft assembled from the current manuscript s
 - [Chapter 09: Google and DeepMind Wake the Sleeping Giant](#chapter-09-google-and-deepmind-wake-the-sleeping-giant)
 - [Chapter 10: Meta, Llama, and the Open-Weight Shock](#chapter-10-meta-llama-and-the-open-weight-shock)
 - [Chapter 11: The Chinese Frontier](#chapter-11-the-chinese-frontier)
-- [Chapter 12: Europe, xAI, Anthropic, and the Rest of the Frontier](#chapter-12-europe-xai-anthropic-and-the-rest-of-the-frontier)
+- [Chapter 12: Europe, xAI, and the Rest of the Frontier](#chapter-12-europe-xai-and-the-rest-of-the-frontier)
 - [Chapter 13: Benchmarks, Arenas, and the Mirage of Rank](#chapter-13-benchmarks-arenas-and-the-mirage-of-rank)
 - [Chapter 14: NVIDIA and CUDA: The Moat Under the Moat](#chapter-14-nvidia-and-cuda-the-moat-under-the-moat)
 - [Chapter 15: GTC 2026: The AI Factory Sells Itself](#chapter-15-gtc-2026-the-ai-factory-sells-itself)
@@ -1884,12 +1884,12 @@ That is the point. The frontier became too distributed for one narrator's shortc
 
 ---
 
-<a id="chapter-12-europe-xai-anthropic-and-the-rest-of-the-frontier"></a>
+<a id="chapter-12-europe-xai-and-the-rest-of-the-frontier"></a>
 
-# Chapter 12: Europe, xAI, Anthropic, and the Rest of the Frontier
+# Chapter 12: Europe, xAI, and the Rest of the Frontier
 
 Assembly source: `manuscript/12-europe-xai-rest-frontier.md` plus supplemental `manuscript/12-anthropic-and-claude-spine-section.md`.
-Assembly note: compound unresolved: official outline slot is Europe/xAI/rest-of-frontier, while Anthropic/Claude is a valuable same-number sidecar retained here as supplemental material until title normalization
+Assembly note: normalized by I-0238: official Chapter 12 title and primary source remain Europe/xAI/rest-of-frontier; Anthropic/Claude is retained as supplemental source material, not a second main chapter.
 
 ## Figure Placeholders
 
@@ -3945,4 +3945,5 @@ The race to build machines that learned language, code, and computing did not en
 A next token is small. Around it grew a machine for turning language into work. The machine was neither magic nor fraud. It was a stack of prediction, evidence, compute, incentives, products, tools, and human judgment. That was enough to change computing, and not enough to relieve anyone of the responsibility to understand what had been built. [CH24SYN-017]
 
 ---
+
 

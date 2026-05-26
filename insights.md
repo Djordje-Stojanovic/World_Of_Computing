@@ -334,3 +334,7 @@ Visual readiness is not near 99 just because the selected-100 program is structu
 ## 2026-05-26 - I-0237 Full-Book Assembly
 
 A single visible draft changes the problem from inventory to bookmaking. The assembly now proves the manuscript can be opened as one 102k-word object with 24 chapter headings and 100 figure placeholders, but it also makes the old drift unavoidable: Chapter 12 must be normalized rather than letting Anthropic/Claude and Europe/xAI silently compete for the same slot.
+
+## 2026-05-26 - I-0238 Chapter Identity
+
+Book-facing identity should be a data contract before it is a filesystem cleanup. A canonical chapter map can stabilize render slugs, titles, figure IDs, and cross-references immediately, while physical renames wait until provenance ledgers are migrated; otherwise a tidy directory can quietly damage the audit trail.
