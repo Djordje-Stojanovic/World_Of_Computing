@@ -1,0 +1,9 @@
+check_id	check	status	detail
+I0267-QA-001	placeholder_notes_expanded	pass	placeholders=315; final_notes=378
+I0267-QA-002	source_lane_notes_expanded	pass	source_lanes=63
+I0267-QA-003	all_source_refs_resolve	pass	missing=
+I0267-QA-004	all_claim_refs_resolve	pass	missing=
+I0267-QA-005	bibliography_has_access_dates	pass	sources=165
+I0267-QA-006	bibliography_has_source_roles	pass	sources=165
+I0267-QA-007	clusters_created	pass	clusters=242
+I0267-QA-008	no_placeholder_phrase_in_expanded_notes	pass	expanded notes do not carry I-0249 placeholder wording

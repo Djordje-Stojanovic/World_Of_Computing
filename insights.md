@@ -438,3 +438,7 @@ Unsupported-claim burn-down should not convert caveats into false certainty. The
 ## 2026-05-26 - I-0266 Source Density
 
 Source-density repair is most useful when it binds evidence to exact section jobs and claim boundaries, not just when it raises citation counts. A temporary visible source lane is acceptable as a production bridge only if the next notes pass is responsible for compressing it into reader-quality endnotes.
+
+## 2026-05-26 - I-0267 Source Apparatus
+
+A useful final-note pass should separate three jobs: manuscript anchors for traceability now, bibliography rows with access dates and source roles, and compressed clusters for repeated evidence. Rendered page numbers and same-page caveat placement are a later proof step, not something a table can honestly claim.
