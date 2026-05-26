@@ -225,6 +225,17 @@ Rules:
 - Source-card replacements should be tested in the page-flow mock before they replace selected screenshots or photos.
 - Dense blocker grids and claim cards must keep caveat text legible at final trim.
 
+## Page-Flow Mock
+
+`data/full_book_visual_page_flow_mock_i0231.tsv` and `manuscript/full-book-visual-page-flow-storyboard-i0231.html` are the current full-book visual rhythm mock. They show chapter pressure and mock placement bands, not final pages.
+
+Rules:
+
+- Use white-space and fatigue labels to decide replacements, not to inflate figure count.
+- Chapters marked `too_open` need source/scene relief only when rights and provenance are strong.
+- Chapters marked `crowded` need pruning or substitution before full render.
+- Late-book mechanism runs need human/source texture or prose breathing room before final layout.
+
 ## Promotion Rationale
 
 Before this pass, the book had visual candidates but no visual grammar and no manifest-tracked diagrams. This pass adds the first three lightweight prototypes and establishes design rules for timelines, systems, family trees, tradeoffs, caveats, screenshots, and photo slots. It improves visual/data usefulness without introducing unsupported factual claims.

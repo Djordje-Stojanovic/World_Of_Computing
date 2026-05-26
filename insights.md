@@ -306,3 +306,7 @@ Figure IDs should be book-facing contracts, not asset handles. A stable `Fcc.nn`
 ## 2026-05-26 - I-0230 Render-Smoke QA
 
 Render smoke should fail early and visibly. The first sample sheet shows that selected SVGs are mostly plausible but still need trim proof, while screenshot, source-surface, and photo families remain slots rather than finished exhibits; placeholders are useful only when they force a capture, replacement, or rights decision.
+
+## 2026-05-26 - I-0231 Page-Flow Mock
+
+Whole-book visual rhythm has two opposite defects at once: early chapters 2-5 are too open, while Chapters 15-16 are crowded and rights-heavy. The late-book mechanism run is the subtler risk; even accurate diagrams can make the ending feel like a dashboard unless source texture, human stakes, or prose breathing room interrupts the pattern.
