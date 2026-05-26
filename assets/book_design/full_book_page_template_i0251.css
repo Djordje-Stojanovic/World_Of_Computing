@@ -1,0 +1,225 @@
+/* I-0251 full-book page template for Next Token.
+   This is a production contract for I-0252 render iteration, not final art. */
+
+:root {
+  --page-bg: #fffdf8;
+  --ink: #171412;
+  --muted-ink: #5f5750;
+  --rule: #9b8f80;
+  --soft-panel: #f3efe7;
+  --source-panel: #eef2f2;
+  --accent: #234d68;
+  --warning: #7a4a18;
+}
+
+@page {
+  size: 6in 9in;
+  margin: 0.76in 0.64in 0.74in 0.70in;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: var(--page-bg);
+}
+
+body {
+  margin: 0;
+  color: var(--ink);
+  background: var(--page-bg);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 10.8pt;
+  line-height: 1.53;
+  letter-spacing: 0;
+  text-rendering: optimizeLegibility;
+  hyphens: auto;
+}
+
+p {
+  margin: 0 0 0.108in;
+  orphans: 3;
+  widows: 3;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #101010;
+  line-height: 1.15;
+  letter-spacing: 0;
+  break-after: avoid;
+  page-break-after: avoid;
+}
+
+h1 {
+  font-size: 22pt;
+  margin: 0.32in 0 0.18in;
+  font-weight: 700;
+}
+
+h1.chapter-title {
+  break-before: page;
+  page-break-before: always;
+  margin-top: 0;
+  padding-top: 0.08in;
+}
+
+h2 {
+  font-size: 14.2pt;
+  margin: 0.24in 0 0.09in;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 11.6pt;
+  margin: 0.18in 0 0.07in;
+  font-weight: 700;
+}
+
+h4 {
+  font-size: 10.4pt;
+  margin: 0.14in 0 0.05in;
+  font-weight: 700;
+}
+
+ul {
+  margin: 0 0 0.14in 0.21in;
+  padding-left: 0.18in;
+}
+
+li {
+  margin-bottom: 0.055in;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+code,
+pre {
+  font-family: Consolas, "Courier New", monospace;
+  font-size: 8.4pt;
+}
+
+pre {
+  white-space: pre-wrap;
+  background: #f1f1ef;
+  padding: 0.10in;
+  border-left: 2px solid var(--rule);
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid var(--rule);
+  margin: 0.25in 0;
+}
+
+.figure-placeholder,
+.figure-callout {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 8.4pt;
+  line-height: 1.34;
+  background: var(--soft-panel);
+  border-left: 3px solid var(--rule);
+  padding: 0.07in 0.08in;
+  margin: 0.02in 0 0.12in;
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+
+.figure-callout p {
+  margin-bottom: 0.045in;
+}
+
+.figure-callout p:first-child,
+.figure-placeholder::first-line {
+  font-weight: 700;
+}
+
+.source-note,
+.source-lane,
+.endnote,
+.rights-note {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 7.8pt;
+  line-height: 1.32;
+  color: var(--muted-ink);
+  background: var(--source-panel);
+  border-left: 2px solid var(--accent);
+  padding: 0.055in 0.07in;
+  margin: 0.04in 0 0.105in;
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+
+.rights-note {
+  border-left-color: var(--warning);
+}
+
+.chapter-kicker {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 8.6pt;
+  line-height: 1.28;
+  color: var(--muted-ink);
+  text-transform: uppercase;
+  letter-spacing: 0;
+  margin: 0 0 0.08in;
+}
+
+.caption {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 8.1pt;
+  line-height: 1.33;
+  color: var(--muted-ink);
+  margin: 0.04in 0 0.12in;
+}
+
+.figure-frame {
+  width: 100%;
+  max-width: 100%;
+  margin: 0.10in 0 0.14in;
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+
+.figure-frame img,
+.figure-frame svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 6.2in;
+}
+
+.wide-figure {
+  width: 100%;
+  max-width: 100%;
+}
+
+.small-figure {
+  width: 78%;
+  max-width: 78%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.page-break-before {
+  break-before: page;
+  page-break-before: always;
+}
+
+.keep-with-next {
+  break-after: avoid;
+  page-break-after: avoid;
+}
+
+.avoid-break {
+  break-inside: avoid;
+  page-break-inside: avoid;
+}

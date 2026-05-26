@@ -386,3 +386,7 @@ Back-of-book source-ID-first endnotes are the safest apparatus prototype for the
 ## 2026-05-27 - I-0250 Rights Staging
 
 Rights staging should turn visual ambiguity into layout action, not legal confidence. Original SVGs can be marked publish-after-QA, but raw source surfaces, product screenshots, and photos need local-only, redraw/source-card, permission, or replacement paths before the book can claim publication readiness.
+
+## 2026-05-27 - I-0251 Page Template
+
+Book design should become a contract before it becomes a PDF. A reusable CSS ledger for trim, margins, body type, headings, captions, source notes, figure widths, and break behavior lets the next render test design choices directly instead of confusing rough-render defects with manuscript defects.

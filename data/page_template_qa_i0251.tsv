@@ -1,0 +1,10 @@
+pass_id	check_id	category	result	evidence	recommended_action
+I-0251	TPL-001	css_exists	pass	CSS template is non-empty.	Keep rule for I-0252 render.
+I-0251	TPL-002	page_rule	pass	Page size rule exists.	Keep rule for I-0252 render.
+I-0251	TPL-003	body_type	pass	Body typography rule exists.	Keep rule for I-0252 render.
+I-0251	TPL-004	heading_hierarchy	pass	Heading hierarchy selectors exist.	Keep rule for I-0252 render.
+I-0251	TPL-005	caption_style	pass	Caption style exists.	Keep rule for I-0252 render.
+I-0251	TPL-006	figure_width_rules	pass	Figure width rules exist.	Keep rule for I-0252 render.
+I-0251	TPL-007	source_note_style	pass	Source/endnote/rights note styles exist.	Keep rule for I-0252 render.
+I-0251	TPL-008	page_break_rules	pass	Page break and widow/orphan rules exist.	Keep rule for I-0252 render.
+I-0251	TPL-009	no_negative_tracking	pass	No negative letter spacing.	Keep rule for I-0252 render.

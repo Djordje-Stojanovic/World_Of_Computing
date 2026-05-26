@@ -1,0 +1,13 @@
+pass_id	rule_family	rule_name	value	rationale	verification_gate
+I-0251	page	trim_size	6in x 9in	Trade paperback working size; same trim as rough render so deltas are attributable to design.	I-0252 render should keep 24 chapters and 100 figure IDs.
+I-0251	page	margins	top .76in; outside .64in; bottom .74in; inside .70in	Slightly larger inside/vertical breathing room than rough CSS.	Verify page count and no new blank pages after full render.
+I-0251	body	body_type	Georgia / Times fallback, 10.8pt, 1.53 line-height	Serious nonfiction texture with slightly tighter size and more leading than rough render.	Check readability and page count against rough render.
+I-0251	body	letter_spacing	0	Avoids cramped or decorative tracking while satisfying design constraint.	CSS QA must reject negative letter spacing.
+I-0251	headings	hierarchy	H1 22pt; H2 14.2pt; H3 11.6pt; H4 10.4pt	Keeps chapter heads distinct without turning sections into hero type.	Render QA should sample all heading levels.
+I-0251	headings	page_breaks	chapter H1 break-before page; headings break-after avoid	Creates clean chapter starts and reduces orphan headings.	Text extraction should still find all chapter titles.
+I-0251	figures	callout_style	8.4pt sans, soft panel, left rule, break-inside avoid	Keeps placeholders/callouts visible without decorative card stacks.	Future real figures should replace placeholder panels, not nest inside them.
+I-0251	figures	width_rules	default 100%; small 78%; max image height 6.2in	Prevents images from blowing up pages while preserving full-width chart legibility.	Canvas/page screenshot QA must inspect tall figures.
+I-0251	captions	caption_style	8.1pt sans muted ink, compact line-height	Separates captions from body while keeping them readable.	Caption long-gate rows still need compression.
+I-0251	sources	source_note_style	7.8pt sans source panel, accent rule, break-inside avoid	Gives notes a quieter apparatus voice and keeps source clusters together.	I-0252 should verify note markers and source IDs survive render.
+I-0251	rights	rights_note_style	same as source note with warning rule	Makes fail-closed rights text visible without pretending legal clearance.	Use only for staging notes, not final legal advice.
+I-0251	code	code_style	Consolas 8.4pt, pre-wrap, break-inside avoid	Long code/source blocks remain a risk but are less likely to overflow horizontally.	Long blocks should move to appendix/source cards later.
