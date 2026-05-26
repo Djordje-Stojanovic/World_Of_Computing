@@ -238,3 +238,7 @@ Industrial chapters need a three-part proof rhythm: Chapter 14 teaches the accel
 ## 2026-05-26 - I-0213 Data/Tools/Code Continuity
 
 Data-to-code visuals need a rising system: data materiality becomes selected context, selected context becomes bounded action, and bounded action becomes reviewed repository work. Screenshots and source cards should add concrete surfaces only after the mechanism ladder is clear, and they must not become productivity, autonomy, safety, adoption, current-UI, or developer-replacement evidence.
+
+## 2026-05-26 - I-0214 Late-Book Constraint Chain
+
+The final quarter should feel like one tightening constraint chain, not four appendices: reasoning spends at answer time, economics meters and routes the spending, trust audits whether the result deserves authority, and the finale returns judgment to people. Negative-control boards are useful reserves, but the visible ending should carry mechanism, pressure, and responsibility rather than ledger apparatus.
