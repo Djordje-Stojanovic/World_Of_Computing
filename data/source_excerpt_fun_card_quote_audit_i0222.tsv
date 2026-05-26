@@ -1,0 +1,11 @@
+card_asset_id	source_ids	direct_quote	quote_words_used	quote_text_or_label	quote_limit_status	copyright_risk	verification_note
+A-0208	S-0006;S-0078	no	0	paraphrase-only launch/subscription threshold labels	within_limit	low	No source wording copied; final source note must cite launch and Plus rows separately.
+A-0209	S-0012	no	0	paraphrase-only staged-release/withholding labels	within_limit	low	No source wording copied; use exact source date/title in caption note only.
+A-0210	S-0076;S-0077;S-0245;S-0246	no	0	paraphrase-only caveat/disclosure labels	within_limit	low	No system-card language copied; page refs pending before final placement.
+A-0211	S-0093	no	0	paraphrase-only moderation workload labels	within_limit	low	No policy wording copied; revision-specific wording remains in existing quote-safe tables if needed.
+A-0212	S-0121;S-0120	no	0	paraphrase-only product-family/model-card labels	within_limit	low	No launch-blog or model-card wording copied; mutable-card caveat preserved.
+A-0213	S-0113;S-0114	no	0	paraphrase-only repository-burden labels	within_limit	low	No repository text copied; use only as conceptual source card.
+A-0214	S-0037	no	0	paraphrase-only contamination/eval-design labels	within_limit	low	No benchmark abstract or paper wording copied; exact metric claims remain blocked.
+A-0215	S-0244	no	0	paraphrase-only vendor-positioning labels	within_limit	low	No product-post wording copied; extraction required before comparative text.
+A-0216	S-0205;S-0066	no	0	paraphrase-only blueprint-versus-build labels	within_limit	low	No NVIDIA wording copied; source-actor framing retained.
+A-0217	S-0048;S-0049;S-0050;S-0051	no	0	paraphrase-only terminal/workflow-control labels	within_limit	low	No docs commands or launch wording copied; screenshot replacement decision pending.

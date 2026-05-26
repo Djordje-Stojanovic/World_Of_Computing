@@ -270,3 +270,7 @@ Screenshot readiness is much weaker than screenshot provenance: among 26 selecte
 ## 2026-05-26 - I-0221 Source-Excerpt Card Batch
 
 Source cards work best as paraphrase-first evidence objects, not decorative quotations. Ten new lightweight SVG cards add source texture where screenshots or dense diagrams are weak, but their publication gate is still page proof plus source-note proximity; direct quotes stayed at zero words, which is the cleanest way to gain texture without adding copyright or context debt.
+
+## 2026-05-26 - I-0222 Fun Source-Excerpt Card Batch
+
+Reader delight can come from caveats when the card names the right source tension: a launch post becoming a threshold, a withheld model becoming a historical signal, a benchmark warning about contamination, or a blueprint refusing to be a factory. The safest fun is paraphrase-first and blocker-forward, because the surprise stays truthful instead of turning into an unsupported quote or crown.
