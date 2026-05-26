@@ -1,0 +1,10 @@
+pass_id	check_id	category	result	evidence	recommended_action
+I-0280	I0280-001	object_render	pass	object=10 pass/0 warn/0 fail; images=100	No action required for this automated check.
+I-0280	I0280-002	image_count	pass	html_img=100; pdf_images=100	No action required for this automated check.
+I-0280	I0280-003	chapter_and_blank_pages	pass	pages=267; blank_like=0	No action required for this automated check.
+I-0280	I0280-004	caption_font	warn	min_caption_font=6.20pt; small_text_defects=100	Carry into I-0284 production QA or targeted figure repair.
+I-0280	I0280-005	source_note_proximity	pass	missing_source_notes=0	No action required for this automated check.
+I-0280	I0280-006	rights_stage_proximity	pass	missing_rights_stage=0	No action required for this automated check.
+I-0280	I0280-007	figure_failures	pass	fail_figures=0; p0=0	No action required for this automated check.
+I-0280	I0280-008	visual_fatigue	warn	max_consecutive=4; max_per_20=11	Carry into I-0284 production QA or targeted figure repair.
+I-0280	I0280-009	warnings_reduced	warn	defects=100; warn_figures=100; baseline_defects=116; baseline_warn_figures=100	Carry into I-0284 production QA or targeted figure repair.

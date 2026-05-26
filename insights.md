@@ -489,3 +489,7 @@ Middle-book polish should make caveats feel like authority, not paperwork. The s
 ## 2026-05-27 - I-0279 Ending Prose
 
 Ending-book polish should make restraint feel like earned authority. The strongest final-third edits compress caveat checklists into prose, keep agents and economics from overclaiming, and leave the reader with a sharper system-level synthesis rather than a bigger slogan.
+
+## 2026-05-27 - I-0280 Layout Polish
+
+Final layout work should repair the page-level proof, not merely rerender the PDF. The high-leverage move is to make provenance readable and early in the caption block, then verify image objects, source-note proximity, caption type size, blank pages, and visual fatigue against the rendered pages.

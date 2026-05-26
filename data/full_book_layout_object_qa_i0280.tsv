@@ -1,0 +1,11 @@
+pass_id	check_id	category	result	evidence	recommended_action
+I-0280	V3-001	selected_manifest	pass	selected_rows=100; unique_figure_ids=100; expected=100	Repair selected manifest before rendering.
+I-0280	V3-002	file_existence	pass	missing_source=none; missing_embed=none	Resolve missing selected exhibit source files.
+I-0280	V3-003	html_embedding	pass	html_img_count=100; html_png_img_count=100; html_svg_img_count=0; embedded_callout_blocks=100; skipped_callout_blocks=0	Repair callout replacement if HTML lacks 100 images.
+I-0280	V3-004	pdf_artifact	pass	pdf=C:\AI\TEMP\World_Of_Computing\rendered\full_book_i0280\Next-Token-full-draft-i0280.pdf; bytes=7467993; sha256=bb8a6e8a6ff2ee230a2baa98fb2435377cc12d6f28cabb7266f238d83f0a1ebf	Regenerate PDF.
+I-0280	V3-005	figure_id_survival	pass	source_figures=100; manifest_figures=100; pdf_figures=100; missing=none	Repair captions/source-note extraction for embedded figures.
+I-0280	V3-006	caption_source_note_presence	pass	figcaptions=100; source_note_labels=100; rights_stage_labels=100	Ensure every embedded figure carries caption, source note, and rights stage.
+I-0280	V3-007	pdf_visual_objects	pass	embedded_images=100; pages_with_images=100; pages_with_many_drawings=1	Inspect page images before publication; object counts do not prove legibility.
+I-0280	V3-008	blank_pages	pass	blank_like_pages=0; pages=267	Inspect and repair blank-like pages.
+I-0280	V3-009	svg_vector_survival	pass	html_svg_img_count=0; html_png_img_count=100; SVGs intentionally Chrome-rasterized to PNG for PDF object QA	If vector survival is required later, add a separate vector render path; current production QA uses rasterized images.
+I-0280	V3-010	raster_uniqueness	pass	unique_raster_hashes=98; raster_files=100	Duplicate hashes can be valid when one source card is intentionally reused, but review if uniqueness drops.

@@ -1,0 +1,11 @@
+pass_id	check_id	category	result	evidence	recommended_action
+I-0280	LQA-001	figure_page_count	pass	figure_rows=100	No action required for this automated check.
+I-0280	LQA-002	chapter_sample_count	pass	chapter_samples=24	No action required for this automated check.
+I-0280	LQA-003	missing_figures	pass	missing=0	No action required for this automated check.
+I-0280	LQA-004	image_presence	pass	no_image=0	No action required for this automated check.
+I-0280	LQA-005	source_note_proximity	pass	missing_source_notes=0	No action required for this automated check.
+I-0280	LQA-006	caption_collision	pass	collisions=0	No action required for this automated check.
+I-0280	LQA-007	image_overflow	pass	overflows=0	No action required for this automated check.
+I-0280	LQA-008	small_or_low_area_images	pass	small_or_low_area=0	No action required for this automated check.
+I-0280	LQA-009	fatigue_window	warn	max_consecutive=4; max_per_20_pages=11	Carry warnings into I-0280 layout polish or targeted visual repair before publication.
+I-0280	LQA-010	defect_register	warn	defects=100; status_counts={'warn': 100}; issue_counts={'caption_or_source_note_too_small': 100}	Carry warnings into I-0280 layout polish or targeted visual repair before publication.
