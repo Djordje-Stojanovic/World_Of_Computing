@@ -1,0 +1,11 @@
+pass_id	check_id	category	result	evidence	recommended_action
+I-0241	PDF-001	artifact_integrity	pass	header=%PDF-1.4; bytes=2477713; sha256=e7bde893c46f2c2a97f2582862b97601f8a9defbb6745000635cd2b987a643ae	Regenerate PDF if header or size fails.
+I-0241	PDF-002	page_count	pass	pages=401	Regenerate PDF if page count is zero.
+I-0241	PDF-003	missing_chapters	pass	expected=24; missing=none	Fix render pipeline or assembled headings before any design iteration.
+I-0241	PDF-004	broken_headings	pass	source_chapter_headings=24; extracted_chapter_mentions=50	Inspect duplicate/missing chapter-title rendering.
+I-0241	PDF-005	missing_figures	pass	source_unique_figures=100; expected=100; missing_in_pdf=none	Restore missing placeholder rows before figure placement.
+I-0241	PDF-006	broken_links	pass	internal_links=24; ids=24; broken=none	Repair generated anchors/TOC before next render.
+I-0241	PDF-007	blank_pages	pass	blank_pages=none; suspicious_low_text_pages=none; samples=p1:text=1231:colors=42:luma=243.2;p2:text=1234:colors=35:luma=244.4;p3:text=1511:colors=31:luma=239.8;p401:text=654:colors=16:luma=248.7	Remove blank pages or inspect low-text pages for rendering failures.
+I-0241	PDF-008	unreadable_code_notes	pass	code_blocks=0; long_code_blocks=none	Inspect long code/note blocks after page-image QA; convert oversized blocks into smaller source cards or appendices.
+I-0241	PDF-009	placeholder_flow	warn	html_figure_placeholder_blocks=100; final_placed_figures=0	I-0242 should replace chapter-level placeholder blocks with section-level callouts before serious design QA.
+I-0241	PDF-010	overflow	warn	No automated margin/overflow proof in this pass; PyMuPDF text extraction succeeded across pages but cannot prove visual fit.	Use page screenshots or browser layout metrics in the next render iteration.

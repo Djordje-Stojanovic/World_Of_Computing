@@ -6,20 +6,20 @@ This repository is the working memory, manuscript lab, source ledger, visual sys
 
 ## Current Book State
 
-Updated **2026-05-26** after pass `I-0240`.
+Updated **2026-05-27** after pass `I-0241`.
 
-- **Latest recorded pass:** `I-0240`, first full-book render pipeline.
+- **Latest recorded pass:** `I-0241`, full-book PDF smoke QA.
 - **Latest exhibit dashboard pass:** `I-0236`, fail-closed visual readiness recomputation.
 - **Words:** 102,196 assembled source words across the canonical 24-chapter draft, including 3,911 retained supplemental Anthropic/Claude words; the primary-only spine is 98,285 words, so the floor is conditionally cleared rather than permanently solved.
 - **Chapters:** 24 / 24.
 - **Charts/diagrams:** 142.
 - **Photo/screenshot/source-surface slots:** 78.
 - **Sources:** 299.
-- **Claims:** 251 supported / 8 needs-verification.
+- **Claims:** 253 supported / 8 needs-verification.
 - **Asset/provenance rows:** 144.
 - **Idea queue:** active FIFO continues; next pending pass is recorded in `ideas.tsv`.
 - **Ledger BookScore:** 100.0, but this is a loop scoring proxy, not a publication certificate.
-- **First rough PDF:** `rendered/full_book_i0240/Next-Token-full-draft-i0240.pdf` exists locally; it is 401 pages and intentionally not committed.
+- **First rough PDF:** `rendered/full_book_i0240/Next-Token-full-draft-i0240.pdf` exists locally; it is 401 pages and intentionally not committed. Smoke QA passes artifact, chapter, figure-ID, link, blank-page, and code-block checks, but records P0/P1 defects for placeholder-only figures and unproven overflow/layout quality.
 
 The book is a real manuscript with a serious spine, but it is **not yet publication-ready**. The strongest current distinction is this: the top-100 exhibit program has stable IDs, chapter placement, caption/provenance scaffolding, page-flow mocks, reader-effect audits, prose bridges, and rights triage, but the fail-closed recomputation still gives 0 final publication-ready visual rows because render, capture, rights, caption, and source-note gates have not closed together.
 

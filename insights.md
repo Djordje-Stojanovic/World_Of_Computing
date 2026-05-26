@@ -346,3 +346,7 @@ Word-count closure is conditional until structure is stable. The assembled draft
 ## 2026-05-26 - I-0240 First Full Render
 
 A rough PDF is a different kind of evidence than a complete Markdown file. Once Chrome can print the whole draft into a 401-page local artifact, the next improvements should come from page-level failures: missing chapters, broken headings, bad placeholder flow, source-note distance, unreadable figures, and layout defects rather than abstract confidence.
+
+## 2026-05-27 - I-0241 PDF Smoke QA
+
+Smoke QA should be allowed to say both "real artifact" and "not ready." The first 401-page PDF has no missing chapters, missing figure IDs, broken internal anchors, blank pages, or long code-block risks, but its biggest defects are structural: figures are placeholder text and overflow/page-image quality is still unproven.
