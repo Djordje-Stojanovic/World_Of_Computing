@@ -310,3 +310,7 @@ Render smoke should fail early and visibly. The first sample sheet shows that se
 ## 2026-05-26 - I-0231 Page-Flow Mock
 
 Whole-book visual rhythm has two opposite defects at once: early chapters 2-5 are too open, while Chapters 15-16 are crowded and rights-heavy. The late-book mechanism run is the subtler risk; even accurate diagrams can make the ending feel like a dashboard unless source texture, human stakes, or prose breathing room interrupts the pattern.
+
+## 2026-05-26 - I-0232 Competitor Visual Benchmark
+
+The book's visual advantage is mechanism plus evidence discipline, but the shelf is won by memory and materiality. To beat chip, energy, AI-history, and biography competitors, final visuals must orient, prove, humanize, or slow the reader; anything that merely displays diligence should move to apparatus or disappear.

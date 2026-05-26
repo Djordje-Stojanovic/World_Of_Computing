@@ -236,6 +236,19 @@ Rules:
 - Chapters marked `crowded` need pruning or substitution before full render.
 - Late-book mechanism runs need human/source texture or prose breathing room before final layout.
 
+## Competitor Benchmark Standard
+
+`data/competitor_visual_benchmark_audit_i0232.tsv` and `data/competitor_visual_scorecard_i0232.tsv` define the current market-facing visual standard. The audit is qualitative: it compares *Next Token* against shelf expectations for semiconductor history, energy/infrastructure history, AI history, and product/company biography without asserting exact competitor figure counts.
+
+Rules:
+
+- Exceed chip-history expectations by making industrial constraints physical, not just schematic.
+- Exceed energy-history expectations with useful maps or place cues only where they clarify bottlenecks.
+- Exceed AI-history and biography expectations with product, source, lab, object, or human texture when provenance is strong.
+- Treat company-sourced slides and product surfaces as source-actor evidence, not neutral proof.
+- Cut or demote any figure that only demonstrates diligence and does not orient, prove, humanize, or slow the reader.
+- Use the benchmark scorecard as an input to reader-addiction, rights, prose-around-figures, and visual-readiness passes.
+
 ## Promotion Rationale
 
 Before this pass, the book had visual candidates but no visual grammar and no manifest-tracked diagrams. This pass adds the first three lightweight prototypes and establishes design rules for timelines, systems, family trees, tradeoffs, caveats, screenshots, and photo slots. It improves visual/data usefulness without introducing unsupported factual claims.
