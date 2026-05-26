@@ -1,9 +1,5 @@
 # 14. NVIDIA and CUDA: The Moat Under the Moat
 
-Status: first promoted draft, pass I-0116, 2026-05-25.
-
-Source note: This chapter uses NVIDIA primary sources and local captures from I-0116. It explains CUDA, Hopper/H100, Blackwell/B200/GB200, NVLink/NVSwitch, cuDNN, and TensorRT-LLM only where they explain LLM progress. Exact performance, throughput, cost, revenue, partner, roadmap, and availability claims remain NVIDIA-attributed or blocked unless independently normalized in later rows.
-
 ## The Invisible Platform Under The Miracle
 
 By the time ChatGPT made the language-model race visible, NVIDIA's advantage looked almost obvious. The world's frontier labs needed GPUs. NVIDIA sold GPUs. The stock chart went vertical. The keynote stage filled with racks, roadmaps, and the phrase "AI factory." It was tempting to narrate the whole thing as hardware destiny.
@@ -17,6 +13,12 @@ The CUDA C++ Programming Guide describes CUDA as a general-purpose parallel comp
 CUDA did that work over years. It gave the GPU a developer-facing grammar: kernels, threads, blocks, grids, shared memory, device memory, streams, synchronization, libraries, profilers, and a runtime. [S-0138] A researcher did not have to think in transistors. A framework developer could write kernels. A library team could tune primitives. A model lab could use PyTorch or JAX and still benefit from NVIDIA's lower layers. Each layer raised the floor for the layer above it.
 
 That is why the LLM boom did not arrive as a clean contest among chips. It arrived as a contest among stacks.
+
+Status: first promoted draft, pass I-0116, 2026-05-25. Hardware continuity strengthened in pass I-0159, 2026-05-26.
+
+Source note: This chapter uses NVIDIA primary sources and local captures from I-0116. It explains CUDA, Hopper/H100, Blackwell/B200/GB200, NVLink/NVSwitch, cuDNN, and TensorRT-LLM only where they explain LLM progress. Exact performance, throughput, cost, revenue, partner, roadmap, and availability claims remain NVIDIA-attributed or blocked unless independently normalized in later rows.
+
+Continuity note: Chapter 14 owns the software-and-system moat: CUDA habits, libraries, kernels, accelerator memory, interconnect, and the conversion of model ambition into usable accelerator work. Chapter 15 owns NVIDIA's public AI-factory stagecraft and roadmap framing. Chapter 16 owns independent physical constraints: power, interconnection, cooling, and useful capacity. The handoff should feel like a narrowing doorway, not three separate essays.
 
 ## Parallelism Becomes A Habit
 
@@ -118,10 +120,10 @@ The chapter's final note should be humility. NVIDIA's stack did not create the T
 
 In an LLM world, that was enough to become strategic infrastructure.
 
-## Verification Tasks Before Next Promotion
+## What The Hardware Middle Must Do
 
-- Extract row-level H100, Blackwell/B200/GB200, NVLink/NVSwitch, and TensorRT-LLM claims before any exact spec table or performance chart.
-- Add at least one non-NVIDIA source on CUDA lock-in or accelerator competition before finalizing the moat analysis.
-- Keep Vera Rubin and GTC 2026 material in Chapter 15 unless Chapter 14 uses it only as roadmap context with explicit labels.
-- Build a Chapter 14 CUDA stack visual: model framework, CUDA libraries, kernels, GPU memory/interconnect, cluster scheduler, and cloud capacity.
-- Re-run continuity checks after Chapter 17 and Chapter 21 drafts so hardware, data, tools, and reasoning form one clean Part IV/V handoff.
+The next two chapters should not repeat this chapter's moat language. Chapter 15 should show how NVIDIA tried to turn the moat into a public doctrine: inference as workload, tokens as commodity, compute as revenue, factory as metaphor and sales architecture. Chapter 16 should then strip the metaphor back down to physical gates: interconnection, substations, cooling, load concentration, clean-procurement ambiguity, and useful capacity.
+
+The remaining verification tasks are therefore boundary tasks, not merely cleanup. H100, Blackwell/B200/GB200, NVLink/NVSwitch, and TensorRT-LLM still need row-level extraction before any exact spec table or performance chart. CUDA lock-in and accelerator competition still need non-NVIDIA corroboration before the moat analysis becomes a market-power claim. Vera Rubin and GTC 2026 material belong mainly in Chapter 15 unless Chapter 14 uses them only as roadmap context with explicit labels. The desired Chapter 14 visual is still the CUDA stack: model framework, CUDA libraries, kernels, GPU memory/interconnect, cluster scheduler, and cloud capacity.
+
+Those blockers improve the chapter's ending because they define its honest job. Chapter 14 can say how NVIDIA made accelerated computing feel ordinary enough for frontier labs to build on. It cannot say the whole AI factory had already been built, that every roadmap claim shipped, or that every customer had no alternative. The chapter gives the reader the machine grammar. The next chapter shows the company trying to make that grammar sound like destiny.

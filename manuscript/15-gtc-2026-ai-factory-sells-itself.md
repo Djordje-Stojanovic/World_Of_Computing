@@ -1,11 +1,5 @@
 # 15. GTC 2026: The AI Factory Sells Itself
 
-Status: expanded in pass I-0102, 2026-05-25.
-
-Source note: This chapter uses source IDs from `sources.tsv`, the GTC slide caption register, and the I-0101 claim-card pack. It treats the GTC 2026 keynote as a staged NVIDIA argument, not as independent proof of performance, availability, partner adoption, deployment scale, revenue, facility performance, or future roadmap delivery. Exact ratios, dates, partner lists, and throughput claims remain blocked under C-0021 and C-0047 until corroborated.
-
-Visual sequence: open with A-0024, the page 29 AI-factory thesis claim card. Use Figure 15.1, A-0012, `assets/visual_system/ai-factory-stack.svg`, as the explanatory bridge after the opening metaphor. Later use A-0025 for inference-compute roadmap caveats, A-0026 for Vera Rubin partner/performance announcement caveats, A-0027 for the system-comparison guardrail, A-0028 for roadmap cadence, and A-0029 for DSX reference-design framing. [S-0001]
-
 ## The Slide That Tried To Rename The Datacenter
 
 The old datacenter was supposed to disappear into metaphor. Users said cloud, as if computation had become weather. Executives said platform, as if the machines were a surface rather than a room. Engineers said cluster, region, accelerator, network, rack. Almost nobody outside the industry wanted to picture the building: concrete, chillers, transformers, fiber, security gates, raised floors, power contracts, and the constant conversion of electricity into answers.
@@ -21,6 +15,14 @@ That is the right opening for this chapter, provided the attribution stays bolte
 Still, the argument matters. By 2026, the most important LLM systems had become too large to explain only as models. The model was the visible brain. The factory was the body: GPU racks, CPUs, memory, NVLink, Ethernet or InfiniBand fabrics, storage, power distribution, cooling, scheduling software, inference servers, and the accounting layer that turned tokens into bills. Earlier NVIDIA documents around H100 and Blackwell had already made the hardware stack legible as more than a chip story: memory bandwidth, interconnect, tensor cores, rack-scale systems, and software libraries were part of the product. [S-0039] [S-0040] GTC 2026 pushed the same logic into a larger industrial frame.
 
 The chapter begins there because it keeps the LLM story honest. ChatGPT made intelligence feel like a box you typed into. Coding agents made it feel like a collaborator in a terminal. But at the scale of frontier systems, every answer was also an event in a machine room. A token was not free because language felt free. A token was a tiny expenditure of silicon time, memory movement, network coordination, electricity, and cooling.
+
+Status: expanded in pass I-0102, 2026-05-25. Hardware continuity strengthened in pass I-0159, 2026-05-26.
+
+Source note: This chapter uses source IDs from `sources.tsv`, the GTC slide caption register, and the I-0101 claim-card pack. It treats the GTC 2026 keynote as a staged NVIDIA argument, not as independent proof of performance, availability, partner adoption, deployment scale, revenue, facility performance, or future roadmap delivery. Exact ratios, dates, partner lists, and throughput claims remain blocked under C-0021 and C-0047 until corroborated.
+
+Visual sequence: open with A-0024, the page 29 AI-factory thesis claim card. Use Figure 15.1, A-0012, `assets/visual_system/ai-factory-stack.svg`, as the explanatory bridge after the opening metaphor. Later use A-0025 for inference-compute roadmap caveats, A-0026 for Vera Rubin partner/performance announcement caveats, A-0027 for the system-comparison guardrail, A-0028 for roadmap cadence, and A-0029 for DSX reference-design framing. [S-0001]
+
+Continuity note: Chapter 14 explains why NVIDIA could credibly sell systems rather than lonely chips. Chapter 15 shows the sales argument becoming doctrine. Chapter 16 tests the doctrine against independent evidence about sites, power, cooling, and queues. Keep those evidence roles separate.
 
 ## A Keynote As A Sales Funnel For A Worldview
 
@@ -166,6 +168,8 @@ That was NVIDIA's story at GTC 2026. The chapter's job is to make it vivid, usef
 The last word matters. Accountable means the book can admire the elegance of the argument without becoming its brochure. It can see why NVIDIA wanted the world to say AI factory. It can also ask what every factory story must ask: who supplies the machines, who pays for the power, who bears the risk, who verifies the output, and which promises are still only promises?
 
 That question is the handoff. If Chapter 15 is the sales floor, Chapter 16 is the loading dock, the utility queue, the cooling loop, and the local hearing. GTC made the next token sound like an industrial product. The next chapter asks what industry demands from the world around it. The answer is not just better chips or more capital. It is places that can absorb the factory.
+
+That handoff is also the claim boundary. Chapter 15 can say NVIDIA tried to make the machine room legible as a factory. Chapter 16 must ask what happens when that factory seeks interconnection, cooling, local permission, and enough flexible capacity to turn nameplate infrastructure into useful tokens. A slide can rename the datacenter in a second. A substation cannot be renamed into existence.
 
 This is why the chapter should close on the renamed machine room rather than on a product name. Blackwell, Rubin, Vera, BlueField, DSX, and the roadmap cadence all matter, but the durable shift is larger than any one generation. NVIDIA was selling a way to see the LLM era: intelligence as output, inference as workload, tokens as commodity, and infrastructure as production line. The buyer could accept, resist, or bargain with that frame. No serious participant could ignore it.
 
