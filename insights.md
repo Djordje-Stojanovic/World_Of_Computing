@@ -342,3 +342,7 @@ Book-facing identity should be a data contract before it is a filesystem cleanup
 ## 2026-05-26 - I-0239 Word-Count Truth
 
 Word-count closure is conditional until structure is stable. The assembled draft clears 100k only because the Anthropic/Claude supplemental section remains inside Chapter 12; the primary-only spine is still under the floor, so future edits must add useful sourced texture or resolve Chapter 12 with replacement prose instead of celebrating a fragile count.
+
+## 2026-05-26 - I-0240 First Full Render
+
+A rough PDF is a different kind of evidence than a complete Markdown file. Once Chrome can print the whole draft into a 401-page local artifact, the next improvements should come from page-level failures: missing chapters, broken headings, bad placeholder flow, source-note distance, unreadable figures, and layout defects rather than abstract confidence.

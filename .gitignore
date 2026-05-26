@@ -11,6 +11,10 @@ rendered/*.webp
 rendered/**/*.webp
 rendered/*.txt
 rendered/**/*.txt
+rendered/*.html
+rendered/**/*.html
+rendered/*.tsv
+rendered/**/*.tsv
 
 # Large/private-use source media and extracted assets
 *.pdf

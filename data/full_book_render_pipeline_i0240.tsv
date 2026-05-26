@@ -1,0 +1,20 @@
+field	value
+pass_id	I-0240
+input	manuscript/Next-Token-full-draft.md
+script	scripts/render_full_book_i0240.py
+command	python scripts\render_full_book_i0240.py
+html_output	rendered/full_book_i0240/Next-Token-full-draft-i0240.html
+pdf_output	rendered/full_book_i0240/Next-Token-full-draft-i0240.pdf
+chrome	C:\Program Files\Google\Chrome\Application\chrome.exe
+render_path	Python stdlib Markdown-to-HTML converter plus Chrome headless print-to-PDF
+chapter_headings	24
+figure_placeholders	100
+markdown_words_including_apparatus	107047
+html_bytes	703026
+pdf_bytes	2477713
+pdf_header	%PDF-1.4
+pdf_pages_regex_count	401
+html_sha256	050bf42de15217218185c427e06a1cb27497ba0f770e8f4155b11133f0d79268
+pdf_sha256	e7bde893c46f2c2a97f2582862b97601f8a9defbb6745000635cd2b987a643ae
+known_defects	rough_css;placeholder_figures;no_page_level_qa;no_caption_rights_resolution;no_text_extraction_qa;no_visual_legibility_qa
+git_policy	PDF and generated HTML remain local render outputs; commit script, manifest, and pass documentation only.
