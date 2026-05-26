@@ -1,0 +1,9 @@
+action_id	priority	scope	action	blocker_or_gate
+I0224-ACT-001	high	Chapter 1-5	Apply token, prompt, and time motifs only in figures where they teach mechanism or chronology; remove any motif used as ornament.	Motifs must not become decorative wallpaper.
+I0224-ACT-002	high	Chapter 14-16	Use chip and power motifs together only when the figure explains a physical path from silicon to useful tokens.	Blocks performance, capacity, and delivered-power inference.
+I0224-ACT-003	high	Chapter 18-20	Use context and agency motifs as paired boundaries: what the model can see and what it is allowed to do.	Blocks autonomy, productivity, and reliable-operation claims.
+I0224-ACT-004	medium	Chapter 21-24	Reprise token, time, context, and agency motifs in the finale only when they synthesize previous mechanisms.	Blocks generic summary wallpaper.
+I0224-ACT-005	medium	Style QA	Add motif presence to the next SVG style audit: motif name, shape, meaning, and blocker present/absent.	Requires extending the audit table, not just adding visual icons.
+I0224-ACT-006	medium	Render QA	Test motif atlas A-0219 at half page width; if labels fail, split into two pages or use icon-only production notes.	Page-image proof remains required.
+I0224-ACT-007	low	Captions	When a motif appears in a caption, use the motif's specific verb: tokenize, prompt, date, accelerate, power, bound, hand off.	Avoid vague "AI system" language.
+I0224-ACT-008	low	Future visual packages	Do not add a new recurring motif unless it has a blocked-claim row and at least three chapter uses.	Prevents motif sprawl.

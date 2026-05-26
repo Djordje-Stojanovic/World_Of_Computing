@@ -42,6 +42,14 @@ Accessibility rule: charts must remain readable in grayscale by varying stroke w
 
 ## Recurring Visual Families
 
+### 0. Motif Layer
+
+Use the recurring motif system from I-0224 as a thin claim-control layer, not decoration. The seven approved motifs are token, prompt, time, chip, power, context, and agency. Each motif has a defined shape, palette role, chapter range, allowed use, blocked claims, and render rule in `data/recurring_motif_system_i0224.tsv`.
+
+Core rule: a motif may recur only when it clarifies mechanism, chronology, source boundary, or blocked inference. If it merely makes a page look designed, remove it.
+
+Reference atlas: `assets/visual_system/recurring-motif-atlas-i0224.svg`.
+
 ### 1. Chronology Rails
 
 Use for chapter timelines, launch sequences, and source chronologies.

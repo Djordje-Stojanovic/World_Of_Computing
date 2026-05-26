@@ -278,3 +278,7 @@ Reader delight can come from caveats when the card names the right source tensio
 ## 2026-05-26 - I-0223 Chapter 1 Cold Open
 
 The first three visuals should behave like a sentence: shock, mechanism, consequence. A-0068 earns the opening slot because it makes the plain text box feel historically explosive without merging metrics; A-0069 then explains the machinery; A-0070 localizes the institutional pressure. Reserve source cards are useful only if render rhythm, not asset novelty, demands them.
+
+## 2026-05-26 - I-0224 Recurring Motif System
+
+Motifs are strongest when they are verbs with blockers: tokenize, prompt, date, accelerate, power, bound, hand off. A recurring shape should help the reader recognize a mechanism or claim boundary across chapters; if it only creates visual continuity, it becomes design noise and should be removed.
