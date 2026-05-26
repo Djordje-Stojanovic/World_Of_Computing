@@ -1,0 +1,117 @@
+pass_id	defect_id	severity	figure_id	page	category	evidence	recommended_action
+I-0263	I0263-DEF-001	P1	F01.01	3	small_text	min_caption_font=6.49pt	Raise caption/source-note type size or shorten caption.
+I-0263	I0263-DEF-002	P1	F01.02	8	small_text	min_caption_font=6.49pt	Raise caption/source-note type size or shorten caption.
+I-0263	I0263-DEF-003	P1	F01.03	13	small_text	min_caption_font=6.49pt	Raise caption/source-note type size or shorten caption.
+I-0263	I0263-DEF-004	P1	F02.01	17	small_text	min_caption_font=6.49pt	Raise caption/source-note type size or shorten caption.
+I-0263	I0263-DEF-005	P1	F03.01	29	small_text	min_caption_font=6.49pt	Raise caption/source-note type size or shorten caption.
+I-0263	I0263-DEF-006	P1	F04.01	42	small_text	min_caption_font=6.49pt	Raise caption/source-note type size or shorten caption.
+I-0263	I0263-DEF-007	P1	F05.01	54	small_text	min_caption_font=6.49pt	Raise caption/source-note type size or shorten caption.
+I-0263	I0263-DEF-008	P1	F06.01	71	small_text	min_caption_font=6.49pt	Raise caption/source-note type size or shorten caption.
+I-0263	I0263-DEF-009	P1	F06.02	76	small_text	min_caption_font=6.49pt	Raise caption/source-note type size or shorten caption.
+I-0263	I0263-DEF-010	P1	F06.03	82	small_text	min_caption_font=6.49pt	Raise caption/source-note type size or shorten caption.
+I-0263	I0263-DEF-011	P1	F07.01	89	small_text	min_caption_font=6.49pt	Raise caption/source-note type size or shorten caption.
+I-0263	I0263-DEF-012	P1	F07.02	93	small_text	min_caption_font=6.49pt	Raise caption/source-note type size or shorten caption.
+I-0263	I0263-DEF-013	P1	F07.03	96	small_text	min_caption_font=6.49pt	Raise caption/source-note type size or shorten caption.
+I-0263	I0263-DEF-014	P1	F07.04	99	small_text	min_caption_font=6.49pt	Raise caption/source-note type size or shorten caption.
+I-0263	I0263-DEF-015	P1	F07.05	103	source_note	Source note label absent from figure page text.	Keep source note in caption/source block adjacent to figure.
+I-0263	I0263-DEF-016	P1	F07.05	103	small_text	min_caption_font=6.49pt	Raise caption/source-note type size or shorten caption.
+I-0263	I0263-DEF-017	P1	F08.01	107	source_note	Source note label absent from figure page text.	Keep source note in caption/source block adjacent to figure.
+I-0263	I0263-DEF-018	P1	F08.01	107	small_text	min_caption_font=6.49pt	Raise caption/source-note type size or shorten caption.
+I-0263	I0263-DEF-019	P1	F08.02	111	source_note	Source note label absent from figure page text.	Keep source note in caption/source block adjacent to figure.
+I-0263	I0263-DEF-020	P1	F08.02	111	small_text	min_caption_font=6.49pt	Raise caption/source-note type size or shorten caption.
+I-0263	I0263-DEF-021	P1	F08.03	114	small_text	min_caption_font=6.49pt	Raise caption/source-note type size or shorten caption.
+I-0263	I0263-DEF-022	P1	F08.04	117	small_text	min_caption_font=6.49pt	Raise caption/source-note type size or shorten caption.
+I-0263	I0263-DEF-023	P1	F09.01	122	source_note	Source note label absent from figure page text.	Keep source note in caption/source block adjacent to figure.
+I-0263	I0263-DEF-024	P1	F09.01	122	small_text	min_caption_font=6.49pt	Raise caption/source-note type size or shorten caption.
+I-0263	I0263-DEF-025	P1	F09.02	125	source_note	Source note label absent from figure page text.	Keep source note in caption/source block adjacent to figure.
+I-0263	I0263-DEF-026	P1	F09.02	125	small_text	min_caption_font=6.49pt	Raise caption/source-note type size or shorten caption.
+I-0263	I0263-DEF-027	P1	F09.03	128	small_text	min_caption_font=6.49pt	Raise caption/source-note type size or shorten caption.
+I-0263	I0263-DEF-028	P1	F09.04	131	small_text	min_caption_font=6.49pt	Raise caption/source-note type size or shorten caption.
+I-0263	I0263-DEF-029	P1	F09.05	133	small_text	min_caption_font=6.49pt	Raise caption/source-note type size or shorten caption.
+I-0263	I0263-DEF-030	P1	F10.01	138	small_text	min_caption_font=6.49pt	Raise caption/source-note type size or shorten caption.
+I-0263	I0263-DEF-031	P1	F10.02	141	small_text	min_caption_font=6.49pt	Raise caption/source-note type size or shorten caption.
+I-0263	I0263-DEF-032	P1	F10.03	144	small_text	min_caption_font=6.49pt	Raise caption/source-note type size or shorten caption.
+I-0263	I0263-DEF-033	P1	F10.04	147	small_text	min_caption_font=6.49pt	Raise caption/source-note type size or shorten caption.
+I-0263	I0263-DEF-034	P1	F10.05	150	small_text	min_caption_font=6.49pt	Raise caption/source-note type size or shorten caption.
+I-0263	I0263-DEF-035	P1	F11.01	154	small_text	min_caption_font=6.49pt	Raise caption/source-note type size or shorten caption.
+I-0263	I0263-DEF-036	P1	F11.02	156	small_text	min_caption_font=6.49pt	Raise caption/source-note type size or shorten caption.
+I-0263	I0263-DEF-037	P1	F11.03	159	small_text	min_caption_font=6.49pt	Raise caption/source-note type size or shorten caption.
+I-0263	I0263-DEF-038	P1	F11.04	162	source_note	Source note label absent from figure page text.	Keep source note in caption/source block adjacent to figure.
+I-0263	I0263-DEF-039	P1	F11.04	162	rights_stage	Rights stage label absent from figure page text.	Keep rights stage adjacent to figure.
+I-0263	I0263-DEF-040	P1	F11.04	162	small_text	min_caption_font=6.49pt	Raise caption/source-note type size or shorten caption.
+I-0263	I0263-DEF-041	P1	F11.05	164	small_text	min_caption_font=6.49pt	Raise caption/source-note type size or shorten caption.
+I-0263	I0263-DEF-042	P1	F12.01	170	small_text	min_caption_font=6.49pt	Raise caption/source-note type size or shorten caption.
+I-0263	I0263-DEF-043	P1	F12.02	174	rights_stage	Rights stage label absent from figure page text.	Keep rights stage adjacent to figure.
+I-0263	I0263-DEF-044	P1	F12.02	174	small_text	min_caption_font=6.49pt	Raise caption/source-note type size or shorten caption.
+I-0263	I0263-DEF-045	P1	F12.03	179	small_text	min_caption_font=6.49pt	Raise caption/source-note type size or shorten caption.
+I-0263	I0263-DEF-046	P1	F12.04	185	small_text	min_caption_font=6.49pt	Raise caption/source-note type size or shorten caption.
+I-0263	I0263-DEF-047	P1	F12.05	188	small_text	min_caption_font=6.49pt	Raise caption/source-note type size or shorten caption.
+I-0263	I0263-DEF-048	P1	F12.06	193	small_text	min_caption_font=6.49pt	Raise caption/source-note type size or shorten caption.
+I-0263	I0263-DEF-049	P1	F13.01	198	small_text	min_caption_font=6.49pt	Raise caption/source-note type size or shorten caption.
+I-0263	I0263-DEF-050	P1	F13.02	203	small_text	min_caption_font=6.49pt	Raise caption/source-note type size or shorten caption.
+I-0263	I0263-DEF-051	P1	F13.03	207	small_text	min_caption_font=6.49pt	Raise caption/source-note type size or shorten caption.
+I-0263	I0263-DEF-052	P1	F14.01	212	small_text	min_caption_font=6.49pt	Raise caption/source-note type size or shorten caption.
+I-0263	I0263-DEF-053	P1	F14.02	214	small_text	min_caption_font=6.49pt	Raise caption/source-note type size or shorten caption.
+I-0263	I0263-DEF-054	P1	F14.03	216	small_text	min_caption_font=6.49pt	Raise caption/source-note type size or shorten caption.
+I-0263	I0263-DEF-055	P1	F14.04	220	small_text	min_caption_font=6.49pt	Raise caption/source-note type size or shorten caption.
+I-0263	I0263-DEF-056	P1	F14.05	222	small_text	min_caption_font=6.49pt	Raise caption/source-note type size or shorten caption.
+I-0263	I0263-DEF-057	P1	F14.06	225	small_text	min_caption_font=6.49pt	Raise caption/source-note type size or shorten caption.
+I-0263	I0263-DEF-058	P1	F15.01	228	small_text	min_caption_font=6.49pt	Raise caption/source-note type size or shorten caption.
+I-0263	I0263-DEF-059	P1	F15.02	231	small_text	min_caption_font=6.49pt	Raise caption/source-note type size or shorten caption.
+I-0263	I0263-DEF-060	P1	F15.03	234	rights_stage	Rights stage label absent from figure page text.	Keep rights stage adjacent to figure.
+I-0263	I0263-DEF-061	P1	F15.03	234	small_text	min_caption_font=6.49pt	Raise caption/source-note type size or shorten caption.
+I-0263	I0263-DEF-062	P1	F15.04	236	small_text	min_caption_font=6.49pt	Raise caption/source-note type size or shorten caption.
+I-0263	I0263-DEF-063	P1	F15.05	239	small_text	min_caption_font=6.49pt	Raise caption/source-note type size or shorten caption.
+I-0263	I0263-DEF-064	P1	F15.06	241	small_text	min_caption_font=6.49pt	Raise caption/source-note type size or shorten caption.
+I-0263	I0263-DEF-065	P1	F15.07	244	source_note	Source note label absent from figure page text.	Keep source note in caption/source block adjacent to figure.
+I-0263	I0263-DEF-066	P1	F15.07	244	small_text	min_caption_font=6.49pt	Raise caption/source-note type size or shorten caption.
+I-0263	I0263-DEF-067	P1	F16.01	249	small_text	min_caption_font=6.49pt	Raise caption/source-note type size or shorten caption.
+I-0263	I0263-DEF-068	P1	F16.02	251	small_text	min_caption_font=6.49pt	Raise caption/source-note type size or shorten caption.
+I-0263	I0263-DEF-069	P1	F16.03	253	small_text	min_caption_font=6.49pt	Raise caption/source-note type size or shorten caption.
+I-0263	I0263-DEF-070	P1	F16.04	256	small_text	min_caption_font=6.49pt	Raise caption/source-note type size or shorten caption.
+I-0263	I0263-DEF-071	P1	F16.05	258	small_text	min_caption_font=6.49pt	Raise caption/source-note type size or shorten caption.
+I-0263	I0263-DEF-072	P1	F16.06	260	small_text	min_caption_font=6.49pt	Raise caption/source-note type size or shorten caption.
+I-0263	I0263-DEF-073	P1	F16.07	262	small_text	min_caption_font=6.49pt	Raise caption/source-note type size or shorten caption.
+I-0263	I0263-DEF-074	P1	F16.08	265	small_text	min_caption_font=6.49pt	Raise caption/source-note type size or shorten caption.
+I-0263	I0263-DEF-075	P1	F16.09	267	small_text	min_caption_font=6.49pt	Raise caption/source-note type size or shorten caption.
+I-0263	I0263-DEF-076	P1	F17.01	269	small_text	min_caption_font=6.49pt	Raise caption/source-note type size or shorten caption.
+I-0263	I0263-DEF-077	P1	F17.02	272	small_text	min_caption_font=6.49pt	Raise caption/source-note type size or shorten caption.
+I-0263	I0263-DEF-078	P1	F17.03	277	small_text	min_caption_font=6.49pt	Raise caption/source-note type size or shorten caption.
+I-0263	I0263-DEF-079	P1	F17.04	280	rights_stage	Rights stage label absent from figure page text.	Keep rights stage adjacent to figure.
+I-0263	I0263-DEF-080	P1	F17.04	280	small_text	min_caption_font=6.49pt	Raise caption/source-note type size or shorten caption.
+I-0263	I0263-DEF-081	P1	F18.01	284	rights_stage	Rights stage label absent from figure page text.	Keep rights stage adjacent to figure.
+I-0263	I0263-DEF-082	P1	F18.01	284	small_text	min_caption_font=6.49pt	Raise caption/source-note type size or shorten caption.
+I-0263	I0263-DEF-083	P1	F18.02	286	small_text	min_caption_font=6.49pt	Raise caption/source-note type size or shorten caption.
+I-0263	I0263-DEF-084	P1	F18.03	290	rights_stage	Rights stage label absent from figure page text.	Keep rights stage adjacent to figure.
+I-0263	I0263-DEF-085	P1	F18.03	290	small_text	min_caption_font=6.49pt	Raise caption/source-note type size or shorten caption.
+I-0263	I0263-DEF-086	P1	F18.04	292	rights_stage	Rights stage label absent from figure page text.	Keep rights stage adjacent to figure.
+I-0263	I0263-DEF-087	P1	F18.04	292	small_text	min_caption_font=6.49pt	Raise caption/source-note type size or shorten caption.
+I-0263	I0263-DEF-088	P1	F18.05	295	small_text	min_caption_font=6.49pt	Raise caption/source-note type size or shorten caption.
+I-0263	I0263-DEF-089	P1	F19.01	299	small_text	min_caption_font=6.49pt	Raise caption/source-note type size or shorten caption.
+I-0263	I0263-DEF-090	P1	F19.02	301	small_text	min_caption_font=6.49pt	Raise caption/source-note type size or shorten caption.
+I-0263	I0263-DEF-091	P1	F19.03	304	source_note	Source note label absent from figure page text.	Keep source note in caption/source block adjacent to figure.
+I-0263	I0263-DEF-092	P1	F19.03	304	small_text	min_caption_font=6.49pt	Raise caption/source-note type size or shorten caption.
+I-0263	I0263-DEF-093	P1	F19.04	306	small_text	min_caption_font=6.49pt	Raise caption/source-note type size or shorten caption.
+I-0263	I0263-DEF-094	P1	F19.05	310	small_text	min_caption_font=6.49pt	Raise caption/source-note type size or shorten caption.
+I-0263	I0263-DEF-095	P1	F20.01	314	small_text	min_caption_font=6.49pt	Raise caption/source-note type size or shorten caption.
+I-0263	I0263-DEF-096	P1	F20.02	316	small_text	min_caption_font=6.49pt	Raise caption/source-note type size or shorten caption.
+I-0263	I0263-DEF-097	P1	F20.03	318	small_text	min_caption_font=6.49pt	Raise caption/source-note type size or shorten caption.
+I-0263	I0263-DEF-098	P1	F20.04	323	small_text	min_caption_font=6.49pt	Raise caption/source-note type size or shorten caption.
+I-0263	I0263-DEF-099	P1	F20.05	326	small_text	min_caption_font=6.49pt	Raise caption/source-note type size or shorten caption.
+I-0263	I0263-DEF-100	P1	F21.01	330	small_text	min_caption_font=6.49pt	Raise caption/source-note type size or shorten caption.
+I-0263	I0263-DEF-101	P1	F21.02	331	small_text	min_caption_font=6.49pt	Raise caption/source-note type size or shorten caption.
+I-0263	I0263-DEF-102	P1	F21.03	332	small_text	min_caption_font=6.49pt	Raise caption/source-note type size or shorten caption.
+I-0263	I0263-DEF-103	P1	F21.04	333	small_text	min_caption_font=6.49pt	Raise caption/source-note type size or shorten caption.
+I-0263	I0263-DEF-104	P1	F22.01	345	small_text	min_caption_font=6.49pt	Raise caption/source-note type size or shorten caption.
+I-0263	I0263-DEF-105	P1	F22.02	348	small_text	min_caption_font=6.49pt	Raise caption/source-note type size or shorten caption.
+I-0263	I0263-DEF-106	P1	F22.03	351	small_text	min_caption_font=6.49pt	Raise caption/source-note type size or shorten caption.
+I-0263	I0263-DEF-107	P1	F22.04	354	small_text	min_caption_font=6.49pt	Raise caption/source-note type size or shorten caption.
+I-0263	I0263-DEF-108	P1	F23.01	359	small_text	min_caption_font=6.49pt	Raise caption/source-note type size or shorten caption.
+I-0263	I0263-DEF-109	P1	F23.02	360	small_text	min_caption_font=6.49pt	Raise caption/source-note type size or shorten caption.
+I-0263	I0263-DEF-110	P1	F23.03	361	rights_stage	Rights stage label absent from figure page text.	Keep rights stage adjacent to figure.
+I-0263	I0263-DEF-111	P1	F23.03	361	small_text	min_caption_font=6.49pt	Raise caption/source-note type size or shorten caption.
+I-0263	I0263-DEF-112	P1	F23.04	362	small_text	min_caption_font=6.49pt	Raise caption/source-note type size or shorten caption.
+I-0263	I0263-DEF-113	P1	F24.01	373	small_text	min_caption_font=6.49pt	Raise caption/source-note type size or shorten caption.
+I-0263	I0263-DEF-114	P1	F24.02	374	small_text	min_caption_font=6.49pt	Raise caption/source-note type size or shorten caption.
+I-0263	I0263-DEF-115	P1	F24.03	375	small_text	min_caption_font=6.49pt	Raise caption/source-note type size or shorten caption.
+I-0263	I0263-DEF-116	P1	F24.04	376	small_text	min_caption_font=6.49pt	Raise caption/source-note type size or shorten caption.

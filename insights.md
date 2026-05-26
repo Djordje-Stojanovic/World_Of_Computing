@@ -422,3 +422,7 @@ A selected exhibit list should never point at a missing future asset. If a scree
 ## 2026-05-27 - I-0262 Visual PDF v3
 
 Object-level PDF QA should distinguish presence from beauty. Getting 100 image-bearing callouts into the PDF is a real threshold, but it only proves the book is visually material; page screenshots still have to prove legibility, rhythm, caption compression, and source-note proximity.
+
+## 2026-05-27 - I-0263 Page Legibility
+
+The first honest page-image QA should produce defects, not reassurance. Once every figure exists in the PDF, the next useful truth is which pages are too small, crowded, or visually tiring; those warnings become the design-polish backlog rather than reasons to pretend the render is finished.
