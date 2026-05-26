@@ -1,8 +1,4 @@
-# 1. Before the Transformer: The Machine Learns Sequence
-
-Status: first promoted Chapter 1 draft, pass I-0092, 2026-05-25.
-
-Source note: This chapter uses newly ledgered primary papers for the early technical spine: Bengio et al. on neural probabilistic language modeling, Mikolov et al. on efficient word-vector learning, Sutskever et al. on sequence-to-sequence learning, Bahdanau et al. on alignment/attention in neural machine translation, and Vaswani et al. on the Transformer. It is a narrative foundation, not a complete history of NLP. It deliberately avoids unsupported claims about who "invented" every component, exact state-of-the-art rankings, or hidden industrial adoption. See `data/chapter1_early_lm_claim_audit_i0092.tsv` for row-level claim permissions.
+# 2. Before the Transformer: The Machine Learns Sequence
 
 ## The Older Machine
 
@@ -11,6 +7,14 @@ Before the language model became a chat window, it was a much colder instrument:
 That framing sounds modest because it hides the depth of the trap. Language is not a list. It is a moving system of context, ambiguity, grammar, memory, reference, style, and expectation. A sentence can hinge on a word that appeared twenty tokens earlier. A word can change meaning because of a neighboring word. A name can be rare but important. A phrase can be perfectly grammatical and still impossible in the world. The early machine did not have to solve all of that to become useful. It had to find a way to make the next symbol less mysterious.
 
 For a long time, the most practical answer was counting. N-gram language models estimated the next word from short histories: one word, two words, three words, sometimes more, depending on the data and smoothing. This made language mechanical in the useful sense. A speech recognizer or translation system could prefer one sequence over another because one sequence looked more probable under a model. But the same method exposed an old curse. The number of possible word sequences grows explosively. Most long phrases will never appear in the training data, and many that matter will appear too rarely to estimate cleanly. The machine could count, but the world of possible sentences was too large for counting alone.
+
+That is the chapter's pressure chain: counting made language computable, sparsity made counting brittle, embeddings made similarity usable, recurrence made sentence order learnable, sequence-to-sequence models made one stream of tokens become another, and attention made the fixed-memory bottleneck impossible to ignore. The history is technical, but the suspense is simple. Every solution made the machine stronger and exposed the next constraint.
+
+## Drafting Controls
+
+Status: Chapter 2 clarity pass promoted in I-0153, 2026-05-26; first promoted as a Chapter 1 draft in pass I-0092 before the later ChatGPT opener became Chapter 1.
+
+Source note: This chapter uses newly ledgered primary papers for the early technical spine: Bengio et al. on neural probabilistic language modeling, Mikolov et al. on efficient word-vector learning, Sutskever et al. on sequence-to-sequence learning, Bahdanau et al. on alignment/attention in neural machine translation, and Vaswani et al. on the Transformer. It is a narrative foundation, not a complete history of NLP. It deliberately avoids unsupported claims about who "invented" every component, exact state-of-the-art rankings, or hidden industrial adoption. See `data/chapter1_early_lm_claim_audit_i0092.tsv` for row-level claim permissions.
 
 The important turn was not that researchers made language less discrete. It was that they made the discreteness negotiable. A word could remain a symbol in a vocabulary while also becoming a point in a learned space. "Dog" and "cat" would still be different tokens, but the model could learn that they lived nearer to one another than either lived to "thermodynamics" or "Wednesday." The bet was that language contained reusable structure below the surface of exact word identity.
 

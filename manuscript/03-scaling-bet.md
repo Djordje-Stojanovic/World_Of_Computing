@@ -1,8 +1,4 @@
-# 3. The Scaling Bet: When Loss Became A Map
-
-Status: first promoted Chapter 3 draft, pass I-0094, 2026-05-25.
-
-Source note: This chapter is a first scaling-laws draft anchored on Kaplan et al.'s "Scaling Laws for Neural Language Models" and Hoffmann et al.'s "Training Compute-Optimal Large Language Models." It uses GPT-3 and PaLM only as bounded examples of the scaling era, not as proof that scale alone explains every capability. It avoids exact exponents, benchmark numbers, emergent-capability claims, and frontier extrapolation until later extraction rows support them. See `data/chapter3_scaling_claim_audit_i0094.tsv` and `data/chapter3_scaling_chart_plan_i0094.tsv`.
+# 4. The Scaling Bet: When Loss Became A Map
 
 ## The Curve Before The Product
 
@@ -10,11 +6,19 @@ Before ChatGPT became an interface event and before the Transformer became a pub
 
 Loss is not a romantic word. It does not sound like intelligence, creativity, reasoning, or work. It is an error signal, a measure of how surprised the model is by the data under its training objective. But in the scaling era, loss became a kind of map. If the map kept improving predictably as researchers increased model size, dataset size, and compute, then the future stopped looking like a sequence of isolated inventions and started looking like a capital allocation problem.
 
+That was the next pressure point after the Transformer. Chapter 3 made the architecture feel stackable and parallel enough to absorb accelerator-era training. Chapter 4 asks what happened when labs began to treat that stack as something they could push along measured axes. The suspense moved from "can the machine represent language?" to "how much improvement can be bought, forecast, and industrialized?"
+
 Kaplan and colleagues' "Scaling Laws for Neural Language Models" gave that bet a sharp form. The paper studied how language-model performance varied with model size, dataset size, and compute, and argued that performance followed power-law-like trends over ranges they measured. [S-0003] The practical implication was not that everything was solved. It was that some parts of progress looked forecastable enough to plan around.
 
 That is a dangerous sentence if left alone. Forecastable loss is not the same as forecastable truth, safety, usefulness, or product-market fit. A model can become better at predicting text and still hallucinate. It can reduce loss and still fail a task that matters. It can improve benchmark averages while hiding brittleness. Scaling laws are therefore not a theology of bigger-is-better. They are a measurement tradition that made bigger models feel less like gambling.
 
 This chapter belongs after the Transformer because architecture created the substrate and scaling made the substrate strategic. Once the model block could absorb more data and compute, the question changed. The field no longer asked only, "Can we build a better architecture?" It asked, "How much improvement can we buy by scaling the architecture we already have?"
+
+## Drafting Controls
+
+Status: Chapter 4 clarity pass promoted in I-0153, 2026-05-26; first promoted as a Chapter 3 draft in pass I-0094 before the later ChatGPT opener became Chapter 1.
+
+Source note: This chapter is a first scaling-laws draft anchored on Kaplan et al.'s "Scaling Laws for Neural Language Models" and Hoffmann et al.'s "Training Compute-Optimal Large Language Models." It uses GPT-3 and PaLM only as bounded examples of the scaling era, not as proof that scale alone explains every capability. It avoids exact exponents, benchmark numbers, emergent-capability claims, and frontier extrapolation until later extraction rows support them. See `data/chapter3_scaling_claim_audit_i0094.tsv` and `data/chapter3_scaling_chart_plan_i0094.tsv`.
 
 ## The Industrialization Of Prediction
 
@@ -122,7 +126,9 @@ That principle will matter later in the model-rankings chapter. Leaderboards are
 
 The scaling chapter can therefore teach a durable reading habit: ask what was measured, under what conditions, with what units, and what claim the measurement does not support. This habit is less flashy than a frontier curve. It is also the difference between serious nonfiction and model fandom.
 
-It also gives the reader a way to survive the rest of the book. When a company announces a model, ask whether the evidence is a training loss, a benchmark score, a product demo, a user metric, a price sheet, a customer quote, or a third-party evaluation. Those are different objects. They may point in the same direction, but they do not collapse into one master proof. Scaling culture often invited that collapse because the curve was so clean. The book's job is to keep the curve clean without letting it become a halo. The curve can guide judgment, but it should never replace judgment, especially when money, safety, infrastructure, and public trust start leaning on the forecast and treating it as destiny too soon for comfort anyway.
+It also gives the reader a way to survive the rest of the book. When a company announces a model, ask whether the evidence is a training loss, a benchmark score, a product demo, a user metric, a price sheet, a customer quote, or a third-party evaluation. Those are different objects. They may point in the same direction, but they do not collapse into one master proof.
+
+Scaling culture often invited that collapse because the curve was so clean. The book's job is to keep the curve clean without letting it become a halo. The curve can guide judgment, but it should never replace judgment, especially when money, safety, infrastructure, and public trust start leaning on a forecast and treating it as destiny.
 
 ## The Chart The Chapter Needs
 
