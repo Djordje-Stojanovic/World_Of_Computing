@@ -218,3 +218,7 @@ Industrial photography should be promoted only after its caption burden is small
 ## 2026-05-26 - I-0208 Rights-Safe Industrial Substitutes
 
 For industrial subjects, original synthesis art is often stronger than a weakly cleared photo: transmission, gas, cooling, and HBM/packaging visuals can teach mechanisms while avoiding photo-license ambiguity and preventing a picture from implying capacity, allocation, delivered power, workload, emissions, yield, or supplier-rank claims.
+
+## 2026-05-26 - I-0209 Early Technical Exhibit Fill
+
+Early mechanism chapters need source texture as much as diagrams: paraphrase-only source cards can close chapter-balance gaps and show the pressure chain from sparse counts to embeddings, seq2seq, attention, Transformer, scaling, and GPT/API surfaces, while leaving exact quote/page extraction as a separate rights and accuracy gate.

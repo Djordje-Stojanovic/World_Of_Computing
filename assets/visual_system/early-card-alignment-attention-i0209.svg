@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Attention Began As A Routing Fix</title>
+  <desc id="desc">Chapter 2 source card for Bahdanau attention as alignment over source positions.</desc>
+  <style>.bg{fill:#f3f5ef}.ink{fill:#20242a}.muted{fill:#5f6872}.src{fill:#e4edf7;stroke:#3c6382;stroke-width:2}.focus{fill:#e3f0de;stroke:#47733f;stroke-width:2}.risk{fill:#f7e1df;stroke:#9f4b45;stroke-width:2}.line{stroke:#4b5560;stroke-width:3;fill:none;marker-end:url(#arrow)}.title{font-family:Arial,Helvetica,sans-serif;font-size:38px;font-weight:700}.label{font-family:Arial,Helvetica,sans-serif;font-size:25px;font-weight:700}.small{font-family:Arial,Helvetica,sans-serif;font-size:20px}.note{font-family:Arial,Helvetica,sans-serif;font-size:17px;fill:#5f6872}</style>
+  <defs><marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 Z" fill="#4b5560"/></marker></defs>
+  <rect class="bg" width="1200" height="760"/>
+  <text class="title ink" x="60" y="72">Attention Began As A Routing Fix</text>
+  <text class="small muted" x="60" y="112">Alignment let the decoder look back at source positions instead of trusting one compressed summary.</text>
+  <rect class="src" x="110" y="195" width="230" height="280" rx="8"/><text class="label ink" x="145" y="245">Source tokens</text><text class="small ink" x="145" y="300">x1</text><text class="small ink" x="145" y="340">x2</text><text class="small ink" x="145" y="380">x3</text><text class="small ink" x="145" y="420">x4</text>
+  <rect class="focus" x="485" y="230" width="240" height="210" rx="8"/><text class="label ink" x="520" y="285">Alignment weights</text><text class="small ink" x="520" y="330">soft routing</text><text class="small ink" x="520" y="365">context by output step</text>
+  <rect class="src" x="860" y="245" width="230" height="175" rx="8"/><text class="label ink" x="895" y="305">Next output</text><text class="small ink" x="895" y="350">uses routed context</text>
+  <path class="line" d="M350 335 H470"/><path class="line" d="M740 335 H845"/>
+  <rect class="risk" x="160" y="545" width="880" height="70" rx="8"/><text class="small ink" x="195" y="588">Block: attention-as-explanation, consciousness, complete interpretability, or modern Transformer equivalence.</text>
+  <text class="note" x="60" y="725">Source: S-0107. Original source-card SVG; use as Chapter 2 handoff to Chapter 3.</text>
+</svg>

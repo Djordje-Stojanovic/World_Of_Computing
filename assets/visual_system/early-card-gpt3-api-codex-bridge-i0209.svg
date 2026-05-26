@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">GPT-3 Became A Surface Before ChatGPT</title>
+  <desc id="desc">Chapter 5 source card connecting GPT-3 prompting, API distribution, and Codex/Copilot without adoption or productivity claims.</desc>
+  <style>.bg{fill:#f3f5ef}.ink{fill:#20242a}.muted{fill:#5f6872}.paper{fill:#e4edf7;stroke:#3c6382;stroke-width:2}.prod{fill:#e3f0de;stroke:#47733f;stroke-width:2}.code{fill:#f1e1cb;stroke:#a45a28;stroke-width:2}.risk{fill:#f7e1df;stroke:#9f4b45;stroke-width:2}.line{stroke:#4b5560;stroke-width:3;fill:none;marker-end:url(#arrow)}.title{font-family:Arial,Helvetica,sans-serif;font-size:38px;font-weight:700}.label{font-family:Arial,Helvetica,sans-serif;font-size:24px;font-weight:700}.small{font-family:Arial,Helvetica,sans-serif;font-size:19px}.note{font-family:Arial,Helvetica,sans-serif;font-size:17px;fill:#5f6872}</style>
+  <defs><marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 Z" fill="#4b5560"/></marker></defs>
+  <rect class="bg" width="1200" height="760"/>
+  <text class="title ink" x="60" y="72">GPT-3 Became A Surface Before ChatGPT</text>
+  <text class="small muted" x="60" y="112">Chapter 5 needs the conversion chain: paper capability, API distribution, then code at the cursor.</text>
+  <rect class="paper" x="75" y="225" width="255" height="185" rx="8"/><text class="label ink" x="110" y="278">GPT-3 paper</text><text class="small ink" x="110" y="320">few-shot prompting</text><text class="small ink" x="110" y="355">capability surface</text>
+  <path class="line" d="M345 318 H455"/>
+  <rect class="prod" x="470" y="225" width="255" height="185" rx="8"/><text class="label ink" x="505" y="278">API</text><text class="small ink" x="505" y="320">text in, text out</text><text class="small ink" x="505" y="355">distribution surface</text>
+  <path class="line" d="M740 318 H850"/>
+  <rect class="code" x="865" y="225" width="255" height="185" rx="8"/><text class="label ink" x="900" y="278">Codex/Copilot</text><text class="small ink" x="900" y="320">language as code work</text><text class="small ink" x="900" y="355">not job replacement proof</text>
+  <rect class="risk" x="145" y="545" width="910" height="70" rx="8"/><text class="small ink" x="180" y="588">Block: AGI, adoption, revenue, productivity, code quality, job displacement, benchmark crown, or current-product claims.</text>
+  <text class="note" x="60" y="725">Sources: S-0004, S-0069, S-0070, S-0052. Original bridge card; no product screenshots or direct quotes copied.</text>
+</svg>

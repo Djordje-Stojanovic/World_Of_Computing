@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Scaling Laws Are Measurement Surfaces</title>
+  <desc id="desc">Chapter 4 source card for Kaplan scaling laws as empirical evidence lanes, not prophecy curves.</desc>
+  <style>.bg{fill:#f3f5ef}.ink{fill:#20242a}.muted{fill:#5f6872}.measure{fill:#e4edf7;stroke:#3c6382;stroke-width:2}.interp{fill:#f1e1cb;stroke:#a45a28;stroke-width:2}.risk{fill:#f7e1df;stroke:#9f4b45;stroke-width:2}.title{font-family:Arial,Helvetica,sans-serif;font-size:38px;font-weight:700}.label{font-family:Arial,Helvetica,sans-serif;font-size:25px;font-weight:700}.small{font-family:Arial,Helvetica,sans-serif;font-size:20px}.note{font-family:Arial,Helvetica,sans-serif;font-size:17px;fill:#5f6872}</style>
+  <rect class="bg" width="1200" height="760"/>
+  <text class="title ink" x="60" y="72">Scaling Laws Are Measurement Surfaces</text>
+  <text class="small muted" x="60" y="112">The exhibit should teach why smooth loss trends mattered while refusing to make scale a moral or product guarantee.</text>
+  <rect class="measure" x="100" y="190" width="300" height="255" rx="8"/><text class="label ink" x="140" y="245">Measured lane</text><text class="small ink" x="140" y="292">loss</text><text class="small ink" x="140" y="332">compute</text><text class="small ink" x="140" y="372">data and parameters</text>
+  <rect class="interp" x="450" y="190" width="300" height="255" rx="8"/><text class="label ink" x="490" y="245">Interpretation lane</text><text class="small ink" x="490" y="292">regularity</text><text class="small ink" x="490" y="332">investment logic</text><text class="small ink" x="490" y="372">bounded scope</text>
+  <rect class="measure" x="800" y="190" width="300" height="255" rx="8"/><text class="label ink" x="840" y="245">Need extraction</text><text class="small ink" x="840" y="292">page refs</text><text class="small ink" x="840" y="332">formula/figure IDs</text><text class="small ink" x="840" y="372">no copied plot</text>
+  <rect class="risk" x="155" y="545" width="890" height="70" rx="8"/><text class="small ink" x="190" y="588">Block: universal formula, exact exponent, emergence cliff, product success, truth, safety, or revenue claims.</text>
+  <text class="note" x="60" y="725">Source: S-0003. Original source-card SVG; pairs with A-0147 after numeric extraction.</text>
+</svg>

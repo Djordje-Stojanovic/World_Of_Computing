@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">The Transformer Source Pair</title>
+  <desc id="desc">Chapter 3 source-pair card linking the Transformer paper to official Google public framing while blocking modern equivalence claims.</desc>
+  <style>.bg{fill:#f3f5ef}.ink{fill:#20242a}.muted{fill:#5f6872}.paper{fill:#e4edf7;stroke:#3c6382;stroke-width:2}.blog{fill:#e3f0de;stroke:#47733f;stroke-width:2}.risk{fill:#f7e1df;stroke:#9f4b45;stroke-width:2}.title{font-family:Arial,Helvetica,sans-serif;font-size:38px;font-weight:700}.label{font-family:Arial,Helvetica,sans-serif;font-size:25px;font-weight:700}.small{font-family:Arial,Helvetica,sans-serif;font-size:20px}.note{font-family:Arial,Helvetica,sans-serif;font-size:17px;fill:#5f6872}</style>
+  <rect class="bg" width="1200" height="760"/>
+  <text class="title ink" x="60" y="72">The Transformer Source Pair</text>
+  <text class="small muted" x="60" y="112">Use the paper for architecture; use the public blog for framing. Do not merge either into later chatbot claims.</text>
+  <rect class="paper" x="110" y="185" width="445" height="275" rx="8"/><text class="label ink" x="150" y="245">S-0002: paper</text><text class="small ink" x="150" y="295">self-attention</text><text class="small ink" x="150" y="335">encoder/decoder block</text><text class="small ink" x="150" y="375">parallel sequence modeling</text>
+  <rect class="blog" x="645" y="185" width="445" height="275" rx="8"/><text class="label ink" x="685" y="245">S-0108: public framing</text><text class="small ink" x="685" y="295">Google research context</text><text class="small ink" x="685" y="335">language understanding frame</text><text class="small ink" x="685" y="375">source-actor surface</text>
+  <rect class="risk" x="155" y="545" width="890" height="70" rx="8"/><text class="small ink" x="190" y="588">Block: modern implementation equivalence, truth, grounding, consciousness, or architecture-alone causality.</text>
+  <text class="note" x="60" y="725">Sources: S-0002, S-0108. Original source-pair SVG; no paper figure or blog image copied.</text>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">From Counts To Distributed Representations</title>
+  <desc id="desc">Chapter 2 source card for Bengio et al. and the curse-of-dimensionality pressure behind neural language modeling.</desc>
+  <style>.bg{fill:#f3f5ef}.ink{fill:#20242a}.muted{fill:#5f6872}.card{fill:#fff;stroke:#222831;stroke-width:2}.src{fill:#e4edf7;stroke:#3c6382;stroke-width:2}.risk{fill:#f7e1df;stroke:#9f4b45;stroke-width:2}.title{font-family:Arial,Helvetica,sans-serif;font-size:38px;font-weight:700}.label{font-family:Arial,Helvetica,sans-serif;font-size:25px;font-weight:700}.small{font-family:Arial,Helvetica,sans-serif;font-size:20px}.note{font-family:Arial,Helvetica,sans-serif;font-size:17px;fill:#5f6872}</style>
+  <rect class="bg" width="1200" height="760"/>
+  <text class="title ink" x="60" y="72">From Counts To Distributed Representations</text>
+  <text class="small muted" x="60" y="112">Chapter 2 needs the old pressure: sparse histories made generalization hard before the Transformer arrived.</text>
+  <rect class="card" x="80" y="175" width="315" height="260" rx="8"/><text class="label ink" x="120" y="230">N-gram pressure</text><text class="small ink" x="120" y="275">many contexts</text><text class="small ink" x="120" y="315">few observations</text><text class="small ink" x="120" y="355">brittle generalization</text>
+  <rect class="src" x="445" y="175" width="315" height="260" rx="8"/><text class="label ink" x="485" y="230">Source surface</text><text class="small ink" x="485" y="275">Bengio et al.</text><text class="small ink" x="485" y="315">neural probabilistic LM</text><text class="small ink" x="485" y="355">distributed word features</text>
+  <rect class="card" x="810" y="175" width="315" height="260" rx="8"/><text class="label ink" x="850" y="230">Allowed use</text><text class="small ink" x="850" y="275">explain the bottleneck</text><text class="small ink" x="850" y="315">not a modern capability claim</text><text class="small ink" x="850" y="355">not first-invention drama</text>
+  <rect class="risk" x="175" y="545" width="850" height="70" rx="8"/><text class="small ink" x="210" y="588">Block: human-like semantics, modern LLM behavior, first inventor, complete NLP history, or benchmark superiority.</text>
+  <text class="note" x="60" y="725">Source: S-0104. Original source-card SVG; paraphrase only until exact page/quote extraction is logged.</text>
+</svg>
