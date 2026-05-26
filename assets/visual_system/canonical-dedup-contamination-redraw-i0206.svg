@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="860" viewBox="0 0 1400 860" role="img" aria-labelledby="title desc">
+  <title id="title">Deduplication And Contamination Boundary Redraw</title>
+  <desc id="desc">An original schematic separating duplication, deduplication, benchmark contamination, memorization, extraction, and blocker claims.</desc>
+  <rect width="1400" height="860" fill="#fbfaf7"/>
+  <text x="70" y="72" font-family="Arial, sans-serif" font-size="36" font-weight="700" fill="#111827">Data cleanup changes the evidence, not just the corpus</text>
+  <text x="70" y="110" font-family="Arial, sans-serif" font-size="18" fill="#4b5563">Source lane: S-0160, S-0161, S-0162. Original schematic; no effect sizes or source figures are copied.</text>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 Z" fill="#1f2933"/></marker>
+    <style>.label{font-family:Arial,sans-serif;font-size:20px;font-weight:700;fill:#111827}.sub{font-family:Arial,sans-serif;font-size:15px;fill:#4b5563}</style>
+  </defs>
+  <g font-family="Arial, sans-serif">
+    <rect x="100" y="210" width="250" height="112" rx="8" fill="#ffffff" stroke="#365e8c" stroke-width="3"/>
+    <text x="130" y="252" class="label">Raw corpus</text><text x="130" y="286" class="sub">duplicates and near-duplicates may exist</text>
+    <rect x="445" y="210" width="250" height="112" rx="8" fill="#fff4d8" stroke="#c99a3a" stroke-width="3"/>
+    <text x="475" y="252" class="label">Dedup decision</text><text x="475" y="286" class="sub">remove, keep, or transform records</text>
+    <rect x="790" y="210" width="250" height="112" rx="8" fill="#e8f1ec" stroke="#5f8c78" stroke-width="3"/>
+    <text x="820" y="252" class="label">Training effect</text><text x="820" y="286" class="sub">quality and memorization can shift</text>
+    <rect x="445" y="430" width="250" height="112" rx="8" fill="#ffffff" stroke="#6b7280" stroke-width="3"/>
+    <text x="475" y="472" class="label">Eval contamination</text><text x="475" y="506" class="sub">test items leak into train-like data</text>
+    <rect x="790" y="430" width="250" height="112" rx="8" fill="#ffffff" stroke="#c2412d" stroke-width="3"/>
+    <text x="820" y="472" class="label">Extraction risk</text><text x="820" y="506" class="sub">memorized strings may be elicited</text>
+    <path d="M350 266 H441" stroke="#1f2933" stroke-width="3" marker-end="url(#arrow)"/>
+    <path d="M695 266 H786" stroke="#1f2933" stroke-width="3" marker-end="url(#arrow)"/>
+    <path d="M570 322 V426" stroke="#1f2933" stroke-width="3" marker-end="url(#arrow)"/>
+    <path d="M695 486 H786" stroke="#1f2933" stroke-width="3" marker-end="url(#arrow)"/>
+    <rect x="145" y="650" width="1110" height="80" rx="8" fill="#111827"/>
+    <text x="178" y="684" font-size="21" font-weight="700" fill="#ffffff">Blocked lane</text>
+    <text x="178" y="714" font-size="16" fill="#fde68a">No universal improvement, exact prevalence, product safety, legal conclusion, solved privacy, or model-specific leakage rate follows from this schematic.</text>
+  </g>
+</svg>

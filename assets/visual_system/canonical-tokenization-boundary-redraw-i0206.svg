@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="860" viewBox="0 0 1400 860" role="img" aria-labelledby="title desc">
+  <title id="title">Tokenization Boundary Redraw</title>
+  <desc id="desc">An original schematic of subword tokenization boundaries and blockers, based on BPE and SentencePiece source lanes.</desc>
+  <rect width="1400" height="860" fill="#f8faf9"/>
+  <text x="70" y="72" font-family="Arial, sans-serif" font-size="36" font-weight="700" fill="#111827">Tokens are a material choice, not transparent language</text>
+  <text x="70" y="110" font-family="Arial, sans-serif" font-size="18" fill="#4b5563">Source lane: S-0153 and S-0154. Original invented example; no source example or table is copied.</text>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 Z" fill="#1f2933"/></marker>
+    <style>.label{font-family:Arial,sans-serif;font-size:20px;font-weight:700;fill:#111827}.sub{font-family:Arial,sans-serif;font-size:15px;fill:#4b5563}.chip{font-family:Arial,sans-serif;font-size:18px;font-weight:700;fill:#111827}</style>
+  </defs>
+  <g font-family="Arial, sans-serif">
+    <rect x="100" y="230" width="260" height="120" rx="8" fill="#ffffff" stroke="#365e8c" stroke-width="3"/>
+    <text x="130" y="272" class="label">Raw text</text><text x="130" y="306" class="sub">characters and spaces arrive first</text>
+    <rect x="455" y="210" width="490" height="160" rx="8" fill="#eef5ff" stroke="#365e8c" stroke-width="3"/>
+    <text x="485" y="252" class="label">Subword boundary choices</text>
+    <rect x="490" y="292" width="82" height="42" rx="6" fill="#ffffff" stroke="#6b7280"/><text x="510" y="319" class="chip">new</text>
+    <rect x="584" y="292" width="104" height="42" rx="6" fill="#ffffff" stroke="#6b7280"/><text x="604" y="319" class="chip">token</text>
+    <rect x="700" y="292" width="108" height="42" rx="6" fill="#ffffff" stroke="#6b7280"/><text x="720" y="319" class="chip">book</text>
+    <rect x="820" y="292" width="84" height="42" rx="6" fill="#ffffff" stroke="#6b7280"/><text x="840" y="319" class="chip">loop</text>
+    <rect x="1040" y="230" width="260" height="120" rx="8" fill="#e8f1ec" stroke="#5f8c78" stroke-width="3"/>
+    <text x="1070" y="272" class="label">Model input</text><text x="1070" y="306" class="sub">IDs, positions, and training statistics</text>
+    <path d="M360 290 H451" stroke="#1f2933" stroke-width="3" marker-end="url(#arrow)"/>
+    <path d="M945 290 H1036" stroke="#1f2933" stroke-width="3" marker-end="url(#arrow)"/>
+    <rect x="165" y="500" width="1070" height="86" rx="8" fill="#111827"/>
+    <text x="198" y="536" font-size="21" font-weight="700" fill="#ffffff">Caption blocker</text>
+    <text x="198" y="566" font-size="16" fill="#fde68a">This does not prove a closed model's tokenizer, language cost, fairness, semantic understanding, or exact production behavior.</text>
+    <rect x="255" y="665" width="890" height="62" rx="8" fill="#ffffff" stroke="#c2412d" stroke-width="2"/>
+    <text x="285" y="704" class="label">Use invented examples unless exact source examples are cleared.</text>
+  </g>
+</svg>

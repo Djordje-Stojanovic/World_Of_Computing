@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="860" viewBox="0 0 1400 860" role="img" aria-labelledby="title desc">
+  <title id="title">Model Card Comparison Surface Redraw</title>
+  <desc id="desc">An original schematic for comparing model-card and technical-report surfaces without collapsing them into rankings.</desc>
+  <rect width="1400" height="860" fill="#f7f4ee"/>
+  <text x="70" y="72" font-family="Arial, sans-serif" font-size="36" font-weight="700" fill="#111827">Model cards are disclosure surfaces, not scoreboards</text>
+  <text x="70" y="110" font-family="Arial, sans-serif" font-size="18" fill="#4b5563">Source lane: S-0110 and open-model reports. Original comparison grid; no model-card table is copied.</text>
+  <defs><style>.label{font-family:Arial,sans-serif;font-size:20px;font-weight:700;fill:#111827}.sub{font-family:Arial,sans-serif;font-size:15px;fill:#4b5563}.head{font-family:Arial,sans-serif;font-size:18px;font-weight:700;fill:#ffffff}</style></defs>
+  <g font-family="Arial, sans-serif">
+    <rect x="90" y="190" width="1220" height="420" rx="8" fill="#ffffff" stroke="#c8c1b5" stroke-width="3"/>
+    <rect x="90" y="190" width="1220" height="64" rx="8" fill="#111827"/>
+    <text x="126" y="230" class="head">Comparison fields that travel with a model-card or technical-report exhibit</text>
+    <text x="140" y="310" class="label">Source type</text><text x="420" y="310" class="sub">model card, technical report, launch post, repository, or benchmark page</text>
+    <text x="140" y="370" class="label">Model family/date</text><text x="420" y="370" class="sub">version, release date, cutoff status, and whether later addenda exist</text>
+    <text x="140" y="430" class="label">Disclosed scope</text><text x="420" y="430" class="sub">training/eval/safety/license details that are actually stated</text>
+    <text x="140" y="490" class="label">Missing scope</text><text x="420" y="490" class="sub">private data, exact deployment, costs, adoption, incidents, or undisclosed evals</text>
+    <text x="140" y="550" class="label">Caption blocker</text><text x="420" y="550" class="sub">no rank, safety proof, openness proof, adoption proof, or price-quality conclusion</text>
+    <rect x="190" y="685" width="1020" height="74" rx="8" fill="#111827"/>
+    <text x="224" y="728" font-size="20" font-weight="700" fill="#ffffff">Use as a surface-comparison template, not as a cross-lab ranking table.</text>
+  </g>
+</svg>
