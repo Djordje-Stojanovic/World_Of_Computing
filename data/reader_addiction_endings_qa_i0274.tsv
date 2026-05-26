@@ -1,0 +1,9 @@
+check	status	note
+target_chapter_count	pass	Rewrote 12 chapter endings.
+word_count_in_bounds	pass	Word count is 101942; delta 232.
+chapter_count_24	pass	Chapter count is 24.
+figure_callouts_preserved	pass	Figure callout count is 94.
+source_refs_preserved	pass	Source reference count is 522.
+target_refs_present	pass	Every rewritten ending carries at least two source references.
+no_post_cutoff_future_claim	pass	No obvious post-cutoff year claim introduced in rewritten endings.
+transition_formula_reduced	pass	Formulaic transition phrases in rewritten endings: 4.

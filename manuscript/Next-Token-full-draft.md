@@ -338,7 +338,7 @@ That question belongs to the next chapter. The answer begins with attention catc
 
 ---
 
-The bottleneck was not only that machines handled words badly; it was that sequence models struggled to move information cleanly across distance. Attention enters as the mechanism that lets the history of a sentence stay available. [S-0002] [S-0108]
+The old systems did not fail because words were boring; they failed because meaning kept arriving in the wrong place at the wrong time. The suspense of the next chapter is mechanical and human at once: attention makes the past of a sentence reachable, and that small act of reach begins to change who can build with language. [S-0002] [S-0108]
 
 <a id="chapter-03-attention-catches-fire"></a>
 
@@ -495,7 +495,7 @@ The next chapter is the moment that question becomes a bet.
 
 ---
 
-Once attention made sequence modeling more parallel and expressive, the next question became brutally empirical: what happens if the same architecture is made larger, fed more data, and measured without sentimentality? [S-0002] [S-0003] [S-0015] [S-0004]
+Attention gave the machine a better way to look backward; it did not say how far the bet could run. The next question was almost reckless in its simplicity: if the same architecture was made larger, fed more data, and measured without sentimentality, would intelligence arrive as a property of scale or expose the whole wager as expensive wishful thinking? [S-0002] [S-0003] [S-0015] [S-0004]
 
 <a id="chapter-04-the-scaling-bet"></a>
 
@@ -664,7 +664,7 @@ The next chapter turns that possibility into a lineage: GPT-1, GPT-2, GPT-3, and
 
 ---
 
-Scaling turned loss curves into strategy, but strategy still needed a vehicle. The GPT line made the wager concrete: pretrain a model broadly, then see how far prompting and access could carry it. [S-0011] [S-0012] [S-0013] [S-0004]
+A loss curve could promise direction, but it could not promise a business, a user habit, or a useful answer. The GPT line made the bet frighteningly concrete: pretrain broadly, open a prompt-shaped door, and discover whether prediction could be coaxed into work before the costs swallowed the prize. [S-0011] [S-0012] [S-0013] [S-0004]
 
 <a id="chapter-05-gpt-1-to-gpt-3-the-door-opens"></a>
 
@@ -1434,7 +1434,7 @@ Together, they made the soft box on the screen reveal the hard factory behind it
 
 ---
 
-Microsoft's bargain showed one way to convert models into platform leverage. Google's problem was different: it already owned research depth, consumer habits, and infrastructure, and had to decide how quickly to move them together. [S-0002] [S-0115] [S-0116] [S-0117] [S-0121]
+Microsoft's bargain showed how quickly a model could become leverage when cloud, distribution, and urgency lined up. That made Google's problem more painful, not less: the company already had research depth, consumer habits, and infrastructure, but now had to decide how much caution it could afford while the interface race moved in public. [S-0002] [S-0115] [S-0116] [S-0117] [S-0121]
 
 <a id="chapter-09-google-and-deepmind-wake-the-sleeping-giant"></a>
 
@@ -1602,7 +1602,7 @@ The giant woke. The hard part was deciding which part of the giant was supposed 
 
 ---
 
-Google's response kept the race inside the world of giant platforms; Meta changed the surface of the race by pushing powerful weights toward researchers, developers, and adopters outside a closed API lane. [S-0111] [S-0112] [S-0113] [S-0114]
+Google kept the contest inside the familiar world of giant platforms and product timing. Meta changed the emotional weather: once serious weights moved toward researchers, developers, and adopters outside a closed API lane, the race was no longer only about who owned the best assistant; it was about who could live with a powerful model escaping the front door. [S-0111] [S-0112] [S-0113] [S-0114]
 
 <a id="chapter-10-meta-llama-and-the-open-weight-shock"></a>
 
@@ -1765,7 +1765,7 @@ But as a historical event in computing, the change is already visible. The LLM w
 
 ---
 
-Open weights widened the field, but they did not make it simple. The next frontier was multipolar: Chinese labs, papers, repositories, and product surfaces made the race harder to reduce to a Western platform story. [S-0026] [S-0027] [S-0028] [S-0029] [S-0031]
+Open weights widened the field, but they did not make it orderly. The next frontier was messier and more interesting: Chinese labs, papers, repositories, and product surfaces made the race impossible to reduce to a Western platform story, and forced every simple leaderboard tale to answer where its evidence actually came from. [S-0026] [S-0027] [S-0028] [S-0029] [S-0031]
 
 <a id="chapter-11-the-chinese-frontier"></a>
 
@@ -1928,7 +1928,7 @@ That is the point. The frontier became too distributed for one narrator's shortc
 
 ---
 
-The frontier then spreads rather than narrows. Europe, xAI, Mistral, Anthropic, and other labs each complicate the idea that one geography, one license model, or one assistant philosophy owns the future. [S-0032] [S-0033] [S-0034] [S-0019] [S-0048]
+The frontier spread instead of narrowing. Europe, xAI, Mistral, Anthropic, and other labs complicated the fantasy that one geography, license model, or assistant philosophy owned the future; the price of that abundance was confusion, and confusion created a market for ranks. [S-0032] [S-0033] [S-0034] [S-0019] [S-0048]
 
 <a id="chapter-12-anthropic-claude-and-the-plural-frontier"></a>
 
@@ -2364,7 +2364,7 @@ The final sentence of the chapter should make the reader carry the habit forward
 
 ---
 
-The measurement chapter explains why model comparisons are unstable; the hardware chapter asks a deeper question underneath them: what kind of machine and software stack makes any of these comparisons possible? [S-0039] [S-0065] [S-0066]
+The measurement chapter leaves no crown sitting safely on the table. Under every rank is a quieter dependency: machines, memory, networking, software, and money. To understand why one model can answer at all, the book has to go beneath the scoreboard to the stack that makes the contest physically possible. [S-0039] [S-0065] [S-0066]
 
 <a id="chapter-14-nvidia-and-cuda-the-moat-under-the-moat"></a>
 
@@ -2752,7 +2752,7 @@ The phrase was stagecraft, but it named a real pressure, and pressure changes st
 
 ---
 
-The AI factory sounds abstract until it needs a site, a substation, cooling, transformers, and time. After the keynote, the book walks out of the convention hall and into the physical internet. [S-0083] [S-0084] [S-0086] [S-0087]
+The AI factory was persuasive on a keynote screen because it turned tokens into industrial destiny. Then the metaphor hit the ground. A factory needs a site, a substation, cooling, transformers, permits, and time; after the applause, the book walks out of the convention hall and into the physical internet that has to carry the promise. [S-0083] [S-0084] [S-0086] [S-0087]
 
 <a id="chapter-16-datacenters-power-and-the-physical-internet"></a>
 
@@ -2964,7 +2964,7 @@ That is why Chapter 16 belongs after the model and product chapters rather than 
 
 ---
 
-Power is one input to the LLM machine; data is the other. Once the book has followed tokens to substations, it has to follow them backward into the libraries, crawls, filters, and tokenizers that feed training. [S-0040] [S-0041] [S-0042] [S-0043]
+Power is one input to the LLM machine; data is the other, and it is less visible because it arrives disguised as text. Once the book has followed tokens to substations, it has to follow them backward into libraries, crawls, filters, and tokenizers, where the raw material of language becomes both fuel and liability. [S-0040] [S-0041] [S-0042] [S-0043]
 
 <a id="chapter-17-data-tokens-and-the-library-problem"></a>
 
@@ -3775,7 +3775,7 @@ The audit work now belongs beside the chapter: keep OpenAI o1/o3/o4-mini and Gem
 
 ---
 
-If test-time compute becomes another scaling axis, then intelligence becomes not only a capability question but a pricing question. The next chapter turns the pause before an answer into a meter. [S-0060] [S-0063] [S-0064] [S-0128] [S-0134]
+If test-time compute becomes another scaling axis, intelligence stops being only a capability question and becomes a meter running in real time. The pause before an answer is no longer empty; it is a bill, a routing choice, and sometimes the difference between cheap fluency and work worth paying for. [S-0060] [S-0063] [S-0064] [S-0128] [S-0134]
 
 <a id="chapter-22-the-economics-of-intelligence-on-tap"></a>
 
@@ -3931,7 +3931,7 @@ The next chapter turns from money to trust. That sequence matters. A model can b
 
 ---
 
-Cheap fluency still has to be trusted. After the economics of tokens, the book turns to the failures that make every confident answer a claim needing context, provenance, and review. [S-0005] [S-0069] [S-0070] [S-0071] [S-0072] [S-0073] [S-0074]
+Cheap fluency is seductive because it feels like abundance, but abundance is useless when the answer cannot be trusted. After the economics of tokens, the book turns to the failures that make every confident sentence a claim needing context, provenance, and review. [S-0005] [S-0069] [S-0070] [S-0071] [S-0072] [S-0073] [S-0074]
 
 <a id="chapter-23-failure-modes-truth-and-trust"></a>
 

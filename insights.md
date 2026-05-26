@@ -465,3 +465,7 @@ Compression is safest when it removes apparatus rather than evidence. Once sourc
 ## 2026-05-26 - I-0273 Visual Curation
 
 A visual replacement is not done while the manuscript still names the old weak asset. Source cards and original cards only improve reader trust after figure callouts, captions, manifests, and render assets all point at the same curated object.
+
+## 2026-05-26 - I-0274 Reader Pull
+
+Chapter endings should not merely announce the next topic. The stronger pattern is a sourced pressure turn: restate what just changed, name the unresolved cost or risk, and make the next chapter feel like the answer to a live problem.
