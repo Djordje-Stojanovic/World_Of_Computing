@@ -1,0 +1,9 @@
+# Datasets and Corpus Visual-Source Acquisition (I-0179)
+
+This pass strengthens Chapter 17 by treating data as a visible supply chain rather than an invisible mass of text. The existing chapter already had strong rows for tokenization, C4, The Pile, Dolma, FineWeb, deduplication, memorization, and DataComp-LM. The new board adds missing surface lanes for Common Crawl itself, RefinedWeb, RedPajama, SlimPajama, ROOTS, and BookCorpus documentation debt, then connects them to exhibit candidates and claim blockers.
+
+The package has three jobs. First, it identifies visual surfaces: filter funnels, mixture boards, source-page cards, repository screenshots, paper-figure redraws, and blocker maps. Second, it records what each visual may say. Common Crawl can be shown as a raw web-crawl archive; C4 and FineWeb can show filtering; The Pile, Dolma, ROOTS, RedPajama, and SlimPajama can show documented open-corpus recipes; BookCorpus can show documentation debt. Third, it blocks the claims that make data chapters slippery: exact closed-model corpus composition, legal conclusions, dataset quality crowns, representativeness, model-specific leakage prevalence, tokenizer cost comparisons, and solved-memory claims from long context.
+
+The strongest exhibit candidates are not decorative. "From Common Crawl To C4" can make filtering tangible. "The Open Corpus Recipe Board" can show why a corpus is a recipe. "Deduplication Is A Training Decision" and "Memorization Is Conditional" can connect data to trust without claiming a prevalence rate. RedPajama, SlimPajama, ROOTS, and BookCorpus are best used as source cards or small lineage panels unless later extraction finds a figure worth redrawing.
+
+The reusable rule is that corpus visuals should show provenance and transformation. They should not pretend to know what undisclosed frontier labs trained on, and they should not turn documentation into a legal or moral verdict.
