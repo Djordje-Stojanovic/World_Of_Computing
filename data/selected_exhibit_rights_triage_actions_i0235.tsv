@@ -1,0 +1,10 @@
+action_id	priority	target	action	verification_gate
+RTA-001	P0	All capture_or_replace rows	Capture/hash with viewport, access date, source row, crop note, and rights/private-use note, or replace with a source card/redraw.	No screenshot/source-screenshot slot may enter final layout with selected_pending_capture as its only evidence.
+RTA-002	P0	All permission_or_replace rows	Trace original photo license, author, attribution, revision, and story purpose; request permission if needed or replace.	Every real-world photo candidate has a verified license trail or a named substitute.
+RTA-003	P0	GTC/company source surfaces	Treat slides and company surfaces as source-actor evidence, not neutral proof.	Caption and surrounding prose block roadmap, performance, partner, availability, deployment, revenue, and productivity inference.
+RTA-004	P0	Chapters 15-16	Cut or substitute rights-heavy exhibits before adding any new industrial visual.	Chapter-level triage no longer leaves both chapters with high-risk crowded placement.
+RTA-005	P1	All medium SVG rows	Resolve caption_long, claim_language_review, and private-use-cue flags before render.	Original SVGs have short reader captions plus nearby source/caveat notes.
+RTA-006	P1	Source-card substitution candidates	Replace weak screenshots/photos with paraphrase-first source cards when trust improves and rights risk drops.	Substitution records story purpose, source ID, and blocked-claim note.
+RTA-007	P1	Final selected-100 ledger	Update figure list statuses after capture, permission, redraw, replace, reserve, or cut decisions.	`data/full_book_figure_list_i0229.tsv` no longer overstates selected readiness.
+RTA-008	P2	Full render readiness	Feed triage classes into the visual readiness recomputation pass.	Readiness dashboard fails closed on unresolved high-risk rows.
+RTA-009	P0	High-risk replacement candidates	Carry the replacement_candidate field into the next visual readiness recomputation and selected-figure update.	Every high-risk row has either capture/permission proof or a named substitute before final assembly.

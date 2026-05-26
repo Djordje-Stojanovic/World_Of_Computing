@@ -273,6 +273,18 @@ Rules:
 - Source-actor visuals need source-actor setup before the image and independent-evidence return after it.
 - Final synthesis visuals must hand back to prose responsibility rather than ending on inventory.
 
+## Rights-Risk Triage
+
+`data/selected_exhibit_rights_triage_i0235.tsv` is the current selected-exhibit rights board. It classifies every selected figure and names replacement candidates for high-risk rows.
+
+Rules:
+
+- Treat `publish_after_render` as conditional, not cleared: render, caption, source-note, and style gates still apply.
+- Treat screenshot and source-screenshot slots as `capture_or_replace` until viewport, hash, date, rights/private-use note, crop/quote review, and blocker caption exist.
+- Treat photo candidates as `permission_or_replace` until original license, author, attribution, revision, and story purpose are verified.
+- Treat company slides and product surfaces as source-actor evidence; redraw or cut them when fair-use, crop, or claim burden is larger than their visual value.
+- The next readiness dashboard must fail closed on unresolved high-risk rows.
+
 ## Promotion Rationale
 
 Before this pass, the book had visual candidates but no visual grammar and no manifest-tracked diagrams. This pass adds the first three lightweight prototypes and establishes design rules for timelines, systems, family trees, tradeoffs, caveats, screenshots, and photo slots. It improves visual/data usefulness without introducing unsupported factual claims.

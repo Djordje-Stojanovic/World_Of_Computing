@@ -1,0 +1,7 @@
+"triage_class"	"severity"	"count"
+"capture_or_replace"	"high"	"17"
+"permission_or_replace"	"high"	"7"
+"permission_review"	"high"	"6"
+"publish_after_render"	"low"	"25"
+"publish_after_render"	"medium"	"44"
+"review"	"medium"	"1"

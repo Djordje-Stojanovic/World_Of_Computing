@@ -322,3 +322,7 @@ Visual addiction is a state change, not an inventory count. A figure earns its p
 ## 2026-05-26 - I-0234 Prose Around Figures
 
 Figures need runway and landing prose before final beauty matters. The paragraph before should tell the reader why to look; the paragraph after should tell the reader what not to overread, especially around attention-as-mind, leaderboard crowns, GTC source-actor claims, energy-per-token inference, token-economics margins, and final-chapter prophecy.
+
+## 2026-05-26 - I-0235 Rights-Risk Triage
+
+Rights readiness should fail closed. Original SVGs can move toward render proof, but screenshot slots, source screenshots, photo candidates, and company surfaces need capture, crop, permission, attribution, or source-actor review; every high-risk exhibit should carry a named source-card, redraw, verified-photo, reserve, or cut alternative before assembly.
