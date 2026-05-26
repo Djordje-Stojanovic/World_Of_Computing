@@ -214,6 +214,17 @@ Rules:
 - Do not treat generated alt text as final accessibility proof; revise it during page layout when the exact crop and surrounding prose are known.
 - Do not mark selected exhibits as publication-ready until render, rights, caption, and source-note gates pass.
 
+## Render-Smoke Samples
+
+`manuscript/render-smoke-sample-pages-i0230.html` is a lightweight smoke sheet for figure-family defects. It may be used to preview whether families are likely to fail before a full PDF render, but it is not a final page design.
+
+Rules:
+
+- Treat `data/render_smoke_defects_i0230.tsv` as open production debt until each defect is closed by a later page-flow, rights, capture, or render pass.
+- Screenshot, source-screenshot, raw-slide, and photo placeholders must not become publication-ready merely because they appear in a smoke sheet.
+- Source-card replacements should be tested in the page-flow mock before they replace selected screenshots or photos.
+- Dense blocker grids and claim cards must keep caveat text legible at final trim.
+
 ## Promotion Rationale
 
 Before this pass, the book had visual candidates but no visual grammar and no manifest-tracked diagrams. This pass adds the first three lightweight prototypes and establishes design rules for timelines, systems, family trees, tradeoffs, caveats, screenshots, and photo slots. It improves visual/data usefulness without introducing unsupported factual claims.

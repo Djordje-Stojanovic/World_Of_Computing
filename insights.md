@@ -302,3 +302,7 @@ Token economics becomes concrete when the public meter and hidden ledger are sep
 ## 2026-05-26 - I-0229 Figure Numbering
 
 Figure IDs should be book-facing contracts, not asset handles. A stable `Fcc.nn` ledger lets render QA, captions, alt text, source notes, and cross-references point to the same object, while planned statuses keep "selected" separate from "rendered," "rights-cleared," and "publication-ready."
+
+## 2026-05-26 - I-0230 Render-Smoke QA
+
+Render smoke should fail early and visibly. The first sample sheet shows that selected SVGs are mostly plausible but still need trim proof, while screenshot, source-surface, and photo families remain slots rather than finished exhibits; placeholders are useful only when they force a capture, replacement, or rights decision.

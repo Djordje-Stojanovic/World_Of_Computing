@@ -1,0 +1,11 @@
+defect_id	sample_id	severity	defect_family	defect	status	next_gate
+RSD-001	RSS-002	warn	caption_length	Caption_long gate will likely force either smaller type or caption overflow if paired with full-width SVG.	open	Create short-caption variant before final render.
+RSD-002	RSS-003	warn	source_note_proximity	Leaderboard chart needs methodology and source note close to the figure to avoid live-rank or best-model inference.	open	Add nearby methodology footnote in render smoke I-0230 follow-up.
+RSD-003	RSS-004	warn	small_caveat_text	GTC claim-card caveat and attribution lines are the safety mechanism; if they shrink, the visual becomes risky.	open	Verify at final trim and enlarge caveat band if needed.
+RSD-004	RSS-005	fail	source_surface_readiness	Raw GTC slide render is useful local evidence but not publication-ready without crop, rights/fair-use, and small-type review.	open	Keep as source surface until crop/rights pass.
+RSD-005	RSS-006	fail	capture_missing	Selected ChatGPT launch screenshot slot still needs viewport, hash, rights note, and caption firewall before page placement.	open	Capture or replace with source card.
+RSD-006	RSS-007	fail	capture_missing	Selected DeepSeek-R1 source screenshot slot still needs crop, quote-limit review, and source-note proof.	open	Capture/crop or convert to source card.
+RSD-007	RSS-008	fail	rights_review	Selected data-center photo candidate has no publication-ready rights and attribution decision.	open	Rights triage or substitute schematic/photo.
+RSD-008	RSS-009	warn	selection_gap	Source-card family has many strong candidates but is not represented in the selected-100 figure ledger.	open	Use page-flow mock to decide source-card replacements.
+RSD-009	RSS-010	warn	density_risk	Blocker grids teach claim discipline but can look like ledger apparatus when compressed.	open	A/B against synthesis boards and simplify labels.
+RSD-010	RSS-001	pass	static_svg_smoke	Basic mechanism SVG embeds cleanly in the smoke sheet; final trim proof still needed.	closed	Carry into real page-image proof.

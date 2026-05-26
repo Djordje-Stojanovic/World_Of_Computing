@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>I-0230 Render Smoke Sample Pages</title>
+  <style>
+    :root {
+      --paper: #f7f4ed;
+      --ink: #20242a;
+      --muted: #5f6872;
+      --rule: #d8d1c3;
+      --panel: #fffdf8;
+      --warn: #b7791f;
+      --fail: #c2412d;
+      --pass: #0f8b6f;
+    }
+    body {
+      margin: 0;
+      background: #e9e3d7;
+      color: var(--ink);
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    .sheet {
+      width: 1080px;
+      min-height: 1440px;
+      box-sizing: border-box;
+      margin: 32px auto;
+      padding: 54px 64px;
+      background: var(--paper);
+      border: 1px solid var(--rule);
+    }
+    h1 {
+      margin: 0 0 10px;
+      font-size: 38px;
+      line-height: 1.08;
+    }
+    h2 {
+      margin: 0 0 18px;
+      font-size: 24px;
+    }
+    p {
+      font-size: 18px;
+      line-height: 1.45;
+      margin: 0 0 16px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 22px;
+    }
+    figure {
+      margin: 0;
+      padding: 18px;
+      background: var(--panel);
+      border: 1px solid var(--rule);
+    }
+    figure img {
+      width: 100%;
+      height: 330px;
+      object-fit: contain;
+      display: block;
+      background: white;
+      border: 1px solid #ebe4d8;
+    }
+    figcaption {
+      margin-top: 12px;
+      font-size: 15px;
+      line-height: 1.35;
+    }
+    .placeholder {
+      height: 330px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      background: #fff8f4;
+      border: 1px dashed var(--fail);
+      color: var(--fail);
+      font-weight: 700;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+    .note {
+      margin-top: 10px;
+      font-size: 13px;
+      color: var(--muted);
+    }
+    .status {
+      display: inline-block;
+      padding: 3px 7px;
+      border-radius: 3px;
+      color: white;
+      font-size: 12px;
+      font-weight: 700;
+      margin-right: 6px;
+    }
+    .pass { background: var(--pass); }
+    .warn { background: var(--warn); }
+    .fail { background: var(--fail); }
+    .wide {
+      grid-column: 1 / span 2;
+    }
+  </style>
+</head>
+<body>
+  <section class="sheet">
+    <h1>I-0230 Render Smoke Sheet</h1>
+    <p>This static sheet samples selected visual families before a full-book render. It is a smoke test, not final design or publication proof.</p>
+    <div class="grid">
+      <figure>
+        <img src="../assets/visual_system/chapter1-token-to-answer-schematic.svg" alt="F01.02 mechanism SVG smoke sample">
+        <figcaption><span class="status pass">PASS</span>F01.02 / A-0069. Basic mechanism SVG embeds cleanly; final trim proof still required.</figcaption>
+      </figure>
+      <figure>
+        <img src="../assets/visual_system/chapter3-self-attention-information-flow.svg" alt="F03.01 dense architecture SVG smoke sample">
+        <figcaption><span class="status warn">WARN</span>F03.01 / A-0116. Dense architecture and long caption likely need a short-caption variant.</figcaption>
+      </figure>
+      <figure>
+        <img src="../assets/visual_system/lmarena-may19-text-style-control-top12.svg" alt="F13.02 leaderboard chart smoke sample">
+        <figcaption><span class="status warn">WARN</span>F13.02 / A-0013. Leaderboard chart needs methodology footnote and non-live-rank language nearby.</figcaption>
+      </figure>
+      <figure>
+        <img src="../assets/visual_system/gtc-page49-system-comparison-card.svg" alt="F15.03 GTC claim card smoke sample">
+        <figcaption><span class="status warn">WARN</span>F15.03 / A-0027. Caveat and attribution text are safety-critical and must survive trim size.</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section class="sheet">
+    <h2>Selected Screenshot And Photo Slots</h2>
+    <p>These samples deliberately show placeholders where selected exhibits are not yet publication-ready.</p>
+    <div class="grid">
+      <figure>
+        <div class="placeholder">F07.02 / A-0036<br>ChatGPT launch screenshot slot<br>Capture, hash, viewport, and rights note needed.</div>
+        <figcaption><span class="status fail">FAIL</span>Selected slot is not a final image. Use capture pass or source-card replacement.</figcaption>
+      </figure>
+      <figure>
+        <div class="placeholder">F11.05 / A-0050<br>DeepSeek-R1 source screenshot slot<br>Crop and quote-limit review needed.</div>
+        <figcaption><span class="status fail">FAIL</span>Source-surface slot needs page proof before it can carry evidence.</figcaption>
+      </figure>
+      <figure>
+        <div class="placeholder">F16.06 / A-0137<br>Data-center photo candidate<br>Rights and attribution not cleared.</div>
+        <figcaption><span class="status fail">FAIL</span>Photo candidate needs rights triage or a substitute visual.</figcaption>
+      </figure>
+      <figure>
+        <div class="placeholder">F15.06 / A-0004<br>GTC page 29 slide render<br>Private-use raster, crop and rights review pending.</div>
+        <figcaption><span class="status fail">FAIL</span>Raw slide surface remains local evidence, not publication-ready layout.</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section class="sheet">
+    <h2>Source Card And Dense Blocker Families</h2>
+    <div class="grid">
+      <figure>
+        <img src="../assets/visual_system/source-card-chatgpt-waiting-room-i0222.svg" alt="A-0208 source card smoke sample">
+        <figcaption><span class="status warn">WARN</span>A-0208 reserve source card. Strong replacement candidate, but not yet selected-100.</figcaption>
+      </figure>
+      <figure>
+        <img src="../assets/visual_system/chapter22-margin-roi-blocker-grid.svg" alt="F22.04 dense blocker grid smoke sample">
+        <figcaption><span class="status warn">WARN</span>F22.04 / A-0085. Useful negative-control grid may become too ledger-like when compressed.</figcaption>
+      </figure>
+      <figure class="wide">
+        <figcaption><strong>Smoke conclusion:</strong> selected SVG families are plausible but still need trim proof; screenshot, source-surface, and photo families are the current publication-readiness bottleneck.</figcaption>
+      </figure>
+    </div>
+  </section>
+</body>
+</html>

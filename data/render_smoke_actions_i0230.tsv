@@ -1,0 +1,9 @@
+action_id	action	gate_type	evidence_or_asset	reason	blocked_until_done
+RSACT-001	Use manuscript/render-smoke-sample-pages-i0230.html as a lightweight smoke sheet, not as final design.	render_gate	manuscript/render-smoke-sample-pages-i0230.html	It checks family pressure before full-book render.	final_layout; publication_ready
+RSACT-002	Convert fail_capture_needed selected screenshot slots into either captured raster proofs or source-card replacements before final page-flow.	capture_gate	RSS-006;RSS-007	Screenshot slots are selected but not yet book-grade images.	publication_ready_screenshot; final_crop
+RSACT-003	Do not place raw GTC slide renders as final figures until crop, rights/fair-use, and caveat legibility pass.	rights_gate	RSS-005	GTC source surfaces are valuable but fragile.	publication_ready_slide; final_rights_note
+RSACT-004	Run page-image proof on GTC claim cards before using them beside raw slide surfaces.	legibility_gate	RSS-004	Caveats are the claim-control mechanism.	caveat_legible; final_caption
+RSACT-005	Keep leaderboard charts paired with methodology footnotes and non-live-rank language.	source_gate	RSS-003	Rank rows are easy to overread.	live_rank_blocker; source_note_proximity
+RSACT-006	Test source-card candidates as replacements for weak screenshot slots in the page-flow mock.	selection_gate	RSS-009	Paraphrase-first cards may be safer than unresolved screenshots.	selected_100_replacement; page_flow_decision
+RSACT-007	Simplify or resize dense blocker grids if they become ledger apparatus at trim.	design_gate	RSS-010	Negative controls must remain readable and beautiful.	density_resolved; trim_proof
+RSACT-008	Feed all open defects into I-0231 page-flow mock and I-0235 rights-risk triage.	sequencing_gate	data/render_smoke_defects_i0230.tsv	The smoke pass is useful only if defects drive the next production passes.	page_flow_mock; rights_triage
