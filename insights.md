@@ -398,3 +398,7 @@ A designed render is a QA surface, not a finish line. Applying the page template
 ## 2026-05-27 - I-0253 Sprint Discipline
 
 Do not ask readers or buyers to judge a visually empty artifact. When the PDF has zero embedded manuscript images, the next work must be figure embedding, source-media capture, rights closure, verification, rewriting, deletion, design polish, and commercial packaging in that order; review packets belong after the book-shaped object is visually real.
+
+## 2026-05-27 - I-0257 Visual Embedding
+
+Embedding SVGs as vectors can still look like "zero images" to object-level PDF QA. For this book's production loop, publishable chart/card SVGs should be rasterized into local render-stage PNGs before full-book PDF output, then verified by HTML image count, PDF image XObject count, figure-ID survival, and a later page-image legibility scan.

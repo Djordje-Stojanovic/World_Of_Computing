@@ -1,0 +1,2 @@
+pass_id	defect_id	severity	category	evidence	recommended_action
+I-0257	VEDEF-007	P1	known_limits	74 original SVG/chart/card assets embedded; 26 local-only, permission-needed, or redraw rows remain blocked callouts.	Continue with I-0258/I-0259/I-0260/I-0261 to close file-level manifest, source surfaces, source cards, and remaining slots.
