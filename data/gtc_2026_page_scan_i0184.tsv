@@ -1,0 +1,77 @@
+page	category	llm_relevance	chart_or_diagram_signal	mining_decision	notes
+1	blank_or_title	none	none	exclude	No extractable LLM-relevant chart text.
+2	blank_or_transition	none	none	exclude	No extractable LLM-relevant chart text.
+3	title	low	title_only	exclude	Only 2026 title text extracted.
+4	blank_or_transition	none	none	exclude	No extractable LLM-relevant chart text.
+5	blank_or_transition	none	none	exclude	No extractable LLM-relevant chart text.
+6	blank_or_transition	none	none	exclude	No extractable LLM-relevant chart text.
+7	blank_or_transition	none	none	exclude	No extractable LLM-relevant chart text.
+8	blank_or_transition	none	none	exclude	No extractable LLM-relevant chart text.
+9	graphics_product	none	product_announcement	exclude	DLSS 5 and neural rendering are outside the LLM-specific spine.
+10	data_enterprise	medium	market_size_claim	reserve	Structured-data ecosystem framing may support data chapter only with Gartner verification.
+11	data_enterprise	medium	data_growth_claim	reserve	Unstructured-data growth framing may support data chapter only with IDC verification.
+12	partner_case_study	medium	bar_chart_and_stack	reserve	IBM/Nestle data-processing case has chart texture but partner cost/time claims need independent handling.
+13	blank_or_transition	none	none	exclude	No extractable LLM-relevant chart text.
+14	partner_case_study	low	bar_chart_and_stack	exclude	Dell/NTT data-processing case is enterprise-data context, not core GTC thesis.
+15	partner_case_study	low	bar_chart_and_platform	exclude	Google Cloud/Snap data-processing case risks customer/productivity overclaiming.
+16	cloud_platform_map	medium	ecosystem_map	reserve	Google Cloud AI Hypercomputer/NVIDIA platform map can be context if trimmed to LLM infrastructure.
+17	cloud_platform_map	low	ecosystem_map	exclude	AWS platform integration map is broad cloud catalog rather than a thesis chart.
+18	cloud_platform_map	low	ecosystem_map	exclude	Microsoft/Azure platform integration map is broad catalog; use only if OpenAI/Microsoft chapter needs support.
+19	cloud_platform_map	low	ecosystem_map	exclude	Oracle platform map is broad catalog and not central to LLM thesis.
+20	cloud_platform_map	low	ecosystem_map	exclude	CoreWeave platform map is potentially useful context but lower than AI-factory thesis pages.
+21	enterprise_platform_map	low	ecosystem_map	exclude	Dell software/platform map is too vendor-specific for main GTC sequence.
+22	blank_or_transition	none	none	exclude	No extractable LLM-relevant chart text.
+23	blank_or_transition	none	none	exclude	No extractable LLM-relevant chart text.
+24	platform_ecosystem	high	ecosystem_map	reserve	NVIDIA AI Platform map spans inference, agents, model builders, and verticals; trim robotics/physical AI.
+25	inference_thesis	high	thesis_chart	core_candidate	Inference inflection and 10000X ChatGPT compute are thesis-relevant but require exact context and corroboration.
+26	inference_growth	medium	thesis_slide	reserve	Strong-growth framing is useful only as NVIDIA narrative, not independent market proof.
+27	token_cost_economics	high	scatter_or_axis_chart	core_candidate	Token cost and tokens-per-watt charts directly link inference, interactivity, and factory revenue; exact axes needed.
+28	inference_endpoint_claim	medium	logo_or_claim_slide	reserve	Endpoint standard claim requires independent provider confirmation before any prose.
+29	ai_factory_thesis	highest	thesis_slide	core_candidate	Strongest single source surface for NVIDIA's AI-factory argument.
+30	blank_or_transition	none	none	exclude	No extractable LLM-relevant chart text.
+31	inference_economics	medium	section_title	reserve	Section divider for pages 32-41.
+32	token_economics	high	scatter_or_bubble_chart	core_candidate	Best chart for throughput per MW, interactivity tiers, and model classes; requires value extraction.
+33	token_economics_build	medium	scatter_or_bubble_chart	reserve	Build step duplicates page 32 with fewer final elements.
+34	token_economics_build	medium	scatter_or_bubble_chart	reserve	Build step duplicates page 32/36 and adds Blackwell/Hopper comparison.
+35	token_economics_build	medium	scatter_or_bubble_chart	reserve	Build step duplicates final economics sequence.
+36	token_economics_generation	high	scatter_or_bubble_chart	core_candidate	Rubin/Blackwell/Hopper generation comparison is useful but performance ratios need caveats.
+37	ai_factory_revenue	high	bar_chart	core_candidate	Revenue-per-gigawatt claim has high narrative value and high promotional risk.
+38	token_economics_duplicate	medium	scatter_or_bubble_chart	exclude	Duplicate of page 36 sequence.
+39	token_economics_duplicate	medium	scatter_or_bubble_chart	exclude	Duplicate/composite of pages 32-36.
+40	token_economics_generation	high	scatter_or_bubble_chart	core_candidate	Rubin plus LPX performance-efficiency chart may be useful if page 32/36 do not carry the story.
+41	ai_factory_revenue	high	bar_chart	core_candidate	Revenue-opportunity sequel to page 37; useful only as warned source card.
+42	processor_specs	medium	spec_comparison	reserve	Rubin GPU/Groq LPU specs can support architecture detail but risks product-spec clutter.
+43	processor_specs	low	spec_comparison	exclude	Build/variant of page 42; lower narrative value.
+44	prefill_decode	high	process_diagram	core_candidate	Useful mechanism diagram connecting prefill, decode, KV cache, Dynamo, Rubin, and Groq.
+45	inference_compute_product	medium	product_architecture	reserve	Already rendered; product roadmap slot, not main thesis chart.
+46	rack_system_announcement	medium	product_announcement	reserve	Already rendered; partner/performance announcement, not neutral proof.
+47	cpu_announcement	low	product_announcement	exclude	Vera CPU partner/product slide is support-only.
+48	networking_announcement	medium	product_announcement	reserve	BlueField-4 STX can support networking, but exact claims need corroboration.
+49	system_comparison	highest	system_table_and_diagram	core_candidate	Best single system-level AI factory comparison; already in I-0192 core sequence.
+50	platform_roadmap	highest	roadmap_diagram	core_candidate	Best cadence/roadmap diagram; future items must remain roadmap-labeled.
+51	dsx_platform	highest	stack_or_platform_diagram	core_candidate	Best bridge from GTC stagecraft to physical facilities/software/power constraints.
+52	blank_or_transition	none	none	exclude	No extractable LLM-relevant chart text.
+53	dsx_platform_extension	medium	platform_modules	reserve	Secondary DSX page; cite-only unless page 51 needs detail.
+54	space_module	none	product_announcement	exclude	Space-1 Vera Rubin module is outside the LLM book spine.
+55	inference_transition	low	section_title	exclude	Section divider duplicate of page 25.
+56	openclaw_announcement	medium	product_announcement	reserve	Agent-tooling bridge, but lower than coding-agent-specific sources.
+57	blank_or_transition	none	none	exclude	No extractable LLM-relevant chart text.
+58	agents_platform	medium	thesis_slide	reserve	Useful bridge to agent chapters only as NVIDIA framing.
+59	enterprise_agent_service	medium	transition_slide	reserve	SaaS to agent-as-a-service framing is interesting but broad and vendor-framed.
+60	enterprise_agent_service	medium	transition_slide	reserve	Duplicate/continuation of page 59.
+61	agent_toolkit	medium	product_architecture	reserve	NemoClaw/OpenClaw/Agent Toolkit source surface; verify product names before use.
+62	open_models_platform	low	logo_or_category_map	exclude	Contains robotics/physical-AI drift and leaderboard risk.
+63	blank_or_transition	none	none	exclude	No extractable LLM-relevant chart text.
+64	benchmark_map	medium	benchmark_map	exclude	Benchmark surface is contaminated with physical AI/robotics and needs independent benchmark rows.
+65	open_model_claim	low	claim_slide	exclude	Best-open-model claim is too risky without triangulation.
+66	open_model_benchmark	medium	scatter_or_axis_chart	exclude	Benchmark/rank chart risks live-crown overclaim and belongs outside GTC visual sequence.
+67	regional_ai_map	low	partner_map	exclude	Regional AI partner map is broad and not core to LLM mechanism.
+68	nemotron_coalition	low	partner_announcement	exclude	Coalition announcement is support-only; not a chart-mining candidate.
+69	blank_or_transition	none	none	exclude	No extractable LLM-relevant chart text.
+70	section_title	none	title_only	exclude	NEXT AI title slide only.
+71	agent_toolkit_duplicate	medium	product_architecture	exclude	Duplicate/late repeat of page 61.
+72	blank_or_transition	none	none	exclude	No extractable LLM-relevant chart text.
+73	blank_or_transition	none	none	exclude	No extractable LLM-relevant chart text.
+74	blank_or_transition	none	none	exclude	No extractable LLM-relevant chart text.
+75	blank_or_transition	none	none	exclude	No extractable LLM-relevant chart text.
+76	blank_or_transition	none	none	exclude	No extractable LLM-relevant chart text.
