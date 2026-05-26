@@ -362,3 +362,7 @@ The book needs real surfaces, but the honest first move is placement, not cleara
 ## 2026-05-27 - I-0244 Source-Card Quotability
 
 Source cards earn trust when they carry tiny, anchored fragments rather than decorative quotation. The strongest cards should start from local line/page proof, keep per-source quote counts visibly below the limit, and preserve a blocked-claims footer; anything without that anchor should remain paraphrase-only or blocked until page proof exists.
+
+## 2026-05-27 - I-0245 Front Door
+
+A serious technical book still needs a front door. Reader-facing copy should promise the machine, the interface, and the hidden stack in plain language while naming the cutoff and anti-hype contract up front; otherwise even a strong manuscript can feel like a dossier rather than a book.
