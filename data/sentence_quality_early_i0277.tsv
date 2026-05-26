@@ -1,0 +1,19 @@
+rewrite_id	chapter	kind	old_words	new_words	delta_words	status	reason
+SQE-001	CH01	rhythm	93	75	-18	rewritten	Compress list drag while preserving opening force.
+SQE-002	CH01	rhythm	76	65	-11	rewritten	Reduce staccato repetition and keep the quotable close.
+SQE-003	CH01	clarity	89	81	-8	rewritten	Remove throat-clearing and sharpen the claim.
+SQE-004	CH02	compression	116	99	-17	rewritten	Tighten explanation and restore paragraph cadence.
+SQE-005	CH02	verb strength	54	42	-12	rewritten	Cut repetition and improve sentence flow.
+SQE-006	CH03	clarity	65	53	-12	rewritten	Shorten and make the mechanism easier to carry.
+SQE-007	CH03	transition	86	79	-7	rewritten	Make the transition less procedural and more narrative.
+SQE-008	CH04	compression	74	64	-10	rewritten	Compress repeated sentence starts without weakening caveats.
+SQE-009	CH04	voice	79	75	-4	rewritten	Strengthen verbs and reduce abstraction.
+SQE-010	CH05	transition	63	61	-2	rewritten	Reduce chapter-summary phrasing.
+SQE-011	CH05	precision	54	52	-2	rewritten	Remove reader-facing production phrasing while preserving caveat.
+SQE-012	CH06	rhythm	61	56	-5	rewritten	Smooth repetitive sentence starts.
+SQE-013	CH06	voice	68	69	1	rewritten	Convert checklist rhythm into cleaner prose.
+SQE-014	CH07	compression	83	74	-9	rewritten	Remove meta reference and sharpen ending.
+SQE-015	CH07	quotable line	43	39	-4	rewritten	Make the line cleaner and more memorable.
+SQE-016	CH08	remove residue	23	0	-23	removed	Remove visible production status note from reader surface.
+SQE-017	CH08	rhythm	66	55	-11	rewritten	Tighten and strengthen opening transition.
+SQE-018	CH08	compression	87	84	-3	rewritten	Remove prose-about-prose and improve momentum.

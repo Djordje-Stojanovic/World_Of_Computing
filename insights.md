@@ -477,3 +477,7 @@ Public documents can carry scene when the prose treats them as surfaces of actio
 ## 2026-05-26 - I-0276 Explanation Delight
 
 A good analogy should add handle, not haze. The pattern that works is concrete image plus explicit boundary: map but not territory, bigger desk but not better lawyer, taxi meter but not intelligence proof.
+
+## 2026-05-26 - I-0277 Early Prose
+
+Opening-book polish should remove the writer's scaffolding before it adds ornament. The strongest early edits cut meta phrases, tighten lists, preserve caveats, and leave one memorable sentence where a paragraph used to explain itself.
