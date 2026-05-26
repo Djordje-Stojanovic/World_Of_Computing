@@ -1,12 +1,12 @@
 # 23. Failure Modes, Truth, and Trust
 
-Status: first promoted draft, pass I-0128, 2026-05-26.
-
-Source note: This chapter uses existing system-card, benchmark, retrieval, prompt-injection, coding-agent, data-provenance, and alignment rows, plus four newly ledged pre-cutoff research sources on truthfulness, sycophancy, jailbreak suffixes, and reward-tampering. It does not claim incident prevalence, product safety rates, hidden model behavior, or final mitigation effectiveness without separate evidence.
-
 The same machine that felt general could fail generally. That was the most unsettling part. Older software usually failed in recognizable shapes: a crash, an error code, a blank screen, a timeout, a wrong calculation traceable to a line of code. A large language model could fail by sounding excellent. It could produce a polished answer that was false, a citation that looked like scholarship but pointed nowhere, a summary that omitted the key exception, a refusal that vanished under pressure, or a confident plan assembled from a misunderstanding. The failure was not outside the interface. It was inside the fluency.
 
 That is why the final technical reckoning of the book cannot be a safety chapter in the bureaucratic sense. It is a trust chapter. Trust is what connects the previous twenty-two chapters: scaling, instruction tuning, ChatGPT, cloud platforms, open weights, rankings, datacenters, tools, coding agents, data, reasoning, and economics. A model that cannot be trusted is not useless. It may be extraordinarily useful. But every deployment then becomes a trust architecture: what the model may see, what it may do, what evidence it must carry, what humans must review, what logs must survive, and which claims the system is forbidden to make about itself.
+
+Status: promoted continuity draft, pass I-0162, 2026-05-26. Source note: This chapter uses existing system-card, benchmark, retrieval, prompt-injection, coding-agent, data-provenance, and alignment rows, plus pre-cutoff research sources on truthfulness, sycophancy, jailbreak suffixes, and reward-tampering. It does not claim incident prevalence, product safety rates, hidden model behavior, or final mitigation effectiveness without separate evidence.
+
+That placement matters. Chapter 21 asked how much thinking a task deserves. Chapter 22 asked who pays for that thinking. This chapter asks whether the resulting answer, action, or diff deserves authority.
 
 The first failure mode was hallucination, a bad word for a real phenomenon. The model was not seeing visions. It was continuing text. When the continuation pattern favored an answer-shaped object, the model could emit that object without a stable relation to the world. GPT-4's technical report and system-card lineage support this broad caution: high capability did not eliminate hallucinations, reasoning errors, unsafe outputs, or high-stakes limits. [S-0005; S-0076] Earlier chapters treated this as a product problem. Here it becomes an epistemic problem. The user sees grammar, confidence, and form. The system sees tokens.
 
@@ -72,11 +72,4 @@ By the hard cutoff of May 24, 2026, the honest claim was not that LLMs had becom
 
 That is the bridge to the final chapter. The story began with prediction: given the previous tokens, what comes next? It traveled through attention, scale, data, RLHF, products, chips, clouds, tools, code, reasoning, and markets. But the last question is not whether the machine can continue the sentence. It is whether people can build a civilization-scale interface around continuation without confusing fluency for knowledge, agreement for help, refusal for safety, ranking for truth, or price for value. The answer, as of the cutoff, was neither yes nor no. It was a stack of work.
 
-## Claim Audit Notes
-
-- Keep hallucination prose qualitative unless row-level model, benchmark, or incident evidence is added.
-- Treat TruthfulQA as truthfulness benchmark evidence, not a universal law of scaling or a live model ranking.
-- Treat sycophancy and reward-tampering sources as research/eval evidence, not proof of deployed product behavior.
-- Treat adversarial suffix and prompt-injection papers as attack-surface evidence, not as uniform product vulnerability prevalence.
-- Keep system cards as vendor-authored primary disclosures; do not convert them into independent proof of safety.
-- Require incident/source rows before naming specific legal, medical, enterprise, prompt-leak, or data-exfiltration incidents.
+The audit work now stays outside the reader's final beat: keep hallucination prose qualitative unless row-level evidence is added, treat TruthfulQA as benchmark evidence rather than a live ranking, treat sycophancy, reward-tampering, adversarial suffix, and prompt-injection sources as research and attack-surface lanes rather than deployed prevalence claims, keep system cards framed as vendor-authored disclosures, and require incident rows before naming legal, medical, enterprise, prompt-leak, or data-exfiltration cases.

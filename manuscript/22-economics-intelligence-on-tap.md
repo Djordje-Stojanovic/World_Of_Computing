@@ -1,9 +1,5 @@
 # 22. The Economics of Intelligence on Tap
 
-Status: first promoted draft, pass I-0127, 2026-05-26.
-
-Source note: This chapter uses existing provider-pricing snapshots, pricing normalization tables, product sources, and infrastructure chapters. It treats prices as source-captured product signals, not as complete margin evidence. It blocks exact provider revenue, gross margin, customer ROI, price-quality frontier, live price ranking, and workload-volume claims until same-scope rows and financial evidence license them.
-
 ## The Meter Appears
 
 The first consumer shock of ChatGPT was that intelligence seemed to be free. A box appeared on the web. A user typed. The machine answered. The price, at least at the beginning of the public experience, was hidden behind a login screen, investor capital, cloud capacity, and the patience of a product team trying to discover what demand looked like when the meter was not visible.
@@ -15,6 +11,10 @@ Large-language-model economics is the story of turning a strange capability into
 The answer changed by surface. Consumers bought access, speed, availability, and convenience. Developers bought metered inference and tool APIs. Enterprises bought governance, data controls, administration, indemnity-like comfort, compliance language, and integration routes. Cloud providers sold capacity and managed access. Open-weight users paid in a different currency: hosting burden, engineering labor, inference infrastructure, risk management, and opportunity cost.
 
 The cleanest unit was the token. A token could be counted, priced, cached, batched, and charged. But a token was not a product by itself. It was a billing grain inside a wider system. A million tokens of a small fast model did not equal a million tokens of a frontier reasoning model. A cached input token did not equal a fresh input token. A batch token did not equal an interactive token. A long-context prompt did not equal a short chat. The unit looked simple only from far away.
+
+Status: promoted continuity draft, pass I-0162, 2026-05-26. Source note: This chapter uses existing provider-pricing snapshots, pricing normalization tables, product sources, and infrastructure chapters. It treats prices as source-captured product signals, not as complete margin evidence. It blocks exact provider revenue, gross margin, customer ROI, price-quality frontier, live price ranking, and workload-volume claims until same-scope rows and financial evidence license them.
+
+The previous chapter made inference a new place to spend. This chapter makes that spending visible. The same hidden work that can improve a reasoning answer becomes latency, routing, cache policy, batch scheduling, premium access, and ultimately a bill.
 
 ## From Demonstration to Subscription
 
@@ -122,12 +122,6 @@ This is why the LLM economy looked like a stack rather than a market. At the bot
 
 The chapter's final claim is modest: by the cutoff, LLMs had become economically legible enough to meter but not mature enough to price simply. Tokens gave the market a unit. Subscriptions gave consumers a habit. APIs gave developers leverage. Enterprise contracts gave vendors a path to larger deals. Open weights gave buyers an outside option. Inference costs kept the whole stack honest.
 
-The next chapter turns from money to trust. That sequence matters. A model can be cheap and fast and still be unusable if it lies, leaks, flatters, misroutes, or cannot be audited. The economics of intelligence on tap are inseparable from the question of whether anyone should trust what comes out of the tap.
+The next chapter turns from money to trust. That sequence matters. A model can be cheap and fast and still be unusable if it lies, leaks, flatters, misroutes, or cannot be audited. The economics of intelligence on tap are inseparable from the question of whether anyone should trust what comes out of the tap. A token price is therefore not the final denominator. The real denominator is the whole cost of making an answer usable: retrieval, reasoning, tool calls, evaluation, permissions, logs, review, and the human judgment needed when the machine's confidence outruns its evidence.
 
-## Verification Tasks Before Next Promotion
-
-- Build a Chapter 22 economics visual package: token meter stack, price-scope exclusion map, inference-rent flow, and enterprise-value blocker map.
-- Add SEC/financial-statement rows only if the book later makes company revenue, margin, capex, or profitability claims.
-- Add customer-side productivity/ROI rows before any enterprise deployment claim becomes an outcome claim.
-- Keep price-quality charts blocked until same-scope inference prices, model aliases, rank rows, batch/cache/reasoning tiers, and cutoff status are normalized.
-- Reconcile Chapter 22 with Chapter 13 price-quality caveats, Chapter 16 infrastructure cost lanes, and Chapter 23 trust/failure claims.
+The remaining editorial work belongs in the ledgers: keep the economics visual package tied to token meters, price-scope exclusions, inference rent, and enterprise-value blockers; add financial-statement rows only before revenue, margin, capex, or profitability claims; add customer-side evidence before productivity or ROI claims; and keep price-quality charts blocked until same-scope prices, aliases, rank rows, cache, batch, reasoning tiers, and cutoff status are normalized.

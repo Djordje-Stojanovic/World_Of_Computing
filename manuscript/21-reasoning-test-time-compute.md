@@ -1,9 +1,5 @@
 # 21. Reasoning, Test-Time Compute, and the New Scaling Axis
 
-Status: first promoted draft, pass I-0122, 2026-05-26.
-
-Source note: This chapter uses existing local DeepSeek-R1, Kimi k1.5, Gemini 2.5 thinking, ReAct, benchmark, economics, and trust rows, plus newly ledged pre-cutoff web-identified sources for OpenAI o1, OpenAI o3/o4-mini, chain-of-thought prompting, self-consistency, process supervision, and tree search. It does not claim exact benchmark crowns, live model ranks, hidden chain-of-thought access, exact latency/cost curves, or solved reasoning.
-
 The old scaling story spent most of its drama before the answer. Build a larger model. Train it on more data. Spend more floating-point operations before deployment. Then, at inference time, the trained model would receive a prompt and emit tokens. Inference was a delivery cost, the meter that Chapter 22 would later turn into a business model. Reasoning models changed the emotional location of compute. The answer itself became a place to spend.
 
 That shift sounds small until one imagines two different assistants facing the same hard problem. The first answers immediately from pattern recognition. The second tries a plan, writes intermediate work, checks a sub-result, backs up, samples another route, calls a tool, or asks a verifier to judge candidates. Both may use the same transformer family. Both still generate next tokens. But the second system treats the moment after the prompt as a search space. The model is not merely recalling a response. It is buying time.
@@ -11,6 +7,8 @@ That shift sounds small until one imagines two different assistants facing the s
 The roots were visible before the product labels arrived. Chain-of-thought prompting showed that large language models could improve on multi-step tasks when prompted to generate intermediate reasoning rather than only final answers. [S-0170] Self-consistency pushed the idea further by sampling multiple reasoning paths and selecting an answer by agreement among them. [S-0171] These papers did not prove that models reasoned like people, or that their written rationales were faithful explanations of internal computation. They proved something narrower and more important for the story: inference procedure mattered. The same model could behave differently when given room to think.
 
 That was the crack in the old mental model. If a model's effective capability depended on the amount and structure of inference-time work, then "model size" stopped being the only axis readers needed to hold. There was training compute, data quality, architecture, post-training, tool access, retrieval, and now test-time compute: how many candidate paths, how much scratch work, how much verification, how many tool calls, how much latency, and how much money the system could spend before returning an answer.
+
+Status: promoted continuity draft, pass I-0162, 2026-05-26. Source note: This chapter uses existing local DeepSeek-R1, Kimi k1.5, Gemini 2.5 thinking, ReAct, benchmark, economics, and trust rows, plus pre-cutoff web-identified sources for OpenAI o1, OpenAI o3/o4-mini, chain-of-thought prompting, self-consistency, process supervision, and tree search. It does not claim exact benchmark crowns, live model ranks, hidden chain-of-thought access, exact latency/cost curves, or solved reasoning.
 
 The phrase "chain of thought" carried two meanings that the book should keep separate. In research papers, it often meant visible intermediate reasoning tokens that helped solve tasks or helped humans inspect the model's path. In deployed products, it could become hidden internal deliberation, summarized reasoning, or no visible reasoning at all. The user might see a brief explanation, while the system used private scratch work. That secrecy has safety and product reasons: raw chains can contain policy-sensitive details, user data, misleading rationales, or attack surface. But it also creates an evidence problem. A visible explanation is not necessarily the actual causal trace.
 
@@ -90,11 +88,4 @@ That routing surface also explains why the late book moves from reasoning to eco
 
 By May 24, 2026, the new scaling axis had not replaced the old one. Labs still needed larger models, better data, stronger chips, faster networks, and better post-training. But inference had become a frontier in its own right. The model could be asked not only to answer, but to try. It could sample, check, search, use tools, and revise. The next token was no longer just the output. It was one move in a computation that might spend many moves before the user saw the final line.
 
-## Claim Audit Notes
-
-- Keep OpenAI o1/o3/o4-mini and Gemini 2.5 reasoning claims vendor-attributed unless normalized independent benchmark rows are added.
-- Do not expose or imply access to hidden chain-of-thought; distinguish displayed summaries from causal reasoning traces.
-- Treat DeepSeek-R1 and Kimi k1.5 as reasoning/RL/distillation source lanes, not as proof of broad deployment, adoption, or all-domain superiority.
-- Keep exact latency, hidden-token, price, and inference-budget comparisons blocked until same-scope product/pricing rows exist.
-- Use benchmarks only with inference-contract caveats: tool access, attempts, sampling, verifier, harness, date, and contamination scope.
-- Keep "reasoning" as a capability family and product grammar, not as proof of human-like understanding or solved truth.
+The audit work now belongs beside the chapter: keep OpenAI o1/o3/o4-mini and Gemini 2.5 vendor-attributed, distinguish displayed summaries from hidden chain-of-thought, treat DeepSeek-R1 and Kimi k1.5 as reasoning/RL/distillation lanes, block exact latency, hidden-token, price, and inference-budget comparisons until same-scope rows exist, and keep "reasoning" as a capability family rather than solved truth.
