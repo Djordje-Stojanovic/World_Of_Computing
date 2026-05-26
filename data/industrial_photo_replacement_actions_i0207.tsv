@@ -1,0 +1,14 @@
+action_id	asset_id	status	action	reason
+IPRA-0207-001	A-0133	keep_as_proxy	Use as a rights-ready lithography proxy, not as an ASML-specific machine photo.	The source page supports public-domain/public-source use, but the caption must not imply ASML provenance or production allocation.
+IPRA-0207-002	A-0134	keep	Use as a rights-ready cleanroom environment candidate.	The source page supports public-domain use and the caption can safely carry generic manufacturing-environment texture.
+IPRA-0207-003	A-0135	keep	Use as a rights-ready wafer substrate candidate.	The source page supports public-domain use and the image should not be asked to prove node, yield, or product allocation.
+IPRA-0207-004	A-0136	keep	Use as a rights-ready server-rack texture candidate.	CC0/public-domain-compatible status fits private book production when attribution and blocked claims are preserved.
+IPRA-0207-005	A-0137	conditional	Use only with full CC BY 2.0 attribution and preserved original-license trail.	The candidate is useful, but its Flickr-derived chain needs exact final revision evidence before layout.
+IPRA-0207-006	A-0138	keep	Use as a rights-ready exterior cooling/support equipment candidate.	CC0/public-domain-compatible status fits generic cooling-plant texture without workload claims.
+IPRA-0207-007	A-0139	keep	Use as a rights-ready substation candidate.	Public-domain status fits generic grid-infrastructure texture without data-center service or capacity claims.
+IPRA-0207-008	A-0140	replace_or_reverify	Do not use the current manifest target until the exact Commons page is verified; prefer a specific licensed replacement.	The generic target was not confidently verified in this pass.
+IPRA-0207-009	A-0141	replace_or_reverify	Do not use the current manifest target until the exact Commons page is verified; prefer a specific licensed gas-turbine replacement.	The exact file was not confidently verified in this pass.
+IPRA-0207-010	A-0142	keep	Use as a rights-ready battery-storage infrastructure candidate.	CC0/public-domain-compatible status fits generic storage texture without site or economics claims.
+IPRA-0207-011	A-0143	replace_or_reverify	Do not use the current manifest target until the exact Commons page is verified; pick a clearer licensed cooling/nuclear image if needed.	The exact target and license trail remain unresolved.
+IPRA-0207-012	A-0144	replace_or_reverify	Do not use the current manifest target until the exact Commons page is verified; pick a specific licensed cooling tower image if needed.	The exact generic target was not confidently verified in this pass.
+IPRA-0207-013	TSMC-HBM-gap	open_gap	Do not force exact TSMC or HBM photos into final art until a specific rights-clean candidate is verified.	I-0207 found safe industrial texture candidates, but did not establish a rights-clean TSMC fab or HBM-package photo with adequate attribution and caption limits.
