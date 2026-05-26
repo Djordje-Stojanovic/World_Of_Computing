@@ -1,8 +1,5 @@
 # Next Token: Full Draft Assembly
 
-Status: generated assembly pass I-0237 on 2026-05-26.
-
-This is the first single-file book draft assembled from the current manuscript shard set. It is not a final edit, final title map, final figure placement pass, or publication render. Figure entries are placeholders sourced from `data/full_book_figure_list_i0229.tsv`; they still need caption, rights, render, and placement review.
 
 ## Table of Contents
 
@@ -31,34 +28,20 @@ This is the first single-file book draft assembled from the current manuscript s
 - [Chapter 23: Failure Modes, Truth, and Trust](#chapter-23-failure-modes-truth-and-trust)
 - [Chapter 24: Next Token](#chapter-24-next-token)
 
-## Assembly Notes
-
-- Exactly 24 main chapter headings are emitted in this draft.
-- Chapter 12 is intentionally marked compound/unresolved because the current files include both the official Europe/xAI/rest-of-frontier slot and a valuable Anthropic/Claude sidecar. Both are retained here so the book remains inspectable before the title-normalization pass.
-- Original source headings are demoted one level inside each assembled chapter so the generated chapter heading remains the navigation spine.
-- Figure placeholders precede each chapter body and cite planned figure IDs, asset IDs, status, rights status, source IDs, and manifest paths.
-
 <a id="chapter-01-the-shock"></a>
 
 # Chapter 01: The Shock
 
-Assembly source: `manuscript/01-the-shock.md`.
-Assembly note: current main chapter
 
 ## 1. The Shock
 
-<!-- OPENER-DOOR I-0270 CH01 -->
 The book opens at the smallest possible threshold: a blank text box that made a deep technical stack feel suddenly public.
-<!-- /OPENER-DOOR I-0270 CH01 -->
 
 ### The Box That Was Too Easy
 
-<!-- FIGURE-CALLOUT F01.01 ch01-fig01 -->
-> [!FIGURE] **F01.01 / A-0068 - ChatGPT Shock Chronology**  
-> Role: opener chronology. Status: selected_pending_render. Rights: ready_svg. Sources: S-0006;S-0092;S-0098;S-0102.  
-> Caption stub: F01.01: ChatGPT Shock Chronology. Shows opener chronology. Source and blocker notes remain required at placement.  
-> Manifest: `assets/visual_system/chapter1-chatgpt-shock-chronology.svg`. Next gate: Render in full-book opener spread.
-<!-- /FIGURE-CALLOUT F01.01 -->
+> [!FIGURE] **F01.01 / A-0068 - ChatGPT Shock Chronology**
+> Caption: F01.01: ChatGPT Shock Chronology.
+> Source note: Sources: S-0006;S-0092;S-0098;S-0102. Rights path: ready_svg. Story role: opener chronology.
 
 
 The shock did not look like a shock.
@@ -75,11 +58,8 @@ The book begins here not because ChatGPT invented the technology. It did not. Th
 
 The deepest question was hidden in the ordinary act of pressing return: how had next-token prediction become a way to operate computers?
 
-### Drafting Controls
-
 This chapter uses source IDs and claim rows already normalized for Chapter 7, but its job is different. Chapter 1 frames the book's central question: how did next-token prediction become a general-purpose interface to language, code, work, and computing? It uses ChatGPT launch, adoption, and reception evidence only with metric firewalls and named-institution scope controls. It does not claim broad public panic, OpenAI-confirmed adoption totals, paid-user counts, revenue, or productivity outcomes.
 
-Status: opener and ending rewrite promoted in pass I-0152, 2026-05-26; prior first promoted draft from pass I-0117 preserved as source context.
 
 ### A Machine Made Of Nexts
 
@@ -111,12 +91,9 @@ That is why the evidence has to stay narrow. The book can say that people were t
 
 ### Local Alarms
 
-<!-- FIGURE-CALLOUT F01.02 ch01-fig02 -->
-> [!FIGURE] **F01.02 / A-0069 - From Prompt to Answer, One Token at a Time**  
-> Role: mechanism bridge. Status: selected_pending_render. Rights: ready_svg. Sources: S-0004;S-0005;S-0006;S-0014;S-0043.  
-> Caption stub: F01.02: From Prompt to Answer, One Token at a Time. Shows mechanism bridge. Source and blocker notes remain required at placement.  
-> Manifest: `assets/visual_system/chapter1-token-to-answer-schematic.svg`. Next gate: Check mobile/print legibility.
-<!-- /FIGURE-CALLOUT F01.02 -->
+> [!FIGURE] **F01.02 / A-0069 - From Prompt to Answer, One Token at a Time**
+> Caption: F01.02: From Prompt to Answer, One Token at a Time.
+> Source note: Sources: S-0004;S-0005;S-0006;S-0014;S-0043. Rights path: ready_svg. Story role: mechanism bridge.
 
 
 The first reaction was not one public mood. It was a set of local control problems.
@@ -154,9 +131,6 @@ This is why the chapter must not make ChatGPT a magic trick. Magic tricks end wh
 The interface was the distribution. It carried the model into classrooms, offices, code editors, family group chats, newsrooms, search strategies, and executive meetings. It made the next-token machine socially contagious.
 
 ### The Answer That Lied Beautifully
-> Source lane (I-0266): [S-0005] [S-0093] [S-0164]
-> Boundary: Use for hallucination and early moderation/truth framing; no prevalence or legal-outcome claim.
-
 
 The most unnerving thing about ChatGPT was not that it made mistakes. Software has always made mistakes. The unnerving thing was that it made mistakes in prose.
 
@@ -178,12 +152,9 @@ The first shock was category failure. The public could not decide whether ChatGP
 
 ### The Hidden Factory
 
-<!-- FIGURE-CALLOUT F01.03 ch01-fig03 -->
-> [!FIGURE] **F01.03 / A-0070 - Local Alarms: First Institutional Response Chronology**  
-> Role: local response texture. Status: selected_pending_render. Rights: ready_svg. Sources: S-0093;S-0094;S-0096;S-0097.  
-> Caption stub: F01.03: Local Alarms: First Institutional Response Chronology. Shows local response texture. Source and blocker notes remain required at placement.  
-> Manifest: `assets/visual_system/chapter1-institutional-response-chronology.svg`. Next gate: Keep only if prose placement stays tight.
-<!-- /FIGURE-CALLOUT F01.03 -->
+> [!FIGURE] **F01.03 / A-0070 - Local Alarms: First Institutional Response Chronology**
+> Caption: F01.03: Local Alarms: First Institutional Response Chronology.
+> Source note: Sources: S-0093;S-0094;S-0096;S-0097. Rights path: ready_svg. Story role: local response texture.
 
 
 The chat box made computation feel weightless. It was not.
@@ -203,9 +174,6 @@ This is why the narrative cannot stay inside OpenAI. ChatGPT is the opening scen
 The opener's job is to keep those strands connected. A reader should never lose the thread that a token on the screen is attached to chips, data, people, capital, electricity, institutions, and trust. The text box was simple. The system was not.
 
 ### The Central Question
-> Source lane (I-0266): [S-0006] [S-0041] [S-0047] [S-0138] [S-0083]
-> Boundary: Use as source bridge across interface, cloud, compute, and power; no single source proves the whole book thesis.
-
 
 This book is not a biography of one product. ChatGPT is the opening because it made the question unavoidable.
 
@@ -225,34 +193,22 @@ That older story matters because it strips the launch of both myths at once. Cha
 
 ---
 
-<!-- NARRATIVE-FLOW I-0270 CH01-CH02 -->
 The public shock now turns into the older engineering problem: before a text box could feel conversational, language had to become something a machine could represent, compare, and predict. [S-0104] [S-0105] [S-0106] [S-0107] [S-0002]
-<!-- /NARRATIVE-FLOW I-0270 CH01-CH02 -->
 
 <a id="chapter-02-before-the-transformer"></a>
 
 # Chapter 02: Before the Transformer
 
-Assembly source: `manuscript/01-before-the-transformer.md`.
-Assembly note: filename remains 01 from earlier drift; assembly maps it to outline chapter 2
 
 ## 2. Before the Transformer: The Machine Learns Sequence
 
-<!-- OPENER-DOOR I-0270 CH02 -->
 Before that box could feel natural, language had to be squeezed into representations a machine could compare, score, and extend.
-<!-- /OPENER-DOOR I-0270 CH02 -->
 
 ### The Older Machine
-> Source lane (I-0266): [S-0104] [S-0105] [S-0106] [S-0107]
-> Boundary: Use as technical ancestry lane; do not imply inevitability.
 
-
-<!-- FIGURE-CALLOUT F02.01 ch02-fig01 -->
-> [!FIGURE] **F02.01 / A-0115 - The Bottleneck Before The Breakthrough**  
-> Role: pre-Transformer pressure chain. Status: selected_pending_render. Rights: ready_svg. Sources: S-0002;S-0104;S-0105;S-0106;S-0107.  
-> Caption stub: F02.01: The Bottleneck Before The Breakthrough. Shows pre-Transformer pressure chain. Source and blocker notes remain required at placement.  
-> Manifest: `assets/visual_system/chapter2-pre-transformer-bottleneck-map.svg`. Next gate: Trace final caption to paper-source rows.
-<!-- /FIGURE-CALLOUT F02.01 -->
+> [!FIGURE] **F02.01 / A-0115 - The Bottleneck Before The Breakthrough**
+> Caption: F02.01: The Bottleneck Before The Breakthrough.
+> Source note: Sources: S-0002;S-0104;S-0105;S-0106;S-0107. Rights path: ready_svg. Story role: pre-Transformer pressure chain.
 
 
 Before the language model became a chat window, it was a much colder instrument: a machine that assigned probabilities to strings. The work did not begin with personality. It began with sequence. Given the words already seen, what word should come next? Given a sentence in one language, what sentence in another language should follow? Given a fragment of meaning, what nearby symbols should carry it?
@@ -263,11 +219,8 @@ For a long time, the most practical answer was counting. N-gram language models 
 
 That is the chapter's pressure chain: counting made language computable, sparsity made counting brittle, embeddings made similarity usable, recurrence made sentence order learnable, sequence-to-sequence models made one stream of tokens become another, and attention made the fixed-memory bottleneck impossible to ignore. The history is technical, but the suspense is simple. Every solution made the machine stronger and exposed the next constraint.
 
-### Drafting Controls
 
-Status: Chapter 2 clarity pass promoted in I-0153, 2026-05-26; first promoted as a Chapter 1 draft in pass I-0092 before the later ChatGPT opener became Chapter 1.
-
-Source note: This chapter uses newly ledgered primary papers for the early technical spine: Bengio et al. on neural probabilistic language modeling, Mikolov et al. on efficient word-vector learning, Sutskever et al. on sequence-to-sequence learning, Bahdanau et al. on alignment/attention in neural machine translation, and Vaswani et al. on the Transformer. It is a narrative foundation, not a complete history of NLP. It deliberately avoids unsupported claims about who "invented" every component, exact state-of-the-art rankings, or hidden industrial adoption. See `data/chapter1_early_lm_claim_audit_i0092.tsv` for row-level claim permissions.
+Source boundary: This chapter uses newly ledgered primary papers for the early technical spine: Bengio et al. on neural probabilistic language modeling, Mikolov et al. on efficient word-vector learning, Sutskever et al. on sequence-to-sequence learning, Bahdanau et al. on alignment/attention in neural machine translation, and Vaswani et al. on the Transformer. It is a narrative foundation, not a complete history of NLP. It deliberately avoids unsupported claims about who "invented" every component, exact state-of-the-art rankings, or hidden industrial adoption. See `data/chapter1_early_lm_claim_audit_i0092.tsv` for row-level claim permissions.
 
 The important turn was not that researchers made language less discrete. It was that they made the discreteness negotiable. A word could remain a symbol in a vocabulary while also becoming a point in a learned space. "Dog" and "cat" would still be different tokens, but the model could learn that they lived nearer to one another than either lived to "thermodynamics" or "Wednesday." The bet was that language contained reusable structure below the surface of exact word identity.
 
@@ -276,9 +229,6 @@ That bet runs through the neural probabilistic language model proposed by Yoshua
 This is one of the quiet origins of the modern story. The future LLM would become famous for scale, dialogue, and surprising fluency. But underneath those public properties sits a simpler idea: words are not only labels. They can be learned coordinates. Once words become coordinates, language modeling is no longer only a counting problem. It becomes a geometry problem.
 
 ### The Geometry Of Meaning
-> Source lane (I-0266): [S-0104] [S-0105]
-> Boundary: Use for distributed representations and word-vector geometry; analogy claims stay bounded.
-
 
 Distributed representation changed the reader's mental picture of language. The old picture was a dictionary: word, definition, usage. The new picture was a field. A word's meaning was not stored as a sentence. It was partly expressed by where the word sat relative to other words after training. That did not make the model understand in the human sense. It made meaning operational enough for computation.
 
@@ -335,9 +285,6 @@ This is one of the bridges from translation to general-purpose LLMs. A future as
 The chapter should also keep a useful skepticism here. Attention did not make models reliable. It made one route for information flow more flexible. A model can attend to the wrong token, learn a spurious relation, or produce a fluent answer from shallow cues. The point is architectural permission, not epistemic guarantee. [S-0107]
 
 ### What Attention Changed
-> Source lane (I-0266): [S-0106] [S-0107] [S-0002]
-> Boundary: Use for sequence bottleneck and attention lineage; not proof of reliability.
-
 
 Attention is easy to describe badly. The lazy description says the model "pays attention" as if it had a little spotlight of consciousness. The better description is mechanical. A model computes relationships among positions in a sequence. It uses those relationships to mix information. A token's representation becomes a function not only of itself but of other tokens, weighted by learned relevance.
 
@@ -366,9 +313,6 @@ That is why this chapter ends at the edge of the Transformer rather than treatin
 The reader should leave this opening with two ideas held together. First, the modern LLM is not an alien object. Its components have ancestry: probability, representation, sequence, alignment, attention. Second, ancestry is not destiny. The combination mattered because it met a moment when data and compute could turn architectural permission into industrial force.
 
 ### The Hidden Continuity
-> Source lane (I-0266): [S-0104] [S-0105] [S-0106] [S-0107] [S-0002]
-> Boundary: Use for ancestry synthesis only.
-
 
 The continuity matters because the book is not about one paper dropping from the sky. It is about a long conversion of language into computable pressure. Each stage changed the question slightly.
 
@@ -396,31 +340,22 @@ That question belongs to the next chapter. The answer begins with attention catc
 
 ---
 
-<!-- NARRATIVE-FLOW I-0270 CH02-CH03 -->
 The bottleneck was not only that machines handled words badly; it was that sequence models struggled to move information cleanly across distance. Attention enters as the mechanism that lets the history of a sentence stay available. [S-0002] [S-0108]
-<!-- /NARRATIVE-FLOW I-0270 CH02-CH03 -->
 
 <a id="chapter-03-attention-catches-fire"></a>
 
 # Chapter 03: Attention Catches Fire
 
-Assembly source: `manuscript/02-attention-catches-fire.md`.
-Assembly note: filename remains 02 from earlier drift; assembly maps it to outline chapter 3
 
 ## 3. Attention Catches Fire: The Architecture That Wanted To Scale
 
-<!-- OPENER-DOOR I-0270 CH03 -->
 The next breakthrough begins with a bottleneck: sequence models could remember, but not freely enough for the scale that was coming.
-<!-- /OPENER-DOOR I-0270 CH03 -->
 
 ### The Break In The Loop
 
-<!-- FIGURE-CALLOUT F03.01 ch03-fig01 -->
-> [!FIGURE] **F03.01 / A-0116 - Attention Is A Mixing Operation, Not A Mind**  
-> Role: self-attention mechanism. Status: selected_pending_render. Rights: ready_svg. Sources: S-0002;S-0108.  
-> Caption stub: F03.01: Attention Is A Mixing Operation, Not A Mind. Shows self-attention mechanism. Source and blocker notes remain required at placement.  
-> Manifest: `assets/visual_system/chapter3-self-attention-information-flow.svg`. Next gate: Add exact Transformer-figure provenance before final art.
-<!-- /FIGURE-CALLOUT F03.01 -->
+> [!FIGURE] **F03.01 / A-0116 - Attention Is A Mixing Operation, Not A Mind**
+> Caption: F03.01: Attention Is A Mixing Operation, Not A Mind.
+> Source note: Sources: S-0002;S-0108. Rights path: ready_svg. Story role: self-attention mechanism.
 
 
 The Transformer begins as a revolt against waiting.
@@ -437,11 +372,8 @@ The public later met this architecture through other names: GPT, BERT, T5, PaLM,
 
 This chapter should therefore avoid myth. The Transformer was not a magic mind. It was a mechanism. Its beauty is that the mechanism is simple enough to explain and rich enough to become a civilization-scale industrial object.
 
-### Drafting Controls
 
-Status: Chapter 3 clarity pass promoted in I-0153, 2026-05-26; first promoted as a Chapter 2 draft in pass I-0093 before the later ChatGPT opener became Chapter 1.
-
-Source note: This chapter is anchored on "Attention Is All You Need" and an official Google Research blog explanation of the Transformer. It uses Chapter 2 sources only as continuity, not as authority for extra Transformer claims. The chapter avoids exact benchmark numbers, priority fights, and claims that the Transformer alone caused later LLM products. See `data/chapter2_transformer_claim_audit_i0093.tsv` for row-level permissions and `data/chapter2_transformer_diagram_queue_i0093.tsv` for the visual queue.
+Source boundary: This chapter is anchored on "Attention Is All You Need" and an official Google Research blog explanation of the Transformer. It uses Chapter 2 sources only as continuity, not as authority for extra Transformer claims. The chapter avoids exact benchmark numbers, priority fights, and claims that the Transformer alone caused later LLM products. See `data/chapter2_transformer_claim_audit_i0093.tsv` for row-level permissions and `data/chapter2_transformer_diagram_queue_i0093.tsv` for the visual queue.
 
 ### Attention Without The Metaphor
 
@@ -554,9 +486,6 @@ A third optional diagram can show a "model stack view": embeddings at the bottom
 These diagrams matter because architecture prose can easily become soup. A reader can follow "query, key, value" for a paragraph and lose the larger shape. Visuals should keep the mechanism visible: what enters, what mixes, what repeats, what exits, and where the chapter is simplifying.
 
 ### What The Transformer Did Not Solve
-> Source lane (I-0266): [S-0002] [S-0108]
-> Boundary: Use for architecture boundary; no claim that attention solved truth, memory, or reasoning.
-
 
 Every architecture chapter needs a humility section. The Transformer did not solve truth. It did not solve grounding. It did not solve memory in the human sense. It did not make models immune to hallucination, prompt injection, data contamination, or brittle reasoning. It did not remove the cost of long context. It did not make attention weights a faithful explanation of every output.
 
@@ -570,31 +499,22 @@ The next chapter is the moment that question becomes a bet.
 
 ---
 
-<!-- NARRATIVE-FLOW I-0270 CH03-CH04 -->
 Once attention made sequence modeling more parallel and expressive, the next question became brutally empirical: what happens if the same architecture is made larger, fed more data, and measured without sentimentality? [S-0002] [S-0003] [S-0015] [S-0004]
-<!-- /NARRATIVE-FLOW I-0270 CH03-CH04 -->
 
 <a id="chapter-04-the-scaling-bet"></a>
 
 # Chapter 04: The Scaling Bet
 
-Assembly source: `manuscript/03-scaling-bet.md`.
-Assembly note: filename remains 03 from earlier drift; assembly maps it to outline chapter 4
 
 ## 4. The Scaling Bet: When Loss Became A Map
 
-<!-- OPENER-DOOR I-0270 CH04 -->
 Scaling enters the story as an empirical gamble, where curves became strategy before anyone knew what products they would justify.
-<!-- /OPENER-DOOR I-0270 CH04 -->
 
 ### The Curve Before The Product
 
-<!-- FIGURE-CALLOUT F04.01 ch04-fig01 -->
-> [!FIGURE] **F04.01 / A-0117 - Loss Is A Map, Not A Product Guarantee**  
-> Role: scaling evidence lanes. Status: selected_pending_render. Rights: ready_svg. Sources: S-0003;S-0004;S-0015;S-0016.  
-> Caption stub: F04.01: Loss Is A Map, Not A Product Guarantee. Shows scaling evidence lanes. Source and blocker notes remain required at placement.  
-> Manifest: `assets/visual_system/chapter4-scaling-evidence-lane-chart.svg`. Next gate: Verify plotted-value exclusions in final caption.
-<!-- /FIGURE-CALLOUT F04.01 -->
+> [!FIGURE] **F04.01 / A-0117 - Loss Is A Map, Not A Product Guarantee**
+> Caption: F04.01: Loss Is A Map, Not A Product Guarantee.
+> Source note: Sources: S-0003;S-0004;S-0015;S-0016. Rights path: ready_svg. Story role: scaling evidence lanes.
 
 
 Before ChatGPT became an interface event and before the Transformer became a public synonym for modern AI, a quieter idea took hold inside labs: perhaps language models could be treated less like a collection of tricks and more like a measured process. Train bigger models. Feed more data. Spend more compute. Watch the loss move.
@@ -609,11 +529,8 @@ That is a dangerous sentence if left alone. Forecastable loss is not the same as
 
 This chapter belongs after the Transformer because architecture created the substrate and scaling made the substrate strategic. Once the model block could absorb more data and compute, the question changed. The field no longer asked only, "Can we build a better architecture?" It asked, "How much improvement can we buy by scaling the architecture we already have?"
 
-### Drafting Controls
 
-Status: Chapter 4 clarity pass promoted in I-0153, 2026-05-26; first promoted as a Chapter 3 draft in pass I-0094 before the later ChatGPT opener became Chapter 1.
-
-Source note: This chapter is a first scaling-laws draft anchored on Kaplan et al.'s "Scaling Laws for Neural Language Models" and Hoffmann et al.'s "Training Compute-Optimal Large Language Models." It uses GPT-3 and PaLM only as bounded examples of the scaling era, not as proof that scale alone explains every capability. It avoids exact exponents, benchmark numbers, emergent-capability claims, and frontier extrapolation until later extraction rows support them. See `data/chapter3_scaling_claim_audit_i0094.tsv` and `data/chapter3_scaling_chart_plan_i0094.tsv`.
+Source boundary: This chapter is a first scaling-laws draft anchored on Kaplan et al.'s "Scaling Laws for Neural Language Models" and Hoffmann et al.'s "Training Compute-Optimal Large Language Models." It uses GPT-3 and PaLM only as bounded examples of the scaling era, not as proof that scale alone explains every capability. It avoids exact exponents, benchmark numbers, emergent-capability claims, and frontier extrapolation until later extraction rows support them. See `data/chapter3_scaling_claim_audit_i0094.tsv` and `data/chapter3_scaling_chart_plan_i0094.tsv`.
 
 ### The Industrialization Of Prediction
 
@@ -738,9 +655,6 @@ The third is a permission map for scaling claims. Rows should separate measured,
 These charts should be beautiful but sober. No glowing exponential rocket. No inevitability arrow pointing to artificial general intelligence. The visual grammar should say: here is what was measured; here is what was inferred; here is what the industry believed; here is what remains unproven.
 
 ### What Scaling Did Not Buy
-> Source lane (I-0266): [S-0003] [S-0015] [S-0004]
-> Boundary: Use for measured/modelled scaling boundaries; no threshold-intelligence claim.
-
 
 Scaling did not buy truth. It did not buy source provenance. It did not buy safe tool use. It did not buy memory in the human sense. It did not buy data rights. It did not buy cheap inference. It did not buy electricity, cooling, or transmission lines. It did not buy user trust.
 
@@ -756,31 +670,22 @@ The next chapter turns that possibility into a lineage: GPT-1, GPT-2, GPT-3, and
 
 ---
 
-<!-- NARRATIVE-FLOW I-0270 CH04-CH05 -->
 Scaling turned loss curves into strategy, but strategy still needed a vehicle. The GPT line made the wager concrete: pretrain a model broadly, then see how far prompting and access could carry it. [S-0011] [S-0012] [S-0013] [S-0004]
-<!-- /NARRATIVE-FLOW I-0270 CH04-CH05 -->
 
 <a id="chapter-05-gpt-1-to-gpt-3-the-door-opens"></a>
 
 # Chapter 05: GPT-1 to GPT-3: The Door Opens
 
-Assembly source: `manuscript/05-gpt-1-to-gpt-3-door-opens.md`.
-Assembly note: current main chapter
 
 ## 5. GPT-1 to GPT-3: The Door Opens
 
-<!-- OPENER-DOOR I-0270 CH05 -->
 The GPT line turns the gamble into a service surface, a door through which builders could start treating prediction as infrastructure.
-<!-- /OPENER-DOOR I-0270 CH05 -->
 
 ### The Model That Learned To Begin
 
-<!-- FIGURE-CALLOUT F05.01 ch05-fig01 -->
-> [!FIGURE] **F05.01 / A-0010 - From Pretraining To The Cursor**  
-> Role: GPT lineage anchor. Status: selected_pending_render. Rights: ready_svg. Sources: local:data/gpt_lineage_visual_table.tsv.  
-> Caption stub: F05.01: From Pretraining To The Cursor. Shows GPT lineage anchor. Source and blocker notes remain required at placement.  
-> Manifest: `assets/visual_system/gpt-lineage-table.svg`. Next gate: Check against Chapter 19 overlap.
-<!-- /FIGURE-CALLOUT F05.01 -->
+> [!FIGURE] **F05.01 / A-0010 - From Pretraining To The Cursor**
+> Caption: F05.01: From Pretraining To The Cursor.
+> Source note: Sources: local:data/gpt_lineage_visual_table.tsv. Rights path: ready_svg. Story role: GPT lineage anchor.
 
 
 The first GPT paper did not read like the opening of a consumer revolution. Its title was technical and modest: improving language understanding by generative pre-training. The idea was not to build a chatbot, a search engine, or a programmer. It was to train a Transformer language model on unlabeled text, then adapt it to supervised natural-language understanding tasks. [S-0011]
@@ -795,11 +700,8 @@ This was not magic general intelligence. It was a new economic shape for learnin
 
 GPT-1 therefore belongs in the book not because it was huge by later standards, but because it named a reusable recipe: pretrain a generative Transformer on text, then transfer. It was a door, not the room.
 
-### Drafting Controls
 
-Status: OpenAI spine continuity pass promoted in I-0154, 2026-05-26; first promoted draft from pass I-0010 preserved as source context.
-
-Source note: This chapter draft uses source IDs from `sources.tsv`. It is conservative about private motives, exact adoption numbers, API usage, and Copilot productivity claims. Future passes should snapshot OpenAI and GitHub pages before direct quotation and add secondary reporting only where it triangulates public reaction or business context.
+Source boundary: This chapter draft uses source IDs from `sources.tsv`. It is conservative about private motives, exact adoption numbers, API usage, and Copilot productivity claims. Future passes should snapshot OpenAI and GitHub pages before direct quotation and add secondary reporting only where it triangulates public reaction or business context.
 
 Visual anchor: Figure 5.1, `assets/visual_system/gpt-lineage-table.svg`, compresses the chapter's lineage into a sourced table: GPT-1 as pretraining and transfer, GPT-2 as prompted multitask continuation, GPT-3 as few-shot prompting, the OpenAI API as infrastructure distribution, Codex as executable-language generation, and GitHub Copilot as the cursor-level product surface. Its companion data lives in `data/gpt_lineage_visual_table.tsv`; its caveats should stay visible until usage, pricing, productivity, benchmark, and legal claims are separately snapshotted or triangulated. [S-0011] [S-0012] [S-0013] [S-0004] [S-0069] [S-0052] [S-0070]
 
@@ -852,9 +754,6 @@ That placement mattered. GPT-3's API made language models callable. Copilot made
 Codex also changes the book's chronology. It is not merely a side branch for programmers. It is the bridge from language models to agents. Once a model can write code, it can write instructions for machines. Once it can operate inside an editor or repository, the prompt becomes closer to a work order. Later coding agents would read files, run tests, inspect errors, and propose diffs. But the conceptual path starts here: text in, code out, machine behavior changed.
 
 ### The Platform Primitive
-> Source lane (I-0266): [S-0004] [S-0071] [S-0070]
-> Boundary: Use for GPT-3 API and code-product history; no adoption or productivity inference.
-
 
 By the time ChatGPT arrived, several pieces were already in place. GPT-1 had shown generative pretraining as transfer. GPT-2 had shown unsupervised multitask behavior and forced a debate over release. GPT-3 had shown few-shot prompting and API distribution. Codex and Copilot had shown that language models could live inside the developer workflow and generate executable text.
 
@@ -925,9 +824,6 @@ That wrapping is the missing middle between research and ChatGPT. Before the cha
 The chapter should therefore describe GPT-3 as a platform primitive, not a finished assistant. A primitive is powerful precisely because it is incomplete. It can be embedded in many systems. It can also fail in many systems. GPT-3 gave developers a new kind of material: language behavior exposed through an API and shaped by context. The later assistant layer would make that material feel polite, conversational, and bounded. But the raw primitive came first.
 
 ### The API Made Distribution A Technical Fact
-> Source lane (I-0266): [S-0071] [S-0070] [S-0052]
-> Boundary: Use for distribution/interface turn; outcome claims remain blocked.
-
 
 Distribution often gets treated as business context, something that happens after the science. In the GPT line, distribution became technical. A model available only as a paper is different from a model available through a hosted endpoint. The endpoint shapes what developers try, how fast they try it, what risks the provider can monitor, what terms govern use, and what forms of product can appear. [S-0069]
 
@@ -967,31 +863,22 @@ The final image of Chapter 5 is therefore not a triumphant model, but a problem 
 
 ---
 
-<!-- NARRATIVE-FLOW I-0270 CH05-CH06 -->
 The door opened by GPT-3 was powerful but unruly. If language models were going to become products, they needed more than continuation; they needed to behave like assistants under pressure from users, policies, and markets. [S-0014] [S-0074]
-<!-- /NARRATIVE-FLOW I-0270 CH05-CH06 -->
 
 <a id="chapter-06-alignment-enters-the-product"></a>
 
 # Chapter 06: Alignment Enters the Product
 
-Assembly source: `manuscript/06-alignment-enters-product.md`.
-Assembly note: current main chapter
 
 ## 6. Alignment Enters the Product
 
-<!-- OPENER-DOOR I-0270 CH06 -->
 Once prediction became a product, the central problem changed from fluent continuation to behavior under instruction, pressure, and refusal.
-<!-- /OPENER-DOOR I-0270 CH06 -->
 
 ### The Model That Needed A Boss
 
-<!-- FIGURE-CALLOUT F06.01 ch06-fig01 -->
-> [!FIGURE] **F06.01 / A-0011 - Alignment As A Product Stack**  
-> Role: alignment mechanism. Status: selected_pending_render. Rights: ready_svg. Sources: local:data/rlhf_alignment_pipeline_i0023.tsv.  
-> Caption stub: F06.01: Alignment As A Product Stack. Shows alignment mechanism. Source and blocker notes remain required at placement.  
-> Manifest: `assets/visual_system/rlhf-alignment-pipeline.svg`. Next gate: Pair with one source surface, not more diagrams.
-<!-- /FIGURE-CALLOUT F06.01 -->
+> [!FIGURE] **F06.01 / A-0011 - Alignment As A Product Stack**
+> Caption: F06.01: Alignment As A Product Stack.
+> Source note: Sources: local:data/rlhf_alignment_pipeline_i0023.tsv. Rights path: ready_svg. Story role: alignment mechanism.
 
 
 GPT-3 made the prompt feel like a temporary program: examples and instructions could sit inside the context window and steer the next completion. [S-0004] It also made the product problem impossible to ignore. A base language model is trained to continue text. A user, however, does not usually want continuation. The user wants help.
@@ -1006,11 +893,8 @@ OpenAI's InstructGPT work stated the product gap bluntly: making language models
 
 That was the hinge. The model still predicted tokens. But the product began to ask a second question: which tokens should this assistant prefer to produce?
 
-### Drafting Controls
 
-Status: OpenAI spine continuity pass promoted in I-0154, 2026-05-26; first promoted draft candidate from pass I-0018 preserved as source context.
-
-Source note: This chapter draft uses source IDs from `sources.tsv`. It treats alignment as a product and mechanism story: how base-model continuation became instruction following, refusal behavior, policy-shaped assistant behavior, and evaluation work. It deliberately avoids becoming a regulation chapter. Pass I-0033 adds `data/alignment_quote_safe_table_i0033.tsv` for short, reviewed quote candidates from captured Model Spec and system-card artifacts; pass I-0038 adds S-0074 text-render quote candidates for the instruction-following product post, while longer red-team, system-card, and exact policy passages still need row-specific extraction before final prose.
+Source boundary: This chapter draft uses source IDs from `sources.tsv`. It treats alignment as a product and mechanism story: how base-model continuation became instruction following, refusal behavior, policy-shaped assistant behavior, and evaluation work. It deliberately avoids becoming a regulation chapter. Pass I-0033 adds `data/alignment_quote_safe_table_i0033.tsv` for short, reviewed quote candidates from captured Model Spec and system-card artifacts; pass I-0038 adds S-0074 text-render quote candidates for the instruction-following product post, while longer red-team, system-card, and exact policy passages still need row-specific extraction before final prose.
 
 Visual integration: Figure 6.1, `assets/visual_system/rlhf-alignment-pipeline.svg`, shows pretraining, supervised demonstrations, preference comparisons, reward/preference modeling, RL optimization, Constitutional AI/RLAIF, product policy, red teaming, and evaluation loops as a layered assistant-behavior stack. The companion rows live in `data/rlhf_alignment_pipeline_i0023.tsv`; the figure keeps the central caveat visible that refusals and caveats are product behavior built from several layers, not proof that the model "understands" the user's real-world interests. [S-0004] [S-0014] [S-0019] [S-0074] [S-0075]
 
@@ -1054,13 +938,9 @@ This is where Anthropic enters the larger narrative before the Claude chapter. C
 
 ### Red Teams, System Cards, And The Public Boundary
 
-<!-- FIGURE-CALLOUT F06.02 ch06-fig02 -->
-> [!FIGURE] **F06.02 / A-0121 - ChatGPT Product Surface**  
-> Role: ChatGPT product surface. Status: selected_pending_capture. Rights: private_capture_needed. Sources: S-0006.  
-> Caption stub: F06.02: ChatGPT Product Surface. Shows ChatGPT product surface. Source and blocker notes remain required at placement.  
-> Manifest: `assets/private_use_screenshots/i0180/A-0121_chatgpt_launch_product_surface.png`. Next gate: Capture screenshot/hash; rights review.
-> Real-world candidate (I-0243): first ChatGPT product surface. Story fit: anchors the text in the moment when a model became a daily product rather than an abstract benchmark. Quality note: needs fresh capture with readable interface chrome and no private account data. Gate: capture from public OpenAI surface or replace with self-made facsimile after terms review.
-<!-- /FIGURE-CALLOUT F06.02 -->
+> [!FIGURE] **F06.02 / A-0121 - ChatGPT Product Surface**
+> Caption: F06.02: ChatGPT Product Surface.
+> Source note: Sources: S-0006. Rights path: private_capture_needed. Story role: ChatGPT product surface.
 
 
 Once assistants reached millions of users, private testing was no longer enough. The safety boundary had to become at least partly public. System cards, model cards, red-team reports, and evaluation frameworks became the paperwork of productized alignment.
@@ -1072,9 +952,6 @@ These documents should not be read as neutral certificates of safety. They are f
 That package changed the race. A lab could not merely say, "The model is smarter." It had to say, "The model is smarter, and here is how we tried to keep it from doing some classes of unwanted things." The stronger the model, the more the launch needed a theory of behavior.
 
 ### The Assistant As A Bundle
-> Source lane (I-0266): [S-0014] [S-0074] [S-0075] [S-0076] [S-0077]
-> Boundary: Use for behavior-spec and safety-documentation lanes; no solved-alignment claim.
-
 
 The user experiences one voice. Underneath, there is a bundle.
 
@@ -1124,13 +1001,9 @@ The final layer is the evaluation and release loop: red teams, system cards, eva
 
 ### What The Quote Table Allows
 
-<!-- FIGURE-CALLOUT F06.03 ch06-fig03 -->
-> [!FIGURE] **F06.03 / A-0122 - ChatGPT Plus Productization Surface**  
-> Role: Plus productization surface. Status: selected_pending_capture. Rights: private_capture_needed. Sources: S-0078;S-0089.  
-> Caption stub: F06.03: ChatGPT Plus Productization Surface. Shows Plus productization surface. Source and blocker notes remain required at placement.  
-> Manifest: `assets/private_use_screenshots/i0180/A-0122_chatgpt_plus_product_surface.png`. Next gate: Capture screenshot/hash; strict caption.
-> Real-world candidate (I-0243): subscription productization surface. Story fit: shows the conversion layer that turned usage pressure into recurring revenue. Quality note: best as tight page render around plan language, not as a generic homepage. Gate: public page capture requires terms and attribution review.
-<!-- /FIGURE-CALLOUT F06.03 -->
+> [!FIGURE] **F06.03 / A-0122 - ChatGPT Plus Productization Surface**
+> Caption: F06.03: ChatGPT Plus Productization Surface.
+> Source note: Sources: S-0078;S-0089. Rights path: private_capture_needed. Story role: Plus productization surface.
 
 
 The quote-safe table is a permission map, not a decoration. It keeps the chapter from doing the two bad things alignment prose likes to do: quoting too much first-party language as if it were neutral truth, or avoiding exact wording so thoroughly that the reader cannot see how the labs described their own work.
@@ -1148,9 +1021,6 @@ For system cards, the table is deliberately conservative. It allows short phrase
 This is the chapter's evidence discipline. Exact wording is allowed only when it clarifies a source's role. Otherwise, paraphrase is stronger. The book is not trying to sound like a policy appendix. It is trying to show how the assistant became an engineered behavior surface.
 
 ### The Alignment Tax And The Product Trade
-> Source lane (I-0266): [S-0074] [S-0014] [S-0076]
-> Boundary: Use for first-party limits and tradeoffs; quote only via approved rows.
-
 
 One reason alignment became a product drama is that every improvement has a trade. OpenAI's instruction-following post used the phrase "alignment tax" for the possibility that making a model better match customer intent could reduce performance on some conventional academic NLP tasks. [S-0074] The phrase is valuable because it reminds readers that alignment was not just a moral layer placed on top of capability. It changed what the system optimized for.
 
@@ -1165,9 +1035,6 @@ The alignment tax therefore has two meanings in the book. The narrow meaning is 
 Those artifacts became part of the user experience. People learned to recognize the voice of a tuned assistant: careful, structured, sometimes evasive, sometimes startlingly useful. They also learned to push against it. Jailbreaks, prompt injections, adversarial phrasing, and elaborate role play all exploited the fact that the assistant was a layered product. Users were no longer merely asking questions. They were probing a hierarchy.
 
 ### Why Refusal Became A New Interface Genre
-> Source lane (I-0266): [S-0075] [S-0076] [S-0077]
-> Boundary: Use for policy/interface framing; do not generalize to all labs.
-
 
 The refusal deserves its own place in the story because it is one of the strangest inventions of the LLM era. Software had always had errors, warnings, permissions, and access controls. But the chat refusal had a different flavor. It was written in the same voice as the helpful answer. It sounded conversational. It often explained itself. It might offer a safer alternative. It made policy feel like a person speaking.
 
@@ -1192,9 +1059,6 @@ The book should use these documents neither cynically nor naively. Cynicism woul
 That forensic posture also connects alignment to evaluation. If assistant behavior is produced by a stack, then no single score can certify it. A model can pass a multiple-choice exam and fail a conversation. It can refuse harmful requests and still be vulnerable to prompt injection. It can do well in English and fail in another language. It can look safe in short tests and degrade in long workflows. Evaluation becomes a portfolio, not a finish line.
 
 ### ChatGPT Was The Alignment Demo The Public Could Touch
-> Source lane (I-0266): [S-0006] [S-0014] [S-0074] [S-0092] [S-0098] [S-0102]
-> Boundary: Use for launch/adoption/behavior bridge; keep metric units separate.
-
 
 The next chapter begins when this machinery becomes ordinary enough for the public to try. ChatGPT's novelty was not only that it answered in a chat box. It was that the answer usually behaved as if the prompt were a request. It followed instructions often enough, refused often enough, apologized often enough, and stayed in role often enough that people treated it as a counterpart.
 
@@ -1208,31 +1072,22 @@ That is the clean handoff. Chapter 5 showed how prompting and APIs made language
 
 ---
 
-<!-- NARRATIVE-FLOW I-0270 CH06-CH07 -->
 Alignment work made the assistant shape possible, but ChatGPT tested that shape in public. The next chapter moves from training loop to interface event: what happened when the assistant became easy enough for anyone to try. [S-0006] [S-0074] [S-0078] [S-0079]
-<!-- /NARRATIVE-FLOW I-0270 CH06-CH07 -->
 
 <a id="chapter-07-chatgpt-the-interface-event"></a>
 
 # Chapter 07: ChatGPT: The Interface Event
 
-Assembly source: `manuscript/07-chatgpt-interface-event.md`.
-Assembly note: current main chapter
 
 ## 7. ChatGPT: The Interface Event
 
-<!-- OPENER-DOOR I-0270 CH07 -->
 ChatGPT is the moment that behavior met the public: not as a paper, but as an interface ordinary people could test with ordinary language.
-<!-- /OPENER-DOOR I-0270 CH07 -->
 
 ### The Box
 
-<!-- FIGURE-CALLOUT F07.01 ch07-fig01 -->
-> [!FIGURE] **F07.01 / A-0016 - ChatGPT: From Interface Event To Business Surface**  
-> Role: ChatGPT business timeline. Status: selected_pending_render. Rights: ready_svg. Sources: S-0006;S-0014;S-0044;S-0045;S-0046;S-0077;S-0078;S-0079;S-0089;S-0090.  
-> Caption stub: F07.01: ChatGPT: From Interface Event To Business Surface. Shows ChatGPT business timeline. Source and blocker notes remain required at placement.  
-> Manifest: `assets/visual_system/chatgpt-interface-business-timeline.svg`. Next gate: Retain blocked adoption lane.
-<!-- /FIGURE-CALLOUT F07.01 -->
+> [!FIGURE] **F07.01 / A-0016 - ChatGPT: From Interface Event To Business Surface**
+> Caption: F07.01: ChatGPT: From Interface Event To Business Surface.
+> Source note: Sources: S-0006;S-0014;S-0044;S-0045;S-0046;S-0077;S-0078;S-0079;S-0089;S-0090. Rights path: ready_svg. Story role: ChatGPT business timeline.
 
 
 On November 30, 2022, OpenAI published a product post with a plain invitation: try a conversational model called ChatGPT. The interface did not look like a scientific milestone. It looked like a text box. That was the trick, and also the rupture. A research trajectory that had been moving through papers, demos, APIs, and benchmark tables arrived in the old shape of computing's most forgiving command line: write something, press return, see what comes back. [S-0006]
@@ -1253,24 +1108,14 @@ The first reaction was not a single public mood. It was a set of local control p
 
 The order matters. Stack Overflow was not a school. A school district was not a bank. A bank restriction was not a public cultural verdict. Each institution had a different failure mode in view. For a volunteer Q&A site, the danger was moderation overload from confident junk. For schools, the danger was assessment, learning, and student use inside managed networks. For a bank, the danger was third-party software inside a controlled enterprise environment. ChatGPT looked universal because the same text box appeared everywhere, but the local anxieties were specific. The chapter should preserve that specificity, because specificity is what keeps early reception from becoming a cartoon.
 
-### Drafting Controls
 
-Status: OpenAI spine continuity pass promoted in I-0154, 2026-05-26; first promoted draft from pass I-0003 and source-specific claim audit pass I-0041 preserved as source context.
-
-Source note: This chapter uses source IDs from `sources.tsv` and remains conservative about adoption numbers, private scenes, internal motives, boardroom drama, and unsupported market or productivity claims. Productization, adoption, reception, and Enterprise caveats now sit beside the paragraphs that need them; C-0010 remains active for unattributed quantitative adoption, broad public-reception, named-customer deployment, and customer-productivity claims.
+Source boundary: This chapter uses source IDs from `sources.tsv` and remains conservative about adoption numbers, private scenes, internal motives, boardroom drama, and unsupported market or productivity claims. Productization, adoption, reception, and Enterprise caveats now sit beside the paragraphs that need them; C-0010 remains active for unattributed quantitative adoption, broad public-reception, named-customer deployment, and customer-productivity claims.
 
 ### The Product Was A Training Method With A Face
-> Source lane (I-0266): [S-0006] [S-0014] [S-0074]
-> Boundary: Use for ChatGPT/InstructGPT relation; do not infer hidden training details.
 
-
-<!-- FIGURE-CALLOUT F07.02 ch07-fig02 -->
-> [!FIGURE] **F07.02 / A-0036 - ChatGPT launch surface**  
-> Role: ChatGPT launch surface. Status: selected_pending_capture. Rights: private_capture_needed. Sources: S-0006.  
-> Caption stub: F07.02: ChatGPT launch surface. Shows ChatGPT launch surface. Source and blocker notes remain required at placement.  
-> Manifest: `assets/private_use_screenshots/i0112/A-0036_chatgpt_launch_page.png`. Next gate: Capture/hash or use archival fallback.
-> Real-world candidate (I-0243): ChatGPT launch artifact. Story fit: places the adoption shock beside the original public announcement surface. Quality note: use archival or current source page render with date visible where possible. Gate: needs source-page capture provenance and fair-use/permission decision.
-<!-- /FIGURE-CALLOUT F07.02 -->
+> [!FIGURE] **F07.02 / A-0036 - ChatGPT launch surface**
+> Caption: F07.02: ChatGPT launch surface.
+> Source note: Sources: S-0006. Rights path: private_capture_needed. Story role: ChatGPT launch surface.
 
 
 The quiet prehistory of ChatGPT is not a chat window. It is a change in training objective after pretraining. GPT-3 had shown how far next-token prediction could go when scaled. It also showed a product problem: a base model will continue patterns, not necessarily obey intentions. If the user writes a question, the model may answer. If the user writes a fragment, the model may continue the fragment. If the prompt resembles a hostile or nonsensical pattern, the model may follow the pattern. The behavior is powerful, but it is not yet an assistant.
@@ -1286,9 +1131,6 @@ But the face also created expectations the training method could not always sati
 This is why the November 2022 launch belongs near the beginning of the book even though the underlying science started much earlier. The public did not meet the Transformer in a diagram. It met the Transformer through a role. The question was no longer, "Can a large neural network model language?" It was, "What happens when ordinary users treat a large neural network as something to ask?"
 
 ### The Disappearing Manual
-> Source lane (I-0266): [S-0006] [S-0078] [S-0089]
-> Boundary: Use for product-surface chronology; no usage or retention claim.
-
 
 Most important consumer technologies hide a manual inside the object. A spreadsheet cell teaches formulas by accepting them. A search box teaches keywords by rewarding some queries and punishing others. ChatGPT taught prompting by letting people talk badly and still get something back.
 
@@ -1306,12 +1148,9 @@ That was democratizing in one sense and destabilizing in another. More people co
 
 ### From Answer Box To Platform
 
-<!-- FIGURE-CALLOUT F07.03 ch07-fig03 -->
-> [!FIGURE] **F07.03 / A-0037 - ChatGPT Plus conversion**  
-> Role: ChatGPT Plus surface. Status: selected_pending_capture. Rights: private_capture_needed. Sources: S-0078.  
-> Caption stub: F07.03: ChatGPT Plus conversion. Shows ChatGPT Plus surface. Source and blocker notes remain required at placement.  
-> Manifest: `assets/private_use_screenshots/i0112/A-0037_chatgpt_plus_page.png`. Next gate: Choose one of A-0037/A-0122 in final layout.
-<!-- /FIGURE-CALLOUT F07.03 -->
+> [!FIGURE] **F07.03 / A-0037 - ChatGPT Plus conversion**
+> Caption: F07.03: ChatGPT Plus conversion.
+> Source note: Sources: S-0078. Rights path: private_capture_needed. Story role: ChatGPT Plus surface.
 
 
 The product did not stay a box for long. In March 2023, OpenAI announced ChatGPT plugins, framing them as a way for models to use tools designed for language models, including browsing, code execution, and third-party services under constrained protocols. [S-0044] The plugin announcement signaled that the chat interface was not only an answer machine. It could become a dispatch layer.
@@ -1334,13 +1173,9 @@ This is why the chapter should treat plugins, GPTs, and GPT-4o as interface mile
 
 ### The Cloud Behind The Conversation
 
-<!-- FIGURE-CALLOUT F07.04 ch07-fig04 -->
-> [!FIGURE] **F07.04 / A-0038 - ChatGPT Enterprise launch surface**  
-> Role: Enterprise surface. Status: selected_pending_capture. Rights: private_capture_needed. Sources: S-0079.  
-> Caption stub: F07.04: ChatGPT Enterprise launch surface. Shows Enterprise surface. Source and blocker notes remain required at placement.  
-> Manifest: `assets/private_use_screenshots/i0112/A-0038_chatgpt_enterprise_page.png`. Next gate: Capture/hash; block productivity and customer outcomes.
-> Real-world candidate (I-0243): enterprise packaging surface. Story fit: bridges consumer virality to procurement and workplace distribution. Quality note: needs a page crop that makes enterprise positioning legible. Gate: public page capture requires rights review and no implied endorsement.
-<!-- /FIGURE-CALLOUT F07.04 -->
+> [!FIGURE] **F07.04 / A-0038 - ChatGPT Enterprise launch surface**
+> Caption: F07.04: ChatGPT Enterprise launch surface.
+> Source note: Sources: S-0079. Rights path: private_capture_needed. Story role: Enterprise surface.
 
 
 A text box can make computation feel weightless. ChatGPT was not weightless. It sat on a stack of training runs, inference servers, GPUs, networking, datacenters, and capital commitments. The Microsoft/OpenAI relationship is part of the chapter because the interface shock immediately became an infrastructure race.
@@ -1362,9 +1197,6 @@ The distinction is not pedantry. Enterprise software is where demos go to encoun
 That also changed the Microsoft/OpenAI story. If ChatGPT was merely a viral website, the cloud partnership was a backend fact. If ChatGPT was the beginning of a new enterprise interface, the cloud partnership became strategic terrain. The companies were not only serving curiosity. They were trying to supply a new layer of workplace computing, one where language sat above documents, spreadsheets, code, search, and workflow tools.
 
 ### What The Interface Hid
-> Source lane (I-0266): [S-0006] [S-0043] [S-0041] [S-0047]
-> Boundary: Use for tokenizer/cloud/product stack bridge; no cost or margin claim.
-
 
 The smoothness of ChatGPT hid several unresolved problems.
 
@@ -1387,17 +1219,10 @@ It hid cost. Every satisfying answer consumed inference resources somewhere else
 Most of all, it hid responsibility. A wrong answer could be blamed on the model, the user, the product, the provider, the training data, the prompt, or the absence of verification. That ambiguity made ChatGPT hard to categorize legally, ethically, and operationally. The chapter does not need to become a regulation chapter to name the product fact: when software speaks in complete sentences, people look for someone to hold responsible for the sentence.
 
 ### Why Everyone Had To Answer
-> Source lane (I-0266): [S-0093] [S-0094] [S-0096] [S-0097] [S-0047]
-> Boundary: Use for named institutional reactions; no national panic claim.
 
-
-<!-- FIGURE-CALLOUT F07.05 ch07-fig05 -->
-> [!FIGURE] **F07.05 / A-0039 - ChatGPT plugins surface**  
-> Role: plugins surface. Status: selected_pending_capture. Rights: private_capture_needed. Sources: S-0044.  
-> Caption stub: F07.05: ChatGPT plugins surface. Shows plugins surface. Source and blocker notes remain required at placement.  
-> Manifest: `assets/private_use_screenshots/i0112/A-0039_chatgpt_plugins_page.png`. Next gate: Capture/hash; block ecosystem adoption.
-> Real-world candidate (I-0243): plugin ecosystem surface. Story fit: visualizes the first tool-market framing of ChatGPT as a platform. Quality note: prefer official page or archived screenshot over third-party commentary. Gate: needs capture source, terms review, and caption restraint.
-<!-- /FIGURE-CALLOUT F07.05 -->
+> [!FIGURE] **F07.05 / A-0039 - ChatGPT plugins surface**
+> Caption: F07.05: ChatGPT plugins surface.
+> Source note: Sources: S-0044. Rights path: private_capture_needed. Story role: plugins surface.
 
 
 The race after ChatGPT was not only a race to match a model. It was a race to answer an interface. That distinction explains the speed of the response. A rival lab could have a capable model and still look behind if ordinary users could not touch it. A cloud company could have infrastructure and still look behind if the product did not make the capability legible. A search company could have decades of language technology and still look surprised if the public decided that one conversational box felt like the future.
@@ -1434,34 +1259,22 @@ The answer will not come from OpenAI alone. Microsoft will turn the shock into p
 
 ---
 
-<!-- NARRATIVE-FLOW I-0270 CH07-CH08 -->
 The interface event created demand that no model paper could satisfy alone. To turn conversation into a durable product category, OpenAI needed cloud capacity, distribution, and institutional muscle. [S-0125] [S-0126] [S-0130] [S-0132]
-<!-- /NARRATIVE-FLOW I-0270 CH07-CH08 -->
 
 <a id="chapter-08-microsoft-openai-and-the-cloud-bargain"></a>
 
 # Chapter 08: Microsoft, OpenAI, and the Cloud Bargain
 
-Assembly source: `manuscript/08-microsoft-openai-cloud-bargain.md`.
-Assembly note: current main chapter
 
 ## 8. Microsoft, OpenAI, and the Cloud Bargain
 
-<!-- OPENER-DOOR I-0270 CH08 -->
 The interface event created a capacity problem, and capacity turned Microsoft and OpenAI's bargain into strategy, distribution, and governance.
-<!-- /OPENER-DOOR I-0270 CH08 -->
 
 ### The Backend Becomes The Plot
-> Source lane (I-0266): [S-0041] [S-0047] [S-0125] [S-0126] [S-0127] [S-0130]
-> Boundary: Use for Microsoft/OpenAI infrastructure and partnership chronology.
 
-
-<!-- FIGURE-CALLOUT F08.01 ch08-fig01 -->
-> [!FIGURE] **F08.01 / A-0056 - Microsoft/OpenAI: The Cloud Bargain Timeline**  
-> Role: cloud bargain timeline. Status: selected_pending_render. Rights: ready_svg. Sources: S-0125;S-0126;S-0127;S-0129;S-0130;S-0131;S-0132;S-0133.  
-> Caption stub: F08.01: Microsoft/OpenAI: The Cloud Bargain Timeline. Shows cloud bargain timeline. Source and blocker notes remain required at placement.  
-> Manifest: `assets/visual_system/chapter8-microsoft-openai-partnership-chronology.svg`. Next gate: Check if chapter can carry four diagrams.
-<!-- /FIGURE-CALLOUT F08.01 -->
+> [!FIGURE] **F08.01 / A-0056 - Microsoft/OpenAI: The Cloud Bargain Timeline**
+> Caption: F08.01: Microsoft/OpenAI: The Cloud Bargain Timeline.
+> Source note: Sources: S-0125;S-0126;S-0127;S-0129;S-0130;S-0131;S-0132;S-0133. Rights path: ready_svg. Story role: cloud bargain timeline.
 
 
 The public saw a chat box. Microsoft saw a workload.
@@ -1476,11 +1289,9 @@ The stakes were larger than hosting. In the API era, a model could become infras
 
 This chapter is about that factory bargain.
 
-### Drafting Controls
-
 Status: Microsoft/OpenAI cloud-bargain strengthening pass promoted in I-0155, 2026-05-26; first full Chapter 8 draft and I-0118 visual package preserved as source context.
 
-Source note: This chapter uses local captures of Microsoft/OpenAI partnership, supercomputer, GPT-3 license, Azure OpenAI Service, ChatGPT-on-Azure, Microsoft 365 Copilot, and GitHub Copilot sources. It treats Microsoft/OpenAI posts as company-attributed strategic framing, not neutral proof of revenue, productivity, adoption, market share, model superiority, customer ROI, workload volume, margin, or search-share effects. See `data/chapter8_microsoft_openai_chronology_i0113.tsv`, `data/chapter8_microsoft_openai_claim_audit_i0113.tsv`, and `data/chapter8_microsoft_openai_visual_package_i0118.tsv`.
+Source boundary: This chapter uses local captures of Microsoft/OpenAI partnership, supercomputer, GPT-3 license, Azure OpenAI Service, ChatGPT-on-Azure, Microsoft 365 Copilot, and GitHub Copilot sources. It treats Microsoft/OpenAI posts as company-attributed strategic framing, not neutral proof of revenue, productivity, adoption, market share, model superiority, customer ROI, workload volume, margin, or search-share effects. See `data/chapter8_microsoft_openai_chronology_i0113.tsv`, `data/chapter8_microsoft_openai_claim_audit_i0113.tsv`, and `data/chapter8_microsoft_openai_visual_package_i0118.tsv`.
 
 ### The 2019 Bet
 
@@ -1508,12 +1319,9 @@ That loop will reappear later in the NVIDIA and datacenter chapters. Here, it ex
 
 ### Licensing The Primitive
 
-<!-- FIGURE-CALLOUT F08.02 ch08-fig02 -->
-> [!FIGURE] **F08.02 / A-0057 - Cloud-To-Product Flywheel**  
-> Role: cloud-to-product flywheel. Status: selected_pending_render. Rights: ready_svg. Sources: S-0125;S-0126;S-0127;S-0129;S-0130;S-0131;S-0132;S-0133.  
-> Caption stub: F08.02: Cloud-To-Product Flywheel. Shows cloud-to-product flywheel. Source and blocker notes remain required at placement.  
-> Manifest: `assets/visual_system/chapter8-cloud-to-product-flywheel.svg`. Next gate: Prune if it duplicates A-0056 in layout.
-<!-- /FIGURE-CALLOUT F08.02 -->
+> [!FIGURE] **F08.02 / A-0057 - Cloud-To-Product Flywheel**
+> Caption: F08.02: Cloud-To-Product Flywheel.
+> Source note: Sources: S-0125;S-0126;S-0127;S-0129;S-0130;S-0131;S-0132;S-0133. Rights path: ready_svg. Story role: cloud-to-product flywheel.
 
 
 The next turn was more explicit. In September 2020, Microsoft announced that it had teamed up with OpenAI to exclusively license GPT-3. [S-0127] The Microsoft post said OpenAI would continue to offer GPT-3 and other models through its own API, while Microsoft would use the license to develop and deliver AI solutions for customers. [S-0127]
@@ -1554,12 +1362,9 @@ The door was the point.
 
 ### The 2023 Extension
 
-<!-- FIGURE-CALLOUT F08.03 ch08-fig03 -->
-> [!FIGURE] **F08.03 / A-0058 - Inference Cost Stack: What The Chat Box Hides**  
-> Role: inference cost stack. Status: selected_pending_render. Rights: ready_svg. Sources: S-0041;S-0126;S-0129;S-0131;S-0133.  
-> Caption stub: F08.03: Inference Cost Stack: What The Chat Box Hides. Shows inference cost stack. Source and blocker notes remain required at placement.  
-> Manifest: `assets/visual_system/chapter8-inference-cost-stack.svg`. Next gate: Keep for economics handoff.
-<!-- /FIGURE-CALLOUT F08.03 -->
+> [!FIGURE] **F08.03 / A-0058 - Inference Cost Stack: What The Chat Box Hides**
+> Caption: F08.03: Inference Cost Stack: What The Chat Box Hides.
+> Source note: Sources: S-0041;S-0126;S-0129;S-0131;S-0133. Rights path: ready_svg. Story role: inference cost stack.
 
 
 In January 2023, Microsoft and OpenAI announced an extended partnership. [S-0130] Coming two months after ChatGPT's launch, the announcement read differently from the 2019 partnership. The world now had a visible interface. The cloud bargain no longer needed to be explained as a speculative research infrastructure bet. It could be understood as the backend of a product shock.
@@ -1573,9 +1378,6 @@ The partnership became a distribution engine. OpenAI could move from model lab t
 The bargain was not clean. That is why it was interesting.
 
 ### The Risk Of Mutual Dependence
-> Source lane (I-0266): [S-0041] [S-0047] [S-0130] [S-0133]
-> Boundary: Use for strategic dependence framing; no private-contract economics.
-
 
 The bargain also created a new kind of dependence. OpenAI gained the advantage of a hyperscale partner, but a partner is never just capacity. A partner has product priorities, enterprise customers, investor expectations, legal constraints, and platform ambitions. Microsoft gained privileged access to OpenAI's models and brand energy, but that access also exposed Microsoft to the volatility of a frontier lab: model delays, safety controversies, governance drama, cost surprises, and the possibility that customers would treat model quality as the whole story even when the product depended on integration.
 
@@ -1598,16 +1400,10 @@ What it can support is the interface shift. ChatGPT taught users to converse wit
 That is why the chapter's title is the cloud bargain, not the cloud backend. The backend became a route into the foreground.
 
 ### Search, Office, And The Incumbent's Revenge
-> Source lane (I-0266): [S-0131] [S-0133] [S-0047]
-> Boundary: Use for product-distribution surfaces; no market-share result.
 
-
-<!-- FIGURE-CALLOUT F08.04 ch08-fig04 -->
-> [!FIGURE] **F08.04 / A-0059 - Enterprise Claim Blocker Map**  
-> Role: enterprise blocker map. Status: selected_pending_render. Rights: ready_svg. Sources: S-0129;S-0131;S-0132;S-0133.  
-> Caption stub: F08.04: Enterprise Claim Blocker Map. Shows enterprise blocker map. Source and blocker notes remain required at placement.  
-> Manifest: `assets/visual_system/chapter8-enterprise-claim-blocker-map.svg`. Next gate: May become appendix/sidebar if chapter feels over-diagrammed.
-<!-- /FIGURE-CALLOUT F08.04 -->
+> [!FIGURE] **F08.04 / A-0059 - Enterprise Claim Blocker Map**
+> Caption: F08.04: Enterprise Claim Blocker Map.
+> Source note: Sources: S-0129;S-0131;S-0132;S-0133. Rights path: ready_svg. Story role: enterprise blocker map.
 
 
 Microsoft also had a reason to move that was older than ChatGPT: it had spent decades living in Google's shadow in search and in the web's attention economy. LLMs offered a rare opening. A conversational answer layer could make Bing feel less like a smaller index and more like a different interface. That did not guarantee share gains, ad gains, or durable consumer behavior. Those claims are blocked in this pass. But strategically, the logic is clear: Microsoft could use OpenAI's model shock as a way to reopen a market that ordinary search competition had not reopened.
@@ -1625,9 +1421,6 @@ This is the hidden seriousness of the cloud bargain. The cloud was not only a pl
 The next chapters should preserve this split. Consumer search and workplace Copilot are both Microsoft/OpenAI distribution channels, but they ask for different evidence. Search claims need behavior, share, ad, and publisher evidence. Workplace claims need customer-side usage, productivity, governance, and ROI evidence. This chapter can set up both pathways without pretending that product announcements prove either one.
 
 ### Inference Is The Rent
-> Source lane (I-0266): [S-0041] [S-0133] [S-0060] [S-0061] [S-0062] [S-0072]
-> Boundary: Use for serving/capacity/economics bridge; price is not margin.
-
 
 Training gets the mythic attention: the giant run, the frontier model, the expensive cluster. But productized LLMs live or die through inference. Every user prompt creates a serving cost. Every longer context, tool call, retry, safety pass, or low-latency expectation turns model capability into a cloud economics problem.
 
@@ -1655,34 +1448,22 @@ Together, they made the soft box on the screen reveal the hard factory behind it
 
 ---
 
-<!-- NARRATIVE-FLOW I-0270 CH08-CH09 -->
 Microsoft's bargain showed one way to convert models into platform leverage. Google's problem was different: it already owned research depth, consumer habits, and infrastructure, and had to decide how quickly to move them together. [S-0002] [S-0115] [S-0116] [S-0117] [S-0121]
-<!-- /NARRATIVE-FLOW I-0270 CH08-CH09 -->
 
 <a id="chapter-09-google-and-deepmind-wake-the-sleeping-giant"></a>
 
 # Chapter 09: Google and DeepMind Wake the Sleeping Giant
 
-Assembly source: `manuscript/09-google-deepmind-gemini.md`.
-Assembly note: current main chapter
 
 ## 9. Google and DeepMind Wake the Sleeping Giant
 
-<!-- OPENER-DOOR I-0270 CH09 -->
 Google enters under a stranger burden: it already owned research depth, consumer habit, and infrastructure, and had to move them without breaking them.
-<!-- /OPENER-DOOR I-0270 CH09 -->
 
 ### The Company That Had Already Built the Future
-> Source lane (I-0266): [S-0016] [S-0017] [S-0115] [S-0116] [S-0121]
-> Boundary: Use for Google/DeepMind research lineage; no inevitability claim.
 
-
-<!-- FIGURE-CALLOUT F09.01 ch09-fig01 -->
-> [!FIGURE] **F09.01 / A-0086 - Research Became Product In Stages**  
-> Role: Google conversion timeline. Status: selected_pending_render. Rights: ready_svg. Sources: S-0002;S-0016;S-0108;S-0115;S-0116;S-0117;S-0118;S-0119;S-0121;S-0122;S-0123;S-0124.  
-> Caption stub: F09.01: Research Became Product In Stages. Shows Google conversion timeline. Source and blocker notes remain required at placement.  
-> Manifest: `assets/visual_system/chapter9-research-to-product-conversion-timeline.svg`. Next gate: Keep benchmark/adoption blockers visible.
-<!-- /FIGURE-CALLOUT F09.01 -->
+> [!FIGURE] **F09.01 / A-0086 - Research Became Product In Stages**
+> Caption: F09.01: Research Became Product In Stages.
+> Source note: Sources: S-0002;S-0016;S-0108;S-0115;S-0116;S-0117;S-0118;S-0119;S-0121;S-0122;S-0123;S-0124. Rights path: ready_svg. Story role: Google conversion timeline.
 
 
 The strangest thing about Google's generative-AI panic was that it did not begin in ignorance. It began inside the company whose researchers had helped build the modern substrate. The Transformer was a Google paper before it became everyone else's factory floor. Tensor Processing Units were Google's answer to the question of how to make neural computation an internal utility. DeepMind had turned neural systems into a public spectacle of superhuman play and scientific ambition. Search had made Google the default front door to the web. Gmail, Docs, Android, Chrome, YouTube, Maps, and Cloud gave it more surfaces for an assistant than any startup could dream of owning.
@@ -1695,11 +1476,9 @@ The sleeping giant was not asleep because it lacked models. It was half-paralyze
 
 This is the chapter's discipline: Google should not be flattened into a slow follower. It was a research leader, an infrastructure owner, an advertising incumbent, a mobile platform, a document suite, a cloud provider, and a consumer habit machine all at once. ChatGPT embarrassed Google not because Google had no ingredients, but because a focused rival found the public interface first. The hard part for Google was not waking up. It was deciding which part of the giant could move without stepping on the rest.
 
-### Drafting Controls
-
 Status: Google/DeepMind prose upgrade promoted in I-0156, 2026-05-26; first full Chapter 9 draft and I-0132 visual package preserved as source context.
 
-Source note: This chapter is anchored on local captures of PaLM, Gemini, Gemini 1.5, Bard/Gemini product posts, Gemini 2.5 product framing, Google DeepMind model-card pages, and the existing Transformer/price ledgers. It treats Google posts as Google-attributed product framing, not neutral proof of market leadership, adoption, benchmark superiority, revenue, search-share effects, click behavior, cloud share, productivity, subscriber totals, or TPU cost/performance superiority. See `data/chapter9_google_deepmind_claim_audit_i0111.tsv`, `data/chapter9_google_deepmind_chronology_i0111.tsv`, and `data/chapter9_google_deepmind_visual_package_i0132.tsv`.
+Source boundary: This chapter is anchored on local captures of PaLM, Gemini, Gemini 1.5, Bard/Gemini product posts, Gemini 2.5 product framing, Google DeepMind model-card pages, and the existing Transformer/price ledgers. It treats Google posts as Google-attributed product framing, not neutral proof of market leadership, adoption, benchmark superiority, revenue, search-share effects, click behavior, cloud share, productivity, subscriber totals, or TPU cost/performance superiority. See `data/chapter9_google_deepmind_claim_audit_i0111.tsv`, `data/chapter9_google_deepmind_chronology_i0111.tsv`, and `data/chapter9_google_deepmind_visual_package_i0132.tsv`.
 
 ### Pathways Before Panic
 
@@ -1715,12 +1494,9 @@ The problem was conversion. How does a lab convert research depth into a product
 
 ### Bard As Defensive Interface
 
-<!-- FIGURE-CALLOUT F09.02 ch09-fig02 -->
-> [!FIGURE] **F09.02 / A-0087 - Google's Gemini Question Was Surface Conversion**  
-> Role: Gemini surface conversion. Status: selected_pending_render. Rights: ready_svg. Sources: S-0115;S-0118;S-0121;S-0122;S-0123;S-0124.  
-> Caption stub: F09.02: Google's Gemini Question Was Surface Conversion. Shows Gemini surface conversion. Source and blocker notes remain required at placement.  
-> Manifest: `assets/visual_system/chapter9-tpu-search-workspace-surface-map.svg`. Next gate: Check overlap with A-0086.
-<!-- /FIGURE-CALLOUT F09.02 -->
+> [!FIGURE] **F09.02 / A-0087 - Google's Gemini Question Was Surface Conversion**
+> Caption: F09.02: Google's Gemini Question Was Surface Conversion.
+> Source note: Sources: S-0115;S-0118;S-0121;S-0122;S-0123;S-0124. Rights path: ready_svg. Story role: Gemini surface conversion.
 
 
 Bard was Google's first public answer after ChatGPT made the chat interface culturally legible. Google's March 2023 Bard post described it as an early experiment that let users collaborate with generative AI and explicitly framed it as complementary to Search. [S-0118] That word, "complementary," carried the whole tension. Google did not want to say that chat would replace search. It wanted to add a conversational layer without admitting that the layer might rearrange the page underneath it.
@@ -1747,12 +1523,9 @@ That is the giant's burden. A startup can make one miracle. Google had to make a
 
 ### Long Context As Product Grammar
 
-<!-- FIGURE-CALLOUT F09.03 ch09-fig03 -->
-> [!FIGURE] **F09.03 / A-0088 - Long Context Became A Product Grammar**  
-> Role: long-context product grammar. Status: selected_pending_render. Rights: ready_svg. Sources: S-0117;S-0123;S-0124.  
-> Caption stub: F09.03: Long Context Became A Product Grammar. Shows long-context product grammar. Source and blocker notes remain required at placement.  
-> Manifest: `assets/visual_system/chapter9-gemini-long-context-lane.svg`. Next gate: Verify exact source rows before final caption.
-<!-- /FIGURE-CALLOUT F09.03 -->
+> [!FIGURE] **F09.03 / A-0088 - Long Context Became A Product Grammar**
+> Caption: F09.03: Long Context Became A Product Grammar.
+> Source note: Sources: S-0117;S-0123;S-0124. Rights path: ready_svg. Story role: long-context product grammar.
 
 
 Gemini 1.5 sharpened one of Google's strongest product arguments: context length. The Gemini 1.5 technical report framed the model around multimodal understanding across very long contexts. [S-0117] Google's May 2024 product update brought Gemini 1.5 Pro to Gemini Advanced subscribers and described a one-million-token context window in a consumer assistant setting. [S-0123] A developer update the same month described Gemini 1.5 Pro and 1.5 Flash availability, and mentioned a two-million-token context window path for developers and cloud customers through Google AI Studio or Vertex AI. [S-0124]
@@ -1779,12 +1552,9 @@ The TPU difference therefore belongs in this chapter as a strategic fact, not as
 
 ### Search Gravity
 
-<!-- FIGURE-CALLOUT F09.04 ch09-fig04 -->
-> [!FIGURE] **F09.04 / A-0089 - The Tempting Gemini Claims Need Different Evidence**  
-> Role: Gemini claim blockers. Status: selected_pending_render. Rights: ready_svg. Sources: S-0061;S-0119;S-0120.  
-> Caption stub: F09.04: The Tempting Gemini Claims Need Different Evidence. Shows Gemini claim blockers. Source and blocker notes remain required at placement.  
-> Manifest: `assets/visual_system/chapter9-benchmark-adoption-blocker-grid.svg`. Next gate: Use if prose makes tempting claims nearby.
-<!-- /FIGURE-CALLOUT F09.04 -->
+> [!FIGURE] **F09.04 / A-0089 - The Tempting Gemini Claims Need Different Evidence**
+> Caption: F09.04: The Tempting Gemini Claims Need Different Evidence.
+> Source note: Sources: S-0061;S-0119;S-0120. Rights path: ready_svg. Story role: Gemini claim blockers.
 
 
 Search is the part of Google's story that can be too familiar to see clearly. A search engine is already a kind of language machine. It parses a query, retrieves documents, ranks sources, displays fragments, sells attention, and teaches users to treat the web as an answerable surface. A chat assistant changes the shape of that contract. Instead of sending the user outward, it can pull the answer inward.
@@ -1809,13 +1579,9 @@ The same rule applies to pricing. The Gemini Developer API pricing snapshot is a
 
 ### Developers, Cloud, And The Second Audience
 
-<!-- FIGURE-CALLOUT F09.05 ch09-fig05 -->
-> [!FIGURE] **F09.05 / A-0129 - Gemini/Bard Product Surface**  
-> Role: Gemini/Bard source surface. Status: selected_pending_capture. Rights: private_capture_needed. Sources: S-0119;S-0121;S-0123;S-0124.  
-> Caption stub: F09.05: Gemini/Bard Product Surface. Shows Gemini/Bard source surface. Source and blocker notes remain required at placement.  
-> Manifest: `assets/private_use_screenshots/i0180/A-0129_gemini_bard_product_surface.png`. Next gate: Capture/hash; block Search-share and productivity claims.
-> Real-world candidate (I-0243): Google Gemini/Bard surface. Story fit: shows the incumbent-search response as a product and brand surface. Quality note: local source-media page exists but still needs rendered image crop. Gate: rights and attribution pending for captured Google page.
-<!-- /FIGURE-CALLOUT F09.05 -->
+> [!FIGURE] **F09.05 / A-0129 - Gemini/Bard Product Surface**
+> Caption: F09.05: Gemini/Bard Product Surface.
+> Source note: Sources: S-0119;S-0121;S-0123;S-0124. Rights path: private_capture_needed. Story role: Gemini/Bard source surface.
 
 
 Gemini also had a second audience: not the consumer asking a question in an app, but the developer deciding where to build. That audience changes the stakes. A consumer assistant competes for habit and trust. A developer platform competes for tooling, latency, reliability, pricing, documentation, model choice, data controls, and integration with the rest of a stack. Google's December 2023 Gemini collection pointed developers and enterprise customers toward Gemini Pro through the Gemini API, Vertex AI, and Google AI Studio. [S-0121] The May 2024 developer update kept the same pattern: Gemini was a model family, but it was also a set of access paths. [S-0124]
@@ -1839,9 +1605,6 @@ DeepMind complicated this in a useful way. It gave Google a research brand with 
 The tension remained: a research lab wants to be right; a product organization wants to be used; an ad company wants to be profitable; a cloud company wants developers and enterprises; a platform company wants default status. Gemini had to serve all of them.
 
 ### Handoff To The Open Race
-> Source lane (I-0266): [S-0121] [S-0122] [S-0023] [S-0024] [S-0026] [S-0029]
-> Boundary: Use for transition from Gemini to open/frontier plurality.
-
 
 This chapter should not end with Google declared ahead or behind. That would be leaderboard theater. Its job is to put Google back into the race as a structurally different competitor.
 
@@ -1855,31 +1618,22 @@ The giant woke. The hard part was deciding which part of the giant was supposed 
 
 ---
 
-<!-- NARRATIVE-FLOW I-0270 CH09-CH10 -->
 Google's response kept the race inside the world of giant platforms; Meta changed the surface of the race by pushing powerful weights toward researchers, developers, and adopters outside a closed API lane. [S-0111] [S-0112] [S-0113] [S-0114]
-<!-- /NARRATIVE-FLOW I-0270 CH09-CH10 -->
 
 <a id="chapter-10-meta-llama-and-the-open-weight-shock"></a>
 
 # Chapter 10: Meta, Llama, and the Open-Weight Shock
 
-Assembly source: `manuscript/10-meta-llama-open-weight-shock.md`.
-Assembly note: current main chapter
 
 ## 10. Meta, Llama, and the Open-Weight Shock
 
-<!-- OPENER-DOOR I-0270 CH10 -->
 Meta changes the surface of the race by making powerful weights downloadable objects, which made openness feel practical and governance harder.
-<!-- /OPENER-DOOR I-0270 CH10 -->
 
 ### The Downloadable Object
 
-<!-- FIGURE-CALLOUT F10.01 ch10-fig01 -->
-> [!FIGURE] **F10.01 / A-0030 - Llama Family Open-Weight Map**  
-> Role: Llama family map. Status: selected_pending_render. Rights: ready_svg. Sources: S-0008;S-0023;S-0024;S-0025;S-0111;S-0113.  
-> Caption stub: F10.01: Llama Family Open-Weight Map. Shows Llama family map. Source and blocker notes remain required at placement.  
-> Manifest: `assets/visual_system/llama-family-open-weight-map.svg`. Next gate: Check current license-state caveats.
-<!-- /FIGURE-CALLOUT F10.01 -->
+> [!FIGURE] **F10.01 / A-0030 - Llama Family Open-Weight Map**
+> Caption: F10.01: Llama Family Open-Weight Map.
+> Source note: Sources: S-0008;S-0023;S-0024;S-0025;S-0111;S-0113. Rights path: ready_svg. Story role: Llama family map.
 
 
 The LLM race looked, at first, like a race toward closed interfaces. OpenAI put GPT-3 behind an API, then ChatGPT behind a box. Google had model research, search distribution, and cloud products. Anthropic made assistant behavior part of the brand. A user might touch the model through a chat page, a subscription, a cloud endpoint, or an enterprise bundle. The model itself remained elsewhere: in a datacenter, behind policy, updated on a schedule the user did not control.
@@ -1890,9 +1644,8 @@ That is the open-weight shock. It was not the same as open source in the classic
 
 Figure 10.1 follows the family as a sequence of release objects rather than a rank chart: LLaMA as a research release, Llama 2 as an open foundation and chat-model family, Code Llama as the code-specialized branch, Llama 3 and 3.1 as larger and more polished public families, and Llama 4 as a natively multimodal, mixture-of-experts turn. [S-0111] [S-0023] [S-0025] [S-0024] [S-0113] [S-0008] The point is not that every later model is simply better in every sense. The point is that the release surface changed what other people could do.
 
-Status: promoted chapter draft, pass I-0104, 2026-05-25.
 
-Source note: This chapter uses source IDs from `sources.tsv` plus local source assets captured under `assets/source_docs/meta/`. It treats "open weights" and "open source" as separate claims. It does not infer license freedom, benchmark superiority, deployment scale, fine-tune quality, safety, commercial adoption, or ecosystem size unless a row-level source supports that exact claim.
+Source boundary: This chapter uses source IDs from `sources.tsv` plus local source assets captured under `assets/source_docs/meta/`. It treats "open weights" and "open source" as separate claims. It does not infer license freedom, benchmark superiority, deployment scale, fine-tune quality, safety, commercial adoption, or ecosystem size unless a row-level source supports that exact claim.
 
 Visual integration: Figure 10.1, `assets/visual_system/llama-family-open-weight-map.svg`, sketches the Llama family as a release-and-claim map rather than a capability leaderboard. The row data lives in `data/chapter10_llama_family_tree_i0104.tsv`. Figure 10.2, queued by pass I-0142, should make the control stack explicit: weights, license, training transparency, hosting burden, safety governance, ecosystem work, and benchmark permission move differently.
 
@@ -1910,12 +1663,9 @@ For a book about computing, this matters because software history is full of mom
 
 ### Llama 2 Turns Openness Into Strategy
 
-<!-- FIGURE-CALLOUT F10.02 ch10-fig02 -->
-> [!FIGURE] **F10.02 / A-0112 - Open-Weight Control Stack**  
-> Role: open-weight control stack. Status: selected_pending_render. Rights: ready_svg. Sources: S-0023;S-0024;S-0025;S-0111;S-0112;S-0113;S-0114.  
-> Caption stub: F10.02: Open-Weight Control Stack. Shows open-weight control stack. Source and blocker notes remain required at placement.  
-> Manifest: `assets/visual_system/chapter10-open-weight-control-stack.svg`. Next gate: Prioritize over duplicate Llama screenshots.
-<!-- /FIGURE-CALLOUT F10.02 -->
+> [!FIGURE] **F10.02 / A-0112 - Open-Weight Control Stack**
+> Caption: F10.02: Open-Weight Control Stack.
+> Source note: Sources: S-0023;S-0024;S-0025;S-0111;S-0112;S-0113;S-0114. Rights path: ready_svg. Story role: open-weight control stack.
 
 
 Llama 2 made the strategy explicit. The Llama 2 paper described a collection of pretrained and fine-tuned large language models, ranging across several parameter scales, with chat-optimized variants and safety evaluations. [S-0023] The release also carried a license and acceptable-use structure, which is why the chapter needs careful language. The weights were available, and commercial use was possible under terms, but the release was not permissionless in the way a small MIT-licensed library might be.
@@ -1942,12 +1692,9 @@ This is one reason Meta's strategy cannot be reduced to generosity. Open-weight 
 
 ### Llama 3 Becomes A Herd
 
-<!-- FIGURE-CALLOUT F10.03 ch10-fig03 -->
-> [!FIGURE] **F10.03 / A-0113 - What Moves To The Adopter**  
-> Role: adopter burden transfer. Status: selected_pending_render. Rights: ready_svg. Sources: S-0023;S-0024;S-0114.  
-> Caption stub: F10.03: What Moves To The Adopter. Shows adopter burden transfer. Source and blocker notes remain required at placement.  
-> Manifest: `assets/visual_system/chapter10-adopter-burden-transfer.svg`. Next gate: Use with Chapter 10 prose, not as generic open-source claim.
-<!-- /FIGURE-CALLOUT F10.03 -->
+> [!FIGURE] **F10.03 / A-0113 - What Moves To The Adopter**
+> Caption: F10.03: What Moves To The Adopter.
+> Source note: Sources: S-0023;S-0024;S-0114. Rights path: ready_svg. Story role: adopter burden transfer.
 
 
 Llama 3 moved the family from a striking release to a platform program. Meta's Llama 3 paper used the "herd" language deliberately: not one model, but a family of pretrained and post-trained models, safety models, and multimodal extensions. [S-0024] The name sounds playful, but the strategy was industrial. A model family can cover different sizes, risk levels, deployment targets, and tasks. It can be the basis for chat assistants, local models, research experiments, cloud endpoints, and specialized fine-tunes.
@@ -1974,13 +1721,9 @@ The strongest version of this chapter will eventually include a visual ecosystem
 
 ### The Economics of Giving Away The Machine
 
-<!-- FIGURE-CALLOUT F10.04 ch10-fig04 -->
-> [!FIGURE] **F10.04 / A-0044 - LLaMA launch surface**  
-> Role: LLaMA launch surface. Status: selected_pending_capture. Rights: private_capture_needed. Sources: S-0111.  
-> Caption stub: F10.04: LLaMA launch surface. Shows LLaMA launch surface. Source and blocker notes remain required at placement.  
-> Manifest: `assets/private_use_screenshots/i0112/A-0044_llama_launch_page.png`. Next gate: Capture/hash; block adoption.
-> Real-world candidate (I-0243): Meta open-model launch surface. Story fit: contrasts closed frontier launches with the open-weight distribution move. Quality note: local source-media capture exists; needs page render and legibility check. Gate: rights and attribution pending for Meta page surface.
-<!-- /FIGURE-CALLOUT F10.04 -->
+> [!FIGURE] **F10.04 / A-0044 - LLaMA launch surface**
+> Caption: F10.04: LLaMA launch surface.
+> Source note: Sources: S-0111. Rights path: private_capture_needed. Story role: LLaMA launch surface.
 
 
 Why would Meta release weights at all? The simplest answer, "because openness is good," is too clean. The more interesting answer is that Meta's business incentives differ from a pure API lab's incentives. If a company sells model access by token, closed control can be the product. If a company monetizes attention, advertising, social products, devices, infrastructure efficiency, developer influence, and ecosystem gravity, then releasing weights can be a way to commoditize a rival's margin.
@@ -1994,9 +1737,6 @@ This does not make Meta the anti-OpenAI. The contrast is useful but incomplete. 
 That structure explains why Llama belongs near the center of the book, not in a side note. It changed the bargaining table. Developers could ask whether they needed a frontier API. Enterprises could ask whether local control mattered more than top score. Governments and researchers could ask whether dependence on a few closed providers was acceptable. Hardware companies could optimize around public models. Benchmark communities could test models that everyone could run.
 
 ### The Control Stack
-> Source lane (I-0266): [S-0023] [S-0024] [S-0111] [S-0114] [S-0008]
-> Boundary: Use for open-weight control surfaces; license/current-state claims need row checks.
-
 
 The cleanest way to explain the Llama strategy is not "open versus closed." It is a control stack. At the bottom are model weights: can an outside actor obtain the trained parameters? Above that is the license: what may they legally do with those weights, at what scale, and under what acceptable-use rules? Above that is training transparency: what does the release reveal about data, filtering, post-training, safety evaluations, and known limits? Above that is operational control: who hosts the model, monitors it, updates it, pays for inference, handles abuse, and answers when something fails?
 
@@ -2008,13 +1748,9 @@ That control-stack framing also protects the chapter from two easy mistakes. It 
 
 ### The Open-Weight Caveats
 
-<!-- FIGURE-CALLOUT F10.05 ch10-fig05 -->
-> [!FIGURE] **F10.05 / A-0047 - Llama GitHub surface**  
-> Role: Llama repository surface. Status: selected_pending_capture. Rights: private_capture_needed. Sources: S-0114.  
-> Caption stub: F10.05: Llama GitHub surface. Shows Llama repository surface. Source and blocker notes remain required at placement.  
-> Manifest: `assets/private_use_screenshots/i0112/A-0047_llama_github_repo.png`. Next gate: Capture/hash; mutable repo numbers blocked.
-> Real-world candidate (I-0243): GitHub distribution surface. Story fit: makes open-model release mechanics tangible through repository infrastructure. Quality note: needs current repository screenshot with commit/release context if used. Gate: GitHub UI and repository license review required.
-<!-- /FIGURE-CALLOUT F10.05 -->
+> [!FIGURE] **F10.05 / A-0047 - Llama GitHub surface**
+> Caption: F10.05: Llama GitHub surface.
+> Source note: Sources: S-0114. Rights path: private_capture_needed. Story role: Llama repository surface.
 
 
 The open-weight story has its own temptations. The first is to confuse downloadability with accountability. If a model can run locally, the user gains control, but also inherits responsibility. Someone must patch, monitor, evaluate, secure, and govern the system. A closed provider can impose policy and update behavior centrally; an open-weight model can be forked, modified, and deployed in ways the originator cannot fully supervise.
@@ -2028,9 +1764,6 @@ The fourth temptation is to ignore safety because openness feels virtuous. Meta'
 These caveats do not weaken the chapter. They give it force. Llama mattered because it was not clean. It was a strategic release by a giant platform company, an ecosystem accelerant, a pressure campaign against closed APIs, a boon to researchers and developers, a licensing puzzle, a safety challenge, and a hardware workload. The open-weight shock was not a slogan. It was a new political economy for models.
 
 ### What Llama Changed
-> Source lane (I-0266): [S-0111] [S-0023] [S-0024] [S-0114] [S-0008]
-> Boundary: Use for access/distribution shift; no adoption or safety outcome claim.
-
 
 Llama changed what counted as participation in the LLM race. Before open weights became a central strategy, many outsiders could only prompt, pay, benchmark, or speculate. After Llama, they could adapt. That one verb changed the field.
 
@@ -2050,31 +1783,22 @@ But as a historical event in computing, the change is already visible. The LLM w
 
 ---
 
-<!-- NARRATIVE-FLOW I-0270 CH10-CH11 -->
 Open weights widened the field, but they did not make it simple. The next frontier was multipolar: Chinese labs, papers, repositories, and product surfaces made the race harder to reduce to a Western platform story. [S-0026] [S-0027] [S-0028] [S-0029] [S-0031]
-<!-- /NARRATIVE-FLOW I-0270 CH10-CH11 -->
 
 <a id="chapter-11-the-chinese-frontier"></a>
 
 # Chapter 11: The Chinese Frontier
 
-Assembly source: `manuscript/11-chinese-frontier-open-models.md`.
-Assembly note: current main chapter
 
 ## 11. The Chinese Frontier
 
-<!-- OPENER-DOOR I-0270 CH11 -->
 The Chinese frontier widens the map again, but the chapter treats each lab as evidence, not as a national scoreboard.
-<!-- /OPENER-DOOR I-0270 CH11 -->
 
 ### Too Important To Treat As A Footnote
 
-<!-- FIGURE-CALLOUT F11.01 ch11-fig01 -->
-> [!FIGURE] **F11.01 / A-0031 - China Open-Model Source Map**  
-> Role: China source-permission map. Status: selected_pending_render. Rights: ready_svg. Sources: S-0026;S-0027;S-0028;S-0029;S-0030;S-0031.  
-> Caption stub: F11.01: China Open-Model Source Map. Shows China source-permission map. Source and blocker notes remain required at placement.  
-> Manifest: `assets/visual_system/china-open-model-source-map.svg`. Next gate: Update if later Qwen/DeepSeek sources mature.
-<!-- /FIGURE-CALLOUT F11.01 -->
+> [!FIGURE] **F11.01 / A-0031 - China Open-Model Source Map**
+> Caption: F11.01: China Open-Model Source Map.
+> Source note: Sources: S-0026;S-0027;S-0028;S-0029;S-0030;S-0031. Rights path: ready_svg. Story role: China source-permission map.
 
 
 The American version of the LLM race is easy to narrate: OpenAI lit the interface fuse, Microsoft supplied cloud partnership and distribution, Google defended search and converted research depth into Gemini, Anthropic turned assistant behavior into a brand, Meta pushed open weights, and NVIDIA sold the factories. That story is true enough to be useful. It is also incomplete.
@@ -2087,20 +1811,16 @@ That is why Figure 11.1 is a source map rather than a league table. The safe evi
 
 The chapter's job is different from the Meta chapter's job and different again from the next frontier chapter's job. Meta explains the control stack: what happens when weights, license, hosting, safety, ecosystem, and benchmarks no longer sit cleanly inside one provider. China explains source permission: what can be written from Qwen, DeepSeek, GLM, and Kimi rows today, and what must remain a gap lane until a cutoff-bounded primary source exists. Chapter 12 then widens the aperture to Mistral, xAI, Cohere, AI21, and other labs only when each changes a mechanism. The sequence should feel like a widening map, not like three chapters of names.
 
-Status: promoted chapter draft, pass I-0105, 2026-05-25.
 
-Source note: This chapter uses existing source IDs from `sources.tsv` plus local arXiv captures under `assets/source_docs/china/`. It writes only the China/open-model claims supported by current cutoff-bounded source rows: Qwen2, Qwen3, DeepSeek-V3, DeepSeek-R1, GLM-4, and Kimi k1.5. It does not write Qwen 3.5, Qwen 3.6, DeepSeek V4-era systems, MiniMax, Baidu, Tencent, Xiaomi MiMo, or StepFun as happened releases unless the source-gap table has a supporting row.
+Source boundary: This chapter uses existing source IDs from `sources.tsv` plus local arXiv captures under `assets/source_docs/china/`. It writes only the China/open-model claims supported by current cutoff-bounded source rows: Qwen2, Qwen3, DeepSeek-V3, DeepSeek-R1, GLM-4, and Kimi k1.5. It does not write Qwen 3.5, Qwen 3.6, DeepSeek V4-era systems, MiniMax, Baidu, Tencent, Xiaomi MiMo, or StepFun as happened releases unless the source-gap table has a supporting row.
 
 Visual integration: Figure 11.1, `assets/visual_system/china-open-model-source-map.svg`, maps supported primary-source lanes and unsupported gap lanes. The row data lives in `data/chapter11_china_open_model_source_map_i0105.tsv`.
 
 ### Qwen and the Alibaba Route
 
-<!-- FIGURE-CALLOUT F11.02 ch11-fig02 -->
-> [!FIGURE] **F11.02 / A-0118 - Supported Lanes And Visible Gaps**  
-> Role: supported-vs-gap board. Status: selected_pending_render. Rights: ready_svg. Sources: S-0026;S-0027;S-0028;S-0029;S-0030;S-0031.  
-> Caption stub: F11.02: Supported Lanes And Visible Gaps. Shows supported-vs-gap board. Source and blocker notes remain required at placement.  
-> Manifest: `assets/visual_system/chapter11-supported-vs-gap-source-board.svg`. Next gate: Keep as chapter control surface.
-<!-- /FIGURE-CALLOUT F11.02 -->
+> [!FIGURE] **F11.02 / A-0118 - Supported Lanes And Visible Gaps**
+> Caption: F11.02: Supported Lanes And Visible Gaps.
+> Source note: Sources: S-0026;S-0027;S-0028;S-0029;S-0030;S-0031. Rights path: ready_svg. Story role: supported-vs-gap board.
 
 
 Qwen matters because it gives the chapter a large-company China route that is not simply a copy of OpenAI's product path. Alibaba had cloud infrastructure, developer distribution, commerce data gravity, and a reason to make models part of a broader platform. The Qwen2 technical report provides a supported anchor for the line. The Qwen3 technical report then extends the story into a more explicitly reasoning-aware and multilingual frame. [S-0027]
@@ -2131,13 +1851,9 @@ What remains blocked is just as important. DeepSeek V4-era claims stay out of pr
 
 ### GLM, Kimi, and The Broader Frontier
 
-<!-- FIGURE-CALLOUT F11.03 ch11-fig03 -->
-> [!FIGURE] **F11.03 / A-0048 - Qwen2 source surface**  
-> Role: Qwen2 source surface. Status: selected_pending_capture. Rights: private_capture_needed. Sources: S-0026.  
-> Caption stub: F11.03: Qwen2 source surface. Shows Qwen2 source surface. Source and blocker notes remain required at placement.  
-> Manifest: `assets/private_use_screenshots/i0112/A-0048_qwen2_arxiv_abs.png`. Next gate: Capture/hash; do not rank.
-> Real-world candidate (I-0243): Qwen2 source surface. Story fit: adds China/open-model competition to the visual field without relying on charts alone. Quality note: needs source capture with model identity and release context readable. Gate: source-page permission and attribution pending.
-<!-- /FIGURE-CALLOUT F11.03 -->
+> [!FIGURE] **F11.03 / A-0048 - Qwen2 source surface**
+> Caption: F11.03: Qwen2 source surface.
+> Source note: Sources: S-0026. Rights path: private_capture_needed. Story role: Qwen2 source surface.
 
 
 GLM-4 and Kimi k1.5 keep the chapter from becoming a Qwen-and-DeepSeek duet. The GLM-4 report, from Zhipu AI/THUDM, supports a multilingual and multimodal chat-model lane. Kimi k1.5, from Moonshot AI, supports a reasoning and reinforcement-learning lane. [S-0031] Together they show that China's frontier was not just one open-model family and one efficiency lab.
@@ -2151,9 +1867,6 @@ Moonshot/Kimi also helps the book avoid an overly open-weight-only view of China
 This is why the chapter needs a source-gap table. MiniMax, Baidu, Tencent, Xiaomi MiMo, and StepFun all belong on the mandatory topic spine, but they do not yet have the same local primary-source support in this workspace as Qwen, DeepSeek, GLM, and Kimi. The honest move is not to omit them silently or inflate them with vague prose. The honest move is to list them as required source targets and block final claims until rows exist.
 
 ### A Different Kind Of Openness
-> Source lane (I-0266): [S-0026] [S-0027] [S-0028] [S-0029] [S-0030] [S-0031]
-> Boundary: Use for China/open-frontier source lanes; gap-only names remain quarantined.
-
 
 The Meta chapter used a control-stack frame: weights, license, training transparency, operational control, safety governance, ecosystem activity, and benchmark claims are separate layers. The China chapter needs the same discipline, but with another layer added: cross-border visibility. A model can be technically open and still hard for a non-Chinese reader to understand because documentation, platform pages, license terms, repositories, or product demos are split across languages and platforms. A model can be closed and still important because it shapes a domestic user base or cloud ecosystem.
 
@@ -2167,13 +1880,9 @@ The key phrase for this chapter is source permission. Qwen2 and Qwen3 have permi
 
 ### Hardware Constraints and Model Style
 
-<!-- FIGURE-CALLOUT F11.04 ch11-fig04 -->
-> [!FIGURE] **F11.04 / A-0049 - Qwen3 source surface**  
-> Role: Qwen3 source surface. Status: selected_pending_capture. Rights: private_capture_needed. Sources: S-0027.  
-> Caption stub: F11.04: Qwen3 source surface. Shows Qwen3 source surface. Source and blocker notes remain required at placement.  
-> Manifest: `assets/private_use_screenshots/i0112/A-0049_qwen3_arxiv_abs.png`. Next gate: Capture/hash; Qwen 3.5/3.6 remains blocked.
-> Real-world candidate (I-0243): Qwen3 source surface. Story fit: updates the competition arc from one release to a continuing model line. Quality note: needs a second Qwen surface that is not visually redundant with F11.03. Gate: source-page permission and attribution pending.
-<!-- /FIGURE-CALLOUT F11.04 -->
+> [!FIGURE] **F11.04 / A-0049 - Qwen3 source surface**
+> Caption: F11.04: Qwen3 source surface.
+> Source note: Sources: S-0027. Rights path: private_capture_needed. Story role: Qwen3 source surface.
 
 
 No China LLM chapter can avoid hardware, but hardware should not swallow the chapter. U.S. export controls, local accelerator efforts, cloud capacity, and datacenter constraints shape the environment, but this book should discuss them only where they explain LLM progress. In this pass, the supported model reports already give a narrower technical bridge: efficiency matters.
@@ -2185,9 +1894,6 @@ The danger is to overexplain everything through scarcity. Scarcity can produce c
 Still, the pattern is real enough to matter. The Chinese frontier made efficiency public. It made open release and distillation public. It made reasoning models global. It made multilingual and domestic-product pressure harder to ignore. It forced U.S. readers to stop treating the model race as a private contest among Silicon Valley, Seattle, and London.
 
 ### The Missing Rows Are Part Of The Story
-> Source lane (I-0266): [S-0026] [S-0027] [S-0028] [S-0029] [C-0007]
-> Boundary: Use for evidence-boundary prose; do not write Qwen 3.5/3.6 or DeepSeek V4 as happened releases.
-
 
 The gap lane in Figure 11.1 is not a bureaucratic embarrassment. It is part of the story the book is trying to tell. Frontier AI moves faster than a sober manuscript can safely absorb. Product names circulate before papers. Benchmark screenshots travel before model cards. English summaries simplify Chinese announcements. GitHub repositories, Hugging Face pages, corporate posts, chat-product launches, and API docs disagree in level of detail. If the writer follows the excitement rather than the evidence, the chapter becomes obsolete and possibly false before the ink dries.
 
@@ -2200,17 +1906,10 @@ The same rule applies to version suffixes. Qwen 3.5, Qwen 3.6, and DeepSeek V4-e
 This discipline gives the chapter a rhythm: supported lanes in prose, missing lanes in a table, and explicit handoffs to future passes. It may feel slower than a magazine survey. It is better. A book trying to outlast the release cycle has to make its uncertainty visible.
 
 ### Why The Frontier Became Multipolar
-> Source lane (I-0266): [S-0026] [S-0027] [S-0028] [S-0029] [S-0030] [S-0031] [S-0145] [S-0150]
-> Boundary: Use for plurality of labs/mechanisms; no equal-weight scoreboard.
 
-
-<!-- FIGURE-CALLOUT F11.05 ch11-fig05 -->
-> [!FIGURE] **F11.05 / A-0050 - DeepSeek-R1 source surface**  
-> Role: DeepSeek-R1 source surface. Status: selected_pending_capture. Rights: private_capture_needed. Sources: S-0029.  
-> Caption stub: F11.05: DeepSeek-R1 source surface. Shows DeepSeek-R1 source surface. Source and blocker notes remain required at placement.  
-> Manifest: `assets/private_use_screenshots/i0112/A-0050_deepseek_r1_arxiv_abs.png`. Next gate: Capture/hash; benchmark extraction separate.
-> Real-world candidate (I-0243): DeepSeek paper/source surface. Story fit: turns the efficiency-price shock into a visible research and company artifact. Quality note: local PDF/home capture exists; choose paper first page or official page after legibility test. Gate: arXiv/public-page use and caption wording need review.
-<!-- /FIGURE-CALLOUT F11.05 -->
+> [!FIGURE] **F11.05 / A-0050 - DeepSeek-R1 source surface**
+> Caption: F11.05: DeepSeek-R1 source surface.
+> Source note: Sources: S-0029. Rights path: private_capture_needed. Story role: DeepSeek-R1 source surface.
 
 
 The China chapter also changes how earlier chapters should be read. Scaling laws can sound universal when written from a distance, but model builders do not inhabit the same constraint set. Hardware access, cloud economics, language demand, product distribution, policy pressure, and open-release strategy all change what "scale" means in practice. Qwen, DeepSeek, GLM, and Kimi are not merely additional examples. They show how the same Transformer-era substrate can be pushed through different institutional machinery.
@@ -2232,9 +1931,6 @@ That mesh is uncomfortable for readers who want one answer. It makes procurement
 That is also why this chapter should stay technical before it becomes political. The politics are real, but the model reports show the mechanism: routing, reinforcement learning, distillation, multilingual training, release terms, and inference budgets. Those details are the durable evidence. They make the larger rivalry concrete without asking the reader to accept a mood. A reader should feel the pressure of the global race through the machinery itself, not through a prewritten theory of who is destined to win or lose. That restraint is a form of respect, and also a form of power.
 
 ### What This Chapter Can Say Today
-> Source lane (I-0266): [S-0026] [S-0027] [S-0028] [S-0029] [S-0030] [S-0031] [C-0007]
-> Boundary: Use for explicit permission boundary.
-
 
 This chapter can say that China's LLM ecosystem had several source-supported frontier lanes by the cutoff: Qwen for Alibaba's open/developer model family, DeepSeek for MoE efficiency and reasoning releases, GLM-4 for multilingual/multimodal chat-model research, and Kimi k1.5 for reinforcement-learning reasoning.
 
@@ -2252,17 +1948,13 @@ That is the point. The frontier became too distributed for one narrator's shortc
 
 ---
 
-<!-- NARRATIVE-FLOW I-0270 CH11-CH12 -->
 The frontier then spreads rather than narrows. Europe, xAI, Mistral, Anthropic, and other labs each complicate the idea that one geography, one license model, or one assistant philosophy owns the future. [S-0032] [S-0033] [S-0034] [S-0019] [S-0048]
-<!-- /NARRATIVE-FLOW I-0270 CH11-CH12 -->
 
 <a id="chapter-12-anthropic-claude-and-the-plural-frontier"></a>
 
 # Chapter 12: Anthropic, Claude, and the Plural Frontier
 
-<!-- OPENER-DOOR I-0270 CH12 -->
 The frontier then becomes plural: Claude supplies the behavior-to-action arc while Mistral, xAI, Cohere, and AI21 test other constraints.
-<!-- /OPENER-DOOR I-0270 CH12 -->
 
 ## 12. Anthropic, Claude, and the Plural Frontier
 
@@ -2279,9 +1971,6 @@ That identity began before the Claude product line became a familiar name. Const
 That distinction matters because the frontier race was not only a race to larger models. It was a race to stable behavior under pressure. A model that can summarize, code, reason, search, and use tools is useful only if users can form expectations about it. Will it answer? Will it refuse? Will it ask for clarification? Will it admit uncertainty? Will it follow a system instruction rather than the last user demand? These questions sound soft until the assistant is placed in a workplace, a terminal, a browser, or an API serving thousands of applications. Then behavior becomes infrastructure.
 
 The constitutional frame did not solve alignment. This section must not let the phrase do too much work. A written constitution raises hard questions: who chooses the principles, how conflicts between principles are handled, how the training distribution represents real users, how refusals are evaluated, and how a model behaves outside curated examples. [C-0044] But the frame changed the competitive vocabulary. Anthropic could present Claude as an assistant shaped by principles, not only by scale or leaderboard wins. That made the Claude story both technical and rhetorical: the research program became a product promise.
-
-
-
 
 
 ### Constitutional AI as Product Grammar
@@ -2371,7 +2060,6 @@ The human-facing consequence is simple. A user does not experience Constitutiona
 That is why Anthropic belongs at the front of this chapter rather than in a supplemental file. The company's story connects the book's deepest strands: alignment as product behavior, model families as infrastructure menus, reasoning as a spendable resource, tools as action surfaces, and coding agents as the first domain where language models began to operate inside the machinery that builds other machinery. Claude was not the whole race. It was one of the clearest arguments about where the race was going. The rest of this chapter widens the lens so the reader sees why no single lab, architecture, country, or product surface owned the frontier.
 
 ## The Plural Frontier Outside The Center
-
 
 
 ### The Race Outside the Center
@@ -2472,35 +2160,25 @@ But plural also means the field remained alive. The next token was not being wri
 
 ---
 
-<!-- NARRATIVE-FLOW I-0270 CH12-CH13 -->
 A crowded frontier creates a measurement hunger. Once readers have met many labs and model families, the book has to slow down and ask what a rank, benchmark, or arena score can honestly prove. [S-0035] [S-0036] [S-0037]
-<!-- /NARRATIVE-FLOW I-0270 CH12-CH13 -->
 
 <a id="chapter-13-benchmarks-arenas-and-the-mirage-of-rank"></a>
 
 # Chapter 13: Benchmarks, Arenas, and the Mirage of Rank
 
-<!-- OPENER-DOOR I-0270 CH13 -->
 After so many contenders, the reader naturally wants a crown; this chapter shows why rankings are evidence, not verdicts.
-<!-- /OPENER-DOOR I-0270 CH13 -->
 
-Assembly source: `manuscript/13-model-rankings-appendix.md`.
-Assembly note: filename still says appendix; assembly treats it as main chapter
 
 ## Chapter 13: The Leaderboard Trap
 
-Status: expanded and promoted in pass I-0098 on 2026-05-25.
 
 This chapter section is the book's caution label for model rankings, prices, and "best model" claims. It uses the Chapter 13 visual sequence A-0014, A-0013, and A-0019 as a reader-facing argument: first teach how leaderboard evidence is made, then show one historical rank slice, then show why the price-quality frontier is still blocked. It is not a live May 24, 2026 leaderboard. It is not a crown ceremony. It is an audit trail.
 
 ### The Desire For A Crown
 
-<!-- FIGURE-CALLOUT F13.01 ch13-fig01 -->
-> [!FIGURE] **F13.01 / A-0014 - How Arena Rows Become Rank Claims**  
-> Role: leaderboard methodology. Status: selected_pending_render. Rights: ready_svg. Sources: S-0036;S-0056;S-0057;S-0080.  
-> Caption stub: F13.01: How Arena Rows Become Rank Claims. Shows leaderboard methodology. Source and blocker notes remain required at placement.  
-> Manifest: `assets/visual_system/leaderboard-methodology-flow.svg`. Next gate: Keep before A-0013 in reading order.
-<!-- /FIGURE-CALLOUT F13.01 -->
+> [!FIGURE] **F13.01 / A-0014 - How Arena Rows Become Rank Claims**
+> Caption: F13.01: How Arena Rows Become Rank Claims.
+> Source note: Sources: S-0036;S-0056;S-0057;S-0080. Rights path: ready_svg. Story role: leaderboard methodology.
 
 
 Every era of computing invents a scoreboard. Mainframes had benchmarks. Microprocessors had clock speed, then SPEC scores, then power envelopes. Cloud had uptime, regions, and price sheets. Large language models inherited all of those instincts and added a stranger one: the public wanted one sentence that could name the best mind in the machine world.
@@ -2544,9 +2222,6 @@ This is also why the confidence interval matters. A leaderboard has a rank colum
 The book's house rule is stricter than most product marketing. A rank claim must carry its row universe. A price claim must carry its price basis. A context-window claim must carry its model/version and tier. A benchmark claim must carry its task, harness, split, and date. If a sentence cannot carry those details without collapsing under its own weight, it probably belongs in a chart, table, note, or claim ledger instead of main prose.
 
 ### The Historical Slice
-> Source lane (I-0266): [S-0036] [S-0056] [S-0057] [S-0080]
-> Boundary: Use for dated leaderboard slice; no live rank or universal winner.
-
 
 Only after that machinery is visible should the reader see the sorted model rows.
 
@@ -2572,12 +2247,9 @@ The footnote is not legal padding. It is part of the argument. Readers trained b
 
 ### Why The Best Model Sentence Fails
 
-<!-- FIGURE-CALLOUT F13.02 ch13-fig02 -->
-> [!FIGURE] **F13.02 / A-0013 - LMArena/Arena historical text_style_control leaderboard, latest split, overall category, top twelve rows published 2026-05-19.**  
-> Role: historical leaderboard slice. Status: selected_pending_render. Rights: ready_svg. Sources: S-0080.  
-> Caption stub: F13.02: LMArena/Arena historical text_style_control leaderboard, latest split, overall category, top twelve rows published 2026-05-19.. Shows historical leaderboard slice. Source and blocker notes remain required at placement.  
-> Manifest: `assets/visual_system/lmarena-may19-text-style-control-top12.svg`. Next gate: No live rank; snapshot caption required.
-<!-- /FIGURE-CALLOUT F13.02 -->
+> [!FIGURE] **F13.02 / A-0013 - LMArena/Arena historical text_style_control leaderboard, latest split, overall category, top twelve rows published 2026-05-19.**
+> Caption: F13.02: LMArena/Arena historical text_style_control leaderboard, latest split, overall category, top twelve rows published 2026-05-19..
+> Source note: Sources: S-0080. Rights path: ready_svg. Story role: historical leaderboard slice.
 
 
 The sentence "Claude/OpenAI/Gemini/Grok is the best model" fails because it hides five questions:
@@ -2647,12 +2319,9 @@ That sentence is too long for a tweet and just long enough for truth.
 
 ### Benchmarks Are Not Escape Hatches
 
-<!-- FIGURE-CALLOUT F13.03 ch13-fig03 -->
-> [!FIGURE] **F13.03 / A-0019 - Price-Quality Exclusion Map**  
-> Role: price-quality exclusion map. Status: selected_pending_render. Rights: ready_svg. Sources: C-0046;data/price_quality_join_audit_i0036.tsv.  
-> Caption stub: F13.03: Price-Quality Exclusion Map. Shows price-quality exclusion map. Source and blocker notes remain required at placement.  
-> Manifest: `assets/visual_system/price-quality-exclusion-map.svg`. Next gate: Keep if economics chapter does not repeat it.
-<!-- /FIGURE-CALLOUT F13.03 -->
+> [!FIGURE] **F13.03 / A-0019 - Price-Quality Exclusion Map**
+> Caption: F13.03: Price-Quality Exclusion Map.
+> Source note: Sources: C-0046;data/price_quality_join_audit_i0036.tsv. Rights path: ready_svg. Story role: price-quality exclusion map.
 
 
 If leaderboards are fragile and prices are conditional, benchmark tables can seem like the hard way out. They are not. SWE-bench, LiveCodeBench, and other task-specific evaluations are indispensable because they make the task explicit. They can tell a sharper story about coding agents, repair loops, unit tests, harnesses, and contamination risks than a broad preference arena can. [S-0035] [S-0037]
@@ -2674,9 +2343,6 @@ Dates have the same narrative function. A model-ranking dataset published on 202
 This is the deeper reason the chapter uses A-0019 instead of rushing to the frontier curve. The missing curve is a visible act of honesty. It tells readers that the book knows what they want to see and refuses to show it before the row joins deserve it. That refusal is part of the narrative: by 2026, the frontier was no longer hard to rank because nobody had numbers. It was hard to rank because there were too many numbers, each with a habitat, a timestamp, and a trapdoor.
 
 ### The Editorial Contract
-> Source lane (I-0266): [S-0036] [S-0057] [S-0080] [C-0046]
-> Boundary: Use for rank/price-quality caveats.
-
 
 The model-rankings chapter has one job in the finished book: make the reader more sophisticated before the next claim arrives. It should not slow the story into a database manual. It should give the reader a practiced skepticism, the ability to ask, "Which row? Which date? Which task? Which price basis? Which caveat?"
 
@@ -2718,34 +2384,22 @@ The final sentence of the chapter should make the reader carry the habit forward
 
 ---
 
-<!-- NARRATIVE-FLOW I-0270 CH13-CH14 -->
 The measurement chapter explains why model comparisons are unstable; the hardware chapter asks a deeper question underneath them: what kind of machine and software stack makes any of these comparisons possible? [S-0039] [S-0065] [S-0066]
-<!-- /NARRATIVE-FLOW I-0270 CH13-CH14 -->
 
 <a id="chapter-14-nvidia-and-cuda-the-moat-under-the-moat"></a>
 
 # Chapter 14: NVIDIA and CUDA: The Moat Under the Moat
 
-Assembly source: `manuscript/14-nvidia-cuda-moat.md`.
-Assembly note: current main chapter
 
 ## 14. NVIDIA and CUDA: The Moat Under the Moat
 
-<!-- OPENER-DOOR I-0270 CH14 -->
 Under every benchmark row sits a machine stack, and NVIDIA's moat begins where silicon, software, and developer habit reinforce one another.
-<!-- /OPENER-DOOR I-0270 CH14 -->
 
 ### The Invisible Platform Under The Miracle
-> Source lane (I-0266): [S-0138] [S-0141] [S-0139]
-> Boundary: Use for CUDA/software platform; no exact modern performance claim.
 
-
-<!-- FIGURE-CALLOUT F14.01 ch14-fig01 -->
-> [!FIGURE] **F14.01 / A-0071 - CUDA Stack: The Moat Under The Moat**  
-> Role: CUDA stack. Status: selected_pending_render. Rights: ready_svg. Sources: S-0138;S-0141;S-0142.  
-> Caption stub: F14.01: CUDA Stack: The Moat Under The Moat. Shows CUDA stack. Source and blocker notes remain required at placement.  
-> Manifest: `assets/visual_system/chapter14-cuda-stack.svg`. Next gate: Do not broaden into all semiconductor history.
-<!-- /FIGURE-CALLOUT F14.01 -->
+> [!FIGURE] **F14.01 / A-0071 - CUDA Stack: The Moat Under The Moat**
+> Caption: F14.01: CUDA Stack: The Moat Under The Moat.
+> Source note: Sources: S-0138;S-0141;S-0142. Rights path: ready_svg. Story role: CUDA stack.
 
 
 By the time ChatGPT made the language-model race visible, NVIDIA's advantage looked almost obvious. The world's frontier labs needed GPUs. NVIDIA sold GPUs. The stock chart went vertical. The keynote stage filled with racks, roadmaps, and the phrase "AI factory." It was tempting to narrate the whole thing as hardware destiny.
@@ -2760,23 +2414,16 @@ CUDA did that work over years. It gave the GPU a developer-facing grammar: kerne
 
 That is why the LLM boom did not arrive as a clean contest among chips. It arrived as a contest among stacks.
 
-Status: first promoted draft, pass I-0116, 2026-05-25. Hardware continuity strengthened in pass I-0159, 2026-05-26.
 
-Source note: This chapter uses NVIDIA primary sources and local captures from I-0116. It explains CUDA, Hopper/H100, Blackwell/B200/GB200, NVLink/NVSwitch, cuDNN, and TensorRT-LLM only where they explain LLM progress. Exact performance, throughput, cost, revenue, partner, roadmap, and availability claims remain NVIDIA-attributed or blocked unless independently normalized in later rows.
+Source boundary: This chapter uses NVIDIA primary sources and local captures from I-0116. It explains CUDA, Hopper/H100, Blackwell/B200/GB200, NVLink/NVSwitch, cuDNN, and TensorRT-LLM only where they explain LLM progress. Exact performance, throughput, cost, revenue, partner, roadmap, and availability claims remain NVIDIA-attributed or blocked unless independently normalized in later rows.
 
 Continuity note: Chapter 14 owns the software-and-system moat: CUDA habits, libraries, kernels, accelerator memory, interconnect, and the conversion of model ambition into usable accelerator work. Chapter 15 owns NVIDIA's public AI-factory stagecraft and roadmap framing. Chapter 16 owns independent physical constraints: power, interconnection, cooling, and useful capacity. The handoff should feel like a narrowing doorway, not three separate essays.
 
 ### Parallelism Becomes A Habit
-> Source lane (I-0266): [S-0002] [S-0138] [S-0139] [S-0143]
-> Boundary: Use for architecture-hardware parallelism bridge; speedup claims need rows.
 
-
-<!-- FIGURE-CALLOUT F14.02 ch14-fig02 -->
-> [!FIGURE] **F14.02 / A-0072 - GPU Memory and Interconnect: The Traffic Pattern**  
-> Role: GPU memory/interconnect. Status: selected_pending_render. Rights: ready_svg. Sources: S-0039;S-0139;S-0140;S-0143.  
-> Caption stub: F14.02: GPU Memory and Interconnect: The Traffic Pattern. Shows GPU memory/interconnect. Source and blocker notes remain required at placement.  
-> Manifest: `assets/visual_system/chapter14-gpu-memory-interconnect.svg`. Next gate: Verify legibility at book trim.
-<!-- /FIGURE-CALLOUT F14.02 -->
+> [!FIGURE] **F14.02 / A-0072 - GPU Memory and Interconnect: The Traffic Pattern**
+> Caption: F14.02: GPU Memory and Interconnect: The Traffic Pattern.
+> Source note: Sources: S-0039;S-0139;S-0140;S-0143. Rights path: ready_svg. Story role: GPU memory/interconnect.
 
 
 The GPU's original public identity was images. Games, graphics, shading, triangles, pixels. The deeper capability was parallel arithmetic. Graphics required many small calculations at once; neural networks required many small calculations at once; scientific computing required many small calculations at once. CUDA made the parallel machine available to programmers who wanted computation rather than pictures.
@@ -2793,12 +2440,9 @@ That traffic pattern is why NVIDIA's advantage became more than FLOPS. Raw arith
 
 ### Libraries As Strategy
 
-<!-- FIGURE-CALLOUT F14.03 ch14-fig03 -->
-> [!FIGURE] **F14.03 / A-0073 - Training vs Inference: Two Capacity Problems**  
-> Role: training-vs-inference capacity. Status: selected_pending_render. Rights: ready_svg. Sources: S-0139;S-0142;S-0143.  
-> Caption stub: F14.03: Training vs Inference: Two Capacity Problems. Shows training-vs-inference capacity. Source and blocker notes remain required at placement.  
-> Manifest: `assets/visual_system/chapter14-training-vs-inference-capacity.svg`. Next gate: Keep if not redundant with GTC slides.
-<!-- /FIGURE-CALLOUT F14.03 -->
+> [!FIGURE] **F14.03 / A-0073 - Training vs Inference: Two Capacity Problems**
+> Caption: F14.03: Training vs Inference: Two Capacity Problems.
+> Source note: Sources: S-0139;S-0142;S-0143. Rights path: ready_svg. Story role: training-vs-inference capacity.
 
 
 The moats that matter most are often the ones users do not see.
@@ -2833,13 +2477,9 @@ Hopper also demonstrates the difference between training and inference. Training
 
 ### Blackwell, GB200, And The Rack Becomes The Computer
 
-<!-- FIGURE-CALLOUT F14.04 ch14-fig04 -->
-> [!FIGURE] **F14.04 / A-0133 - Lithography/ASML proxy physical texture.**  
-> Role: lithography/ASML proxy. Status: selected_pending_rights_review. Rights: rights_review_needed. Sources: S-0273;S-0274.  
-> Caption stub: F14.04: Lithography/ASML proxy physical texture.. Shows lithography/ASML proxy. Source and blocker notes remain required at placement.  
-> Manifest: `assets/photo_candidates/i0181/A-0133_lithography_asml_proxy_candidate.txt`. Next gate: Find stronger ASML-machine photo or caption as proxy.
-> Real-world candidate (I-0243): lithography supply-chain texture. Story fit: makes the chip chapter visibly depend on manufacturing systems, not just abstract silicon. Quality note: ASML page capture exists; final should prefer licensed photo or clean source-page crop. Gate: permission or replacement image required for physical photo use.
-<!-- /FIGURE-CALLOUT F14.04 -->
+> [!FIGURE] **F14.04 / A-0133 - Lithography/ASML proxy physical texture.**
+> Caption: F14.04: Lithography/ASML proxy physical texture..
+> Source note: Sources: S-0273;S-0274. Rights path: rights_review_needed. Story role: lithography/ASML proxy.
 
 
 Blackwell made NVIDIA's argument more explicit: the unit of competition was no longer just the chip. It was the system. NVIDIA's Blackwell architecture page frames B200, GB200, and rack-scale designs around generative AI and accelerated computing. [S-0040] [S-0140] GB200 NVL72, in NVIDIA's framing, links Grace CPUs and Blackwell GPUs in a rack-scale design. [S-0140] The important historical signal is the level of abstraction. NVIDIA was not selling only a GPU generation. It was selling a rack as a computer for frontier AI.
@@ -2860,13 +2500,9 @@ This is where Chapter 14 hands forward to the economics chapter. A token has a m
 
 ### The Moat Is Also A Dependency
 
-<!-- FIGURE-CALLOUT F14.05 ch14-fig05 -->
-> [!FIGURE] **F14.05 / A-0134 - Cleanroom manufacturing environment.**  
-> Role: cleanroom photo. Status: selected_pending_rights_review. Rights: rights_review_needed. Sources: S-0275.  
-> Caption stub: F14.05: Cleanroom manufacturing environment.. Shows cleanroom photo. Source and blocker notes remain required at placement.  
-> Manifest: `assets/photo_candidates/i0181/A-0134_fab_cleanroom_candidate.txt`. Next gate: Verify exact license and attribution.
-> Real-world candidate (I-0243): cleanroom environment. Story fit: adds human-scale and environmental context to fabrication capacity. Quality note: needs a high-resolution licensed cleanroom image with non-generic caption. Gate: permission or public-domain/CC replacement required.
-<!-- /FIGURE-CALLOUT F14.05 -->
+> [!FIGURE] **F14.05 / A-0134 - Cleanroom manufacturing environment.**
+> Caption: F14.05: Cleanroom manufacturing environment..
+> Source note: Sources: S-0275. Rights path: rights_review_needed. Story role: cleanroom photo.
 
 
 Moats protect the builder and constrain the customer.
@@ -2890,17 +2526,10 @@ There is a second dependency: people. CUDA created a labor market. Engineers lea
 This is why the word "moat" should be used carefully. A moat can be a protective barrier for a company, but it can also be a canal through which everyone else has to move. NVIDIA's moat made the LLM boom easier to build and harder to diversify. It accelerated the field and concentrated it. Both statements can be true.
 
 ### What The NVIDIA Chapter Must Not Do
-> Source lane (I-0266): [S-0039] [S-0040] [S-0139] [S-0140] [C-0021] [C-0047]
-> Boundary: Use for vendor-attribution guardrail.
 
-
-<!-- FIGURE-CALLOUT F14.06 ch14-fig06 -->
-> [!FIGURE] **F14.06 / A-0136 - Server racks as compute infrastructure.**  
-> Role: server rack photo. Status: selected_pending_rights_review. Rights: rights_review_needed. Sources: S-0277.  
-> Caption stub: F14.06: Server racks as compute infrastructure.. Shows server rack photo. Source and blocker notes remain required at placement.  
-> Manifest: `assets/photo_candidates/i0181/A-0136_gpu_server_rack_candidate.txt`. Next gate: Verify license; block named workload.
-> Real-world candidate (I-0243): server-rack compute texture. Story fit: connects chip supply to deployed compute rooms and systems integration. Quality note: needs non-stock image that matches AI compute context closely enough. Gate: photo license and source specificity pending.
-<!-- /FIGURE-CALLOUT F14.06 -->
+> [!FIGURE] **F14.06 / A-0136 - Server racks as compute infrastructure.**
+> Caption: F14.06: Server racks as compute infrastructure..
+> Source note: Sources: S-0277. Rights path: rights_review_needed. Story role: server rack photo.
 
 
 The book should be hard on NVIDIA because NVIDIA matters.
@@ -2916,9 +2545,6 @@ The chapter's final note should be humility. NVIDIA's stack did not create the T
 In an LLM world, that was enough to become strategic infrastructure.
 
 ### What The Hardware Middle Must Do
-> Source lane (I-0266): [S-0138] [S-0141] [S-0142] [S-0143]
-> Boundary: Use for software/interconnect/inference layer.
-
 
 The next two chapters should not repeat this chapter's moat language. Chapter 15 should show how NVIDIA tried to turn the moat into a public doctrine: inference as workload, tokens as commodity, compute as revenue, factory as metaphor and sales architecture. Chapter 16 should then strip the metaphor back down to physical gates: interconnection, substations, cooling, load concentration, clean-procurement ambiguity, and useful capacity.
 
@@ -2928,31 +2554,22 @@ Those blockers improve the chapter's ending because they define its honest job. 
 
 ---
 
-<!-- NARRATIVE-FLOW I-0270 CH14-CH15 -->
 CUDA and GPUs are the hidden substrate; GTC is the theater where that substrate is sold back to the world as destiny. The next chapter treats NVIDIA's stagecraft as evidence of framing, not proof of fulfillment. [S-0001] [S-0010]
-<!-- /NARRATIVE-FLOW I-0270 CH14-CH15 -->
 
 <a id="chapter-15-gtc-2026-the-ai-factory-sells-itself"></a>
 
 # Chapter 15: GTC 2026: The AI Factory Sells Itself
 
-Assembly source: `manuscript/15-gtc-2026-ai-factory-sells-itself.md`.
-Assembly note: current main chapter
 
 ## 15. GTC 2026: The AI Factory Sells Itself
 
-<!-- OPENER-DOOR I-0270 CH15 -->
 GTC turns that stack into theater, selling the AI factory as a story the market could see before the infrastructure was finished.
-<!-- /OPENER-DOOR I-0270 CH15 -->
 
 ### The Slide That Tried To Rename The Datacenter
 
-<!-- FIGURE-CALLOUT F15.01 ch15-fig01 -->
-> [!FIGURE] **F15.01 / A-0012 - AI Factory Stack**  
-> Role: AI factory stack. Status: selected_pending_render. Rights: ready_svg. Sources: local:data/ai_factory_stack_i0027.tsv.  
-> Caption stub: F15.01: AI Factory Stack. Shows AI factory stack. Source and blocker notes remain required at placement.  
-> Manifest: `assets/visual_system/ai-factory-stack.svg`. Next gate: Anchor before GTC source surfaces.
-<!-- /FIGURE-CALLOUT F15.01 -->
+> [!FIGURE] **F15.01 / A-0012 - AI Factory Stack**
+> Caption: F15.01: AI Factory Stack.
+> Source note: Sources: local:data/ai_factory_stack_i0027.tsv. Rights path: ready_svg. Story role: AI factory stack.
 
 
 The old datacenter was supposed to disappear into metaphor. Users said cloud, as if computation had become weather. Executives said platform, as if the machines were a surface rather than a room. Engineers said cluster, region, accelerator, network, rack. Almost nobody outside the industry wanted to picture the building: concrete, chillers, transformers, fiber, security gates, raised floors, power contracts, and the constant conversion of electricity into answers.
@@ -2969,9 +2586,8 @@ Still, the argument matters. By 2026, the most important LLM systems had become 
 
 The chapter begins there because it keeps the LLM story honest. ChatGPT made intelligence feel like a box you typed into. Coding agents made it feel like a collaborator in a terminal. But at the scale of frontier systems, every answer was also an event in a machine room. A token was not free because language felt free. A token was a tiny expenditure of silicon time, memory movement, network coordination, electricity, and cooling.
 
-Status: expanded in pass I-0102, 2026-05-25. Hardware continuity strengthened in pass I-0159, 2026-05-26.
 
-Source note: This chapter uses source IDs from `sources.tsv`, the GTC slide caption register, and the I-0101 claim-card pack. It treats the GTC 2026 keynote as a staged NVIDIA argument, not as independent proof of performance, availability, partner adoption, deployment scale, revenue, facility performance, or future roadmap delivery. Exact ratios, dates, partner lists, and throughput claims remain blocked under C-0021 and C-0047 until corroborated.
+Source boundary: This chapter uses source IDs from `sources.tsv`, the GTC slide caption register, and the I-0101 claim-card pack. It treats the GTC 2026 keynote as a staged NVIDIA argument, not as independent proof of performance, availability, partner adoption, deployment scale, revenue, facility performance, or future roadmap delivery. Exact ratios, dates, partner lists, and throughput claims remain blocked under C-0021 and C-0047 until corroborated.
 
 Visual sequence after I-0186: open with A-0024, the page 29 AI-factory thesis claim card. Use Figure 15.1, A-0012, `assets/visual_system/ai-factory-stack.svg`, as the explanatory bridge after the opening metaphor. Use A-0027 for the page 49 system-comparison guardrail, A-0028 for roadmap cadence if the spread has room, and A-0029 as the DSX reference-design handoff to Chapter 16. Keep A-0025, A-0026, and A-0145 as reserve or cite-only source surfaces until product-roadmap and token-economics claims are normalized. Keep A-0004, A-0007, A-0008, and A-0009 as private-use provenance handles rather than placing them beside their claim-card duplicates. [S-0001]
 
@@ -2979,12 +2595,9 @@ Continuity note: Chapter 14 explains why NVIDIA could credibly sell systems rath
 
 ### A Keynote As A Sales Funnel For A Worldview
 
-<!-- FIGURE-CALLOUT F15.02 ch15-fig02 -->
-> [!FIGURE] **F15.02 / A-0024 - GTC Page 29: AI Factory Thesis**  
-> Role: GTC AI-factory thesis card. Status: selected_pending_render. Rights: ready_svg. Sources: S-0001.  
-> Caption stub: F15.02: GTC Page 29: AI Factory Thesis. Shows GTC AI-factory thesis card. Source and blocker notes remain required at placement.  
-> Manifest: `assets/visual_system/gtc-page29-ai-factory-thesis-card.svg`. Next gate: Choose card or slide render, not both if crowded.
-<!-- /FIGURE-CALLOUT F15.02 -->
+> [!FIGURE] **F15.02 / A-0024 - GTC Page 29: AI Factory Thesis**
+> Caption: F15.02: GTC Page 29: AI Factory Thesis.
+> Source note: Sources: S-0001. Rights path: ready_svg. Story role: GTC AI-factory thesis card.
 
 
 The GTC 2026 deck did not present one product in isolation. It arranged a worldview. First came the claim that AI had become a platform for enterprises and model builders. Then came the inference inflection: after the training race, the act of serving models to users would become its own scaling problem. Then came the factory language, the hardware roadmaps, the rack-scale comparisons, the reference designs, and the partner slides. [S-0001] [S-0064]
@@ -3015,12 +2628,9 @@ That does not make the platform story false. It makes it strategic. The reader s
 
 ### Roadmaps Are Not Time Machines
 
-<!-- FIGURE-CALLOUT F15.03 ch15-fig03 -->
-> [!FIGURE] **F15.03 / A-0027 - GTC Page 49: System Comparison**  
-> Role: GTC system comparison card. Status: selected_pending_render. Rights: ready_svg. Sources: S-0001;S-0010.  
-> Caption stub: F15.03: GTC Page 49: System Comparison. Shows GTC system comparison card. Source and blocker notes remain required at placement.  
-> Manifest: `assets/visual_system/gtc-page49-system-comparison-card.svg`. Next gate: Keep caption narrow.
-<!-- /FIGURE-CALLOUT F15.03 -->
+> [!FIGURE] **F15.03 / A-0027 - GTC Page 49: System Comparison**
+> Caption: F15.03: GTC Page 49: System Comparison.
+> Source note: Sources: S-0001;S-0010. Rights path: ready_svg. Story role: GTC system comparison card.
 
 
 GTC keynotes are built partly out of products and partly out of time. The 2026 deck linked Blackwell, Rubin, Feynman, Vera, BlueField, Spectrum, ConnectX, NVLink, and rack-scale systems into a cadence. The page 50 roadmap slide is valuable because it captures what NVIDIA was telling the market before May 24, 2026. It is dangerous for exactly the same reason. A roadmap is a claim about direction, not a record of delivery. [S-0001]
@@ -3037,12 +2647,9 @@ The reader should leave this section with a habit: when a chip company shows a t
 
 ### Vera Rubin As A System Promise
 
-<!-- FIGURE-CALLOUT F15.04 ch15-fig04 -->
-> [!FIGURE] **F15.04 / A-0028 - GTC Page 50: Roadmap Cadence**  
-> Role: GTC roadmap cadence card. Status: selected_pending_render. Rights: ready_svg. Sources: S-0001;S-0065;S-0067.  
-> Caption stub: F15.04: GTC Page 50: Roadmap Cadence. Shows GTC roadmap cadence card. Source and blocker notes remain required at placement.  
-> Manifest: `assets/visual_system/gtc-page50-roadmap-card.svg`. Next gate: Block delivery/performance claims.
-<!-- /FIGURE-CALLOUT F15.04 -->
+> [!FIGURE] **F15.04 / A-0028 - GTC Page 50: Roadmap Cadence**
+> Caption: F15.04: GTC Page 50: Roadmap Cadence.
+> Source note: Sources: S-0001;S-0065;S-0067. Rights path: ready_svg. Story role: GTC roadmap cadence card.
 
 
 The Vera Rubin material is where the AI factory pitch becomes most concrete. NVIDIA was not merely naming a GPU. It was selling a rack-scale future: GPUs, CPUs, memory, NVLink, networking, storage movement, software, and facility design arranged as a system for agentic AI and inference-heavy workloads. [S-0001] [S-0010]
@@ -3071,12 +2678,9 @@ This restraint makes the paragraph better, not weaker. The drama is not only in 
 
 ### DSX: The Factory Becomes A Reference Design
 
-<!-- FIGURE-CALLOUT F15.05 ch15-fig05 -->
-> [!FIGURE] **F15.05 / A-0029 - GTC Page 51: DSX Platform Frame**  
-> Role: GTC DSX platform card. Status: selected_pending_render. Rights: ready_svg. Sources: S-0001;S-0066.  
-> Caption stub: F15.05: GTC Page 51: DSX Platform Frame. Shows GTC DSX platform card. Source and blocker notes remain required at placement.  
-> Manifest: `assets/visual_system/gtc-page51-dsx-platform-card.svg`. Next gate: Pair with Chapter 16 handoff.
-<!-- /FIGURE-CALLOUT F15.05 -->
+> [!FIGURE] **F15.05 / A-0029 - GTC Page 51: DSX Platform Frame**
+> Caption: F15.05: GTC Page 51: DSX Platform Frame.
+> Source note: Sources: S-0001;S-0066. Rights path: ready_svg. Story role: GTC DSX platform card.
 
 
 This is where A-0009 and A-0029 belong. NVIDIA presented DSX as an AI Factory Platform spanning chips, systems, facilities, libraries, APIs, software, reference designs, methodologies, simulation, cooling, and power. The phrasing should stay close to the source and remain attributed. The safe historical claim is that NVIDIA publicly positioned DSX as an AI factory reference-design and platform layer by the cutoff, with official release material available in the source ledger. [S-0001] [S-0066]
@@ -3090,17 +2694,10 @@ The chapter should explain why repeatability mattered. Frontier AI capacity was 
 But reference designs are not deployments. A release can prove a product position. It cannot prove adoption scale, customer economics, uptime, facility performance, power availability, or operational success without further evidence. This is why C-0047 stays open. The chapter can use DSX as a public NVIDIA bid to own the factory blueprint. It cannot pretend the blueprint had already become the world.
 
 ### From Tokens To Capital Equipment
-> Source lane (I-0266): [S-0001] [S-0064] [S-0065] [S-0066] [S-0067] [C-0021] [C-0047]
-> Boundary: Use for GTC stagecraft and roadmap attribution; no independent deployment proof.
 
-
-<!-- FIGURE-CALLOUT F15.06 ch15-fig06 -->
-> [!FIGURE] **F15.06 / A-0004 - NVIDIA frames the AI factory as industrial infrastructure: inference is the workload, tokens are the commodity, and compute is revenue.**  
-> Role: GTC page 29 slide render. Status: selected_pending_source_surface_review. Rights: local_ignored_hash_available. Sources: S-0001;local:GTC-2026-Keynote.pdf page 29.  
-> Caption stub: F15.06: NVIDIA frames the AI factory as industrial infrastructure: inference is the workload, tokens are the commodity, and compute is revenue.. Shows GTC page 29 slide render. Source and blocker notes remain required at placement.  
-> Manifest: `assets/gtc_2026/slides/page-029-ai-factories.png`. Next gate: Choose against A-0024; avoid duplication.
-> Real-world candidate (I-0243): GTC keynote slide evidence. Story fit: uses the local keynote asset to show NVIDIA's own AI-factory framing. Quality note: local PDF source exists; needs page crop QA and quote-length/copyright discipline. Gate: presentation excerpt use and attribution review required.
-<!-- /FIGURE-CALLOUT F15.06 -->
+> [!FIGURE] **F15.06 / A-0004 - NVIDIA frames the AI factory as industrial infrastructure: inference is the workload, tokens are the commodity, and compute is revenue.**
+> Caption: F15.06: NVIDIA frames the AI factory as industrial infrastructure: inference is the workload, tokens are the commodity, and compute is revenue..
+> Source note: Sources: S-0001;local:GTC-2026-Keynote.pdf page 29. Rights path: local_ignored_hash_available. Story role: GTC page 29 slide render.
 
 
 The most useful question in the chapter is not whether "AI factory" is perfect language. It is what the phrase reveals.
@@ -3138,13 +2735,9 @@ The claim cards A-0024 through A-0029 exist because this is a visual problem as 
 
 ### The Moat Under The Factory
 
-<!-- FIGURE-CALLOUT F15.07 ch15-fig07 -->
-> [!FIGURE] **F15.07 / A-0106 - NVIDIA's page 29 AI-factory thesis as attributed stagecraft/source rhetoric.**  
-> Role: page 29 hashed source surface. Status: selected_pending_source_surface_review. Rights: local_ignored_hash_available. Sources: S-0001.  
-> Caption stub: F15.07: NVIDIA's page 29 AI-factory thesis as attributed stagecraft/source rhetoric.. Shows page 29 hashed source surface. Source and blocker notes remain required at placement.  
-> Manifest: `assets/gtc_2026/slides/page-029-ai-factories.png`. Next gate: Use as private evidence handle or final source surface after rights review.
-> Real-world candidate (I-0243): AI factory source rhetoric. Story fit: pairs the chapter's infrastructure argument with an attributed NVIDIA surface. Quality note: needs choice between keynote page render and H100/product-page context to avoid duplication. Gate: NVIDIA source-surface use and attribution pending.
-<!-- /FIGURE-CALLOUT F15.07 -->
+> [!FIGURE] **F15.07 / A-0106 - NVIDIA's page 29 AI-factory thesis as attributed stagecraft/source rhetoric.**
+> Caption: F15.07: NVIDIA's page 29 AI-factory thesis as attributed stagecraft/source rhetoric..
+> Source note: Sources: S-0001. Rights path: local_ignored_hash_available. Story role: page 29 hashed source surface.
 
 
 The AI factory pitch would have sounded hollow if NVIDIA were merely selling metal. Its force came from the older moat underneath it: CUDA, libraries, developer habits, model frameworks, optimization work, and the accumulated expectation that serious accelerator software would run first and best on NVIDIA's stack. Chapter 14 should carry the deeper history, but Chapter 15 needs the handoff. A factory is not only equipment. It is a production process. NVIDIA's claim to the factory rested on its claim to the process.
@@ -3164,9 +2757,6 @@ It also helps the reader understand DSX. A reference design is a moat multiplier
 This is the kind of strategic claim the book can make without pretending to know what every customer deployed. It is supported by the structure of NVIDIA's public argument, the official release rows, and the slide sequence. It does not require the book to verify every performance number. The strategy is visible even while the metrics remain attributed.
 
 ### The Hinge Chapter
-> Source lane (I-0266): [S-0001] [S-0064] [S-0083] [S-0084] [S-0085]
-> Boundary: Use for GTC-to-power handoff; separate vendor slides from grid evidence.
-
 
 Chapter 15 is the hinge between two kinds of power. Chapter 14 is about the power of a platform: CUDA, accelerators, memory, networking, software ecosystems, and the way a hardware company became the moat under the LLM moat. Chapter 16 is about electrical and institutional power: substations, interconnection, cooling, load growth, procurement, and useful capacity. Chapter 15 is where NVIDIA tries to make those powers sound like one thing.
 
@@ -3186,20 +2776,14 @@ The phrase was stagecraft, but it named a real pressure, and pressure changes st
 
 ---
 
-<!-- NARRATIVE-FLOW I-0270 CH15-CH16 -->
 The AI factory sounds abstract until it needs a site, a substation, cooling, transformers, and time. After the keynote, the book walks out of the convention hall and into the physical internet. [S-0083] [S-0084] [S-0086] [S-0087]
-<!-- /NARRATIVE-FLOW I-0270 CH15-CH16 -->
 
 <a id="chapter-16-datacenters-power-and-the-physical-internet"></a>
 
 # Chapter 16: Datacenters, Power, and the Physical Internet
 
-<!-- OPENER-DOOR I-0270 CH16 -->
 Outside the keynote, the factory has to find land, power, cooling, transformers, network links, and time.
-<!-- /OPENER-DOOR I-0270 CH16 -->
 
-Assembly source: `manuscript/16-speed-to-power.md`.
-Assembly note: filename remains Speed To Power; assembly maps it to official outline chapter 16
 
 ## Chapter 16 - Speed To Power
 
@@ -3215,12 +2799,9 @@ Place Figure 16.1, A-0015, `assets/visual_system/power-to-token-flow.svg`, near 
 
 ### The Small Share That Became A Local Problem
 
-<!-- FIGURE-CALLOUT F16.01 ch16-fig01 -->
-> [!FIGURE] **F16.01 / A-0015 - Power To Token Flow**  
-> Role: power-to-token flow. Status: selected_pending_render. Rights: ready_svg. Sources: S-0001;S-0039;S-0040;S-0066;S-0083;S-0084;S-0085;S-0086;S-0087;S-0088.  
-> Caption stub: F16.01: Power To Token Flow. Shows power-to-token flow. Source and blocker notes remain required at placement.  
-> Manifest: `assets/visual_system/power-to-token-flow.svg`. Next gate: Keep as physical-internet spine.
-<!-- /FIGURE-CALLOUT F16.01 -->
+> [!FIGURE] **F16.01 / A-0015 - Power To Token Flow**
+> Caption: F16.01: Power To Token Flow.
+> Source note: Sources: S-0001;S-0039;S-0040;S-0066;S-0083;S-0084;S-0085;S-0086;S-0087;S-0088. Rights path: ready_svg. Story role: power-to-token flow.
 
 
 The first trap is scale. Data centres were still a small part of the global electricity system. The International Energy Agency estimated that data centres accounted for roughly 1.5 percent of global electricity consumption in 2024. [S-0083; CH16Q-001] On a global balance sheet, that sounds modest. It can tempt a reader into thinking the whole concern is a culture-war exaggeration, another way for people to yell at the cloud.
@@ -3237,12 +2818,9 @@ The book should resist two easy overreactions. One is to say that data-centre el
 
 ### Geography Beats Averages
 
-<!-- FIGURE-CALLOUT F16.02 ch16-fig02 -->
-> [!FIGURE] **F16.02 / A-0020 - Data-Centre Load Scenarios**  
-> Role: load scenarios. Status: selected_pending_render. Rights: ready_svg. Sources: S-0083;S-0084;S-0085.  
-> Caption stub: F16.02: Data-Centre Load Scenarios. Shows load scenarios. Source and blocker notes remain required at placement.  
-> Manifest: `assets/visual_system/chapter16-data-center-load-scenarios.svg`. Next gate: Ensure forecasts stay labeled.
-<!-- /FIGURE-CALLOUT F16.02 -->
+> [!FIGURE] **F16.02 / A-0020 - Data-Centre Load Scenarios**
+> Caption: F16.02: Data-Centre Load Scenarios.
+> Source note: Sources: S-0083;S-0084;S-0085. Rights path: ready_svg. Story role: load scenarios.
 
 
 The second trap is national averaging. The word "electricity" sounds smooth, as if it were a single national pool. In practice, power is stubbornly local. A data-centre campus attaches to a real grid, not to a metaphor. It needs interconnection studies, substations, transformers, transmission capacity, distribution upgrades, land, cooling, backup, contracts, and local approval. A national demand chart can tell the reader that the pressure is rising. It cannot tell the reader where the next constraint will bite.
@@ -3259,12 +2837,9 @@ Place Figure 16.3, A-0021, `assets/visual_system/chapter16-interconnection-queue
 
 ### The Queue Behind The Plug
 
-<!-- FIGURE-CALLOUT F16.03 ch16-fig03 -->
-> [!FIGURE] **F16.03 / A-0021 - The Interconnection Queue**  
-> Role: interconnection queue. Status: selected_pending_render. Rights: ready_svg. Sources: S-0083;S-0086;S-0087.  
-> Caption stub: F16.03: The Interconnection Queue. Shows interconnection queue. Source and blocker notes remain required at placement.  
-> Manifest: `assets/visual_system/chapter16-interconnection-queue-schematic.svg`. Next gate: Pair with physical grid photo if possible.
-<!-- /FIGURE-CALLOUT F16.03 -->
+> [!FIGURE] **F16.03 / A-0021 - The Interconnection Queue**
+> Caption: F16.03: The Interconnection Queue.
+> Source note: Sources: S-0083;S-0086;S-0087. Rights path: ready_svg. Story role: interconnection queue.
 
 
 Interconnection became one of the hidden verbs of scaling. The Department of Energy's Secretary of Energy Advisory Board reported hyperscale connection requests of 300 to 1,000 megawatts or larger, with one-to-three-year lead times stretching local grids. [S-0087; CH16Q-013; CH16Q-014] The phrase sounds bureaucratic until it is translated into model time. A one-to-three-year lead time is a generation in the life of frontier AI. It can span several model releases, multiple chip refreshes, and a complete change in what customers expect from an assistant.
@@ -3283,12 +2858,9 @@ The old cloud story was "scale hides complexity." The AI infrastructure story is
 
 ### The Fuel Mix Is Not A Press Release
 
-<!-- FIGURE-CALLOUT F16.04 ch16-fig04 -->
-> [!FIGURE] **F16.04 / A-0022 - Cooling And Rack Density Are Constraints, Not Plumbing**  
-> Role: cooling/rack-density note. Status: selected_pending_render. Rights: ready_svg. Sources: S-0087;S-0088.  
-> Caption stub: F16.04: Cooling And Rack Density Are Constraints, Not Plumbing. Shows cooling/rack-density note. Source and blocker notes remain required at placement.  
-> Manifest: `assets/visual_system/chapter16-cooling-rack-density-note.svg`. Next gate: Consider replacing with photo if layout is diagram-heavy.
-<!-- /FIGURE-CALLOUT F16.04 -->
+> [!FIGURE] **F16.04 / A-0022 - Cooling And Rack Density Are Constraints, Not Plumbing**
+> Caption: F16.04: Cooling And Rack Density Are Constraints, Not Plumbing.
+> Source note: Sources: S-0087;S-0088. Rights path: ready_svg. Story role: cooling/rack-density note.
 
 
 The power problem also refused to fit cleanly into a one-note story about fuels. The IEA projected global electricity generation for data centres rising from about 460 terawatt-hours in 2024 to more than 1,000 terawatt-hours in 2030, with renewables meeting nearly half of additional demand in its analysis while natural gas and coal still remained important near term. [S-0083; CH16Q-011; CH16Q-012] This is forecast language. It should not be written as destiny. But it is strong enough to complicate the lazy version of the debate.
@@ -3307,12 +2879,9 @@ For the LLM story, the important point is not to adjudicate all energy politics.
 
 ### Cooling Is Where The Slide Meets The Floor
 
-<!-- FIGURE-CALLOUT F16.05 ch16-fig05 -->
-> [!FIGURE] **F16.05 / A-0023 - Clean Procurement Is Not Physical Supply**  
-> Role: clean procurement vs physical supply. Status: selected_pending_render. Rights: ready_svg. Sources: S-0083;S-0087.  
-> Caption stub: F16.05: Clean Procurement Is Not Physical Supply. Shows clean procurement vs physical supply. Source and blocker notes remain required at placement.  
-> Manifest: `assets/visual_system/chapter16-clean-power-physical-supply.svg`. Next gate: Keep near PPA/clean-power prose.
-<!-- /FIGURE-CALLOUT F16.05 -->
+> [!FIGURE] **F16.05 / A-0023 - Clean Procurement Is Not Physical Supply**
+> Caption: F16.05: Clean Procurement Is Not Physical Supply.
+> Source note: Sources: S-0083;S-0087. Rights path: ready_svg. Story role: clean procurement vs physical supply.
 
 
 Cooling was not a plumbing footnote. It was the place where the thermal reality of chips met the real estate and water reality of a facility. The denser the rack, the less useful it is to talk about chips as isolated components. Power delivery, heat removal, floor loading, water availability, maintenance practices, and facility retrofits become part of the same system. A chip can be impressive in a benchmark and still demand a building that not every operator has.
@@ -3330,17 +2899,10 @@ That negotiation affected model design indirectly. If inference became expensive
 The physical system did not merely support the software system. It fed back into it.
 
 ### From Tokens Back To Land
-> Source lane (I-0266): [S-0083] [S-0084] [S-0085] [S-0088] [S-0175] [S-0176] [S-0177]
-> Boundary: Use for physical infrastructure evidence; no named AI workload from photo candidates.
 
-
-<!-- FIGURE-CALLOUT F16.06 ch16-fig06 -->
-> [!FIGURE] **F16.06 / A-0137 - Data-center hall physical texture.**  
-> Role: data-center hall photo. Status: selected_pending_rights_review. Rights: rights_review_needed. Sources: S-0278.  
-> Caption stub: F16.06: Data-center hall physical texture.. Shows data-center hall photo. Source and blocker notes remain required at placement.  
-> Manifest: `assets/photo_candidates/i0181/A-0137_data_center_hall_candidate.txt`. Next gate: Verify original license trail.
-> Real-world candidate (I-0243): data-center hall texture. Story fit: makes the energy chapter start from physical halls rather than invisible demand curves. Quality note: local Wikimedia candidate exists but must be checked for license, resolution, and crop. Gate: license, attribution, and suitability pending.
-<!-- /FIGURE-CALLOUT F16.06 -->
+> [!FIGURE] **F16.06 / A-0137 - Data-center hall physical texture.**
+> Caption: F16.06: Data-center hall physical texture..
+> Source note: Sources: S-0278. Rights path: rights_review_needed. Story role: data-center hall photo.
 
 
 The most honest version of the "AI factory" is not a slogan. It is a stack of dependencies. At the top are tokens, assistants, code agents, search answers, customer-support chats, synthetic data, and internal enterprise workflows. Beneath them are inference servers, training clusters, GPUs, CPUs, memory, networking, storage, schedulers, monitoring, and security. Beneath those are racks, chillers, liquid loops, generators, switchgear, substations, transmission, water, land, contracts, and local permissions. The stack is only as fast as the slowest layer that matters at that moment. It is not yet a quantified energy-per-token model. [CH16Q-018]
@@ -3358,17 +2920,10 @@ This is where the chapter should carry a bit of human tension without inventing 
 The physical bottleneck therefore became a narrative bottleneck. It slowed the myth of frictionless intelligence. It made the reader ask what an LLM really was. Not only a neural network. Not only a product. Not only a set of weights, prompts, and tools. A frontier LLM was also an operating claim on a machine room, a power system, and a geography.
 
 ### Useful Capacity Is Not Nameplate Capacity
-> Source lane (I-0266): [S-0084] [S-0085] [S-0086] [S-0087] [S-0088]
-> Boundary: Use for measured/scenario/advisory/survey separation.
 
-
-<!-- FIGURE-CALLOUT F16.07 ch16-fig07 -->
-> [!FIGURE] **F16.07 / A-0139 - Grid interconnection texture.**  
-> Role: substation photo. Status: selected_pending_rights_review. Rights: rights_review_needed. Sources: S-0280.  
-> Caption stub: F16.07: Grid interconnection texture.. Shows substation photo. Source and blocker notes remain required at placement.  
-> Manifest: `assets/photo_candidates/i0181/A-0139_substation_candidate.txt`. Next gate: Verify license; no site-service claim.
-> Real-world candidate (I-0243): grid interconnection texture. Story fit: moves the reader from compute demand to the bottleneck of grid connection. Quality note: needs specific grid/interconnection image, not generic transmission-line wallpaper. Gate: photo source and license pending.
-<!-- /FIGURE-CALLOUT F16.07 -->
+> [!FIGURE] **F16.07 / A-0139 - Grid interconnection texture.**
+> Caption: F16.07: Grid interconnection texture..
+> Source note: Sources: S-0280. Rights path: rights_review_needed. Story role: substation photo.
 
 
 The hardest infrastructure lesson is that nominal capacity and useful capacity are not the same thing. A campus may have a headline megawatt figure. A rack may have a design density. A model may have a context window, a price sheet, and an advertised latency target. But the useful capacity for an LLM product depends on whether all the layers line up at the same time: grid connection, facility readiness, cooling, accelerators, networking, software scheduling, model mix, customer demand, reliability targets, and the shape of the workload.
@@ -3391,13 +2946,9 @@ For the reader, this section should have a practical aftertaste. When a company 
 
 ### What This Chapter Must Not Claim
 
-<!-- FIGURE-CALLOUT F16.08 ch16-fig08 -->
-> [!FIGURE] **F16.08 / A-0141 - Gas turbine speed-to-power texture.**  
-> Role: gas turbine photo. Status: selected_pending_rights_review. Rights: rights_review_needed. Sources: S-0282.  
-> Caption stub: F16.08: Gas turbine speed-to-power texture.. Shows gas turbine photo. Source and blocker notes remain required at placement.  
-> Manifest: `assets/photo_candidates/i0181/A-0141_gas_turbine_candidate.txt`. Next gate: Verify license and caption as generic.
-> Real-world candidate (I-0243): gas turbine speed-to-power texture. Story fit: visualizes the speed tradeoff in power procurement for compute campuses. Quality note: needs credible plant/turbine image with dateable context. Gate: photo source and license pending.
-<!-- /FIGURE-CALLOUT F16.08 -->
+> [!FIGURE] **F16.08 / A-0141 - Gas turbine speed-to-power texture.**
+> Caption: F16.08: Gas turbine speed-to-power texture..
+> Source note: Sources: S-0282. Rights path: rights_review_needed. Story role: gas turbine photo.
 
 
 The chapter's power comes from specificity, so its exclusions should remain visible.
@@ -3417,16 +2968,10 @@ It must not quantify energy per token. The current visual package is a mechanism
 Those exclusions keep the chapter from becoming either boosterish or scolding. The prose can be dramatic because the mechanism is dramatic. It does not need to inflate the claims.
 
 ### The Race For The Right To Plug In
-> Source lane (I-0266): [S-0083] [S-0084] [S-0085] [S-0086] [S-0087]
-> Boundary: Use for interconnection/power planning; no universal grid-burden number.
 
-
-<!-- FIGURE-CALLOUT F16.09 ch16-fig09 -->
-> [!FIGURE] **F16.09 / A-0143 - Nuclear/cooling tower power texture.**  
-> Role: nuclear/cooling tower photo. Status: selected_pending_rights_review. Rights: rights_review_needed. Sources: S-0284.  
-> Caption stub: F16.09: Nuclear/cooling tower power texture.. Shows nuclear/cooling tower photo. Source and blocker notes remain required at placement.  
-> Manifest: `assets/photo_candidates/i0181/A-0143_nuclear_cooling_tower_candidate.txt`. Next gate: Verify license and attribution.
-<!-- /FIGURE-CALLOUT F16.09 -->
+> [!FIGURE] **F16.09 / A-0143 - Nuclear/cooling tower power texture.**
+> Caption: F16.09: Nuclear/cooling tower power texture..
+> Source note: Sources: S-0284. Rights path: rights_review_needed. Story role: nuclear/cooling tower photo.
 
 
 By the end of the chapter, the reader should see why the phrase "AI infrastructure" was too soft. Infrastructure was not just a cost center below the story. It was a source of timing, constraint, strategy, and bargaining power. The lab with a clever model still needed capacity. The cloud with capacity still needed power. The utility with power still needed equipment and planning. The community with land still needed a reason to accept the trade. The chip with performance still needed a rack that could cool it. The rack still needed a building. The building still needed a grid.
@@ -3443,34 +2988,22 @@ That is why Chapter 16 belongs after the model and product chapters rather than 
 
 ---
 
-<!-- NARRATIVE-FLOW I-0270 CH16-CH17 -->
 Power is one input to the LLM machine; data is the other. Once the book has followed tokens to substations, it has to follow them backward into the libraries, crawls, filters, and tokenizers that feed training. [S-0040] [S-0041] [S-0042] [S-0043]
-<!-- /NARRATIVE-FLOW I-0270 CH16-CH17 -->
 
 <a id="chapter-17-data-tokens-and-the-library-problem"></a>
 
 # Chapter 17: Data, Tokens, and the Library Problem
 
-Assembly source: `manuscript/17-data-tokens-library-problem.md`.
-Assembly note: current main chapter
 
 ## 17. Data, Tokens, and the Library Problem
 
-<!-- OPENER-DOOR I-0270 CH17 -->
 Power is only half the supply chain; the other half is language itself, collected, filtered, tokenized, remembered, and disputed.
-<!-- /OPENER-DOOR I-0270 CH17 -->
 
 ### The Library Before the Factory
-> Source lane (I-0266): [S-0042] [S-0153] [S-0154] [S-0155] [S-0156] [S-0157]
-> Boundary: Use for tokenization and corpus provenance; not a proprietary-corpus claim.
 
-
-<!-- FIGURE-CALLOUT F17.01 ch17-fig01 -->
-> [!FIGURE] **F17.01 / A-0064 - Tokenization Ladder**  
-> Role: tokenization ladder. Status: selected_pending_render. Rights: ready_svg. Sources: S-0043;S-0153;S-0154.  
-> Caption stub: F17.01: Tokenization Ladder. Shows tokenization ladder. Source and blocker notes remain required at placement.  
-> Manifest: `assets/visual_system/chapter17-tokenization-ladder.svg`. Next gate: Verify tokenizer caveats stay visible.
-<!-- /FIGURE-CALLOUT F17.01 -->
+> [!FIGURE] **F17.01 / A-0064 - Tokenization Ladder**
+> Caption: F17.01: Tokenization Ladder.
+> Source note: Sources: S-0043;S-0153;S-0154. Rights path: ready_svg. Story role: tokenization ladder.
 
 
 Before the AI factory could turn electricity into tokens, someone had to decide what counted as text.
@@ -3483,9 +3016,8 @@ This chapter sits after datacenters because the physical story is incomplete wit
 
 The library problem has three layers. First, language must be broken into pieces the machine can handle. Second, a corpus must be assembled from sources whose provenance, quality, duplication, and permissions are uneven. Third, the model must be trained without pretending that statistical exposure is the same thing as permission, knowledge, truth, or memory.
 
-Status: first promoted draft, pass I-0121, 2026-05-26. Data prose-beauty pass I-0160, 2026-05-26.
 
-Source note: This chapter uses existing source rows plus the I-0121 data/token source pack. It treats tokenization, web corpora, filtering, deduplication, memorization, and data curation as supply-chain mechanisms for LLMs, not as proof that any frontier lab disclosed its full training set. It blocks exact corpus composition, copyright/legal conclusions, contamination prevalence, memorization rates, and synthetic-data share claims until row-level extraction licenses them.
+Source boundary: This chapter uses existing source rows plus the I-0121 data/token source pack. It treats tokenization, web corpora, filtering, deduplication, memorization, and data curation as supply-chain mechanisms for LLMs, not as proof that any frontier lab disclosed its full training set. It blocks exact corpus composition, copyright/legal conclusions, contamination prevalence, memorization rates, and synthetic-data share claims until row-level extraction licenses them.
 
 Visual note: Figures A-0064 through A-0067 should make the supply chain visible: tokenization ladder, web-corpus filter funnel, data-mixture control board, and memorization/contamination blocker map. Their job is not decoration. They keep the reader from mistaking "data" for one substance.
 
@@ -3507,12 +3039,9 @@ The phrase "next token" in the book's title is partly poetic. It is also literal
 
 ### Common Crawl and the Dirty Ocean
 
-<!-- FIGURE-CALLOUT F17.02 ch17-fig02 -->
-> [!FIGURE] **F17.02 / A-0065 - Web Corpus Filter Funnel**  
-> Role: web-corpus filter funnel. Status: selected_pending_render. Rights: ready_svg. Sources: S-0155;S-0156;S-0159;S-0160.  
-> Caption stub: F17.02: Web Corpus Filter Funnel. Shows web-corpus filter funnel. Source and blocker notes remain required at placement.  
-> Manifest: `assets/visual_system/chapter17-web-corpus-filter-funnel.svg`. Next gate: Block closed-corpus composition claims.
-<!-- /FIGURE-CALLOUT F17.02 -->
+> [!FIGURE] **F17.02 / A-0065 - Web Corpus Filter Funnel**
+> Caption: F17.02: Web Corpus Filter Funnel.
+> Source note: Sources: S-0155;S-0156;S-0159;S-0160. Rights path: ready_svg. Story role: web-corpus filter funnel.
 
 
 Once the world has been chopped into tokens, the next question is which tokens enter the diet.
@@ -3561,12 +3090,9 @@ The echo problem also affects ordinary use. If a model has seen many near-identi
 
 ### Long Context Is Not the Whole Library
 
-<!-- FIGURE-CALLOUT F17.03 ch17-fig03 -->
-> [!FIGURE] **F17.03 / A-0066 - Data Mixture Control Board**  
-> Role: data mixture control board. Status: selected_pending_render. Rights: ready_svg. Sources: S-0042;S-0157;S-0158;S-0159;S-0163.  
-> Caption stub: F17.03: Data Mixture Control Board. Shows data mixture control board. Source and blocker notes remain required at placement.  
-> Manifest: `assets/visual_system/chapter17-data-mixture-control-board.svg`. Next gate: Keep schematic, not measured shares.
-<!-- /FIGURE-CALLOUT F17.03 -->
+> [!FIGURE] **F17.03 / A-0066 - Data Mixture Control Board**
+> Caption: F17.03: Data Mixture Control Board.
+> Source note: Sources: S-0042;S-0157;S-0158;S-0159;S-0163. Rights path: ready_svg. Story role: data mixture control board.
 
 
 By 2024, another temptation had appeared: perhaps the data problem could be dodged by making the context window enormous. If a model can read a million tokens, why worry so much about what was in the weights? Put the user's documents into the prompt. Let the model read the case file, repository, notebook, inbox, or research archive at inference time.
@@ -3594,16 +3120,10 @@ Memorization connects to privacy, copyright, benchmark integrity, and product tr
 The clean sentence is this: LLMs do not remember like people, but they can reproduce like machines.
 
 ### Synthetic Data and the Second Library
-> Source lane (I-0266): [S-0160] [S-0161] [S-0162] [S-0163]
-> Boundary: Use for data quality/memorization/evaluation tension; no universal recipe.
 
-
-<!-- FIGURE-CALLOUT F17.04 ch17-fig04 -->
-> [!FIGURE] **F17.04 / A-0067 - Memorization and Contamination Blocker Map**  
-> Role: memorization blocker map. Status: selected_pending_render. Rights: ready_svg. Sources: S-0160;S-0161;S-0162.  
-> Caption stub: F17.04: Memorization and Contamination Blocker Map. Shows memorization blocker map. Source and blocker notes remain required at placement.  
-> Manifest: `assets/visual_system/chapter17-memorization-contamination-blocker-map.svg`. Next gate: Keep prevalence claims blocked.
-<!-- /FIGURE-CALLOUT F17.04 -->
+> [!FIGURE] **F17.04 / A-0067 - Memorization and Contamination Blocker Map**
+> Caption: F17.04: Memorization and Contamination Blocker Map.
+> Source note: Sources: S-0160;S-0161;S-0162. Rights path: ready_svg. Story role: memorization blocker map.
 
 
 As the obvious web became more exhausted, more contested, or more heavily filtered, the frontier turned toward another library: model-generated data.
@@ -3619,9 +3139,6 @@ The data story therefore bends toward agency. A tool-using model can create new 
 This is the moment to resist doom-loop prose. Synthetic data is neither automatic collapse nor automatic salvation. It is another curation problem. The question is not whether the text came from a human or a model. The question is what process created it, what errors it contains, what tasks it represents, what diversity it preserves, what labels it carries, and how the training recipe uses it.
 
 ### The Data Moat Is A Process
-> Source lane (I-0266): [S-0156] [S-0158] [S-0159] [S-0160] [S-0163]
-> Boundary: Use for curation/process moat; no legal certainty.
-
 
 It is tempting to call data a moat. Sometimes it is. Proprietary user interactions, licensed archives, code repositories, enterprise documents, search logs, product telemetry, and high-quality human feedback can differentiate a system. But for LLMs, data is rarely a static wall. It is a process.
 
@@ -3634,9 +3151,6 @@ The data chapter's final claim is modest and central: LLMs are not trained on la
 The next chapter turns that last move into machinery. Retrieval, function calling, connectors, and agents are not departures from the data problem. They are what happens when the data problem becomes live.
 
 ### What This Chapter Still Refuses
-> Source lane (I-0266): [S-0156] [S-0161] [S-0162] [S-0163]
-> Boundary: Use for explicit corpus-ignorance boundary.
-
 
 The final discipline is to keep the missing rows visible. Exact tokenizer and vocabulary-size examples belong only where a figure has row-level support. Model-specific synthetic-data shares need a source pack before they become prose. Copyright and licensing belong here as provenance and trust constraints unless a later legal source pack licenses actual legal findings. Proprietary corpus composition remains blocked unless a paper, card, filing, audit, or lab disclosure makes the claim specific.
 
@@ -3646,31 +3160,22 @@ Chapter 17 also has to keep shaking hands with its neighbors. Chapter 13 owns be
 
 ---
 
-<!-- NARRATIVE-FLOW I-0270 CH17-CH18 -->
 Data gives a model memory-shaped material, but tools change what the model can do with a prompt. The next step is outward: retrieval, APIs, function calls, and action boundaries. [S-0038] [S-0052] [S-0053] [S-0055] [S-0109]
-<!-- /NARRATIVE-FLOW I-0270 CH17-CH18 -->
 
 <a id="chapter-18-tools-retrieval-and-the-agent-turn"></a>
 
 # Chapter 18: Tools, Retrieval, and the Agent Turn
 
-Assembly source: `manuscript/18-tools-retrieval-agent-turn.md`.
-Assembly note: current main chapter
 
 ## 18. Tools, Retrieval, and the Agent Turn
 
-<!-- OPENER-DOOR I-0270 CH18 -->
 Tools move the model outward, turning answers into actions that need context, permissions, observations, and rollback.
-<!-- /OPENER-DOOR I-0270 CH18 -->
 
 ### The Text Box Grows Hands
 
-<!-- FIGURE-CALLOUT F18.01 ch18-fig01 -->
-> [!FIGURE] **F18.01 / A-0060 - RAG Evidence Conveyor**  
-> Role: RAG evidence conveyor. Status: selected_pending_render. Rights: ready_svg. Sources: S-0038.  
-> Caption stub: F18.01: RAG Evidence Conveyor. Shows RAG evidence conveyor. Source and blocker notes remain required at placement.  
-> Manifest: `assets/visual_system/chapter18-rag-evidence-conveyor.svg`. Next gate: Do not duplicate trust chapter.
-<!-- /FIGURE-CALLOUT F18.01 -->
+> [!FIGURE] **F18.01 / A-0060 - RAG Evidence Conveyor**
+> Caption: F18.01: RAG Evidence Conveyor.
+> Source note: Sources: S-0038. Rights path: ready_svg. Story role: RAG evidence conveyor.
 
 
 The original ChatGPT miracle was still mostly a conversation. The model answered, refused, rewrote, summarized, translated, improvised, and explained. It could feel like a universal machine because language is the interface to so many human activities. But under the product glamour, the system was usually doing one old thing with astonishing fluency: receiving tokens and returning tokens.
@@ -3683,19 +3188,12 @@ This is the agent turn. It is easy to overstate and easy to miss. Overstated, it
 
 The result was not one invention. It was a stack: retrieval, tool description, action selection, observation, memory-like context, permissions, evaluation, and human review. [S-0038] [S-0044] [S-0055] Chapter 20 will follow that stack into coding, where the artifact is a diff and the judge can be a test. This chapter stays one level more general. It asks how the chat box became a tool runner.
 
-Status: promoted continuity draft, pass I-0161, 2026-05-26. Source note: This chapter uses existing source IDs from `sources.tsv` plus the I-0115 tools/agents source pack. It treats retrieval, function calling, computer use, MCP, and planner/executor loops as tool-control surfaces, not as proof of reliable autonomy. It blocks adoption, productivity, safety, and broad "agents can do work" claims until separate benchmark, deployment, and incident rows exist.
 
 ### Retrieval: Memory Without Memory
-> Source lane (I-0266): [S-0038] [S-0135]
-> Boundary: Use for RAG and reasoning/action lineage; no product reliability claim.
 
-
-<!-- FIGURE-CALLOUT F18.02 ch18-fig02 -->
-> [!FIGURE] **F18.02 / A-0061 - Function-Call Boundary**  
-> Role: function-call boundary. Status: selected_pending_render. Rights: ready_svg. Sources: S-0044;S-0134.  
-> Caption stub: F18.02: Function-Call Boundary. Shows function-call boundary. Source and blocker notes remain required at placement.  
-> Manifest: `assets/visual_system/chapter18-function-call-boundary.svg`. Next gate: Pair with API docs screenshot.
-<!-- /FIGURE-CALLOUT F18.02 -->
+> [!FIGURE] **F18.02 / A-0061 - Function-Call Boundary**
+> Caption: F18.02: Function-Call Boundary.
+> Source note: Sources: S-0044;S-0134. Rights path: ready_svg. Story role: function-call boundary.
 
 
 The simplest way to make an LLM look grounded is not to change the model at all. Put better evidence in its prompt.
@@ -3717,9 +3215,6 @@ The most honest visual for this chapter is not a glowing brain connected to a da
 This also keeps the boundary with the next two chapters clean. Retrieval is not yet coding, and it is not yet a terminal agent. It is the first lesson in mediated agency: the answer depends on what the system chose to bring into the room.
 
 ### Function Calling: The Model As Router
-> Source lane (I-0266): [S-0044] [S-0136] [S-0055]
-> Boundary: Use for tools/interface routing; no arbitrary-tool mastery claim.
-
 
 Retrieval gave the model more to read. Function calling gave it something to ask others to do.
 
@@ -3737,12 +3232,9 @@ The strongest prose here should make the machinery feel ordinary. The agent turn
 
 ### Plugins, Computers, Connectors
 
-<!-- FIGURE-CALLOUT F18.03 ch18-fig03 -->
-> [!FIGURE] **F18.03 / A-0062 - Agent Loop as Harness**  
-> Role: agent loop as harness. Status: selected_pending_render. Rights: ready_svg. Sources: S-0055;S-0109;S-0135;S-0136.  
-> Caption stub: F18.03: Agent Loop as Harness. Shows agent loop as harness. Source and blocker notes remain required at placement.  
-> Manifest: `assets/visual_system/chapter18-agent-loop-harness.svg`. Next gate: Keep distinct from Chapter 20.
-<!-- /FIGURE-CALLOUT F18.03 -->
+> [!FIGURE] **F18.03 / A-0062 - Agent Loop as Harness**
+> Caption: F18.03: Agent Loop as Harness.
+> Source note: Sources: S-0055;S-0109;S-0135;S-0136. Rights path: ready_svg. Story role: agent loop as harness.
 
 
 ChatGPT plugins made the public version of the shift visible. OpenAI framed plugins in 2023 as tools designed for language models, with examples such as browsing, code execution, retrieval, and third-party services. [S-0044] Whatever happened later to that exact product surface, the historical signal was clear: the assistant would not remain sealed inside a chat transcript. It would become a client for a tool ecosystem.
@@ -3759,12 +3251,9 @@ This is why coding agents arrived as one of the cleanest agent case studies. Cod
 
 ### Reasoning Plus Acting
 
-<!-- FIGURE-CALLOUT F18.04 ch18-fig04 -->
-> [!FIGURE] **F18.04 / A-0063 - Prompt Injection Boundary**  
-> Role: prompt-injection boundary. Status: selected_pending_render. Rights: ready_svg. Sources: S-0137.  
-> Caption stub: F18.04: Prompt Injection Boundary. Shows prompt-injection boundary. Source and blocker notes remain required at placement.  
-> Manifest: `assets/visual_system/chapter18-prompt-injection-boundary.svg`. Next gate: Keep near untrusted-retrieval prose.
-<!-- /FIGURE-CALLOUT F18.04 -->
+> [!FIGURE] **F18.04 / A-0063 - Prompt Injection Boundary**
+> Caption: F18.04: Prompt Injection Boundary.
+> Source note: Sources: S-0137. Rights path: ready_svg. Story role: prompt-injection boundary.
 
 
 The research literature found another way to name the shift. ReAct, published as an ICLR 2023 paper, explored interleaving reasoning traces and task-specific actions so that language models could reason, act, observe, and update their plans. [S-0135] Toolformer studied whether a language model could learn to use external tools through self-supervised examples. [S-0136] These papers did not settle the engineering of production agents, but they helped give the field a vocabulary: the model could think in text, act through a tool, receive an observation, and continue.
@@ -3789,9 +3278,6 @@ That fragility is not a side issue. It defines the limits of the agent turn. LLM
 The prize-book version of this chapter should let readers feel both emotions at once. The agent loop is a genuine expansion of what LLM systems can do. It is also a multiplication of failure surfaces.
 
 ### Prompt Injection: The Instruction/Data Problem Returns
-> Source lane (I-0266): [S-0137] [S-0038] [S-0135]
-> Boundary: Use for risk framing; no prevalence or mitigation claim.
-
 
 The most elegant failure has a simple form: "Ignore the previous instructions."
 
@@ -3809,13 +3295,9 @@ The best agent systems will act like paranoid bureaucrats. They will isolate unt
 
 ### The Harness Is The Product
 
-<!-- FIGURE-CALLOUT F18.05 ch18-fig05 -->
-> [!FIGURE] **F18.05 / A-0124 - ChatGPT Tool Surface**  
-> Role: ChatGPT tools/GPTs surface. Status: selected_pending_capture. Rights: private_capture_needed. Sources: S-0044;S-0045;S-0046.  
-> Caption stub: F18.05: ChatGPT Tool Surface. Shows ChatGPT tools/GPTs surface. Source and blocker notes remain required at placement.  
-> Manifest: `assets/private_use_screenshots/i0180/A-0124_chatgpt_tools_gpts_product_surface.png`. Next gate: Capture/hash; block adoption.
-> Real-world candidate (I-0243): tool-enabled ChatGPT surface. Story fit: shows the interface shift from text box to tool-using workbench. Quality note: needs current UI capture with tool affordance visible and private content excluded. Gate: OpenAI UI terms, capture provenance, and no-private-data check pending.
-<!-- /FIGURE-CALLOUT F18.05 -->
+> [!FIGURE] **F18.05 / A-0124 - ChatGPT Tool Surface**
+> Caption: F18.05: ChatGPT Tool Surface.
+> Source note: Sources: S-0044;S-0045;S-0046. Rights path: private_capture_needed. Story role: ChatGPT tools/GPTs surface.
 
 
 By the time the field began saying "agents" constantly, the word had become almost too broad to use. It could mean a chat assistant with search. It could mean an API wrapper with tools. It could mean a browser automation demo. It could mean a coding terminal. It could mean a multi-step workflow engine. It could mean a benchmark scaffold that quietly did much of the work around the model.
@@ -3835,9 +3317,6 @@ That last sentence is not a joke. In the agent era, prose became infrastructure.
 Chapter 19 takes that idea into software itself. In ordinary tools, prose tells the model how to call another system. In code, prose and machinery begin to share a workbench: comments, tests, issue descriptions, stack traces, function names, and shell output all become language the model can use to propose changes. The agent turn made the model a controller. Code made the controller's target unusually legible.
 
 ### What Changed, And What Did Not
-> Source lane (I-0266): [S-0038] [S-0135] [S-0136] [S-0137] [S-0055]
-> Boundary: Use for mechanism summary and boundaries.
-
 
 The agent turn changed the felt boundary of computing. Before, a user asked a model for words. After, a user could ask a model to help operate a system. That is the bridge from ChatGPT to Claude Code, from the text box to the terminal, from answer generation to supervised work.
 
@@ -3851,31 +3330,22 @@ The remaining editorial work is no longer a chapter-ending to-do list. It belong
 
 ---
 
-<!-- NARRATIVE-FLOW I-0270 CH18-CH19 -->
 General tool use shows the harness; code shows the first domain where language becomes executable and testable. The agent turn becomes sharper when the output must compile, run, and survive review. [S-0035] [S-0037] [S-0056] [S-0057] [S-0058]
-<!-- /NARRATIVE-FLOW I-0270 CH18-CH19 -->
 
 <a id="chapter-19-code-as-the-second-native-language"></a>
 
 # Chapter 19: Code as the Second Native Language
 
-Assembly source: `manuscript/19-code-as-the-second-native-language.md`.
-Assembly note: current main chapter
 
 ## 19. Code as the Second Native Language
 
-<!-- OPENER-DOOR I-0270 CH19 -->
 Code sharpens that outward move because language can now become syntax, run against tests, and fail in public.
-<!-- /OPENER-DOOR I-0270 CH19 -->
 
 ### The Language That Compiles
 
-<!-- FIGURE-CALLOUT F19.01 ch19-fig01 -->
-> [!FIGURE] **F19.01 / A-0090 - Code Was The Second Native Language**  
-> Role: code as language. Status: selected_pending_render. Rights: ready_svg. Sources: S-0035;S-0052;S-0054;S-0070;S-0132.  
-> Caption stub: F19.01: Code Was The Second Native Language. Shows code as language. Source and blocker notes remain required at placement.  
-> Manifest: `assets/visual_system/chapter19-code-as-language-ladder.svg`. Next gate: Check density with prose.
-<!-- /FIGURE-CALLOUT F19.01 -->
+> [!FIGURE] **F19.01 / A-0090 - Code Was The Second Native Language**
+> Caption: F19.01: Code Was The Second Native Language.
+> Source note: Sources: S-0035;S-0052;S-0054;S-0070;S-0132. Rights path: ready_svg. Story role: code as language.
 
 
 Code was never merely another dataset. It was the strange twin of language: written by humans, read by humans, executed by machines, and punished by machines when it lied.
@@ -3892,16 +3362,12 @@ The most important word in that sentence is "associations." The model did not un
 
 That is why code belongs near the center of the LLM story. It is where language stopped being only expression and became operation.
 
-Status: promoted continuity draft, pass I-0161, 2026-05-26. Source note: This draft uses existing source IDs from `sources.tsv` and the local coding-agent source captures already present in the workspace. It treats code models, coding assistants, and coding benchmarks as evidence for a changing work loop, not as proof that software engineering has been automated away. Exact productivity, adoption, live leaderboard, and model-superiority claims remain blocked until row-normalized evidence exists.
 
 ### From Snippet To Companion
 
-<!-- FIGURE-CALLOUT F19.02 ch19-fig02 -->
-> [!FIGURE] **F19.02 / A-0091 - The Assistant Entered At The Cursor**  
-> Role: assistant at cursor. Status: selected_pending_render. Rights: ready_svg. Sources: S-0070;S-0132.  
-> Caption stub: F19.02: The Assistant Entered At The Cursor. Shows assistant at cursor. Source and blocker notes remain required at placement.  
-> Manifest: `assets/visual_system/chapter19-editor-to-repository-workflow.svg`. Next gate: Pair with one screenshot only.
-<!-- /FIGURE-CALLOUT F19.02 -->
+> [!FIGURE] **F19.02 / A-0091 - The Assistant Entered At The Cursor**
+> Caption: F19.02: The Assistant Entered At The Cursor.
+> Source note: Sources: S-0070;S-0132. Rights path: ready_svg. Story role: assistant at cursor.
 
 
 GitHub Copilot turned the research surprise into an everyday product surface. GitHub introduced Copilot in 2021 as an AI pair programmer built with OpenAI Codex, designed to suggest whole lines or functions inside the editor. [S-0070] [S-0132] The metaphor mattered. Pair programming implied proximity, not replacement. The model sat beside the developer at the cursor, watching the local context and proposing the next move.
@@ -3919,9 +3385,6 @@ The risk is that plausibility is seductive. A confident code suggestion borrows 
 The same pattern would repeat in later coding agents. The model lowers the cost of trying. The human and the organization inherit the cost of deciding.
 
 ### The New Shape Of Reading
-> Source lane (I-0266): [S-0052] [S-0070] [S-0132]
-> Boundary: Use for code assistant/product positioning; no productivity proof.
-
 
 The earliest public excitement around coding models focused on writing. The model wrote a function. It wrote a test. It wrote a small game. It wrote a web scraper. That made for clean demos because creation is visible: empty editor, prompt, code appears.
 
@@ -3934,16 +3397,10 @@ The best use of these systems therefore looks less like delegation and more like
 That reading loop also explains why code models felt personal. A spreadsheet assistant or writing assistant might change a task. A coding assistant touched the way builders understood their own systems. It sat at the boundary between memory and action: close enough to help with comprehension, close enough to make mistakes that entered the code. For many programmers, that was the unsettling part. The model was not only finishing syntax. It was participating in the act of understanding.
 
 ### The Contest Laboratory
-> Source lane (I-0266): [S-0053] [S-0052] [S-0037]
-> Boundary: Use for code benchmarks and contest evaluation; no labor-market claim.
 
-
-<!-- FIGURE-CALLOUT F19.03 ch19-fig03 -->
-> [!FIGURE] **F19.03 / A-0092 - Coding Scores Need A Harness Story**  
-> Role: coding score harness. Status: selected_pending_render. Rights: ready_svg. Sources: S-0035;S-0037;S-0052;S-0053;S-0054.  
-> Caption stub: F19.03: Coding Scores Need A Harness Story. Shows coding score harness. Source and blocker notes remain required at placement.  
-> Manifest: `assets/visual_system/chapter19-benchmark-ladder.svg`. Next gate: Do not repeat Chapter 20 matrix.
-<!-- /FIGURE-CALLOUT F19.03 -->
+> [!FIGURE] **F19.03 / A-0092 - Coding Scores Need A Harness Story**
+> Caption: F19.03: Coding Scores Need A Harness Story.
+> Source note: Sources: S-0035;S-0037;S-0052;S-0053;S-0054. Rights path: ready_svg. Story role: coding score harness.
 
 
 If Codex and Copilot made code generation feel practical, AlphaCode made it feel competitive.
@@ -3963,16 +3420,10 @@ The distinction matters for the sequence. Chapter 18 explained the general harne
 Every programmer has felt the little betrayal of a program that does exactly what was written rather than what was meant. LLM coding tools entered that gap. They were trained on what people wrote, prompted by what people meant, and judged by what machines would accept.
 
 ### Open Code Models And The Diffusion Of Skill
-> Source lane (I-0266): [S-0025] [S-0052] [S-0037]
-> Boundary: Use for open code-model lane; no broad deployment/adoption claim.
 
-
-<!-- FIGURE-CALLOUT F19.04 ch19-fig04 -->
-> [!FIGURE] **F19.04 / A-0093 - The Repository Became The Prompt**  
-> Role: repository as prompt. Status: selected_pending_render. Rights: ready_svg. Sources: S-0035;S-0037;S-0053.  
-> Caption stub: F19.04: The Repository Became The Prompt. Shows repository as prompt. Source and blocker notes remain required at placement.  
-> Manifest: `assets/visual_system/chapter19-repository-as-prompt.svg`. Next gate: Keep as chapter-ending setup.
-<!-- /FIGURE-CALLOUT F19.04 -->
+> [!FIGURE] **F19.04 / A-0093 - The Repository Became The Prompt**
+> Caption: F19.04: The Repository Became The Prompt.
+> Source note: Sources: S-0035;S-0037;S-0053. Rights path: ready_svg. Story role: repository as prompt.
 
 
 Code capability did not remain only inside proprietary assistants. Meta's Code Llama work framed open foundation models for code, extending the Llama family into code generation and related programming tasks. [S-0025] That mattered because code is not only a product feature. It is an ecosystem pressure.
@@ -4006,17 +3457,10 @@ That contract is the only honest way to write about coding progress. The book ma
 The difference is not caution for caution's sake. It preserves the wonder. The real story is astonishing enough: by the middle of the LLM boom, the field had built systems that could read natural-language issue descriptions, inspect code, propose patches, and be judged by tests. That does not make them colleagues. It makes them machinery close enough to colleagues that the boundary matters.
 
 ### The Repository Becomes The Prompt
-> Source lane (I-0266): [S-0035] [S-0037] [S-0048] [S-0049] [S-0051]
-> Boundary: Use for repository-work benchmarks/workflows; no autonomous-engineer claim.
 
-
-<!-- FIGURE-CALLOUT F19.05 ch19-fig05 -->
-> [!FIGURE] **F19.05 / A-0127 - GitHub Copilot Coding Surface**  
-> Role: GitHub Copilot surface. Status: selected_pending_capture. Rights: private_capture_needed. Sources: S-0070.  
-> Caption stub: F19.05: GitHub Copilot Coding Surface. Shows GitHub Copilot surface. Source and blocker notes remain required at placement.  
-> Manifest: `assets/private_use_screenshots/i0180/A-0127_github_copilot_product_surface.png`. Next gate: Capture/hash; block productivity.
-> Real-world candidate (I-0243): GitHub Copilot coding surface. Story fit: grounds the coding chapter in the developer workflow where AI assistance appears. Quality note: needs readable IDE or GitHub capture without proprietary code. Gate: UI terms, repository license, and code-content clearance pending.
-<!-- /FIGURE-CALLOUT F19.05 -->
+> [!FIGURE] **F19.05 / A-0127 - GitHub Copilot Coding Surface**
+> Caption: F19.05: GitHub Copilot Coding Surface.
+> Source note: Sources: S-0070. Rights path: private_capture_needed. Story role: GitHub Copilot surface.
 
 
 The deepest change in coding tools was not that the model could emit code. It was that the repository became part of the prompt.
@@ -4057,31 +3501,22 @@ The remaining editorial work should now sit beside the chapter rather than insid
 
 ---
 
-<!-- NARRATIVE-FLOW I-0270 CH19-CH20 -->
 Code made the stakes measurable; Claude Code makes the workflow visible. The next chapter narrows from code as a second native language to repository work as a supervised industrial practice. [S-0022] [S-0048] [S-0049] [S-0050] [S-0051]
-<!-- /NARRATIVE-FLOW I-0270 CH19-CH20 -->
 
 <a id="chapter-20-claude-code-and-the-industrialization-of-pair-programming"></a>
 
 # Chapter 20: Claude Code and the Industrialization of Pair Programming
 
-Assembly source: `manuscript/20-claude-code-industrialized-pair-programming.md`.
-Assembly note: current main chapter
 
 ## 20. Claude Code and the Industrialization of Pair Programming
 
-<!-- OPENER-DOOR I-0270 CH20 -->
 Claude Code makes the agent loop concrete: the terminal becomes useful only when files, commands, tests, and review are bounded.
-<!-- /OPENER-DOOR I-0270 CH20 -->
 
 ### The Terminal Becomes A Colleague
 
-<!-- FIGURE-CALLOUT F20.01 ch20-fig01 -->
-> [!FIGURE] **F20.01 / A-0032 - Coding Agent Harness Loop**  
-> Role: coding-agent harness loop. Status: selected_pending_render. Rights: ready_svg. Sources: S-0022;S-0035;S-0037;S-0050.  
-> Caption stub: F20.01: Coding Agent Harness Loop. Shows coding-agent harness loop. Source and blocker notes remain required at placement.  
-> Manifest: `assets/visual_system/chapter20-coding-agent-harness-loop.svg`. Next gate: Keep human review boundary.
-<!-- /FIGURE-CALLOUT F20.01 -->
+> [!FIGURE] **F20.01 / A-0032 - Coding Agent Harness Loop**
+> Caption: F20.01: Coding Agent Harness Loop.
+> Source note: Sources: S-0022;S-0035;S-0037;S-0050. Rights path: ready_svg. Story role: coding-agent harness loop.
 
 
 Autocomplete made the first generation of AI coding tools feel like a faster keyboard. The model waited at the cursor. It guessed the next line, the next block, the next test case. That was useful, and sometimes uncanny, but the unit of work remained small. The developer still carried the shape of the change in their head.
@@ -4094,16 +3529,12 @@ Claude Code belonged to the next phase because it treated software engineering a
 
 That shift made the product feel less like a helper and more like a junior colleague with shell access. The phrase is dangerous. A colleague has responsibility, memory, judgment, and accountability. A coding agent has a context window, tools, policies, and probabilistic behavior. But the social metaphor matters because it explains the new managerial burden. The developer was no longer only writing code. The developer was scoping work, granting permissions, reviewing diffs, deciding when to interrupt, and judging whether the agent had actually understood the system.
 
-Status: promoted continuity draft, pass I-0161, 2026-05-26. Source note: This chapter draft uses source IDs from `sources.tsv`. It avoids private workplace anecdotes, unverified productivity claims, and benchmark triumphalism. Future passes should add source snapshots, firsthand workflow notes, and benchmark caveats before sharpening claims about adoption, enterprise use, or superiority over other coding agents.
 
 ### From Prompt To Work Order
 
-<!-- FIGURE-CALLOUT F20.02 ch20-fig02 -->
-> [!FIGURE] **F20.02 / A-0033 - Coding Benchmark Caveat Matrix**  
-> Role: coding benchmark caveat matrix. Status: selected_pending_render. Rights: ready_svg. Sources: S-0007;S-0035;S-0037.  
-> Caption stub: F20.02: Coding Benchmark Caveat Matrix. Shows coding benchmark caveat matrix. Source and blocker notes remain required at placement.  
-> Manifest: `assets/visual_system/chapter20-benchmark-caveat-matrix.svg`. Next gate: Keep near benchmark prose.
-<!-- /FIGURE-CALLOUT F20.02 -->
+> [!FIGURE] **F20.02 / A-0033 - Coding Benchmark Caveat Matrix**
+> Caption: F20.02: Coding Benchmark Caveat Matrix.
+> Source note: Sources: S-0007;S-0035;S-0037. Rights path: ready_svg. Story role: coding benchmark caveat matrix.
 
 
 The basic ergonomics of agentic coding are simple enough to hide their novelty. A user describes a change. The agent reads. It edits. It runs tests. It reports back. Underneath that loop are several hard problems. Chapter 18 named those problems as tool agency in general. Chapter 19 showed why code made language operational. Here the two lines meet: the tool runner enters the software system and tries to leave behind an artifact that other tools can judge.
@@ -4118,12 +3549,9 @@ The result is a new kind of prompt. It is less like "write me a function" and mo
 
 ### The Benchmark Was A Door, Not A Destination
 
-<!-- FIGURE-CALLOUT F20.03 ch20-fig03 -->
-> [!FIGURE] **F20.03 / A-0034 - Tool-Call Lifecycle**  
-> Role: tool-call lifecycle. Status: selected_pending_render. Rights: ready_svg. Sources: S-0022;S-0050.  
-> Caption stub: F20.03: Tool-Call Lifecycle. Shows tool-call lifecycle. Source and blocker notes remain required at placement.  
-> Manifest: `assets/visual_system/chapter20-tool-call-lifecycle.svg`. Next gate: Pair with Claude Code docs.
-<!-- /FIGURE-CALLOUT F20.03 -->
+> [!FIGURE] **F20.03 / A-0034 - Tool-Call Lifecycle**
+> Caption: F20.03: Tool-Call Lifecycle.
+> Source note: Sources: S-0022;S-0050. Rights path: ready_svg. Story role: tool-call lifecycle.
 
 
 SWE-bench matters because it changed what "good at code" could mean. Instead of only asking a model to solve isolated programming exercises, SWE-bench asks whether language models can resolve real GitHub issues in real projects. [S-0035] That made the benchmark feel closer to work: understand the repo, modify the right files, pass the tests.
@@ -4168,12 +3596,9 @@ The best Claude Code passage should avoid both extremes. It should not sound lik
 
 ### The New Pair Programming
 
-<!-- FIGURE-CALLOUT F20.04 ch20-fig04 -->
-> [!FIGURE] **F20.04 / A-0035 - Productivity Claim Blocker Map**  
-> Role: productivity blocker map. Status: selected_pending_render. Rights: ready_svg. Sources: S-0022;S-0035;S-0037;S-0050.  
-> Caption stub: F20.04: Productivity Claim Blocker Map. Shows productivity blocker map. Source and blocker notes remain required at placement.  
-> Manifest: `assets/visual_system/chapter20-productivity-blocker-map.svg`. Next gate: Use if chapter has vendor-product claims.
-<!-- /FIGURE-CALLOUT F20.04 -->
+> [!FIGURE] **F20.04 / A-0035 - Productivity Claim Blocker Map**
+> Caption: F20.04: Productivity Claim Blocker Map.
+> Source note: Sources: S-0022;S-0035;S-0037;S-0050. Rights path: ready_svg. Story role: productivity blocker map.
 
 
 Classic pair programming has a driver and a navigator. One person types. The other watches the shape of the work, catches mistakes, asks questions, and thinks a little farther ahead. Coding agents scramble that arrangement. Sometimes the human drives and the model navigates. Sometimes the model drives and the human reviews. Sometimes the model becomes a swarm of short-lived attempts: one agent investigates, another patches, another writes tests, another reviews.
@@ -4208,17 +3633,10 @@ The first durable change may be pedagogical. Junior developers learn systems by 
 The second durable change is organizational. Code review becomes more important, not less. Branch hygiene becomes more important. Continuous integration becomes more important. Clear repository instructions become more important. The model can multiply attempts, but the organization still decides what enters the system. The bottleneck moves from typing to trust.
 
 ### What The Agent Still Cannot Own
-> Source lane (I-0266): [S-0007] [S-0022] [S-0048] [S-0049] [S-0050] [S-0051] [S-0035] [S-0037] [C-0013]
-> Boundary: Use for agent boundary and benchmark firewall.
 
-
-<!-- FIGURE-CALLOUT F20.05 ch20-fig05 -->
-> [!FIGURE] **F20.05 / A-0131 - Claude Code Surface**  
-> Role: Claude Code surface. Status: selected_pending_capture. Rights: private_capture_needed. Sources: S-0048;S-0049;S-0050;S-0051.  
-> Caption stub: F20.05: Claude Code Surface. Shows Claude Code surface. Source and blocker notes remain required at placement.  
-> Manifest: `assets/private_use_screenshots/i0180/A-0131_claude_code_product_surface.png`. Next gate: Capture/hash; block autonomy.
-> Real-world candidate (I-0243): Claude Code product/docs surface. Story fit: makes coding agents visible as a productized workflow rather than only a concept. Quality note: local page/doc captures exist but need render crop and product-vs-docs choice. Gate: Anthropic page/docs capture rights and attribution pending.
-<!-- /FIGURE-CALLOUT F20.05 -->
+> [!FIGURE] **F20.05 / A-0131 - Claude Code Surface**
+> Caption: F20.05: Claude Code Surface.
+> Source note: Sources: S-0048;S-0049;S-0050;S-0051. Rights path: private_capture_needed. Story role: Claude Code surface.
 
 
 The failure modes are not footnotes. They are the chapter's honesty.
@@ -4261,56 +3679,35 @@ The remaining work belongs in the source and visual ledgers: snapshot Claude Cod
 
 ---
 
-<!-- NARRATIVE-FLOW I-0270 CH20-CH21 -->
 Coding agents expose the cost of action, review, and retries. Reasoning systems expose a related cost inside inference itself: sometimes the machine spends more compute before it answers. [S-0029] [S-0031] [S-0059] [S-0061] [S-0062]
-<!-- /NARRATIVE-FLOW I-0270 CH20-CH21 -->
 
 <a id="chapter-21-reasoning-test-time-compute-and-the-new-scaling-axis"></a>
 
 # Chapter 21: Reasoning, Test-Time Compute, and the New Scaling Axis
 
-Assembly source: `manuscript/21-reasoning-test-time-compute.md`.
-Assembly note: current main chapter
 
 ## 21. Reasoning, Test-Time Compute, and the New Scaling Axis
 
-<!-- OPENER-DOOR I-0270 CH21 -->
 Reasoning systems shift some of the cost into the pause before an answer, making thought-like behavior a metered inference choice.
-<!-- /OPENER-DOOR I-0270 CH21 -->
-> Source lane (I-0266): [S-0168] [S-0169] [S-0170] [S-0171] [S-0172] [S-0173] [S-0029]
-> Boundary: Use as chapter-level source bridge until section split; no hidden-chain or benchmark-crown claim.
+
+> [!FIGURE] **F21.01 / A-0078 - Reasoning Adds A New Compute Axis**
+> Caption: F21.01: Reasoning Adds A New Compute Axis.
+> Source note: Sources: S-0168;S-0169;S-0170;S-0171;S-0172;S-0173. Rights path: ready_svg. Story role: reasoning compute axis.
 
 
-<!-- FIGURE-CALLOUT F21.01 ch21-fig01 -->
-> [!FIGURE] **F21.01 / A-0078 - Reasoning Adds A New Compute Axis**  
-> Role: reasoning compute axis. Status: selected_pending_render. Rights: ready_svg. Sources: S-0168;S-0169;S-0170;S-0171;S-0172;S-0173.  
-> Caption stub: F21.01: Reasoning Adds A New Compute Axis. Shows reasoning compute axis. Source and blocker notes remain required at placement.  
-> Manifest: `assets/visual_system/chapter21-train-vs-test-time-compute.svg`. Next gate: Keep train-time vs answer-time distinction.
-<!-- /FIGURE-CALLOUT F21.01 -->
+> [!FIGURE] **F21.02 / A-0079 - Reasoning Is A Loop, Not A Magic Thought Bubble**
+> Caption: F21.02: Reasoning Is A Loop, Not A Magic Thought Bubble.
+> Source note: Sources: S-0135;S-0170;S-0171;S-0172;S-0173. Rights path: ready_svg. Story role: reasoning loop.
 
 
-<!-- FIGURE-CALLOUT F21.02 ch21-fig02 -->
-> [!FIGURE] **F21.02 / A-0079 - Reasoning Is A Loop, Not A Magic Thought Bubble**  
-> Role: reasoning loop. Status: selected_pending_render. Rights: ready_svg. Sources: S-0135;S-0170;S-0171;S-0172;S-0173.  
-> Caption stub: F21.02: Reasoning Is A Loop, Not A Magic Thought Bubble. Shows reasoning loop. Source and blocker notes remain required at placement.  
-> Manifest: `assets/visual_system/chapter21-verifier-search-loop.svg`. Next gate: Caption must block truth guarantees.
-<!-- /FIGURE-CALLOUT F21.02 -->
+> [!FIGURE] **F21.03 / A-0080 - A Reasoning Score Needs An Inference Contract**
+> Caption: F21.03: A Reasoning Score Needs An Inference Contract.
+> Source note: Sources: S-0035;S-0036;S-0037. Rights path: ready_svg. Story role: inference contract.
 
 
-<!-- FIGURE-CALLOUT F21.03 ch21-fig03 -->
-> [!FIGURE] **F21.03 / A-0080 - A Reasoning Score Needs An Inference Contract**  
-> Role: inference contract. Status: selected_pending_render. Rights: ready_svg. Sources: S-0035;S-0036;S-0037.  
-> Caption stub: F21.03: A Reasoning Score Needs An Inference Contract. Shows inference contract. Source and blocker notes remain required at placement.  
-> Manifest: `assets/visual_system/chapter21-inference-contract-matrix.svg`. Next gate: Use before benchmark mentions.
-<!-- /FIGURE-CALLOUT F21.03 -->
-
-
-<!-- FIGURE-CALLOUT F21.04 ch21-fig04 -->
-> [!FIGURE] **F21.04 / A-0081 - How Much Thinking Is This Worth? Fast path, think path, tool path, and human escalation/refusal are schematic routing lanes.**  
-> Role: thinking cost tradeoff. Status: selected_pending_render. Rights: ready_svg. Sources: S-0029;S-0031;S-0119;S-0135;S-0168;S-0169.  
-> Caption stub: F21.04: How Much Thinking Is This Worth? Fast path, think path, tool path, and human escalation/refusal are schematic routing lanes.. Shows thinking cost tradeoff. Source and blocker notes remain required at placement.  
-> Manifest: `assets/visual_system/chapter21-reasoning-budget-routing-map.svg`. Next gate: Keep value claims blocked.
-<!-- /FIGURE-CALLOUT F21.04 -->
+> [!FIGURE] **F21.04 / A-0081 - How Much Thinking Is This Worth? Fast path, think path, tool path, and human escalation/refusal are schematic routing lanes.**
+> Caption: F21.04: How Much Thinking Is This Worth? Fast path, think path, tool path, and human escalation/refusal are schematic routing lanes..
+> Source note: Sources: S-0029;S-0031;S-0119;S-0135;S-0168;S-0169. Rights path: ready_svg. Story role: thinking cost tradeoff.
 
 
 The old scaling story spent most of its drama before the answer. Build a larger model. Train it on more data. Spend more floating-point operations before deployment. Then, at inference time, the trained model would receive a prompt and emit tokens. Inference was a delivery cost, the meter that Chapter 22 would later turn into a business model. Reasoning models changed the emotional location of compute. The answer itself became a place to spend.
@@ -4321,7 +3718,6 @@ The roots were visible before the product labels arrived. Chain-of-thought promp
 
 That was the crack in the old mental model. If a model's effective capability depended on the amount and structure of inference-time work, then "model size" stopped being the only axis readers needed to hold. There was training compute, data quality, architecture, post-training, tool access, retrieval, and now test-time compute: how many candidate paths, how much scratch work, how much verification, how many tool calls, how much latency, and how much money the system could spend before returning an answer.
 
-Status: promoted continuity draft, pass I-0162, 2026-05-26. Source note: This chapter uses existing local DeepSeek-R1, Kimi k1.5, Gemini 2.5 thinking, ReAct, benchmark, economics, and trust rows, plus pre-cutoff web-identified sources for OpenAI o1, OpenAI o3/o4-mini, chain-of-thought prompting, self-consistency, process supervision, and tree search. It does not claim exact benchmark crowns, live model ranks, hidden chain-of-thought access, exact latency/cost curves, or solved reasoning.
 
 The phrase "chain of thought" carried two meanings that the book should keep separate. In research papers, it often meant visible intermediate reasoning tokens that helped solve tasks or helped humans inspect the model's path. In deployed products, it could become hidden internal deliberation, summarized reasoning, or no visible reasoning at all. The user might see a brief explanation, while the system used private scratch work. That secrecy has safety and product reasons: raw chains can contain policy-sensitive details, user data, misleading rationales, or attack surface. But it also creates an evidence problem. A visible explanation is not necessarily the actual causal trace.
 
@@ -4405,34 +3801,22 @@ The audit work now belongs beside the chapter: keep OpenAI o1/o3/o4-mini and Gem
 
 ---
 
-<!-- NARRATIVE-FLOW I-0270 CH21-CH22 -->
 If test-time compute becomes another scaling axis, then intelligence becomes not only a capability question but a pricing question. The next chapter turns the pause before an answer into a meter. [S-0060] [S-0063] [S-0064] [S-0128] [S-0134]
-<!-- /NARRATIVE-FLOW I-0270 CH21-CH22 -->
 
 <a id="chapter-22-the-economics-of-intelligence-on-tap"></a>
 
 # Chapter 22: The Economics of Intelligence on Tap
 
-Assembly source: `manuscript/22-economics-intelligence-on-tap.md`.
-Assembly note: current main chapter
 
 ## 22. The Economics of Intelligence on Tap
 
-<!-- OPENER-DOOR I-0270 CH22 -->
 The meter changes the business story: intelligence is sold through tokens, tiers, latency, cache rules, and scope caveats.
-<!-- /OPENER-DOOR I-0270 CH22 -->
 
 ### The Meter Appears
-> Source lane (I-0266): [S-0060] [S-0061] [S-0062] [S-0072] [S-0081] [S-0082] [C-0046]
-> Boundary: Use for price surfaces; price is not margin.
 
-
-<!-- FIGURE-CALLOUT F22.01 ch22-fig01 -->
-> [!FIGURE] **F22.01 / A-0082 - The Meter Is Visible Before The Margin Is Knowable**  
-> Role: visible meter. Status: selected_pending_render. Rights: ready_svg. Sources: S-0060;S-0061;S-0062;S-0072;S-0081;S-0082.  
-> Caption stub: F22.01: The Meter Is Visible Before The Margin Is Knowable. Shows visible meter. Source and blocker notes remain required at placement.  
-> Manifest: `assets/visual_system/chapter22-token-meter.svg`. Next gate: Verify price/currentness caveats.
-<!-- /FIGURE-CALLOUT F22.01 -->
+> [!FIGURE] **F22.01 / A-0082 - The Meter Is Visible Before The Margin Is Knowable**
+> Caption: F22.01: The Meter Is Visible Before The Margin Is Knowable.
+> Source note: Sources: S-0060;S-0061;S-0062;S-0072;S-0081;S-0082. Rights path: ready_svg. Story role: visible meter.
 
 
 The first consumer shock of ChatGPT was that intelligence seemed to be free. A box appeared on the web. A user typed. The machine answered. The price, at least at the beginning of the public experience, was hidden behind a login screen, investor capital, cloud capacity, and the patience of a product team trying to discover what demand looked like when the meter was not visible.
@@ -4445,7 +3829,6 @@ The answer changed by surface. Consumers bought access, speed, availability, and
 
 The cleanest unit was the token. A token could be counted, priced, cached, batched, and charged. But a token was not a product by itself. It was a billing grain inside a wider system. A million tokens of a small fast model did not equal a million tokens of a frontier reasoning model. A cached input token did not equal a fresh input token. A batch token did not equal an interactive token. A long-context prompt did not equal a short chat. The unit looked simple only from far away.
 
-Status: promoted continuity draft, pass I-0162, 2026-05-26. Source note: This chapter uses existing provider-pricing snapshots, pricing normalization tables, product sources, and infrastructure chapters. It treats prices as source-captured product signals, not as complete margin evidence. It blocks exact provider revenue, gross margin, customer ROI, price-quality frontier, live price ranking, and workload-volume claims until same-scope rows and financial evidence license them.
 
 The previous chapter made inference a new place to spend. This chapter makes that spending visible. The same hidden work that can improve a reasoning answer becomes latency, routing, cache policy, batch scheduling, premium access, and ultimately a bill.
 
@@ -4463,12 +3846,9 @@ The consumer subscription also shaped expectations. People learned to think of f
 
 ### The API Turns Intelligence Into Units
 
-<!-- FIGURE-CALLOUT F22.02 ch22-fig02 -->
-> [!FIGURE] **F22.02 / A-0083 - Routing, Caching, Batching, Distillation**  
-> Role: routing/caching/batching/distillation. Status: selected_pending_render. Rights: ready_svg. Sources: data/provider_pricing_rows_i0026.tsv;data/mistral_pricing_rows_i0031.tsv;C-0046.  
-> Caption stub: F22.02: Routing, Caching, Batching, Distillation. Shows routing/caching/batching/distillation. Source and blocker notes remain required at placement.  
-> Manifest: `assets/visual_system/chapter22-routing-caching-batching-levers.svg`. Next gate: Keep distinct from Chapter 8 cost stack.
-<!-- /FIGURE-CALLOUT F22.02 -->
+> [!FIGURE] **F22.02 / A-0083 - Routing, Caching, Batching, Distillation**
+> Caption: F22.02: Routing, Caching, Batching, Distillation.
+> Source note: Sources: data/provider_pricing_rows_i0026.tsv;data/mistral_pricing_rows_i0031.tsv;C-0046. Rights path: ready_svg. Story role: routing/caching/batching/distillation.
 
 
 The API made the meter sharper.
@@ -4499,12 +3879,9 @@ For the reader, the price-quality frontier should feel like a dangerous instrume
 
 ### Inference Rent
 
-<!-- FIGURE-CALLOUT F22.03 ch22-fig03 -->
-> [!FIGURE] **F22.03 / A-0084 - Intelligence Is Sold Through More Than One Door**  
-> Role: business models. Status: selected_pending_render. Rights: ready_svg. Sources: S-0069;S-0078;S-0090;S-0103.  
-> Caption stub: F22.03: Intelligence Is Sold Through More Than One Door. Shows business models. Source and blocker notes remain required at placement.  
-> Manifest: `assets/visual_system/chapter22-subscription-api-bundle-map.svg`. Next gate: Caption blocks margin and ARR claims.
-<!-- /FIGURE-CALLOUT F22.03 -->
+> [!FIGURE] **F22.03 / A-0084 - Intelligence Is Sold Through More Than One Door**
+> Caption: F22.03: Intelligence Is Sold Through More Than One Door.
+> Source note: Sources: S-0069;S-0078;S-0090;S-0103. Rights path: ready_svg. Story role: business models.
 
 
 Training gets the spectacle. Inference gets the rent.
@@ -4532,16 +3909,10 @@ This is why procurement became a central LLM battleground. A buyer did not only 
 The enterprise chapter also keeps the provider honest. If a provider claims transformational productivity, the book needs customer-side evidence, not only vendor case studies. If a provider claims margins, the book needs financial evidence. If a company announces thousands of seats, the book should ask whether those are paid seats, covered users, active users, or eligible employees. The difference is not pedantry; it is the difference between a business and a press release.
 
 ### The Subsidy Question
-> Source lane (I-0266): [S-0060] [S-0061] [S-0062] [S-0072] [C-0046]
-> Boundary: Use for price-vs-cost boundary; no profitability inference.
 
-
-<!-- FIGURE-CALLOUT F22.04 ch22-fig04 -->
-> [!FIGURE] **F22.04 / A-0085 - The Tempting Economics Claims Are Not The Sourced Ones**  
-> Role: economics claim blockers. Status: selected_pending_render. Rights: ready_svg. Sources: C-0046;C-0136;C-0141;data/price_quality_join_audit_i0036.tsv.  
-> Caption stub: F22.04: The Tempting Economics Claims Are Not The Sourced Ones. Shows economics claim blockers. Source and blocker notes remain required at placement.  
-> Manifest: `assets/visual_system/chapter22-margin-roi-blocker-grid.svg`. Next gate: Use as sidebar if layout is dense.
-<!-- /FIGURE-CALLOUT F22.04 -->
+> [!FIGURE] **F22.04 / A-0085 - The Tempting Economics Claims Are Not The Sourced Ones**
+> Caption: F22.04: The Tempting Economics Claims Are Not The Sourced Ones.
+> Source note: Sources: C-0046;C-0136;C-0141;data/price_quality_join_audit_i0036.tsv. Rights path: ready_svg. Story role: economics claim blockers.
 
 
 The frontier race was expensive enough that ordinary software metaphors failed. A model lab could grow quickly and still burn cash. A product could be beloved and still be subsidized. A cloud partnership could look like revenue and capacity at the same time. A chip purchase could be strategy, cost, and bargaining position all at once.
@@ -4571,9 +3942,6 @@ Batch pricing says the same thing about time. If the customer can wait, the prov
 The economic frontier, then, is not only cheaper tokens. It is better allocation. Serve easy requests cheaply. Spend expensive reasoning only where it changes the answer. Use retrieval to avoid putting every fact in weights. Use small models to route large ones. Cache what repeats. Batch what can wait. Keep humans in the loop where failure is costly. The winner may not be the lab with the single best model; it may be the company with the best model portfolio and the best taste about when to use each part.
 
 ### Intelligence as a Layer
-> Source lane (I-0266): [S-0060] [S-0061] [S-0062] [S-0072] [S-0133] [S-0131]
-> Boundary: Use for product/economics synthesis; no ROI claim.
-
 
 The deeper economic shift was not that one company found a perfect price. It was that intelligence became a layer other products could call.
 
@@ -4591,60 +3959,41 @@ The remaining editorial work belongs in the ledgers: keep the economics visual p
 
 ---
 
-<!-- NARRATIVE-FLOW I-0270 CH22-CH23 -->
 Cheap fluency still has to be trusted. After the economics of tokens, the book turns to the failures that make every confident answer a claim needing context, provenance, and review. [S-0005] [S-0069] [S-0070] [S-0071] [S-0072] [S-0073] [S-0074]
-<!-- /NARRATIVE-FLOW I-0270 CH22-CH23 -->
 
 <a id="chapter-23-failure-modes-truth-and-trust"></a>
 
 # Chapter 23: Failure Modes, Truth, and Trust
 
-Assembly source: `manuscript/23-failure-modes-truth-trust.md`.
-Assembly note: current main chapter
 
 ## 23. Failure Modes, Truth, and Trust
 
-<!-- OPENER-DOOR I-0270 CH23 -->
 Trust is the price of useful fluency, because an answer that sounds finished can still be unsupported, poisoned, or wrong.
-<!-- /OPENER-DOOR I-0270 CH23 -->
 
-<!-- FIGURE-CALLOUT F23.01 ch23-fig01 -->
-> [!FIGURE] **F23.01 / A-0074 - Failure Modes Are Different Claims**  
-> Role: failure modes separation. Status: selected_pending_render. Rights: ready_svg. Sources: S-0005;S-0035;S-0036;S-0037;S-0038;S-0137;S-0164;S-0165;S-0166;S-0167.  
-> Caption stub: F23.01: Failure Modes Are Different Claims. Shows failure modes separation. Source and blocker notes remain required at placement.  
-> Manifest: `assets/visual_system/chapter23-failure-mode-map.svg`. Next gate: Prevent incident montage.
-<!-- /FIGURE-CALLOUT F23.01 -->
+> [!FIGURE] **F23.01 / A-0074 - Failure Modes Are Different Claims**
+> Caption: F23.01: Failure Modes Are Different Claims.
+> Source note: Sources: S-0005;S-0035;S-0036;S-0037;S-0038;S-0137;S-0164;S-0165;S-0166;S-0167. Rights path: ready_svg. Story role: failure modes separation.
 
 
-<!-- FIGURE-CALLOUT F23.02 ch23-fig02 -->
-> [!FIGURE] **F23.02 / A-0075 - Trust Is A Stack**  
-> Role: trust stack. Status: selected_pending_render. Rights: ready_svg. Sources: S-0038;S-0076;S-0077;S-0110;S-0137.  
-> Caption stub: F23.02: Trust Is A Stack. Shows trust stack. Source and blocker notes remain required at placement.  
-> Manifest: `assets/visual_system/chapter23-trust-stack.svg`. Next gate: Check if final chapter repeats it.
-<!-- /FIGURE-CALLOUT F23.02 -->
+> [!FIGURE] **F23.02 / A-0075 - Trust Is A Stack**
+> Caption: F23.02: Trust Is A Stack.
+> Source note: Sources: S-0038;S-0076;S-0077;S-0110;S-0137. Rights path: ready_svg. Story role: trust stack.
 
 
-<!-- FIGURE-CALLOUT F23.03 ch23-fig03 -->
-> [!FIGURE] **F23.03 / A-0076 - Every Evaluation Casts A Shadow**  
-> Role: evaluation shadow. Status: selected_pending_render. Rights: ready_svg. Sources: S-0035;S-0036;S-0037;S-0164.  
-> Caption stub: F23.03: Every Evaluation Casts A Shadow. Shows evaluation shadow. Source and blocker notes remain required at placement.  
-> Manifest: `assets/visual_system/chapter23-eval-blind-spot-matrix.svg`. Next gate: Use with benchmark chapters cross-reference.
-<!-- /FIGURE-CALLOUT F23.03 -->
+> [!FIGURE] **F23.03 / A-0076 - Every Evaluation Casts A Shadow**
+> Caption: F23.03: Every Evaluation Casts A Shadow.
+> Source note: Sources: S-0035;S-0036;S-0037;S-0164. Rights path: ready_svg. Story role: evaluation shadow.
 
 
-<!-- FIGURE-CALLOUT F23.04 ch23-fig04 -->
-> [!FIGURE] **F23.04 / A-0077 - From Answer To Auditable Claim**  
-> Role: auditable claim loop. Status: selected_pending_render. Rights: ready_svg. Sources: S-0038;S-0076;S-0077;S-0110.  
-> Caption stub: F23.04: From Answer To Auditable Claim. Shows auditable claim loop. Source and blocker notes remain required at placement.  
-> Manifest: `assets/visual_system/chapter23-provenance-workflow.svg`. Next gate: Pair with source-density prose.
-<!-- /FIGURE-CALLOUT F23.04 -->
+> [!FIGURE] **F23.04 / A-0077 - From Answer To Auditable Claim**
+> Caption: F23.04: From Answer To Auditable Claim.
+> Source note: Sources: S-0038;S-0076;S-0077;S-0110. Rights path: ready_svg. Story role: auditable claim loop.
 
 
 The same machine that felt general could fail generally. That was the most unsettling part. Older software usually failed in recognizable shapes: a crash, an error code, a blank screen, a timeout, a wrong calculation traceable to a line of code. A large language model could fail by sounding excellent. It could produce a polished answer that was false, a citation that looked like scholarship but pointed nowhere, a summary that omitted the key exception, a refusal that vanished under pressure, or a confident plan assembled from a misunderstanding. The failure was not outside the interface. It was inside the fluency.
 
 That is why the final technical reckoning of the book cannot be a safety chapter in the bureaucratic sense. It is a trust chapter. Trust is what connects the previous twenty-two chapters: scaling, instruction tuning, ChatGPT, cloud platforms, open weights, rankings, datacenters, tools, coding agents, data, reasoning, and economics. A model that cannot be trusted is not useless. It may be extraordinarily useful. But every deployment then becomes a trust architecture: what the model may see, what it may do, what evidence it must carry, what humans must review, what logs must survive, and which claims the system is forbidden to make about itself.
 
-Status: promoted continuity draft, pass I-0162, 2026-05-26. Source note: This chapter uses existing system-card, benchmark, retrieval, prompt-injection, coding-agent, data-provenance, and alignment rows, plus pre-cutoff research sources on truthfulness, sycophancy, jailbreak suffixes, and reward-tampering. It does not claim incident prevalence, product safety rates, hidden model behavior, or final mitigation effectiveness without separate evidence.
 
 That placement matters. Chapter 21 asked how much thinking a task deserves. Chapter 22 asked who pays for that thinking. This chapter asks whether the resulting answer, action, or diff deserves authority.
 
@@ -4716,56 +4065,35 @@ The audit work now stays outside the reader's final beat: keep hallucination pro
 
 ---
 
-<!-- NARRATIVE-FLOW I-0270 CH23-CH24 -->
 The trust chapter leaves the reader with no simple crown, cure, or prophecy. The final chapter returns to the next token as both mechanism and responsibility: what humans choose to ask, build, meter, and believe. [S-0006] [S-0002] [S-0003] [S-0038] [S-0075] [S-0076] [S-0077]
-<!-- /NARRATIVE-FLOW I-0270 CH23-CH24 -->
 
 <a id="chapter-24-next-token"></a>
 
 # Chapter 24: Next Token
 
-Assembly source: `manuscript/24-next-token.md`.
-Assembly note: current main chapter
 
 ## 24. Next Token
 
-<!-- OPENER-DOOR I-0270 CH24 -->
 The ending returns to the mechanism itself: every next token is both a technical act and a human decision about what to ask, build, and believe.
-<!-- /OPENER-DOOR I-0270 CH24 -->
-> Source lane (I-0266): [S-0006] [S-0002] [S-0003] [S-0004] [S-0014] [S-0041] [S-0047] [S-0138] [S-0083] [S-0153] [S-0038] [S-0035] [S-0164]
-> Boundary: Use as final synthesis bridge; chapter claims must still point back to local chapter evidence.
+
+> [!FIGURE] **F24.01 / A-0108 - From Next Token To Computing Stack**
+> Caption: F24.01: From Next Token To Computing Stack.
+> Source note: Sources: CH24SYN-001;CH24SYN-002;CH24SYN-005;CH24SYN-012. Rights path: ready_svg. Story role: next-token system map.
 
 
-<!-- FIGURE-CALLOUT F24.01 ch24-fig01 -->
-> [!FIGURE] **F24.01 / A-0108 - From Next Token To Computing Stack**  
-> Role: next-token system map. Status: selected_pending_render. Rights: ready_svg. Sources: CH24SYN-001;CH24SYN-002;CH24SYN-005;CH24SYN-012.  
-> Caption stub: F24.01: From Next Token To Computing Stack. Shows next-token system map. Source and blocker notes remain required at placement.  
-> Manifest: `assets/visual_system/chapter24-next-token-stack-map.svg`. Next gate: Keep from becoming generic summary wallpaper.
-<!-- /FIGURE-CALLOUT F24.01 -->
+> [!FIGURE] **F24.02 / A-0109 - Five Conversion Gates**
+> Caption: F24.02: Five Conversion Gates.
+> Source note: Sources: CH24SYN-002;CH24SYN-007;CH24SYN-013. Rights path: ready_svg. Story role: five conversion gates.
 
 
-<!-- FIGURE-CALLOUT F24.02 ch24-fig02 -->
-> [!FIGURE] **F24.02 / A-0109 - Five Conversion Gates**  
-> Role: five conversion gates. Status: selected_pending_render. Rights: ready_svg. Sources: CH24SYN-002;CH24SYN-007;CH24SYN-013.  
-> Caption stub: F24.02: Five Conversion Gates. Shows five conversion gates. Source and blocker notes remain required at placement.  
-> Manifest: `assets/visual_system/chapter24-five-conversion-gates.svg`. Next gate: Use if final prose follows conversion motif.
-<!-- /FIGURE-CALLOUT F24.02 -->
+> [!FIGURE] **F24.03 / A-0110 - Unsettled By The Cutoff**
+> Caption: F24.03: Unsettled By The Cutoff.
+> Source note: Sources: CH24SYN-008;CH24SYN-010;CH24SYN-014;CH24SYN-016. Rights path: ready_svg. Story role: unsettled claims board.
 
 
-<!-- FIGURE-CALLOUT F24.03 ch24-fig03 -->
-> [!FIGURE] **F24.03 / A-0110 - Unsettled By The Cutoff**  
-> Role: unsettled claims board. Status: selected_pending_render. Rights: ready_svg. Sources: CH24SYN-008;CH24SYN-010;CH24SYN-014;CH24SYN-016.  
-> Caption stub: F24.03: Unsettled By The Cutoff. Shows unsettled claims board. Source and blocker notes remain required at placement.  
-> Manifest: `assets/visual_system/chapter24-unsettled-claims-board.svg`. Next gate: Keep if not too apparatus-heavy.
-<!-- /FIGURE-CALLOUT F24.03 -->
-
-
-<!-- FIGURE-CALLOUT F24.04 ch24-fig04 -->
-> [!FIGURE] **F24.04 / A-0111 - Human Judgment Loop**  
-> Role: human judgment loop. Status: selected_pending_render. Rights: ready_svg. Sources: CH24SYN-003;CH24SYN-008;CH24SYN-015;CH24SYN-017.  
-> Caption stub: F24.04: Human Judgment Loop. Shows human judgment loop. Source and blocker notes remain required at placement.  
-> Manifest: `assets/visual_system/chapter24-human-judgment-loop.svg`. Next gate: Use as closing visual if layout has room.
-<!-- /FIGURE-CALLOUT F24.04 -->
+> [!FIGURE] **F24.04 / A-0111 - Human Judgment Loop**
+> Caption: F24.04: Human Judgment Loop.
+> Source note: Sources: CH24SYN-003;CH24SYN-008;CH24SYN-015;CH24SYN-017. Rights path: ready_svg. Story role: human judgment loop.
 
 
 The smallest act in this book was never a keynote, a benchmark, a lawsuit, a server rack, a venture round, or a product launch. It was a choice among possible next pieces of text.
@@ -4774,7 +4102,6 @@ The machine saw a context and assigned probabilities to what might follow. Then 
 
 This is the last trick the subject plays on the reader. If the story is told from the inside of the model, it can sound deflationary: vectors, attention, loss, token prediction. If it is told from the outside of the market, it can sound mystical: machines that write, reason, code, and converse. The honest history sits between those two temptations. By the hard cutoff of May 24, 2026, next-token prediction had not become a mind. It had become a computing interface. [CH24SYN-006; CH24SYN-009]
 
-Status: promoted final-prose draft, pass I-0163, 2026-05-26. Source note: This chapter is cross-book synthesis. It relies on the Chapter 24 scaffold, the final-system visual package, and the existing chapter/source/claim ledgers. It introduces no new external historical reporting and does not claim post-cutoff events, AGI, consciousness, settled model rankings, proven revenue, broad productivity gains, solved safety, autonomous engineering, energy-per-token estimates, or one inevitable winning path.
 
 That distinction is the spine of the ending. An interface does not have to be conscious to change work. A spreadsheet did not understand finance. A browser did not understand publishing. A compiler did not understand the intentions of the programmer. But each made a set of actions newly cheap, visible, repeatable, and social. The LLM interface did something similar with language. It made text a control surface for computation.
 

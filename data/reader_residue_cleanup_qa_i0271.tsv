@@ -1,0 +1,13 @@
+check	status	note
+no_assembly_source_lines	pass	Per-chapter assembly source lines removed.
+no_assembly_note_lines	pass	Per-chapter assembly notes removed.
+no_i0270_html_markers	pass	Narrative-flow HTML markers removed while prose remains.
+no_caption_stubs	pass	Figure captions no longer say caption stub.
+no_manifest_next_gate_lines	pass	Manifest/next-gate production lines removed from reader-facing figure blocks.
+no_selected_pending_labels	pass	Selected-pending status labels removed from reader-facing figure blocks.
+no_visible_i0266_source_lanes	pass	Visible I-0266 source-density scaffolding removed from reader-facing prose.
+no_drafting_controls_headings	pass	Drafting Controls headings removed from reader-facing prose.
+figure_count_preserved	pass	Figure callout count is 94; expected 94.
+chapter_count_24	pass	Chapter count is 24.
+word_count_in_bounds	pass	Word count is 102685.
+source_refs_preserved	pass	Source reference count is 522.

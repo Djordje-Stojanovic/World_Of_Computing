@@ -453,3 +453,7 @@ A mandatory-spine topic should not live as a visible supplemental appendix. When
 ## 2026-05-26 - I-0270 Narrative Flow
 
 Continuity scaffolding should earn its way into the book as prose or leave the reader-facing surface. The useful conversion preserves source IDs and claim boundaries in the ledger while letting chapter endings and openings read like authored momentum instead of production notes.
+
+## 2026-05-26 - I-0271 Reader Cleanup
+
+Production metadata should not masquerade as book prose. The right cleanup removes labels like assembly source, caption stub, manifest path, next gate, and selected-pending from the reader surface while preserving figure IDs, source IDs, rights paths, and provenance in ledgers.

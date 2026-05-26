@@ -1,0 +1,13 @@
+residue_type	before_count	after_count	removed_count	note
+assembly_source	23	0	23	Reader-facing production marker removed or converted; provenance remains in ledgers/manifests.
+assembly_note	23	0	23	Reader-facing production marker removed or converted; provenance remains in ledgers/manifests.
+opener_markers	48	0	48	Reader-facing production marker removed or converted; provenance remains in ledgers/manifests.
+flow_markers	46	0	46	Reader-facing production marker removed or converted; provenance remains in ledgers/manifests.
+caption_stub	94	0	94	Reader-facing production marker removed or converted; provenance remains in ledgers/manifests.
+manifest_next_gate	94	0	94	Reader-facing production marker removed or converted; provenance remains in ledgers/manifests.
+selected_pending	94	0	94	Reader-facing production marker removed or converted; provenance remains in ledgers/manifests.
+figure_callouts	94	0	94	Reader-facing production marker removed or converted; provenance remains in ledgers/manifests.
+chapter_status_lines	21	0	21	Reader-facing production marker removed or converted; provenance remains in ledgers/manifests.
+source_lane_blocks	59	0	59	Reader-facing production marker removed or converted; provenance remains in ledgers/manifests.
+drafting_controls	9	0	9	Reader-facing production marker removed or converted; provenance remains in ledgers/manifests.
+word_count	108934	102685	6249	Word-count change from removing production labels and manifest prose.
