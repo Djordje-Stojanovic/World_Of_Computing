@@ -1,14 +1,10 @@
 # 6. Alignment Enters the Product
 
-Status: first promoted draft candidate, pass I-0018, 2026-05-25.
-
-Source note: This chapter draft uses source IDs from `sources.tsv`. It treats alignment as a product and mechanism story: how base-model continuation became instruction following, refusal behavior, policy-shaped assistant behavior, and evaluation work. It deliberately avoids becoming a regulation chapter. Pass I-0033 adds `data/alignment_quote_safe_table_i0033.tsv` for short, reviewed quote candidates from captured Model Spec and system-card artifacts; pass I-0038 adds S-0074 text-render quote candidates for the instruction-following product post, while longer red-team, system-card, and exact policy passages still need row-specific extraction before final prose.
-
-Visual integration: Figure 6.1, `assets/visual_system/rlhf-alignment-pipeline.svg`, shows pretraining, supervised demonstrations, preference comparisons, reward/preference modeling, RL optimization, Constitutional AI/RLAIF, product policy, red teaming, and evaluation loops as a layered assistant-behavior stack. The companion rows live in `data/rlhf_alignment_pipeline_i0023.tsv`; the figure keeps the central caveat visible that refusals and caveats are product behavior built from several layers, not proof that the model "understands" the user's real-world interests. [S-0004] [S-0014] [S-0019] [S-0074] [S-0075]
-
 ## The Model That Needed A Boss
 
 GPT-3 made the prompt feel like a temporary program: examples and instructions could sit inside the context window and steer the next completion. [S-0004] It also made the product problem impossible to ignore. A base language model is trained to continue text. A user, however, does not usually want continuation. The user wants help.
+
+This is the second conversion in the OpenAI spine. Chapter 5 showed models becoming programmable through prompts, APIs, and code. Chapter 6 shows why programmability was not enough. A system that can continue almost anything has to learn when continuation is the wrong product behavior.
 
 That difference sounds small until it becomes the whole interface. If a user asks for a summary, the desired behavior is not merely a statistically plausible completion after the words "summarize this." The desired behavior is a bounded act: read the source, preserve the important facts, compress without inventing, match the requested audience, and stop. If a user asks a harmful question, the product may need the model not to continue the pattern at all. If a user asks a confused question, the best answer may be a correction, not obedience.
 
@@ -17,6 +13,14 @@ This is the point at which alignment entered the product. It was not an abstract
 OpenAI's InstructGPT work stated the product gap bluntly: making language models larger does not inherently make them better at following a user's intent. The paper described a pipeline that began with labeler-written demonstrations and API prompts, trained a supervised model, collected rankings of outputs, trained a reward model from those preferences, and then used reinforcement learning from human feedback to improve the policy. [S-0014] The OpenAI product post around that work made the contrast even more legible: GPT-3 could be coaxed with careful prompts, but it could also produce untruthful, toxic, or harmful outputs because it was trained to predict text rather than safely perform the user's task. [S-0074]
 
 That was the hinge. The model still predicted tokens. But the product began to ask a second question: which tokens should this assistant prefer to produce?
+
+## Drafting Controls
+
+Status: OpenAI spine continuity pass promoted in I-0154, 2026-05-26; first promoted draft candidate from pass I-0018 preserved as source context.
+
+Source note: This chapter draft uses source IDs from `sources.tsv`. It treats alignment as a product and mechanism story: how base-model continuation became instruction following, refusal behavior, policy-shaped assistant behavior, and evaluation work. It deliberately avoids becoming a regulation chapter. Pass I-0033 adds `data/alignment_quote_safe_table_i0033.tsv` for short, reviewed quote candidates from captured Model Spec and system-card artifacts; pass I-0038 adds S-0074 text-render quote candidates for the instruction-following product post, while longer red-team, system-card, and exact policy passages still need row-specific extraction before final prose.
+
+Visual integration: Figure 6.1, `assets/visual_system/rlhf-alignment-pipeline.svg`, shows pretraining, supervised demonstrations, preference comparisons, reward/preference modeling, RL optimization, Constitutional AI/RLAIF, product policy, red teaming, and evaluation loops as a layered assistant-behavior stack. The companion rows live in `data/rlhf_alignment_pipeline_i0023.tsv`; the figure keeps the central caveat visible that refusals and caveats are product behavior built from several layers, not proof that the model "understands" the user's real-world interests. [S-0004] [S-0014] [S-0019] [S-0074] [S-0075]
 
 ## The Three-Step Machine
 
@@ -179,10 +183,3 @@ This also explains why ChatGPT's failures were so culturally intense. A raw auto
 The public did not need to know the acronym RLHF to feel its effects. They felt it in the difference between a completion and an answer. They felt it in the refusal, the apology, the caveat, the format-following, the conversational memory inside a session, and the model's tendency to act as if it had been asked to help. The interface made the training philosophy tangible.
 
 That is the clean handoff. Chapter 5 showed how prompting and APIs made language models programmable. Chapter 6 shows how instruction tuning and alignment work made them assistant-shaped. Chapter 7 can now show what happened when the assistant shape met the public.
-
-## Verification Tasks Before Next Promotion
-
-- Use `data/alignment_quote_safe_table_i0033.tsv` before adding exact Model Spec, GPT-4 system-card, GPT-4o system-card, or instruction-following product-post wording; keep quotations short and tied to their snapshot caveats.
-- Add a visual RLHF pipeline with row-level caveats for demonstrations, comparisons, reward modeling, RL optimization, red teaming, and product policy layers.
-- Add Anthropic Claude product sources in the later Anthropic chapter to show how Constitutional AI moved from research signature to assistant brand.
-- Keep this chapter separate from regulation and copyright; use safety only where it changes LLM product behavior, reliability, or deployment.

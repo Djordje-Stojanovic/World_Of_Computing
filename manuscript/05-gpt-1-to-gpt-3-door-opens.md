@@ -1,14 +1,10 @@
 # 5. GPT-1 to GPT-3: The Door Opens
 
-Status: first promoted draft, pass I-0010, 2026-05-24.
-
-Source note: This chapter draft uses source IDs from `sources.tsv`. It is conservative about private motives, exact adoption numbers, API usage, and Copilot productivity claims. Future passes should snapshot OpenAI and GitHub pages before direct quotation and add secondary reporting only where it triangulates public reaction or business context.
-
-Visual anchor: Figure 5.1, `assets/visual_system/gpt-lineage-table.svg`, compresses the chapter's lineage into a sourced table: GPT-1 as pretraining and transfer, GPT-2 as prompted multitask continuation, GPT-3 as few-shot prompting, the OpenAI API as infrastructure distribution, Codex as executable-language generation, and GitHub Copilot as the cursor-level product surface. Its companion data lives in `data/gpt_lineage_visual_table.tsv`; its caveats should stay visible until usage, pricing, productivity, benchmark, and legal claims are separately snapshotted or triangulated. [S-0011] [S-0012] [S-0013] [S-0004] [S-0069] [S-0052] [S-0070]
-
 ## The Model That Learned To Begin
 
 The first GPT paper did not read like the opening of a consumer revolution. Its title was technical and modest: improving language understanding by generative pre-training. The idea was not to build a chatbot, a search engine, or a programmer. It was to train a Transformer language model on unlabeled text, then adapt it to supervised natural-language understanding tasks. [S-0011]
+
+This chapter is the first conversion in the OpenAI spine. Chapter 4 made scale feel measurable. Chapter 5 shows a lab turning that measurement culture into a usable lineage: pretrain, prompt, serve by API, generate code, and place the model at the cursor. The story is not inevitability. It is a sequence of doors that only look aligned after ChatGPT walks through them.
 
 The quiet reversal mattered. For years, much of machine learning had treated labels as the precious ingredient. A dataset had examples. A task had answers. The model learned the mapping. GPT-1 took a different bet: maybe the internet's unlabeled text contained enough structure that predicting the next token could teach a model broadly useful representations before anyone told it the specific exam it would sit.
 
@@ -17,6 +13,14 @@ That bet gave the chapter its first hinge. The model did not need to know what a
 This was not magic general intelligence. It was a new economic shape for learning. Unlabeled text was abundant. Labeled task data was narrow and expensive. Pretraining let the expensive part come later. The model learned a broad compression of language first, then specialized.
 
 GPT-1 therefore belongs in the book not because it was huge by later standards, but because it named a reusable recipe: pretrain a generative Transformer on text, then transfer. It was a door, not the room.
+
+## Drafting Controls
+
+Status: OpenAI spine continuity pass promoted in I-0154, 2026-05-26; first promoted draft from pass I-0010 preserved as source context.
+
+Source note: This chapter draft uses source IDs from `sources.tsv`. It is conservative about private motives, exact adoption numbers, API usage, and Copilot productivity claims. Future passes should snapshot OpenAI and GitHub pages before direct quotation and add secondary reporting only where it triangulates public reaction or business context.
+
+Visual anchor: Figure 5.1, `assets/visual_system/gpt-lineage-table.svg`, compresses the chapter's lineage into a sourced table: GPT-1 as pretraining and transfer, GPT-2 as prompted multitask continuation, GPT-3 as few-shot prompting, the OpenAI API as infrastructure distribution, Codex as executable-language generation, and GitHub Copilot as the cursor-level product surface. Its companion data lives in `data/gpt_lineage_visual_table.tsv`; its caveats should stay visible until usage, pricing, productivity, benchmark, and legal claims are separately snapshotted or triangulated. [S-0011] [S-0012] [S-0013] [S-0004] [S-0069] [S-0052] [S-0070]
 
 ## The Uncomfortable Release
 
@@ -173,10 +177,3 @@ InstructGPT and RLHF belong immediately after this chapter because they addresse
 The hand-off should be sober. RLHF did not solve truth, safety, bias, robustness, jailbreaking, or misuse. It did not turn a base model into a moral agent. But it changed the product surface. The model could be trained not merely to continue, but to respond in ways humans preferred under specified conditions. That difference is why ChatGPT could feel less like a raw completion engine and more like a counterpart.
 
 The final image of Chapter 5 is therefore not a triumphant model, but a problem made legible. The GPT line opened the door. Behind it was a room full of users, developers, prompts, code, policies, failures, business dependencies, and expectations. The next chapter asks how a continuation machine learned to act as if it had been asked for help.
-
-## Verification Tasks Before Next Promotion
-
-- Snapshot GPT-1, GPT-2, GPT-3, OpenAI API, GPT-3 apps, Codex, and GitHub Copilot pages before direct quotation or exact usage figures.
-- Add primary Microsoft/OpenAI source rows for GPT-3 licensing and Azure distribution before writing Chapter 8.
-- Integrate Figure 5.1 into the eventual print/PDF layout and keep all row-level caveats visible.
-- Add secondary reporting only to triangulate public reaction, release debate, developer adoption, and code/licensing concerns.

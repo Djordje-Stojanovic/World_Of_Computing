@@ -1,12 +1,10 @@
 # 7. ChatGPT: The Interface Event
 
-Status: first promoted draft, pass I-0003, 2026-05-24; source-specific claim audit pass I-0041, 2026-05-25.
-
-Source note: This chapter uses source IDs from `sources.tsv` and remains conservative about adoption numbers, private scenes, internal motives, boardroom drama, and unsupported market or productivity claims. Productization, adoption, reception, and Enterprise caveats now sit beside the paragraphs that need them; C-0010 remains active for unattributed quantitative adoption, broad public-reception, named-customer deployment, and customer-productivity claims.
-
 ## The Box
 
 On November 30, 2022, OpenAI published a product post with a plain invitation: try a conversational model called ChatGPT. The interface did not look like a scientific milestone. It looked like a text box. That was the trick, and also the rupture. A research trajectory that had been moving through papers, demos, APIs, and benchmark tables arrived in the old shape of computing's most forgiving command line: write something, press return, see what comes back. [S-0006]
+
+This is the third conversion in the OpenAI spine. GPT-3 had made the prompt a workbench. InstructGPT and RLHF had made assistant behavior a training target. ChatGPT made the two feel like a public interface. The result was not a straight line of destiny; it was a stack of earlier choices suddenly becoming legible to anyone with a question.
 
 The model behind the box was not introduced as a new theory of mind or a finished oracle. OpenAI described ChatGPT as a sibling model to InstructGPT, trained to follow instructions in a prompt and provide a detailed response. That phrasing matters. The public event was not only that a language model could complete text. GPT-3 had already made that clear, and the GPT-3 paper had shown a model that could perform many tasks from examples in context rather than from task-specific training. [S-0004] The event was that the completion engine had been wrapped as a participant in a turn-taking exchange. The model no longer felt like an autocomplete system pointed at the internet. It felt like a machine waiting for you.
 
@@ -21,6 +19,12 @@ This paragraph is deliberately fussy about units because the launch became legen
 The first reaction was not a single public mood. It was a set of local control problems. On December 5, 2022, Meta Stack Overflow posted a temporary policy against ChatGPT-generated posts, saying the issue was not merely that answers could be wrong but that plausible wrong answers could arrive faster than volunteer moderators could inspect them. [S-0093] A month later, Chalkbeat reported that New York City's education department had blocked ChatGPT on school devices and networks, citing learning, safety, and accuracy concerns. [S-0094] Seattle Public Schools had taken a similar access-control route on district WiFi and devices, according to Axios Seattle, while Axios later reported that JPMorgan Chase restricted staff use under ordinary third-party-software controls rather than a named incident. [S-0096; S-0097] These were not proof that developers, schools, or companies all rejected ChatGPT. They were early signs that the chat box had escaped the product category OpenAI had given it: communities had to decide whether it was a tool, a shortcut, a cheating machine, a security risk, or all of those at once.
 
 The order matters. Stack Overflow was not a school. A school district was not a bank. A bank restriction was not a public cultural verdict. Each institution had a different failure mode in view. For a volunteer Q&A site, the danger was moderation overload from confident junk. For schools, the danger was assessment, learning, and student use inside managed networks. For a bank, the danger was third-party software inside a controlled enterprise environment. ChatGPT looked universal because the same text box appeared everywhere, but the local anxieties were specific. The chapter should preserve that specificity, because specificity is what keeps early reception from becoming a cartoon.
+
+## Drafting Controls
+
+Status: OpenAI spine continuity pass promoted in I-0154, 2026-05-26; first promoted draft from pass I-0003 and source-specific claim audit pass I-0041 preserved as source context.
+
+Source note: This chapter uses source IDs from `sources.tsv` and remains conservative about adoption numbers, private scenes, internal motives, boardroom drama, and unsupported market or productivity claims. Productization, adoption, reception, and Enterprise caveats now sit beside the paragraphs that need them; C-0010 remains active for unattributed quantitative adoption, broad public-reception, named-customer deployment, and customer-productivity claims.
 
 ## The Product Was A Training Method With A Face
 
@@ -147,11 +151,3 @@ The box did not abolish the old computer. It taught the old computer a new front
 That is the handoff. After ChatGPT, the story is no longer whether the public will care about large language models. The public has already cared. The question becomes who can build the better assistant, who can serve it cheaply, who can keep it useful without making it reckless, who can make it work inside institutions, and who can turn the blinking box into durable computing infrastructure.
 
 The answer will not come from OpenAI alone. Microsoft will turn the shock into platform strategy. Google will answer from search, DeepMind, and Gemini. Anthropic will make assistant behavior its brand. Meta will push open weights into the argument. Chinese labs will build their own frontier systems. NVIDIA will sell the factories. Developers will turn chat into agents. But the hinge remains that first public shape: a box, a cursor, a user asking in ordinary language, and a machine answering as if ordinary language had become command.
-
-## Verification Tasks Before Next Promotion
-
-- Add further adoption/reception chronology only after finding primary or clearly attributable sources for exact figures; C-0010 still blocks unattributed quantitative adoption, public reception, named-customer, and customer-productivity claims.
-- Use S-0078/SNAP-20260525-013 for Plus launch price and benefit wording; use S-0089/SNAP-20260525-014 and S-0079/SNAP-20260525-026 for short, attributed Enterprise launch and feature wording with official-alternate/text-render/vendor-hosted caveats.
-- Snapshot or archive OpenAI pages for ChatGPT, plugins, GPTs, GPT-4o, and the original ChatGPT Enterprise product post before extracting quotes or figures beyond the existing quote-safe tables.
-- Add secondary reporting only to triangulate public reaction, institutional urgency, and Microsoft/OpenAI business context.
-- Convert the "Box to Platform" section into a visual timeline after the visual grammar pass.
