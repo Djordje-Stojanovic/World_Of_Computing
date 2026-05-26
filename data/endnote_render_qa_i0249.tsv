@@ -1,0 +1,7 @@
+pass_id	check_id	category	result	evidence	recommended_action
+I-0249	NOTE-001	placeholder_generation	pass	note_rows=315; unique_note_ids=315; unique_source_ids=153	If rows are zero, repair source-cue extraction before choosing note style.
+I-0249	NOTE-002	full_book_render	pass	pdf=C:\AI\TEMP\World_Of_Computing\rendered\full_book_i0249\Next-Token-full-draft-i0240.pdf; bytes=3004430; sha256=89b1c56b0d57ac8354bd1463ce726e3f85be2429eccb762808dd2c114b3f98ca; pages=461	Regenerate the endnote prototype if the PDF artifact is missing or empty.
+I-0249	NOTE-003	marker_survival	pass	expected_note_ids=315; missing_in_pdf=none	Repair marker syntax if note IDs do not survive text extraction.
+I-0249	NOTE-004	source_id_survival	pass	missing_source_ids_in_pdf=none	Repair note text if source IDs disappear during rendering.
+I-0249	NOTE-005	apparatus_placement	pass	source_notes_heading_pages=427; last_12_pages_have_note_ids=True	Keep notes at the back until a final endnote/footnote design pass chooses page placement.
+I-0249	NOTE-006	html_note_volume	pass	html_bytes=810924; note_rows=315; html_note_marker_occurrences=630	Compress repeated source clusters before final layout if full-book notes feel too dense.

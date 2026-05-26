@@ -378,3 +378,7 @@ Full-book flow is easiest to improve when chapter boundaries are treated as thei
 ## 2026-05-27 - I-0248 Source Proximity
 
 Narrative glue still needs visible evidence lanes when it carries factual mechanism claims. The fastest safe citation-density repair is to place bounded source IDs beside newly added transition prose, then state what those lanes do not support so continuity does not become a back door for unsupported metrics, rankings, markets, quotations, or scenes.
+
+## 2026-05-27 - I-0249 Endnote Apparatus
+
+Back-of-book source-ID-first endnotes are the safest apparatus prototype for the current rough renderer. They preserve traceability and render cleanly across the whole draft, while postponing footnote proximity, bibliographic compression, page anchors, and typography until the book has a real page template.
