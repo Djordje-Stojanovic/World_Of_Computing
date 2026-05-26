@@ -4,9 +4,9 @@ Read this file fully before acting. Then run exactly one loop pass per invocatio
 
 ## 0. Mission
 
-Build and endlessly improve **Next Token: The Race to Build the Machines That Learned Language, Code, and Computing**: a 100,000-120,000 word, exactly 24-chapter, deeply sourced, visually beautiful nonfiction book about large language models through the hard factual cutoff of **May 24, 2026**.
+Build and finish, in the next focused 15 FIFO passes, **Next Token: The Race to Build the Machines That Learned Language, Code, and Computing** as a 100,000-120,000 word, exactly 24-chapter, deeply sourced, visually maximal **private personal edition** about large language models through the hard factual cutoff of **May 24, 2026**.
 
-The book must aspire to beat the benchmark canon: *Chip War*, *The Prize*, *The Thinking Machine*, Walter Isaacson's *Steve Jobs*, and Walter Isaacson's *Elon Musk*. Optimize for prize-worthy truth, narrative force, technical depth, rare insight, and visual elegance. The open-ended substrate is combinatorial craft plus a self-raising rubric: the factual world is cutoff-bounded, but structure, sources, scenes, charts, explanations, and prose can keep improving.
+The book is no longer optimized for publication, awards submission, commercial release, permissions clearance, or legal public-use readiness. It is optimized for the user's private reading experience: the felt quality, density, visual richness, truth, narrative force, technical depth, rare insight, and visual elegance of a book that can sit beside or exceed *Chip War*, *The Prize*, *The Thinking Machine*, Walter Isaacson's *Steve Jobs*, and Walter Isaacson's *Elon Musk* in craft, while remaining a private-use artifact.
 
 ## 1. Invariants
 
@@ -14,14 +14,14 @@ These never change. If a candidate violates any item, revert or reject it immedi
 
 - Factual cutoff: May 24, 2026. No post-cutoff event may be written as happened history. Announced roadmaps, expectations, and forecasts known by the cutoff may appear only with clear labels.
 - Topic: LLMs specifically. Include hardware, datacenters, power, CUDA, chips, CPUs, datasets, tools, coding agents, evaluation, and companies only where they explain LLM progress.
-- Final target: exactly 24 main chapters, >100,000 and <120,000 words, **at least 100 curated charts/data/SVG/visualization exhibits**, and **50-75 real-world image exhibits** across people, labs, company/product surfaces, chips, machines, data centers, factories, source-page screenshots, PDF/page renders, presentation slides, annual-report pages, technical-report screenshots, documentation screenshots, paper-figure redraws, and short source-excerpt cards. Aim for 3-4 strong exhibit candidates per chapter on average, with final selection governed by truth, rights, legibility, aesthetic quality, diversity across the stack, and narrative value rather than count inflation.
+- Final private-edition target: exactly 24 main chapters, >100,000 and <120,000 words, **at least 100 curated charts/data/SVG/visualization exhibits**, **at least 50 real photos/screenshots/source images**, **25-30 paper/arXiv/report excerpt or figure/page exhibits**, **25-30 PDF, annual-report, slide, presentation, or technical-report page/image exhibits**, **20 model-card, Hugging Face, benchmark, leaderboard, repo, or documentation screenshot/excerpt exhibits**, **at least 50 company/lab/product logos placed with narrative purpose**, **at least 10 benchmarking tables**, including **at least one benchmark/model-landscape table for every year from GPT-1 through the May 24, 2026 cutoff**, and **at least 30 CEO/founder/research-leader/person photographs or public-profile images** where they make the story feel real. These targets are for the private edition and may use found web, Google image, company, source-page, PDF, screenshot, and presentation material without publication permission as long as local provenance is recorded.
 - Sourcing standard: investigative. No fabricated quotes, interviews, scenes, captions, leaked claims, or insider access.
 - Unsupported factual claim count must trend to zero and must be zero before done-enough.
 - Truth outranks beauty; beauty outranks completeness when both versions are equally true.
 - No generic "AI will change everything" futurism unless tightly grounded in sources available by the cutoff.
 - No robotics. No image/video diffusion history except brief contrast or context. No regulation/copyright/bureaucracy chapters except unavoidable brief context.
-- Private-use visuals may use found/company/presentation/screenshot material, but every asset must record provenance in `assets_manifest.tsv`.
-- The loop may download up to 50 real-world/source-media items per visual acquisition pass from Google, NVIDIA, DeepSeek, OpenAI, Anthropic, Meta, Microsoft, ASML, TSMC, Wikimedia, company sites, papers, PDFs, HTML pages, annual reports, presentations, newsrooms, blogs, documentation, and other relevant web sources. "Real-world image" includes photos and screenshots, but also page renders from PDFs, NVIDIA GTC presentations, DeepSeek papers/reports, company annual reports, technical reports, product pages, docs, and other real company/source surfaces. Downloaded PDFs, HTML, images, extracted page renders, and source screenshots should be kept locally in the workspace for book production, extraction, QA, and redraw/reference use, with URL, source ID, access date, file size, checksum, rights/use note, quality score, diversity role, story-fit note, and blocked-claim note recorded.
+- Private-use visuals may use found/company/presentation/screenshot material, including Google image results and source screenshots, without waiting for rights clearance or publication approval. Every asset must still record provenance in `assets_manifest.tsv` or a linked acquisition ledger: URL or search/source context when available, access date, local path, checksum, source type, visual role, and any uncertainty.
+- The loop may download large batches of real-world/source-media items per visual acquisition pass from Google, NVIDIA, DeepSeek, OpenAI, Anthropic, Meta, Microsoft, AMD, CoreWeave, ASML, TSMC, Wikimedia, company sites, papers, PDFs, HTML pages, annual reports, presentations, newsrooms, blogs, documentation, model cards, Hugging Face pages, benchmark sites, and other relevant web sources. "Real-world image" includes photos, screenshots, logos, CEO/person images, paper excerpts, PDF/page renders, NVIDIA GTC and other presentations, DeepSeek papers/reports, company annual reports, technical reports, product pages, docs, model-card pages, benchmark tables, and other real source surfaces. Downloaded PDFs, HTML, images, extracted page renders, and source screenshots should be kept locally in the workspace for private book production, extraction, QA, and layout use, with provenance and quality metadata recorded.
 - `GTC-2026-Keynote.pdf` is a major local source candidate for NVIDIA/GTC chapters; use it with page-level provenance.
 - Never overwrite `champion/` without a backup or clearly recorded replacement.
 - Never use destructive git operations. Never delete user files. Never leak secrets. Avoid irreversible edits.
@@ -71,13 +71,13 @@ One pass means one chapter/section-level revision or one visual/data package, ca
 
 The evaluator is the product. Be harsh. It is better to call the book bad and improve it than to ship beautiful garbage.
 
-Primary scalar: **Award-Caliber BookScore**, 0-100, higher is better.
+Primary scalar: **Private Masterpiece BookScore**, 0-100, higher is better.
 
 Weights:
 
-- 20% Financial Times Business Book of the Year plausibility.
-- 15% Pulitzer Prize for General Nonfiction plausibility.
-- 15% serious tech/history canon durability, benchmarked against *Chip War* and *The Prize*.
+- 20% private reading awe: does the book feel like a rich, finished, physical world rather than text plus placeholders?
+- 15% visual density and variety: photos, screenshots, logos, papers, PDFs, tables, model cards, benchmark surfaces, chips, clusters, fabs, and people.
+- 15% serious tech/history canon durability, benchmarked against *Chip War*, *The Prize*, and *The Thinking Machine* for quality, not award eligibility.
 - 10% Goodreads-style reader addiction, fun, and word-of-mouth appeal.
 - 10% narrative quality: scenes, pacing, stakes, character, chapter endings.
 - 10% technical depth and correctness.
@@ -89,10 +89,10 @@ Programmatic metrics:
 
 - Word count is >100,000 and <120,000.
 - Chapter count is exactly 24 main chapters.
-- Curated charts/data/SVG/visualization exhibit count is at least 100, separate from a 50-75 real-world image exhibit target spanning people, company/product surfaces, hardware, fabs, machines, data centers, PDF/page renders, presentation slides, annual-report pages, technical-report screenshots, documentation screenshots, and source imagery.
+- Curated charts/data/SVG/visualization exhibit count is at least 100, separate from the private-edition real-world/source-surface targets: 50+ real photos/screenshots/source images, 25-30 paper/report excerpt exhibits, 25-30 PDF/presentation/report page exhibits, 20 model-card/Hugging Face/benchmark/repo/docs screenshots or excerpts, 50+ logos, 10+ benchmark tables with yearly coverage from GPT-1 through cutoff, and 30+ CEO/founder/research-leader/person images.
 - Every chapter has 3-4 strong exhibit candidates on average, while final layout may use fewer where prose rhythm or rights constraints demand restraint.
-- Every visual/source exhibit has caption, source/provenance, rights status, story purpose, and blocked-claim note.
-- Every downloaded source-media item has local path, original URL, source ID when applicable, access date, file size, checksum, rights/use note, extraction status, quality score, diversity role, story-fit note, and blocked-claim note before it is treated as an exhibit candidate.
+- Every visual/source exhibit has caption, source/provenance, private-use status, story purpose, and blocked-claim note.
+- Every downloaded source-media item has local path, original URL or search/source context when available, source ID when applicable, access date, file size, checksum, private-use note, extraction status, quality score, diversity role, story-fit note, and blocked-claim note before it is treated as an exhibit candidate.
 - Source density target is one citation per 150-250 words in factual/reporting-heavy sections.
 - Unsupported factual claim count trends to zero.
 - Primary-source ratio is tracked and raised when possible.
@@ -110,7 +110,7 @@ Subjective judged metrics:
 - Seriousness and honesty.
 - Data/visual elegance.
 - Fun, surprise, humor, and inspiration.
-- Genuine superiority to the benchmark canon, not just length or polish.
+- Genuine superiority to the benchmark canon as a private reading object, not just length or polish.
 
 Debiasing:
 
@@ -124,7 +124,7 @@ Ground-truth anchors:
 - Factual claims need cited support.
 - Technical claims need papers, docs, code, benchmarks, talks, or credible primary/secondary sources.
 - Model rankings, prices, and context windows need source snapshots and access dates.
-- Visuals need provenance in `assets_manifest.tsv`.
+- Visuals need provenance in `assets_manifest.tsv` or linked acquisition ledgers, but public-use permission is not a gate for the private edition.
 
 ## 5. Archive And Quality-Diversity
 
@@ -171,7 +171,7 @@ Plateau rules:
 - Never copy benchmark-book prose. Use them as quality targets, not templates.
 - Every major edit must preserve or improve claim support.
 - Every PDF/design pass must verify readability and layout.
-- If the loop starts optimizing easy counts instead of prize quality, stop and tighten the evaluator before continuing.
+- If the loop starts optimizing easy counts instead of private-edition quality, stop and tighten the evaluator before continuing.
 - Git history is part of the safety system. Commit small, auditable steps. Do not hide failed experiments; record them and revert candidate artifact changes cleanly.
 
 ## 8. Scaling Self-Monitor
@@ -261,13 +261,13 @@ The book must cover:
 
 ## 12. Done-Enough And Never-Stop
 
-The loop runs until manually halted. It may mark the book done-enough only when:
+The loop is now in a 15-pass private-edition finish sprint. It may mark the private edition done-enough only when:
 
 - Hard constraints pass.
 - Unsupported factual claims are zero or explicitly quarantined.
 - Full-book PDF render passes.
-- Source and asset ledgers are auditable.
-- Repeated full-book passes show no meaningful score gain.
+- Source and asset ledgers are auditable for private use.
+- The requested private visual targets are either met or explicitly reported as the only remaining shortfall after the fifteenth sprint pass.
 - The final report states the remaining weaknesses honestly.
 
 Do not ask the user routine research questions. Find sources and files yourself. Ask only if blocked by missing permissions, inaccessible files, or a genuine objective contradiction.
