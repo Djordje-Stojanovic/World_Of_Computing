@@ -430,3 +430,7 @@ The first honest page-image QA should produce defects, not reassurance. Once eve
 ## 2026-05-27 - I-0264 Rights Closure
 
 Rights closure is not the same as permission. The useful move is to retire unsafe screenshot/photo/slide placeholders from the active publication path and point the book at original source cards or local-only reserves, while preserving final legal review as a separate gate.
+
+## 2026-05-26 - I-0265 Claim Burn-Down
+
+Unsupported-claim burn-down should not convert caveats into false certainty. The right resolution for many stale blockers is a supported guardrail: prove that the manuscript quarantines or attributes the risky claim, then record exactly what still cannot be said until a later source pack proves it.

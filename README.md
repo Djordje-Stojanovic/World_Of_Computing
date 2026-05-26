@@ -6,16 +6,16 @@ This repository is the working memory, manuscript lab, source ledger, visual sys
 
 ## Current Book State
 
-Updated **2026-05-27** after pass `I-0264`.
+Updated **2026-05-26** after pass `I-0265`.
 
-- **Latest recorded pass:** `I-0264`, rights-closure reconciliation.
+- **Latest recorded pass:** `I-0265`, claim burn-down.
 - **Latest exhibit dashboard pass:** `I-0236`, fail-closed visual readiness recomputation.
 - **Words:** 102,196 assembled source words across the canonical 24-chapter draft, including 3,911 retained supplemental Anthropic/Claude words; the primary-only spine is 98,285 words, so the floor is conditionally cleared rather than permanently solved.
 - **Chapters:** 24 / 24.
 - **Charts/diagrams:** 142.
 - **Photo/screenshot/source-surface slots:** 78.
 - **Sources:** 299.
-- **Claims:** 273 supported / 8 needs-verification.
+- **Claims:** 281 supported / 0 needs-verification.
 - **Asset/provenance rows:** 267.
 - **Idea queue:** active FIFO continues; next pending pass is recorded in `ideas.tsv`.
 - **Ledger BookScore:** 100.0, but this is a loop scoring proxy, not a publication certificate.
@@ -27,6 +27,7 @@ Updated **2026-05-27** after pass `I-0264`.
 - **Current selected-exhibit repair manifest:** `data/selected_exhibit_manifest_i0261.tsv` preserves exactly 100 selected figure IDs with 100 existing lightweight source files and 0 empty callouts; 26 previously blocked rows are replaced or cut/replaced in `data/selected_exhibit_repair_i0261.tsv`.
 - **Current page-image QA:** `data/page_image_legibility_i0263.tsv` audits 100 figure pages and `data/page_image_legibility_samples_i0263.tsv` records 24 local chapter sample PNGs; 100 figures need layout review and 0 P0 defects were found.
 - **Current rights closure:** I-0264 closes 26/26 old non-publish rows ({'closed_replaced_by_source_card': 18, 'closed_cut_replaced_by_original_card': 6, 'closed_local_only_reserve_replaced_by_source_card': 2}) while keeping final rights/legal review pending for the finished PDF.
+- **Current claim burn-down:** I-0265 rewrites the last 8 active `needs-verification` rows into supported guardrails, quarantines, or attribution rules; `claims.tsv` now has 281 supported rows and 0 active needs-verification rows, with 5/5 QA checks passing in `data/claim_burn_down_qa_i0265.tsv`.
 - **Critical visual defect now narrowed:** the current visual PDF has 100 raster image XObjects across 100 pages and embeds 100/100 selected figure callouts from the I-0261 successor manifest. Page-image legibility QA now has an I-0263 defect register; caption compression, final source-note typography, final rights review, and final design remain pending.
 - **Real-world/source-surface layer:** 24 blocked candidate callouts are marked in the assembled draft across 12 chapters, and I-0259 adds 25 local source-media handles with hashes and blocker notes for product pages, PDFs, arXiv pages, repository HTML, dataset JSON, and GTC slides. These are still private-use/source-review assets; 0 are publication-ready.
 - **Source-card extraction layer:** 22 I-0244 quote-safe extraction rows and 25 I-0260 paraphrase-first source-card SVGs now have local line/page/slide-note anchors across chapters 6, 7, 9-13, 15-16, 18-20, and 22; I-0260 keeps quote fragments at 4 words or fewer per card, with per-source totals under 5 words, and final page-layout proof remains pending.
@@ -144,7 +145,7 @@ Every serious pass should begin by reading `GOAL.md`, checking git state, and co
 The immediate next phase should prioritize:
 
 1. Add the missing 700+ high-quality words only where the book genuinely needs them.
-2. Verify or rewrite the 8 remaining needs-verification claims.
+2. Perform the full-book source-density repair so reader-facing factual sections have nearby source anchors and notes.
 3. Execute the source-download/capture automation plan without committing heavyweight media.
 4. Convert the 30 high-risk selected exhibits into captured, permissioned, redrawn, replaced, reserved, or cut decisions.
 5. Close 67 caption warning/fail gates, fill the early chapter visual gap in chapters 2-5, and prune overfull later chapters.

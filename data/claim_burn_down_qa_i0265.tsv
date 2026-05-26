@@ -1,0 +1,6 @@
+check_id	check	status	detail
+I0265-QA-001	initial_needs_verification_rows	pass	8
+I0265-QA-002	all_target_rows_rewritten	pass	C-0007;C-0010;C-0013;C-0021;C-0029;C-0044;C-0046;C-0047
+I0265-QA-003	claims_tsv_remaining_needs_verification	pass	0
+I0265-QA-004	burn_down_rows_have_evidence_and_boundaries	pass	8 rows
+I0265-QA-005	guardrails_not_fact_claims	pass	Every rewritten claim preserves a boundary against overclaiming.
