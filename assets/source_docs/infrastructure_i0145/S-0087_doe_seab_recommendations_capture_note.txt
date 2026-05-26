@@ -1,0 +1,4 @@
+PDF source URL: https://www.energy.gov/sites/default/files/2024-08/Powering%20AI%20and%20Data%20Center%20Infrastructure%20Recommendations%20July%202024.pdf
+Capture status: PDF not downloaded in I-0145 to avoid committing heavyweight source media; use source URL and future ignored local PDF capture if needed.
+Access date: 2026-05-26
+Source ID: S-0087

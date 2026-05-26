@@ -1,0 +1,7 @@
+Source ID: S-0086
+Source title: EPRI Powering Intelligence
+Source URL: https://restservice.epri.com/publicdownload/000000003002028905/0/Product
+Capture status: shell request returned a 3.5 MB binary payload in I-0145, so the payload was removed and replaced with this lightweight provenance note to avoid committing heavyweight source media.
+Access date: 2026-05-26
+Use: source-surface candidate for interconnection, local concentration, facility scale, and utility-planning evidence lanes.
+Blocked claims: no complete project-delay database, no named-campus delay proof, no final query-energy value, no utility-wide causality claim.

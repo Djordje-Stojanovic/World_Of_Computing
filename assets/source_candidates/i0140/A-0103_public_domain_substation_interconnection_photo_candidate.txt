@@ -1,0 +1,10 @@
+Candidate asset: A-0103 public-domain/rights-safe grid-interconnection photo candidate
+Pass: I-0145
+Selected source surface: Department of Energy media page, Powerlines_BBGI.jpeg
+Source URL: https://www.energy.gov/media/273469
+Description from source page: High Voltage transmission lines in sunset
+Rights posture: U.S. Department of Energy .gov source; treat as public-domain/government-media candidate pending final image-use review and credit-line confirmation.
+Story purpose: Physical texture for the interconnection/grid constraint in Chapter 16.
+Allowed caption: Transmission infrastructure is part of the physical system that data-center load must meet.
+Blocked caption claims: Do not imply a named data-center connection, outage or delay proof, capacity value, AI workload, site fuel mix, deployment scale, or grid-readiness conclusion.
+Negative control source: DOE Office of Science EESM image guidance notes that U.S. government images can be used with attribution when they are public domain, but final credit still matters.
