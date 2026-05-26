@@ -390,3 +390,7 @@ Rights staging should turn visual ambiguity into layout action, not legal confid
 ## 2026-05-27 - I-0251 Page Template
 
 Book design should become a contract before it becomes a PDF. A reusable CSS ledger for trim, margins, body type, headings, captions, source notes, figure widths, and break behavior lets the next render test design choices directly instead of confusing rough-render defects with manuscript defects.
+
+## 2026-05-27 - I-0252 Designed Render
+
+A designed render is a QA surface, not a finish line. Applying the page template to the full draft can reduce page count and preserve chapters, figure IDs, and source lanes, but publication readiness still depends on page-image overflow review, real artwork placement, caption compression, rights closure, and final source notes.

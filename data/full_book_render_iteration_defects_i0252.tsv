@@ -1,0 +1,2 @@
+pass_id	defect_id	severity	category	evidence	recommended_action
+I-0252	R2DEF-008	P1	designed_render_not_publication_ready	No final artwork placement, overflow screenshot scan, caption compression, source-note finalization, or rights clearance.	Use the designed PDF as the next QA surface, not as a publication candidate.

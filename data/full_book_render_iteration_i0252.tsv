@@ -1,0 +1,9 @@
+pass_id	check_id	category	result	evidence	recommended_action
+I-0252	R2-001	artifact_integrity	pass	pdf=C:\AI\TEMP\World_Of_Computing\rendered\full_book_i0252\Next-Token-full-draft-i0252.pdf; bytes=2898156; sha256=b97f248ee52a370ddc144d270b3e7ff241031d931f670b2829a077d1a3335f47	Regenerate designed render if PDF is missing or empty.
+I-0252	R2-002	template_applied	pass	css=C:\AI\TEMP\World_Of_Computing\assets\book_design\full_book_page_template_i0251.css; bytes=3635; html_contains_10_8pt=True	Repair CSS injection before judging render quality.
+I-0252	R2-003	chapter_survival	pass	source_chapters=24; missing=none	Repair headings or render conversion before design comparison.
+I-0252	R2-004	figure_id_survival	pass	source_figures=100; missing=none	Repair figure callout rendering before proceeding.
+I-0252	R2-005	blank_pages	pass	blank_like_pages=none; low_text_pages=none	Inspect and remove accidental blank pages.
+I-0252	R2-006	source_lane_survival	pass	source_lanes_in_pdf=23; expected=23	Repair source-lane styling/extraction if I-0248 lanes disappear.
+I-0252	R2-007	page_count_comparison	pass	designed_pages=407; rough_pages=413; designed_bytes=2898156; rough_bytes=2620944	Compare page count again after final figures and endnotes are integrated.
+I-0252	R2-008	residual_defects	warn	Designed render still uses placeholder/callout text for figures; no image placement, overflow screenshot scan, caption compression, or rights clearance is completed.	Run page-image overflow QA and real figure placement before calling this publication-ready.
