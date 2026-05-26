@@ -1,0 +1,13 @@
+contract_id	field	why_it_matters	applies_to	required_before_visual_or_numeric_claim
+IC-001	model_id_and_version	Reasoning claims can change across model snapshots, distilled variants, and product SKUs.	all reasoning/frontier sources	yes
+IC-002	source_date_and_cutoff_status	GOAL.md cutoff requires knowing whether the source predates May 24, 2026 and whether it describes a future roadmap or current release.	all sources	yes
+IC-003	task_or_benchmark_name	Reasoning gains are task-specific; a math result, code result, or chat preference row cannot become all-domain ability.	all benchmark-like sources	yes
+IC-004	benchmark_variant_or_split	SWE-bench Verified, Terminal-bench, AIME year, GPQA variant, or dataset split changes the claim scope.	benchmark sources	yes
+IC-005	tool_access_and_scaffold	Tools, browsing, terminals, code execution, verifiers, and agents make the benchmark a harness result, not raw-model proof.	o-series, ReAct, SWE-bench, LiveCodeBench, Claude/agent claims	yes
+IC-006	sample_count_retries_or_votes	Self-consistency, pass@k, candidate generation, and repeated attempts spend inference differently.	self-consistency, coding benchmarks, verifiers, R1/Kimi, o-series	yes
+IC-007	inference_budget_or_reasoning_effort	Hidden or visible extra thinking changes cost, latency, and comparability.	o-series, R1/Kimi, search/verifier methods	yes
+IC-008	evaluator_or_selection_rule	Verifier, majority vote, tree search, unit tests, or human preference determines what success means.	verifier/search/benchmark methods	yes
+IC-009	contamination_or_time_window	Benchmark leakage and post-release task inclusion can turn a score into a bad proxy.	LiveCodeBench, SWE-bench, GPQA/MATH/AIME, frontier reports	yes
+IC-010	vendor_vs_independent_status	Vendor launch numbers are useful but cannot be narrated as neutral crowns.	OpenAI, Anthropic, DeepSeek, Kimi, Gemini, xAI/lab posts	yes
+IC-011	visibility_of_reasoning_trace	Visible chain text is not necessarily faithful hidden reasoning, and hidden chains are not accessible unless the source says so.	CoT, o-series, process supervision, R1/Kimi	yes
+IC-012	cost_latency_and_routing_scope	Cost or latency claims require same-scope pricing/runtime evidence, not just a reasoning-method paper.	o-series, self-consistency, tree search, economics chapter	yes
