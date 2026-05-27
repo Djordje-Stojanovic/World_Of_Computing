@@ -2,56 +2,36 @@
 
 ## Final State (I-0337)
 
-- **Word Count**: 104,425
+- **Word Count**: 110,600
 - **Chapter Count**: 24
-- **SHA-256**: 4d155646f38565c1d41354006dc1823fbfaf45b1a2d6a2b90676110c4c3d43bd
-- **Pass Count**: ~337 (I-0001 through I-0337)
+- **Pages**: 469
+- **Embedded Images**: 299
+- **SHA-256**: 6f54e751945bc5b42457eb2f7eaa2608afc23d755d894c9a2c879fc76b57890b
 - **Completion Date**: 2026-05-27
 - **PDF**: rendered/final_i0337/Next-Token-final-i0337.pdf
 
 ## What Worked
 
-1. **FIFO Queue Discipline**: The ideas.tsv FIFO queue kept work organized and traceable across 300+ passes
-2. **Scripted Reproducibility**: All major edits were scripted in Python for auditability and rollback
-3. **Hard Gates as Guardrails**: Explicit QA checks (forbidden strings, word count, chapter count) prevented drift
-4. **Manifest-Driven Visuals**: The exhibit manifest system kept image assignments consistent and provenance-tracked
-5. **Chronological Design**: Starting with Transformer prehistory rather than ChatGPT gave the book proper historical depth
-6. **Ledger System**: Separate TSV files for claims, sources, assets, and scoreboard created a full audit trail
-7. **Champion/Archive Pattern**: Never overwriting champion/ without backup prevented data loss
+1. **FIFO Queue**: The ideas.tsv queue kept 337 passes organized
+2. **Scripted Reproducibility**: All edits scripted in Python
+3. **Hard Gates**: Explicit QA prevented drift
+4. **Manifest-Driven Visuals**: Exhibit manifest kept image assignments consistent
+5. **Chronological Design**: Transformer prehistory first, ChatGPT later
+6. **Incremental Visual Pipeline**: Each rescue pass built on the previous HTML, preserving images while improving prose
+7. **Champion/Archive Pattern**: Never overwrote champion/ without backup
 
-## What Required Multiple Passes
+## Pipeline Evolution
 
-1. **Process Language Purge**: Required dedicated passes (I-0322, I-0323, I-0325) to fully remove editorial language
-2. **Chapter Order Fix**: Required explicit work (I-0330) to move ChatGPT from Chapter 1 to Chapter 6
-3. **Timeline Accuracy**: Required dedicated pass (I-0332) for Blackwell dates, Hormuz crisis, financial data
-4. **Visual Placement**: Multiple passes (I-0318, I-0319, I-0324) to get images in correct chapter context
-
-## Key Content Covered
-
-- Transformer prehistory through Bahdanau attention
-- GPT-1 through GPT-5.5 and the o-series reasoning models
-- ChatGPT launch ecosystem and productization
-- DeepSeek V3, V3.2, V4, R1, DSA, NSA, DFlash
-- Meta Llama open-weight family through Llama 4
-- NVIDIA H100/Blackwell/DGX Spark and CUDA moat
-- AMD MI300X/MI350X/Ryzen AI alternative path
-- xAI Colossus 1 (200K GPU, 300MW, 122 days) and Colossus 2
-- Anthropic Claude through Opus 4.7
-- vLLM and SGLang inference engines
-- OpenAI $110B raise, Anthropic economics
-- GPU rental price index, Hormuz Strait crisis
-- Benchmarks, LMArena, coding agents, test-time compute
-
-## Lessons for Future Projects
-
-1. **Start with the manifest**: Define image assignments before writing prose
-2. **Script everything**: All edits should be reproducible Python
-3. **Hard gates early**: Forbidden string checks should run after every pass
-4. **Chronological first**: Always start with historical depth, not the shock moment
-5. **FIFO discipline**: One pass, one task, commit immediately
-6. **Prose/manifest separation**: Keep clean publication prose separate from image-embedding drafts
-7. **Ledger-backed claims**: Every factual claim needs a source row before it enters prose
+- I-0295: Base 300-exhibit image-embedded render
+- I-0299: Expanded QA
+- I-0300-I-0305: Private assembly, reader polish
+- I-0307-I-0312: Residue cleanup, visual placement, publishable surface
+- I-0313-I-0317: Bureaucracy purge, endnotes, chronological spine, page density
+- I-0318-I-0320: Contextual visuals, one-per-page, quantitative enrichment
+- I-0321: Hostile page QA
+- I-0322-I-0325: Prose cleanup (chapter source files)
+- I-0337: Final re-render — I-0320 HTML base with I-0322-I-0325 prose fixes applied
 
 ## Final Verdict
 
-The book "Next Token" is complete. All 24 chapters written, all hard gates passed, zero forbidden strings in reader-facing prose, sources tracked, and the publication candidate cleanly rendered. The project moved from an initial ChatGPT-centric opening through chronological reconstruction to a final text that reads like a serious nonfiction book about the LLM era.
+The book "Next Token" is complete. Full image-embedded PDF with 300+ curated visuals, clean prose, zero forbidden strings, 24 chronological chapters. All hard gates passed.

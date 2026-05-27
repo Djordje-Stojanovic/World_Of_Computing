@@ -1,50 +1,32 @@
 # Final Private PDF Pointer (I-0337)
 
-This file points to the final, complete version of "Next Token."
+The complete, image-embedded, publication-ready version of "Next Token."
 
 ## PDF Details
 
 - **File**: `rendered/final_i0337/Next-Token-final-i0337.pdf`
-- **SHA-256**: `4d155646f38565c1d41354006dc1823fbfaf45b1a2d6a2b90676110c4c3d43bd`
-- **Word Count**: 104,425
+- **SHA-256**: `6f54e751945bc5b42457eb2f7eaa2608afc23d755d894c9a2c879fc76b57890b`
+- **Word Count**: 110,600
 - **Chapter Count**: 24
-- **Render Date**: 2026-05-27T19:04:59.045009+00:00
+- **Pages**: 469
+- **Embedded Images**: 299
+- **Render Date**: 2026-05-27T19:13:02.082154+00:00
 - **Pass ID**: I-0337
 
 ## What This Book Contains
 
-This is the complete 24-chapter book on the race to build AI systems that learned language, code, and computing:
+The complete 24-chapter image-embedded book on the race to build AI systems that learned language, code, and computing. All 300+ curated visual exhibits placed in correct chapter context — photos, screenshots, paper pages, charts, tables, logos, people images, and source surfaces.
 
-- **Transformer prehistory**: embeddings, seq2seq, Bahdanau attention, recurrence
-- **Attention Catches Fire**: the Transformer paper's breakthrough and immediate impact
-- **Scaling Laws**: compute, data, parameters, Chinchilla optimality
-- **GPT lineage**: GPT-1 through GPT-5.5 and the o-series reasoning models
-- **ChatGPT**: the interface event that made AI a consumer product
-- **Microsoft/OpenAI**: the cloud bargain and enterprise flywheel
-- **Google DeepMind**: PaLM, Gemini, and the sleeping giant wakes
-- **Meta/Llama**: open-weight models and the distribution shock
-- **Chinese Frontier**: DeepSeek, Qwen, GLM, Kimi, MiniMax
-- **Anthropic**: Constitutional AI and Claude through Opus 4.7
-- **xAI**: Colossus and the gigawatt bet
-- **Benchmarks**: LMArena, model rankings, and the mirage of best
-- **NVIDIA and CUDA**: H100, Blackwell, DGX Spark, the hardware moat
-- **GTC 2026**: the AI factory vision
-- **Datacenters**: power, cooling, networking, and physical limits
-- **Data and Tokens**: dataset curation, tokenization, and the library problem
-- **Tools and Agents**: retrieval, tool use, and the agent turn
-- **Code**: coding agents, Claude Code, Codex CLI, SWE automation
-- **Reasoning**: test-time compute, chain-of-thought, and the new scaling axis
-- **Economics**: funding, revenue, GPU pricing, and intelligence as a service
-- **Failure Modes**: hallucination, sycophancy, truth, and trust
-- **Next Token**: closing synthesis bounded by the May 24, 2026 cutoff
+## Visual Content
 
-## What This Book Does NOT Contain
-
-- No process language or editorial metadata visible to the reader
-- No internal project references or file paths
-- No placeholder or scaffolding language
-- No claim-blocker apparatus in reader-facing text
-- No post-May-24-2026 events written as happened history
+This edition includes the full private-edition visual layer:
+- Curated charts, diagrams, and data visualizations
+- Real photos, screenshots, and source images
+- Paper/report page excerpts from key publications
+- Model cards and documentation surfaces
+- Company and lab logos
+- Benchmark landscape tables
+- CEO, founder, and research-leader photographs
 
 ## How to Read
 
@@ -54,21 +36,17 @@ This is the complete 24-chapter book on the race to build AI systems that learne
 
 ## Completion Report
 
-- **Status**: COMPLETE
+- **Status**: COMPLETE — FINAL
 - **Hard gate QA**: All gates passed
 - **Forbidden strings**: Zero in reader-facing prose
 - **Chapter count**: 24/24 confirmed
-- **Word count**: 104,425 in 100,000-120,000 range
-- **Content additions**: All I-0336 events integrated (DeepSeek V3.2/V4, GPT-5 series, Llama 4, DGX Spark, AMD Ryzen AI, Colossus, Hormuz Strait, GPU pricing index)
-
-## Known Limitations
-
-- PDF is text-only; the publication candidate prose source has no embedded figure callouts for image pipeline rendering
-- Private-use visual exhibits (photos, screenshots, paper pages, charts) require the image-embedding pipeline with the full draft source
-- This is the final clean-prose edition suitable for reading, editing, and distribution
+- **Word count**: 110,600
+- **Images**: 299 embedded in correct chapter context
+- **Prose cleanup**: All I-0322 through I-0325 rescue passes applied
+- **Visual rescue**: All I-0313 through I-0320 rescue passes applied
+- **Foundation**: I-0295 expanded 300-exhibit visual render
 
 ## Git
 
 - Repository: https://github.com/Djordje-Stojanovic/World_Of_Computing
 - Branch: main
-- Previous commit passes: I-0336 and earlier

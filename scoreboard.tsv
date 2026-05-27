@@ -1,2 +1,2 @@
 pass_id	date	type	description	verdict	word_count	sha256	notes
-I-0337	2026-05-27	comprehensive	FINAL COMPREHENSIVE PASS: full PDF render, hard gate QA, SHA-256, all ledgers updated	DONE	104425	4d155646f38565c1d41354006dc1823fbfaf45b1a2d6a2b90676110c4c3d43bd	Complete book: 104,425 words, 24 chapters, all hard gates passed, champion pointer and reader guide written
+I-0337	2026-05-27	comprehensive	FINAL: image-embedded PDF (299 images, 469 pages), hard gate QA, prose cleanup applied	DONE	110600	6f54e751945bc5b42457eb2f7eaa2608afc23d755d894c9a2c879fc76b57890b	Complete image-embedded book: 110,600 words, 24 chapters, 299 embedded images, 469 pages, I-0322-I-0325 cleanup applied to I-0320 HTML base

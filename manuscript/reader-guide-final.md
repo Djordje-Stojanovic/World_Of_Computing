@@ -2,15 +2,15 @@
 
 ## How to Read This Book
 
-This book is designed to be read in order, from start to finish. The 24 chapters follow a chronological arc from the earliest neural language models through the current state of AI as of May 2026.
+This is a fully illustrated 24-chapter book. Read in order, start to finish. The chapters follow a chronological arc from the earliest neural language models through the current state of AI as of May 2026.
 
 ## Structure
 
 **Part 1: The Foundation (Chapters 1-6)**
-- Ch 1: Before the Transformer — embeddings, seq2seq, Bahdanau attention, recurrence
-- Ch 2: Attention Catches Fire — the Transformer paper and its immediate impact
-- Ch 3: The Scaling Bet — scaling laws, Chinchilla, compute vs. data optimality
-- Ch 4: GPT-1 to GPT-3 — OpenAI's early models and the door that opened
+- Ch 1: Before the Transformer — embeddings, seq2seq, Bahdanau attention
+- Ch 2: Attention Catches Fire — the Transformer paper and breakthrough
+- Ch 3: The Scaling Bet — scaling laws, Chinchilla, compute vs. data
+- Ch 4: GPT-1 to GPT-3 — OpenAI's early models
 - Ch 5: Alignment Enters the Product — InstructGPT, RLHF, Constitutional AI
 - Ch 6: ChatGPT — the interface event that changed everything
 
@@ -18,7 +18,7 @@ This book is designed to be read in order, from start to finish. The 24 chapters
 - Ch 7: Microsoft, OpenAI, and the Cloud Bargain
 - Ch 8: Google and DeepMind Wake the Sleeping Giant
 - Ch 9: Meta, Llama, and the Open-Weight Shock
-- Ch 10: The Chinese Frontier (DeepSeek, Qwen, GLM, Kimi, MiniMax)
+- Ch 10: The Chinese Frontier (DeepSeek, Qwen, GLM, Kimi)
 - Ch 11: Anthropic and Claude
 - Ch 12: Europe, xAI, and the Rest of the Frontier
 
@@ -38,24 +38,34 @@ This book is designed to be read in order, from start to finish. The 24 chapters
 - Ch 23: Failure Modes, Truth, and Trust
 - Ch 24: Next Token
 
+## Visual Content
+
+This edition contains 300+ images placed in correct chapter context:
+- Paper pages and source surfaces from key publications
+- Photographs of CEOs, founders, and research leaders
+- Screenshots of platforms, APIs, and product interfaces
+- Company logos placed with narrative purpose
+- Charts, tables, and data visualizations
+- Benchmark landscapes and model comparison tables
+
 ## Key Themes
 
-1. **Speed**: The accelerating pace of model releases and capability jumps
+1. **Speed**: The accelerating pace of model releases
 2. **Scale**: Compute, data, parameters, and context windows
-3. **Alignment**: Making systems that do what we want rather than what they predict
-4. **Infrastructure**: The physical substrate that makes AI possible
-5. **Economics**: Who pays, who profits, and who controls the means of intelligence
+3. **Alignment**: Making systems do what we want
+4. **Infrastructure**: The physical substrate of AI
+5. **Economics**: Who pays, who profits, who controls
 6. **Trust**: Hallucination, sycophancy, truth, and verification
 
 ## Reading Time
 
 - Total: approximately 6-8 hours
 - Average chapter: 15-20 minutes
-- Most technically dense sections: Chapters 14-16 (hardware and infrastructure)
+- Most technically dense: Chapters 14-16 (hardware and infrastructure)
 
 ## Notes
 
-- All factual claims are bounded by the May 24, 2026 cutoff
-- No post-cutoff events are written as happened history
-- Sources are documented in the project ledger system
-- This is the final, complete version (Pass I-0337)
+- All dates accurate as of May 24, 2026
+- No post-cutoff events written as happened history
+- Sources documented in project ledger system
+- This is the FINAL version (Pass I-0337)

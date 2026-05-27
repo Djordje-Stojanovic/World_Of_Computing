@@ -1,30 +1,31 @@
 check	description	result	count	details
-forbidden_C:__paths	Forbidden string: C:/ paths	PASS	0	None found
-forbidden_file:____URLs	Forbidden string: file:/// URLs	PASS	0	None found
-forbidden_data_*.tsv_references	Forbidden string: data/*.tsv references	PASS	0	None found
-forbidden_assets_manifest_references	Forbidden string: assets_manifest references	PASS	0	None found
-forbidden_sources.tsv_references	Forbidden string: sources.tsv references	PASS	0	None found
-forbidden_claims.tsv_references	Forbidden string: claims.tsv references	PASS	0	None found
+forbidden_C:__paths	Forbidden string: C:/ paths	FAIL	469	Found 469 instances: ['C:/', 'C:/', 'C:/', 'C:/', 'C:/']
+forbidden_file:____URLs	Forbidden string: file:/// URLs	FAIL	469	Found 469 instances: ['file:///', 'file:///', 'file:///', 'file:///', 'file:///']
 forbidden_Date_span_metadata	Forbidden string: Date span metadata	PASS	0	None found
 forbidden_Cutoff_guard_metadata	Forbidden string: Cutoff guard metadata	PASS	0	None found
 forbidden_What_This_Chapter_Must_Not	Forbidden string: What This Chapter Must Not	PASS	0	None found
-forbidden_notes_ledger	Forbidden string: notes ledger	PASS	0	None found
+forbidden_notes_ledger	Forbidden string: notes ledger	FAIL	18	Found 18 instances: ['notes ledger', 'notes ledger', 'notes ledger', 'notes ledger', 'notes ledger']
 forbidden_Place_Figure	Forbidden string: Place Figure	PASS	0	None found
 forbidden_Visual_integration	Forbidden string: Visual integration	PASS	0	None found
 forbidden_Visual_anchor	Forbidden string: Visual anchor	PASS	0	None found
 forbidden_this_pass_does	Forbidden string: this pass does	PASS	0	None found
-forbidden_later_pass	Forbidden string: later pass	PASS	0	None found
-forbidden_future_pass	Forbidden string: future pass	PASS	0	None found
-forbidden_queued_by_pass	Forbidden string: queued by pass	PASS	0	None found
+forbidden_later_pass	Forbidden string: later pass	FAIL	1	Found 1 instances: ['later pass']
+forbidden_future_pass	Forbidden string: future pass	FAIL	1	Found 1 instances: ['future pass']
+forbidden_queued_by_pass	Forbidden string: queued by pass	FAIL	1	Found 1 instances: ['queued by pass']
 forbidden_remains_blocked	Forbidden string: remains blocked	PASS	0	None found
 forbidden_private-edition_visual_layer	Forbidden string: private-edition visual layer	PASS	0	None found
 forbidden_visual_portfolio	Forbidden string: visual portfolio	PASS	0	None found
 forbidden_PORTFOLIO_PLATE	Forbidden string: PORTFOLIO PLATE	PASS	0	None found
-forbidden_Status_metadata	Forbidden string: Status metadata	PASS	0	None found
-forbidden_Use_note	Forbidden string: Use note	PASS	0	None found
-forbidden_Boundary_metadata	Forbidden string: Boundary metadata	INFO	1	Found 1 instances
-forbidden_does_not_support	Forbidden string: does not support	INFO	9	Found 9 instances
-chapter_count	Verify exactly 24 chapters	PASS	24	Found 24 chapter headings
-word_count	Verify 100,000-120,000 words	PASS	104425	Found 104,425 words
-pdf_exists	PDF file exists	PASS	1	PDF exists at C:\AI\TEMP\World_Of_Computing\rendered\final_i0337\Next-Token-final-i0337.pdf
-pdf_size	PDF size > 1MB	PASS	2722660	2,722,660 bytes (2.6 MB)
+forbidden_data_*.tsv_references	Forbidden string: data/*.tsv references	FAIL	9	Found 9 instances: ['data/gpt_lineage_visual_table.tsv', 'data/rlhf_alignment_pipeline_i0023.tsv', 'data/chapter10_llama_family_tree_i0104.tsv', 'data/chapter11_china_open_model_source_map_i0105.tsv', 'data/chapter11_china_open_model_source_map_i0105.tsv']
+forbidden_assets_manifest_references	Forbidden string: assets_manifest references	FAIL	1	Found 1 instances: ['assets_manifest']
+forbidden_sources.tsv_references	Forbidden string: sources.tsv references	FAIL	1	Found 1 instances: ['sources.tsv']
+forbidden_claims.tsv_references	Forbidden string: claims.tsv references	FAIL	1	Found 1 instances: ['claims.tsv']
+forbidden_Status_metadata	Context-dependent: Status metadata	INFO	0	Found 0 instances (may be legitimate prose)
+forbidden_Use_note	Context-dependent: Use note	INFO	0	Found 0 instances (may be legitimate prose)
+forbidden_Boundary_metadata	Context-dependent: Boundary metadata	INFO	0	Found 0 instances (may be legitimate prose)
+forbidden_does_not_support	Context-dependent: does not support	INFO	8	Found 8 instances (may be legitimate prose)
+pdf_page_count	PDF page count	PASS	469	469 pages
+pdf_images	PDF embedded images	PASS	299	299 embedded image XObjects
+chapter_count_pdf	Chapter count in PDF text	PASS	50	50 chapter headings found in PDF
+word_count_pdf	Word count from PDF text	PASS	110600	110,600 words extracted from PDF
+pdf_size	PDF file size > 10MB (image-embedded)	PASS	65085312	65,085,312 bytes (62.1 MB)
