@@ -6,17 +6,16 @@ This repository is the working memory, manuscript lab, source ledger, visual sys
 
 ## Current Book State
 
-Updated **2026-05-27** after pass `I-0300`.
+Updated **2026-05-27** after pass `I-0301`.
 
-- **Latest recorded pass:** `I-0300`, final private-edition assembly/freeze.
+- **Latest recorded pass:** `I-0301`, final visual rhythm repair.
 - **Words:** 103,526 assembled source words across the canonical 24-chapter draft.
 - **Chapters:** 24 / 24 main chapters.
-- **Final private PDF proof:** `rendered/final_private_i0300/Next-Token-final-private-personal-edition-i0300.pdf` exists locally and is intentionally not committed. It has 667 pages, 330 PDF image objects, 4946 drawing/vector objects, 0 blank-like pages, and SHA256 `e42f1e7a6db6a4155b32b111a424475343a641fca1dca4ce8f07c9be3349997d`.
-- **Final visual inventory:** `data/final_private_visual_inventory_i0300.tsv` maps 530 visual rows to local files, provenance, blocked-claim notes, and render locations/pages where detected.
-- **Champion freeze:** `champion/` now contains the I-0300 manuscript snapshot, report, scorecard, inventory, summary, assembly manifest, and local PDF pointer; the prior champion was backed up under `archive/champion_backup_i0300/`.
-- **Remaining production risk:** the private edition is visually abundant and frozen, but the dense visual appendix still carries a rhythm warning and the private-use visuals are not a public-rights package.
+- **Best local private PDF proof:** `rendered/final_private_i0301/Next-Token-final-private-personal-edition-i0301.pdf` exists locally and is intentionally not committed. It has 675 pages, 330 PDF image objects, 4966 drawing/vector objects, 0 blank-like pages, and SHA256 `5eade58d218f10cf8d7146964660a81d9aeb7560e057ee1eee3766619ac35ce6`.
+- **Rhythm repair:** the maximum consecutive visual-heavy run was reduced from 199 pages to 40 pages by inserting text-only reading dividers inside the 200-item private atlas.
+- **Visual target status:** the I-0300 visual inventory and category summary still record all private visual targets as passed; I-0301 changes rhythm only, not the exhibit set.
 
-The book is now a delivered private personal edition rather than a 100-image draft: the final proof carries hundreds of reader-facing exhibits, real source surfaces, paper/PDF excerpts, logos, people/profile images, benchmark tables, model-card/docs surfaces, charts, SVGs, and provenance notes.
+The book remains a visually maximal private personal edition, now with better breathing room inside the densest atlas section.
 
 ## Readiness Snapshot
 

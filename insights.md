@@ -546,3 +546,5 @@ The benchmark layer is strongest when tables are explicit memory aids rather tha
 - I-0299: final visual proof must distinguish abundance from rhythm. Once the PDF carries the 300-exhibit layer plus authored boards, the remaining quality question is not whether there are enough images, logos, papers, screenshots, charts, tables, and people; it is whether provenance stays legible and the dense appendix is placed honestly in the final private edition.
 
 - I-0300: a private-edition freeze should separate delivery from public release. The durable package is the manuscript snapshot, visual inventory, scorecard, provenance pointers, champion backup, and honest risk report; the large PDF/contact-sheet can remain local as long as hashes and paths make the final object recoverable.
+
+- I-0301: visual maximalism still needs rests. The best repair for a dense private atlas is not deleting evidence, but inserting source-safe text-only dividers at natural category turns so abundance becomes readable movement rather than fatigue.

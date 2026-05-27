@@ -1,0 +1,9 @@
+pass_id	check_id	category	result	evidence	recommended_action
+I-0301	I0301-001	rhythm_dividers_inserted	pass	html_dividers=4; pdf_dividers=4; pages=442,484,525,567	No action required for this automated check.
+I-0301	I0301-002	max_visual_run_repaired	pass	before=199; after=40	No action required for this automated check.
+I-0301	I0301-003	visual_abundance_preserved	pass	images=330; drawings=4966	No action required for this automated check.
+I-0301	I0301-004	blank_pages	pass	blank_like=0	No action required for this automated check.
+I-0301	I0301-005	caption_source_labels	pass	labels=1236; min_font=5.70	No action required for this automated check.
+I-0301	I0301-006	book_invariants	pass	words=103526; chapters=24	No action required for this automated check.
+I-0301	I0301-007	visual_targets_still_pass	pass	summary_rows=9; pass_rows=9	No action required for this automated check.
+I-0301	I0301-008	inventory_preserved	pass	inventory_rows=530	No action required for this automated check.
