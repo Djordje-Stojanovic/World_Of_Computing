@@ -4,19 +4,19 @@ pdf_checked	rendered/final_private_i0320/Next-Token-final-private-quantitative-i
 pdf_pages	640
 pages_sampled	66
 pages_rendered_for_inspection	30
-global_forbidden_hits	3
-internal_path_hits_fixed	33
-continuity_note_fixed	8
+process_language_instances	452
+process_language_patterns	54
+date_span_cutoff_guard_instances	48
+notes_ledger_instances	18
+place_figure_instances	5
+incomplete_placeholder_instances	18
+claim_blocker_apparatus_instances	24
+broken_orphan_pages	3
+image_context_misplacements	major (Ch1 opens with NVIDIA Blackwell, Ch2 with Jupyter/NumPy/SciPy, Ch24 with xAI/Crusoe)
+hard_gate_multi_image_pages	0
+hard_gate_blank_pages	0
+hard_gate_forbidden_strings	0
+source_fixes_applied	33 internal paths + 1 continuity note
 chapter_files_fixed	13
-hard_gate_failures	0
-multi_image_pages	0
-blank_pages	0
-real_defects_found	3
-defects_fixed_in_source	2
-defects_deferred_to_i0322	3
-visual_exhibit_pages	~270
-truly_sparse_pages	3
-image_objects_total	300
-word_count	101906
-chapter_count	24
-qa_verdict	PASS with fixes applied
+verdict	NOT READY - annotated proof, not finished book
+honest_remaining_work	Deep prose cleanup across all 24 chapters before I-0322 final render
