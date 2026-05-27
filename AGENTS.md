@@ -4,29 +4,39 @@ This workspace is for the Codex `/goal` loop defined in `GOAL.md`.
 
 ## FINAL PHASE: Page-by-Page Perfection (I-0337)
 
-The book is now in its FINAL phase. No more passes. No more batches. No more automated sweeps.
+The book is in its FINAL phase. No more passes. No more batches. No more automated sweeps.
 
-**The only remaining work:** go through every page of the rendered PDF ONE AT A TIME, make that single page perfect, log it in `data/page_perfection_log_i0337.tsv`, re-render, verify, then move to the next page. When every page is perfect, the book is published.
+### Current State
 
-### Page Perfection Protocol
+- **PDF:** 61.9 MB, ~713 pages, 300 images
+- **HTML:** 97 MB, base from I-0320 with title/verso/TOC/captions/relocations applied
+- **Log:** `data/page_perfection_log_i0337.tsv` — tracking every page
+- **Pages done:** 1 (title), 2 (verso), 3 (TOC) — PERFECT
+- **Page in progress:** 4 (Chapter 1 opening) — PENDING verification
 
-1. Open `rendered/final_i0337/Next-Token-final-i0337.pdf` and inspect page N.
-2. Determine what would make this page perfect: correct image placement, proper text context, right image for the right chapter, good caption, no blankness, no process language, correct chronology.
-3. Edit `rendered/final_i0337/Next-Token-final-i0337.html` to fix the page.
-4. Re-render the PDF via Chrome headless.
-5. Verify page N is perfect.
-6. Log the page in `data/page_perfection_log_i0337.tsv` with columns: page, status, words, images, issue, action_taken, new_words, new_images, notes.
-7. Commit and push after every page or small batch.
-8. Move to page N+1.
+### Per-Page Perfection Criteria
 
-### Rules for this phase
+Mark a page PERFECT only when ALL hold:
+1. Not blank (<10 words + 0 images = FAIL)
+2. Not sparse (<50 words + 0 images = FAIL)
+3. Images have text context (image + <15 words = FAIL)
+4. Image belongs in correct chapter (no Blackwell in Ch1, no BERT in Transformer chapter)
+5. Zero process language (Date span, Cutoff guard, notes ledger, Place Figure, this/later/future pass, remains blocked, shown as a public web page)
+6. Zero editorial labels (ARCHITECTURE, PREHISTORY, etc.)
+7. Clean captions (plain English, no ledger IDs, no manifest paths)
+8. Chronological flow (narrative moves forward in time)
+9. Professional typography (good breaks, proper hierarchy)
+10. Reads like a book, not a project artifact
 
-- Work ONE page at a time. Do not skip ahead.
-- Every image must have text context above and below it.
-- Images must be placed in their correct chronological chapter context.
-- No blank pages. No sparse pages. No process language. No bad captions.
-- Log every page fix in `data/page_perfection_log_i0337.tsv`.
-- After each page is perfect, describe it to the user and ask if ready to proceed.
+### Page Protocol
+
+1. Inspect page N in `rendered/final_i0337/Next-Token-final-i0337.pdf`
+2. If issues found, edit `rendered/final_i0337/Next-Token-final-i0337.html` surgically
+3. Re-render via Chrome headless
+4. Verify page N is perfect
+5. Log in `data/page_perfection_log_i0337.tsv`
+6. Commit + push
+7. Move to page N+1
 
 ## Operating Rules
 

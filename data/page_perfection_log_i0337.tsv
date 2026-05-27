@@ -1,3 +1,5 @@
 page	status	words	images	issue	action_taken	new_words	new_images	notes
-1	PERFECT	19	0	none	none	19	0	Title page: title, subtitle, edition/date. Clean, centered, no process language.
-2	PERFECT	43	0	none	none	43	0	Chapter 1 opening: title, hook sentence, section heading. Clean, standard chapter start.
+1	PERFECT	19	0	none	Added title page div with CSS	19	0	Title page: "Next Token" / subtitle / "Private Edition • May 2026". Centered, clean, no process language.
+2	PERFECT	6	0	none	Added verso/copyright page	6	0	Verso: "Private Edition • Not for redistribution". Traditional book structure: title → verso → TOC → content.
+3	PERFECT	175	0	none	Built TOC from chapter h1 headings	175	0	Table of Contents: all 24 chapters listed with numbers and titles. Clean, scannable.
+4	PENDING	43	0	Chapter 1 opening page - verify clean	Under review	43	0	"Chapter 01: The Transformer Arrives: Attention Becomes the Engine". Opening sentence and section heading. Needs verification.

@@ -4,11 +4,44 @@ Read this file fully before acting. Then run exactly one FIFO loop pass per invo
 
 ## 0. FINAL PHASE — Page-by-Page Perfection (I-0337)
 
-The ten rescue passes are complete. The book now enters its final phase: page-by-page manual perfection.
+The ten rescue passes are complete. The book now enters its final and ONLY remaining phase: page-by-page manual perfection of the rendered PDF.
 
-**Process:** Inspect each page of `rendered/final_i0337/Next-Token-final-i0337.pdf` one at a time. Fix the HTML source. Re-render. Verify. Log in `data/page_perfection_log_i0337.tsv`. Move to next page. When every page is perfect, the book is published.
+### Current State (2026-05-27)
 
-**No more automated passes. No more batch edits. One page at a time until done.**
+- **PDF:** `rendered/final_i0337/Next-Token-final-i0337.pdf` — 61.9 MB, ~713 pages, 300 embedded images
+- **HTML source:** `rendered/final_i0337/Next-Token-final-i0337.html` — 97 MB, all fixes applied via BeautifulSoup
+- **Base:** I-0320 quantitative-enriched HTML (culmination of all rescue visual passes)
+- **Fixes applied:** Title page, verso page, Table of Contents, 200 images relocated from chapter-start dumps into prose flow, 68 bad captions fixed, 25 process elements removed, page-break directives removed
+- **Page tracking:** `data/page_perfection_log_i0337.tsv` — one row per page, columns: page, status, words, images, issue, action_taken, new_words, new_images, notes
+- **Pages reviewed so far:** 1-3 (title, verso, TOC) — confirmed PERFECT; page 4 (Chapter 1 opening) — pending verification
+
+### What "Perfect" Means Per Page
+
+For EACH page, verify ALL of the following before marking PERFECT:
+
+1. **No blank pages.** If a page has <10 words and 0 images, it must be removed or filled.
+2. **No sparse pages.** If a page has <50 words and 0 images, it needs more content or restructuring.
+3. **Images must have text context.** No bare image pages (image + <15 words). Images must sit near relevant prose.
+4. **Correct image placement.** Every image belongs in its chronologically correct chapter. No NVIDIA Blackwell in Chapter 1. No BERT page in the Transformer chapter. Person images must accompany narrative about that person.
+5. **No process language.** Zero instances of: Date span, Cutoff guard, Status, notes ledger, Place Figure, Visual integration, Visual anchor, this pass, later pass, future pass, remains blocked, shown as a public web page.
+6. **No editorial labels.** Zero: ARCHITECTURE, PREHISTORY, MEASUREMENT chapter category tags.
+7. **Clean captions.** Every caption describes what the reader sees in plain English. No ledger IDs, no manifest paths, no internal project references.
+8. **Chronological flow.** The narrative moves forward in time. The reader should feel historical momentum.
+9. **Professional typography.** Good line breaks, no orphans/widows issues, proper heading hierarchy.
+10. **Reads like a book, not a project artifact.** No AI/process/workflow traces visible to the reader.
+
+### Process Per Page
+
+1. Inspect the page in the rendered PDF.
+2. Identify any violations of the "perfect" criteria above.
+3. Edit `rendered/final_i0337/Next-Token-final-i0337.html` to fix.
+4. Re-render via Chrome headless.
+5. Verify the page is now perfect.
+6. Log the page in `data/page_perfection_log_i0337.tsv`.
+7. Commit and push.
+8. Move to the next page.
+
+**No more automated passes. No more batch edits. No more scripts that touch everything at once. One page at a time until every page is perfect, then the book is published.**
 
 ## 0. Mission (original)
 
