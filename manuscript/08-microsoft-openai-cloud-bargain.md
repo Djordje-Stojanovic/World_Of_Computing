@@ -148,6 +148,10 @@ That contrast makes the race more interesting than a model leaderboard. OpenAI h
 
 The bargain was therefore not only about two companies. It was about the way LLMs changed the meaning of computing platforms. A model could be a product. It could be an API. It could be a cloud service. It could be a developer assistant. It could be a workplace layer. It could be a search answer. It could be all of those at once, if the infrastructure held and users accepted the bargain.
 
+The Copilot rollout was the most visible test of this strategy. Microsoft 365 Copilot, announced in March 2023 and made generally available in November 2023, embedded GPT-4 into Word, Excel, PowerPoint, Outlook, and Teams. [S-0106] The pitch was simultaneously enormous and underspecified: language models, working inside the most widely used productivity suite, could draft, summarize, analyze, and reformat with minimal user training. The risk was that the promise could not be measured. Microsoft could report seat adoption and usage without publishing controlled productivity studies, and the absence of independent measurement meant that customers had to decide whether the license cost was justified before anyone knew what "justified" meant.
+
+This cloud-plus-surface strategy made Microsoft the most structurally complex player in the LLM economy. OpenAI's models powered Copilot, but Microsoft did not own OpenAI. Azure's GPUs ran OpenAI's workloads, but OpenAI could also buy compute elsewhere over time. Azure customers could access models from multiple labs, but Microsoft's product integration favored OpenAI. Each layer of the stack was a bargain with a different expiration date. The sustainability of the whole arrangement depended on all layers continuing to align, and alignment was not guaranteed by corporate structure alone.
+
 Microsoft saw the workload before most of the public saw the interface. That was its advantage. OpenAI made the interface irresistible enough that the workload became unavoidable. That was its advantage.
 
 Together, they made the soft box on the screen reveal the hard factory behind it.

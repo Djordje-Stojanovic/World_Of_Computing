@@ -132,6 +132,10 @@ Those limits are not footnotes. They are part of the mechanism's importance. The
 
 This is the line that should run from Chapter 2 to the rest of the book: capability and unreliability are not separate stories. They grow from the same machinery. The architecture that lets tokens condition on context also lets a prompt smuggle instructions. The architecture that makes long-range relation possible also creates pressure to pack more and more context into the window. The architecture that scales with accelerators also creates the physical infrastructure race.
 
+The multi-head attention design deserves a closer look because it contains the seed of the architecture's versatility. A single attention head can learn one pattern of relevance between tokens. Multiple heads, each with its own learned projection matrices, can learn different patterns in parallel. One head might learn syntactic dependencies. Another might learn anaphora resolution. Another might learn something closer to topic coherence. The outputs are concatenated and projected, allowing the model to combine evidence from different relational viewpoints. [S-0002]
+
+This design choice solved two problems simultaneously. First, it made the model's relational capacity richer without requiring recurrent state to carry information between time steps. Second, it made the computation highly amenable to parallel hardware. Each head could be computed independently, and the results merged at the end. The combination of rich relational modeling and parallel efficiency was unusual in sequence models, and it is one reason the Transformer became the dominant architecture not just in language but across modalities.
+
 The Transformer therefore does not end the technical history. It starts the modern problem. Once the field had a scalable attention-centered block, the obvious question became: what happens if we make it bigger, feed it more text, and measure the loss?
 
 The next chapter is the moment that question becomes a bet.

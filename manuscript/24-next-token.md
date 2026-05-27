@@ -74,6 +74,8 @@ That system did not arrive cleanly. It was assembled from research papers, code 
 
 The final responsibility therefore returns to the human side of the interface. A user types. A model continues. A tool may act. A source may support or fail to support the answer. A company may claim more than the evidence proves. A benchmark may narrow the view. A price may hide the cost. A refusal may protect or merely frustrate. A fluent paragraph may help, flatter, mislead, or save time.
 
+The human judgment loop that the book has traced is not a weakness of the technology. It is the contract. A model that predicts tokens can be fast, creative, scalable, and surprisingly capable, but it cannot be responsible in the human sense. Responsibility is not a parameter. It is a practice: deciding what to ask, what to accept, what to verify, what to refuse, what to deploy, and what to audit. The race to build machines that learned language, code, and computing changed where those decisions sit. It did not eliminate the need for them.
+
 The next token is not destiny. It is a request for judgment.
 
 The race to build machines that learned language, code, and computing did not end at the cutoff. This book ends there because a history needs a boundary. Inside that boundary, the central fact is already large enough: prediction became interface; interface became work; work demanded infrastructure; infrastructure demanded money; money demanded metrics; metrics demanded trust; trust demanded judgment.
