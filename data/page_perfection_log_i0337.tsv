@@ -7,3 +7,4 @@ page	status	words	images	issue	action_taken	new_words	new_images	notes
 5	PERFECT	320	0	Had BERT image (wrong chapter)	Removed BERT paper figure from Chapter 1 HTML	320	0	Clean prose: Transformer architecture narrative. 320 words, no images, good flow.
 6	PERFECT	323	0	"Had ""chapter should be careful"" process language"	"Rewrote to ""The architectural point deserves care"""	323	0	Multi-head attention prose. Clean, 323w, no process language.
 7	PERFECT	369	0	none	none	369	0	Attention costs, Google Research blog, positional encoding. Clean prose, 369w.
+8	PERFECT	332	0	"Had ""The book should keep"" process language"	"Rewrote to ""This book keeps its LLM focus"""	332	0	Positional encoding, Transformer block as industrial object. Clean prose.
