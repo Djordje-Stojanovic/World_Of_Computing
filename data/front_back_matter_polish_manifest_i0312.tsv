@@ -1,0 +1,7 @@
+pass_id	artifact	role	bytes	sha256	notes
+I-0312	rendered/final_private_i0312/Next-Token-final-private-polished-matter-i0312.html	I-0312 polished front/back matter HTML proof	108687510	2f1e1507b9b431d73af8e4b042397973e2674a770525f3f69dc2ac074d348e36	source=rendered/final_private_i0309/Next-Token-final-private-publishable-surface-i0309.html
+I-0312	rendered/final_private_i0312/Next-Token-final-private-polished-matter-i0312.pdf	I-0312 polished front/back matter PDF proof	68116631	f9b423d83a5d3fb41d21a5e504a63a3001d933dd9457b387e47418413e991dcc	pages=662; sha256=f9b423d83a5d3fb41d21a5e504a63a3001d933dd9457b387e47418413e991dcc
+I-0312	data/front_back_matter_polish_qa_i0312.tsv	I-0312 front/back matter QA ledger	1715	a2903a0acc18e8509367977d60b30f09d41c011791c953d610aff3954a8e5ae1	
+I-0312	data/front_back_matter_page_qa_i0312.tsv	I-0312 page-zone QA ledger	215349	986a6b71b233170bccfa22a9f87c2a57291086cf52328a67adc9485a180e4a47	
+I-0312	data/front_back_matter_replacements_i0312.tsv	I-0312 coda/front-back replacement ledger	573	c2f447e705e45afae8b5c889fc42dd60d3b5f61338e548defcb3f72fdb1694e9	
+I-0312	rendered/final_private_i0309/Next-Token-final-private-publishable-surface-i0309.pdf	I-0309 source proof before front/back polish	68116683	3bafb20e3a5e51eb013c693afc606fd1b25ee4e3f4f4392470940367347a5f1f	pages=662; sha256=3bafb20e3a5e51eb013c693afc606fd1b25ee4e3f4f4392470940367347a5f1f

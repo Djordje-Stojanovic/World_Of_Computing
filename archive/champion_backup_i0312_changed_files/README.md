@@ -11,7 +11,7 @@ Updated **2026-05-27** after pass `I-0312`.
 - **Latest recorded pass:** `I-0312`, front/back matter and metadata polish.
 - **Words:** 103,526 assembled source words across the canonical 24-chapter draft.
 - **Chapters:** 24 / 24 main chapters.
-- **Best local private edition PDF:** `rendered/final_private_i0312/Next-Token-final-private-polished-matter-i0312.pdf`.
+- **Best local private PDF proof:** `rendered/final_private_i0312/Next-Token-final-private-polished-matter-i0312.pdf`.
 - **Final champion pointer:** `champion/final-private-pdf-pointer-i0312.md`.
 - **Private reader guide:** `champion/private-reader-guide-i0311.md`.
 - **Final visual inventory/page map:** `data/final_private_visual_inventory_i0310.tsv` and `data/final_private_visual_page_map_i0310.tsv`; the I-0302 contact sheet remains available as the compact visual scan artifact.

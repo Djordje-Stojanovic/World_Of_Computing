@@ -1,0 +1,12 @@
+pass_id	check_id	check	result	evidence	notes
+I-0312	I0312-001	front_back_replacements_applied	pass	1x Closing breath before the at; 1x That is the this edition's l; 1x The source rows, visual inve	All stale coda/front-back phrases must be replaced.
+I-0312	I0312-002	metadata_clean	pass	title=Next Token; bad_hits=0	PDF metadata must not expose renderer, path, proof, draft, or placeholder residue.
+I-0312	I0312-003	visible_residue_zero	pass	residue_hits=0	Rendered PDF text must not expose local paths or source-machine tokens.
+I-0312	I0312-004	front_back_process_zero	pass	front_back_process_hits=0	First/last pages must not carry draft/process/stale atlas language.
+I-0312	I0312-005	trailing_empty_pages_removed	pass	removed=2; pages=662->662; last_page_text_chars=715	Trailing empty back-matter pages should be removed and the final page should contain the closing coda.
+I-0312	I0312-006	blank_page_count_reported	pass	blank_like_pages=4	Front/back polish reports remaining layout spacer pages without treating them as trailing back-matter blanks.
+I-0312	I0312-007	visual_map_pages_still_in_bounds	pass	max_mapped_visual_page=653; pdf_pages=662	I-0310 visual page map must remain page-bound valid after trimming trailing blanks.
+I-0312	I0312-008	visual_density_preserved	pass	images=330; drawings=5816	Front/back polish must not collapse the visual program.
+I-0312	I0312-009	prior_publishable_qa_clean	pass	i0309_checks=11	I-0312 builds on a passing publishable-surface proof.
+I-0312	I0312-010	claim_ledger_zero_unsupported	pass	328 supported / 0 needs-verification	No unsupported claim debt introduced.
+I-0312	I0312-011	book_invariants	pass	words=103526; chapters=24	Book size/chapter invariants remain intact.

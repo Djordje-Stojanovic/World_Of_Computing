@@ -4,15 +4,15 @@ Updated: 2026-05-27
 
 ## Read First
 
-Open the current private edition PDF:
+Open the current private proof:
 
 `rendered/final_private_i0312/Next-Token-final-private-polished-matter-i0312.pdf`
 
-This is the clean repaired edition PDF, not the older reader-polish render. It has 662 pages, 330 image objects, 5816 drawing/vector objects, 0 visible local-path residue hits, and 0 front/back process phrase hits. SHA-256: `df89b199e39bdaae213ec81923d1f4e33bf4d41b3ad466c23e62a35419da12c9`.
+This is the clean repaired proof, not the older reader-polish proof. It has 662 pages, 330 image objects, 5816 drawing/vector objects, 0 visible local-path residue hits, and 0 front/back process phrase hits. SHA-256: `df89b199e39bdaae213ec81923d1f4e33bf4d41b3ad466c23e62a35419da12c9`.
 
 ## Use These Alongside It
 
-- PDF pointer: `champion/final-private-pdf-pointer-i0312.md`
+- PDF proof pointer: `champion/final-private-pdf-pointer-i0312.md`
 - Page-by-page PDF QA: `data/publishable_surface_page_qa_i0309.tsv`
 - Publishable-surface QA summary: `data/publishable_surface_qa_i0309.tsv`
 - Visual inventory: `data/final_private_visual_inventory_i0310.tsv`

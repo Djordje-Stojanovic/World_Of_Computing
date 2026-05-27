@@ -568,3 +568,5 @@ The benchmark layer is strongest when tables are explicit memory aids rather tha
 - I-0310: after a PDF repair trilogy, the visual inventory is not trustworthy until it is remapped to the repaired proof. A stale page map is a delivery defect even when the underlying provenance is sound, because the reader needs a current navigation layer for hundreds of visuals.
 
 - I-0311: a final private package needs a human reading path, not just ledgers. The guide should name the one clean PDF to open, the audit artifacts that prove it, and the gates still open, so the reader is not left to interpret stale pointers or old proof files.
+
+- I-0312: broad residue scans are not enough for final matter. The first and last pages need their own professional-surface audit because stale structural phrases, tiny copy errors, and trailing blanks can survive even when path and metadata checks are clean.

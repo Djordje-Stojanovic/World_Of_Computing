@@ -6,10 +6,10 @@ Reader guide:
 
 `champion/private-reader-guide-i0311.md`
 
-Current proof:
+Current edition PDF:
 
-`rendered/final_private_i0309/Next-Token-final-private-publishable-surface-i0309.pdf`
+`rendered/final_private_i0312/Next-Token-final-private-polished-matter-i0312.pdf`
 
 Guide QA: 7 pass / 0 fail
 
-Key status: the guide points to the I-0309 clean proof, I-0310 visual inventory/page map, I-0302 contact sheet, and the current champion package. It also keeps the remaining gates visible rather than calling the book done.
+Key status: the guide points to the I-0312 polished edition PDF, I-0310 visual inventory/page map, I-0302 contact sheet, and the current champion package. It also keeps the remaining gates visible rather than calling the book done.
