@@ -579,3 +579,4 @@ The benchmark layer is strongest when tables are explicit memory aids rather tha
 
 - I-0315: chronology is a reader contract, not a table-of-contents decoration. Moving ChatGPT later also requires killing old cross-reference sentences that tell the reader the book is about to move backward.
 - I-0316: date rails are most useful when they are visible and boring in the right way. A chapter span, three concrete time beads, and a cutoff guard orient the reader without turning the page back into source bureaucracy.
+- I-0317: page-density QA needs rendered-page evidence, not object counts. Decorative drawings can hide blank pages, so the useful gate combines words, images, and ink ratio before any page is called nonblank.

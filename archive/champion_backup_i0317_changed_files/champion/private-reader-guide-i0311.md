@@ -8,7 +8,7 @@ Open this only as the current rescue baseline, not as the final edition:
 
 `rendered/final_private_i0317/Next-Token-final-private-page-density-i0317.pdf`
 
-This proof has 509 pages, 357 image objects, 4129 drawing/vector objects, 0 blank pages by ink/text/image QA, and 0 severe sparse pages. SHA-256: `42027103944c79e5a782860a99fe047c680580361655ebc3e9dde1c201336f0f`.
+This proof has 509 pages, 357 image objects, 4129 drawing/vector objects, 0 blank pages by ink/text/image QA, and 0 severe sparse pages. SHA-256: `ec000a8a23bf3913725e1b05ea191a733a52e8b4bb1a4dd4a590674e198761aa`.
 
 It is not final. A direct reader review rejected the current book surface because it opens with ChatGPT instead of a chronological Transformer-era spine, exposes caption/source bureaucracy, contains blank and sparse pages, uses visual portfolio dumps, and allows multi-image pages.
 
@@ -41,6 +41,7 @@ Do not treat this as the done-enough edition. The open gates have been replaced 
 - I-0314: move sourcing/provenance to endnotes and ledgers; keep captions plain.
 - I-0315: rebuild the 24-chapter chronological spine from the Transformer era forward.
 - I-0316: add date ranges, timelines, timestamps, and cutoff controls.
+- I-0317: remove blank, sparse, and half-empty pages.
 - I-0318: place every kept visual beside the text it serves.
 - I-0319: enforce max one visual per page and remove composite boards/portfolio plates.
 - I-0320: add missing numbers, stats, formulas, benchmarks, comparisons, charts, and tables.

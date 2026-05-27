@@ -1,0 +1,510 @@
+pass_id	page	words	images	drawings	ink_ratio	dark_ratio	blank	severe_sparse	micro_visual	sample
+I-0317	1	188	0	21	0.31164	0.02244	no	no	no	Next Token Table of Contents Chapter 01: The Transformer Arrives: Attention Becomes the Engine (2017) Chapter 02: The Sequence Problem: The Road Into Attention
+I-0317	2	116	0	8	0.20735	0.04956	no	no	no	Chapter 20: Claude Code and the Industrialization of Pair Programming (2024-2026) Chapter 21: Reasoning, Test-Time Compute, and the New Scaling Axis (2024-2026)
+I-0317	3	74	0	9	0.17702	0.05868	no	no	no	Chapter 01: The Transformer Arrives: Attention Becomes the Engine Date span: 2017 ARCHITECTURE Cutoff guard: The chapter stays with pre-ChatGPT architecture. 1.
+I-0317	4	64	1	4	0.32347	0.01923	no	no	no	The Break In The Loop BERT Page As Bidirectional Transformer Lineage, shown as a paper or report page The Transformer begins as a revolt against waiting In the
+I-0317	5	365	0	2	0.54364	0.08383	no	no	no	sequential experiences. But intuition can be expensive. If every position depends on the previous position's computation, the model has a hard time using the fu
+I-0317	6	332	0	2	0.47066	0.07791	no	no	no	position in a sequence should draw information from other positions, then uses those weights to mix representations The Transformer paper used scaled dot-produc
+I-0317	7	361	0	2	0.51898	0.09024	no	no	no	Many Heads, Many Relations Multi-head attention is one of the Transformer's most important design choices because language rarely has one relationship at a time
+I-0317	8	332	0	2	0.48200	0.08703	no	no	no	changes the route by which information can travel. The architecture makes distance less like a hallway and more like an address book The address book still has
+I-0317	9	313	0	2	0.48644	0.06977	no	no	no	"That is a major reason the architecture belongs in a business and computing history, not only in a technical appendix. It made the question ""what is in the prom"
+I-0317	10	352	0	2	0.54389	0.09246	no	no	no	The architecture also changed what counted as product imagination. Before the LLM boom, a model architecture could feel like a research artifact. After the boom
+I-0317	11	320	0	2	0.47830	0.07347	no	no	no	"This is also where the phrase ""next token"" begins to earn its title weight. Next- token prediction sounds small until the context becomes large and varied. The"
+I-0317	12	323	0	2	0.41716	0.11317	no	no	no	Still, the grammar made later chapters possible. Scaling laws ask what happens as models, data, and compute grow. GPT asks what happens when generative Transfor
+I-0317	13	357	0	2	0.48891	0.09295	no	no	no	Those four properties explain why the architecture keeps resurfacing in chapters that seem, on the surface, to be about other things. OpenAI's GPT lineage is a
+I-0317	14	358	0	3	0.49753	0.07766	no	no	no	"These diagrams matter because architecture prose can easily become soup. A reader can follow ""query, key, value"" for a paragraph and lose the larger shape. Visu"
+I-0317	15	46	2	9	0.32816	0.16124	no	no	no	sentimentality, would intelligence arrive as a property of scale or expose the whole wager as expensive wishful thinking? Chapter 03 Image Sequence Images place
+I-0317	16	4	2	9	0.20291	0.00000	no	no	no	Ashish Vaswani Noam Shazeer
+I-0317	17	81	6	34	0.55054	0.20044	no	no	no	Aidan Gomez PERSON Transformer, Scaling, And Evaluation Line Architecture and evaluation figures give attention, MoE, systems, and reasoning sections human hand
+I-0317	18	34	0	50	0.57544	0.00814	no	no	no	Percy Liang person image evaluation/f models human anchor Language Model Foundations Tokens, attention, GPT lineage, scaling, and early benchmark context Captio
+I-0317	19	255	1	64	0.52490	0.08185	no	no	no	Figure 1.2 - From Figure 1.2 - From Prompt to Answer, One Token at a Time. Human text becomes tokens, context, next- token predictio and generated answer diagra
+I-0317	20	0	0	4	0.07717	0.00000	no	no	no	
+I-0317	21	78	0	9	0.16765	0.05251	no	no	no	Chapter 02: The Sequence Problem: The Road Into Attention Date span: pre-2017 PREHISTORY Cutoff guard: The chapter is a compact prehistory, not a detour after C
+I-0317	22	54	1	4	0.25962	0.02244	no	no	no	The Older Machine Transformer Paper Page As The Breakthrough Surface, shown as a paper or report page Before the language model became a chat window, it was a m
+I-0317	23	368	0	2	0.52638	0.07002	no	no	no	what word should come next? Given a sentence in one language, what sentence in another language should follow? Given a fragment of meaning, what nearby symbols
+I-0317	24	350	0	2	0.51948	0.07890	no	no	no	That bet runs through the neural probabilistic language model proposed by Yoshua Bengio, Rejean Ducharme, Pascal Vincent, and Christian Jauvin. The paper attack
+I-0317	25	343	0	2	0.46869	0.07692	no	no	no	That bridge also changed the aesthetics of machine learning. A model no longer needed a hand-built feature for every useful relation. The representation could a
+I-0317	26	387	0	2	0.51430	0.08752	no	no	no	A useful analogy is a map, with the usual warning that the map is not the territory. If every town is represented only by its name, a traveler who has never see
+I-0317	27	363	0	2	0.50099	0.08629	no	no	no	The encoder-decoder idea turned recurrence into a powerful machine for mapping one sequence to another. In sequence-to-sequence learning, a model could read an
+I-0317	28	337	0	2	0.48373	0.07717	no	no	no	The later Transformer would radicalize that move. Instead of using attention as an addition to recurrent encoder-decoder machinery, it would put attention at th
+I-0317	29	346	0	2	0.50419	0.08555	no	no	no	answer from shallow cues. The point is architectural permission, not epistemic guarantee What Attention Changed Attention is easy to describe badly. The lazy ve
+I-0317	30	335	0	2	0.52786	0.08358	no	no	no	word order. Feed-forward blocks transformed the mixed representations. Stacked together, these components gave researchers a repeatable pattern: embed tokens, m
+I-0317	31	295	0	2	0.44822	0.06632	no	no	no	hardware, software frameworks, evaluation culture, and capital all mattered. But an architecture that could absorb more compute without the same sequential bott
+I-0317	32	361	0	3	0.54068	0.06262	no	no	no	By the time ChatGPT arrived, most users saw none of this. They saw a box. They typed. It answered. But the box was sitting on decades of answers to smaller ques
+I-0317	33	20	2	9	0.18935	0.08679	no	no	no	Chapter 02 Image Sequence Images placed with this chapter to keep the visual evidence close to the story Jupyter NumPy
+I-0317	34	3	2	9	0.22880	0.08111	no	no	no	SciPy Geoffrey Hinton
+I-0317	35	4	2	9	0.30473	0.04290	no	no	no	Yoshua Bengio Andrew Ng
+I-0317	36	92	2	58	0.47904	0.03772	no	no	no	Christopher Manning Research And Data-Science Substrate The scientific Python and notebook strip makes the pre-LLM toolchain visible without turning it into a s
+I-0317	37	47	0	66	0.56879	0.01331	no	no	no	classical ML library PERSON Deep-Learning And NLP Lineage The opening lineage strip anchors the book in researchers who made neural language work feel historica
+I-0317	38	54	6	48	0.57125	0.00863	no	no	no	Geoffrey Hinton person image neural- network lineage human anchor Yoshua Bengio person image deep- learning lineage human anchor Yann LeCun person image open re
+I-0317	39	0	0	4	0.07717	0.00000	no	no	no	
+I-0317	40	78	0	9	0.15952	0.05128	no	no	no	Chapter 03: Scaling Laws: The Bet Becomes Measurable Date span: 2020 MEASUREMENT Cutoff guard: Later model claims remain tied to their source dates. 3. Scaling
+I-0317	41	55	1	4	0.21179	0.02219	no	no	no	The Curve Before The Product Scaling Laws Page As Loss-Compute Evidence, shown as a paper or report page Before ChatGPT became an interface event and before the
+I-0317	42	344	0	2	0.48471	0.08013	no	no	no	more like a measured process. Train bigger models. Feed more data. Spend more compute. Watch the loss move Loss is not a romantic word. It does not sound like i
+I-0317	43	372	0	2	0.51603	0.09320	no	no	no	The Industrialization Of Prediction The scaling bet made language modeling feel industrial. The central object was no longer only a clever model. It was a train
+I-0317	44	331	0	2	0.43466	0.06681	no	no	no	prove that every user-visible capability was a direct function of parameter count. It did not prove that truth, calibration, or safety would arrive automaticall
+I-0317	45	366	0	2	0.51578	0.08481	no	no	no	This is one reason scaling laws belong in a narrative history. They changed the internal politics of labs. A scientist could say: the loss trend suggests a larg
+I-0317	46	347	0	2	0.49975	0.08062	no	no	no	brittle. Some benchmarks could be gamed or contaminated. Some apparent capabilities depended heavily on prompt format. But the direction was enough to reorganiz
+I-0317	47	342	0	2	0.48669	0.08333	no	no	no	The Chinchilla lesson also points toward the data chapter. If compute-optimal training asks for more tokens, then the supply, quality, legality, duplication, la
+I-0317	48	354	0	2	0.46770	0.10281	no	no	no	The PaLM Example PaLM belongs here as a bounded example of the scaling era moving through a major lab. The PaLM paper presented a large language model trained w
+I-0317	49	345	0	2	0.48471	0.07470	no	no	no	The safe statement is that larger models often showed new or stronger behaviors on tasks and benchmarks, and GPT-3 made in-context learning a central topic. The
+I-0317	50	362	0	2	0.49088	0.08235	no	no	no	The scaling chapter can therefore teach a durable reading habit: ask what was measured, under what conditions, with what units, and what claim the measurement d
+I-0317	51	343	0	3	0.45316	0.07249	no	no	no	What Scaling Did Not Buy Scaling did not buy truth. It did not buy source notes. It did not buy safe tool use. It did not buy memory in the human sense. It did
+I-0317	52	21	1	6	0.17406	0.00542	no	no	no	Chapter 04 Image Sequence Images placed with this chapter to keep the visual evidence close to the story visual grammar prototype
+I-0317	53	2	1	6	0.41321	0.36982	no	no	no	Ilya Sutskever
+I-0317	54	147	2	28	0.44699	0.04734	no	no	no	Jeff Dean PAPER REPORT EXCERPT Transformer, GPT, And Scaling Origins The origin gallery shows the breakthrough papers as artifacts the reader can locate, not as
+I-0317	55	40	0	6	0.57692	0.01307	no	no	no	PAPER REPORT EXCERPT Pretraining Lineage And Compute-Optimal Scale BERT, T5, Chinchilla, PaLM, and chain-of-thought establish the mechanism bridge into frontier
+I-0317	56	112	1	24	0.55251	0.03649	no	no	no	BERT Pre- trainin BERT: Pre- training of Deep Bidirectio Transform paper/report excerpt Pre- Transformer to-LLM context for masked- language- modeling lineage E
+I-0317	57	0	0	4	0.07717	0.00000	no	no	no	
+I-0317	58	76	0	9	0.16691	0.03994	no	no	no	Chapter 04: GPT-1 to GPT-3: Pretraining Opens the Door Date span: 2018-2021 PRETRAINING Cutoff guard: The chapter ends before ChatGPT's public launch. 4. GPT-1
+I-0317	59	78	1	4	0.31780	0.02885	no	no	no	The Model That Learned To Begin GPT-1 Paper Page As Pretraining Origin, shown as a paper or report page The first GPT paper did not read like the opening of a c
+I-0317	60	330	0	2	0.50099	0.06090	no	no	no	This is the first conversion in the OpenAI spine. Chapter 4 made scale measurable; Chapter 5 shows a lab turning that measurement culture into a usable lineage:
+I-0317	61	320	0	2	0.45316	0.07224	no	no	no	The Uncomfortable Release GPT-2 made the door visible. OpenAI's GPT-2 paper described language models as unsupervised multitask learners: train on a large, dive
+I-0317	62	366	0	2	0.54068	0.07816	no	no	no	"Few-Shot As A Product Shape GPT-3 enlarged the bet until it became hard to ignore. The GPT-3 paper, ""Language Models are Few-Shot Learners,"" described a 175-bil"
+I-0317	63	359	0	2	0.51430	0.09221	no	no	no	Prompting Was Programming Without The Compiler The central metaphor of GPT-3 was not conversation yet. It was prompting. A prompt could specify tone, task, form
+I-0317	64	339	0	2	0.50173	0.07150	no	no	no	GitHub Copilot made that capability ordinary enough to be unsettling. GitHub introduced Copilot in June 2021 as a technical preview in Visual Studio Code, devel
+I-0317	65	373	0	2	0.51307	0.08531	no	no	no	The prize-book version of this chapter should therefore be less about bigness than about conversion. A research technique converted unlabeled text into transfer
+I-0317	66	402	0	2	0.54758	0.08555	no	no	no	itself became a design decision. The interface was no longer just between researcher and benchmark. It included the lab, the public, downstream users, and misus
+I-0317	67	391	0	2	0.53575	0.09024	no	no	no	in a paper, a web playground, or a lab demo. It was next to the code a developer was already writing. At the cursor, the line between autocomplete and collabora
+I-0317	68	369	0	2	0.52564	0.07372	no	no	no	contained far more unlabeled language than carefully labeled examples. If predicting the next token forced a model to compress syntax, semantics, facts, discour
+I-0317	69	375	0	2	0.50616	0.08826	no	no	no	The model also changed what a task looked like. Translation could be cued in text. Summarization could be implied by a passage followed by a summary marker. Que
+I-0317	70	354	0	2	0.50616	0.06484	no	no	no	the examples and get a different transformation. You could ask for a table, a JSON shape, a short answer, a tone, or a reasoning style. The control was informal
+I-0317	71	385	0	2	0.55276	0.07224	no	no	no	The API Made Distribution A Technical Fact Distribution often gets treated as business context, something that happens after the science. In the GPT line, distr
+I-0317	72	360	0	2	0.52342	0.07717	no	no	no	stack early: model capability as a service. ChatGPT would later make the interface feel simple enough for anyone to try, but the service idea was already there
+I-0317	73	328	0	2	0.47214	0.08457	no	no	no	LLM assistance ambient in the developer workflow. That ambient placement made later coding agents imaginable because it taught users to treat model output as dr
+I-0317	74	186	1	7	0.40015	0.04068	no	no	no	The hand-off should be sober. RLHF did not solve truth, safety, bias, robustness, jailbreaking, or misuse. It did not turn a base model into a moral agent. But
+I-0317	75	19	2	9	0.21351	0.04093	no	no	no	Hugging Face GPT-2 model card, shown as a model-card page OpenAI GPT-2 GitHub repo, shown as a repository page
+I-0317	76	97	1	11	0.54561	0.39349	no	no	no	Chapter 05: Instruction Tuning and RLHF: Alignment Enters the Product Date span: 2021-2022 ASSISTANT BEHAVIOR Cutoff guard: The chapter treats alignment as prod
+I-0317	77	369	0	2	0.50592	0.08407	no	no	no	GPT-3 made the prompt feel like a temporary program: examples and instructions could sit inside the context window and steer the next completion. It also made t
+I-0317	78	318	0	2	0.44601	0.08284	no	no	no	Visual integration: Figure 6.1,notes ledger, shows pretraining, supervised demonstrations, preference comparisons, reward/preference modeling, RL optimization,
+I-0317	79	355	0	2	0.49433	0.07939	no	no	no	The older roots of the idea reached beyond LLMs. The 2017 human-preference reinforcement-learning work from OpenAI and DeepMind showed a way to train agents fro
+I-0317	80	335	0	2	0.47041	0.08407	no	no	no	such a document is itself historically important. It shows that assistant behavior had become a specification surface, not merely a side effect of pretraining T
+I-0317	81	202	1	4	0.59122	0.31879	no	no	no	This is where Anthropic enters the larger narrative before the Claude chapter. Claude was not only another model family. It was a product argument about how an
+I-0317	82	335	0	2	0.46474	0.06805	no	no	no	had to explain. By 2023 and 2024, a frontier model launch was not only a benchmark table. It was also a package of caveats, mitigations, refusal policies, red-t
+I-0317	83	337	0	2	0.50616	0.07569	no	no	no	Evaluation Was The Unfinished Loop The central weakness remained evaluation. Human preference data could improve behavior, but the reward model was not the worl
+I-0317	84	356	0	2	0.51011	0.06558	no	no	no	principles could become part of the training story. System cards and model specifications showed that assistant behavior had become a public design surface The
+I-0317	85	355	0	2	0.49778	0.08333	no	no	no	The fifth layer is policy optimization. The model is pushed toward the learned preference signal. Here the chapter should be especially careful with verbs. The
+I-0317	86	172	1	4	0.42135	0.07372	no	no	no	What The Quote Table Allows Dario Amodei Public Profile Texture For OpenAI's instruction-following post, the table permits short, renderer- caveated phrases. Th
+I-0317	87	389	0	2	0.53008	0.08851	no	no	no	"The quote table also carries a built-in antidote to hype: the phrase ""far from fully aligned."" That belongs near the chapter's strongest claims because it is th"
+I-0317	88	364	0	2	0.51948	0.07347	no	no	no	of an answer but miss the responsibility of answering. Instruction tuning and preference optimization attempt to trade some raw continuation freedom for product
+I-0317	89	353	0	2	0.49038	0.07396	no	no	no	That design choice solved one problem and created another. A refusal in ordinary language can educate, redirect, or de-escalate. It can keep a product from beco
+I-0317	90	377	0	2	0.53895	0.08580	no	no	no	The ritual had several audiences. Users wanted to know whether the model was reliable. Developers wanted to know what could break. Enterprises wanted risk langu
+I-0317	91	274	1	7	0.43368	0.05276	no	no	no	rewarded outputs people liked better. RL optimization tuned toward that reward. Specifications and policies arranged conflicts. Red teams and evals exposed fail
+I-0317	92	23	2	9	0.27786	0.01504	no	no	no	OpenAI Model Spec behavior surface, shown as a public web page OpenAI GPT-4 System Card first page, shown as a public web page
+I-0317	93	22	2	9	0.25616	0.02490	no	no	no	OpenAI GPT-4o System Card first page, shown as a public web page GPT-4 System Card first-page surface, shown as a report page
+I-0317	94	20	2	9	0.20932	0.04142	no	no	no	GPT-4o System Card first-page surface, shown as a report page GPT-4 Technical Report first-page surface, shown as a report page
+I-0317	95	113	2	28	0.44354	0.03575	no	no	no	John Schulman PAPER REPORT EXCERPT Alignment, Open Weights, And Model Families Traini langua model Training language models to follow instructio paper/report ex
+I-0317	96	45	0	6	0.57692	0.01159	no	no	no	PDF DECK REPORT PAGE System Cards And GPT-4 Report Surfaces System-card and GPT-4 report pages anchor safety/product disclosure without overclaiming capability
+I-0317	97	98	1	24	0.57766	0.02318	no	no	no	GTC 2026 datace GTC 2026 datacente surface presentation page Facility/data page for power and infrastructu chapters GPT- 4 System GPT-4 System Card first- page
+I-0317	98	0	0	4	0.07717	0.00000	no	no	no	
+I-0317	99	99	1	11	0.52342	0.38215	no	no	no	Chapter 06: The ChatGPT Shock: The Interface Goes Public Date span: November-December 2022 PUBLIC INTERFACE Cutoff guard: ChatGPT is a turning point after the t
+I-0317	100	369	0	2	0.48397	0.08752	no	no	no	On November 30, 2022, OpenAI introduced ChatGPT as a conversational model, a sibling to InstructGPT, trained to follow instructions in a prompt and provide a de
+I-0317	101	397	0	2	0.54561	0.08309	no	no	no	vocabulary. OpenAI'stiktokenrepository is one practical sign of that machinery: before the model can process text, language has to be chopped into pieces the ma
+I-0317	102	372	0	2	0.51529	0.08013	no	no	no	The First Numbers Were Slippery The launch became legendary almost immediately, and legends like clean numbers. The evidence is less clean By the first Monday a
+I-0317	103	196	1	4	0.48422	0.05819	no	no	no	pitch. A bored user might ask it to write like Shakespeare and then argue with it when the result felt wrong. The product invited misuse because it invited use
+I-0317	104	330	0	2	0.47436	0.08309	no	no	no	Schools saw a different machine. Chalkbeat reported on January 3, 2023, that New York City's education department blocked ChatGPT on school devices and networks
+I-0317	105	416	0	2	0.55572	0.08235	no	no	no	The interface packaged several ideas into one gesture. Pretraining supplied broad continuation ability. Instruction tuning and RLHF made the model more likely t
+I-0317	106	334	0	2	0.45883	0.08457	no	no	no	easier, or because they fear someone else will use it first, or because the new interface reveals a possibility they cannot unsee. ChatGPT's ordinary usefulness
+I-0317	107	329	0	2	0.48373	0.07322	no	no	no	policy, school blocks, and workplace restrictions were institutional versions of the same movement: this is useful enough to matter and unreliable enough to con
+I-0317	108	183	1	4	0.50690	0.05966	no	no	no	The Hidden Factory First Institutional Response Chronology The chat box made computation feel weightless. It was not Behind each answer was a stack of trained w
+I-0317	109	345	0	2	0.48373	0.08679	no	no	no	documents and workflows. Chip companies saw a market for training and inference systems. Model labs saw that public product feedback could become strategic evid
+I-0317	110	360	0	2	0.50838	0.08013	no	no	no	system become dependent on chips, datacenters, energy, datasets, human feedback, benchmarks, product design, and cloud bargains? How did companies turn the same
+I-0317	111	80	1	7	0.28550	0.01775	no	no	no	when the problem was humbler and more stubborn: given language as it had already been written, could a machine learn enough structure to guess what should come
+I-0317	112	2	1	6	0.20168	0.00000	no	no	no	Satya Nadella
+I-0317	113	126	1	11	0.47954	0.06928	no	no	no	Chapter 07: ChatGPT Becomes the Product Surface Date span: 2022-2023 PRODUCTIZATION Cutoff guard: Mutable product pages are handled as dated snapshots, not live
+I-0317	114	413	0	2	0.57446	0.06657	no	no	no	and also the rupture. A research trajectory that had been moving through papers, demos, APIs, and benchmark tables arrived in the old shape of computing's most
+I-0317	115	383	0	2	0.53304	0.09369	no	no	no	report later emphasized both capability and limitation: the model could perform impressively on many professional and academic benchmarks, but it could still ha
+I-0317	116	143	0	2	0.20192	0.02441	no	no	no	that the chat box had escaped the product category OpenAI had given it: communities had to decide whether it was a tool, a shortcut, a cheating machine, a secur
+I-0317	117	108	1	4	0.52663	0.28649	no	no	no	The Product Was A Training Method With A Face Sam Altman Public Profile Texture The quiet prehistory of ChatGPT is not a chat window. It is a change in training
+I-0317	118	380	0	2	0.54536	0.07914	no	no	no	InstructGPT attacked that gap by using human feedback to train models to follow instructions better. The pipeline began with demonstrations, moved through compa
+I-0317	119	356	0	2	0.52663	0.07840	no	no	no	The Disappearing Manual The most important consumer technologies hide a manual inside the object. A spreadsheet cell teaches formulas by accepting them. A searc
+I-0317	120	190	1	4	0.46302	0.06534	no	no	no	discover the same pattern: if the answer was too long, ask for shorter; if the tone was wrong, ask for another tone; if the structure was messy, ask for a table
+I-0317	121	356	0	2	0.50666	0.08284	no	no	no	That shift matters for the later chapters on agents and coding systems. A model that can call tools is a different product species from a model that only emits
+I-0317	122	260	0	2	0.39349	0.03328	no	no	no	treat this carefully. The book is about LLMs, not a general history of image or video models. But GPT-4o belongs here because it shows the chat interface stretc
+I-0317	123	164	1	4	0.48718	0.05276	no	no	no	The Cloud Behind The Conversation Enterprise ChatGPT added workplace controls. Figure 7/8.x - ChatGPT Enterprise launch surface A text box can make computation
+I-0317	124	337	0	2	0.55104	0.07520	no	no	no	made better products. Better products generated more demand, more revenue possibilities, more data about user needs, and more pressure to buy compute. More comp
+I-0317	125	336	0	2	0.49753	0.07939	no	no	no	The distinction is not pedantry. Enterprise software is where demos go to encounter procurement, data policy, security review, identity management, auditability
+I-0317	126	355	0	2	0.50197	0.07840	no	no	no	entity. In reality, those behaviors could come from model training, system prompts, product rules, retrieval, tool orchestration, or interface state. The assist
+I-0317	127	189	1	4	0.48595	0.05917	no	no	no	regulation chapter to name the product fact: when software speaks in complete sentences, people look for someone to hold responsible for the sentence Why Everyo
+I-0317	128	349	0	2	0.52096	0.06065	no	no	no	Chinese labs and cloud firms had their own language, market, and policy environments. NVIDIA had the hardware everyone suddenly needed. The box made all of them
+I-0317	129	359	0	2	0.49211	0.07396	no	no	no	The Door It Opened ChatGPT's deepest consequence was not that it answered questions. It changed what people expected software to tolerate. After November 2022,
+I-0317	130	260	0	4	0.38585	0.05276	no	no	no	The box did not abolish the old computer. It taught the old computer a new front door. Behind that door were the same hard things as before: data, chips, power,
+I-0317	131	24	2	9	0.39250	0.01381	no	no	no	OpenAI ChatGPT Plus launch text render, shown as a public web page OpenAI ChatGPT Enterprise launch text render, shown as a public web page
+I-0317	132	8	1	6	0.20562	0.00690	no	no	no	paper page, shown as a public web page
+I-0317	133	2	1	6	0.40754	0.37722	no	no	no	Andrej Karpathy
+I-0317	134	4	2	9	0.22756	0.03304	no	no	no	Greg Brockman Mira Murati
+I-0317	135	84	7	40	0.44675	0.03008	no	no	no	Wojciech Zaremba PERSON OpenAI Product And RLHF Line OpenAI's product, research, and RLHF figures tie the ChatGPT sequence to public organizational surfaces Cap
+I-0317	136	42	0	54	0.57446	0.00863	no	no	no	John Schulman person image RLHF/Open human anchor Andrej Karpathy person image software/LL education human anchor Assistant Product Grammar Instruction tuning,
+I-0317	137	285	1	74	0.51257	0.09640	no	no	no	Figure 7.x - ChatG Figure 7.x - ChatGPT From Interface Event To Business Surface. Sourced timeline for ChatGPT launch, Plus, plugins, Enterpris release- note en
+I-0317	138	3	0	24	0.06977	0.00148	no	no	no	overlappi pressure diagram
+I-0317	139	98	1	11	0.45488	0.07175	no	no	no	Chapter 08: Microsoft, OpenAI, and the Cloud Bargain Date span: 2019-2024 CLOUD AND CAPITAL Cutoff guard: Partnership chronology does not prove hidden terms or
+I-0317	140	337	0	2	0.51282	0.07224	no	no	no	That difference is why Microsoft and OpenAI belong immediately after ChatGPT. The product felt weightless: a prompt, a pause, a paragraph. Serving it was anythi
+I-0317	141	329	0	2	0.48077	0.08013	no	no	no	"ChatGPT, before the public interface shock, and before ""generative AI"" became a boardroom reflex. Microsoft was buying into a hypothesis before the category had"
+I-0317	142	253	0	2	0.37796	0.06361	no	no	no	were no longer separable. Training a frontier model was becoming a relationship with a machine, and the machine was becoming a relationship with a cloud provide
+I-0317	143	167	1	4	0.48126	0.25518	no	no	no	Licensing The Primitive Microsoft Copilot Product Surface, shown as a public web page The next turn was more explicit. In September 2020, Microsoft announced th
+I-0317	144	356	0	2	0.51381	0.07816	no	no	no	"The important word is ""surface."" A model inside a paper has one audience. A model inside an API has another. A model inside GitHub, Office, Azure, Windows, Bing"
+I-0317	145	272	0	2	0.40360	0.06607	no	no	no	Azure OpenAI Service The Azure OpenAI Service made the bargain available to enterprise and developer customers. Microsoft announced general availability in Janu
+I-0317	146	167	1	4	0.47929	0.06534	no	no	no	The 2023 Extension What The Chat Box Hides In January 2023, Microsoft and OpenAI announced an extended partnership. Coming two months after ChatGPT's launch, th
+I-0317	147	327	0	2	0.51183	0.06805	no	no	no	documents, email, meetings, spreadsheets, and workplace communication. Bing would use it in search and advertising competition. Security, Dynamics, Power Platfo
+I-0317	148	282	0	2	0.41691	0.06090	no	no	no	"Copilot For Work Microsoft 365 Copilot made the platform thesis explicit. In March 2023, Microsoft introduced Microsoft 365 Copilot as ""your copilot for work,"""
+I-0317	149	210	1	4	0.54463	0.05153	no	no	no	Search, Office, And The Incumbent's Revenge Access routes and product surfaces are allowed now; revenue, ROI, productivity, adoption, search share, and margin n
+I-0317	150	373	0	2	0.51504	0.08555	no	no	no	Office was different. There, Microsoft was the incumbent. The Copilot move in Word, Excel, PowerPoint, Outlook, Teams, and business chat did not attack someone
+I-0317	151	345	0	2	0.52737	0.06632	no	no	no	evidence. Workplace claims need customer-side usage, productivity, governance, and ROI evidence. This chapter can set up both pathways without pretending that p
+I-0317	152	327	0	3	0.46967	0.07076	no	no	no	The safe claim for this chapter is conceptual: serving LLMs made cloud infrastructure and product distribution central to the race. The unsafe claims are exact
+I-0317	153	50	2	9	0.40360	0.18565	no	no	no	and infrastructure, but now had to decide how much caution it could afford while the interface race moved in public Chapter 08 Image Sequence Images placed with
+I-0317	154	86	2	44	0.52983	0.12401	no	no	no	Sebastian Bubeck Cloud, Hub, And Distribution Surfaces Distribution logos mark where models become APIs, hubs, clouds, routers, and developer products Caption:
+I-0317	155	0	0	4	0.43960	0.00000	no	no	no	
+I-0317	156	81	0	9	0.17357	0.06386	no	no	no	Chapter 09: Google and DeepMind Wake the Sleeping Giant Date span: 2022-2025 INCUMBENT RESPONSE Cutoff guard: Google and DeepMind claims stay anchored to public
+I-0317	157	78	1	4	0.32544	0.03476	no	no	no	The Company That Had Already Built the Future PaLM Page As Google's Scale Surface, shown as a paper or report page The strangest thing about Google's generative
+I-0317	158	384	0	2	0.52022	0.09615	no	no	no	into a public spectacle of superhuman play and scientific ambition. Search was the web's front door. Gmail, Docs, Android, Chrome, YouTube, Maps, and Cloud gave
+I-0317	159	218	0	2	0.30942	0.04487	no	no	no	serving systems, datacenter control, and products that hid their machinery behind a search box or an app. PaLM fit that grammar. It was not a scrappy chatbot. I
+I-0317	160	172	1	4	0.36193	0.05819	no	no	no	Bard As Defensive Interface Gemini API Model Docs Surface. Google Gemini API model-docs screenshot makes Gemini's developer model surface visible; mutable docs
+I-0317	161	396	0	2	0.55005	0.07495	no	no	no	The containment was the story. ChatGPT had made the blank text box feel like a portal. Bard made the same box feel like a negotiation with an incumbent. It had
+I-0317	162	162	0	2	0.21869	0.03156	no	no	no	is where Google's assets begin to look different from OpenAI's launch advantage. Google had YouTube, Android cameras, phones, documents, search queries, maps, c
+I-0317	163	69	1	4	0.36070	0.02983	no	no	no	Long Context As Product Grammar Gemini 1.5 Report Page As Long-Context Surface Gemini 1.5 sharpened one of Google's strongest product arguments: context length.
+I-0317	164	340	0	2	0.49679	0.06213	no	no	no	update the same month described Gemini 1.5 Pro and 1.5 Flash availability, and mentioned a two-million-token context window path for developers and cloud custom
+I-0317	165	337	0	2	0.47239	0.07791	no	no	no	The TPU Difference Google's infrastructure story cannot be reduced to TPUs, but TPUs are the visible symbol of a deeper strategic choice. The Gemini launch mate
+I-0317	166	208	1	4	0.40533	0.08037	no	no	no	Search Gravity T001 - Figure 09.04 - 2023 Model-Landscape Table. The 2023 benchmark/model-landscape table marks the year when Llama, Mistral, Code Llama, and to
+I-0317	167	343	0	2	0.51824	0.05794	no	no	no	the old interface. It needed a gradual conversion: from search augmentation to assistant, from assistant to workspace layer, from workspace layer to developer p
+I-0317	168	186	1	4	0.60281	0.37179	no	no	no	without snapshot and row normalization. This chapter uses it as evidence that Google maintained a model-card surface, not as permission to claim final ranks, ex
+I-0317	169	374	0	2	0.54956	0.07249	no	no	no	customers toward Gemini Pro through the Gemini API, Vertex AI, and Google AI Studio. The May 2024 developer update kept the same pattern: Gemini was a model fam
+I-0317	170	354	0	2	0.52367	0.07125	no	no	no	OpenAI's early public advantage came from focus. ChatGPT was one box. Users knew where to go. The interface taught the category. Google had to make Gemini mean
+I-0317	171	231	0	4	0.33111	0.03723	no	no	no	Google's place in that sequence is the giant with too many muscles. It had the architecture roots, the custom silicon, the research brand, the product surfaces,
+I-0317	172	12	2	9	0.21573	0.02885	no	no	no	Chapter 9 research-to-product conversion timeline Chapter 9 TPU/Search/Workspace surface map
+I-0317	173	11	2	9	0.24137	0.03575	no	no	no	Chapter 9 Gemini long-context lane Chapter 9 benchmark/adoption blocker grid
+I-0317	174	16	2	9	0.27170	0.18540	no	no	no	Google data center in The Dalles. web page Google Gemini, shown as a public web page
+I-0317	175	17	2	9	0.17875	0.03107	no	no	no	Google Cloud AI, shown as a public web page Vertex AI, shown as a public web page
+I-0317	176	16	2	9	0.23866	0.10651	no	no	no	paper page, shown as a public web page paper page, shown as a public web page
+I-0317	177	9	2	9	0.19329	0.05301	no	no	no	paper page, shown as a public web page Google
+I-0317	178	4	2	9	0.32175	0.26800	no	no	no	Google Cloud Demis Hassabis
+I-0317	179	2	1	6	0.23496	0.20957	no	no	no	Sundar Pichai
+I-0317	180	79	0	9	0.16913	0.04142	no	no	no	Chapter 10: Meta, Llama, and the Open-Weight Shock Date span: 2023-2025 OPEN WEIGHTS Cutoff guard: Open-weight does not automatically mean unrestricted or best.
+I-0317	181	65	1	4	0.37377	0.02392	no	no	no	The Downloadable Object Llama 3 Herd Paper Page, shown as a paper or report page The LLM race looked, at first, like a race toward closed interfaces. OpenAI put
+I-0317	182	359	0	2	0.53649	0.08037	no	no	no	a subscription, a cloud endpoint, or an enterprise bundle. The model itself remained elsewhere: in a datacenter, behind policy, updated on a schedule the user d
+I-0317	183	323	0	2	0.47313	0.06361	no	no	no	papers. Meta's first LLaMA release, by contrast, was not a consumer chat moment. It was a research object: a family of pretrained models made available to a sel
+I-0317	184	164	1	4	0.60182	0.38831	no	no	no	Llama 2 Turns Openness Into Strategy Llama 2 Hugging Face Model Card. Llama 2 Hugging Face model-card screenshot gives the open-weight control stack a concrete
+I-0317	185	365	0	2	0.53452	0.08777	no	no	no	That made Llama 2 a strategic problem for closed labs. A closed frontier model could still be more capable, safer in some settings, easier to use, or better sup
+I-0317	186	207	0	2	0.27490	0.04783	no	no	no	The safe claim is not that Code Llama beat Copilot, Codex, Claude Code, or any later coding agent. It did not, by itself, industrialize repository work. It was
+I-0317	187	165	1	4	0.58925	0.39250	no	no	no	Llama 3 Becomes A Herd Llama 3 Hugging Face Model Card. Llama 3 Hugging Face model-card screenshot shows the adopter-facing model-family surface; it Llama 3 mov
+I-0317	188	376	0	2	0.54216	0.09295	no	no	no	Meta's Llama 3 announcement and later Llama 3.1 materials also show how the company tried to convert open weights into a mainstream proposition. The message was
+I-0317	189	183	1	4	0.56262	0.06607	no	no	no	The safe story is still powerful. Meta carried Llama from a research-access release into a family that included chat, code, safety, large-scale open-weight mode
+I-0317	190	364	0	2	0.51529	0.07939	no	no	no	monetizes attention, advertising, social products, devices, infrastructure efficiency, developer influence, and ecosystem gravity, then releasing weights can be
+I-0317	191	168	0	2	0.26307	0.02613	no	no	no	"run, adapt, inspect, compress, and integrate the model, but also inherits hosting burden, governance work, and safety decisions. That is why ""open"" can be both"
+I-0317	192	50	1	4	0.22485	0.01849	no	no	no	The Open-Weight Caveats Llama 2 Report Page As Open-Weight Infrastructure, shown as a paper or report page The open-weight story has its own temptations. The fi
+I-0317	193	353	0	2	0.52786	0.08259	no	no	no	evaluate, secure, and govern the system. A closed provider can impose policy and update behavior centrally; an open-weight model can be forked, modified, and de
+I-0317	194	335	0	2	0.49112	0.07914	no	no	no	could run smaller models locally. Safety researchers could test failure modes. Hobbyists could quantize and tinker. Enterprises could imagine private deployment
+I-0317	195	133	1	7	0.33062	0.03156	no	no	no	But as a historical event in computing, the change is already visible. The LLM was no longer only something you asked through a window. It was something you cou
+I-0317	196	11	2	9	0.30498	0.07076	no	no	no	Chapter 10 open-weight control stack Chapter 10 adopter burden transfer diagram
+I-0317	197	21	3	12	0.51997	0.14423	no	no	no	Chapter 10 Llama screenshot-priority board Meta Llama, shown as a public web page Meta AI, shown as a public web page
+I-0317	198	24	3	12	0.32298	0.17431	no	no	no	Hugging Face, shown as a public web page Mistral AI, shown as a public web page paper page, shown as a public web page
+I-0317	199	40	3	12	0.25789	0.04315	no	no	no	local model-card screenshot surface local model-card screenshot surface. Local model-card-style page used to prove screenshot and PDF embedding route Hugging Fa
+I-0317	200	20	2	9	0.21474	0.04093	no	no	no	Hugging Face Qwen2 model card, shown as a model-card page Hugging Face DeepSeek-R1 model card, shown as a model-card page
+I-0317	201	4	2	9	0.15631	0.06139	no	no	yes	Mistral model docs Meta
+I-0317	202	4	2	9	0.19453	0.12722	no	no	no	Hugging Face Mistral AI
+I-0317	203	3	2	9	0.21450	0.05153	no	no	no	Ollama Mark Zuckerberg
+I-0317	204	4	2	9	0.33605	0.15212	no	no	no	Yann LeCun Arthur Mensch
+I-0317	205	4	2	9	0.42850	0.38560	no	no	no	Clem Delangue Thomas Wolf
+I-0317	206	241	0	9	0.42825	0.10084	no	no	no	Chapter 11: Anthropic, Claude, and the Plural Frontier Date span: 2023-2025 FRONTIER PLURALISM Cutoff guard: Product claims stay tied to Anthropic's published w
+I-0317	207	271	0	2	0.38831	0.05794	no	no	no	generated critiques, model-generated revisions, and reinforcement learning from AI feedback. In Chapter 6, this appears as one branch of the larger alignment st
+I-0317	208	189	1	4	0.49704	0.07520	no	no	no	Constitutional AI as Product Grammar Constitutional AI As Behavior Grammar The Constitutional AI paper is useful because it makes the hidden product problem vis
+I-0317	209	201	1	4	0.48915	0.08999	no	no	no	This changed how Claude could be narrated. The company could say, in effect: our assistant has a behavioral constitution. The statement is attractive because it
+I-0317	210	401	0	2	0.56632	0.07199	no	no	no	from one assistant into a lineup. Haiku could stand for speed and affordability. Sonnet could stand for the middle of the curve. Opus could stand for the most c
+I-0317	211	385	0	2	0.55325	0.07470	no	no	no	Sonnet Becomes The Workhorse The Claude 3.5 Sonnet launch in June 2024 sharpened the product line. Anthropic presented Claude 3.5 Sonnet as the first release in
+I-0317	212	381	0	2	0.56534	0.08826	no	no	no	That action loop is why safety and usability collide. A refusal error in chat may annoy the user. A bad action in a tool environment can change files, spend mon
+I-0317	213	174	1	4	0.46524	0.06977	no	no	no	terminal-based agentic coding tool alongside Claude 3.7 Sonnet, and that the tool concentrated the work loop around repository context, bounded actions, tests,
+I-0317	214	386	0	2	0.57396	0.07964	no	no	no	model access to local files. Those are product claims from Anthropic's own source. The chapter can use them to show what the company wanted Claude to be. It sho
+I-0317	215	47	1	4	0.28945	0.02934	no	no	no	harnesses, review, and the productivity trap. A reader should leave this chapter understanding why Anthropic's identity made action risky and central; the reade
+I-0317	216	193	1	4	0.48323	0.06607	no	no	no	Claude is a model-family product surface. Figure 12.x - Claude Product Surface Claude's story is also a distribution story. Anthropic's product posts repeatedly
+I-0317	217	182	0	2	0.27860	0.04265	no	no	no	them. If a language model becomes a controller, then the connectors, permission surfaces, and context feeds around it become as important as the model weights M
+I-0317	218	216	1	4	0.50148	0.09763	no	no	no	What Claude Proves, And What It Does Not The Tempting Claude Claims Are Not The Sourced Ones Claude proves that assistant behavior can become a strategic identi
+I-0317	219	374	0	2	0.53057	0.09541	no	no	no	to act. A developer does not experience Claude Code as a benchmark. They experience it as a supervised worker inside a repository, reading files and producing d
+I-0317	220	371	0	2	0.53353	0.09073	no	no	no	stricter than that. A frontier model is not a flag. It is data, compute, talent, training infrastructure, inference economics, eval discipline, product distribu
+I-0317	221	365	0	2	0.53279	0.08777	no	no	no	process each token. The promise is more capacity without paying the full dense-model compute cost on every token. The risk is that routing, training stability,
+I-0317	222	373	0	2	0.52909	0.07939	no	no	no	run on premises but still depend on libraries, compilers, and expert labor from the wider ecosystem. Mistral did not dissolve those dependencies. It made them v
+I-0317	223	379	0	2	0.54216	0.08037	no	no	no	"story is not ""Grok became the best model."" The useful story is that xAI treated latency between company formation, compute buildout, model release, and product"
+I-0317	224	344	0	2	0.51529	0.06632	no	no	no	use on Hugging Face. The chapter can use these claims to show Cohere's strategy: not just a chatbot for everyone, but a model family aimed at enterprises that n
+I-0317	225	355	0	2	0.50173	0.08876	no	no	no	AI21 and the Architecture Detour AI21 belongs here because it refused to let the reader think there was only one architectural road after the Transformer. Jamba
+I-0317	226	380	0	2	0.53279	0.09911	no	no	no	that signals breadth without doing intellectual work. That would be worse than omission. It would teach the reader that the rest of the frontier is a miscellany
+I-0317	227	354	0	2	0.50863	0.09492	no	no	no	official pages can carry Grok-1 and Grok 3 vendor claims, but the shell capture failed and the benchmark claims remain vendor-attributed, so the chapter cannot
+I-0317	228	284	0	4	0.38930	0.06460	no	no	no	sovereignty. It can prove a more valuable thing: by the cutoff, the LLM frontier had become plural. The race was not only who had the largest model. It was who
+I-0317	229	21	3	12	0.43121	0.18171	no	no	no	Anthropic Claude, shown as a public web page Anthropic Claude 4, shown as a public web page Anthropic Claude model docs
+I-0317	230	41	2	11	0.43861	0.26652	no	no	no	Anthropic Daniela Amodei PERSON Plural Frontier Institutions The lab-leader strip keeps Google, Anthropic, Meta, Microsoft, and Claude from becoming faceless pr
+I-0317	231	51	6	28	0.57890	0.01677	no	no	no	Dario Amodei person image Claude/align human anchor Daniela Amodei person image Anthropic institution human anchor Demis Hassabis person image DeepMind/G human
+I-0317	232	0	0	4	0.09443	0.00000	no	no	no	
+I-0317	233	124	1	11	0.55621	0.39842	no	no	no	Chapter 12: The Chinese Frontier Date span: 2023-2026 CHINA AND OPEN MODELS Cutoff guard: No post-cutoff Chinese-model releases are treated as happened history.
+I-0317	234	377	0	2	0.55276	0.07914	no	no	no	The American version of the LLM race is easy to narrate: OpenAI lit the interface fuse, Microsoft supplied cloud partnership and distribution, Google defended s
+I-0317	235	186	1	4	0.61686	0.40754	no	no	no	Qwen and the Alibaba Route DeepSeek-V3 Hugging Face Model Card. DeepSeek-V3 Hugging Face model-card screenshot adds a visible distribution surface for DeepSeek;
+I-0317	236	338	0	2	0.51134	0.06854	no	no	no	multilingual support, and public availability under Apache 2.0. Those details connect Qwen to three book-wide themes: reasoning as a spendable inference resourc
+I-0317	237	221	0	2	0.34887	0.04931	no	no	no	used serious compute. It was not a proof that frontier models are cheap in any general sense. But it made architectural and training efficiency part of the publ
+I-0317	238	72	1	4	0.25863	0.02539	no	no	no	GLM, Kimi, and The Broader Frontier Qwen2 Technical Report Page, shown as a paper or report page GLM-4 and Kimi k1.5 keep the chapter from becoming a Qwen-and-D
+I-0317	239	350	0	2	0.52244	0.08629	no	no	no	GLM-4 matters because multilingual and multimodal assistant work is central to the global LLM story. English benchmarks and English-language product demos can d
+I-0317	240	288	0	2	0.42579	0.06607	no	no	no	product demos are split across languages and platforms. A model can be closed and still important because it shapes a domestic user base or cloud ecosystem Qwen
+I-0317	241	65	1	4	0.22214	0.02416	no	no	no	Hardware Constraints and Model Style Qwen3 Technical Report Page No China LLM chapter can avoid hardware, but hardware should not swallow the chapter. U.S. expo
+I-0317	242	352	0	2	0.50740	0.09246	no	no	no	DeepSeek-V3's reported H800 training context and MoE design make efficiency visible as a design pressure. Qwen3's thinking-budget framing makes inference-time c
+I-0317	243	145	0	2	0.18886	0.02885	no	no	no	artifact, a deployment environment, a licensing move, or a visible ecosystem. Until those reasons are sourced, the names belong in a queue, not in decorative pr
+I-0317	244	70	1	4	0.28427	0.05079	no	no	no	Why The Frontier Became Multipolar DeepSeek-V3 Technical Report Page, shown as a paper or report page The China chapter also changes how earlier chapters should
+I-0317	245	322	0	2	0.52244	0.06928	no	no	no	and Kimi are not merely additional examples. They show how the same Transformer-era substrate can be pushed through different institutional machinery For Qwen,
+I-0317	246	369	0	2	0.52761	0.08826	no	no	no	DeepSeek is the cleanest example. The V3 and R1 reports did not make compute irrelevant; they made efficiency and reinforcement-learning reasoning impossible to
+I-0317	247	324	0	3	0.45217	0.07396	no	no	no	release, and evaluation claims that need to be read on their own terms It can say that open and open-weight release surfaces in China interacted with global ope
+I-0317	248	28	2	9	0.31090	0.03920	no	no	no	Chapter 11 Image Sequence Images placed with this chapter to keep the visual evidence close to the story Generated China open-model DeepSeek, shown as a public
+I-0317	249	3	2	9	0.17160	0.09837	no	no	yes	Alibaba Cloud Baidu
+I-0317	250	92	2	40	0.48028	0.11834	no	no	no	Xiaomi Frontier Labs And Model Families Lab and platform logos show the model race as a field of institutions, not only release names Caption: Frontier Labs And
+I-0317	251	51	0	46	0.57692	0.01085	no	no	no	PDF DECK REPORT PAGE Frontier Technical Reports Beyond The US Core Gemini, Qwen3, GLM-4, Kimi, and Nemotron surfaces widen the model-race evidence beyond a sing
+I-0317	252	110	1	44	0.56188	0.02392	no	no	no	Gemin 1.5 Techn Gemini 1.5 Technica Report pdf technical report page Long- context/mul technical- report surface for Google/Dee chapter Qwen3 Techn Repor Qwen3
+I-0317	253	157	1	56	0.52170	0.07668	no	no	no	Labs, Open Weights, And Plural Frontier Google, Meta, China, Anthropic, and open-model structure Caption: Labs, Open Weights, And Plural Frontier. Google, Meta,
+I-0317	254	93	0	24	0.24803	0.00789	no	no	no	end-of- book claims are paired with the same- scope evidence still required diagram roadmap card svg claim card Gives Chapter 15 a commit- safe slide- derived c
+I-0317	255	140	0	9	0.23866	0.05991	no	no	no	Chapter 13: Benchmarks, Arenas, and the Mirage of Rank Date span: 2023-2026 EVALUATION Cutoff guard: Leaderboards are historical snapshots, not permanent standi
+I-0317	256	161	1	4	0.58506	0.39004	no	no	no	The Desire For A Crown LMArena Leaderboard Surface. LMArena leaderboard screenshot anchors arena-rank claims as a mutable benchmark surface; it Every era of com
+I-0317	257	353	0	4	0.50074	0.08679	no	no	no	But model rankings are not mountains. They are weather maps. They change because new systems enter, old systems are renamed, providers expose different endpoint
+I-0317	258	280	0	9	0.40902	0.05350	no	no	no	"is conversational: people ask fuzzy questions, compare fuzzy answers, and reward answers that feel useful. It is also dangerous evidence because ""people in this"
+I-0317	259	354	0	2	0.47189	0.07816	no	no	no	The book's house rule is stricter than most product marketing. A rank claim must carry its row universe. A price claim must carry its price basis. A context- wi
+I-0317	260	192	1	6	0.40163	0.08728	no	no	no	That distinction matters because the book is cutoff-bounded at May 24, 2026. The historical LMArena rows used by this figure were published 2026-05-19 and captu
+I-0317	261	354	0	8	0.47387	0.08013	no	no	no	1. Best for whom? 2. Best at what task? 3. Best under what tool scaffold? 4. Best at what price basis and latency target? 5. Best on what date, with what versio
+I-0317	262	323	0	4	0.48496	0.08309	no	no	no	integration, context, safety posture, and developer ergonomics. That is more interesting than a crown. A crown ends the story. A crowded, caveated table starts
+I-0317	263	385	0	2	0.48521	0.09591	no	no	no	Fourth, a model may be present in a ranking dataset without a normalized, comparable standard inference price row in the local ledger. Missing price is not zero
+I-0317	264	186	1	6	0.41889	0.09246	no	no	no	The notes prose formula is conditional Under this provider's stated standard API price basis, captured on this date, this model family had these input/output/ca
+I-0317	265	390	0	2	0.52589	0.07865	no	no	no	well as the engine inside a carefully engineered coding agent may not perform the same way in a plain chat box. A benchmark that requires repository repair is n
+I-0317	266	350	0	2	0.46696	0.08235	no	no	no	This is the deeper reason the chapter uses instead of rushing to the frontier curve. The missing curve is a visible act of honesty. It tells readers that the bo
+I-0317	267	224	0	15	0.31312	0.06879	no	no	no	can explain the path from human preference votes to gated rank claims can show a historicaltext_style_control/latest/overallslice published 2026-05-19 and captu
+I-0317	268	89	1	6	0.30473	0.07742	no	no	no	The measurement chapter leaves no crown sitting safely on the table. Under every rank is a quieter dependency: machines, memory, networking, software, and money
+I-0317	269	7	2	9	0.34911	0.01134	no	no	no	Arena leaderboard methodology flow price-quality exclusion map
+I-0317	270	6	1	6	0.36711	0.29684	no	no	no	Jensen Huang cropped portrait. web page
+I-0317	271	9	2	9	0.45044	0.39127	no	no	no	TSMC Fab5 building. web page Electrical substation. web page
+I-0317	272	11	2	9	0.41987	0.36366	no	no	no	Silicon wafer. web page LMArena, shown as a public web page
+I-0317	273	16	2	9	0.30276	0.02638	no	no	no	LMArena historical dataset JSON surface, shown as a public web page OpenAI API model docs surface
+I-0317	274	122	2	58	0.40607	0.07446	no	no	no	Kaggle Model Race And Benchmark Memory Yearly landscape tables and model-race memory aids that do not claim live rank Caption: Model Race And Benchmark Memory.
+I-0317	275	66	0	24	0.37821	0.01529	no	no	no	Figure 21.01 - 2026 Model- Landscap Table benchmark landscape table Figure 21.04 - 2022 Model- Landscap Table benchmark landscape table Figure 22.01 - 2018 Mode
+I-0317	276	125	1	11	0.46967	0.07692	no	no	no	Chapter 14: NVIDIA and CUDA: The Moat Under the Moat Date span: 2006-2025 HARDWARE STACK Cutoff guard: Roadmaps are labeled as roadmaps where the source says so
+I-0317	277	355	0	2	0.51898	0.07742	no	no	no	"with racks, roadmaps, and the phrase ""AI factory."" It was tempting to narrate the whole thing as hardware destiny That version is too simple. NVIDIA's moat was"
+I-0317	278	159	1	4	0.48422	0.04882	no	no	no	Parallelism Becomes A Habit The Traffic Pattern The GPU's original public identity was images. Games, graphics, shading, triangles, pixels. The deeper capabilit
+I-0317	279	290	0	2	0.43664	0.07125	no	no	no	CUDA's importance was that it turned this style of work into a habit. Developers learned to ask which parts of a computation could be parallelized, which memory
+I-0317	280	167	1	4	0.49038	0.06213	no	no	no	Libraries As Strategy Two Capacity Problems The moats that matter most are often the ones users do not see cuDNN is a clean example. NVIDIA introduced cuDNN in
+I-0317	281	352	0	2	0.53131	0.07150	no	no	no	This is the part of NVIDIA's position that rivals struggled to clone quickly. A company can design an accelerator, advertise a faster number on a narrow benchma
+I-0317	282	329	0	2	0.50764	0.09048	no	no	no	batches, prompts, latency targets, and dollars per token. CUDA's power was to let those layers talk without forcing every user to understand every layer at once
+I-0317	283	183	0	2	0.27663	0.04487	no	no	no	assuming it. Engineers could tune kernels for it. Recruiters could ask whether a candidate had scaled on it. A chip became a unit of organizational imagination
+I-0317	284	195	1	4	0.52737	0.06336	no	no	no	Blackwell, GB200, And The Rack Becomes The Computer Lithography Texture Becomes Packaging Logic. Figure 14/16.x candidate - Lithography/ASML proxy physical text
+I-0317	285	360	0	2	0.52983	0.06928	no	no	no	generation NVLink. Again, exact speedup claims should stay attributed until normalized. The durable point is architectural: as models grew, the network inside t
+I-0317	286	168	1	4	0.46203	0.06583	no	no	no	This is where Chapter 14 hands forward to the economics chapter. A token has a marginal cost only after a large fixed-cost system has been built: chips, racks,
+I-0317	287	355	0	2	0.52934	0.08259	no	no	no	For model labs, the same moat became dependency. If the best kernels, the most mature debugging, the easiest cloud access, and the most experienced engineers li
+I-0317	288	238	0	2	0.30498	0.04956	no	no	no	That temporal power is delicate to write about. A roadmap is not a shipment. A partner slide is not a deployed system. A performance ratio is not a reproducible
+I-0317	289	204	1	4	0.59689	0.27860	no	no	no	What The NVIDIA Chapter Must Not Do NVIDIA GB200 NVL72 Hardware Surface, shown as a public web page The book should be hard on NVIDIA because NVIDIA matters It
+I-0317	290	353	0	2	0.52046	0.08876	no	no	no	That last phrase is important. The AI factory was rhetoric built on mechanism. Without CUDA, libraries, memory bandwidth, interconnects, and cluster software, i
+I-0317	291	70	2	10	0.36662	0.23644	no	no	no	CUDA and GPUs are the hidden substrate; GTC is the theater where that substrate is sold back to the world as destiny. The next chapter treats NVIDIA's stagecraf
+I-0317	292	15	2	9	0.42308	0.23274	no	no	no	AMD Instinct, shown as a public web page ASML, shown as a public web page
+I-0317	293	25	3	12	0.56509	0.47584	no	no	no	CUDA Toolkit, shown as a public web page Oracle AI, shown as a public web page Nvidia Cuda Toolkit, shown as a public web page
+I-0317	294	17	2	9	0.43812	0.38560	no	no	no	AMD ROCm, shown as a public web page AMD Instinct MI300, shown as a public web page
+I-0317	295	17	2	9	0.36686	0.22337	no	no	no	CoreWeave Cloud, shown as a public web page Lambda GPU Cloud, shown as a public web page
+I-0317	296	17	2	9	0.42135	0.35404	no	no	no	Digital Realty AI, shown as a public web page ASML Lithography, shown as a public web page
+I-0317	297	31	2	9	0.42061	0.36045	no	no	no	TSMC 3DFabric, shown as a public web page GTC-2026-Keynote.pdf. Figure 15/22.x candidate - NVIDIA frames inference throughput per megawatt, interactivity, servi
+I-0317	298	11	2	9	0.20069	0.04142	no	no	no	GTC 2026 keynote title/opening surface GTC 2026 software stack surface
+I-0317	299	2	2	9	0.13609	0.07668	no	no	yes	NVIDIA AMD
+I-0317	300	2	2	9	0.10725	0.05325	no	no	yes	Intel Arm
+I-0317	301	66	2	36	0.55966	0.23595	no	no	no	Lisa Su Compute And AI Factory Stack Hardware, CPU, accelerator, and orchestration logos turn infrastructure from abstraction into institutions Caption: Compute
+I-0317	302	21	0	5	0.56879	0.01282	no	no	no	PERSON Hardware And Open Ecosystem Operators The final people strip links accelerators, frontier startups, and open-model infrastructure to named public actors
+I-0317	303	64	5	25	0.57668	0.02293	no	no	no	Caption: Hardware And Open Ecosystem Operators. The final people strip links accelerators, frontier startups, and open-model infrastructure to named public acto
+I-0317	304	0	0	4	0.09467	0.00000	no	no	no	
+I-0317	305	107	1	11	0.51553	0.32668	no	no	no	Chapter 15: GTC 2026: The AI Factory Sells Itself Date span: March 2026 INFRASTRUCTURE STAGE Cutoff guard: Announcements are not treated as deployed capacity. 1
+I-0317	306	373	0	2	0.52811	0.07175	no	no	no	The old datacenter was supposed to disappear into metaphor. Users said cloud, as if computation had become weather. Executives said platform, as if the machines
+I-0317	307	102	0	2	0.13092	0.02564	no	no	no	The chapter begins there because it keeps the LLM story honest. ChatGPT made intelligence feel like a box you typed into. Coding agents made it feel like a coll
+I-0317	308	123	1	4	0.55054	0.40187	no	no	no	A Keynote As A Sales Funnel For A Worldview Jensen Huang Public Profile Texture The GTC 2026 deck did not present one product in isolation. It arranged a worldv
+I-0317	309	390	0	2	0.54561	0.09172	no	no	no	insufficient. The bottleneck can move to memory bandwidth, networking, power density, scheduling, software, storage, cooling, or utilization. A lab with a bette
+I-0317	310	293	0	2	0.43516	0.07470	no	no	no	Inference Becomes The Business The ChatGPT era made training famous. Training runs were where the frontier seemed to move: bigger models, more data, longer cont
+I-0317	311	197	1	4	0.57544	0.32175	no	no	no	Roadmaps Are Not Time Machines GTC 2026 Rack-Scale Comparison Page. GTC 2026 page render supplies NVIDIA-attributed rack-scale comparison texture; it GTC keynot
+I-0317	312	200	0	2	0.27096	0.04610	no	no	no	",notes ledger, should remain reserve or cite-only after unless a later layout pass cuts a stronger core card. It labels Groq 3 LPX and the ""Available 2H26"" line"
+I-0317	313	218	1	4	0.61785	0.32766	no	no	no	Vera Rubin As A System Promise GTC 2026 Hardware Roadmap Page. GTC 2026 hardware-roadmap page render anchors the cutoff-labeled roadmap discussion; roadmap lang
+I-0317	314	368	0	2	0.55671	0.08111	no	no	no	That promise had real technical logic. H100 and Blackwell materials had already made clear that NVIDIA's story was tensor cores, memory bandwidth, interconnect,
+I-0317	315	202	1	4	0.47682	0.07964	no	no	no	That is a powerful idea. It is also exactly where the chapter must be careful. A keynote comparison can show what NVIDIA claimed. It cannot show what a utility
+I-0317	316	269	0	2	0.40680	0.05375	no	no	no	close to the source and remain attributed. The safe historical claim is that NVIDIA publicly positioned DSX as an AI factory reference-design and platform layer
+I-0317	317	205	1	4	0.59172	0.32668	no	no	no	"From Tokens To Capital Equipment GTC 2026 AI Factory Framing Page The most useful question in the chapter is not whether ""AI factory"" is perfect language. It is"
+I-0317	318	257	0	10	0.39103	0.06114	no	no	no	computing more industrial. The friendly text box depended on a production stack with the bargaining power of a refinery and the depreciation schedule of a utili
+I-0317	319	175	1	7	0.45365	0.06879	no	no	no	Do not chart exact throughput, perf-per-watt, token-per-second, revenue, or system-ratio claims as independent facts Do not imply DSX customer deployment scale
+I-0317	320	348	0	2	0.52342	0.07002	no	no	no	Chapter 15 needs the handoff. A factory is not only equipment. It is a production process. NVIDIA's claim to the factory rested on its claim to the process This
+I-0317	321	370	0	2	0.49852	0.08210	no	no	no	This point helps the reader understand the Groq 3 LPX card without overusing its specifications. is not only about one roadmap line. It is about NVIDIA acknowle
+I-0317	322	365	0	3	0.48792	0.08062	no	no	no	must ask: who supplies the machines, who pays for the power, who bears the risk, who verifies the output, and which promises are still only promises? That quest
+I-0317	323	63	2	9	0.35897	0.03452	no	no	no	accelerated computing as industrial infrastructure. The character work is therefore rhetorical and public: who gets to name the factory, and who has to build it
+I-0317	324	32	2	9	0.27638	0.02071	no	no	no	GTC page 45 inference compute roadmap card. Figure 15.x - GTC Page 45: Inference Compute Roadmap GTC page 46 Vera Rubin partner card. Figure 15.x - GTC Page 46:
+I-0317	325	27	2	9	0.27811	0.01874	no	no	no	GTC page 49 system comparison card. Figure 15.x - GTC Page 49: System Comparison GTC page 50 roadmap card. Figure 15.x - GTC Page 50: Roadmap Cadence
+I-0317	326	24	2	9	0.37845	0.32692	no	no	no	GTC 2026 page 29 AI-factory document Figure 15/16.x candidate - NVIDIA's DSX platform slide as a bridge from GTC rhetoric to physical constraints
+I-0317	327	46	2	9	0.39768	0.31879	no	no	no	GTC-2026-Keynote.pdf. Figure 15.x - NVIDIA frames the AI factory as industrial infrastructure: inference is the workload, tokens are the commodity, and compute
+I-0317	328	46	2	9	0.39546	0.31040	no	no	no	GTC-2026-Keynote.pdf. Figure 15.x - NVIDIA announces Vera Rubin NVL72 launch partners with NVIDIA-stated perf-per-watt, NVFP4, HBM4, and NVLink6 claims GTC-2026
+I-0317	329	44	2	9	0.40434	0.31854	no	no	no	GTC-2026-Keynote.pdf. Figure 15.x - NVIDIA's 2024-2026-2028 roadmap links Blackwell, Rubin, Feynman, Vera, BlueField, Spectrum, ConnectX, NVLink, and rack-scale
+I-0317	330	10	2	9	0.20118	0.04117	no	no	no	GTC 2026 inference/economics framing GTC 2026 networking/platform surface
+I-0317	331	11	2	9	0.20143	0.04167	no	no	no	GTC 2026 DSX/factory design surface GTC 2026 closing/ecosystem surface
+I-0317	332	55	2	51	0.34788	0.05227	no	no	no	GTC 2026 accelerator system surface GTC 2026 datacenter/facility surface PDF DECK REPORT PAGE GTC Stagecraft: AI Factory Thesis The first GTC gallery treats NVI
+I-0317	333	78	1	44	0.57150	0.02392	no	no	no	GTC 2026 keynot GTC 2026 keynote title/open surface presentation page GTC 2026 AI GTC 2026 AI factory framing presentation page AI-factory thesis as NVIDIA stag
+I-0317	334	132	1	26	0.56139	0.04339	no	no	no	PDF DECK REPORT PAGE GTC Platform, Networking, And Facilities The second GTC gallery ties software, networking, accelerator systems, and facilities into the AI-
+I-0317	335	113	1	36	0.55350	0.04463	no	no	no	Hardware, CUDA, And AI Factories CUDA, accelerators, racks, networking, facilities, and token economics Caption: Hardware, CUDA, And AI Factories. CUDA, acceler
+I-0317	336	171	1	44	0.45118	0.04512	no	no	no	GPU shards, and interconn fabric make LLM systems a communi problem diagram services stress the same GPU stack in different ways diagram Vera Rubin without conv
+I-0317	337	278	0	9	0.44970	0.09098	no	no	no	Chapter 16: Datacenters, Power, and the Physical Internet Date span: 2023-2026 PHYSICAL CONSTRAINT Cutoff guard: Capacity, emissions, and deployment claims requ
+I-0317	338	182	1	4	0.47485	0.05769	no	no	no	permits, cooling capacity, water plans, local politics, and grid patience? The answer matters because the frontier model is no longer just a file on a server. I
+I-0317	339	420	0	2	0.54315	0.09221	no	no	no	But the same IEA report treated data centres as a fast-growing and locally concentrated load class, with a base case in which data-centre electricity consumptio
+I-0317	340	204	1	4	0.48743	0.05769	no	no	no	The book should resist two easy overreactions. One is to say that data-centre electricity use was tiny, therefore irrelevant. The other is to say that any incre
+I-0317	341	373	0	2	0.51011	0.07791	no	no	no	state outside the cluster was unaffected, or that every project in the cluster was doomed. It means the load was not spread evenly like rainfall across a map. I
+I-0317	342	180	1	4	0.46746	0.06879	no	no	no	The Queue Behind The Plug The Interconnection Queue Interconnection became one of the hidden verbs of scaling. The Department of Energy's Secretary of Energy Ad
+I-0317	343	361	0	2	0.53057	0.09122	no	no	no	The interconnection queue also altered bargaining power. A model lab that needed capacity quickly might become more flexible about geography, partners, or procu
+I-0317	344	221	1	4	0.58111	0.33284	no	no	no	"The old cloud story was ""scale hides complexity."" The AI infrastructure story is more interesting: scale exposes which complexity can still be hidden and which"
+I-0317	345	339	0	2	0.50000	0.07175	no	no	no	That forced a distinction the industry often blurred: a corporate clean-power contract could be real and still not be the same thing as the physical fuel mix se
+I-0317	346	177	1	4	0.49236	0.05720	no	no	no	Cooling Is Where The Slide Meets The Floor Clean Procurement Is Not Physical Supply Cooling was not a plumbing footnote. It was the place where the thermal real
+I-0317	347	305	0	2	0.43343	0.07347	no	no	no	Uptime Institute's 2025 operator survey added a caution from the field: average PUE had changed little for a sixth consecutive year, server-rack power densities
+I-0317	348	168	1	4	0.29093	0.03994	no	no	no	"From Tokens Back To Land Equinix AI Data-Center Surface, shown as a public web page The most honest version of the ""AI factory"" is not a slogan. It is a stack o"
+I-0317	349	372	0	2	0.52539	0.08555	no	no	no	separate source package that specifies workload, model, hardware, utilization, data-centre overhead, batching, context, output length, and measurement method. [
+I-0317	350	201	1	4	0.49704	0.06805	no	no	no	prompts, and tools. A frontier LLM was also an operating claim on a machine room, a power system, and a geography Useful Capacity Is Not Nameplate Capacity Inte
+I-0317	351	361	0	2	0.50986	0.07890	no	no	no	that works for overnight batch inference may be the wrong asset for interactive chat. A cluster that handles short answers cheaply may be strained by long-conte
+I-0317	352	369	0	2	0.52909	0.08481	no	no	no	This is one reason cloud partnerships mattered in the LLM era. A model lab wanted access to clusters, deployment infrastructure, reliability operations, securit
+I-0317	353	152	1	4	0.43393	0.06238	no	no	no	What This Chapter Must Not Claim Fast Power Is A Constraint Stack. Figure 16.x candidate - Gas turbine speed-to-power texture The chapter's power comes from spe
+I-0317	354	176	1	4	0.46869	0.05794	no	no	no	"It must not convert NVIDIA or GTC ""AI factory"" rhetoric into neutral performance, deployment, partner, roadmap, availability, or revenue facts in Chapter 16. Th"
+I-0317	355	341	0	4	0.44749	0.06460	no	no	no	The community with land still needed a reason to accept the trade. The chip with performance still needed a rack that could cool it. The rack still needed a bui
+I-0317	356	24	2	9	0.19822	0.00000	no	no	no	Chapter 16 N16-1 note layout mock. Figure 16.x - N16-1 Note Layout Mock Chapter 16 parent inline-cue render. Figure 16.x - Parent Inline-Cue Render
+I-0317	357	54	2	51	0.51923	0.16889	no	no	no	Chapter 16 cooling and rack-density note CoreWeave, shown as a public web page PDF DECK REPORT PAGE GTC Infrastructure Constraint Surfaces Blackwell/Rubin, NVLi
+I-0317	358	92	1	44	0.57076	0.02194	no	no	no	GTC 2026 Blackw GTC 2026 Blackwel transition surface presentation page Hardware transition page for cutoff- labeled AI factory narration GTC 2026 NVLin GTC 2026
+I-0317	359	212	1	56	0.53698	0.09615	no	no	no	Power, Data, And Token Supply Chains Electricity, cooling, interconnection, data, tokenization, and retrieval diagrams Caption: Power, Data, And Token Supply Ch
+I-0317	360	118	0	24	0.22954	0.01553	no	no	no	Chapter 8 cloud- to- product flywheel diagram Shows the business mechanism behind the cloud bargain without proving financial success, active use, productivity
+I-0317	361	99	1	11	0.43491	0.05597	no	no	no	Chapter 17: Data, Tokens, and the Library Problem Date span: 2003-2026 DATA SUPPLY Cutoff guard: Closed training mixtures are not guessed. 17. Data, Tokens, and
+I-0317	362	353	0	2	0.49285	0.07544	no	no	no	That sentence sounds plain, almost clerical. It is not. The modern LLM was built on a wager that the world's writing could be converted into training material:
+I-0317	363	363	0	2	0.51824	0.07890	no	no	no	much structure onto the model. Subword tokenization is the compromise: break text into pieces that are common enough to be reusable and small enough to handle r
+I-0317	364	185	1	4	0.50321	0.06484	no	no	no	Common Crawl and the Dirty Ocean Web Corpus Filter Funnel Once the world has been chopped into tokens, the next question is which tokens enter the diet The open
+I-0317	365	349	0	2	0.49310	0.09147	no	no	no	representation. Its broader lesson is simple: dataset cleaning is not a neutral household chore. Filtering changes whose language remains, whose pages disappear
+I-0317	366	363	0	2	0.52811	0.07717	no	no	no	often could not tell whether the ability came from generalization, memorization, contamination, retrieval, post-training, or a hidden system prompt. The model's
+I-0317	367	271	0	2	0.38338	0.05202	no	no	no	Deduplication work showed that repeated training examples could materially affect model behavior and evaluation. The broad lesson is safer than any single numbe
+I-0317	368	202	1	4	0.48126	0.06583	no	no	no	Long Context Is Not the Whole Library Data Mixture Control Board By 2024, another temptation had appeared: perhaps the data problem could be dodged by making th
+I-0317	369	351	0	2	0.51578	0.07520	no	no	no	still need selection, ordering, permissions, citation behavior, and evaluation. A million tokens can contain the answer and still be misread. It can also contai
+I-0317	370	178	1	4	0.49679	0.06164	no	no	no	Memorization connects to privacy, copyright, benchmark integrity, and product trust. It also connects to product design. A company may add filters, refusal poli
+I-0317	371	346	0	2	0.50099	0.06460	no	no	no	a lab-grown edge case, or a translation of messy human evidence into a form the training run can digest. It can improve a model by making rare tasks abundant. I
+I-0317	372	383	0	2	0.53920	0.09393	no	no	no	The process begins with access: what can be crawled, licensed, generated, logged, bought, or contributed. It continues with filtering: what is removed for quali
+I-0317	373	197	0	4	0.26134	0.05794	no	no	no	The visual package already names the notes four jobs: tokenization ladder, web-corpus filter funnel, data-mixture control board, and memorization/contamination
+I-0317	374	6	2	9	0.29438	0.00049	no	no	no	visual grammar prototype visual grammar prototype
+I-0317	375	17	3	12	0.43516	0.22978	no	no	no	Databricks ML, shown as a public web page Snowflake Cortex, shown as a public web page Databricks
+I-0317	376	2	2	9	0.16445	0.08925	no	no	yes	Anaconda pandas
+I-0317	377	2	2	9	0.14374	0.07372	no	no	yes	scikit-learn PostgreSQL
+I-0317	378	83	2	40	0.42258	0.05843	no	no	no	MongoDB Data, Observability, And Service Infrastructure Data stores, telemetry, distributed execution, search, and caches make the LLM product stack durable eno
+I-0317	379	0	0	4	0.43097	0.00000	no	no	no	
+I-0317	380	85	1	11	0.40385	0.05572	no	no	no	Chapter 18: Tools, Retrieval, and the Agent Turn Date span: 2023-2026 TOOL USE Cutoff guard: Agent language is kept bounded to observed interfaces and docs. 18.
+I-0317	381	310	0	2	0.42258	0.06534	no	no	no	The original ChatGPT miracle was still mostly a conversation. The model answered, refused, rewrote, summarized, translated, improvised, and explained. It could
+I-0317	382	192	1	4	0.51652	0.05547	no	no	no	Retrieval: Memory Without Memory Function-Call Limit The simplest way to make an LLM look grounded is not to change the model at all. Put better evidence in its
+I-0317	383	361	0	2	0.50518	0.09073	no	no	no	the notes document, the generator may answer beautifully from the wrong evidence. If the index contains stale policy, the model may sound official while being o
+I-0317	384	364	0	2	0.46252	0.09443	no	no	no	"stage can be measured. That is why RAG belongs in the agent story. It taught the field to stop asking whether the model ""knows"" and start asking what evidence t"
+I-0317	385	201	1	4	0.49285	0.05745	no	no	no	execution request, a retrieval call, or a transaction draft. The LLM became a soft parser for human intention Soft parsers are dangerous. A conventional parser
+I-0317	386	383	0	2	0.52885	0.08457	no	no	no	happened later to that exact product surface, the historical signal was clear: the assistant would not remain sealed inside a chat transcript. It would become a
+I-0317	387	175	1	4	0.47485	0.04216	no	no	no	workplace assistant can leak a file across permission boundaries. The general agent turn therefore needs the coding chapter as proof of concreteness, but it can
+I-0317	388	360	0	2	0.49926	0.08383	no	no	no	That loop became the diagram behind many agent demos. It is also the place where the hype sneaks in. A diagram can make the system look like a rational worker.
+I-0317	389	361	0	2	0.50542	0.07742	no	no	no	guidance, the tool-using assistant can be steered away from the user's intent or the developer's policy. Early prompt-injection work and public reporting made t
+I-0317	390	169	1	4	0.43688	0.05301	no	no	no	The Harness Is The Product Figure 12/18.x - ChatGPT Tool Surface. screenshot slot for plugins, GPTs, or tool-access product packaging By the time the field bega
+I-0317	391	334	0	2	0.49556	0.06805	no	no	no	This is also why model comparisons become treacherous in agent settings. A benchmark score may reflect a model, a prompt, a tool set, a scaffold, a retry budget
+I-0317	392	318	0	3	0.49137	0.07051	no	no	no	What Changed, And What Did Not The agent turn changed the felt Limit of computing. Before, a user asked a model for words. After, a user could ask a model to he
+I-0317	393	20	2	9	0.16765	0.08555	no	no	no	Chapter 18 Image Sequence Images placed with this chapter to keep the visual evidence close to the story LangChain OpenTelemetry
+I-0317	394	43	2	51	0.31755	0.11686	no	no	no	Ray Dask Agent And Application Runtime Stack Agent software needs frameworks, APIs, runtimes, and web stacks; these marks make that dependency legible Caption:
+I-0317	395	36	1	56	0.58383	0.01381	no	no	no	LangC LangCha agent/applic framework FastAP FastAPI inference/A service Go Go systems language Rust Rust systems language Node.j Node.js server/runti TypeS Type
+I-0317	396	0	0	4	0.06016	0.00000	no	no	no	
+I-0317	397	73	0	9	0.16174	0.04142	no	no	no	Chapter 19: Code as the Second Native Language Date span: 2021-2026 CODE MODELS Cutoff guard: Productivity and replacement claims stay blocked unless independen
+I-0317	398	47	1	4	0.29783	0.01972	no	no	no	The Language That Compiles Code Llama Paper Page As Code-Model Lineage, shown as a paper or report page Code was never merely another dataset. It was the strang
+I-0317	399	363	0	2	0.52244	0.08333	no	no	no	That made it almost too perfect for large language models. Natural language could be fluent without being true. A paragraph could sound notes and still invent a
+I-0317	400	130	1	4	0.35503	0.06065	no	no	no	because a customer depended on it. But it could learn enough statistical structure to make code feel newly conversational. The programmer's sentence became a po
+I-0317	401	398	0	2	0.52293	0.08161	no	no	no	The first Copilot experience was powerful because it met programmers where they already lived. It did not ask them to leave the editor, write a formal specifica
+I-0317	402	366	0	2	0.48151	0.08457	no	no	no	The New Shape Of Reading The earliest public excitement around coding models focused on writing. The model wrote a function. It wrote a test. It wrote a small g
+I-0317	403	175	1	4	0.38955	0.07027	no	no	no	The Contest Laboratory T003 - Figure 19.03 - 2025 Model-Landscape Table If Codex and Copilot made code generation feel practical, AlphaCode made it feel competi
+I-0317	404	286	0	2	0.41026	0.06484	no	no	no	AlphaCode also helped separate two questions that popular coverage often merges. One question is whether a model can write a plausible program. Another is wheth
+I-0317	405	182	1	4	0.63585	0.39472	no	no	no	Open Code Models And The Diffusion Of Skill SWE-bench GitHub Repository Surface Code capability did not remain only inside proprietary assistants. Meta's Code L
+I-0317	406	338	0	2	0.50616	0.06805	no	no	no	depended on task, latency, security posture, hardware, cost, language coverage, integration burden, and the team's appetite for operating its own stack This was
+I-0317	407	361	0	2	0.51923	0.08161	no	no	no	SWE-bench pushed evaluation toward that reality by asking language models to resolve real GitHub issues in real codebases. The shift sounds modest until the rea
+I-0317	408	175	1	4	0.36440	0.06780	no	no	no	The Repository Becomes The Prompt T004 - Figure 19.05 - 2021 Model-Landscape Table. The 2021 benchmark/model-landscape table records early code/model context as
+I-0317	409	347	0	2	0.47904	0.07273	no	no	no	This partiality defines the human role. The developer becomes a framer of tasks and a judge of diffs. A good request to a coding model is not merely descriptive
+I-0317	410	361	0	2	0.48817	0.06731	no	no	no	First, it revealed that language could be operational. A sentence could become a function, a query, a test, a patch, or a shell command. That is the dream at th
+I-0317	411	114	1	7	0.30375	0.04068	no	no	no	The remaining editorial work should now sit beside the chapter rather than inside its ending: normalize OpenAI Codex and Codex paper captures before exact Human
+I-0317	412	9	2	9	0.19403	0.03304	no	no	no	Chapter 19 editor-to-repository workflow Chapter 19 coding benchmark ladder
+I-0317	413	11	2	9	0.30350	0.18195	no	no	no	Chapter 19 repository-as-prompt schematic PyTorch, shown as a public web page
+I-0317	414	2	2	9	0.16938	0.10651	no	no	yes	Python PyTorch
+I-0317	415	115	2	28	0.42850	0.09467	no	no	no	TensorFlow PAPER REPORT EXCERPT Open-Model, Code, And Benchmark Texture Code Llama, Mistral, Mixtral, Llama 3, and LiveCodeBench make open-model and coding-eval
+I-0317	416	0	0	4	0.43097	0.00000	no	no	no	
+I-0317	417	79	0	9	0.19379	0.06731	no	no	no	Chapter 20: Claude Code and the Industrialization of Pair Programming Date span: 2024-2026 REPOSITORY WORK Cutoff guard: Coding-agent claims do not imply autono
+I-0317	418	168	1	4	0.58013	0.39694	no	no	no	The Terminal Becomes A Colleague OpenAI Evals Repository Surface. OpenAI Evals GitHub repository screenshot gives the coding-agent harness loop an evaluation-to
+I-0317	419	293	0	2	0.40409	0.07372	no	no	no	The scene is not the agent magically writing software alone. It is a developer at a terminal deciding how much authority to grant: read this file, inspect that
+I-0317	420	69	1	4	0.29956	0.03180	no	no	no	From Prompt To Work Order SWE-bench Paper Page As Harness Evidence, shown as a paper or report page The basic ergonomics of agentic coding are simple enough to
+I-0317	421	304	0	2	0.40533	0.06435	no	no	no	made language operational. Here the two lines meet: the tool runner enters the software system and tries to leave behind an artifact that other tools can judge
+I-0317	422	56	1	4	0.30399	0.02392	no	no	no	The Benchmark Was A Door, Not A Destination Toolformer Paper Page As Tool-Use Lineage, shown as a paper or report page SWE-bench matters because it changed what
+I-0317	423	369	0	2	0.53994	0.07446	no	no	no	projects. That made the benchmark feel closer to work: understand the repo, modify the notes files, pass the tests But the chapter should not treat SWE-bench as
+I-0317	424	371	0	2	0.53772	0.09837	no	no	no	That is why the early low scores were as important as the later high scores. The initial paper reported that then-current systems could resolve only a small sha
+I-0317	425	361	0	2	0.50567	0.07643	no	no	no	That distinction is the heart of the chapter. A raw model and an agent system are different objects. The model predicts and reasons. The agent wrapper chooses t
+I-0317	426	342	0	2	0.46105	0.08309	no	no	no	"That nearness is why the chapter should resist the romance of ""autonomy."" The more accurate word is supervision. The agent may propose commands, inspect files,"
+I-0317	427	170	1	4	0.49926	0.15804	no	no	no	The New Pair Programming Berkeley Function Calling Leaderboard Surface. Berkeley Function Calling Leaderboard screenshot makes tool-use evaluation visible; it C
+I-0317	428	390	0	2	0.49926	0.07298	no	no	no	1. The human frames the task. 2. The agent builds a map of the repository. 3. The agent proposes a plan or starts with a small edit. 4. The agent runs a check.
+I-0317	429	222	0	2	0.33481	0.04808	no	no	no	The chapter should not reduce coding agents to productivity. Productivity is the tempting business-book claim: fewer hours, faster teams, cheaper software. The
+I-0317	430	220	1	4	0.56657	0.28994	no	no	no	What The Agent Still Cannot Own GitHub Copilot Product Surface, shown as a public web page The failure modes are not footnotes. They are the chapter's honesty A
+I-0317	431	349	0	2	0.49408	0.07865	no	no	no	The most important thing the agent cannot own is intent. It can infer intent from the prompt, the repository, names, tests, and prior messages. It can produce a
+I-0317	432	375	0	2	0.55104	0.07939	no	no	no	That translation is why coding agents belong at the center of the LLM story. They connect the book's major strands: language as interface, code as data, benchma
+I-0317	433	210	0	4	0.34369	0.03575	no	no	no	and human trust. It is also a mirror. If the system is well-tested, well-factored, and well-instructed, the agent looks smarter. If the system is tangled, undoc
+I-0317	434	11	2	9	0.32249	0.02096	no	no	no	Chapter 20 coding-agent harness loop Chapter 20 coding benchmark caveat matrix
+I-0317	435	19	2	9	0.33629	0.00444	no	no	no	Chapter 20 tool-call lifecycle Workflow claims are allowed now; productivity, adoption, revenue, replacement, and enterprise-outcome claims need stronger eviden
+I-0317	436	3	2	9	0.16765	0.09418	no	no	yes	xAI/X GitHub
+I-0317	437	2	2	9	0.18245	0.11686	no	no	no	Docker Kubernetes
+I-0317	438	2	2	9	0.13141	0.06607	no	no	yes	Linux Cloudflare
+I-0317	439	2	2	9	0.15779	0.10133	no	no	yes	Apache FastAPI
+I-0317	440	2	2	9	0.16321	0.09862	no	no	yes	Go Rust
+I-0317	441	3	2	9	0.22461	0.14127	no	no	no	Node.js TypeScript
+I-0317	442	2	2	9	0.22362	0.15680	no	no	no	JavaScript Vite
+I-0317	443	2	2	9	0.13190	0.07446	no	no	yes	Vercel Netlify
+I-0317	444	35	2	51	0.32421	0.10922	no	no	no	Redis Elastic Agents, Coding, And Tool Use Tool use, coding benchmarks, repo loops, Claude Code, and software automation Caption: Agents, Coding, And Tool Use.
+I-0317	445	276	1	64	0.52244	0.07101	no	no	no	Figure 12.2 - Claude Figure 12.2 - Claude Becomes A Product Family. Haiku, Sonnet, Opus, computer use, Claude Code, and Claude 4 mark release surfaces and produ
+I-0317	446	0	0	4	0.06016	0.00000	no	no	no	
+I-0317	447	102	1	11	0.35429	0.10528	no	no	no	Chapter 21: Reasoning, Test-Time Compute, and the New Scaling Axis Date span: 2024-2026 REASONING Cutoff guard: Reasoning labels are not treated as universal in
+I-0317	448	10	1	4	0.20562	0.01750	no	no	no	Chain-of-Thought Paper Page, shown as a paper or report page
+I-0317	449	13	1	4	0.24137	0.00567	no	no	no	DeepSeek-R1 Report Page As Reasoning Surface, shown as a paper or report page
+I-0317	450	224	1	4	0.44132	0.08728	no	no	no	T005 - Figure 21.04 - 2022 Model-Landscape Table. The 2022 benchmark/model-landscape table records the instruction/RLHF-to-early- chat context as a memory aid;
+I-0317	451	398	0	2	0.59048	0.07322	no	no	no	reasoning paths and selecting an answer by agreement among them. These papers did not prove that models reasoned like people, or that their written rationales w
+I-0317	452	377	0	2	0.57421	0.07865	no	no	no	"experiment. In the product setting, the intermediate work could be an implementation detail. The same phrase, ""reasoning,"" therefore covered a public teaching t"
+I-0317	453	414	0	2	0.56484	0.08974	no	no	no	The most important part of DeepSeek-R1 for this book is not the scoreboard drama. It is the mechanism claim: reinforcement learning could incentivize reasoning
+I-0317	454	373	0	2	0.52737	0.08407	no	no	no	"OpenAI's process-supervision work belongs in this hinge as well. ""Let's Verify Step by Step"" studied rewarding intermediate reasoning steps rather than only fin"
+I-0317	455	373	0	2	0.53254	0.07717	no	no	no	The reader needs a clean distinction here. Chain-of-thought prompting is a way to elicit intermediate reasoning. Self-consistency samples multiple chains and ch
+I-0317	456	416	0	2	0.53353	0.10256	no	no	no	Economics follows immediately. Test-time compute is not free. More samples, longer scratchpads, verifier passes, tool calls, and retries all increase latency an
+I-0317	457	395	0	2	0.58703	0.06484	no	no	no	user what kind of system they are using. Too much theater becomes misleading. Too little visibility makes the delay feel like a broken product. The design probl
+I-0317	458	352	0	2	0.52983	0.08309	no	no	no	That feedback loop is powerful and dangerous. It can improve smaller models. It can also amplify errors, benchmark artifacts, and style quirks. If the teacher m
+I-0317	459	395	0	2	0.54265	0.08900	no	no	no	"The hardest unsolved zone was open-world reasoning. Closed tasks reward the final answer. Open-world tasks ask what the task even is. A user says, ""Should we la"
+I-0317	460	341	0	4	0.47880	0.06607	no	no	no	samples, search, verifiers, tools, and retries. The frontier is not a single curve but a routing surface. Different tasks sit in different regions. Some are sol
+I-0317	461	12	2	9	0.17456	0.02613	no	no	no	Chapter 21 train-time versus test-time compute axes Chapter 21 verifier/search loop
+I-0317	462	59	2	11	0.34418	0.05104	no	no	no	Chapter 21 inference-contract matrix Chapter 21 reasoning-budget routing map PAPER REPORT EXCERPT Reasoning, Coding, Tool Use, And Retrieval The gallery gives t
+I-0317	463	116	1	24	0.56928	0.03575	no	no	no	DeepS V3 Techn DeepSee V3 Technica Report paper/report excerpt Adds DeepSeek system/repo texture for the China frontier chapter DeepS R1: Incent DeepSee R1: Inc
+I-0317	464	0	0	4	0.06016	0.00000	no	no	no	
+I-0317	465	100	1	11	0.33309	0.07618	no	no	no	Chapter 22: The Economics of Intelligence on Tap Date span: 2023-2026 ECONOMICS Cutoff guard: Live pricing and margins are not inferred from stale pages. 22. Th
+I-0317	466	353	0	2	0.50542	0.09221	no	no	no	The first consumer shock of ChatGPT was that intelligence seemed to be free. A box appeared on the web. A user typed. The machine answered. The price, at least
+I-0317	467	317	0	2	0.45414	0.07569	no	no	no	capture chain. [] The important historical fact is not the exact amount alone. It is the change in category. A research-flavored public demo became a recurring-
+I-0317	468	192	1	4	0.36366	0.11489	no	no	no	The API Turns Intelligence Into Units OpenRouter As Routing-Ecosystem Handle. OpenRouter is used as a small book ecosystem handle for routing-market texture; it
+I-0317	469	339	0	2	0.51677	0.06262	no	no	no	not standard inference. Some rows are post-cutoff captures of pre-cutoff model names. Some rows are deprecated, reasoning-specific, code-specific, or provider-l
+I-0317	470	246	0	2	0.34837	0.05178	no	no	no	pricing is captured one day after cutoff and needs a cutoff caveat. Reasoning variants, deprecated rows, model-alias mismatches, missing price rows, prompt-leng
+I-0317	471	164	1	4	0.37796	0.07347	no	no	no	Inference Rent T002 - Figure 22.03 - 2019 Model-Landscape Table. The 2019 benchmark/model-landscape table gives the sales-route discussion a GPT-2-era context p
+I-0317	472	332	0	2	0.48422	0.08531	no	no	no	Inference rent is the ongoing charge for making intelligence feel instant. It is paid by the provider before it is charged to the customer. The provider must ke
+I-0317	473	167	1	4	0.37229	0.07396	no	no	no	This is why procurement became a central LLM battleground. A buyer did not only ask whether the model was smart. It asked about data retention, privacy, access
+I-0317	474	303	0	2	0.45957	0.07594	no	no	no	The frontier race was expensive enough that ordinary software metaphors failed. A model lab could grow quickly and still burn cash. A product could be beloved a
+I-0317	475	376	0	2	0.52786	0.07249	no	no	no	Routing the Bill Once a company has more than one model, the economic question becomes routing. Which request deserves the expensive model, which can be handled
+I-0317	476	374	0	2	0.50888	0.07939	no	no	no	Batch pricing says the same thing about time. If the customer can wait, the provider can schedule work differently. Lower batch prices are not simply discounts;
+I-0317	477	244	0	4	0.35380	0.05621	no	no	no	routing, safety, caching, and evaluation. Above that were APIs, subscriptions, copilots, agents, and enterprise workflows. Money could pool at any layer, but th
+I-0317	478	10	2	9	0.19107	0.03254	no	no	no	Chapter 22 token meter Chapter 22 routing/caching/batching levers
+I-0317	479	13	2	9	0.17357	0.02786	no	no	no	Chapter 22 subscription/API/bundle map Chapter 22 margin and ROI blocker grid
+I-0317	480	79	1	11	0.30498	0.06854	no	no	no	Chapter 23: Failure Modes, Truth, and Trust Date span: 2022-2026 TRUST Cutoff guard: Safety claims remain scoped to the source and test condition. 23. Failure M
+I-0317	481	9	2	6	0.18269	0.04216	no	no	no	Trust Is A Stack Every Evaluation Casts A Shadow
+I-0317	482	220	1	4	0.41519	0.07988	no	no	no	Question, retrieval, generation, audit, blocker, record, and publish steps separate fluent output from scoped evidence The same machine that felt general could
+I-0317	483	399	0	2	0.55227	0.08432	no	no	no	That placement matters. Chapter 21 asked how much thinking a task deserves. Chapter 22 asked who pays for that thinking. This chapter asks whether the resulting
+I-0317	484	380	0	2	0.57618	0.06188	no	no	no	permission. The answer must know when it has enough support, when it needs retrieval, when it must cite, when it must ask a clarifying question, and when it sho
+I-0317	485	389	0	2	0.55054	0.09837	no	no	no	"""Why is my obviously brilliant argument correct?"" the safest answer may be a refusal to accept the premise. But the socially smooth answer is to praise the argu"
+I-0317	486	403	0	2	0.57199	0.09196	no	no	no	untrusted text tells the model to ignore prior instructions, reveal hidden prompts, misuse a tool, or treat data as a command. In classical software, code and d
+I-0317	487	405	0	2	0.54610	0.07249	no	no	no	elimination, or direct long quotation without extraction. [] Anthropic's Claude model cards play a similar role in the Claude chapters. The system card is not a
+I-0317	488	403	0	2	0.54660	0.10010	no	no	no	while still being unmoored from evidence. A refusal can sound principled while being a brittle pattern. A citation can look precise while being fabricated. The
+I-0317	489	377	0	2	0.52046	0.07347	no	no	no	"needs a way to say, ""I can draft this, but a human should send it."" These are mundane software patterns, yet they become philosophical inside an LLM product bec"
+I-0317	490	394	0	2	0.55473	0.09591	no	no	no	The same tradeoff appears in refusals. A model that never refuses is dangerous. A model that refuses too broadly becomes useless, politically brittle, or easy t
+I-0317	491	190	1	7	0.37845	0.05720	no	no	no	machine had crossed from novelty into infrastructure. Once that happened, truth stopped being a philosophical property of answers and became a design requiremen
+I-0317	492	131	2	38	0.42036	0.05769	no	no	no	Percy Liang Economics, Trust, And Evaluation Pricing, productivity blockers, safety boundaries, eval caveats, and trust diagrams Caption: Economics, Trust, And
+I-0317	493	158	1	44	0.40187	0.03156	no	no	no	search share, and margin need stronger rows diagram output from scoped evidence diagram tools, infrastruc economic and trust diagram Gener Llama family Llama fa
+I-0317	494	88	1	11	0.38782	0.06977	no	no	no	Chapter 24: Next Token Date span: through May 24, 2026 CUTOFF SYNTHESIS Cutoff guard: No event after May 24, 2026 is narrated as completed history. 24. Next Tok
+I-0317	495	7	2	6	0.41593	0.07199	no	no	no	Five Conversion Gates Unsettled By The Cutoff
+I-0317	496	186	1	4	0.45784	0.06780	no	no	no	Human Judgment Loop The smallest act in this book was never a keynote, a benchmark, a lawsuit, a server rack, a venture round, or a product launch. It was a cho
+I-0317	497	357	0	2	0.53254	0.08333	no	no	no	That distinction is the spine of the ending. An interface does not have to be conscious to change work. A spreadsheet did not understand finance. A browser did
+I-0317	498	373	0	2	0.53427	0.06879	no	no	no	become the next industrial unit. The datacenter chapter then put a harder floor under the rhetoric: compute could move faster than power, and a model served in
+I-0317	499	385	0	2	0.54265	0.11292	no	no	no	Trust changed the ending. Chapter 23 refused the easy move of treating failures as footnotes. Hallucination, sycophancy, jailbreaks, prompt injection, eval blin
+I-0317	500	395	0	2	0.54019	0.08925	no	no	no	This is one reason the book's visual program became part of the argument. A diagram can clarify a mechanism; it can also launder certainty. A leaderboard can ma
+I-0317	501	370	0	2	0.54734	0.06780	no	no	no	semiconductor book. Those layers mattered because they explained why the next token could be generated at frontier scale, for millions of users, inside products
+I-0317	502	333	0	2	0.47189	0.07446	no	no	no	notes, claim blockers, and asset manifest are a small nonfiction version of the trust stack it describes: notes before confidence, permission before rhetoric, s
+I-0317	503	355	0	2	0.53057	0.08506	no	no	no	Economics was unsettled. Tokens had prices. Subscriptions had prices. Cloud commitments, model routing, caching, batching, distillation, and open-weight deploym
+I-0317	504	373	0	2	0.53550	0.07101	no	no	no	those endings. It deserves a harder sentence: by May 24, 2026, the world had built a powerful new computing interface around probabilistic text, and the work of
+I-0317	505	36	2	51	0.52392	0.30153	no	no	no	Chapter 24 Image Sequence Images placed with this chapter to keep the visual evidence close to the story xAI, shown as a public web page Crusoe Cloud, shown as
+I-0317	506	172	1	74	0.43713	0.07717	no	no	no	Paid access becam Paid access became a product surface source excerpt card svg Enterp ChatG added Enterpris ChatGPT added workplac controls source excerpt card
+I-0317	507	166	1	86	0.50641	0.06953	no	no	no	platform framing svg claim card grid lead- time pressure, but not a complete project- level delay database diagram Reader Memory Rails Timelines, maps, network
+I-0317	508	176	1	45	0.31780	0.02046	no	no	no	Gener AI factory AI factory stack visual diagram Gives Chapter 15 a reader- friendly mechanism diagram that explains the AI factory stack without converting NVI
+I-0317	509	55	0	4	0.10182	0.03254	no	no	no	The Reader Keeps The Ledger The story ends at the cutoff, but the habit it asks for does not. When a model answers, when a company presents a slide, when a benc

@@ -1,0 +1,9 @@
+pass_id	check	result	evidence
+I-0317	blank rendered pages removed	pass	5 -> 1 raw -> 0 final
+I-0317	severe sparse pages reduced	pass	9 -> 0
+I-0317	page count not increased	pass	541 -> 509
+I-0317	word count remains in band	pass	106028
+I-0317	24 chapters preserved	pass	unique_chapters=24
+I-0317	date rails preserved	pass	date_span_hits=24
+I-0317	visual abundance preserved	pass	image_objects=357
+I-0317	claim ledger unsupported zero	pass	333 supported / 0 needs-verification

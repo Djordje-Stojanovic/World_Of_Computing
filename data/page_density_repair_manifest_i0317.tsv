@@ -1,0 +1,11 @@
+pass_id	artifact	path	exists	bytes	sha256	pages	note
+I-0317	source_pdf	rendered/final_private_i0316/Next-Token-final-private-timeline-date-rails-i0316.pdf	yes	65108240	313814679b640df1fdcd778c862260c1f0a7a92c072771a7ac9403db5dadeb7c	541	I-0316 timeline/date-rail proof
+I-0317	density_html	rendered/final_private_i0317/Next-Token-final-private-page-density-i0317.html	yes	107706811	d60587adfe02007843db06ea65b77f7c9bf5f43401916a24358da003c8f940d1		I-0317 density-repair HTML
+I-0317	density_raw_pdf	rendered/final_private_i0317/Next-Token-final-private-page-density-i0317.raw.pdf	yes	67491610	69733e227a4030fca70401823352ced785deda712bed6f67113c753276416424	510	I-0317 raw density render before blank-page deletion
+I-0317	density_pdf	rendered/final_private_i0317/Next-Token-final-private-page-density-i0317.pdf	yes	65099889	42027103944c79e5a782860a99fe047c680580361655ebc3e9dde1c201336f0f	509	I-0317 final density-repaired PDF
+I-0317	density_markdown	manuscript/Next-Token-page-density-i0317.md	yes	379197	714e4c92fe4e74873dffd4d259669d60d0936513dfdbfea400d1164d9efc7c35		I-0317 manuscript snapshot
+I-0317	page_qa	data/page_density_page_qa_i0317.tsv	yes	94808	1fdc81a54894cd5626be1d5e40e173108ff1a0fccb687546fd0786e15b98fde0		I-0317 page density QA
+I-0317	qa	data/page_density_repair_qa_i0317.tsv	yes	474	78e8003b3eaa989fd4bea662d9f3e3990d4d870846df87f7c72ce918dd83ab55		I-0317 summary QA
+I-0317	deletions	data/page_density_deleted_pages_i0317.tsv	yes	130	b7de1bc7c1532f7699f3b4c3998879773656a64e587fc55f6bab82e4536abdd1		blank page deletion ledger
+I-0317	report	manuscript/page-density-repair-i0317.md	yes	1167	a1551d90ff4b1cb4a64655e4479b240ea8afdc65478cd790011e8b8461f622ca		I-0317 report
+I-0317	pointer	champion/final-private-pdf-pointer-i0317.md	yes	612	e61e33d5c5d90c3ff46b7b89a0a8481a23b4ac36fa28f8847e57fd2745f8c79d		I-0317 pointer
