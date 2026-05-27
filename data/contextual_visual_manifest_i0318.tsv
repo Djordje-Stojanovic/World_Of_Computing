@@ -1,0 +1,10 @@
+pass_id	artifact	path	exists	bytes	sha256	pages	note
+I-0318	source_pdf	rendered/final_private_i0317/Next-Token-final-private-page-density-i0317.pdf	yes	65099889	42027103944c79e5a782860a99fe047c680580361655ebc3e9dde1c201336f0f	509	I-0317 page-density proof
+I-0318	contextual_html	rendered/final_private_i0318/Next-Token-final-private-contextual-visuals-i0318.html	yes	107715261	5d49cd185a71639a4c37fdd49e6fe22d2f081024096ed45012f5c55b4eada044		I-0318 contextual visual HTML
+I-0318	contextual_pdf	rendered/final_private_i0318/Next-Token-final-private-contextual-visuals-i0318.pdf	yes	64264414	db075d58fb5d17cfe006ea10f85050c047a3dac5158e293c0cd3b46b5ddc8e59	523	I-0318 contextual visual PDF
+I-0318	contextual_markdown	manuscript/Next-Token-contextual-visuals-i0318.md	yes	379229	bee1523aa654224bfcd26c099510ae2f3f74d42748fa53d6d3cb493130541ed8		I-0318 manuscript snapshot
+I-0318	baseline	data/contextual_visual_baseline_i0318.tsv	yes	203	28089c085a7318488a26f6942c787fc483ed84c01ed6431e42699a226ef33469		I-0318 visual-placement baseline
+I-0318	sections	data/contextual_visual_sections_i0318.tsv	yes	10402	c809526ee5c680387f6be986195334efdf76c15307ae8d0abd70e5b0674c5970		24 contextualized visual sections
+I-0318	qa	data/contextual_visual_qa_i0318.tsv	yes	648	4dd44d7f46e091b90676e13e842dd727a27522ef452661048549dfc86e1707a2		I-0318 visual placement QA
+I-0318	report	manuscript/contextual-visual-placement-i0318.md	yes	1162	e94d2aafd7c4959ed0d8d2b06c9e2bbc16bf4c284ac34f57ac0324b25ed089b1		I-0318 report
+I-0318	pointer	champion/final-private-pdf-pointer-i0318.md	yes	678	2e50aa963ac53bb7d10b9a2bfb44c3d3a91720e48b0f6dd80f33c48fc5c50bbd		I-0318 pointer

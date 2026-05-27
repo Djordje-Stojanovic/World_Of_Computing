@@ -8,7 +8,7 @@ Open this only as the current rescue baseline, not as the final edition:
 
 `rendered/final_private_i0318/Next-Token-final-private-contextual-visuals-i0318.pdf`
 
-This proof has 523 pages, 357 image objects, 3132 drawing/vector objects, 24 contextualized visual sections, and 0 blank pages by ink/text/image QA. SHA-256: `db075d58fb5d17cfe006ea10f85050c047a3dac5158e293c0cd3b46b5ddc8e59`.
+This proof has 523 pages, 357 image objects, 3132 drawing/vector objects, 24 contextualized visual sections, and 0 blank pages by ink/text/image QA. SHA-256: `3f5069e2c4077d5e1669ff1d1a2d91207f37b49008d892dfa4ee6b51ae8629eb`.
 
 It is not final. A direct reader review rejected the current book surface because it opens with ChatGPT instead of a chronological Transformer-era spine, exposes caption/source bureaucracy, contains blank and sparse pages, uses visual portfolio dumps, and allows multi-image pages.
 
@@ -58,4 +58,4 @@ I-0316 update: the current rescue proof adds visible date spans, chapter timelin
 
 I-0317 update: the current rescue proof removes rendered blank pages and relaxes forced visual-section page breaks. It still needs I-0319 through I-0322 for contextual visuals, one-image pages, quantitative enrichment, hostile QA, and final build.
 
-I-0318 update: the current rescue proof replaces old separated visual blocks with current chapter-local context sections beside the chapter openings. It still needs I-0319 through I-0322 for one-image pages, quantitative enrichment, hostile QA, and final build.
+I-0318 update: the current rescue proof replaces old Image Sequence blocks with current chapter-local context sections beside the chapter openings. It still needs I-0319 through I-0322 for one-image pages, quantitative enrichment, hostile QA, and final build.

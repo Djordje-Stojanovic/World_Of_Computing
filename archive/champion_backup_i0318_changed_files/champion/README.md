@@ -39,4 +39,4 @@ I-0316 update: the current rescue proof adds visible date spans, chapter timelin
 
 I-0317 update: the current rescue proof removes rendered blank pages and relaxes forced visual-section page breaks. It still needs I-0319 through I-0322 for contextual visuals, one-image pages, quantitative enrichment, hostile QA, and final build.
 
-I-0318 update: the current rescue proof replaces old separated visual blocks with current chapter-local context sections beside the chapter openings. It still needs I-0319 through I-0322 for one-image pages, quantitative enrichment, hostile QA, and final build.
+I-0318 update: the current rescue proof replaces old Image Sequence blocks with current chapter-local context sections beside the chapter openings. It still needs I-0319 through I-0322 for one-image pages, quantitative enrichment, hostile QA, and final build.

@@ -1,0 +1,10 @@
+pass_id	check	result	evidence
+I-0318	24 visual sections contextualized	pass	contextual_sections=24
+I-0318	old portfolio class removed	pass	old_sections=0
+I-0318	old image-sequence wording removed	pass	Image Sequence=0; Images placed with this chapter=0; Visual Portfolio=0; PORTFOLIO PLATE=0
+I-0318	context headings visible	pass	context_heading_hits=24
+I-0318	24 chapters preserved	pass	unique_chapters=24
+I-0318	word count remains in band	pass	106241
+I-0318	visual abundance preserved	pass	357 -> 357 image objects
+I-0318	zero blank pages preserved	pass	blank_pages=0
+I-0318	claim ledger unsupported zero	pass	334 supported / 0 needs-verification
