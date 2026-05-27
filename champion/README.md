@@ -1,6 +1,6 @@
 # Champion
 
-Final private personal-edition champion package updated by `I-0312` on 2026-05-27.
+Current private personal-edition champion package updated by `I-0312` on 2026-05-27, then placed under a direct 10-pass chronological publication rescue.
 
 - Human package pointer: `final-private-pdf-pointer-i0312.md`
 - Private reader guide: `private-reader-guide-i0311.md`
@@ -23,5 +23,7 @@ Final private personal-edition champion package updated by `I-0312` on 2026-05-2
 - Final visual category summary: `final-private-visual-category-summary-i0302.tsv`
 - Final claim audit report: `final-source-claim-quarantine-i0303.md`
 - Prior champion backup: `archive/champion_backup_i0304`
+
+The I-0312 PDF is the current local baseline, not the final accepted book. The active queue in `ideas.tsv` now runs `I-0313` through `I-0322` to remove reader-facing bureaucracy, rebuild the chronology from the Transformer era forward, repair blank/sparse pages, contextualize visuals, enforce one visual per page, add stronger quantitative material, and produce a final private publication candidate.
 
 The PDF/contact-sheet renders are intentionally local/ignored private-use artifacts; use the pointer file for path, hash, render metrics, and the current package map.

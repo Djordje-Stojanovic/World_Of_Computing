@@ -6,29 +6,29 @@ This repository is the working memory, manuscript lab, source ledger, visual sys
 
 ## Current Book State
 
-Updated **2026-05-27** after pass `I-0312`.
+Updated **2026-05-27** after the direct 10-loop rescue override.
 
 - **Latest recorded pass:** `I-0312`, front/back matter and metadata polish.
 - **Words:** 103,526 assembled source words across the canonical 24-chapter draft.
 - **Chapters:** 24 / 24 main chapters.
-- **Best local private edition PDF:** `rendered/final_private_i0312/Next-Token-final-private-polished-matter-i0312.pdf`.
+- **Current baseline PDF, not final:** `rendered/final_private_i0312/Next-Token-final-private-polished-matter-i0312.pdf`.
 - **Final champion pointer:** `champion/final-private-pdf-pointer-i0312.md`.
 - **Private reader guide:** `champion/private-reader-guide-i0311.md`.
 - **Final visual inventory/page map:** `data/final_private_visual_inventory_i0310.tsv` and `data/final_private_visual_page_map_i0310.tsv`; the I-0302 contact sheet remains available as the compact visual scan artifact.
 - **Final visual inventory rows:** 530, all mapped to the I-0309 repaired proof across 308 distinct visual-bearing pages.
-- **Claim status:** `claims.tsv` has 325 supported rows and 0 needs-verification rows after the I-0309 publishable-surface QA proof.
+- **Claim status:** `claims.tsv` has 328 supported rows and 0 needs-verification rows after the I-0312 polish pass.
 - **Source density:** the frozen champion manuscript has 545 source refs, 26 claim refs, and 181.3 words/reference.
 
-The current local proof has cleared the front/back matter and metadata blocker: I-0312 has 662 pages, 0 visible path/local residue hits, 0 front/back process hits, and 0 metadata bad hits. It is still not final until hostile visual sample QA, final reader-continuity checks, and the done-enough audit are complete.
+The I-0312 proof is no longer accepted as the final direction. It cleared some automated residue and metadata checks, but a direct reader review found unacceptable defects: the book opens with ChatGPT instead of moving chronologically, visible captions contain project/audit bureaucracy, pages 3 and 4 are blank, the opening image/caption package reads badly, visual portfolio sections behave like dumps, several pages are sparse, and some pages carry multiple unrelated images. The active goal is now the 10-pass chronological publication rescue in `GOAL.md` and `ideas.tsv`.
 
 ## Readiness Snapshot
 
 Private-edition readiness as of 2026-05-27:
 
-- **Private personal edition:** usable as a cleaner publishable-surface proof after I-0309; not done as a final book until the remaining inventory, delivery, metadata/front-matter, and hostile visual sample passes close.
-- **Hard invariant compliance:** passing for word count, 24 chapters, visual target categories, blank-page checks, unsupported-claim ledger, visible path/process residue, terminal-dump removal, clean title metadata, and automated page-by-page publishable-surface QA.
-- **Visual ambition:** quantity is not the issue; the next gate is professional placement. Kept visuals must sit near the argument they serve, and weak, placeholder, duplicated, or out-of-context visuals must be cut or replaced.
-- **Publication-surface readiness:** improved but not final. I-0309 clears automated page-by-page surface QA, I-0310 refreshes the final visual page map, I-0311 adds the private reader guide, and I-0312 cleans front/back matter and metadata; I-0313 through I-0315 remain open for hostile sample beauty checks, reader continuity, and done-enough audit.
+- **Private personal edition:** not done. Treat I-0312 as a baseline proof for rescue, not a final book.
+- **Hard invariant compliance:** word count, chapter count, visual inventory, and unsupported-claim ledger are in range, but rendered-page quality and reader-facing surface quality are not acceptable.
+- **Visual ambition:** quantity is not the issue. The next gates are contextual placement, one visual per page, no composite boards, no visual portfolio dumps, no blank pages, and no captions that read like project metadata.
+- **Publication-surface readiness:** reset to rescue mode. The active queue is `I-0313` through `I-0322`: bureaucracy purge, endnotes-only captions, chronological rebuild, timeline controls, dense layout, contextual visuals, one-image-per-page enforcement, data/table enrichment, hostile proofread/visual QA, and final publication build.
 
 ## 100-Exhibit Dashboard
 

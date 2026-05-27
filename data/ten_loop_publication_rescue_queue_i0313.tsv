@@ -1,0 +1,11 @@
+pass_id	status	rescue_goal	acceptance_gate
+I-0313	pending	Delete reader-facing bureaucracy and raw ledger language	Zero forbidden-string hits in rendered PDF text
+I-0314	pending	Move sourcing/provenance to endnotes and ledgers	Plain-English captions with no visible provenance boilerplate
+I-0315	pending	Rebuild the 24-chapter chronological spine	Book opens with Transformer/attention era and then moves forward in time
+I-0316	pending	Add date ranges, timelines, timestamps, and cutoff controls	Every chapter has a date span and cutoff QA
+I-0317	pending	Remove blank, sparse, and half-empty pages	Zero blank pages and no unintended sparse body pages
+I-0318	pending	Place every kept visual beside the text it serves	No bottom-dump or random chapter visual sections
+I-0319	pending	Enforce one visual exhibit per page	Zero multi-visual pages and zero board/portfolio pages
+I-0320	pending	Add numbers, stats, formulas, benchmarks, charts, and tables	Quantitative material appears throughout the chronological story
+I-0321	pending	Run hostile proofread and rendered-page visual QA	Sampled page images have cut/keep/fix decisions and repaired defects
+I-0322	pending	Build final private publication candidate	Final PDF path, hash, QA report, reader guide, and honest remaining-risk report exist

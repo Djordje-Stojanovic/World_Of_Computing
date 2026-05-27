@@ -570,3 +570,5 @@ The benchmark layer is strongest when tables are explicit memory aids rather tha
 - I-0311: a final private package needs a human reading path, not just ledgers. The guide should name the one clean PDF to open, the audit artifacts that prove it, and the gates still open, so the reader is not left to interpret stale pointers or old proof files.
 
 - I-0312: broad residue scans are not enough for final matter. The first and last pages need their own professional-surface audit because stale structural phrases, tiny copy errors, and trailing blanks can survive even when path and metadata checks are clean.
+
+- Rescue override after I-0312: a clean automated proof can still be the wrong book. The final sprint must optimize for a chronological reader experience, plain captions, contextual one-image pages, dense layouts, and visible numbers/tables, while moving provenance bureaucracy out of the reader's way.
