@@ -11,3 +11,4 @@ page	status	words	images	issue	action_taken	new_words	new_images	notes
 9	PERFECT	332	0	"Had ""chapter should use one visual early"" process language"	Rewrote to reader-facing statement about annotated Transformer block	332	0	GPT lineage bridge, decoder-only architecture. Clean prose.
 10	PERFECT	336	0	none	none	336	0	GPT lineage bridge, decoder-only, multitask learners. Clean prose.
 11	PERFECT	319	0	none	none	319	0	Why Transformer became dominant: fit not fate. Clean prose.
+12	PERFECT	341	0	none	none	341	0	Accelerator-era fit, pretraining connection. Clean prose.
