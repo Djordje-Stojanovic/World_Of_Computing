@@ -1,0 +1,2 @@
+surface_count	table_count	normalized_row_count	year_coverage	failure_count	qa_pass	qa_warn	qa_fail	surface_kinds
+11	5	15	2018,2019,2020,2021,2022	1	9	0	0	"{""documentation_surface"": 1, ""leaderboard_surface"": 1, ""model_card"": 7, ""repo_surface"": 2}"

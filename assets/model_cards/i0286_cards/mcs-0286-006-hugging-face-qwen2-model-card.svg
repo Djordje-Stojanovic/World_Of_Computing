@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
+<rect width="100%" height="100%" fill="#fffaf2"/>
+<rect x="44" y="40" width="1112" height="680" fill="#ffffff" stroke="#24323a" stroke-width="3"/>
+<rect x="44" y="40" width="1112" height="96" fill="#24323a"/>
+<text x="78" y="86" font-family="Arial" font-size="29" font-weight="700" fill="#ffffff">Hugging Face Qwen2 model card</text>
+<text x="78" y="114" font-family="Arial" font-size="15" fill="#dce9eb">model_card captured in I-0286.</text>
+<text x="78" y="188" font-family="Arial" font-size="20" font-weight="700" fill="#26323a">Local screenshot handle</text>
+<text x="78" y="224" font-family="Arial" font-size="15" fill="#37464b">assets/model_cards/i0286_screenshots/mcs-0286-006-hugging-face-qwen2-model-card.png</text>
+<text x="78" y="278" font-family="Arial" font-size="20" font-weight="700" fill="#26323a">Story job</text>
+<text x="78" y="314" font-family="Arial" font-size="17" fill="#26323a">Qwen/open-model source surface</text>
+<text x="78" y="372" font-family="Arial" font-size="20" font-weight="700" fill="#26323a">Source URL</text>
+<text x="78" y="408" font-family="Arial" font-size="15" fill="#26323a">https://huggingface.co/Qwen/Qwen2-7B-Instruct</text>
+<rect x="78" y="500" width="1044" height="112" fill="#f4eadc" stroke="#c8bba8"/>
+<text x="104" y="540" font-family="Arial" font-size="18" font-weight="700" fill="#3d3127">Blocked claims</text>
+<text x="104" y="576" font-family="Arial" font-size="15" fill="#3d3127">Does not support Qwen3.5/3.6 or live leaderboard claims.</text>
+<text x="78" y="668" font-family="Arial" font-size="13" fill="#6f675d">screenshot sha256: b173ca99783c81e93e11ebe1 | html/text sha256: 26738b5ee8621a9f5f7ce75c</text>
+</svg>

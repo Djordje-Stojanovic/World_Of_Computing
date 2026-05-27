@@ -1,0 +1,16 @@
+table_id	year	row_index	model_or_surface	evidence_surface	benchmark_or_eval_surface	source_ids	claim_boundary	status
+BMT-0286-001	2018	1	GPT-1	paper evaluation tables	GLUE-style transfer / supervised fine-tuning tasks	S-0004;PAPER-0285-002	Use as pretraining-transfer evidence, not chatbot proof.	normalized_context_row_no_exact_score
+BMT-0286-001	2018	2	ELMo/BERT context	contemporary NLP benchmarks	contextual representation benchmarks	S-0104;S-0105	Context only; not an LLM product ranking.	normalized_context_row_no_exact_score
+BMT-0286-001	2018	3	Transformer source	architecture paper	machine translation / attention mechanism	S-0002;PAPER-0285-001	Mechanism source, not mind or truth claim.	normalized_context_row_no_exact_score
+BMT-0286-002	2019	1	GPT-2	paper/repo release surface	zero-shot and language-modeling evaluations	S-0012;MCS-0286-002	Do not infer misuse prevalence or adoption.	normalized_context_row_no_exact_score
+BMT-0286-002	2019	2	XLNet/RoBERTa context	NLP benchmark race	GLUE/SQuAD-style benchmark pressure	CH2Q;CH3Q	Context lane only; source rows needed before exact scores.	normalized_context_row_no_exact_score
+BMT-0286-002	2019	3	Hugging Face model cards	model-card distribution	download/reuse surface	MCS-0286-001	Not a live popularity or safety proof.	normalized_context_row_no_exact_score
+BMT-0286-003	2020	1	GPT-3	few-shot paper	few-shot benchmark tables across tasks	S-0005;PAPER-0285-004	Parameter count is not a product guarantee.	normalized_context_row_no_exact_score
+BMT-0286-003	2020	2	Scaling laws	loss/compute/data report	loss curves and scaling fit	S-0003;PAPER-0285-005	Loss is not truth, safety, or market value.	normalized_context_row_no_exact_score
+BMT-0286-003	2020	3	API distribution	product/API surface	developer access rather than static benchmark	S-0127	Not usage, revenue, or quality proof.	normalized_context_row_no_exact_score
+BMT-0286-004	2021	1	Codex	code benchmark/source surface	HumanEval-style coding tasks	S-0132	Does not prove developer replacement.	normalized_context_row_no_exact_score
+BMT-0286-004	2021	2	GitHub Copilot	product/repo-adjacent surface	coding assistant workflow signal	S-0132	Product positioning is not correctness or productivity proof.	normalized_context_row_no_exact_score
+BMT-0286-004	2021	3	Tool/retrieval precursors	paper benchmark context	task harnesses and tool-use evaluations	S-0038;S-0136	Mechanism lane, not autonomous reliability.	normalized_context_row_no_exact_score
+BMT-0286-005	2022	1	InstructGPT	RLHF paper	human preference / instruction-following evaluations	S-0014;PAPER-0285-006	Does not prove alignment solved.	normalized_context_row_no_exact_score
+BMT-0286-005	2022	2	ChatGPT	product launch surface	interface event, not benchmark table	S-0006	Use as product moment; adoption metrics remain separate.	normalized_context_row_no_exact_score
+BMT-0286-005	2022	3	BLOOM / open model card	Hugging Face model card	open collaboration and model-card surface	MCS-0286-003	Does not prove superiority or full transparency.	normalized_context_row_no_exact_score

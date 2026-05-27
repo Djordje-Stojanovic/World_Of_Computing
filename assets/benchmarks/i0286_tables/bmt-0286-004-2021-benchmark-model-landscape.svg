@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="446" viewBox="0 0 1320 446">
+<rect width="100%" height="100%" fill="#fffdf8"/>
+<rect x="38" y="34" width="1244" height="82" fill="#17202a"/>
+<text x="68" y="82" font-family="Arial" font-size="31" font-weight="700" fill="#ffffff">2021 benchmark/model-landscape table</text>
+<text x="68" y="108" font-family="Arial" font-size="14" fill="#d7e6ea">Early-era model race surface: benchmark context, source IDs, and barred overreadings travel together.</text>
+<text x="60" y="150" font-family="Arial" font-size="16" font-weight="700" fill="#27323a">Model/surface</text>
+<text x="300" y="150" font-family="Arial" font-size="16" font-weight="700" fill="#27323a">Evidence</text>
+<text x="545" y="150" font-family="Arial" font-size="16" font-weight="700" fill="#27323a">Benchmark/eval surface</text>
+<text x="850" y="150" font-family="Arial" font-size="16" font-weight="700" fill="#27323a">Sources</text>
+<text x="1030" y="150" font-family="Arial" font-size="16" font-weight="700" fill="#27323a">Boundary</text>
+<rect x="44" y="168" width="1240" height="82" fill="#f1f6f5" stroke="#c7d0ca"/>
+<text x="60" y="198" font-family="Arial" font-size="17" font-weight="700" fill="#1d2a2e">Codex</text>
+<text x="300" y="198" font-family="Arial" font-size="15" fill="#24333a">code benchmark/source surface</text>
+<text x="545" y="198" font-family="Arial" font-size="15" fill="#24333a">HumanEval-style coding tasks</text>
+<text x="850" y="198" font-family="Arial" font-size="14" fill="#33444a">S-0132</text>
+<text x="1030" y="195" font-family="Arial" font-size="13" fill="#3d403b">Does not prove developer replacement.</text>
+<text x="1030" y="219" font-family="Arial" font-size="12" fill="#70695d">not a live rank or single quality score</text>
+<rect x="44" y="260" width="1240" height="82" fill="#fbf4e6" stroke="#c7d0ca"/>
+<text x="60" y="290" font-family="Arial" font-size="17" font-weight="700" fill="#1d2a2e">GitHub Copilot</text>
+<text x="300" y="290" font-family="Arial" font-size="15" fill="#24333a">product/repo-adjacent surface</text>
+<text x="545" y="290" font-family="Arial" font-size="15" fill="#24333a">coding assistant workflow signal</text>
+<text x="850" y="290" font-family="Arial" font-size="14" fill="#33444a">S-0132</text>
+<text x="1030" y="287" font-family="Arial" font-size="13" fill="#3d403b">Product positioning is not...</text>
+<text x="1030" y="311" font-family="Arial" font-size="12" fill="#70695d">not a live rank or single quality score</text>
+<rect x="44" y="352" width="1240" height="82" fill="#f1f6f5" stroke="#c7d0ca"/>
+<text x="60" y="382" font-family="Arial" font-size="17" font-weight="700" fill="#1d2a2e">Tool/retrieval precursors</text>
+<text x="300" y="382" font-family="Arial" font-size="15" fill="#24333a">paper benchmark context</text>
+<text x="545" y="382" font-family="Arial" font-size="15" fill="#24333a">task harnesses and tool-use...</text>
+<text x="850" y="382" font-family="Arial" font-size="14" fill="#33444a">S-0038;S-0136</text>
+<text x="1030" y="379" font-family="Arial" font-size="13" fill="#3d403b">Mechanism lane, not autonomous...</text>
+<text x="1030" y="403" font-family="Arial" font-size="12" fill="#70695d">not a live rank or single quality score</text>
+</svg>

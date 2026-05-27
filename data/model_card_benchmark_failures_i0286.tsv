@@ -1,0 +1,2 @@
+surface_id	title	source_url	failure
+MCS-0286-010	OpenAI API model docs surface	https://platform.openai.com/docs/models	HTTPError: HTTP Error 403: Forbidden
