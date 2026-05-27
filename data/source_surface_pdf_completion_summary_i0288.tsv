@@ -1,0 +1,2 @@
+paper_report_count	pdf_deck_report_count	combined_paper_report_count	combined_pdf_deck_report_count	card_count	total_rows	failure_count	qa_pass	qa_warn	qa_fail	families
+10	10	25	25	20	20	0	11	0	0	"{""paper_report_excerpt"": 10, ""pdf_presentation_page"": 5, ""pdf_technical_report_page"": 5}"

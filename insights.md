@@ -515,3 +515,7 @@ Model-card and leaderboard pages are mutable evidence surfaces, not final facts.
 ## 2026-05-27 - I-0287 Real-World Image Completion
 
 The useful completion pattern is aggregate proof plus blocked-claim discipline: I-0284 and I-0287 now clear the 50/50/30 real-world visual thresholds, but every row remains a private-use evidence handle. Mutable page screenshots are especially good for product, datacenter, tooling, and China/frontier-model texture because they carry local hashes and source URLs while refusing to become proof of currentness, deployment, benchmark superiority, safety, revenue, or biography.
+
+## 2026-05-27 - I-0288 Source-Surface Completion
+
+The second source-surface wave should widen mechanisms rather than merely add pages: BERT/T5/Chinchilla/PaLM/CoT/code-model/open-model/benchmark surfaces cover intellectual lineage, while GTC and China/frontier technical-report pages cover infrastructure and lab diversity. The 25-30/25-30 targets are now aggregate constraints, but every page card remains a private-use handle until later caption, placement, quote, and claim-boundary review.

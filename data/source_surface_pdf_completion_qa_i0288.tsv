@@ -1,0 +1,12 @@
+check_id	category	result	evidence	recommended_action
+I0288-001	new_paper_report_count	pass	paper_report_count=10; target=10	Use in I-0291 evidence-surface integration.
+I0288-002	new_pdf_deck_report_count	pass	pdf_deck_report_count=10; target=10	Use in I-0291 evidence-surface integration.
+I0288-003	combined_paper_report_target	pass	combined_paper_report_count=25; target=25-30	Only close I-0288 when aggregate threshold clears.
+I0288-004	combined_pdf_deck_report_target	pass	combined_pdf_deck_report_count=25; target=25-30	Only close I-0288 when aggregate threshold clears.
+I0288-005	local_files	pass	rows=20 all_source_render_card_files_exist=True	Repair missing file handles before integration.
+I0288-006	hashes	pass	source/render/card hashes match=True	Keep hashes as acquisition proof.
+I0288-007	provenance_fields	pass	required_fields=story_purpose,blocked_claims,rights_status,source_url_or_path,page_number all_present=True	Do not promote rows without story purpose and blocked claims.
+I0288-008	text_extraction	pass	text_excerpt_rows=19; total_rows=20	Use OCR/manual review for image-heavy slides before quotation.
+I0288-009	diversity	pass	unique_titles=20; unique_sources=16; families={'paper_report_excerpt': 10, 'pdf_presentation_page': 5, 'pdf_technical_report_page': 5}	Use I-0291 to choose balanced placements.
+I0288-010	failure_log	pass	failures_logged=0	Failures are acceptable only if thresholds clear.
+I0288-011	card_count	pass	cards=20; rows=20	Use cards as placement handles, not final raw-page permission.

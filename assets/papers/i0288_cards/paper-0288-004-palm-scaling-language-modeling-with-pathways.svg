@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
+<rect width="100%" height="100%" fill="#f7fbf8"/>
+<rect x="46" y="42" width="1108" height="676" fill="#ffffff" stroke="#25352f" stroke-width="3"/>
+<rect x="46" y="42" width="1108" height="96" fill="#25352f"/>
+<text x="78" y="88" font-family="Arial" font-size="29" font-weight="700" fill="#ffffff">PaLM: Scaling Language Modeling with Pathways</text>
+<text x="78" y="116" font-family="Arial" font-size="15" fill="#dce9df">paper_report_excerpt page 1 surface card, acquired in I-0288.</text>
+<text x="80" y="188" font-family="Arial" font-size="20" font-weight="700" fill="#26352f">Local page render</text>
+<text x="80" y="224" font-family="Arial" font-size="15" fill="#374b42">assets/source_surfaces/i0288/paper-0288-004-palm-scaling-language-modeling-with-...</text>
+<text x="80" y="278" font-family="Arial" font-size="20" font-weight="700" fill="#26352f">Story job</text>
+<text x="80" y="314" font-family="Arial" font-size="17" fill="#26352f">Google/Pathways scale surface for the pre-Gemini model lineage.</text>
+<text x="80" y="374" font-family="Arial" font-size="20" font-weight="700" fill="#26352f">Source note</text>
+<text x="80" y="410" font-family="Arial" font-size="15" fill="#26352f">https://arxiv.org/pdf/2204.02311</text>
+<rect x="78" y="492" width="1044" height="112" fill="#edf3e7" stroke="#b9c9ad"/>
+<text x="104" y="532" font-family="Arial" font-size="18" font-weight="700" fill="#2f3a29">Blocked claims</text>
+<text x="104" y="568" font-family="Arial" font-size="15" fill="#2f3a29">Does not prove current Gemini quality, deployment, or product adoption.</text>
+<text x="80" y="664" font-family="Arial" font-size="13" fill="#647062">sha256 page render: 20a7b8e38a9b144505cc5c61 | source document: 1e88f1f3027cd1abecb1713c</text>
+</svg>
