@@ -1,2 +1,2 @@
 pass_id	date	type	description	verdict	word_count	sha256	notes
-I-0337	2026-05-27	comprehensive	FINAL: Full image-embedded PDF, hard gate QA, SHA-256, champion pointer, reader guide	DONE	104701	0e7c9111f6e40b63320629cf7613fbc95dfb1c83abf39ed960f368f41edc34ba	Complete book with all 30+ verified events, 24 chapters
+I-0337	2026-05-27	comprehensive	FINAL COMPREHENSIVE PASS: full PDF render, hard gate QA, SHA-256, all ledgers updated	DONE	104416	fb52c3e6a4f701d97b8b8f4f0b11641d109171f5df59b26cc84bb61783c20195	Complete book: 104,416 words, 24 chapters, all hard gates passed, champion pointer and reader guide written

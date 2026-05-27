@@ -2,25 +2,25 @@
 
 ## How to Read This Book
 
-This book is designed to be read in order, from start to finish. The 24 chapters follow a chronological arc from the earliest transformer papers through the current state of AI in May 2026.
+This book is designed to be read in order, from start to finish. The 24 chapters follow a chronological arc from the earliest neural language models through the current state of AI as of May 2026.
 
 ## Structure
 
 **Part 1: The Foundation (Chapters 1-6)**
-- Ch 1: Before the Transformer — embeddings, seq2seq, Bahdanau attention
-- Ch 2: Attention Catches Fire — the Transformer paper and immediate impact
-- Ch 3: The Scaling Bet — scaling laws, Chinchilla, compute vs data
-- Ch 4: GPT-1 to GPT-3 — OpenAI's early models
-- Ch 5: Alignment Enters the Product — InstructGPT, RLHF
-- Ch 6: ChatGPT — the interface event
+- Ch 1: Before the Transformer — embeddings, seq2seq, Bahdanau attention, recurrence
+- Ch 2: Attention Catches Fire — the Transformer paper and its immediate impact
+- Ch 3: The Scaling Bet — scaling laws, Chinchilla, compute vs. data optimality
+- Ch 4: GPT-1 to GPT-3 — OpenAI's early models and the door that opened
+- Ch 5: Alignment Enters the Product — InstructGPT, RLHF, Constitutional AI
+- Ch 6: ChatGPT — the interface event that changed everything
 
 **Part 2: The Race (Chapters 7-12)**
 - Ch 7: Microsoft, OpenAI, and the Cloud Bargain
 - Ch 8: Google and DeepMind Wake the Sleeping Giant
 - Ch 9: Meta, Llama, and the Open-Weight Shock
-- Ch 10: The Chinese Frontier (Qwen, DeepSeek, GLM, Kimi)
+- Ch 10: The Chinese Frontier (DeepSeek, Qwen, GLM, Kimi, MiniMax)
 - Ch 11: Anthropic and Claude
-- Ch 12: Europe, xAI, and the Rest
+- Ch 12: Europe, xAI, and the Rest of the Frontier
 
 **Part 3: The Stack (Chapters 13-18)**
 - Ch 13: Benchmarks, Arenas, and the Mirage of Rank
@@ -32,29 +32,30 @@ This book is designed to be read in order, from start to finish. The 24 chapters
 
 **Part 4: The Future (Chapters 19-24)**
 - Ch 19: Code as the Second Native Language
-- Ch 20: Claude Code and Industrialized Pair Programming
+- Ch 20: Claude Code and the Industrialization of Pair Programming
 - Ch 21: Reasoning, Test-Time Compute, and the New Scaling Axis
 - Ch 22: The Economics of Intelligence on Tap
 - Ch 23: Failure Modes, Truth, and Trust
-- Ch 24: Next Token — the path forward
+- Ch 24: Next Token
 
 ## Key Themes
 
-1. **Speed**: The race to build faster, bigger, better
-2. **Scale**: Compute, data, parameters, context windows
-3. **Alignment**: Making systems that do what we want
-4. **Infrastructure**: The physical substrate of AI
-5. **Economics**: Who pays, who profits, who controls
-6. **Trust**: Hallucination, sycophancy, verification
+1. **Speed**: The accelerating pace of model releases and capability jumps
+2. **Scale**: Compute, data, parameters, and context windows
+3. **Alignment**: Making systems that do what we want rather than what they predict
+4. **Infrastructure**: The physical substrate that makes AI possible
+5. **Economics**: Who pays, who profits, and who controls the means of intelligence
+6. **Trust**: Hallucination, sycophancy, truth, and verification
 
 ## Reading Time
 
-- Total: ~6-8 hours
-- Average chapter: ~15-20 minutes
-- Dense sections: Chapters 14-16 (hardware/infrastructure)
+- Total: approximately 6-8 hours
+- Average chapter: 15-20 minutes
+- Most technically dense sections: Chapters 14-16 (hardware and infrastructure)
 
 ## Notes
 
-- All dates are accurate as of May 24, 2026
-- All sources are documented in the source ledger
-- This is the final, complete version (I-0337)
+- All factual claims are bounded by the May 24, 2026 cutoff
+- No post-cutoff events are written as happened history
+- Sources are documented in the project ledger system
+- This is the final, complete version (Pass I-0337)
