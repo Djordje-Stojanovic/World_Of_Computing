@@ -6,16 +6,16 @@ This repository is the working memory, manuscript lab, source ledger, visual sys
 
 ## Current Book State
 
-Updated **2026-05-27** after pass `I-0296`.
+Updated **2026-05-27** after pass `I-0297`.
 
-- **Latest recorded pass:** `I-0296`, authored logo and people strips.
+- **Latest recorded pass:** `I-0297`, authored source-surface galleries.
 - **Words:** 103,524 assembled source words across the canonical 24-chapter draft.
 - **Chapters:** 24 / 24 main chapters.
 - **Current expanded private visual PDF:** `rendered/full_book_i0295/Next-Token-expanded-private-visual-i0295.pdf` exists locally and is intentionally not committed; I-0295 records 300 rendered exhibit rows and all 8 GOAL.md visual targets met.
-- **Logo/person authorship layer:** I-0296 adds 11 strip boards using 50 logos and 30 people/profile images, with local contact-sheet proof at `rendered/logo_people_strips_i0296/logo-people-strips-i0296.pdf` (11 pages, 0 blank-like).
-- **Remaining production risk:** the expanded visual system now has abundance and identity texture, but final design still needs source-surface grouping, chart atlas polish, density control, final render QA, champion backup, and completion report.
+- **Source-surface authorship layer:** I-0297 adds 10 gallery boards using 25 paper/report surfaces and 25 PDF/deck/report surfaces, with local contact-sheet proof at `rendered/source_surface_galleries_i0297/source-surface-galleries-i0297.pdf` (10 pages, 0 blank-like).
+- **Remaining production risk:** the expanded visual system now has abundance, identity texture, and source-surface grouping, but final design still needs chart atlas polish, density control, final render QA, champion backup, and completion report.
 
-The private edition now has both visual mass and a clearer human/institutional layer: logos identify the companies, labs, tools, clouds, and infrastructure, while people strips give the model race public human anchors without inventing private scenes or overclaiming biography.
+The private edition now treats evidence pages as authored artifacts: papers, reports, technical cards, system cards, and decks are grouped by the job they do in the story, with blocked-claim notes preventing source surfaces from becoming unsupported capability or market claims.
 
 ## Readiness Snapshot
 

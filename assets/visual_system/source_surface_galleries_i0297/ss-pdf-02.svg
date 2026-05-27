@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="600" viewBox="0 0 1500 600">
+<rect width="1500" height="600" fill="#fffdf7"/>
+<rect x="32" y="30" width="1436" height="92" rx="14" fill="#18140f"/>
+<text x="60" y="70" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#f8efe1">GTC Platform, Networking, And Facilities</text>
+<text x="60" y="102" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#d8cdbd">CH14-CH16 - The second GTC gallery ties software, networking, accelerator systems, and facilities into the AI-factory stack.</text>
+<rect x="44" y="154" width="270" height="386" rx="12" fill="#ffffff" stroke="#b8aa96" stroke-width="1.2"/>
+<image href="../../papers/i0285_cards/pdf-0285-006-gtc-2026-networking-platform-surface.svg" x="58" y="168" width="242" height="260" preserveAspectRatio="xMidYMid meet"/>
+<text x="58" y="449" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#171411">GTC 2026 networking/platform sur.</text>
+<text x="58" y="472" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#5c5147">Networking/platform layer for AI factory.</text>
+<text x="58" y="494" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#6d3f2e">A-0285-021 / pdf_presentation_page</text>
+<rect x="332" y="154" width="270" height="386" rx="12" fill="#ffffff" stroke="#b8aa96" stroke-width="1.2"/>
+<image href="../../papers/i0285_cards/pdf-0285-007-gtc-2026-dsx-factory-design-surface.svg" x="346" y="168" width="242" height="260" preserveAspectRatio="xMidYMid meet"/>
+<text x="346" y="449" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#171411">GTC 2026 DSX/factory design surf.</text>
+<text x="346" y="472" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#5c5147">Reference-design surface for infrastructu.</text>
+<text x="346" y="494" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#6d3f2e">A-0285-022 / pdf_presentation_page</text>
+<rect x="620" y="154" width="270" height="386" rx="12" fill="#ffffff" stroke="#b8aa96" stroke-width="1.2"/>
+<image href="../../papers/i0285_cards/pdf-0285-008-gtc-2026-closing-ecosystem-surface.svg" x="634" y="168" width="242" height="260" preserveAspectRatio="xMidYMid meet"/>
+<text x="634" y="449" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#171411">GTC 2026 closing/ecosystem surfa.</text>
+<text x="634" y="472" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#5c5147">Ecosystem/closing page as staged source-a.</text>
+<text x="634" y="494" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#6d3f2e">A-0285-023 / pdf_presentation_page</text>
+<rect x="908" y="154" width="270" height="386" rx="12" fill="#ffffff" stroke="#b8aa96" stroke-width="1.2"/>
+<image href="../../papers/i0285_cards/pdf-0285-009-gtc-2026-software-stack-surface.svg" x="922" y="168" width="242" height="260" preserveAspectRatio="xMidYMid meet"/>
+<text x="922" y="449" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#171411">GTC 2026 software stack surface</text>
+<text x="922" y="472" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#5c5147">Software/platform layer for CUDA and AI-s.</text>
+<text x="922" y="494" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#6d3f2e">A-0285-024 / pdf_presentation_page</text>
+<rect x="1196" y="154" width="270" height="386" rx="12" fill="#ffffff" stroke="#b8aa96" stroke-width="1.2"/>
+<image href="../../papers/i0285_cards/pdf-0285-010-gtc-2026-accelerator-system-surface.svg" x="1210" y="168" width="242" height="260" preserveAspectRatio="xMidYMid meet"/>
+<text x="1210" y="449" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#171411">GTC 2026 accelerator system surf.</text>
+<text x="1210" y="472" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#5c5147">Accelerator/system page for hardware-to-t.</text>
+<text x="1210" y="494" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#6d3f2e">A-0285-025 / pdf_presentation_page</text>
+<text x="44" y="564" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#4b4238">Private-use source-surface gallery. Full provenance, hashes, and access notes are in assets_manifest.tsv and data/source_surface_gallery_items_i0297.tsv.</text>
+<text x="44" y="584" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#4b4238">Blocked claims: surfaces are evidence handles and source texture, not neutral proof of capability, deployment, economics, safety, adoption, or roadmap delivery.</text>
+</svg>

@@ -538,3 +538,5 @@ The benchmark layer is strongest when tables are explicit memory aids rather tha
 - I-0296: logos and people work best as authored identity strips, not isolated stickers. The strip should tell the reader what institutional or human field they are entering, while its blocked-claim note prevents a face or mark from smuggling in biography, adoption, capability, safety, or market claims.
 
 - I-0296: logos and people work best as authored identity strips, not isolated stickers. The strip should tell the reader what institutional or human field they are entering, while its blocked-claim note prevents a face or mark from smuggling in biography, adoption, capability, safety, or market claims.
+
+- I-0297: source surfaces become powerful when grouped by story job. A gallery should teach the reader why a paper, system card, deck, or technical report matters while repeating what it cannot prove: no neutral capability, adoption, economics, safety, deployment, roadmap, or benchmark claim without sentence-level support.

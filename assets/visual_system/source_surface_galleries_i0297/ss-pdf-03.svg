@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="600" viewBox="0 0 1500 600">
+<rect width="1500" height="600" fill="#fffdf7"/>
+<rect x="32" y="30" width="1436" height="92" rx="14" fill="#18140f"/>
+<text x="60" y="70" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#f8efe1">System Cards And GPT-4 Report Surfaces</text>
+<text x="60" y="102" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#d8cdbd">CH06-CH13 - System-card and GPT-4 report pages anchor safety/product disclosure without overclaiming capability or risk.</text>
+<rect x="44" y="154" width="270" height="386" rx="12" fill="#ffffff" stroke="#b8aa96" stroke-width="1.2"/>
+<image href="../../papers/i0285_cards/pdf-0285-011-gtc-2026-datacenter-facility-surface.svg" x="58" y="168" width="242" height="260" preserveAspectRatio="xMidYMid meet"/>
+<text x="58" y="449" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#171411">GTC 2026 datacenter/facility sur.</text>
+<text x="58" y="472" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#5c5147">Facility/datacenter page for power and in.</text>
+<text x="58" y="494" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#6d3f2e">A-0285-026 / pdf_presentation_page</text>
+<rect x="332" y="154" width="270" height="386" rx="12" fill="#ffffff" stroke="#b8aa96" stroke-width="1.2"/>
+<image href="../../papers/i0285_cards/pdf-0285-012-gpt-4-system-card-first-page-surface.svg" x="346" y="168" width="242" height="260" preserveAspectRatio="xMidYMid meet"/>
+<text x="346" y="449" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#171411">GPT-4 System Card first-page sur.</text>
+<text x="346" y="472" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#5c5147">System-card page for alignment/product-ri.</text>
+<text x="346" y="494" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#6d3f2e">A-0285-027 / pdf_report_page</text>
+<rect x="620" y="154" width="270" height="386" rx="12" fill="#ffffff" stroke="#b8aa96" stroke-width="1.2"/>
+<image href="../../papers/i0285_cards/pdf-0285-013-gpt-4o-system-card-first-page-surface.svg" x="634" y="168" width="242" height="260" preserveAspectRatio="xMidYMid meet"/>
+<text x="634" y="449" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#171411">GPT-4o System Card first-page su.</text>
+<text x="634" y="472" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#5c5147">Later system-card page showing safety-doc.</text>
+<text x="634" y="494" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#6d3f2e">A-0285-028 / pdf_report_page</text>
+<rect x="908" y="154" width="270" height="386" rx="12" fill="#ffffff" stroke="#b8aa96" stroke-width="1.2"/>
+<image href="../../papers/i0285_cards/pdf-0285-014-gpt-4-technical-report-first-page-surface.svg" x="922" y="168" width="242" height="260" preserveAspectRatio="xMidYMid meet"/>
+<text x="922" y="449" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#171411">GPT-4 Technical Report first-pag.</text>
+<text x="922" y="472" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#5c5147">GPT-4 report surface for frontier-model t.</text>
+<text x="922" y="494" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#6d3f2e">A-0285-029 / pdf_report_page</text>
+<rect x="1196" y="154" width="270" height="386" rx="12" fill="#ffffff" stroke="#b8aa96" stroke-width="1.2"/>
+<image href="../../papers/i0285_cards/pdf-0285-015-sparks-of-agi-paper-first-page-surface.svg" x="1210" y="168" width="242" height="260" preserveAspectRatio="xMidYMid meet"/>
+<text x="1210" y="449" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#171411">Sparks of AGI paper first-page s.</text>
+<text x="1210" y="472" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#5c5147">A historically important evaluation/claim.</text>
+<text x="1210" y="494" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#6d3f2e">A-0285-030 / pdf_report_page</text>
+<text x="44" y="564" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#4b4238">Private-use source-surface gallery. Full provenance, hashes, and access notes are in assets_manifest.tsv and data/source_surface_gallery_items_i0297.tsv.</text>
+<text x="44" y="584" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#4b4238">Blocked claims: surfaces are evidence handles and source texture, not neutral proof of capability, deployment, economics, safety, adoption, or roadmap delivery.</text>
+</svg>
