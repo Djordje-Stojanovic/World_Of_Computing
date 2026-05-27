@@ -503,3 +503,6 @@ Bulk visual acquisition needs a triage machine before it needs more images. The 
 ## 2026-05-27 - I-0283 Table/Excerpt Integration
 
 Tables and source excerpts should enter the book through the same proof membrane as images: row schema, local file, hash, caption contract, claim boundary, placement row, and PDF smoke proof. A screenshot or paper page is not an exhibit until the render path and blocked-claim footer travel with it.
+## 2026-05-27 - I-0284 Real-World Image Layer
+
+Real-world visuals are useful only when they arrive as evidence handles, not vibes: the minimum unit is local file, source URL, source-asset URL, hash, role, story purpose, quality note, rights/private-use status, and blocked-claim text. Logos identify actors, profile images humanize institutions, and source images add texture, but none of them license market, benchmark, safety, adoption, current-product, or private-scene claims.

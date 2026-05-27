@@ -1,0 +1,10 @@
+check_id	category	result	evidence	recommended_action
+I0284-001	source_image_count	pass	source_images=25 target=25	Use in I-0290 placement triage.
+I0284-002	logo_count	pass	logos=25 target=25; svg=25	Use in I-0290 company/lab visual lane.
+I0284-003	person_image_count	pass	person_images=15 target=15	Use in I-0290 people/human texture lane.
+I0284-004	local_files	pass	rows=65 all_files_exist=True	Repair missing files before integration.
+I0284-005	hashes	pass	all_hashes_match=True	Keep hashes as acquisition proof.
+I0284-006	provenance_fields	pass	required_fields=local_path,sha256,source_page_url,source_asset_url,story_purpose,blocked_claims,rights_status all_present=True	Do not promote rows with missing provenance.
+I0284-007	source_diversity	pass	distinct_org_or_role_prefixes=47	Use I-0287 to fill remaining institutional gaps.
+I0284-008	contact_sheets	pass	source_images=assets/source_media/i0284_contact_sheets/i0284_source_images_contact_sheet.png bytes=739110; people=assets/source_media/i0284_contact_sheets/i0284_people_contact_sheet.png bytes=443708	Inspect sheets before final placement.
+I0284-009	failure_log	pass	failures_logged=32	Use failures to target I-0287 second half.

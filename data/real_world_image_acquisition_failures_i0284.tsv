@@ -1,0 +1,33 @@
+category	subject	source	failure
+source_image	OpenAI ChatGPT	https://openai.com/chatgpt/	HTTPError: HTTP Error 403: Forbidden
+source_image	Google DeepMind	https://deepmind.google/	RuntimeError: no og/twitter image found
+source_image	Microsoft Azure OpenAI	https://azure.microsoft.com/en-us/products/ai-services/openai-service	RuntimeError: no og/twitter image found
+source_image	TSMC	https://www.tsmc.com/english	HTTPError: HTTP Error 403: Forbidden
+source_image	Baidu AI Cloud	https://cloud.baidu.com/	RuntimeError: no og/twitter image found
+source_image	Tencent Hunyuan	https://hunyuan.tencent.com/	RuntimeError: no og/twitter image found
+source_image	Alibaba Qwen	https://qwenlm.github.io/	HTTPError: HTTP Error 404: Not Found
+source_image	AWS Bedrock	https://aws.amazon.com/bedrock/	RuntimeError: no og/twitter image found
+logo	OpenAI	https://cdn.simpleicons.org/openai	HTTPError: HTTP Error 404: Not Found
+logo	Microsoft	https://cdn.simpleicons.org/microsoft	HTTPError: HTTP Error 404: Not Found
+logo	Tencent QQ	https://cdn.simpleicons.org/tencentqq	HTTPError: HTTP Error 404: Not Found
+logo	Amazon Web Services	https://cdn.simpleicons.org/amazonwebservices	HTTPError: HTTP Error 404: Not Found
+logo	Oracle	https://cdn.simpleicons.org/oracle	HTTPError: HTTP Error 404: Not Found
+logo	IBM	https://cdn.simpleicons.org/ibm	HTTPError: HTTP Error 404: Not Found
+person_image	Lisa Su	https://en.wikipedia.org/api/rest_v1/page/summary/Lisa_Su	HTTPError: HTTP Error 429: Too Many Requests (015d12c)
+person_image	Greg Brockman	https://en.wikipedia.org/api/rest_v1/page/summary/Greg_Brockman	HTTPError: HTTP Error 429: Too Many Requests (015d12c)
+person_image	Dario Amodei	https://en.wikipedia.org/api/rest_v1/page/summary/Dario_Amodei	HTTPError: HTTP Error 429: Too Many Requests (015d12c)
+person_image	Daniela Amodei	https://en.wikipedia.org/api/rest_v1/page/summary/Daniela_Amodei	RuntimeError: no Wikipedia thumbnail/originalimage
+person_image	Mark Zuckerberg	https://en.wikipedia.org/api/rest_v1/page/summary/Mark_Zuckerberg	HTTPError: HTTP Error 429: Too many requests (76af2b0)
+person_image	Demis Hassabis	https://en.wikipedia.org/api/rest_v1/page/summary/Demis_Hassabis	HTTPError: HTTP Error 429: Too Many Requests (015d12c)
+person_image	Sundar Pichai	https://en.wikipedia.org/api/rest_v1/page/summary/Sundar_Pichai	HTTPError: HTTP Error 429: Too many requests (76af2b0)
+person_image	Satya Nadella	https://en.wikipedia.org/api/rest_v1/page/summary/Satya_Nadella	HTTPError: HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1)
+person_image	Yann LeCun	https://en.wikipedia.org/api/rest_v1/page/summary/Yann_LeCun	HTTPError: HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1)
+person_image	Geoffrey Hinton	https://en.wikipedia.org/api/rest_v1/page/summary/Geoffrey_Hinton	HTTPError: HTTP Error 429: Too Many Requests (015d12c)
+person_image	Yoshua Bengio	https://en.wikipedia.org/api/rest_v1/page/summary/Yoshua_Bengio	HTTPError: HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1)
+person_image	Fei-Fei Li	https://en.wikipedia.org/api/rest_v1/page/summary/Fei-Fei_Li	HTTPError: HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1)
+person_image	Andrew Ng	https://en.wikipedia.org/api/rest_v1/page/summary/Andrew_Ng	HTTPError: HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1)
+person_image	Jeff Dean	https://en.wikipedia.org/api/rest_v1/page/summary/Jeff_Dean	HTTPError: HTTP Error 429: Too Many Requests (015d12c)
+person_image	Oriol Vinyals	https://en.wikipedia.org/api/rest_v1/page/summary/Oriol_Vinyals	RuntimeError: no Wikipedia thumbnail/originalimage
+person_image	Ashish Vaswani	https://en.wikipedia.org/api/rest_v1/page/summary/Ashish_Vaswani	RuntimeError: no Wikipedia thumbnail/originalimage
+person_image	Noam Shazeer	https://en.wikipedia.org/api/rest_v1/page/summary/Noam_Shazeer	RuntimeError: no Wikipedia thumbnail/originalimage
+person_image	Liang Wenfeng	https://en.wikipedia.org/api/rest_v1/page/summary/Liang_Wenfeng	RuntimeError: no Wikipedia thumbnail/originalimage
