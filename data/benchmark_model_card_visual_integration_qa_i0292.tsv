@@ -1,0 +1,15 @@
+check	status	detail
+manifest_row_count	pass	100
+manifest_unique_figure_ids	pass	100
+integrated_visual_count	pass	20
+model_surface_count	pass	10
+benchmark_table_count	pass	10
+yearly_table_coverage	pass	2018,2019,2020,2021,2022,2023,2024,2025,2026,2026-cutoff
+manuscript_callout_sync	pass	20
+chapter_count	pass	24
+word_count_band	pass	103526
+primary_files_exist	pass	20
+primary_hashes_match	pass	20
+fallback_hashes_match	pass	20
+rights_stage_set	pass	20
+manifest_failures	pass	none

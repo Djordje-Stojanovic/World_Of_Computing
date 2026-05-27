@@ -1488,8 +1488,8 @@ The problem was conversion. How does a lab convert research depth into a product
 
 ### Bard As Defensive Interface
 
-> [!FIGURE] **F09.02 / A-0087 - Google's Gemini Question Was Surface Conversion**
-> Caption: F09.02: Google's Gemini Question Was Surface Conversion.
+> [!FIGURE] **F09.02 / A-0289-004 - Gemini API Model Docs Surface**
+> Caption: F09.02: Google Gemini API model-docs screenshot makes Gemini's developer model surface visible; mutable docs do not prove cutoff-day availability, benchmark rank, Search impact, price, or stable behavior.
 > Source note: Sources: S-0115;S-0118;S-0121;S-0122;S-0123;S-0124. Rights path: ready_svg. Story role: Gemini surface conversion.
 
 
@@ -1546,8 +1546,8 @@ The TPU difference belongs here as a strategic fact, not a victory lap. It expla
 
 ### Search Gravity
 
-> [!FIGURE] **F09.04 / A-0089 - The Tempting Gemini Claims Need Different Evidence**
-> Caption: F09.04: The Tempting Gemini Claims Need Different Evidence.
+> [!FIGURE] **F09.04 / A-0289-T001 - 2023 Model-Landscape Table**
+> Caption: F09.04: The 2023 benchmark/model-landscape table marks the year when Llama, Mistral, Code Llama, and tool-use/coding benchmarks entered the visible race; it is context, not a live rank or universal quality score.
 > Source note: Sources: S-0061;S-0119;S-0120. Rights path: ready_svg. Story role: Gemini claim blockers.
 
 
@@ -1655,8 +1655,8 @@ For a book about computing, this matters because software history is full of mom
 
 ### Llama 2 Turns Openness Into Strategy
 
-> [!FIGURE] **F10.02 / A-0112 - Open-Weight Control Stack**
-> Caption: F10.02: Open-Weight Control Stack.
+> [!FIGURE] **F10.02 / A-0286-004 - Llama 2 Hugging Face Model Card**
+> Caption: F10.02: Llama 2 Hugging Face model-card screenshot gives the open-weight control stack a concrete distribution surface; it does not prove open-source legal status, adoption, superiority, safety, or current rank.
 > Source note: Sources: S-0023;S-0024;S-0025;S-0111;S-0112;S-0113;S-0114. Rights path: ready_svg. Story role: open-weight control stack.
 
 
@@ -1686,8 +1686,8 @@ This is one reason Meta's strategy cannot be reduced to generosity. Open-weight 
 
 ### Llama 3 Becomes A Herd
 
-> [!FIGURE] **F10.03 / A-0113 - What Moves To The Adopter**
-> Caption: F10.03: What Moves To The Adopter.
+> [!FIGURE] **F10.03 / A-0286-011 - Llama 3 Hugging Face Model Card**
+> Caption: F10.03: Llama 3 Hugging Face model-card screenshot shows the adopter-facing model-family surface; it does not prove deployment scale, benchmark supremacy, safety, or production outcomes.
 > Source note: Sources: S-0023;S-0024;S-0114. Rights path: ready_svg. Story role: adopter burden transfer.
 
 
@@ -1790,8 +1790,8 @@ The Chinese frontier widens the map again, but the chapter treats each lab as ev
 
 ### Too Important To Treat As A Footnote
 
-> [!FIGURE] **F11.01 / A-0031 - China Open-Model Source Map**
-> Caption: F11.01: China Open-Model Source Map.
+> [!FIGURE] **F11.01 / A-0289-001 - Qwen3 Hugging Face Model Card**
+> Caption: F11.01: Qwen3 Hugging Face model-card screenshot anchors the China/open-model map in a live distribution surface captured for private use; it does not support Qwen 3.5 or Qwen 3.6 claims, live rank, safety, or broad adoption.
 > Source note: Sources: S-0026;S-0027;S-0028;S-0029;S-0030;S-0031. Rights path: ready_svg. Story role: China source-permission map.
 
 
@@ -1810,8 +1810,8 @@ Visual integration: Figure 11.1, `assets/visual_system/china-open-model-source-m
 
 ### Qwen and the Alibaba Route
 
-> [!FIGURE] **F11.02 / A-0118 - Supported Lanes And Visible Gaps**
-> Caption: F11.02: Supported Lanes And Visible Gaps.
+> [!FIGURE] **F11.02 / A-0289-002 - DeepSeek-V3 Hugging Face Model Card**
+> Caption: F11.02: DeepSeek-V3 Hugging Face model-card screenshot adds a visible distribution surface for DeepSeek; it does not prove current production use, universal superiority, safety, deployment scale, or live benchmark rank.
 > Source note: Sources: S-0026;S-0027;S-0028;S-0029;S-0030;S-0031. Rights path: ready_svg. Story role: supported-vs-gap board.
 
 
@@ -2168,8 +2168,8 @@ This chapter section is the book's caution label for model rankings, prices, and
 
 ### The Desire For A Crown
 
-> [!FIGURE] **F13.01 / A-0014 - How Arena Rows Become Rank Claims**
-> Caption: F13.01: How Arena Rows Become Rank Claims.
+> [!FIGURE] **F13.01 / A-0286-009 - LMArena Leaderboard Surface**
+> Caption: F13.01: LMArena leaderboard screenshot anchors arena-rank claims as a mutable benchmark surface; it does not prove universal model quality, live rank after capture, price-quality, safety, or adoption.
 > Source note: Sources: S-0036;S-0056;S-0057;S-0080. Rights path: ready_svg. Story role: leaderboard methodology.
 
 
@@ -2239,8 +2239,8 @@ The footnote is not legal padding. It is part of the argument. Readers trained b
 
 ### Why The Best Model Sentence Fails
 
-> [!FIGURE] **F13.02 / A-0013 - LMArena/Arena historical text_style_control leaderboard, latest split, overall category, top twelve rows published 2026-05-19.**
-> Caption: F13.02: LMArena/Arena historical text_style_control leaderboard, latest split, overall category, top twelve rows published 2026-05-19..
+> [!FIGURE] **F13.02 / A-0289-T005 - May 2026 Cutoff Model-Landscape Table**
+> Caption: F13.02: The May 2026 cutoff benchmark/model-landscape table gives the model-race chapter a frozen memory aid through the cutoff; it is not a live leaderboard, universal quality score, price-quality frontier, safety proof, or adoption claim.
 > Source note: Sources: S-0080. Rights path: ready_svg. Story role: historical leaderboard slice.
 
 
@@ -2311,8 +2311,8 @@ That sentence is too long for a tweet and just long enough for truth.
 
 ### Benchmarks Are Not Escape Hatches
 
-> [!FIGURE] **F13.03 / A-0019 - Price-Quality Exclusion Map**
-> Caption: F13.03: Price-Quality Exclusion Map.
+> [!FIGURE] **F13.03 / A-0289-T002 - 2024 Model-Landscape Table**
+> Caption: F13.03: The 2024 benchmark/model-landscape table shows the year as model-card and benchmark context, not as a price-quality frontier, safety result, live rank, or adoption proof.
 > Source note: Sources: C-0046;data/price_quality_join_audit_i0036.tsv. Rights path: ready_svg. Story role: price-quality exclusion map.
 
 
@@ -3355,8 +3355,8 @@ That is why code belongs near the center of the LLM story. It is where language 
 
 ### From Snippet To Companion
 
-> [!FIGURE] **F19.02 / A-0091 - The Assistant Entered At The Cursor**
-> Caption: F19.02: The Assistant Entered At The Cursor.
+> [!FIGURE] **F19.02 / A-0289-007 - LiveCodeBench Leaderboard Surface**
+> Caption: F19.02: LiveCodeBench leaderboard screenshot makes coding-model evaluation visible as a benchmark surface; it does not prove broad software productivity, current live rank after capture, developer replacement, or production correctness.
 > Source note: Sources: S-0070;S-0132. Rights path: ready_svg. Story role: assistant at cursor.
 
 
@@ -3388,8 +3388,8 @@ That reading loop also explains why code models felt personal. A spreadsheet ass
 
 ### The Contest Laboratory
 
-> [!FIGURE] **F19.03 / A-0092 - Coding Scores Need A Harness Story**
-> Caption: F19.03: Coding Scores Need A Harness Story.
+> [!FIGURE] **F19.03 / A-0289-T003 - 2025 Model-Landscape Table**
+> Caption: F19.03: The 2025 benchmark/model-landscape table gives the coding-score discussion a year-specific context panel; it is not a universal quality score, safety result, adoption claim, or live rank.
 > Source note: Sources: S-0035;S-0037;S-0052;S-0053;S-0054. Rights path: ready_svg. Story role: coding score harness.
 
 
@@ -3411,8 +3411,8 @@ Every programmer has felt the little betrayal of a program that does exactly wha
 
 ### Open Code Models And The Diffusion Of Skill
 
-> [!FIGURE] **F19.04 / A-0093 - The Repository Became The Prompt**
-> Caption: F19.04: The Repository Became The Prompt.
+> [!FIGURE] **F19.04 / A-0286-008 - SWE-bench GitHub Repository Surface**
+> Caption: F19.04: SWE-bench GitHub repository screenshot anchors repository-repair evaluation as a source surface; it does not prove production productivity, developer replacement, or model reliability outside the benchmark harness.
 > Source note: Sources: S-0035;S-0037;S-0053. Rights path: ready_svg. Story role: repository as prompt.
 
 
@@ -3448,8 +3448,8 @@ The difference is not caution for caution's sake. It preserves the wonder. The r
 
 ### The Repository Becomes The Prompt
 
-> [!FIGURE] **F19.05 / A-0260-020 - Copilot entered as pair-programming rhetoric**
-> Caption: F19.05: GitHub Copilot Coding Surface.
+> [!FIGURE] **F19.05 / A-0286-T004 - 2021 Model-Landscape Table**
+> Caption: F19.05: The 2021 benchmark/model-landscape table records early code/model context as a memory aid; it is not a live rank, universal quality score, or product adoption claim.
 > Source note: Sources: S-0070. Rights path: private_capture_needed. Story role: GitHub Copilot surface.
 
 
@@ -3504,8 +3504,8 @@ Claude Code makes the agent loop concrete: the terminal becomes useful only when
 
 ### The Terminal Becomes A Colleague
 
-> [!FIGURE] **F20.01 / A-0032 - Coding Agent Harness Loop**
-> Caption: F20.01: Coding Agent Harness Loop.
+> [!FIGURE] **F20.01 / A-0289-010 - OpenAI Evals Repository Surface**
+> Caption: F20.01: OpenAI Evals GitHub repository screenshot gives the coding-agent harness loop an evaluation-tool surface; it does not prove benchmark neutrality, current coverage, safety, adoption, or production value.
 > Source note: Sources: S-0022;S-0035;S-0037;S-0050. Rights path: ready_svg. Story role: coding-agent harness loop.
 
 
@@ -3588,8 +3588,8 @@ The best Claude Code passage should avoid both extremes. It should not sound lik
 
 ### The New Pair Programming
 
-> [!FIGURE] **F20.04 / A-0035 - Productivity Claim Blocker Map**
-> Caption: F20.04: Productivity Claim Blocker Map.
+> [!FIGURE] **F20.04 / A-0289-008 - Berkeley Function Calling Leaderboard Surface**
+> Caption: F20.04: Berkeley Function Calling Leaderboard screenshot makes tool-use evaluation visible; it does not prove general agent reliability, live rank after capture, enterprise outcomes, or safety.
 > Source note: Sources: S-0022;S-0035;S-0037;S-0050. Rights path: ready_svg. Story role: productivity blocker map.
 
 
@@ -3682,8 +3682,8 @@ Coding agents expose the cost of action, review, and retries. Reasoning systems 
 
 Reasoning systems shift some of the cost into the pause before an answer, making thought-like behavior a metered inference choice.
 
-> [!FIGURE] **F21.01 / A-0078 - Reasoning Adds A New Compute Axis**
-> Caption: F21.01: Reasoning Adds A New Compute Axis.
+> [!FIGURE] **F21.01 / A-0289-T004 - 2026 Model-Landscape Table**
+> Caption: F21.01: The 2026 benchmark/model-landscape table gives reasoning/test-time-compute context as of the cutoff era; it is not a live rank, universal quality score, safety proof, or adoption claim.
 > Source note: Sources: S-0168;S-0169;S-0170;S-0171;S-0172;S-0173. Rights path: ready_svg. Story role: reasoning compute axis.
 
 
@@ -3697,8 +3697,8 @@ Reasoning systems shift some of the cost into the pause before an answer, making
 > Source note: Sources: S-0035;S-0036;S-0037. Rights path: ready_svg. Story role: inference contract.
 
 
-> [!FIGURE] **F21.04 / A-0081 - How Much Thinking Is This Worth? Fast path, think path, tool path, and human escalation/refusal are schematic routing lanes.**
-> Caption: F21.04: How Much Thinking Is This Worth? Fast path, think path, tool path, and human escalation/refusal are schematic routing lanes..
+> [!FIGURE] **F21.04 / A-0286-T005 - 2022 Model-Landscape Table**
+> Caption: F21.04: The 2022 benchmark/model-landscape table records the instruction/RLHF-to-early-chat context as a memory aid; it is not a live rank, universal quality score, safety proof, or product adoption claim.
 > Source note: Sources: S-0029;S-0031;S-0119;S-0135;S-0168;S-0169. Rights path: ready_svg. Story role: thinking cost tradeoff.
 
 
@@ -3806,8 +3806,8 @@ The meter changes the business story: intelligence is sold through tokens, tiers
 
 ### The Meter Appears
 
-> [!FIGURE] **F22.01 / A-0082 - The Meter Is Visible Before The Margin Is Knowable**
-> Caption: F22.01: The Meter Is Visible Before The Margin Is Knowable.
+> [!FIGURE] **F22.01 / A-0286-T001 - 2018 Model-Landscape Table**
+> Caption: F22.01: The 2018 benchmark/model-landscape table anchors the meter-and-margin discussion in the first GPT-era context; it is not a live rank, universal quality score, price-quality frontier, or adoption claim.
 > Source note: Sources: S-0060;S-0061;S-0062;S-0072;S-0081;S-0082. Rights path: ready_svg. Story role: visible meter.
 
 
@@ -3871,8 +3871,8 @@ For the reader, the price-quality frontier should feel like a dangerous instrume
 
 ### Inference Rent
 
-> [!FIGURE] **F22.03 / A-0084 - Intelligence Is Sold Through More Than One Door**
-> Caption: F22.03: Intelligence Is Sold Through More Than One Door.
+> [!FIGURE] **F22.03 / A-0286-T002 - 2019 Model-Landscape Table**
+> Caption: F22.03: The 2019 benchmark/model-landscape table gives the sales-route discussion a GPT-2-era context panel; it is not a live rank, universal quality score, price-quality frontier, or adoption claim.
 > Source note: Sources: S-0069;S-0078;S-0090;S-0103. Rights path: ready_svg. Story role: business models.
 
 
@@ -3902,8 +3902,8 @@ The enterprise chapter also keeps the provider honest. If a provider claims tran
 
 ### The Subsidy Question
 
-> [!FIGURE] **F22.04 / A-0085 - The Tempting Economics Claims Are Not The Sourced Ones**
-> Caption: F22.04: The Tempting Economics Claims Are Not The Sourced Ones.
+> [!FIGURE] **F22.04 / A-0286-T003 - 2020 Model-Landscape Table**
+> Caption: F22.04: The 2020 benchmark/model-landscape table supplies GPT-3-era context for blocked economics claims; it is not a live rank, universal quality score, price-quality frontier, or adoption claim.
 > Source note: Sources: C-0046;C-0136;C-0141;data/price_quality_join_audit_i0036.tsv. Rights path: ready_svg. Story role: economics claim blockers.
 
 
