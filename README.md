@@ -6,16 +6,16 @@ This repository is the working memory, manuscript lab, source ledger, visual sys
 
 ## Current Book State
 
-Updated **2026-05-27** after pass `I-0295`.
+Updated **2026-05-27** after pass `I-0296`.
 
-- **Latest recorded pass:** `I-0295`, expanded private visual render.
+- **Latest recorded pass:** `I-0296`, authored logo and people strips.
 - **Words:** 103,524 assembled source words across the canonical 24-chapter draft.
 - **Chapters:** 24 / 24 main chapters.
-- **Current expanded private visual PDF:** `rendered/full_book_i0295/Next-Token-expanded-private-visual-i0295.pdf` exists locally and is intentionally not committed. It contains 300 rendered exhibit rows, 300 PDF image objects, 600 pages, and 0 blank-like pages.
-- **Visual target status:** `data/private_visual_target_audit_i0295.tsv` now records rendered-target pass rows for charts/SVG/data visuals, real screenshots/source images, paper/report excerpts, PDF/deck/report pages, model-card/repo/docs surfaces, logos, benchmark tables, and people/profile images.
-- **Remaining production risk:** this is a private visual atlas expansion proof, not final art direction. The next passes should make the expanded visual mass feel authored: logo/person strips, source-surface groupings, chart atlas polish, density control, and final assembly.
+- **Current expanded private visual PDF:** `rendered/full_book_i0295/Next-Token-expanded-private-visual-i0295.pdf` exists locally and is intentionally not committed; I-0295 records 300 rendered exhibit rows and all 8 GOAL.md visual targets met.
+- **Logo/person authorship layer:** I-0296 adds 11 strip boards using 50 logos and 30 people/profile images, with local contact-sheet proof at `rendered/logo_people_strips_i0296/logo-people-strips-i0296.pdf` (11 pages, 0 blank-like).
+- **Remaining production risk:** the expanded visual system now has abundance and identity texture, but final design still needs source-surface grouping, chart atlas polish, density control, final render QA, champion backup, and completion report.
 
-The book is now much closer to the intended private object: not just 100 figures, but a dense rendered visual edition with many real photos/screenshots, logos, people, papers, PDFs, model-card surfaces, charts, tables, and data exhibits.
+The private edition now has both visual mass and a clearer human/institutional layer: logos identify the companies, labs, tools, clouds, and infrastructure, while people strips give the model race public human anchors without inventing private scenes or overclaiming biography.
 
 ## Readiness Snapshot
 

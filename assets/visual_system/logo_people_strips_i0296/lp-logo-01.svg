@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="397" viewBox="0 0 1500 397">
+<rect width="1500" height="100%" fill="#fffdf7"/>
+<rect x="32" y="30" width="1436" height="92" rx="14" fill="#161411"/>
+<text x="60" y="70" font-family="Arial, Helvetica, sans-serif" font-size="31" font-weight="700" fill="#f8efe1">Compute And AI Factory Stack</text>
+<text x="60" y="102" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#d8cdbd">CH14-CH16 - Hardware, CPU, accelerator, and orchestration logos turn infrastructure from abstraction into institutions.</text>
+<rect x="42" y="152" width="178" height="155" rx="12" fill="#ffffff" stroke="#b8aa96" stroke-width="1.2"/>
+<image href="../../logos/i0284/nvidia.svg" x="56" y="168" width="150" height="96" preserveAspectRatio="xMidYMid meet"/>
+<text x="56" y="292" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#171411">NVIDIA</text>
+<text x="56" y="315" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#5c5147">hardware/AI factory logo</text>
+<rect x="238" y="152" width="178" height="155" rx="12" fill="#ffffff" stroke="#b8aa96" stroke-width="1.2"/>
+<image href="../../logos/i0284/amd.svg" x="252" y="168" width="150" height="96" preserveAspectRatio="xMidYMid meet"/>
+<text x="252" y="292" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#171411">AMD</text>
+<text x="252" y="315" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#5c5147">accelerator competitor logo</text>
+<rect x="434" y="152" width="178" height="155" rx="12" fill="#ffffff" stroke="#b8aa96" stroke-width="1.2"/>
+<image href="../../logos/i0284/intel.svg" x="448" y="168" width="150" height="96" preserveAspectRatio="xMidYMid meet"/>
+<text x="448" y="292" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#171411">Intel</text>
+<text x="448" y="315" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#5c5147">CPU/accelerator ecosystem logo</text>
+<rect x="630" y="152" width="178" height="155" rx="12" fill="#ffffff" stroke="#b8aa96" stroke-width="1.2"/>
+<image href="../../logos/i0284/arm.svg" x="644" y="168" width="150" height="96" preserveAspectRatio="xMidYMid meet"/>
+<text x="644" y="292" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#171411">Arm</text>
+<text x="644" y="315" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#5c5147">CPU ecosystem logo</text>
+<rect x="826" y="152" width="178" height="155" rx="12" fill="#ffffff" stroke="#b8aa96" stroke-width="1.2"/>
+<image href="../../logos/i0284/docker.svg" x="840" y="168" width="150" height="96" preserveAspectRatio="xMidYMid meet"/>
+<text x="840" y="292" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#171411">Docker</text>
+<text x="840" y="315" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#5c5147">deployment/tooling logo</text>
+<rect x="1022" y="152" width="178" height="155" rx="12" fill="#ffffff" stroke="#b8aa96" stroke-width="1.2"/>
+<image href="../../logos/i0284/kubernetes.svg" x="1036" y="168" width="150" height="96" preserveAspectRatio="xMidYMid meet"/>
+<text x="1036" y="292" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#171411">Kubernetes</text>
+<text x="1036" y="315" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#5c5147">infrastructure orchestration logo</text>
+<rect x="1218" y="152" width="178" height="155" rx="12" fill="#ffffff" stroke="#b8aa96" stroke-width="1.2"/>
+<image href="../../logos/i0284/linux.svg" x="1232" y="168" width="150" height="96" preserveAspectRatio="xMidYMid meet"/>
+<text x="1232" y="292" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#171411">Linux</text>
+<text x="1232" y="315" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#5c5147">software substrate logo</text>
+<text x="44" y="359" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#4b4238">Private-use strip. Full source URLs, hashes, and access notes are in assets_manifest.tsv and data/logo_people_strip_items_i0296.tsv.</text>
+<text x="44" y="379" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#4b4238">Blocked claims: identity texture only; no capability, adoption, safety, revenue, market, or biography claims without separate sources.</text>
+</svg>

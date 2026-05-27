@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="572" viewBox="0 0 1500 572">
+<rect width="1500" height="100%" fill="#fffdf7"/>
+<rect x="32" y="30" width="1436" height="92" rx="14" fill="#161411"/>
+<text x="60" y="70" font-family="Arial, Helvetica, sans-serif" font-size="31" font-weight="700" fill="#f8efe1">Research And Data-Science Substrate</text>
+<text x="60" y="102" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#d8cdbd">CH02-CH05 - The scientific Python and notebook strip makes the pre-LLM toolchain visible without turning it into a separate history.</text>
+<rect x="42" y="152" width="178" height="155" rx="12" fill="#ffffff" stroke="#b8aa96" stroke-width="1.2"/>
+<image href="../../logos/i0284/python.svg" x="56" y="168" width="150" height="96" preserveAspectRatio="xMidYMid meet"/>
+<text x="56" y="292" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#171411">Python</text>
+<text x="56" y="315" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#5c5147">ML/software substrate logo</text>
+<rect x="238" y="152" width="178" height="155" rx="12" fill="#ffffff" stroke="#b8aa96" stroke-width="1.2"/>
+<image href="../../logos/i0284/pytorch.svg" x="252" y="168" width="150" height="96" preserveAspectRatio="xMidYMid meet"/>
+<text x="252" y="292" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#171411">PyTorch</text>
+<text x="252" y="315" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#5c5147">training framework logo</text>
+<rect x="434" y="152" width="178" height="155" rx="12" fill="#ffffff" stroke="#b8aa96" stroke-width="1.2"/>
+<image href="../../logos/i0284/tensorflow.svg" x="448" y="168" width="150" height="96" preserveAspectRatio="xMidYMid meet"/>
+<text x="448" y="292" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#171411">TensorFlow</text>
+<text x="448" y="315" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#5c5147">ML framework logo</text>
+<rect x="630" y="152" width="178" height="155" rx="12" fill="#ffffff" stroke="#b8aa96" stroke-width="1.2"/>
+<image href="../../logos/i0287/jupyter.svg" x="644" y="168" width="150" height="96" preserveAspectRatio="xMidYMid meet"/>
+<text x="644" y="292" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#171411">Jupyter</text>
+<text x="644" y="315" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#5c5147">notebook/research workflow logo</text>
+<rect x="826" y="152" width="178" height="155" rx="12" fill="#ffffff" stroke="#b8aa96" stroke-width="1.2"/>
+<image href="../../logos/i0287/anaconda.svg" x="840" y="168" width="150" height="96" preserveAspectRatio="xMidYMid meet"/>
+<text x="840" y="292" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#171411">Anaconda</text>
+<text x="840" y="315" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#5c5147">Python data-science platform logo</text>
+<rect x="1022" y="152" width="178" height="155" rx="12" fill="#ffffff" stroke="#b8aa96" stroke-width="1.2"/>
+<image href="../../logos/i0287/numpy.svg" x="1036" y="168" width="150" height="96" preserveAspectRatio="xMidYMid meet"/>
+<text x="1036" y="292" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#171411">NumPy</text>
+<text x="1036" y="315" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#5c5147">numerical computing logo</text>
+<rect x="1218" y="152" width="178" height="155" rx="12" fill="#ffffff" stroke="#b8aa96" stroke-width="1.2"/>
+<image href="../../logos/i0287/pandas.svg" x="1232" y="168" width="150" height="96" preserveAspectRatio="xMidYMid meet"/>
+<text x="1232" y="292" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#171411">pandas</text>
+<text x="1232" y="315" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#5c5147">dataframe tooling logo</text>
+<rect x="1414" y="152" width="178" height="155" rx="12" fill="#ffffff" stroke="#b8aa96" stroke-width="1.2"/>
+<image href="../../logos/i0287/scipy.svg" x="1428" y="168" width="150" height="96" preserveAspectRatio="xMidYMid meet"/>
+<text x="1428" y="292" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#171411">SciPy</text>
+<text x="1428" y="315" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#5c5147">scientific computing logo</text>
+<rect x="42" y="327" width="178" height="155" rx="12" fill="#ffffff" stroke="#b8aa96" stroke-width="1.2"/>
+<image href="../../logos/i0287/scikit-learn.svg" x="56" y="343" width="150" height="96" preserveAspectRatio="xMidYMid meet"/>
+<text x="56" y="467" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#171411">scikit-learn</text>
+<text x="56" y="490" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#5c5147">classical ML library logo</text>
+<rect x="238" y="327" width="178" height="155" rx="12" fill="#ffffff" stroke="#b8aa96" stroke-width="1.2"/>
+<image href="../../logos/i0284/kaggle.svg" x="252" y="343" width="150" height="96" preserveAspectRatio="xMidYMid meet"/>
+<text x="252" y="467" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#171411">Kaggle</text>
+<text x="252" y="490" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#5c5147">data/benchmark ecosystem logo</text>
+<text x="44" y="534" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#4b4238">Private-use strip. Full source URLs, hashes, and access notes are in assets_manifest.tsv and data/logo_people_strip_items_i0296.tsv.</text>
+<text x="44" y="554" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#4b4238">Blocked claims: identity texture only; no capability, adoption, safety, revenue, market, or biography claims without separate sources.</text>
+</svg>

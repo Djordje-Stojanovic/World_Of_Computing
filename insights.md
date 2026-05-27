@@ -534,3 +534,7 @@ The benchmark layer is strongest when tables are explicit memory aids rather tha
 - I-0294: a private visual warehouse is not the same as a rendered visual book. Final assembly must count what the reader can see in the PDF separately from what the ledgers acquired, then either expand the active exhibit set or name the remaining shortfall without euphemism.
 
 - I-0295: visual abundance should be proved as a rendered object, not a spreadsheet boast. A supplemental private atlas can clear category targets quickly, but the next quality problem becomes authorship: grouping, rhythm, hierarchy, and making logos/people/source surfaces feel intentional instead of dumped.
+
+- I-0296: logos and people work best as authored identity strips, not isolated stickers. The strip should tell the reader what institutional or human field they are entering, while its blocked-claim note prevents a face or mark from smuggling in biography, adoption, capability, safety, or market claims.
+
+- I-0296: logos and people work best as authored identity strips, not isolated stickers. The strip should tell the reader what institutional or human field they are entering, while its blocked-claim note prevents a face or mark from smuggling in biography, adoption, capability, safety, or market claims.

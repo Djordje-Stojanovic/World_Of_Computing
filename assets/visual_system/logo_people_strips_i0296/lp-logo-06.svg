@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="397" viewBox="0 0 1500 397">
+<rect width="1500" height="100%" fill="#fffdf7"/>
+<rect x="32" y="30" width="1436" height="92" rx="14" fill="#161411"/>
+<text x="60" y="70" font-family="Arial, Helvetica, sans-serif" font-size="31" font-weight="700" fill="#f8efe1">Data, Observability, And Service Infrastructure</text>
+<text x="60" y="102" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#d8cdbd">CH17-CH23 - Data stores, telemetry, distributed execution, search, and caches make the LLM product stack durable enough to operate.</text>
+<rect x="42" y="152" width="178" height="155" rx="12" fill="#ffffff" stroke="#b8aa96" stroke-width="1.2"/>
+<image href="../../logos/i0287/opentelemetry.svg" x="56" y="168" width="150" height="96" preserveAspectRatio="xMidYMid meet"/>
+<text x="56" y="292" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#171411">OpenTelemetry</text>
+<text x="56" y="315" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#5c5147">observability stack logo</text>
+<rect x="238" y="152" width="178" height="155" rx="12" fill="#ffffff" stroke="#b8aa96" stroke-width="1.2"/>
+<image href="../../logos/i0287/ray.svg" x="252" y="168" width="150" height="96" preserveAspectRatio="xMidYMid meet"/>
+<text x="252" y="292" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#171411">Ray</text>
+<text x="252" y="315" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#5c5147">distributed compute framework logo</text>
+<rect x="434" y="152" width="178" height="155" rx="12" fill="#ffffff" stroke="#b8aa96" stroke-width="1.2"/>
+<image href="../../logos/i0287/dask.svg" x="448" y="168" width="150" height="96" preserveAspectRatio="xMidYMid meet"/>
+<text x="448" y="292" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#171411">Dask</text>
+<text x="448" y="315" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#5c5147">distributed Python compute logo</text>
+<rect x="630" y="152" width="178" height="155" rx="12" fill="#ffffff" stroke="#b8aa96" stroke-width="1.2"/>
+<image href="../../logos/i0287/postgresql.svg" x="644" y="168" width="150" height="96" preserveAspectRatio="xMidYMid meet"/>
+<text x="644" y="292" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#171411">PostgreSQL</text>
+<text x="644" y="315" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#5c5147">database substrate logo</text>
+<rect x="826" y="152" width="178" height="155" rx="12" fill="#ffffff" stroke="#b8aa96" stroke-width="1.2"/>
+<image href="../../logos/i0287/redis.svg" x="840" y="168" width="150" height="96" preserveAspectRatio="xMidYMid meet"/>
+<text x="840" y="292" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#171411">Redis</text>
+<text x="840" y="315" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#5c5147">cache/vector-adjacent infrastruct.</text>
+<rect x="1022" y="152" width="178" height="155" rx="12" fill="#ffffff" stroke="#b8aa96" stroke-width="1.2"/>
+<image href="../../logos/i0287/mongodb.svg" x="1036" y="168" width="150" height="96" preserveAspectRatio="xMidYMid meet"/>
+<text x="1036" y="292" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#171411">MongoDB</text>
+<text x="1036" y="315" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#5c5147">document database logo</text>
+<rect x="1218" y="152" width="178" height="155" rx="12" fill="#ffffff" stroke="#b8aa96" stroke-width="1.2"/>
+<image href="../../logos/i0287/elastic.svg" x="1232" y="168" width="150" height="96" preserveAspectRatio="xMidYMid meet"/>
+<text x="1232" y="292" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#171411">Elastic</text>
+<text x="1232" y="315" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#5c5147">search/observability logo</text>
+<rect x="1414" y="152" width="178" height="155" rx="12" fill="#ffffff" stroke="#b8aa96" stroke-width="1.2"/>
+<image href="../../logos/i0284/apache.svg" x="1428" y="168" width="150" height="96" preserveAspectRatio="xMidYMid meet"/>
+<text x="1428" y="292" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#171411">Apache</text>
+<text x="1428" y="315" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#5c5147">open-source substrate logo</text>
+<text x="44" y="359" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#4b4238">Private-use strip. Full source URLs, hashes, and access notes are in assets_manifest.tsv and data/logo_people_strip_items_i0296.tsv.</text>
+<text x="44" y="379" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#4b4238">Blocked claims: identity texture only; no capability, adoption, safety, revenue, market, or biography claims without separate sources.</text>
+</svg>

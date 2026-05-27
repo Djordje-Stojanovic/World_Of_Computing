@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="452" viewBox="0 0 1500 452">
+<rect width="1500" height="100%" fill="#fffdf7"/>
+<rect x="32" y="30" width="1436" height="92" rx="14" fill="#161411"/>
+<text x="60" y="70" font-family="Arial, Helvetica, sans-serif" font-size="31" font-weight="700" fill="#f8efe1">Plural Frontier Institutions</text>
+<text x="60" y="102" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#d8cdbd">CH09-CH13 - The lab-leader strip keeps Google, Anthropic, Meta, Microsoft, and Claude from becoming faceless product names.</text>
+<rect x="42" y="152" width="178" height="210" rx="12" fill="#ffffff" stroke="#b8aa96" stroke-width="1.2"/>
+<image href="../../people/i0284/dario-amodei-profile-page.png" x="56" y="168" width="150" height="132" preserveAspectRatio="xMidYMid meet"/>
+<text x="56" y="328" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#171411">Dario Amodei</text>
+<text x="56" y="351" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#5c5147">Claude/alignment human anchor</text>
+<rect x="238" y="152" width="178" height="210" rx="12" fill="#ffffff" stroke="#b8aa96" stroke-width="1.2"/>
+<image href="../../people/i0284/daniela-amodei-profile-page.png" x="252" y="168" width="150" height="132" preserveAspectRatio="xMidYMid meet"/>
+<text x="252" y="328" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#171411">Daniela Amodei</text>
+<text x="252" y="351" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#5c5147">Anthropic institution human anchor</text>
+<rect x="434" y="152" width="178" height="210" rx="12" fill="#ffffff" stroke="#b8aa96" stroke-width="1.2"/>
+<image href="../../people/i0284/demis-hassabis-profile-page.png" x="448" y="168" width="150" height="132" preserveAspectRatio="xMidYMid meet"/>
+<text x="448" y="328" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#171411">Demis Hassabis</text>
+<text x="448" y="351" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#5c5147">DeepMind/Gemini human anchor</text>
+<rect x="630" y="152" width="178" height="210" rx="12" fill="#ffffff" stroke="#b8aa96" stroke-width="1.2"/>
+<image href="../../people/i0284/sundar-pichai-profile-page.png" x="644" y="168" width="150" height="132" preserveAspectRatio="xMidYMid meet"/>
+<text x="644" y="328" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#171411">Sundar Pichai</text>
+<text x="644" y="351" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#5c5147">Google product/platform human anc.</text>
+<rect x="826" y="152" width="178" height="210" rx="12" fill="#ffffff" stroke="#b8aa96" stroke-width="1.2"/>
+<image href="../../people/i0284/mark-zuckerberg-profile-page.png" x="840" y="168" width="150" height="132" preserveAspectRatio="xMidYMid meet"/>
+<text x="840" y="328" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#171411">Mark Zuckerberg</text>
+<text x="840" y="351" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#5c5147">Llama/open-weight human anchor</text>
+<rect x="1022" y="152" width="178" height="210" rx="12" fill="#ffffff" stroke="#b8aa96" stroke-width="1.2"/>
+<image href="../../people/i0284/satya-nadella-profile-page.png" x="1036" y="168" width="150" height="132" preserveAspectRatio="xMidYMid meet"/>
+<text x="1036" y="328" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#171411">Satya Nadella</text>
+<text x="1036" y="351" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#5c5147">Microsoft/OpenAI platform human a.</text>
+<text x="44" y="414" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#4b4238">Private-use strip. Full source URLs, hashes, and access notes are in assets_manifest.tsv and data/logo_people_strip_items_i0296.tsv.</text>
+<text x="44" y="434" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#4b4238">Blocked claims: identity texture only; no capability, adoption, safety, revenue, market, or biography claims without separate sources.</text>
+</svg>

@@ -1,0 +1,9 @@
+pass_id	check_id	category	result	evidence	recommended_action
+I-0296	I0296-001	strip_count	pass	strips=11; expected=11	No action required for this automated check.
+I-0296	I0296-002	logo_count	pass	logos=50; expected=50	No action required for this automated check.
+I-0296	I0296-003	person_count	pass	people=30; expected=30	No action required for this automated check.
+I-0296	I0296-004	unique_assets	pass	unique_assets=80; item_rows=80	No action required for this automated check.
+I-0296	I0296-005	file_existence	pass	missing=0	No action required for this automated check.
+I-0296	I0296-006	blocked_claims	pass	blocked_claim_rows=all	No action required for this automated check.
+I-0296	I0296-007	render_smoke	pass	pages=11; blank_like=0; html_images=80; pdf_images=30; pdf_drawings=141; item_rows=80	No action required for this automated check.
+I-0296	I0296-008	book_invariants	pass	words=103524; chapters=24	No action required for this automated check.

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="452" viewBox="0 0 1500 452">
+<rect width="1500" height="100%" fill="#fffdf7"/>
+<rect x="32" y="30" width="1436" height="92" rx="14" fill="#161411"/>
+<text x="60" y="70" font-family="Arial, Helvetica, sans-serif" font-size="31" font-weight="700" fill="#f8efe1">Deep-Learning And NLP Lineage</text>
+<text x="60" y="102" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#d8cdbd">CH01-CH04 - The opening lineage strip anchors the book in researchers who made neural language work feel historically continuous.</text>
+<rect x="42" y="152" width="178" height="210" rx="12" fill="#ffffff" stroke="#b8aa96" stroke-width="1.2"/>
+<image href="../../people/i0284/geoffrey-hinton-profile-page.png" x="56" y="168" width="150" height="132" preserveAspectRatio="xMidYMid meet"/>
+<text x="56" y="328" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#171411">Geoffrey Hinton</text>
+<text x="56" y="351" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#5c5147">neural-network lineage human anch.</text>
+<rect x="238" y="152" width="178" height="210" rx="12" fill="#ffffff" stroke="#b8aa96" stroke-width="1.2"/>
+<image href="../../people/i0284/yoshua-bengio-profile-page.png" x="252" y="168" width="150" height="132" preserveAspectRatio="xMidYMid meet"/>
+<text x="252" y="328" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#171411">Yoshua Bengio</text>
+<text x="252" y="351" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#5c5147">deep-learning lineage human anchor</text>
+<rect x="434" y="152" width="178" height="210" rx="12" fill="#ffffff" stroke="#b8aa96" stroke-width="1.2"/>
+<image href="../../people/i0284/yann-lecun-profile-page.png" x="448" y="168" width="150" height="132" preserveAspectRatio="xMidYMid meet"/>
+<text x="448" y="328" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#171411">Yann LeCun</text>
+<text x="448" y="351" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#5c5147">open research/model debate human.</text>
+<rect x="630" y="152" width="178" height="210" rx="12" fill="#ffffff" stroke="#b8aa96" stroke-width="1.2"/>
+<image href="../../people/i0287/person-0287-001-andrew-ng.png" x="644" y="168" width="150" height="132" preserveAspectRatio="xMidYMid meet"/>
+<text x="644" y="328" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#171411">Andrew Ng</text>
+<text x="644" y="351" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#5c5147">AI education/cloud human anchor</text>
+<rect x="826" y="152" width="178" height="210" rx="12" fill="#ffffff" stroke="#b8aa96" stroke-width="1.2"/>
+<image href="../../people/i0287/person-0287-014-christopher-manning.png" x="840" y="168" width="150" height="132" preserveAspectRatio="xMidYMid meet"/>
+<text x="840" y="328" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#171411">Christopher Manning</text>
+<text x="840" y="351" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#5c5147">NLP lineage human anchor</text>
+<rect x="1022" y="152" width="178" height="210" rx="12" fill="#ffffff" stroke="#b8aa96" stroke-width="1.2"/>
+<image href="../../people/i0287/person-0287-003-oriol-vinyals.png" x="1036" y="168" width="150" height="132" preserveAspectRatio="xMidYMid meet"/>
+<text x="1036" y="328" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#171411">Oriol Vinyals</text>
+<text x="1036" y="351" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#5c5147">seq2seq/deep learning human anchor</text>
+<text x="44" y="414" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#4b4238">Private-use strip. Full source URLs, hashes, and access notes are in assets_manifest.tsv and data/logo_people_strip_items_i0296.tsv.</text>
+<text x="44" y="434" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#4b4238">Blocked claims: identity texture only; no capability, adoption, safety, revenue, market, or biography claims without separate sources.</text>
+</svg>
