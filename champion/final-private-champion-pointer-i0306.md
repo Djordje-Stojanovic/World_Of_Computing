@@ -1,4 +1,4 @@
-# Final Private Champion Pointer - I-0304 / Refreshed By I-0306
+# Final Private Champion Pointer - I-0306
 
 Use this as the current human-facing map for the final private personal edition.
 

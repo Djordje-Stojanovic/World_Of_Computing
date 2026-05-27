@@ -2,6 +2,9 @@
 
 Status: promoted final private champion package.
 
+> Refreshed by I-0306: the current best private PDF is the I-0305 reader-polished render. This historical I-0304 report is superseded for opening paths/hashes by `champion/final-private-champion-pointer-i0306.md`.
+
+
 ## Package Verdict
 
 This pass backs up the current champion and promotes the final private personal-edition package around the best current proof set: the I-0301 rhythm-repaired PDF, the I-0302 530-row visual inventory/contact sheet, and the I-0303 source/claim quarantine audit.
@@ -10,11 +13,11 @@ This is not a 100-image book. The `100` target is only the curated chart/data/SV
 
 ## Best Local Proof
 
-- Best private PDF: `rendered/final_private_i0301/Next-Token-final-private-personal-edition-i0301.pdf`
-- PDF SHA256: `5eade58d218f10cf8d7146964660a81d9aeb7560e057ee1eee3766619ac35ce6`
-- PDF pages: 675
+- Best private PDF: `rendered/final_private_i0305/Next-Token-final-private-reader-polish-i0305.pdf`
+- PDF SHA256: `967ea2421b7c9cb18d5e6f7dc7354425434d68d8e4ac8bbbc85c3b1deff16926`
+- PDF pages: 685
 - PDF image objects: 330
-- PDF drawing/vector objects: 4966
+- PDF drawing/vector objects: 4998
 - Blank-like pages: 0
 - Max consecutive visual-heavy pages: 40
 - Contact sheet: `rendered/final_inventory_i0302/Next-Token-final-private-visual-contact-sheet-i0302.pdf`
@@ -52,8 +55,8 @@ This is not a 100-image book. The `100` target is only the curated chart/data/SV
 - **heavy_local_artifacts (open):** Best PDF and contact sheet remain local ignored files; committed package stores paths and hashes.
 - **programmatic_audit_limits (open):** I-0303 catches unsupported ledger rows and risky boundary language, but it is not a human legal/factual review.
 - **visual_density_rhythm (mitigated):** I-0301 reduced the longest visual-heavy run from 199 pages to 40 while keeping visual abundance.
-- **stale_pointer_confusion (mitigated):** I-0304 package points at I-0301 PDF, I-0302 inventory/contact sheet, and I-0303 claim audit.
-- **reader_polish (open):** Opening/ending pages and visual transitions can still be improved without adding new factual claims.
+- **stale_pointer_confusion (mitigated):** I-0306 package points at the I-0305 reader-polished PDF, I-0302 inventory/contact sheet, I-0303 claim audit, and I-0305 reader-polish QA.
+- **reader_polish (mitigated):** I-0305 added opening, ending, atlas, and authored-board reader gates without adding factual claims.
 
 ## QA
 

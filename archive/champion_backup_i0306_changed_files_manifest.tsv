@@ -1,0 +1,6 @@
+pass_id	source_path	backup_path	bytes	sha256	status
+I-0306	README.md	archive/champion_backup_i0306_changed_files/README.md	9149	37c51373012da7646e0420c051be53917e9a98da87eb427432830fb967fc0535	preserved
+I-0306	champion/README.md	archive/champion_backup_i0306_changed_files/champion/README.md	1113	7316878392d36589d0f3d7565748d9636b824e06246460373dbd89700bcc032e	preserved
+I-0306	champion/final-private-champion-pointer-i0304.md	archive/champion_backup_i0306_changed_files/champion/final-private-champion-pointer-i0304.md	1588	f10906ddb1d966a067677c43f24614b12902f57807a56c69f103469a90c672d5	preserved
+I-0306	champion/final-champion-package-i0304.md	archive/champion_backup_i0306_changed_files/champion/final-champion-package-i0304.md	3671	60ccf8d0b16f5b47f9c68a3fb21a17b73bdc9b1e0370464bd7244e6da79bcd5c	preserved
+I-0306	manuscript/final-champion-package-i0304.md	archive/champion_backup_i0306_changed_files/manuscript/final-champion-package-i0304.md	3671	60ccf8d0b16f5b47f9c68a3fb21a17b73bdc9b1e0370464bd7244e6da79bcd5c	preserved

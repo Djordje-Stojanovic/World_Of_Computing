@@ -1,0 +1,9 @@
+pass_id	check_id	category	result	evidence	recommended_action
+I-0306	I0306-001	current_pdf_exists	pass	pages=685; blank_like=0; sha256=967ea2421b7c9cb18d5e6f7dc7354425434d68d8e4ac8bbbc85c3b1deff16926	No action required for this automated check.
+I-0306	I0306-002	human_files_no_stale_i0301_best_pdf	pass	stale_files=none	No action required for this automated check.
+I-0306	I0306-003	human_files_point_to_current_pdf	pass	missing_current=none	No action required for this automated check.
+I-0306	I0306-004	manifest_complete	pass	artifacts=8; missing=0	No action required for this automated check.
+I-0306	I0306-005	claim_ledger_zero_unsupported	pass	claims={'supported': 322}	No action required for this automated check.
+I-0306	I0306-006	book_invariants	pass	words=103526; chapters=24	No action required for this automated check.
+I-0306	I0306-007	pdf_residue_scanned_and_queued	pass	local_path_hits=685; process_residue_hits=1043; user_reported_visible_c_paths=yes	No action required for this automated check.
+I-0306	I0306-008	next_three_fifo_are_pdf_repairs	pass	next_three=I-0307,I-0308,I-0309	No action required for this automated check.

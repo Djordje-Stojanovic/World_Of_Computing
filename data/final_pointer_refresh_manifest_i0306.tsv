@@ -1,0 +1,9 @@
+pass_id	artifact	path	exists	bytes	sha256	pages	image_objects	drawing_objects	note
+I-0306	best_private_pdf	rendered/final_private_i0305/Next-Token-final-private-reader-polish-i0305.pdf	yes	76525810	967ea2421b7c9cb18d5e6f7dc7354425434d68d8e4ac8bbbc85c3b1deff16926	685	330	4998	current reader-polished local private PDF proof; not publication-surface clean
+I-0306	visual_contact_sheet_pdf	rendered/final_inventory_i0302/Next-Token-final-private-visual-contact-sheet-i0302.pdf	yes	59164399	218eb5faa5e374c56c53f85ac69e5305910636a654702fe13a4d8c79aa426c5a	16	159	4623	local ignored visual contact sheet
+I-0306	visual_inventory	data/final_private_visual_inventory_i0302.tsv	yes	456441	f6cfd814bfa488b7f09d5184c038b41794675dd13a3c46d3db37df07fd9f1429				current committed 530-row visual inventory; contextual placement repair queued
+I-0306	claim_audit_qa	data/final_source_claim_audit_qa_i0303.tsv	yes	751	27cf010b9e76bee17983fab3dca9f28adcb4f75047aa9bce5d4c3a07af2c96b3				final source/claim quarantine QA
+I-0306	reader_polish_qa	data/private_reader_polish_qa_i0305.tsv	yes	927	3cf6d99c9c929a261905940740f2c92a99e290cec8582e20198f66821f472fe5				reader-polished PDF QA
+I-0306	champion_pointer_i0306	champion/final-private-champion-pointer-i0306.md	yes	1840	996919595e7d3762deb949032f73885e99dba254f9ff531af0308a36503df9f9				current human-facing champion pointer
+I-0306	current_package_report_i0306	champion/final-champion-package-current-i0306.md	yes	2914	9033e1234ce7bc59d9054399ce4164c6d847e4b16e2795ee01d415ab194d1b25				current champion package report
+I-0306	remaining_risk_i0306	champion/final-remaining-risk-report-i0306.tsv	yes	2125	366e81f43adb577355c38ee9d7295a3eaebfc2a7743f94875f5729ebeac51cd4				current remaining-risk ledger

@@ -556,3 +556,5 @@ The benchmark layer is strongest when tables are explicit memory aids rather tha
 - I-0304: a final private champion package should point to the newest proof set, not the first freeze. The durable map is now the I-0301 rhythm-repaired PDF, I-0302 visual inventory/contact sheet, I-0303 claim audit, and an explicit remaining-risk ledger that says private-use richness is not public-use clearance.
 
 - I-0305: after visual abundance is solved, the best reader polish is orientation, not explanation bloat. Four text-only gates can make the opening, ending, atlas, and authored boards feel intentional while adding no new factual burden and preserving the visual evidence layer.
+
+- I-0306: a visually rich proof is not a finished book if the PDF leaks local filesystem paths, process labels, proof language, or bottom-dump visual assembly. The next gate is publication-surface cleanliness: remove path/residue text, place every good visual in context, cut weak visuals, then render and QA page by page.
