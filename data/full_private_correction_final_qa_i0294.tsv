@@ -1,0 +1,12 @@
+pass_id	check_id	category	result	evidence	recommended_action
+I-0294	I0293-001	object_render	pass	object=9 pass/1 warn/0 fail; images=100	No action required for this automated check.
+I-0294	I0293-002	image_count	pass	html_img=100; pdf_images=100	No action required for this automated check.
+I-0294	I0293-003	blank_pages	pass	pages=400; blank_like=0	No action required for this automated check.
+I-0294	I0293-004	figure_failures	pass	fail_figures=0; p0=0	No action required for this automated check.
+I-0294	I0293-005	caption_font	pass	min_caption_font=10.15pt; small_text=0	No action required for this automated check.
+I-0294	I0293-006	source_note_proximity	pass	missing_source_notes=0	No action required for this automated check.
+I-0294	I0293-007	rights_stage_proximity	warn	missing_rights_stage=11	Carry this defect into I-0294 correction and rerender.
+I-0294	I0293-008	image_size	pass	too_small_images=8; median_area=29.2%	No action required for this automated check.
+I-0294	I0293-009	visual_fatigue	pass	max_consecutive=4; max_per_20=8	No action required for this automated check.
+I-0294	I0293-010	chapter_density	pass	chapters=24; min_figures=1	No action required for this automated check.
+I-0294	I0294-011	visual_target_honesty	warn	unmet_rendered_targets=7; curated_chart_data_svg_visualization=56/100; real_photo_screenshot_source_image=10/50; paper_report_excerpt=14/25; pdf_deck_report_page=6/25; model_card_hf_benchmark_repo_docs_surface=10/20; logo=1/50; person_image=3/30	Do not call the private edition done until expanded rendered counts pass or final report names the remaining shortfall.

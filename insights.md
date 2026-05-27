@@ -528,3 +528,7 @@ The benchmark layer is strongest when tables are explicit memory aids rather tha
 - I-0292: benchmark integration improves the model-race chapters only when yearly tables and mutable model-card surfaces are labeled as memory aids, not scoreboards; the visible sequence should help readers see eras without smuggling in live-rank or price-quality claims.
 
 - I-0293: first final render should be judged as a defect generator, not a victory lap; once all integrated visuals enter one PDF, the valuable output is the page-by-page warning map that tells the correction pass where visual density, caption extraction, and small-image problems actually appear.
+
+- I-0294: a private visual warehouse is not the same as a rendered visual book. Final assembly must count what the reader can see in the PDF separately from what the ledgers acquired, then either expand the active exhibit set or name the remaining shortfall without euphemism.
+
+- I-0294: a private visual warehouse is not the same as a rendered visual book. Final assembly must count what the reader can see in the PDF separately from what the ledgers acquired, then either expand the active exhibit set or name the remaining shortfall without euphemism.

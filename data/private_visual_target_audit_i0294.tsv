@@ -1,0 +1,9 @@
+pass_id	target_id	goal_minimum	selected_rendered_count	asset_ledger_available_count	selected_render_gap	status	evidence_note
+I-0294	curated_chart_data_svg_visualization	100	56	175	44	warehouse_met_not_rendered	GOAL.md requires at least 100 curated charts/data/SVG/visualization exhibits.
+I-0294	real_photo_screenshot_source_image	50	10	96	40	warehouse_met_not_rendered	GOAL.md requires at least 50 real photos/screenshots/source images.
+I-0294	paper_report_excerpt	25	14	50	11	warehouse_met_not_rendered	GOAL.md requires 25-30 paper/arXiv/report excerpt or figure/page exhibits.
+I-0294	pdf_deck_report_page	25	6	32	19	warehouse_met_not_rendered	GOAL.md requires 25-30 PDF, annual-report, slide, presentation, or technical-report page/image exhibits.
+I-0294	model_card_hf_benchmark_repo_docs_surface	20	10	22	10	warehouse_met_not_rendered	GOAL.md requires 20 model-card, Hugging Face, benchmark, leaderboard, repo, or documentation screenshot/excerpt exhibits.
+I-0294	logo	50	1	50	49	warehouse_met_not_rendered	GOAL.md requires at least 50 company/lab/product logos placed with narrative purpose.
+I-0294	benchmark_table	10	10	10	0	rendered_target_met	GOAL.md requires at least 10 benchmark tables with yearly coverage through the cutoff.
+I-0294	person_image	30	3	30	27	warehouse_met_not_rendered	GOAL.md requires at least 30 CEO/founder/research-leader/person images.

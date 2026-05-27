@@ -1,0 +1,20 @@
+pass_id	defect_id	severity	figure_id	page	category	evidence	recommended_action
+I-0294	I0263-DEF-001	P1	F02.01	17	rights_stage	Rights stage label absent from figure page text.	Keep rights stage adjacent to figure.
+I-0294	I0263-DEF-002	P1	F03.01	30	image_size	image=4.16x5.89in area=45.3%	Increase figure size or replace with simpler exhibit before final layout.
+I-0294	I0263-DEF-003	P1	F03.01	30	rights_stage	Rights stage label absent from figure page text.	Keep rights stage adjacent to figure.
+I-0294	I0263-DEF-004	P1	F04.01	43	rights_stage	Rights stage label absent from figure page text.	Keep rights stage adjacent to figure.
+I-0294	I0263-DEF-005	P1	F05.01	56	rights_stage	Rights stage label absent from figure page text.	Keep rights stage adjacent to figure.
+I-0294	I0263-DEF-006	P1	F07.02	95	image_size	image=3.84x5.10in area=36.3%	Increase figure size or replace with simpler exhibit before final layout.
+I-0294	I0263-DEF-007	P1	F09.01	127	rights_stage	Rights stage label absent from figure page text.	Keep rights stage adjacent to figure.
+I-0294	I0263-DEF-008	P1	F09.03	133	image_size	image=4.16x5.89in area=45.3%	Increase figure size or replace with simpler exhibit before final layout.
+I-0294	I0263-DEF-009	P1	F09.03	133	rights_stage	Rights stage label absent from figure page text.	Keep rights stage adjacent to figure.
+I-0294	I0263-DEF-010	P1	F10.05	156	rights_stage	Rights stage label absent from figure page text.	Keep rights stage adjacent to figure.
+I-0294	I0263-DEF-011	P1	F11.04	169	image_size	image=4.16x5.89in area=45.3%	Increase figure size or replace with simpler exhibit before final layout.
+I-0294	I0263-DEF-012	P1	F11.05	172	image_size	image=4.16x5.89in area=45.3%	Increase figure size or replace with simpler exhibit before final layout.
+I-0294	I0263-DEF-013	P1	F11.05	172	rights_stage	Rights stage label absent from figure page text.	Keep rights stage adjacent to figure.
+I-0294	I0263-DEF-014	P1	F15.02	239	image_size	image=3.93x5.10in area=37.1%	Increase figure size or replace with simpler exhibit before final layout.
+I-0294	I0263-DEF-015	P1	F19.01	312	rights_stage	Rights stage label absent from figure page text.	Keep rights stage adjacent to figure.
+I-0294	I0263-DEF-016	P1	F20.02	331	rights_stage	Rights stage label absent from figure page text.	Keep rights stage adjacent to figure.
+I-0294	I0263-DEF-017	P1	F20.03	333	image_size	image=4.16x5.89in area=45.3%	Increase figure size or replace with simpler exhibit before final layout.
+I-0294	I0263-DEF-018	P1	F20.03	333	rights_stage	Rights stage label absent from figure page text.	Keep rights stage adjacent to figure.
+I-0294	I0263-DEF-019	P1	F21.03	348	image_size	image=4.16x5.87in area=45.2%	Increase figure size or replace with simpler exhibit before final layout.
