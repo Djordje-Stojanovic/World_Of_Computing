@@ -16,7 +16,7 @@ forbidden_this_pass_does	Forbidden string: this pass does	PASS	0	None found
 forbidden_later_pass	Forbidden string: later pass	PASS	0	None found
 forbidden_future_pass	Forbidden string: future pass	PASS	0	None found
 forbidden_queued_by_pass	Forbidden string: queued by pass	PASS	0	None found
-forbidden_remains_blocked	Forbidden string: remains blocked	FAIL	3	Found 3 instances
+forbidden_remains_blocked	Forbidden string: remains blocked	PASS	0	None found
 forbidden_private-edition_visual_layer	Forbidden string: private-edition visual layer	PASS	0	None found
 forbidden_visual_portfolio	Forbidden string: visual portfolio	PASS	0	None found
 forbidden_PORTFOLIO_PLATE	Forbidden string: PORTFOLIO PLATE	PASS	0	None found
@@ -25,6 +25,6 @@ forbidden_Use_note	Forbidden string: Use note	PASS	0	None found
 forbidden_Boundary_metadata	Forbidden string: Boundary metadata	INFO	1	Found 1 instances
 forbidden_does_not_support	Forbidden string: does not support	INFO	9	Found 9 instances
 chapter_count	Verify exactly 24 chapters	PASS	24	Found 24 chapter headings
-word_count	Verify 100,000-120,000 words	PASS	104416	Found 104,416 words
+word_count	Verify 100,000-120,000 words	PASS	104425	Found 104,425 words
 pdf_exists	PDF file exists	PASS	1	PDF exists at C:\AI\TEMP\World_Of_Computing\rendered\final_i0337\Next-Token-final-i0337.pdf
-pdf_size	PDF size > 1MB	PASS	2722579	2,722,579 bytes (2.6 MB)
+pdf_size	PDF size > 1MB	PASS	2722660	2,722,660 bytes (2.6 MB)

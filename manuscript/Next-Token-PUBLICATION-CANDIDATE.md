@@ -1471,7 +1471,7 @@ The report's MoE structure matters because it changes the relationship between t
 DeepSeek-R1 then pushed the narrative into reasoning. The R1 paper describes reinforcement-learning-driven reasoning capability and open-sources DeepSeek-R1-Zero, DeepSeek-R1, and several distilled dense models based on Qwen and Llama. [S-0029] The connection is important: one Chinese model line becomes part of another Chinese model line's reasoning ecosystem, and Meta's Llama appears inside the distillation story as well. The global model race was recombinatory, not national silo work.
  two bad readings. The first is triumphalism: DeepSeek did not prove that compute no longer matters or that constraints are irrelevant. The second is dismissal: the source reports are technical enough that they cannot be waved away as marketing. DeepSeek belongs in the book because it made efficiency, MoE design, reinforcement-learning reasoning, distillation, and open release part of the mainstream frontier conversation.
 
-What remains blocked is just as important. DeepSeek V4-era claims stay out of prose until a cutoff-bounded primary source is captured. [C-0007] Exact benchmark comparisons and cost claims need table extraction. Claims about market impact, geopolitical shock, stock moves, national policy, or broad adoption need separate sources. This chapter is about LLM mechanisms and release strategy, not a financial-news montage.
+What the chapter does not claim is just as important. DeepSeek V4-era claims stay out of prose until a cutoff-bounded primary source is captured. [C-0007] Exact benchmark comparisons and cost claims need table extraction. Claims about market impact, geopolitical shock, stock moves, national policy, or broad adoption need separate sources. This chapter is about LLM mechanisms and release strategy, not a financial-news montage.
 
 ## GLM, Kimi, and The Broader Frontier
 
@@ -1998,7 +1998,7 @@ For layout, the Chapter 13 spread should use a three-step visual reading order:
 
 1. A-0014: methodology flow. Teach the evidence factory.
 2. A-0013: historical rank slice. Show the crowded frontier, with uncertainty and date labels.
-3. A-0019: price-quality exclusion map. Show why the obvious next chart remains blocked.
+3. A-0019: price-quality exclusion map. Show why the obvious next chart cannot yet be made with available sources.
 
 The prose around the figures should remain calm. The drama is in the compression of the field and the fragility of the evidence. The writer does not need to hype the table. The table already contains enough tension: familiar labs, unfamiliar row labels, preview markers, beta markers, high variants, thinking variants, and prices that refuse to line up cleanly.
 
@@ -2677,7 +2677,7 @@ The data chapter's final claim is modest and central: LLMs are not trained on la
 
 The next chapter turns that last move into machinery. Retrieval, function calling, connectors, and agents are not departures from the data problem. They are what happens when the data problem becomes live.
 
-The final discipline is to keep the missing rows visible. Exact tokenizer and vocabulary-size examples belong only where a figure has row-level support. Model-specific synthetic-data shares need a source pack before they become prose. Copyright and licensing belong here as provenance and trust constraints unless a later legal source pack licenses actual legal findings. Proprietary corpus composition remains blocked unless a paper, card, filing, audit, or lab disclosure makes the claim specific.
+The final discipline is to keep the missing rows visible. Exact tokenizer and vocabulary-size examples belong only where a figure has row-level support. Model-specific synthetic-data shares need a source pack before they become prose. Copyright and licensing belong here as provenance and trust constraints unless a later legal source pack licenses actual legal findings. Proprietary corpus composition cannot be described unless a paper, card, filing, audit, or lab disclosure makes the claim specific.
 
 The visual package already names the right four jobs: tokenization ladder, web-corpus filter funnel, data-mixture control board, and memorization/contamination blocker map. The remaining task is not to add more generic data art. It is to place those figures where they prevent mistakes: token counts are not words, cleaned web data is not clean truth, mixture boards are not closed-model recipes, and memorization evidence is not a universal leakage rate.
 

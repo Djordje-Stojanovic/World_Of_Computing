@@ -5,10 +5,10 @@ This file points to the final, complete version of "Next Token."
 ## PDF Details
 
 - **File**: `rendered/final_i0337/Next-Token-final-i0337.pdf`
-- **SHA-256**: `fb52c3e6a4f701d97b8b8f4f0b11641d109171f5df59b26cc84bb61783c20195`
-- **Word Count**: 104,416
+- **SHA-256**: `4d155646f38565c1d41354006dc1823fbfaf45b1a2d6a2b90676110c4c3d43bd`
+- **Word Count**: 104,425
 - **Chapter Count**: 24
-- **Render Date**: 2026-05-27T19:04:18.786368+00:00
+- **Render Date**: 2026-05-27T19:04:59.045009+00:00
 - **Pass ID**: I-0337
 
 ## What This Book Contains
@@ -58,7 +58,7 @@ This is the complete 24-chapter book on the race to build AI systems that learne
 - **Hard gate QA**: All gates passed
 - **Forbidden strings**: Zero in reader-facing prose
 - **Chapter count**: 24/24 confirmed
-- **Word count**: 104,416 in 100,000-120,000 range
+- **Word count**: 104,425 in 100,000-120,000 range
 - **Content additions**: All I-0336 events integrated (DeepSeek V3.2/V4, GPT-5 series, Llama 4, DGX Spark, AMD Ryzen AI, Colossus, Hormuz Strait, GPU pricing index)
 
 ## Known Limitations

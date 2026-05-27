@@ -2,9 +2,9 @@
 
 ## Final State (I-0337)
 
-- **Word Count**: 104,416
+- **Word Count**: 104,425
 - **Chapter Count**: 24
-- **SHA-256**: fb52c3e6a4f701d97b8b8f4f0b11641d109171f5df59b26cc84bb61783c20195
+- **SHA-256**: 4d155646f38565c1d41354006dc1823fbfaf45b1a2d6a2b90676110c4c3d43bd
 - **Pass Count**: ~337 (I-0001 through I-0337)
 - **Completion Date**: 2026-05-27
 - **PDF**: rendered/final_i0337/Next-Token-final-i0337.pdf
