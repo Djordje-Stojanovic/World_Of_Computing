@@ -8,7 +8,7 @@ Open this only as the current rescue baseline, not as the final edition:
 
 `rendered/final_private_i0318/Next-Token-final-private-contextual-visuals-i0318.pdf`
 
-This proof has 640 pages, 300 image objects, 2691 drawing/vector objects, 13 quantitative tables, 10 benchmark tables, 0 multi-image pages, and 0 blank pages by ink/text/image QA. SHA-256: `06501c2d6897f364015b6d9e99ad163c119ec527ee6fccc353898dd3f4496cff`.
+This proof has 640 pages, 300 image objects, 2691 drawing/vector objects, 13 quantitative tables, 10 benchmark tables, 0 multi-image pages, and 0 blank pages by ink/text/image QA. SHA-256: `8fd6c2bde8fb39320161d8b35322b6b744842ae5cfa3467b9ed2594898ed3993`.
 
 It is not final. A direct reader review rejected the current book surface because it opens with ChatGPT instead of a chronological Transformer-era spine, exposes caption/source bureaucracy, contains blank and sparse pages, uses visual portfolio dumps, and allows multi-image pages.
 

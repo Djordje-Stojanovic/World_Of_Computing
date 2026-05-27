@@ -1,0 +1,14 @@
+pass_id	table_id	chapter	kind	title	row_count	source_ids
+I-0320	QT-0320-01	03	benchmark	Scaling Measurement: What The Curve Actually Measured	4	S-0003;S-0015;data/chapter3_scaling_claim_audit_i0094.tsv
+I-0320	QT-0320-02	04	benchmark	GPT Lineage: Interface And Evaluation Steps	4	S-0011;S-0012;S-0013;S-0004;S-0052;S-0070;data/chapter5_gpt_lineage_claim_audit_i0095.tsv
+I-0320	QT-0320-03	05	benchmark	Instruction Following: The Evaluation Shift	3	S-0014;data/chapter6_alignment_claim_audit_i0096.tsv
+I-0320	QT-0320-04	06	benchmark	ChatGPT As A Measured Interface Event	3	S-0006;S-0078;S-0090;data/chapter7_chatgpt_completion_audit_i0097.tsv;data/chapter22_economics_claim_audit_i0127.tsv
+I-0320	QT-0320-05	09	benchmark	2024 Benchmark Landscape: Long Context And Multimodal Pressure	3	data/benchmark_model_landscape_rows_i0289.tsv;data/benchmark_model_landscape_tables_i0289.tsv
+I-0320	QT-0320-06	10	benchmark	Open-Weight Evaluation: What A Model Card Can Prove	3	data/benchmark_model_landscape_rows_i0289.tsv;data/model_card_benchmark_completion_i0289.tsv
+I-0320	QT-0320-07	12	benchmark	2025 China And Open-Model Benchmark Lanes	3	data/benchmark_model_landscape_rows_i0289.tsv;data/chapter11_china_open_model_claim_audit_i0105.tsv
+I-0320	QT-0320-08	13	benchmark	Benchmark Ladder Through The Cutoff	9	data/benchmark_year_table_i0283.tsv
+I-0320	QT-0320-09	13	benchmark	Arena Rank: What A Dated Slice Can And Cannot Say	3	S-0080;data/chapter13_rankings_expansion_claim_audit_i0098.tsv;data/lmarena_may19_chart_i0034.tsv
+I-0320	QT-0320-10	20	benchmark	Coding-Agent Benchmarks: Harness Before Hype	3	S-0007;data/claude4_benchmark_agent_permission_i0114.tsv
+I-0320	QT-0320-11	16	measure	Data-Center Power: The Physical Scale Of Inference	5	S-0083;S-0084;S-0085;S-0086;data/chapter16_quant_claim_audit_i0043.tsv
+I-0320	QT-0320-12	17	measure	Tokens: The Small Unit That Makes The Bill And The Context Window	4	S-0043;S-0153;S-0154;S-0155;S-0157;data/chapter17_data_tokens_claim_audit_i0121.tsv
+I-0320	QT-0320-13	22	measure	Token Economics: The Meter Becomes A Product Surface	5	S-0060;S-0061;S-0062;data/provider_pricing_rows_i0026.tsv;data/chapter22_economics_claim_audit_i0127.tsv

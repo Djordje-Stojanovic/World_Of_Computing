@@ -1,0 +1,10 @@
+pass_id	artifact	path	exists	bytes	sha256	pages	note
+I-0320	source_pdf	rendered/final_private_i0319/Next-Token-final-private-one-visual-page-i0319.pdf	yes	64160890	0bc74c0dbb3d3045a9ec3f572a5937f84c524b5f852df32bb39f4682f89e0288	639	I-0319 one-visual-per-page proof
+I-0320	quantitative_html	rendered/final_private_i0320/Next-Token-final-private-quantitative-i0320.html	yes	97014112	d029be1625dde3f410728df63eceed2fd2fd6f6a91b7d622baa7b9de6d3556b9		I-0320 quantitative HTML
+I-0320	quantitative_pdf	rendered/final_private_i0320/Next-Token-final-private-quantitative-i0320.pdf	yes	64197577	06501c2d6897f364015b6d9e99ad163c119ec527ee6fccc353898dd3f4496cff	640	I-0320 quantitative PDF
+I-0320	quantitative_markdown	manuscript/Next-Token-quantitative-i0320.md	yes	379283	d05825eaee255a6639e33bd29370afb892fd3d40e44be70b01f3031bbc2ba291		I-0320 manuscript snapshot
+I-0320	baseline	data/quantitative_enrichment_baseline_i0320.tsv	yes	236	d76340019ccf58622129fd27f50f42f2450ab36ebf2d4d8d0dc734a670976bc9		I-0320 quantitative baseline
+I-0320	tables	data/quantitative_enrichment_tables_i0320.tsv	yes	2174	1a440845cb75618fcc427e9ad77849d0812fdbb67815397299000312f76c4643		I-0320 quantitative table ledger
+I-0320	qa	data/quantitative_enrichment_qa_i0320.tsv	yes	644	52287f493446e2eba5992bd8e8efc9b4a54785e06870839a1ea6889189a365c1		I-0320 quantitative QA
+I-0320	report	manuscript/quantitative-enrichment-i0320.md	yes	905	8260b5845ebc4884b76401709e90c1b4d85aba57f7ed90a8ba15c0072be4aac5		I-0320 report
+I-0320	pointer	champion/final-private-pdf-pointer-i0320.md	yes	752	c6761fec972ca4ecea929c9ff62d3b8f722cd2dd8321a29f2852b48b542cd10a		I-0320 pointer

@@ -1,0 +1,11 @@
+pass_id	check	result	evidence
+I-0320	quantitative tables added	pass	0 -> 13 tables
+I-0320	benchmark table target met	pass	benchmark_tables=10
+I-0320	table ledger complete	pass	13 rows for 13 tables
+I-0320	word count remains in band	pass	100520 -> 101906
+I-0320	one-image-page gate preserved	pass	multi_image_pages=0; max_images_on_page=1
+I-0320	zero blank pages preserved	pass	blank_pages=0
+I-0320	visual abundance retained	pass	300 -> 300 image objects
+I-0320	forbidden reader-facing residue absent	pass	0 hits
+I-0320	24 chapters preserved	pass	unique_chapters=24
+I-0320	claim ledger unsupported zero	pass	336 supported / 0 needs-verification
