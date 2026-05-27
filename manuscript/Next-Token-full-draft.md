@@ -208,8 +208,8 @@ Before that box could feel natural, language had to be squeezed into representat
 
 ### The Older Machine
 
-> [!FIGURE] **F02.01 / A-0115 - The Bottleneck Before The Breakthrough**
-> Caption: F02.01: The Bottleneck Before The Breakthrough.
+> [!FIGURE] **F02.01 / A-0285-001 - Transformer Paper Page As The Breakthrough Surface**
+> Caption: F02.01: Attention Is All You Need page-one render anchors the Transformer breakthrough as a primary source surface; it does not prove intention, later implementation details, modern product behavior, or claims beyond the cited paper.
 > Source note: Sources: S-0002;S-0104;S-0105;S-0106;S-0107. Rights path: ready_svg. Story role: pre-Transformer pressure chain.
 
 
@@ -353,8 +353,8 @@ The next breakthrough begins with a bottleneck: sequence models could remember, 
 
 ### The Break In The Loop
 
-> [!FIGURE] **F03.01 / A-0116 - Attention Is A Mixing Operation, Not A Mind**
-> Caption: F03.01: Attention Is A Mixing Operation, Not A Mind.
+> [!FIGURE] **F03.01 / A-0288-001 - BERT Page As Bidirectional Transformer Lineage**
+> Caption: F03.01: BERT page-one render supplies masked-language-model lineage texture for the attention chapter; it does not make BERT a generative chatbot or prove later LLM behavior.
 > Source note: Sources: S-0002;S-0108. Rights path: ready_svg. Story role: self-attention mechanism.
 
 
@@ -510,8 +510,8 @@ Scaling enters the story as an empirical gamble, where curves became strategy be
 
 ### The Curve Before The Product
 
-> [!FIGURE] **F04.01 / A-0117 - Loss Is A Map, Not A Product Guarantee**
-> Caption: F04.01: Loss Is A Map, Not A Product Guarantee.
+> [!FIGURE] **F04.01 / A-0285-005 - Scaling Laws Page As Loss-Compute Evidence**
+> Caption: F04.01: Scaling Laws for Neural Language Models page-one render grounds the scaling chapter in measured loss, model, data, and compute tradeoffs; it does not prove truth, safety, emergence thresholds, or business value.
 > Source note: Sources: S-0003;S-0004;S-0015;S-0016. Rights path: ready_svg. Story role: scaling evidence lanes.
 
 
@@ -681,8 +681,8 @@ The GPT line turns the gamble into a service surface, a door through which build
 
 ### The Model That Learned To Begin
 
-> [!FIGURE] **F05.01 / A-0010 - From Pretraining To The Cursor**
-> Caption: F05.01: From Pretraining To The Cursor.
+> [!FIGURE] **F05.01 / A-0285-002 - GPT-1 Paper Page As Pretraining Origin**
+> Caption: F05.01: Improving Language Understanding by Generative Pre-Training page-one render anchors GPT-1 as a transfer/pretraining source surface; it does not prove ChatGPT, GPT-3, or broad product capability.
 > Source note: Sources: local:data/gpt_lineage_visual_table.tsv. Rights path: ready_svg. Story role: GPT lineage anchor.
 
 
@@ -1459,8 +1459,8 @@ Google enters under a stranger burden: it already owned research depth, consumer
 
 ### The Company That Had Already Built the Future
 
-> [!FIGURE] **F09.01 / A-0086 - Research Became Product In Stages**
-> Caption: F09.01: Research Became Product In Stages.
+> [!FIGURE] **F09.01 / A-0288-004 - PaLM Page As Google's Scale Surface**
+> Caption: F09.01: PaLM page-one render gives the Google/DeepMind chapter a pre-Gemini scale artifact; it does not prove current Gemini quality, deployment, Search impact, or product adoption.
 > Source note: Sources: S-0002;S-0016;S-0108;S-0115;S-0116;S-0117;S-0118;S-0119;S-0121;S-0122;S-0123;S-0124. Rights path: ready_svg. Story role: Google conversion timeline.
 
 
@@ -1517,8 +1517,8 @@ That is the giant's burden. A startup can make one miracle. Google had to make a
 
 ### Long Context As Product Grammar
 
-> [!FIGURE] **F09.03 / A-0088 - Long Context Became A Product Grammar**
-> Caption: F09.03: Long Context Became A Product Grammar.
+> [!FIGURE] **F09.03 / A-0288-016 - Gemini 1.5 Report Page As Long-Context Surface**
+> Caption: F09.03: Gemini 1.5 technical-report page-one render anchors long-context product grammar in a source surface; it does not prove current product state, live model rank, or Search impact.
 > Source note: Sources: S-0117;S-0123;S-0124. Rights path: ready_svg. Story role: long-context product grammar.
 
 
@@ -1625,8 +1625,8 @@ Meta changes the surface of the race by making powerful weights downloadable obj
 
 ### The Downloadable Object
 
-> [!FIGURE] **F10.01 / A-0030 - Llama Family Open-Weight Map**
-> Caption: F10.01: Llama Family Open-Weight Map.
+> [!FIGURE] **F10.01 / A-0288-009 - Llama 3 Herd Paper Page**
+> Caption: F10.01: The Llama 3 Herd of Models page-one render makes Meta's open-weight family visible as a report artifact; it does not prove open-source legal status, adoption, benchmark supremacy, or deployment outcomes.
 > Source note: Sources: S-0008;S-0023;S-0024;S-0025;S-0111;S-0113. Rights path: ready_svg. Story role: Llama family map.
 
 
@@ -1742,8 +1742,8 @@ That control-stack framing also protects the chapter from two easy mistakes. It 
 
 ### The Open-Weight Caveats
 
-> [!FIGURE] **F10.05 / A-0260-013 - Open weights became developer infrastructure**
-> Caption: F10.05: Llama GitHub surface.
+> [!FIGURE] **F10.05 / A-0285-008 - Llama 2 Report Page As Open-Weight Infrastructure**
+> Caption: F10.05: Llama 2 report page-one render anchors open-weight infrastructure in a source surface; it does not prove open-source legal status, adoption, superiority, or safe deployment.
 > Source note: Sources: S-0114. Rights path: private_capture_needed. Story role: Llama repository surface.
 
 
@@ -1843,8 +1843,8 @@ What remains blocked is just as important. DeepSeek V4-era claims stay out of pr
 
 ### GLM, Kimi, and The Broader Frontier
 
-> [!FIGURE] **F11.03 / A-0260-014 - Qwen evidence starts with the paper**
-> Caption: F11.03: Qwen2 source surface.
+> [!FIGURE] **F11.03 / A-0285-010 - Qwen2 Technical Report Page**
+> Caption: F11.03: Qwen2 technical-report page-one render gives the China/open-model chapter a dated Qwen source surface; it does not support Qwen 3.5 or Qwen 3.6 claims or live rank without later sources.
 > Source note: Sources: S-0026. Rights path: private_capture_needed. Story role: Qwen2 source surface.
 
 
@@ -1872,8 +1872,8 @@ The key phrase for this chapter is source permission. Qwen2 and Qwen3 have permi
 
 ### Hardware Constraints and Model Style
 
-> [!FIGURE] **F11.04 / A-0260-015 - Qwen3 needs its own dated anchor**
-> Caption: F11.04: Qwen3 source surface.
+> [!FIGURE] **F11.04 / A-0288-017 - Qwen3 Technical Report Page**
+> Caption: F11.04: Qwen3 technical-report page-one render adds a dated Qwen3 source surface; it does not support unsupported Qwen 3.5 or Qwen 3.6 claims or live ranking claims.
 > Source note: Sources: S-0027. Rights path: private_capture_needed. Story role: Qwen3 source surface.
 
 
@@ -1899,8 +1899,8 @@ This discipline gives the chapter a rhythm: supported lanes in prose, missing la
 
 ### Why The Frontier Became Multipolar
 
-> [!FIGURE] **F11.05 / A-0284-009 - DeepSeek Public Product Texture**
-> Caption: F11.05: DeepSeek source image supplies a visible China/open-model surface beside the DeepSeek-R1 discussion; it does not prove training cost, benchmark superiority, censorship behavior, or deployment scale.
+> [!FIGURE] **F11.05 / A-0285-011 - DeepSeek-V3 Technical Report Page**
+> Caption: F11.05: DeepSeek-V3 technical-report page-one render grounds the DeepSeek lane in a primary report surface; it does not prove post-cutoff V4 claims, neutral benchmark superiority, or deployment scale.
 > Source note: Sources: S-0029. Rights path: private_capture_needed. Story role: DeepSeek-R1 source surface.
 
 
@@ -2616,8 +2616,8 @@ That does not make the platform story false. It makes it strategic. The reader s
 
 ### Roadmaps Are Not Time Machines
 
-> [!FIGURE] **F15.03 / A-0027 - GTC Page 49: System Comparison**
-> Caption: F15.03: GTC Page 49: System Comparison.
+> [!FIGURE] **F15.03 / A-0285-019 - GTC 2026 Rack-Scale Comparison Page**
+> Caption: F15.03: GTC 2026 page render supplies NVIDIA-attributed rack-scale comparison texture; it does not prove independent performance, customer outcomes, or real workload mix.
 > Source note: Sources: S-0001;S-0010. Rights path: ready_svg. Story role: GTC system comparison card.
 
 
@@ -2635,8 +2635,8 @@ The reader should leave this section with a habit: when a chip company shows a t
 
 ### Vera Rubin As A System Promise
 
-> [!FIGURE] **F15.04 / A-0028 - GTC Page 50: Roadmap Cadence**
-> Caption: F15.04: GTC Page 50: Roadmap Cadence.
+> [!FIGURE] **F15.04 / A-0285-018 - GTC 2026 Hardware Roadmap Page**
+> Caption: F15.04: GTC 2026 hardware-roadmap page render anchors the cutoff-labeled roadmap discussion; roadmap language is not happened history after the cutoff.
 > Source note: Sources: S-0001;S-0065;S-0067. Rights path: ready_svg. Story role: GTC roadmap cadence card.
 
 
@@ -2683,8 +2683,8 @@ But reference designs are not deployments. A release can prove a product positio
 
 ### From Tokens To Capital Equipment
 
-> [!FIGURE] **F15.06 / A-0260-021 - AI factories are source-actor framing**
-> Caption: F15.06: NVIDIA frames the AI factory as industrial infrastructure: inference is the workload, tokens are the commodity, and compute is revenue..
+> [!FIGURE] **F15.06 / A-0285-017 - GTC 2026 AI Factory Framing Page**
+> Caption: F15.06: GTC 2026 AI-factory framing page render shows NVIDIA's source-actor language about inference, tokens, compute, and revenue; it does not prove deployed capacity, revenue, or a neutral industry definition.
 > Source note: Sources: S-0001;local:GTC-2026-Keynote.pdf page 29. Rights path: local_ignored_hash_available. Story role: GTC page 29 slide render.
 
 
@@ -2850,8 +2850,8 @@ The old cloud story was "scale hides complexity." The AI infrastructure story is
 
 ### The Fuel Mix Is Not A Press Release
 
-> [!FIGURE] **F16.04 / A-0022 - Cooling And Rack Density Are Constraints, Not Plumbing**
-> Caption: F16.04: Cooling And Rack Density Are Constraints, Not Plumbing.
+> [!FIGURE] **F16.04 / A-0288-014 - GTC 2026 Data-Center Power/Cooling Page**
+> Caption: F16.04: GTC 2026 data-center power/cooling page render adds facility-constraint texture; it does not prove site-level grid impact, water use, or economics.
 > Source note: Sources: S-0087;S-0088. Rights path: ready_svg. Story role: cooling/rack-density note.
 
 
@@ -3333,8 +3333,8 @@ Code sharpens that outward move because language can now become syntax, run agai
 
 ### The Language That Compiles
 
-> [!FIGURE] **F19.01 / A-0090 - Code Was The Second Native Language**
-> Caption: F19.01: Code Was The Second Native Language.
+> [!FIGURE] **F19.01 / A-0288-006 - Code Llama Paper Page As Code-Model Lineage**
+> Caption: F19.01: Code Llama page-one render anchors code models as a visible open-foundation-model source surface; it does not prove developer replacement, production correctness, or current benchmark rank.
 > Source note: Sources: S-0035;S-0052;S-0054;S-0070;S-0132. Rights path: ready_svg. Story role: code as language.
 
 
@@ -3524,8 +3524,8 @@ That shift made the product feel less like a helper and more like a junior colle
 
 ### From Prompt To Work Order
 
-> [!FIGURE] **F20.02 / A-0033 - Coding Benchmark Caveat Matrix**
-> Caption: F20.02: Coding Benchmark Caveat Matrix.
+> [!FIGURE] **F20.02 / A-0285-013 - SWE-bench Paper Page As Harness Evidence**
+> Caption: F20.02: SWE-bench page-one render makes coding-agent evaluation a visible benchmark-harness surface; it does not prove developer replacement or production productivity.
 > Source note: Sources: S-0007;S-0035;S-0037. Rights path: ready_svg. Story role: coding benchmark caveat matrix.
 
 
@@ -3541,8 +3541,8 @@ The result is a new kind of prompt. It is less like "write me a function" and mo
 
 ### The Benchmark Was A Door, Not A Destination
 
-> [!FIGURE] **F20.03 / A-0034 - Tool-Call Lifecycle**
-> Caption: F20.03: Tool-Call Lifecycle.
+> [!FIGURE] **F20.03 / A-0285-014 - Toolformer Paper Page As Tool-Use Lineage**
+> Caption: F20.03: Toolformer page-one render gives tool-use chapters a primary research source surface; it does not prove autonomous reliability or current agent capability.
 > Source note: Sources: S-0022;S-0050. Rights path: ready_svg. Story role: tool-call lifecycle.
 
 
@@ -3687,13 +3687,13 @@ Reasoning systems shift some of the cost into the pause before an answer, making
 > Source note: Sources: S-0168;S-0169;S-0170;S-0171;S-0172;S-0173. Rights path: ready_svg. Story role: reasoning compute axis.
 
 
-> [!FIGURE] **F21.02 / A-0079 - Reasoning Is A Loop, Not A Magic Thought Bubble**
-> Caption: F21.02: Reasoning Is A Loop, Not A Magic Thought Bubble.
+> [!FIGURE] **F21.02 / A-0288-005 - Chain-of-Thought Paper Page**
+> Caption: F21.02: Chain-of-Thought Prompting page-one render anchors reasoning/test-time prompting in a primary source surface; it does not prove robust reasoning, hidden cognition, or safety.
 > Source note: Sources: S-0135;S-0170;S-0171;S-0172;S-0173. Rights path: ready_svg. Story role: reasoning loop.
 
 
-> [!FIGURE] **F21.03 / A-0080 - A Reasoning Score Needs An Inference Contract**
-> Caption: F21.03: A Reasoning Score Needs An Inference Contract.
+> [!FIGURE] **F21.03 / A-0285-012 - DeepSeek-R1 Report Page As Reasoning Surface**
+> Caption: F21.03: DeepSeek-R1 report page-one render ties the reasoning score discussion to a primary report surface; it does not prove universal reasoning, safe deployment, or current rank.
 > Source note: Sources: S-0035;S-0036;S-0037. Rights path: ready_svg. Story role: inference contract.
 
 

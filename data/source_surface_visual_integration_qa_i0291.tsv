@@ -1,0 +1,13 @@
+check	status	detail
+manifest_row_count	pass	100
+manifest_unique_figure_ids	pass	100
+integrated_surface_count	pass	20
+manuscript_callout_sync	pass	20
+chapter_count	pass	24
+word_count_band	pass	103162
+page_render_files_exist	pass	20
+page_render_hashes_match	pass	20
+source_card_fallback_hashes_match	pass	20
+surface_family_coverage	pass	paper_report_excerpt,pdf_presentation_page,pdf_technical_report_page
+rights_stage_set	pass	20
+manifest_failures	pass	none
