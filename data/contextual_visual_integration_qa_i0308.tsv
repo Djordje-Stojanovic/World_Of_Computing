@@ -1,0 +1,11 @@
+pass_id	check_id	category	result	evidence	recommended_action
+I-0308	I0308-001	pdf_render_exists	pass	pages=662; blank_like=0; sha256=450a7309814a1f414cb07d5a3c4169a814e8800600adf272536dd6fe8939bbd6	No action required for this automated check.
+I-0308	I0308-002	terminal_atlas_removed	pass	visual_atlas=0; board_intro=0; pdf_terminal_dump_hits=0	No action required for this automated check.
+I-0308	I0308-003	all_supplemental_items_relocated_or_cut	pass	atlas_figures_moved=200; boards_moved=31; cuts=3	No action required for this automated check.
+I-0308	I0308-004	chapter_context_sections	pass	html_context=24; pdf_context_hits=24	No action required for this automated check.
+I-0308	I0308-005	no_context_after_coda	pass	last_context_before_coda=yes	No action required for this automated check.
+I-0308	I0308-006	visual_objects_preserved	pass	before_images=330; after_images=330; before_drawings=4891; after_drawings=5818	No action required for this automated check.
+I-0308	I0308-007	residue_still_zero	pass	residue_total=0	No action required for this automated check.
+I-0308	I0308-008	claim_ledger_zero_unsupported	pass	claims={'supported': 324}	No action required for this automated check.
+I-0308	I0308-009	book_invariants_preserved	pass	words=103526; chapters=24	No action required for this automated check.
+I-0308	I0308-010	manifest_complete	pass	artifacts=8; missing=0	No action required for this automated check.

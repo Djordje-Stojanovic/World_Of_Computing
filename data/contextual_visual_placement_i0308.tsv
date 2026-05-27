@@ -1,0 +1,232 @@
+pass_id	item_id	item_type	source_location	target_chapter	target_section_id	placement_method	title	story_fit	decision
+I-0308	VX001	atlas_figure	terminal_visual_atlas	CH17	chapter-17-contextual-visuals	keyword	Generated visual grammar prototype	Establishes recurring timeline grammar for the book.	moved
+I-0308	VX002	atlas_figure	terminal_visual_atlas	CH17	chapter-17-contextual-visuals	keyword	Generated visual grammar prototype	Establishes agent workflow grammar around human framing, model planning, tools, checks, review, and iteration.	moved
+I-0308	VX003	atlas_figure	terminal_visual_atlas	CH04	chapter-04-contextual-visuals	keyword	Generated visual grammar prototype	Establishes chart grammar for tradeoffs while foregrounding uncertainty and snapshot requirements.	moved
+I-0308	VX004	atlas_figure	terminal_visual_atlas	CH05	chapter-05-contextual-visuals	regex:\bfigure\s+0?(\d{1,2})[\.\-]	Generated GPT lineage visual table	Gives Chapter 5 a compact visual anchor for the shift from pretraining to prompting to API infrastructure to code-at-the-cursor.	moved
+I-0308	VX005	atlas_figure	terminal_visual_atlas	CH06	chapter-06-contextual-visuals	regex:\bfigure\s+0?(\d{1,2})[\.\-]	Generated RLHF and alignment pipeline visual	Gives Chapter 6 a mechanism visual showing assistant behavior as a layered product stack rather than evidence that alignment is solved.	moved
+I-0308	VX006	atlas_figure	terminal_visual_atlas	CH15	chapter-15-contextual-visuals	regex:\bfigure\s+0?(\d{1,2})[\.\-]	Generated AI factory stack visual	Gives Chapter 15 a reader-friendly mechanism diagram that explains the AI factory stack without converting NVIDIA keynote ratios or roadmap claims into independent facts.	moved
+I-0308	VX007	atlas_figure	terminal_visual_atlas	CH13	chapter-13-contextual-visuals	regex:\bfigure\s+0?(\d{1,2})[\.\-]	Generated LMArena historical leaderboard chart	Gives Chapter 13 a sourced model-ranking visual while making dataset config, category, publish date, and non-live-leaderboard caveats visible.	moved
+I-0308	VX008	atlas_figure	terminal_visual_atlas	CH13	chapter-13-contextual-visuals	regex:\bfigure\s+0?(\d{1,2})[\.\-]	Generated Arena leaderboard methodology flow	"Teaches readers how to interpret leaderboard rows before seeing any model as ""best,"" and prevents live-rank, release-status, price-quality, and task-superiority overclaims."	moved
+I-0308	VX009	atlas_figure	terminal_visual_atlas	CH16	chapter-16-contextual-visuals	regex:\bfigure\s+0?(\d{1,2})[\.\-]	Generated Chapter 16 N16-1 note layout mock	Gives Chapter 16 a visual QA artifact for source-cue cleanup before any production prose merge or PDF layout change.	moved
+I-0308	VX010	atlas_figure	terminal_visual_atlas	CH16	chapter-16-contextual-visuals	regex:\bfigure\s+0?(\d{1,2})[\.\-]	Generated Chapter 16 parent inline-cue render	Provides the parent side of the I-0073 A/B comparison against the N16-1 candidate mock and makes the readability tradeoff auditable before any live prose merge.	moved
+I-0308	VX011	atlas_figure	terminal_visual_atlas	CH13	chapter-13-contextual-visuals	regex:\bfigure\s+0?(\d{1,2})[\.\-]	Generated price-quality exclusion map	Gives Chapter 13 a third visual slot that makes the blocked price-quality frontier honest and visible instead of hiding exclusions in prose.	moved
+I-0308	VX012	atlas_figure	terminal_visual_atlas	CH16	chapter-16-contextual-visuals	regex:\bfigure\s+0?(\d{1,2})[\.\-]	Generated Chapter 16 cooling and rack-density note	Shows cooling and rack density as facility constraints between power access and useful accelerator deployment without overclaiming engineering specifics.	moved
+I-0308	VX013	atlas_figure	terminal_visual_atlas	CH15	chapter-15-contextual-visuals	regex:\bfigure\s+0?(\d{1,2})[\.\-]	Generated GTC page 29 AI factory thesis card	Gives Chapter 15 a commit-safe slide-derived card that carries page provenance and blocks neutral AI-factory economics claims.	moved
+I-0308	VX014	atlas_figure	terminal_visual_atlas	CH15	chapter-15-contextual-visuals	regex:\bfigure\s+0?(\d{1,2})[\.\-]	Generated GTC page 45 inference compute roadmap card	Gives Chapter 15 a commit-safe slide-derived card that preserves the roadmap and availability caveat before prose expansion.	moved
+I-0308	VX015	atlas_figure	terminal_visual_atlas	CH15	chapter-15-contextual-visuals	regex:\bfigure\s+0?(\d{1,2})[\.\-]	Generated GTC page 46 Vera Rubin partner card	Gives Chapter 15 a page-provenance visual for Vera Rubin without converting partner/performance claims into independent fact.	moved
+I-0308	VX016	atlas_figure	terminal_visual_atlas	CH15	chapter-15-contextual-visuals	regex:\bfigure\s+0?(\d{1,2})[\.\-]	Generated GTC page 49 system comparison card	Gives Chapter 15 a safe visual handle for NVIDIA's promotional system argument while blocking independent throughput, revenue, or deployed-capacity claims.	moved
+I-0308	VX017	atlas_figure	terminal_visual_atlas	CH15	chapter-15-contextual-visuals	regex:\bfigure\s+0?(\d{1,2})[\.\-]	Generated GTC page 50 roadmap card	Gives Chapter 15 a cutoff-bounded roadmap visual that keeps future-generation items from becoming happened history.	moved
+I-0308	VX018	atlas_figure	terminal_visual_atlas	CH10	chapter-10-contextual-visuals	regex:\bfigure\s+0?(\d{1,2})[\.\-]	Generated Llama family open-weight map	Gives Chapter 10 a family-tree visual that explains release surfaces and blocks benchmark, license, adoption, safety, and price-quality overclaims.	moved
+I-0308	VX019	atlas_figure	terminal_visual_atlas	CH11	chapter-11-contextual-visuals	regex:\bfigure\s+0?(\d{1,2})[\.\-]	Generated China open-model source-permission map	Gives Chapter 11 a visual guardrail that shows supported primary-source lanes separately from Qwen 3.5/3.6, DeepSeek V4-era, MiniMax, Baidu, Tencent, Xiaomi MiMo, and StepFun source gaps.	moved
+I-0308	VX020	atlas_figure	terminal_visual_atlas	CH20	chapter-20-contextual-visuals	regex:\bfigure\s+0?(\d{1,2})[\.\-]	Generated Chapter 20 coding-agent harness loop	Shows why coding-agent performance is a system loop rather than a raw model number.	moved
+I-0308	VX021	atlas_figure	terminal_visual_atlas	CH20	chapter-20-contextual-visuals	regex:\bfigure\s+0?(\d{1,2})[\.\-]	Generated Chapter 20 coding benchmark caveat matrix	Lets Chapter 20 use benchmark drama while preserving version, scaffold, date, and productivity blockers.	moved
+I-0308	VX022	atlas_figure	terminal_visual_atlas	CH20	chapter-20-contextual-visuals	regex:\bfigure\s+0?(\d{1,2})[\.\-]	Generated Chapter 20 tool-call lifecycle	Makes the action boundary visible and connects Claude Code security docs to the chapter agency argument.	moved
+I-0308	VX023	atlas_figure	terminal_visual_atlas	CH20	chapter-20-contextual-visuals	regex:\bfigure\s+0?(\d{1,2})[\.\-]	Generated Chapter 20 productivity claim blocker map	Prevents Chapter 20 from laundering benchmark or vendor-doc evidence into business-outcome prose.	moved
+I-0308	VX024	atlas_figure	terminal_visual_atlas	CH08	chapter-08-contextual-visuals	regex:\bfigure\s+0?(\d{1,2})[\.\-]	Generated Chapter 8 cloud-to-product flywheel	Shows the business mechanism behind the cloud bargain without proving financial success, active use, productivity, or deployment scale.	moved
+I-0308	VX025	atlas_figure	terminal_visual_atlas	CH01	chapter-01-contextual-visuals	regex:\bfigure\s+0?(\d{1,2})[\.\-]	Generated Chapter 1 ChatGPT shock chronology	Makes Chapter 1's launch-speed story legible while preventing fastest-growing-app, OpenAI-confirmed 100M users, paid-user, revenue, retention, productivity, or merged adoption claims.	moved
+I-0308	VX026	atlas_figure	terminal_visual_atlas	CH21	chapter-21-contextual-visuals	regex:\bfigure\s+0?(\d{1,2})[\.\-]	Generated Chapter 21 train-time versus test-time compute axes	Shows reasoning as extra inference-time structure without pretending to plot a measured frontier curve.	moved
+I-0308	VX027	atlas_figure	terminal_visual_atlas	CH21	chapter-21-contextual-visuals	regex:\bfigure\s+0?(\d{1,2})[\.\-]	Generated Chapter 21 verifier/search loop	Makes self-consistency, process supervision, tree search, and ReAct-style observation legible while blocking truth-guarantee and faithful-explanation claims.	moved
+I-0308	VX028	atlas_figure	terminal_visual_atlas	CH21	chapter-21-contextual-visuals	regex:\bfigure\s+0?(\d{1,2})[\.\-]	Generated Chapter 21 inference-contract matrix	Teaches benchmark permission before any reasoning chart becomes a rank or productivity claim.	moved
+I-0308	VX029	atlas_figure	terminal_visual_atlas	CH21	chapter-21-contextual-visuals	regex:\bfigure\s+0?(\d{1,2})[\.\-]	Generated Chapter 21 reasoning-budget routing map	Connects reasoning budgets to product routing and human review while blocking exact routing-policy, cost, latency, adoption, and solved-truth claims.	moved
+I-0308	VX030	atlas_figure	terminal_visual_atlas	CH22	chapter-22-contextual-visuals	regex:\bfigure\s+0?(\d{1,2})[\.\-]	Generated Chapter 22 token meter	Shows token pricing as a product meter while blocking live-price, cost-per-token, margin, revenue, utilization, and price-quality frontier claims.	moved
+I-0308	VX031	atlas_figure	terminal_visual_atlas	CH22	chapter-22-contextual-visuals	regex:\bfigure\s+0?(\d{1,2})[\.\-]	Generated Chapter 22 routing/caching/batching levers	Explains cost levers without claiming actual savings, routing quality, provider margin, utilization, production behavior, or customer ROI.	moved
+I-0308	VX032	atlas_figure	terminal_visual_atlas	CH22	chapter-22-contextual-visuals	regex:\bfigure\s+0?(\d{1,2})[\.\-]	Generated Chapter 22 subscription/API/bundle map	Separates product surfaces from outcome economics while blocking subscriber, paid-seat, active-use, productivity, revenue, margin, ROI, and broad adoption claims.	moved
+I-0308	VX033	atlas_figure	terminal_visual_atlas	CH22	chapter-22-contextual-visuals	regex:\bfigure\s+0?(\d{1,2})[\.\-]	Generated Chapter 22 margin and ROI blocker grid	Makes the chapter's negative controls visible so market-structure evidence does not become balance-sheet evidence.	moved
+I-0308	VX034	atlas_figure	terminal_visual_atlas	CH09	chapter-09-contextual-visuals	regex:\bfigure\s+0?(\d{1,2})[\.\-]	Generated Chapter 9 research-to-product conversion timeline	Shows Google's conversion problem without ranking the company or implying market success.	moved
+I-0308	VX035	atlas_figure	terminal_visual_atlas	CH09	chapter-09-contextual-visuals	regex:\bfigure\s+0?(\d{1,2})[\.\-]	Generated Chapter 9 TPU/Search/Workspace surface map	Makes Google's stack breadth legible while preserving the distinction between availability and user desire.	moved
+I-0308	VX036	atlas_figure	terminal_visual_atlas	CH09	chapter-09-contextual-visuals	regex:\bfigure\s+0?(\d{1,2})[\.\-]	Generated Chapter 9 Gemini long-context lane	Shows long context as product grammar and infrastructure pressure rather than solved memory or retrieval.	moved
+I-0308	VX037	atlas_figure	terminal_visual_atlas	CH09	chapter-09-contextual-visuals	regex:\bfigure\s+0?(\d{1,2})[\.\-]	Generated Chapter 9 benchmark/adoption blocker grid	Makes negative controls visible so product posts and model-card surfaces do not become market or benchmark proof.	moved
+I-0308	VX038	atlas_figure	terminal_visual_atlas	CH19	chapter-19-contextual-visuals	regex:\bfigure\s+0?(\d{1,2})[\.\-]	Generated Chapter 19 code-as-language ladder	Shows code as translation into operation without implying autonomous programming or literal understanding.	moved
+I-0308	VX039	atlas_figure	terminal_visual_atlas	CH19	chapter-19-contextual-visuals	regex:\bfigure\s+0?(\d{1,2})[\.\-]	Generated Chapter 19 editor-to-repository workflow	Makes the editor assistant loop legible while preserving the distinction between suggestion and outcome.	moved
+I-0308	VX040	atlas_figure	terminal_visual_atlas	CH19	chapter-19-contextual-visuals	regex:\bfigure\s+0?(\d{1,2})[\.\-]	Generated Chapter 19 coding benchmark ladder	Teaches benchmark permission before any code score becomes a rank, productivity claim, or broad competence claim.	moved
+I-0308	VX041	atlas_figure	terminal_visual_atlas	CH19	chapter-19-contextual-visuals	regex:\bfigure\s+0?(\d{1,2})[\.\-]	Generated Chapter 19 repository-as-prompt schematic	Connects repository context to supervised coding workflows and hands off cleanly to the Chapter 20 terminal-agent case study.	moved
+I-0308	VX042	atlas_figure	terminal_visual_atlas	CH10	chapter-10-contextual-visuals	regex:\bfigure\s+0?(\d{1,2})[\.\-]	Generated Chapter 10 open-weight control stack	"Makes Chapter 10's control-stack argument visible so ""open"" does not become one undifferentiated claim."	moved
+I-0308	VX043	atlas_figure	terminal_visual_atlas	CH10	chapter-10-contextual-visuals	regex:\bfigure\s+0?(\d{1,2})[\.\-]	Generated Chapter 10 adopter burden transfer diagram	Shows why open weights create control and burden at the same time.	moved
+I-0308	VX044	atlas_figure	terminal_visual_atlas	CH10	chapter-10-contextual-visuals	regex:\bfigure\s+0?(\d{1,2})[\.\-]	Generated Chapter 10 Llama screenshot-priority board	Prevents final layout from stacking four similar Meta pages and tells later capture work which surfaces matter most.	moved
+I-0308	VX045	atlas_figure	terminal_visual_atlas	CH15	chapter-15-contextual-visuals	regex:\bfigure\s+0?(\d{1,2})[\.\-]	GTC 2026 page 29 AI-factory source surface	Shows NVIDIA's own framing while keeping the independent economics question outside the slide.	moved
+I-0308	VX046	atlas_figure	terminal_visual_atlas	CH15	chapter-15-contextual-visuals	regex:\bch(?:apter)?\s*0?(\d{1,2})\b	GTC 2026 page 51 DSX handoff source surface	Connects Chapter 15 AI-factory stagecraft to Chapter 16 power, cooling, and interconnection evidence.	moved
+I-0308	VX047	atlas_figure	terminal_visual_atlas	CH13	chapter-13-contextual-visuals	keyword	Jensen Huang cropped portrait	Adds real-world/source-surface texture without promoting adoption, revenue, capacity, workload, performance-rank, safety, or current-UI claims.	moved
+I-0308	VX048	atlas_figure	terminal_visual_atlas	CH13	chapter-13-contextual-visuals	keyword	TSMC Fab5 building	Adds real-world/source-surface texture without promoting adoption, revenue, capacity, workload, performance-rank, safety, or current-UI claims.	moved
+I-0308	VX049	atlas_figure	terminal_visual_atlas	CH09	chapter-09-contextual-visuals	keyword	Google data center in The Dalles	Adds real-world/source-surface texture without promoting adoption, revenue, capacity, workload, performance-rank, safety, or current-UI claims.	moved
+I-0308	VX050	atlas_figure	terminal_visual_atlas	CH13	chapter-13-contextual-visuals	keyword	Electrical substation	Adds real-world/source-surface texture without promoting adoption, revenue, capacity, workload, performance-rank, safety, or current-UI claims.	moved
+I-0308	VX051	atlas_figure	terminal_visual_atlas	CH13	chapter-13-contextual-visuals	keyword	Silicon wafer	Adds real-world/source-surface texture without promoting adoption, revenue, capacity, workload, performance-rank, safety, or current-UI claims.	moved
+I-0308	VX052	atlas_figure	terminal_visual_atlas	CH14	chapter-14-contextual-visuals	keyword	NVIDIA AI	AI platform/source surface	moved
+I-0308	VX053	atlas_figure	terminal_visual_atlas	CH03	chapter-03-contextual-visuals	keyword	NVIDIA Blackwell	Blackwell hardware texture	moved
+I-0308	VX054	atlas_figure	terminal_visual_atlas	CH14	chapter-14-contextual-visuals	keyword	NVIDIA GTC	GTC public event surface	moved
+I-0308	VX055	atlas_figure	terminal_visual_atlas	CH14	chapter-14-contextual-visuals	keyword	AMD Instinct	accelerator competitor texture	moved
+I-0308	VX056	atlas_figure	terminal_visual_atlas	CH16	chapter-16-contextual-visuals	keyword	CoreWeave	AI cloud/datacenter texture	moved
+I-0308	VX057	atlas_figure	terminal_visual_atlas	CH12	chapter-12-contextual-visuals	keyword	Anthropic Claude	Claude product surface	moved
+I-0308	VX058	atlas_figure	terminal_visual_atlas	CH12	chapter-12-contextual-visuals	keyword	Anthropic Claude 4	model launch source surface	moved
+I-0308	VX059	atlas_figure	terminal_visual_atlas	CH11	chapter-11-contextual-visuals	keyword	DeepSeek	China frontier lab/product surface	moved
+I-0308	VX060	atlas_figure	terminal_visual_atlas	CH10	chapter-10-contextual-visuals	keyword	Meta Llama	open-weight model surface	moved
+I-0308	VX061	atlas_figure	terminal_visual_atlas	CH10	chapter-10-contextual-visuals	keyword	Meta AI	Meta AI product/lab surface	moved
+I-0308	VX062	atlas_figure	terminal_visual_atlas	CH09	chapter-09-contextual-visuals	keyword	Google Gemini	Gemini interface surface	moved
+I-0308	VX063	atlas_figure	terminal_visual_atlas	CH09	chapter-09-contextual-visuals	keyword	Google Cloud AI	cloud AI product surface	moved
+I-0308	VX064	atlas_figure	terminal_visual_atlas	CH14	chapter-14-contextual-visuals	keyword	ASML	semiconductor supply-chain surface	moved
+I-0308	VX065	atlas_figure	terminal_visual_atlas	CH10	chapter-10-contextual-visuals	keyword	Hugging Face	open model hub surface	moved
+I-0308	VX066	atlas_figure	terminal_visual_atlas	CH10	chapter-10-contextual-visuals	keyword	Mistral AI	European frontier lab surface	moved
+I-0308	VX067	atlas_figure	terminal_visual_atlas	CH24	chapter-24-contextual-visuals	fallback:final synthesis	xAI	frontier lab product surface	moved
+I-0308	VX068	atlas_figure	terminal_visual_atlas	CH19	chapter-19-contextual-visuals	keyword	PyTorch	ML tooling surface	moved
+I-0308	VX069	atlas_figure	terminal_visual_atlas	CH14	chapter-14-contextual-visuals	keyword	CUDA Toolkit	CUDA tooling surface	moved
+I-0308	VX070	atlas_figure	terminal_visual_atlas	CH13	chapter-13-contextual-visuals	keyword	LMArena	leaderboard surface	moved
+I-0308	VX071	atlas_figure	terminal_visual_atlas	CH14	chapter-14-contextual-visuals	keyword	Oracle AI	cloud AI surface	moved
+I-0308	VX072	atlas_figure	terminal_visual_atlas	CH08	chapter-08-contextual-visuals	keyword	IBM watsonx	enterprise AI platform surface	moved
+I-0308	VX073	atlas_figure	terminal_visual_atlas	CH17	chapter-17-contextual-visuals	keyword	Databricks ML	data/model platform surface	moved
+I-0308	VX074	atlas_figure	terminal_visual_atlas	CH17	chapter-17-contextual-visuals	keyword	Snowflake Cortex	data cloud AI surface	moved
+I-0308	VX075	atlas_figure	terminal_visual_atlas	CH14	chapter-14-contextual-visuals	keyword	NVIDIA CUDA Toolkit	software stack surface	moved
+I-0308	VX076	atlas_figure	terminal_visual_atlas	CH14	chapter-14-contextual-visuals	keyword	AMD ROCm	accelerator software surface	moved
+I-0308	VX077	atlas_figure	terminal_visual_atlas	CH14	chapter-14-contextual-visuals	keyword	AMD Instinct MI300	accelerator competitor surface	moved
+I-0308	VX078	atlas_figure	terminal_visual_atlas	CH14	chapter-14-contextual-visuals	keyword	CoreWeave Cloud	GPU cloud surface	moved
+I-0308	VX079	atlas_figure	terminal_visual_atlas	CH14	chapter-14-contextual-visuals	keyword	Lambda GPU Cloud	GPU cloud surface	moved
+I-0308	VX080	atlas_figure	terminal_visual_atlas	CH24	chapter-24-contextual-visuals	fallback:final synthesis	Crusoe Cloud	AI infrastructure cloud surface	moved
+I-0308	VX081	atlas_figure	terminal_visual_atlas	CH14	chapter-14-contextual-visuals	keyword	Digital Realty AI	datacenter AI surface	moved
+I-0308	VX082	atlas_figure	terminal_visual_atlas	CH14	chapter-14-contextual-visuals	keyword	ASML Lithography	semiconductor supply-chain surface	moved
+I-0308	VX083	atlas_figure	terminal_visual_atlas	CH14	chapter-14-contextual-visuals	keyword	TSMC 3DFabric	advanced packaging surface	moved
+I-0308	VX084	atlas_figure	terminal_visual_atlas	CH09	chapter-09-contextual-visuals	keyword	Vertex AI	cloud AI platform surface	moved
+I-0308	VX085	atlas_figure	terminal_visual_atlas	CH07	chapter-07-contextual-visuals	keyword	OpenAI ChatGPT Plus launch text render	Shows subscription packaging as product evidence without adoption or revenue inference.	moved
+I-0308	VX086	atlas_figure	terminal_visual_atlas	CH07	chapter-07-contextual-visuals	keyword	OpenAI ChatGPT Enterprise launch text render	Shows the workplace-control turn without importing customer-outcome claims.	moved
+I-0308	VX087	atlas_figure	terminal_visual_atlas	CH07	chapter-07-contextual-visuals	keyword	OpenAI ChatGPT release notes source surface	Gives the tool/product turn an official dated release-note surface.	moved
+I-0308	VX088	atlas_figure	terminal_visual_atlas	CH06	chapter-06-contextual-visuals	keyword	OpenAI Model Spec behavior surface	Shows assistant behavior becoming specified product infrastructure.	moved
+I-0308	VX089	atlas_figure	terminal_visual_atlas	CH06	chapter-06-contextual-visuals	keyword	OpenAI GPT-4 System Card first page	Adds visible system-card evidence to the alignment/product-safety lane.	moved
+I-0308	VX090	atlas_figure	terminal_visual_atlas	CH06	chapter-06-contextual-visuals	keyword	OpenAI GPT-4o System Card first page	Gives the alignment/product chapter a later system-card surface.	moved
+I-0308	VX091	atlas_figure	terminal_visual_atlas	CH13	chapter-13-contextual-visuals	keyword	LMArena historical dataset JSON surface	Shows leaderboard rows as captured data, not live crown rhetoric.	moved
+I-0308	VX092	atlas_figure	terminal_visual_atlas	CH10	chapter-10-contextual-visuals	keyword	Mistral pricing source surface	Gives token-economics prose a concrete provider pricing surface.	moved
+I-0308	VX093	atlas_figure	terminal_visual_atlas	CH09	chapter-09-contextual-visuals	keyword	Google Gemini launch blog source surface	Shows Gemini as a public Google product surface rather than only a model-family diagram.	moved
+I-0308	VX094	atlas_figure	terminal_visual_atlas	CH09	chapter-09-contextual-visuals	keyword	Bard becomes Gemini source surface	Shows product naming and app packaging as evidence of interface conversion.	moved
+I-0308	VX095	atlas_figure	terminal_visual_atlas	CH09	chapter-09-contextual-visuals	keyword	Gemini 1.5 arXiv source surface	Pairs Google product texture with an auditable technical-report page.	moved
+I-0308	VX096	atlas_figure	terminal_visual_atlas	CH15	chapter-15-contextual-visuals	regex:\bfigure\s+0?(\d{1,2})[\.\-]	GTC-2026-Keynote.pdf	Anchor visual for Chapter 15's AI factory thesis while making attribution to NVIDIA explicit.	moved
+I-0308	VX097	atlas_figure	terminal_visual_atlas	CH15	chapter-15-contextual-visuals	regex:\bfigure\s+0?(\d{1,2})[\.\-]	GTC-2026-Keynote.pdf	Shows roadmap and specialized inference compute in NVIDIA's GTC platform pitch without treating availability or performance claims as shipped fact.	moved
+I-0308	VX098	atlas_figure	terminal_visual_atlas	CH15	chapter-15-contextual-visuals	regex:\bfigure\s+0?(\d{1,2})[\.\-]	GTC-2026-Keynote.pdf	Supports Chapter 15 discussion of rack-scale AI factory systems while preserving partner and performance caveats.	moved
+I-0308	VX099	atlas_figure	terminal_visual_atlas	CH15	chapter-15-contextual-visuals	regex:\bfigure\s+0?(\d{1,2})[\.\-]	GTC-2026-Keynote.pdf	Shows NVIDIA's system-level AI factory argument without converting promotional performance ratios into independent facts.	moved
+I-0308	VX100	atlas_figure	terminal_visual_atlas	CH15	chapter-15-contextual-visuals	regex:\bfigure\s+0?(\d{1,2})[\.\-]	GTC-2026-Keynote.pdf	Provides a cutoff-bounded roadmap visual that must distinguish future roadmap items from happened facts.	moved
+I-0308	VX101	atlas_figure	terminal_visual_atlas	CH15	chapter-15-contextual-visuals	regex:\bfigure\s+0?(\d{1,2})[\.\-]	GTC-2026-Keynote.pdf	Supports AI factory reference-design discussion in Chapters 15 and 16 without implying customer deployment or facility performance.	moved
+I-0308	VX102	atlas_figure	terminal_visual_atlas	CH14	chapter-14-contextual-visuals	keyword	GTC-2026-Keynote.pdf	Provides a private-use source surface for the token-economics chart backlog while keeping exact axes and company-result claims blocked.	moved
+I-0308	VX103	atlas_figure	terminal_visual_atlas	CH14	chapter-14-contextual-visuals	keyword	GTC 2026 keynote title/opening surface	GTC opening/title page as NVIDIA source surface.	moved
+I-0308	VX104	atlas_figure	terminal_visual_atlas	CH15	chapter-15-contextual-visuals	keyword	GTC 2026 inference/economics framing	Inference compute framing for token-economics prose.	moved
+I-0308	VX105	atlas_figure	terminal_visual_atlas	CH15	chapter-15-contextual-visuals	keyword	GTC 2026 networking/platform surface	Networking/platform layer for AI factory stack.	moved
+I-0308	VX106	atlas_figure	terminal_visual_atlas	CH15	chapter-15-contextual-visuals	keyword	GTC 2026 DSX/factory design surface	Reference-design surface for infrastructure chapter.	moved
+I-0308	VX107	atlas_figure	terminal_visual_atlas	CH15	chapter-15-contextual-visuals	keyword	GTC 2026 closing/ecosystem surface	Ecosystem/closing page as staged source-actor evidence.	moved
+I-0308	VX108	atlas_figure	terminal_visual_atlas	CH14	chapter-14-contextual-visuals	keyword	GTC 2026 software stack surface	Software/platform layer for CUDA and AI-stack narration.	moved
+I-0308	VX109	atlas_figure	terminal_visual_atlas	CH15	chapter-15-contextual-visuals	keyword	GTC 2026 accelerator system surface	Accelerator/system page for hardware-to-token visual texture.	moved
+I-0308	VX110	atlas_figure	terminal_visual_atlas	CH15	chapter-15-contextual-visuals	keyword	GTC 2026 datacenter/facility surface	Facility/datacenter page for power and infrastructure chapters.	moved
+I-0308	VX111	atlas_figure	terminal_visual_atlas	CH06	chapter-06-contextual-visuals	keyword	GPT-4 System Card first-page surface	System-card page for alignment/product-risk disclosure.	moved
+I-0308	VX112	atlas_figure	terminal_visual_atlas	CH06	chapter-06-contextual-visuals	keyword	GPT-4o System Card first-page surface	Later system-card page showing safety-documentation continuity.	moved
+I-0308	VX113	atlas_figure	terminal_visual_atlas	CH06	chapter-06-contextual-visuals	keyword	GPT-4 Technical Report first-page surface	GPT-4 report surface for frontier-model transition.	moved
+I-0308	VX114	atlas_figure	terminal_visual_atlas	CH23	chapter-23-contextual-visuals	keyword	Sparks of AGI paper first-page surface	A historically important evaluation/claim surface for GPT-4 discourse.	moved
+I-0308	VX115	atlas_figure	terminal_visual_atlas	CH10	chapter-10-contextual-visuals	keyword	I-0283 local model-card screenshot surface	Toolchain proof for future Hugging Face/model-card/docs screenshots.	moved
+I-0308	VX116	atlas_figure	terminal_visual_atlas	CH05	chapter-05-contextual-visuals	regex:\bch(?:apter)?\s*0?(\d{1,2})\b	Hugging Face GPT-2 model card	Chapter 5 GPT-2 model-card surface	moved
+I-0308	VX117	atlas_figure	terminal_visual_atlas	CH05	chapter-05-contextual-visuals	regex:\bch(?:apter)?\s*0?(\d{1,2})\b	OpenAI GPT-2 GitHub repo	Chapter 5 release/repo source surface	moved
+I-0308	VX118	atlas_figure	terminal_visual_atlas	CH10	chapter-10-contextual-visuals	keyword	Hugging Face BLOOM model card	Open model/model-card era surface	moved
+I-0308	VX119	atlas_figure	terminal_visual_atlas	CH10	chapter-10-contextual-visuals	keyword	Hugging Face Mistral 7B model card	European frontier/open-model surface	moved
+I-0308	VX120	atlas_figure	terminal_visual_atlas	CH10	chapter-10-contextual-visuals	keyword	Hugging Face Qwen2 model card	Qwen/open-model source surface	moved
+I-0308	VX121	atlas_figure	terminal_visual_atlas	CH10	chapter-10-contextual-visuals	keyword	Hugging Face DeepSeek-R1 model card	DeepSeek reasoning model-card surface	moved
+I-0308	VX122	atlas_figure	terminal_visual_atlas	CH13	chapter-13-contextual-visuals	keyword	OpenAI API model docs surface	Provider documentation surface for model/version language	moved
+I-0308	VX123	atlas_figure	terminal_visual_atlas	CH12	chapter-12-contextual-visuals	keyword	Anthropic Claude model docs	Claude model/version documentation surface for provider-model language.	moved
+I-0308	VX124	atlas_figure	terminal_visual_atlas	CH10	chapter-10-contextual-visuals	keyword	Mistral model docs	Mistral model documentation surface for European frontier-lab coverage.	moved
+I-0308	VX125	atlas_figure	terminal_visual_atlas	CH14	chapter-14-contextual-visuals	keyword	NVIDIA	hardware/AI factory logo	moved
+I-0308	VX126	atlas_figure	terminal_visual_atlas	CH14	chapter-14-contextual-visuals	keyword	AMD	accelerator competitor logo	moved
+I-0308	VX127	atlas_figure	terminal_visual_atlas	CH12	chapter-12-contextual-visuals	keyword	Anthropic	Claude lab logo	moved
+I-0308	VX128	atlas_figure	terminal_visual_atlas	CH10	chapter-10-contextual-visuals	keyword	Meta	Llama/open-weight logo	moved
+I-0308	VX129	atlas_figure	terminal_visual_atlas	CH09	chapter-09-contextual-visuals	keyword	Google	Gemini/DeepMind ecosystem logo	moved
+I-0308	VX130	atlas_figure	terminal_visual_atlas	CH09	chapter-09-contextual-visuals	keyword	Google Cloud	cloud AI logo	moved
+I-0308	VX131	atlas_figure	terminal_visual_atlas	CH11	chapter-11-contextual-visuals	keyword	Alibaba Cloud	Qwen/cloud ecosystem logo	moved
+I-0308	VX132	atlas_figure	terminal_visual_atlas	CH10	chapter-10-contextual-visuals	keyword	Hugging Face	model hub logo	moved
+I-0308	VX133	atlas_figure	terminal_visual_atlas	CH10	chapter-10-contextual-visuals	keyword	Mistral AI	European frontier lab logo	moved
+I-0308	VX134	atlas_figure	terminal_visual_atlas	CH20	chapter-20-contextual-visuals	keyword	xAI/X	frontier lab/social owner logo	moved
+I-0308	VX135	atlas_figure	terminal_visual_atlas	CH11	chapter-11-contextual-visuals	keyword	Baidu	China model/cloud logo	moved
+I-0308	VX136	atlas_figure	terminal_visual_atlas	CH11	chapter-11-contextual-visuals	keyword	Xiaomi	MiMo model-lab adjacent logo	moved
+I-0308	VX137	atlas_figure	terminal_visual_atlas	CH14	chapter-14-contextual-visuals	keyword	Intel	CPU/accelerator ecosystem logo	moved
+I-0308	VX138	atlas_figure	terminal_visual_atlas	CH14	chapter-14-contextual-visuals	keyword	Arm	CPU ecosystem logo	moved
+I-0308	VX139	atlas_figure	terminal_visual_atlas	CH20	chapter-20-contextual-visuals	keyword	GitHub	coding agent/developer surface logo	moved
+I-0308	VX140	atlas_figure	terminal_visual_atlas	CH19	chapter-19-contextual-visuals	keyword	Python	ML/software substrate logo	moved
+I-0308	VX141	atlas_figure	terminal_visual_atlas	CH19	chapter-19-contextual-visuals	keyword	PyTorch	training framework logo	moved
+I-0308	VX142	atlas_figure	terminal_visual_atlas	CH19	chapter-19-contextual-visuals	keyword	TensorFlow	ML framework logo	moved
+I-0308	VX143	atlas_figure	terminal_visual_atlas	CH20	chapter-20-contextual-visuals	keyword	Docker	deployment/tooling logo	moved
+I-0308	VX144	atlas_figure	terminal_visual_atlas	CH20	chapter-20-contextual-visuals	keyword	Kubernetes	infrastructure orchestration logo	moved
+I-0308	VX145	atlas_figure	terminal_visual_atlas	CH20	chapter-20-contextual-visuals	keyword	Linux	software substrate logo	moved
+I-0308	VX146	atlas_figure	terminal_visual_atlas	CH17	chapter-17-contextual-visuals	keyword	Databricks	data/model platform logo	moved
+I-0308	VX147	atlas_figure	terminal_visual_atlas	CH20	chapter-20-contextual-visuals	keyword	Cloudflare	edge/inference infrastructure logo	moved
+I-0308	VX148	atlas_figure	terminal_visual_atlas	CH20	chapter-20-contextual-visuals	keyword	Apache	open-source substrate logo	moved
+I-0308	VX149	atlas_figure	terminal_visual_atlas	CH13	chapter-13-contextual-visuals	keyword	Kaggle	data/benchmark ecosystem logo	moved
+I-0308	VX150	atlas_figure	terminal_visual_atlas	CH10	chapter-10-contextual-visuals	keyword	Ollama	local model runtime logo	moved
+I-0308	VX151	atlas_figure	terminal_visual_atlas	CH18	chapter-18-contextual-visuals	keyword	LangChain	agent/application framework logo	moved
+I-0308	VX152	atlas_figure	terminal_visual_atlas	CH18	chapter-18-contextual-visuals	keyword	OpenTelemetry	observability stack logo	moved
+I-0308	VX153	atlas_figure	terminal_visual_atlas	CH18	chapter-18-contextual-visuals	keyword	Ray	distributed compute framework logo	moved
+I-0308	VX154	atlas_figure	terminal_visual_atlas	CH18	chapter-18-contextual-visuals	keyword	Dask	distributed Python compute logo	moved
+I-0308	VX155	atlas_figure	terminal_visual_atlas	CH02	chapter-02-contextual-visuals	keyword	Jupyter	notebook/research workflow logo	moved
+I-0308	VX156	atlas_figure	terminal_visual_atlas	CH17	chapter-17-contextual-visuals	keyword	Anaconda	Python data-science platform logo	moved
+I-0308	VX157	atlas_figure	terminal_visual_atlas	CH02	chapter-02-contextual-visuals	keyword	NumPy	numerical computing logo	moved
+I-0308	VX158	atlas_figure	terminal_visual_atlas	CH17	chapter-17-contextual-visuals	keyword	pandas	dataframe tooling logo	moved
+I-0308	VX159	atlas_figure	terminal_visual_atlas	CH02	chapter-02-contextual-visuals	keyword	SciPy	scientific computing logo	moved
+I-0308	VX160	atlas_figure	terminal_visual_atlas	CH17	chapter-17-contextual-visuals	keyword	scikit-learn	classical ML library logo	moved
+I-0308	VX161	atlas_figure	terminal_visual_atlas	CH20	chapter-20-contextual-visuals	keyword	FastAPI	inference/API service logo	moved
+I-0308	VX162	atlas_figure	terminal_visual_atlas	CH20	chapter-20-contextual-visuals	keyword	Go	systems language logo	moved
+I-0308	VX163	atlas_figure	terminal_visual_atlas	CH20	chapter-20-contextual-visuals	keyword	Rust	systems language logo	moved
+I-0308	VX164	atlas_figure	terminal_visual_atlas	CH20	chapter-20-contextual-visuals	keyword	Node.js	server/runtime logo	moved
+I-0308	VX165	atlas_figure	terminal_visual_atlas	CH20	chapter-20-contextual-visuals	keyword	TypeScript	application tooling logo	moved
+I-0308	VX166	atlas_figure	terminal_visual_atlas	CH20	chapter-20-contextual-visuals	keyword	JavaScript	web tooling logo	moved
+I-0308	VX167	atlas_figure	terminal_visual_atlas	CH20	chapter-20-contextual-visuals	keyword	Vite	frontend tooling logo	moved
+I-0308	VX168	atlas_figure	terminal_visual_atlas	CH20	chapter-20-contextual-visuals	keyword	Vercel	AI application deployment logo	moved
+I-0308	VX169	atlas_figure	terminal_visual_atlas	CH20	chapter-20-contextual-visuals	keyword	Netlify	web deployment logo	moved
+I-0308	VX170	atlas_figure	terminal_visual_atlas	CH17	chapter-17-contextual-visuals	keyword	PostgreSQL	database substrate logo	moved
+I-0308	VX171	atlas_figure	terminal_visual_atlas	CH20	chapter-20-contextual-visuals	keyword	Redis	cache/vector-adjacent infrastructure logo	moved
+I-0308	VX172	atlas_figure	terminal_visual_atlas	CH17	chapter-17-contextual-visuals	keyword	MongoDB	document database logo	moved
+I-0308	VX173	atlas_figure	terminal_visual_atlas	CH20	chapter-20-contextual-visuals	keyword	Elastic	search/observability logo	moved
+I-0308	VX174	atlas_figure	terminal_visual_atlas	CH04	chapter-04-contextual-visuals	keyword	Ilya Sutskever	scaling/alignment human anchor	moved
+I-0308	VX175	atlas_figure	terminal_visual_atlas	CH07	chapter-07-contextual-visuals	keyword	Andrej Karpathy	software/LLM education human anchor	moved
+I-0308	VX176	atlas_figure	terminal_visual_atlas	CH14	chapter-14-contextual-visuals	keyword	Lisa Su	accelerator competitor human anchor	moved
+I-0308	VX177	atlas_figure	terminal_visual_atlas	CH07	chapter-07-contextual-visuals	keyword	Greg Brockman	OpenAI systems/product human anchor	moved
+I-0308	VX178	atlas_figure	terminal_visual_atlas	CH12	chapter-12-contextual-visuals	keyword	Daniela Amodei	Anthropic institution human anchor	moved
+I-0308	VX179	atlas_figure	terminal_visual_atlas	CH10	chapter-10-contextual-visuals	keyword	Mark Zuckerberg	Llama/open-weight human anchor	moved
+I-0308	VX180	atlas_figure	terminal_visual_atlas	CH09	chapter-09-contextual-visuals	keyword	Demis Hassabis	DeepMind/Gemini human anchor	moved
+I-0308	VX181	atlas_figure	terminal_visual_atlas	CH09	chapter-09-contextual-visuals	keyword	Sundar Pichai	Google product/platform human anchor	moved
+I-0308	VX182	atlas_figure	terminal_visual_atlas	CH01	chapter-01-contextual-visuals	keyword	Satya Nadella	Microsoft/OpenAI platform human anchor	moved
+I-0308	VX183	atlas_figure	terminal_visual_atlas	CH10	chapter-10-contextual-visuals	keyword	Yann LeCun	open research/model debate human anchor	moved
+I-0308	VX184	atlas_figure	terminal_visual_atlas	CH02	chapter-02-contextual-visuals	keyword	Geoffrey Hinton	neural-network lineage human anchor	moved
+I-0308	VX185	atlas_figure	terminal_visual_atlas	CH02	chapter-02-contextual-visuals	keyword	Yoshua Bengio	deep-learning lineage human anchor	moved
+I-0308	VX186	atlas_figure	terminal_visual_atlas	CH02	chapter-02-contextual-visuals	keyword	Andrew Ng	AI education/cloud human anchor	moved
+I-0308	VX187	atlas_figure	terminal_visual_atlas	CH04	chapter-04-contextual-visuals	keyword	Jeff Dean	Google systems/model scaling human anchor	moved
+I-0308	VX188	atlas_figure	terminal_visual_atlas	CH03	chapter-03-contextual-visuals	keyword	Oriol Vinyals	seq2seq/deep learning human anchor	moved
+I-0308	VX189	atlas_figure	terminal_visual_atlas	CH03	chapter-03-contextual-visuals	keyword	Ashish Vaswani	Transformer human anchor	moved
+I-0308	VX190	atlas_figure	terminal_visual_atlas	CH03	chapter-03-contextual-visuals	keyword	Noam Shazeer	MoE/model architecture human anchor	moved
+I-0308	VX191	atlas_figure	terminal_visual_atlas	CH07	chapter-07-contextual-visuals	keyword	Mira Murati	frontier lab/product human anchor	moved
+I-0308	VX192	atlas_figure	terminal_visual_atlas	CH07	chapter-07-contextual-visuals	keyword	Wojciech Zaremba	OpenAI research human anchor	moved
+I-0308	VX193	atlas_figure	terminal_visual_atlas	CH06	chapter-06-contextual-visuals	keyword	John Schulman	RLHF/OpenAI human anchor	moved
+I-0308	VX194	atlas_figure	terminal_visual_atlas	CH03	chapter-03-contextual-visuals	keyword	Aidan Gomez	Transformer/Cohere human anchor	moved
+I-0308	VX195	atlas_figure	terminal_visual_atlas	CH10	chapter-10-contextual-visuals	keyword	Arthur Mensch	European frontier lab human anchor	moved
+I-0308	VX196	atlas_figure	terminal_visual_atlas	CH10	chapter-10-contextual-visuals	keyword	Clem Delangue	model hub human anchor	moved
+I-0308	VX197	atlas_figure	terminal_visual_atlas	CH10	chapter-10-contextual-visuals	keyword	Thomas Wolf	open-model tooling human anchor	moved
+I-0308	VX198	atlas_figure	terminal_visual_atlas	CH23	chapter-23-contextual-visuals	keyword	Percy Liang	evaluation/foundation-models human anchor	moved
+I-0308	VX199	atlas_figure	terminal_visual_atlas	CH02	chapter-02-contextual-visuals	keyword	Christopher Manning	NLP lineage human anchor	moved
+I-0308	VX200	atlas_figure	terminal_visual_atlas	CH08	chapter-08-contextual-visuals	keyword	Sebastian Bubeck	reasoning/evaluation human anchor	moved
+I-0308	visual-board-lp-logo-01	authored_board	terminal_board_appendix	CH14	chapter-14-contextual-visuals	curated_board_map	Compute And AI Factory Stack	Placed with Chapter 14 because its board theme supports NVIDIA and CUDA: The Moat Under the Moat.	moved
+I-0308	visual-board-lp-logo-02	authored_board	terminal_board_appendix	CH11	chapter-11-contextual-visuals	curated_board_map	Frontier Labs And Model Families	Placed with Chapter 11 because its board theme supports The Chinese Frontier.	moved
+I-0308	visual-board-lp-logo-03	authored_board	terminal_board_appendix	CH08	chapter-08-contextual-visuals	curated_board_map	Cloud, Hub, And Distribution Surfaces	Placed with Chapter 08 because its board theme supports Microsoft, OpenAI, and the Cloud Bargain.	moved
+I-0308	visual-board-lp-logo-04	authored_board	terminal_board_appendix	CH02	chapter-02-contextual-visuals	curated_board_map	Research And Data-Science Substrate	Placed with Chapter 02 because its board theme supports Before the Transformer.	moved
+I-0308	visual-board-lp-logo-05	authored_board	terminal_board_appendix	CH18	chapter-18-contextual-visuals	curated_board_map	Agent And Application Runtime Stack	Placed with Chapter 18 because its board theme supports Tools, Retrieval, and the Agent Turn.	moved
+I-0308	visual-board-lp-logo-06	authored_board	terminal_board_appendix	CH17	chapter-17-contextual-visuals	curated_board_map	Data, Observability, And Service Infrastructure	Placed with Chapter 17 because its board theme supports Data, Tokens, and the Library Problem.	moved
+I-0308	visual-board-lp-people-01	authored_board	terminal_board_appendix	CH02	chapter-02-contextual-visuals	curated_board_map	Deep-Learning And NLP Lineage	Placed with Chapter 02 because its board theme supports Before the Transformer.	moved
+I-0308	visual-board-lp-people-02	authored_board	terminal_board_appendix	CH03	chapter-03-contextual-visuals	curated_board_map	Transformer, Scaling, And Evaluation Line	Placed with Chapter 03 because its board theme supports Attention Catches Fire.	moved
+I-0308	visual-board-lp-people-03	authored_board	terminal_board_appendix	CH07	chapter-07-contextual-visuals	curated_board_map	OpenAI Product And RLHF Line	Placed with Chapter 07 because its board theme supports ChatGPT: The Interface Event.	moved
+I-0308	visual-board-lp-people-04	authored_board	terminal_board_appendix	CH12	chapter-12-contextual-visuals	curated_board_map	Plural Frontier Institutions	Placed with Chapter 12 because its board theme supports Anthropic, Claude, and the Plural Frontier.	moved
+I-0308	visual-board-lp-people-05	authored_board	terminal_board_appendix	CH14	chapter-14-contextual-visuals	curated_board_map	Hardware And Open Ecosystem Operators	Placed with Chapter 14 because its board theme supports NVIDIA and CUDA: The Moat Under the Moat.	moved
+I-0308	visual-board-ss-paper-01	authored_board	terminal_board_appendix	CH04	chapter-04-contextual-visuals	curated_board_map	Transformer, GPT, And Scaling Origins	Placed with Chapter 04 because its board theme supports The Scaling Bet.	moved
+I-0308	visual-board-ss-paper-02	authored_board	terminal_board_appendix	CH06	chapter-06-contextual-visuals	curated_board_map	Alignment, Open Weights, And Model Families	Placed with Chapter 06 because its board theme supports Alignment Enters the Product.	moved
+I-0308	visual-board-ss-paper-03	authored_board	terminal_board_appendix	CH21	chapter-21-contextual-visuals	curated_board_map	Reasoning, Coding, Tool Use, And Retrieval	Placed with Chapter 21 because its board theme supports Reasoning, Test-Time Compute, and the New Scaling Axis.	moved
+I-0308	visual-board-ss-paper-04	authored_board	terminal_board_appendix	CH04	chapter-04-contextual-visuals	curated_board_map	Pretraining Lineage And Compute-Optimal Scale	Placed with Chapter 04 because its board theme supports The Scaling Bet.	moved
+I-0308	visual-board-ss-paper-05	authored_board	terminal_board_appendix	CH19	chapter-19-contextual-visuals	curated_board_map	Open-Model, Code, And Benchmark Texture	Placed with Chapter 19 because its board theme supports Code as the Second Native Language.	moved
+I-0308	visual-board-ss-pdf-01	authored_board	terminal_board_appendix	CH15	chapter-15-contextual-visuals	curated_board_map	GTC Stagecraft: AI Factory Thesis	Placed with Chapter 15 because its board theme supports GTC 2026: The AI Factory Sells Itself.	moved
+I-0308	visual-board-ss-pdf-02	authored_board	terminal_board_appendix	CH15	chapter-15-contextual-visuals	curated_board_map	GTC Platform, Networking, And Facilities	Placed with Chapter 15 because its board theme supports GTC 2026: The AI Factory Sells Itself.	moved
+I-0308	visual-board-ss-pdf-03	authored_board	terminal_board_appendix	CH06	chapter-06-contextual-visuals	curated_board_map	System Cards And GPT-4 Report Surfaces	Placed with Chapter 06 because its board theme supports Alignment Enters the Product.	moved
+I-0308	visual-board-ss-pdf-04	authored_board	terminal_board_appendix	CH16	chapter-16-contextual-visuals	curated_board_map	GTC Infrastructure Constraint Surfaces	Placed with Chapter 16 because its board theme supports Datacenters, Power, and the Physical Internet.	moved
+I-0308	visual-board-ss-pdf-05	authored_board	terminal_board_appendix	CH11	chapter-11-contextual-visuals	curated_board_map	Frontier Technical Reports Beyond The US Core	Placed with Chapter 11 because its board theme supports The Chinese Frontier.	moved
+I-0308	visual-board-atlas-01	authored_board	terminal_board_appendix	CH03	chapter-03-contextual-visuals	curated_board_map	Language Model Foundations	Placed with Chapter 03 because its board theme supports Attention Catches Fire.	moved
+I-0308	visual-board-atlas-02	authored_board	terminal_board_appendix	CH07	chapter-07-contextual-visuals	curated_board_map	Assistant Product Grammar	Placed with Chapter 07 because its board theme supports ChatGPT: The Interface Event.	moved
+I-0308	visual-board-atlas-03	authored_board	terminal_board_appendix	CH13	chapter-13-contextual-visuals	curated_board_map	Model Race And Benchmark Memory	Placed with Chapter 13 because its board theme supports Benchmarks, Arenas, and the Mirage of Rank.	moved
+I-0308	visual-board-atlas-04	authored_board	terminal_board_appendix	CH11	chapter-11-contextual-visuals	curated_board_map	Labs, Open Weights, And Plural Frontier	Placed with Chapter 11 because its board theme supports The Chinese Frontier.	moved
+I-0308	visual-board-atlas-05	authored_board	terminal_board_appendix	CH15	chapter-15-contextual-visuals	curated_board_map	Hardware, CUDA, And AI Factories	Placed with Chapter 15 because its board theme supports GTC 2026: The AI Factory Sells Itself.	moved
+I-0308	visual-board-atlas-06	authored_board	terminal_board_appendix	CH16	chapter-16-contextual-visuals	curated_board_map	Power, Data, And Token Supply Chains	Placed with Chapter 16 because its board theme supports Datacenters, Power, and the Physical Internet.	moved
+I-0308	visual-board-atlas-07	authored_board	terminal_board_appendix	CH20	chapter-20-contextual-visuals	curated_board_map	Agents, Coding, And Tool Use	Placed with Chapter 20 because its board theme supports Claude Code and the Industrialization of Pair Programming.	moved
+I-0308	visual-board-atlas-08	authored_board	terminal_board_appendix	CH23	chapter-23-contextual-visuals	curated_board_map	Economics, Trust, And Evaluation	Placed with Chapter 23 because its board theme supports Failure Modes, Truth, and Trust.	moved
+I-0308	visual-board-atlas-09	authored_board	terminal_board_appendix	CH24	chapter-24-contextual-visuals	curated_board_map	Source Cards And Claim Boundaries	Placed with Chapter 24 because its board theme supports Next Token.	moved
+I-0308	visual-board-atlas-10	authored_board	terminal_board_appendix	CH24	chapter-24-contextual-visuals	curated_board_map	Reader Memory Rails	Placed with Chapter 24 because its board theme supports Next Token.	moved

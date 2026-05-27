@@ -560,3 +560,5 @@ The benchmark layer is strongest when tables are explicit memory aids rather tha
 - I-0306: a visually rich proof is not a finished book if the PDF leaks local filesystem paths, process labels, proof language, or bottom-dump visual assembly. The next gate is publication-surface cleanliness: remove path/residue text, place every good visual in context, cut weak visuals, then render and QA page by page.
 
 - I-0307: path leaks in a PDF are usually a render-surface failure, not a prose failure. The right repair is to disable browser file footers, sanitize visible source-card/SVG text, and prove the result by extracting text from the rendered PDF rather than trusting the HTML source.
+
+- I-0308: visual abundance becomes booklike only when the supplemental layer is relocated by chapter job. A terminal atlas can prove counts, but a chapter-context portfolio makes the same evidence feel edited, paced, and tied to the argument instead of dumped after the story ends.

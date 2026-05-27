@@ -1,0 +1,9 @@
+pass_id	artifact	path	exists	bytes	sha256	pages	image_objects	drawing_objects	note
+I-0308	source_pdf	rendered/final_private_i0307/Next-Token-final-private-residue-clean-i0307.pdf	yes	68171291	a33496a2b5cb66b233a275e0accbe6d741869e56d0218f8371c06f5c3acb06fd	677	330	4891	I-0307 residue-clean proof before contextual visual relocation
+I-0308	contextual_html	rendered/final_private_i0308/Next-Token-final-private-contextual-visuals-i0308.html	yes	97386746	9267f025aef08281ad8688b81848714748a3d3c47172f998c0db48947b897df9				I-0308 contextual visual HTML
+I-0308	contextual_pdf	rendered/final_private_i0308/Next-Token-final-private-contextual-visuals-i0308.pdf	yes	68117650	450a7309814a1f414cb07d5a3c4169a814e8800600adf272536dd6fe8939bbd6	662	330	5818	I-0308 local contextual visual proof
+I-0308	placement_ledger	data/contextual_visual_placement_i0308.tsv	yes	45836	262ef7edecc53674d7a7ddc87d0bf72d25221b187c469f1328b11ec08bd2d48f				moved items=231
+I-0308	cut_ledger	data/contextual_visual_cuts_i0308.tsv	yes	418	069af62cf8be0340d9235223fa51b693079709d596a051b10eaf31e1cb838745				cut obsolete appendix/transition items=3
+I-0308	qa	data/contextual_visual_integration_qa_i0308.tsv	yes	1415	f7e0384e8977707b60854a468d812758dbca209647f6b3a004325ee8014cb5ef				I-0308 QA ledger
+I-0308	report	manuscript/contextual-visual-integration-i0308.md	yes	1334	2cb5373af27b1d95787d45ea6c83adb4bac085deb27cd94f7f7d897d8f92ca05				I-0308 report
+I-0308	champion_pointer	champion/final-private-pdf-pointer-i0308.md	yes	811	b2ea608b86400714a0aac50c207d81d0f54e594f236fb1b9e3235a5fde2ef311				human-facing pointer to I-0308 contextual proof
