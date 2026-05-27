@@ -8,11 +8,12 @@ The book is in its FINAL phase. No more passes. No more batches. No more automat
 
 ### Current State
 
-- **PDF:** 61.9 MB, ~713 pages, 300 images
+- **PDF:** 61.9 MB, ~710 pages, 296 images remaining (4 removed from wrong chapters, pending relocation)
 - **HTML:** 97 MB, base from I-0320 with title/verso/TOC/captions/relocations applied
 - **Log:** `data/page_perfection_log_i0337.tsv` — tracking every page
-- **Pages done:** 1 (title), 2 (verso), 3 (TOC) — PERFECT
-- **Page in progress:** 4 (Chapter 1 opening) — PENDING verification
+- **Pages done:** 1-9 all PERFECT
+- **Page in progress:** 10
+- **Images to place:** All 300 must be placed at intentional positions in correct chapters with text context. 4 removed from Ch1 pending relocation.
 
 ### Per-Page Perfection Criteria
 
@@ -27,6 +28,10 @@ Mark a page PERFECT only when ALL hold:
 8. Chronological flow (narrative moves forward in time)
 9. Professional typography (good breaks, proper hierarchy)
 10. Reads like a book, not a project artifact
+
+### Image Placement (300 images)
+
+Every image must be manually placed at an intentional position in its correct chapter by content. No image gets deleted. Images must have text context above and below. Max 1 per page. Clean captions. Every relocation logged.
 
 ### Page Protocol
 

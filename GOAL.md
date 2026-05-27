@@ -8,12 +8,14 @@ The ten rescue passes are complete. The book now enters its final and ONLY remai
 
 ### Current State (2026-05-27)
 
-- **PDF:** `rendered/final_i0337/Next-Token-final-i0337.pdf` — 61.9 MB, ~713 pages, 300 embedded images
+- **PDF:** `rendered/final_i0337/Next-Token-final-i0337.pdf` — 61.9 MB, ~710 pages, 296 images remaining (4 removed from wrong chapters, pending relocation to correct chapters)
 - **HTML source:** `rendered/final_i0337/Next-Token-final-i0337.html` — 97 MB, all fixes applied via BeautifulSoup
 - **Base:** I-0320 quantitative-enriched HTML (culmination of all rescue visual passes)
-- **Fixes applied:** Title page, verso page, Table of Contents, 200 images relocated from chapter-start dumps into prose flow, 68 bad captions fixed, 25 process elements removed, page-break directives removed
-- **Page tracking:** `data/page_perfection_log_i0337.tsv` — one row per page, columns: page, status, words, images, issue, action_taken, new_words, new_images, notes
-- **Pages reviewed so far:** 1-3 (title, verso, TOC) — confirmed PERFECT; page 4 (Chapter 1 opening) — pending verification
+- **Fixes applied:** Title page, verso page, Table of Contents, 200 images relocated from chapter-start dumps into prose flow, 68 bad captions fixed, 25 process elements removed, page-break directives removed, BERT/NVIDIA/4 person images removed from Chapter 1
+- **Page tracking:** `data/page_perfection_log_i0337.tsv` — one row per page
+- **Pages done:** 1 (title), 2 (verso), 3 (TOC), 4 (Ch1 opening), 5 (Transformer prose), 6 (attention), 7 (positional encoding), 8 (Transformer block), 9 (GPT bridge) — all PERFECT
+- **Page in progress:** 10
+- **Images relocated:** BERT→Ch2, NVIDIA Blackwell→Ch14, Vinyals/Vaswani/Shazeer/Gomez→Ch1 (pending re-insertion with text context)
 
 ### What "Perfect" Means Per Page
 
@@ -29,6 +31,17 @@ For EACH page, verify ALL of the following before marking PERFECT:
 8. **Chronological flow.** The narrative moves forward in time. The reader should feel historical momentum.
 9. **Professional typography.** Good line breaks, no orphans/widows issues, proper heading hierarchy.
 10. **Reads like a book, not a project artifact.** No AI/process/workflow traces visible to the reader.
+
+### Image Placement Rules (CRITICAL — all 300 images must be placed)
+
+Every image must be manually placed at a specific, intentional position:
+
+1. **Correct chapter by CONTENT.** The manifest's F01.xx→Ch1 assignments are often wrong. Match by what the image depicts: Transformer paper→Ch1, BERT→Ch2, Scaling Laws→Ch3, GPUs/Blackwell→Ch14, GTC→Ch15, etc.
+2. **Text context above AND below.** No bare image pages. Image sits between paragraphs that discuss it.
+3. **Max 1 image per page.** Page-break before consecutive images.
+4. **After the prose that introduces it, before the prose that moves on.**
+5. **Clean caption.** Plain English. No ledger IDs, no "shown as a public web page."
+6. **Every relocation logged.** Track which image moved from where to where.
 
 ### Process Per Page
 
