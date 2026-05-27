@@ -176,4 +176,12 @@ For this book, GPT-5.5 is the last entry in the OpenAI chronology. The model tha
 
 At the cutoff, GPT-5.5 was barely a month old. Its long-term significance could not be assessed. What could be said was that the pace of OpenAI's releases had not slowed, the pricing had not collapsed, and the integration with Codex suggested that coding was no longer a side feature. It was becoming the primary product surface through which many users would encounter frontier AI.
 
+## The $110 Billion Month
+
+On February 27, 2026, OpenAI closed a $110 billion funding round -- the largest venture deal in history. Amazon invested $50 billion, NVIDIA invested $30 billion, and SoftBank invested $30 billion. The round valued OpenAI at $730 billion according to Bloomberg, or as high as $852 billion by other estimates, making it one of the most valuable private companies ever created. The company also disclosed that it expected to lose $14 billion in 2026, a figure that made the investment round both more impressive and more unsettling. [S-0196]
+
+The Amazon investment was particularly significant because it came with a multiyear strategic partnership. Amazon, which competed with OpenAI through its own AI models and through Anthropic, was now OpenAI's largest financial backer. The deal illustrated the strange geometry of the AI industry: competitors were also investors, customers were also suppliers, and no single relationship captured the full picture of who depended on whom.
+
+The OpenAI raise, combined with Anthropic's $30 billion Series G two weeks earlier, meant that $140 billion had been committed to the two leading American AI labs in February 2026 alone. For context, the entire global venture capital industry deployed roughly $350 billion in 2024. Two companies had raised nearly half that amount in one month. The numbers were so large they broke the normal vocabulary of startup finance. This was not venture capital in the traditional sense. It was industrial capital, allocated at industrial scale, to companies that had become infrastructure projects as much as software startups.
+
 The final image of Chapter 5 is therefore not a triumphant model, but a problem made legible. The GPT line opened the door. Behind it was a room full of users, developers, prompts, code, policies, failures, business dependencies, and expectations. The next chapter asks how a continuation machine learned to act as if it had been asked for help.
