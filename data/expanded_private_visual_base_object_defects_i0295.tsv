@@ -1,0 +1,2 @@
+pass_id	defect_id	severity	category	evidence	recommended_action
+I-0294	V3DEF-009	P1	svg_vector_survival	html_svg_img_count=0; html_png_img_count=98; SVGs intentionally Chrome-rasterized to PNG for PDF object QA	If vector survival is required later, add a separate vector render path; current production QA uses rasterized images.

@@ -1,0 +1,8 @@
+pass_id	check_id	category	result	evidence	recommended_action
+I-0295	I0295-001	expanded_manifest_size	pass	expanded_rows=300	No action required for this automated check.
+I-0295	I0295-002	file_existence	pass	missing_files=0	No action required for this automated check.
+I-0295	I0295-003	html_image_count	pass	html_img=300; expanded_rows=300	No action required for this automated check.
+I-0295	I0295-004	pdf_image_objects	pass	pdf_images=300; expanded_rows=300	No action required for this automated check.
+I-0295	I0295-005	blank_pages	pass	blank_like=0; pages=600	No action required for this automated check.
+I-0295	I0295-006	target_counts	pass	curated_chart_data_svg_visualization=100/100; real_photo_screenshot_source_image=50/50; paper_report_excerpt=25/25; pdf_deck_report_page=25/25; model_card_hf_benchmark_repo_docs_surface=20/20; logo=50/50; benchmark_table=10/10; person_image=30/30	No action required for this automated check.
+I-0295	I0295-007	chapter_invariants	pass	words=103524; chapters=24	No action required for this automated check.

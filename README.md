@@ -6,16 +6,16 @@ This repository is the working memory, manuscript lab, source ledger, visual sys
 
 ## Current Book State
 
-Updated **2026-05-27** after pass `I-0294`.
+Updated **2026-05-27** after pass `I-0295`.
 
-- **Latest recorded pass:** `I-0294`, final private-edition correction plus visual-target audit.
+- **Latest recorded pass:** `I-0295`, expanded private visual render.
 - **Words:** 103,524 assembled source words across the canonical 24-chapter draft.
-- **Chapters:** 24 / 24.
-- **Current visual PDF:** `rendered/full_book_i0294/Next-Token-full-draft-i0294.pdf` exists locally and is intentionally not committed. It renders the active selected visual program with 100 PDF image objects, 0 blank-like pages, 0 P0 defects, and a minimum extracted caption/source-note font of 10.15 pt.
-- **Important visual-target caveat:** `data/private_visual_target_audit_i0294.tsv` shows that the asset warehouse is much richer than the active rendered selection. The rendered PDF still must not be described as meeting every GOAL.md visual category target until the active rendered counts are expanded or the final report names the shortfall honestly.
-- **Next FIFO pass:** `I-0295` is now visual expansion, not final assembly. `I-0300` is the first final-assembly candidate, and only after expanded visual targets are rendered or honestly reported.
+- **Chapters:** 24 / 24 main chapters.
+- **Current expanded private visual PDF:** `rendered/full_book_i0295/Next-Token-expanded-private-visual-i0295.pdf` exists locally and is intentionally not committed. It contains 300 rendered exhibit rows, 300 PDF image objects, 600 pages, and 0 blank-like pages.
+- **Visual target status:** `data/private_visual_target_audit_i0295.tsv` now records rendered-target pass rows for charts/SVG/data visuals, real screenshots/source images, paper/report excerpts, PDF/deck/report pages, model-card/repo/docs surfaces, logos, benchmark tables, and people/profile images.
+- **Remaining production risk:** this is a private visual atlas expansion proof, not final art direction. The next passes should make the expanded visual mass feel authored: logo/person strips, source-surface groupings, chart atlas polish, density control, and final assembly.
 
-The book is a real, stable 24-chapter manuscript in final private-edition production. It is not done yet: the next work is final assembly plus visible expansion of charts, graphics, screenshots, papers, renderings, logos, and people/source surfaces so the PDF matches the ambition recorded in `GOAL.md`.
+The book is now much closer to the intended private object: not just 100 figures, but a dense rendered visual edition with many real photos/screenshots, logos, people, papers, PDFs, model-card surfaces, charts, tables, and data exhibits.
 
 ## Readiness Snapshot
 

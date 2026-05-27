@@ -1,0 +1,9 @@
+pass_id	target_id	goal_minimum	expanded_rendered_count	expanded_render_gap	status
+I-0295	curated_chart_data_svg_visualization	100	100	0	rendered_target_met
+I-0295	real_photo_screenshot_source_image	50	50	0	rendered_target_met
+I-0295	paper_report_excerpt	25	25	0	rendered_target_met
+I-0295	pdf_deck_report_page	25	25	0	rendered_target_met
+I-0295	model_card_hf_benchmark_repo_docs_surface	20	20	0	rendered_target_met
+I-0295	logo	50	50	0	rendered_target_met
+I-0295	benchmark_table	10	10	0	rendered_target_met
+I-0295	person_image	30	30	0	rendered_target_met
