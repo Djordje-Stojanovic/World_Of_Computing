@@ -3,3 +3,4 @@ page	status	words	images	issue	action_taken	new_words	new_images	notes
 2	PERFECT	6	0	none	Added verso/copyright page	6	0	Verso: "Private Edition • Not for redistribution". Traditional book structure: title → verso → TOC → content.
 3	PERFECT	175	0	none	Built TOC from chapter h1 headings	175	0	Table of Contents: all 24 chapters listed with numbers and titles. Clean, scannable.
 4	PENDING	43	0	Chapter 1 opening page - verify clean	Under review	43	0	"Chapter 01: The Transformer Arrives: Attention Becomes the Engine". Opening sentence and section heading. Needs verification.
+4	PERFECT	43	0	none	none	43	0	Chapter 1 opening: title, hook sentence, section heading. 43w acceptable for chapter start page. No process language.
