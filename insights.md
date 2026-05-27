@@ -2,14 +2,14 @@
 
 ## Final State (I-0337)
 
-- **Word Count**: 110,600
+- **Word Count**: 102,561
 - **Chapter Count**: 24
 - **Pages**: 469
 - **Embedded Images**: 299
-- **SHA-256**: 6f54e751945bc5b42457eb2f7eaa2608afc23d755d894c9a2c879fc76b57890b
-- **Completion Date**: 2026-05-27
-- **PDF**: rendered/final_i0337/Next-Token-final-i0337.pdf
-
+- **SHA-256**: a78218b072b4f801b69b291bbf024cf9ad7284f0b6ea32e3fa68efa27688790d
+- **PDF**: rendered/final_i0337/Next-Token-final-i0337.pdf (61.8 MB)
+- **Completion**: 2026-05-27
+- **Status**: ALL HARD GATES PASSED, ZERO FORBIDDEN STRINGS
 ## What Worked
 
 1. **FIFO Queue**: The ideas.tsv queue kept 337 passes organized
@@ -30,7 +30,7 @@
 - I-0318-I-0320: Contextual visuals, one-per-page, quantitative enrichment
 - I-0321: Hostile page QA
 - I-0322-I-0325: Prose cleanup (chapter source files)
-- I-0337: Final re-render â€” I-0320 HTML base with I-0322-I-0325 prose fixes applied
+- I-0337: Final re-render — I-0320 HTML base with I-0322-I-0325 prose fixes applied
 
 ## Final Verdict
 

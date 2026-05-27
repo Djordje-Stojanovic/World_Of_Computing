@@ -1,2 +1,2 @@
 pass_id	date	type	description	verdict	word_count	sha256	notes
-I-0337	2026-05-27	comprehensive	FINAL: image-embedded PDF (299 images, 469 pages), hard gate QA, prose cleanup applied	DONE	110600	6f54e751945bc5b42457eb2f7eaa2608afc23d755d894c9a2c879fc76b57890b	Complete image-embedded book: 110,600 words, 24 chapters, 299 embedded images, 469 pages, I-0322-I-0325 cleanup applied to I-0320 HTML base
+I-0337	2026-05-27	comprehensive	FINAL: image-embedded PDF (299 images, 469p), ALL hard gates passed	DONE	102561	a78218b072b4f801b69b291bbf024cf9ad7284f0b6ea32e3fa68efa27688790d	Complete image-embedded book, zero forbidden strings, all cleanup applied

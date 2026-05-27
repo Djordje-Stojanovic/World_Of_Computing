@@ -85,32 +85,55 @@ def clean_html(html: str) -> str:
     changes["Status:"] = count_before - count_after
 
     # --- I-0322: Remove process language ---
-    process_replacements = [
-        (r'this pass does not\s+[^.]*\.', ''),
-        (r'this pass does\s+[^.]*\.', ''),
-        (r'a later pass\s+[^.]*\.', ''),
-        (r'later passes\s+[^.]*\.', ''),
-        (r'future pass\s+[^.]*\.', ''),
-        (r'queued by pass\s+[^.]*\.', ''),
-        (r'What This Chapter Must Not\s+[^.]*\.', ''),
-        (r'notes ledger\s+[^.]*\.', ''),
-        (r'Place Figure\s+[^.]*\.', ''),
-        (r'Visual integration:\s+[^.]*\.', ''),
-        (r'Visual anchor:\s+[^.]*\.', ''),
+    # More aggressive: match whole sentences containing forbidden substrings
+    process_substrings = [
+        'notes ledger',
+        'this pass does',
+        'a later pass',
+        'later passes',
+        'later pass',
+        'future pass',
+        'queued by pass',
+        'What This Chapter Must Not',
+        'Place Figure',
+        'Visual integration:',
+        'Visual anchor:',
     ]
-    for pattern, replacement in process_replacements:
-        html = re.sub(pattern, replacement, html, flags=re.IGNORECASE)
+    for sub in process_substrings:
+        # Match from the substring to the next period, removing that sentence
+        # But be careful to only match within text content, not inside HTML tags
+        # Pattern: find substring in text, then remove from before it to the next period
+        escaped = re.escape(sub)
+        # Remove the substring and surrounding sentence context
+        pattern = re.compile(
+            r'([^.]*?)' + escaped + r'([^.]*\.)',
+            re.IGNORECASE
+        )
+        count_before = len(re.findall(escaped, html, re.IGNORECASE))
+        html = pattern.sub('', html)
+        count_after = len(re.findall(escaped, html, re.IGNORECASE))
+        if count_before != count_after:
+            changes[sub] = count_before - count_after
 
-    # --- I-0325: "remains blocked" → "cannot be stated" or remove ---
+    # --- Also remove data/*.tsv references in visible text ---
+    html = re.sub(r'data/[a-z_]+\\.tsv', 'the source ledger', html, flags=re.IGNORECASE)
+    html = re.sub(r'assets_manifest\\.tsv', 'the asset ledger', html, flags=re.IGNORECASE)
+    html = re.sub(r'sources\\.tsv', 'the source ledger', html, flags=re.IGNORECASE)
+    html = re.sub(r'claims\\.tsv', 'the claim ledger', html, flags=re.IGNORECASE)
+    html = re.sub(r'assets_manifest', 'the asset ledger', html, flags=re.IGNORECASE)
+
+    # --- I-0325: "remains blocked" → remove or rephrase ---
     html = re.sub(
-        r'remains blocked',
-        'cannot be stated with current sources',
+        r'[^.]*remains blocked[^.]*\\.',
+        '',
         html,
         flags=re.IGNORECASE
     )
 
     # --- Remove any empty paragraphs created by deletions ---
     html = re.sub(r'<p[^>]*>\s*</p>\s*', '', html)
+    # Also remove paragraphs that are just commas or whitespace
+    html = re.sub(r'<p[^>]*>[,;\s]*</p>\s*', '', html)
 
     # --- Clean up double spaces and excess newlines in text nodes ---
     # (but not inside tags or base64 data)
@@ -169,6 +192,7 @@ def render_pdf() -> bool:
         "--disable-gpu",
         "--no-sandbox",
         "--disable-extensions",
+        "--no-pdf-header-footer",
         f"--print-to-pdf={pdf_path}",
         "--print-to-pdf-no-header",
         html_uri,
