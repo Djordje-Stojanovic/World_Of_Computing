@@ -566,3 +566,5 @@ The benchmark layer is strongest when tables are explicit memory aids rather tha
 - I-0309: A proof can be substantively rich and still not be done if the reader-facing surface carries draft/process residue. The final standard needs both visible PDF text QA and source-package hygiene: clean cover language, clean metadata, embedded image references, and page-by-page checks before delivery polish.
 
 - I-0310: after a PDF repair trilogy, the visual inventory is not trustworthy until it is remapped to the repaired proof. A stale page map is a delivery defect even when the underlying provenance is sound, because the reader needs a current navigation layer for hundreds of visuals.
+
+- I-0311: a final private package needs a human reading path, not just ledgers. The guide should name the one clean PDF to open, the audit artifacts that prove it, and the gates still open, so the reader is not left to interpret stale pointers or old proof files.

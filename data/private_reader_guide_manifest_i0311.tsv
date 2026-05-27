@@ -1,0 +1,13 @@
+pass_id	artifact_id	path	exists	bytes	sha256	role
+I-0311	current_pdf	rendered/final_private_i0309/Next-Token-final-private-publishable-surface-i0309.pdf	yes	68116683	3bafb20e3a5e51eb013c693afc606fd1b25ee4e3f4f4392470940367347a5f1f	Clean private PDF proof to read first.
+I-0311	pdf_pointer	champion/final-private-pdf-pointer-i0309.md	yes	1195	bcf6c0d5588c44e0e6ec96bd999bec302c3287cab5af2e4f1b1676c80111f9b3	Human-readable PDF metrics and QA pointer.
+I-0311	contact_sheet	rendered/final_inventory_i0302/Next-Token-final-private-visual-contact-sheet-i0302.pdf	yes	59164399	218eb5faa5e374c56c53f85ac69e5305910636a654702fe13a4d8c79aa426c5a	Compact visual scan surface from I-0302; local/ignored PDF.
+I-0311	visual_inventory	data/final_private_visual_inventory_i0310.tsv	yes	474211	e2627dd585b0fe31174adcec13babdf6a0b60f46059a0be5009fe524c692fa42	Current 530-row visual inventory mapped to repaired proof.
+I-0311	visual_page_map	data/final_private_visual_page_map_i0310.tsv	yes	93343	f80785b946b947252dcaf05c89296dabb95686041937d43fae900ab91c63ce69	Per-visual page map against I-0309 proof.
+I-0311	visual_distribution	data/final_private_visual_page_distribution_i0310.tsv	yes	106633	e743887fb81b08d4f1d66570adf6fd24ba0e3d918bc5860b09c5557181a0d579	Per-page visual distribution ledger.
+I-0311	visual_map_pointer	champion/final-private-visual-page-map-pointer-i0310.md	yes	728	cac39b7eee11102e1cca7f1eae9a145d072abf8bf550025b0df1edda82afd941	Human-readable current visual map pointer.
+I-0311	claim_audit	champion/final-source-claim-quarantine-i0303.md	yes	1026	f0ca152553754c5cc540fc4119571d511a815642d10e0187c10909015080e35d	Claim discipline and blocked-claim context.
+I-0311	publishable_qa	data/publishable_surface_qa_i0309.tsv	yes	1247	c98bdaa5bb910ddbd4bfe31486c3e6b9e42c1ecd8a9e72624e2f76500587aa4d	I-0309 publishable-surface QA.
+I-0311	page_qa	data/publishable_surface_page_qa_i0309.tsv	yes	22711	043b450df550d3d59323d65f7d022b2984bbd6c981536dfa2f7e5f7f3a41d367	I-0309 page-by-page automated QA.
+I-0311	visual_map_qa	data/final_private_visual_page_map_qa_i0310.tsv	yes	1444	40b7ec7fddf292c7e5b316a85283dea6c7ea9e7f33e0fe3380037302179c9484	I-0310 visual page-map QA.
+I-0311	guide	manuscript/private-reader-guide-i0311.md	yes	2099	61bc2d06e794d9f6ce81c4555db1c0daf003b194beb4c9e28e60c51fbf3e3d8c	This concise private reader guide.

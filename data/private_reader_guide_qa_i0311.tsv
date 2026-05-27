@@ -1,0 +1,8 @@
+pass_id	check_id	check	result	evidence	notes
+I-0311	I0311-001	all_linked_artifacts_exist	pass	missing=0	Guide must not point at missing artifacts.
+I-0311	I0311-002	guide_links_required_artifacts	pass	required_links=11	Guide must link proof, QA, inventory, page map, contact sheet, claim audit, and champion index.
+I-0311	I0311-003	current_clean_pdf_only	pass	stale/proof residue scan passed	Guide must not revive stale proof or local-path/process language.
+I-0311	I0311-004	not_done_status_visible	pass	remaining gates named	Guide must preserve honest remaining-risk status.
+I-0311	I0311-005	qa_metrics_clean	pass	pdf_qa=11 pass / 0 fail; map_qa=12 pass / 0 fail	Guide must be based on clean proof/page-map QA.
+I-0311	I0311-006	claim_ledger_zero_unsupported	pass	327 supported / 0 needs-verification	No unsupported claim debt introduced.
+I-0311	I0311-007	book_invariants	pass	words=103526; chapters=24	Book invariants remain intact.
