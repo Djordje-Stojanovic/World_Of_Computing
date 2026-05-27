@@ -1,0 +1,13 @@
+pass_id	check_id	check	result	evidence	notes
+I-0310	I0310-001	source_pdf_current	pass	pages=662; residue=0	Use the I-0309 publishable-surface proof as the mapping target.
+I-0310	I0310-002	inventory_row_count	pass	rows=530	Preserve the full I-0302 visual inventory set.
+I-0310	I0310-003	all_rows_page_mapped	pass	mapped=530/530	Every inventory row must map to an I-0310 PDF page.
+I-0310	I0310-004	page_bounds	pass	pdf_pages=662	All mapped pages must be inside the repaired PDF.
+I-0310	I0310-005	provenance_preserved	pass	rows=530	No provenance/private-use/blocked-claim fields lost.
+I-0310	I0310-006	local_asset_paths_relative	pass	file_path local-path leak check passed	Inventory paths must remain repository-relative, not absolute C:/ paths.
+I-0310	I0310-007	local_files_exist	pass	missing_files=0	All inventory local files remain available.
+I-0310	I0310-008	visual_targets_pass	pass	pass_rows=9/9	Private visual target summary remains passing.
+I-0310	I0310-009	publishable_qa_still_passes	pass	i0309_checks=11; page_rows=662	The page-map audit must not supersede a failing PDF surface.
+I-0310	I0310-010	distribution_created	pass	visual_pages=308	Page distribution ledger should cover the visual-rich proof.
+I-0310	I0310-011	claim_ledger_zero_unsupported	pass	326 supported / 0 needs-verification	No unsupported claim debt introduced.
+I-0310	I0310-012	book_invariants	pass	words=103526; chapters=24	Book size/chapter invariants remain intact.

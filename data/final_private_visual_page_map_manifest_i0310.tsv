@@ -1,0 +1,7 @@
+pass_id	artifact	role	bytes	sha256	notes
+I-0310	data/final_private_visual_inventory_i0310.tsv	I-0310 530-row visual inventory with repaired PDF page map	474211	e2627dd585b0fe31174adcec13babdf6a0b60f46059a0be5009fe524c692fa42	
+I-0310	data/final_private_visual_page_map_i0310.tsv	I-0310 per-visual page mapping ledger	93343	f80785b946b947252dcaf05c89296dabb95686041937d43fae900ab91c63ce69	
+I-0310	data/final_private_visual_category_summary_i0310.tsv	I-0310 visual target/category summary	4413	f454b43f0a74fd97d22fae37d6a4817f54abf245ff9130a34d0df09fd500b7d5	
+I-0310	data/final_private_visual_page_distribution_i0310.tsv	I-0310 per-page visual distribution ledger	106633	e743887fb81b08d4f1d66570adf6fd24ba0e3d918bc5860b09c5557181a0d579	
+I-0310	data/final_private_visual_page_map_qa_i0310.tsv	I-0310 page-map QA ledger	1444	40b7ec7fddf292c7e5b316a85283dea6c7ea9e7f33e0fe3380037302179c9484	
+I-0310	rendered/final_private_i0309/Next-Token-final-private-publishable-surface-i0309.pdf	I-0309 mapped publishable-surface PDF proof	68116683	3bafb20e3a5e51eb013c693afc606fd1b25ee4e3f4f4392470940367347a5f1f	pdf_pages=662
