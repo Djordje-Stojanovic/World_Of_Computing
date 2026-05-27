@@ -13,14 +13,11 @@ The 2017 Transformer paper made a different wager. It proposed a sequence transd
 That is why the paper belongs early in this book. It was not the first neural language model, not the first attention mechanism, and not the first model to turn text into vectors. Chapter 1 already traced that pressure chain: sparsity, representation, sequence, bottleneck, attention. The Transformer mattered because it turned the pressure chain into a repeatable block that wanted to be stacked, widened, trained, and repurposed.
 
 The public later met this architecture through other names: GPT, BERT, T5, PaLM, Llama, Claude, Gemini, Qwen, DeepSeek. The architecture itself did not guarantee any of those systems. But it supplied a substrate that matched the coming age: more data, more compute, faster accelerators, and labs willing to treat language modeling as a scaling problem.
-
-This chapter should therefore avoid myth. The Transformer was not a magic mind. It was a mechanism. Its beauty is that the mechanism is simple enough to explain and rich enough to become a civilization-scale industrial object.
+ The Transformer was not a magic mind. It was a mechanism. Its beauty is that the mechanism is simple enough to explain and rich enough to become a civilization-scale industrial object.
 
 ## Drafting Controls
 
 Status: Chapter 3 clarity pass promoted in I-0153, 2026-05-26; first promoted as a Chapter 2 draft in pass I-0093 before the later ChatGPT opener became Chapter 1.
-
-Source note: This chapter is anchored on "Attention Is All You Need" and an official Google Research blog explanation of the Transformer. It uses Chapter 2 sources only as continuity, not as authority for extra Transformer claims. The chapter avoids exact benchmark numbers, priority fights, and claims that the Transformer alone caused later LLM products. See `data/chapter2_transformer_claim_audit_i0093.tsv` for row-level permissions and `data/chapter2_transformer_diagram_queue_i0093.tsv` for the visual queue.
 
 ## Attention Without The Metaphor
 
@@ -39,8 +36,7 @@ The key phrase is "becomes," not "is." A token at the input starts as an embeddi
 ## Many Heads, Many Relations
 
 Multi-head attention is one of the Transformer's most important design choices because language rarely has one relationship at a time. A word may need syntactic information, semantic information, local phrase structure, long-range reference, and task-specific signals. One attention operation can learn one mixture pattern. Multiple heads let the model learn several mixture patterns in parallel, then combine them. [S-0002]
-
-The chapter should be careful here too. A head is not guaranteed to correspond neatly to a human-labeled rule. Some heads may look interpretable under analysis; others may not. The prose should not claim that one head "does grammar" and another "does facts" unless a later interpretability source supports that exact claim. The safe point is architectural: multi-head attention gives the model several learned attention subspaces per layer.
+ A head is not guaranteed to correspond neatly to a human-labeled rule. Some heads may look interpretable under analysis; others may not. one head "does grammar" and another "does facts" unless a later interpretability source supports that exact claim. The safe point is architectural: multi-head attention gives the model several learned attention subspaces per layer.
 
 This becomes important when the book later reaches prompting. Prompting works in part because the model can condition on instructions, examples, delimiters, retrieved documents, code context, and conversation history inside one token stream. That does not mean the Transformer "understands" a prompt as a person does. It means the architecture gives later tokens a path to earlier tokens through repeated attention and transformation.
 
@@ -70,13 +66,13 @@ The Transformer block is a compact industrial design: self-attention, feed-forwa
 
 This is where the chapter can begin to talk about scale without jumping ahead to scaling laws. An architecture becomes powerful in history when it is not only clever but repeatable. Researchers can stack more layers, widen hidden dimensions, increase heads, feed more data, and distribute training across accelerators. Not every increase works cleanly, and later chapters will separate scaling evidence from hype. But the Transformer made the experiment legible: build a larger sequence model around attention and see what loss, benchmarks, and downstream behavior do.
 
-This repeatability is one reason the architecture spread across labs and modalities. The book should keep its LLM focus, so this chapter does not need a full tour of vision Transformers, speech models, or diffusion systems. The relevant point is that a general attention-centered block could be adapted and recombined. For LLMs, the decoder-only branch would become especially important because autoregressive next-token prediction aligned naturally with generating text one token at a time.
+This repeatability is one reason the architecture spread across labs and modalities. its LLM focus, so this chapter does not need a full tour of vision Transformers, speech models, or diffusion systems. The relevant point is that a general attention-centered block could be adapted and recombined. For LLMs, the decoder-only branch would become especially important because autoregressive next-token prediction aligned naturally with generating text one token at a time.
 
 The GPT lineage later used Transformer language models trained on text to predict the next token, then adapted and scaled that recipe. GPT-1 used generative Transformer pretraining followed by supervised task adaptation. [S-0011] GPT-2 pushed unsupervised multitask framing. [S-0013] GPT-3 made scale and in-context learning unavoidable topics. [S-0004] Those are Chapter 5 facts, not the burden of this chapter. Here the point is the substrate: the Transformer block made those later recipes possible enough to become a race.
 
 The architecture also changed what counted as product imagination. Before the LLM boom, a model architecture could feel like a research artifact. After the boom, architecture became destiny in budgets: training clusters, memory bandwidth, parallelism, context length, inference latency, and serving cost. The Transformer sat between the paper and the datacenter.
 
-That is why the chapter should use one visual early: an annotated Transformer block with strict source labels. The figure should not pretend to be a full modern LLM implementation. It should show the core reading order: token embedding and position signal, self-attention, feed-forward transformation, residual/layer-normalization wrapper, stacked repetition. The caption should cite S-0002 and warn that later production models modify the block.
+That is why one visual early: an annotated Transformer block with strict source labels. The figure should not pretend to be a full modern LLM implementation. It should show the core reading order: token embedding and position signal, self-attention, feed-forward transformation, residual/layer-normalization wrapper, stacked repetition. The caption should cite S-0002 and warn that later production models modify the block.
 
 ## The Decoder Turn
 
@@ -93,8 +89,7 @@ But this bridge needs guardrails. GPT-style language modeling did not make the m
 ## Parallelism As Plot
 
 The Transformer paper's architectural move was also a hardware move. By removing recurrence from the core sequence transduction architecture, it allowed more parallel computation over sequence positions during training. [S-0002] This matters because modern LLMs did not scale in a vacuum. They scaled through GPUs, TPUs, distributed training software, memory systems, networking, and budgets large enough to turn training runs into capital projects.
-
-The chapter should phrase this as fit, not fate. The Transformer did not automatically become dominant simply because it was parallelizable. Many architectures are parallel in some ways. The important point is that the Transformer combined strong sequence modeling with a computation pattern that could ride accelerator improvements. That combination made it unusually fertile.
+ this as fit, not fate. The Transformer did not automatically become dominant simply because it was parallelizable. Many architectures are parallel in some ways. The important point is that the Transformer combined strong sequence modeling with a computation pattern that could ride accelerator improvements. That combination made it unusually fertile.
 
 The word "fertile" is useful because it avoids a false finality. Later models changed attention variants, normalization placement, activation functions, positional schemes, context strategies, training data, objectives, and alignment layers. Some systems use mixture-of-experts. Some use retrieval. Some reason with extra inference-time compute. The Transformer is not a frozen specimen. It is a family of design grammar.
 
@@ -133,8 +128,7 @@ A third optional diagram can show a "model stack view": embeddings at the bottom
 These diagrams matter because architecture prose can easily become soup. A reader can follow "query, key, value" for a paragraph and lose the larger shape. Visuals should keep the mechanism visible: what enters, what mixes, what repeats, what exits, and where the chapter is simplifying.
 
 ## What The Transformer Did Not Solve
-
-Every architecture chapter needs a humility section. The Transformer did not solve truth. It did not solve grounding. It did not solve memory in the human sense. It did not make models immune to hallucination, prompt injection, data contamination, or brittle reasoning. It did not remove the cost of long context. It did not make attention weights a faithful explanation of every output.
+ The Transformer did not solve truth. It did not solve grounding. It did not solve memory in the human sense. It did not make models immune to hallucination, prompt injection, data contamination, or brittle reasoning. It did not remove the cost of long context. It did not make attention weights a faithful explanation of every output.
 
 Those limits are not footnotes. They are part of the mechanism's importance. The Transformer made it easier to build larger and more capable sequence models, which meant errors could scale alongside usefulness. A model that better uses context can still use the wrong context. A model that can generate fluent text can still generate unsupported text. A model that can call tools can still choose badly, over-trust a prompt, or bury the source of an answer.
 

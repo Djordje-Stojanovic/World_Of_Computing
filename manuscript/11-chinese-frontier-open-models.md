@@ -4,19 +4,13 @@
 
 The American version of the LLM race is easy to narrate: OpenAI lit the interface fuse, Microsoft supplied cloud partnership and distribution, Google defended search and converted research depth into Gemini, Anthropic turned assistant behavior into a brand, Meta pushed open weights, and NVIDIA sold the factories. That story is true enough to be useful. It is also incomplete.
 
-China's model ecosystem became too technically important to treat as a footnote. The evidence does not support a single patriotic scoreboard, and this chapter should not build one. The supported story is more specific: Alibaba's Qwen line, DeepSeek's V3 and R1 reports, Zhipu/THUDM's GLM-4 work, and Moonshot's Kimi k1.5 show that frontier LLM progress was no longer a neat U.S.-centered sequence. [S-0026] [S-0028] [S-0030] [S-0031]
-
-The chapter begins with a warning. "China" is not a lab. It is a national market, a policy environment, a talent pool, a hardware constraint, a cloud ecosystem, a language environment, and a set of companies with different strategies. Alibaba, DeepSeek, Zhipu AI, Moonshot, Baidu, Tencent, MiniMax, Xiaomi, and StepFun should not be flattened into one character. Some systems are open-weight. Some are API products. Some are research reports. Some are product announcements. Some are still source gaps in this manuscript.
+China's model ecosystem became too technically important to treat as a footnote. The evidence does not support a single patriotic scoreboard, and This chapter does not build one. The supported story is more specific: Alibaba's Qwen line, DeepSeek's V3 and R1 reports, Zhipu/THUDM's GLM-4 work, and Moonshot's Kimi k1.5 show that frontier LLM progress was no longer a neat U.S.-centered sequence. [S-0026] [S-0028] [S-0030] [S-0031]
 
 That is why Figure 11.1 is a source map rather than a league table. The safe evidence today supports six primary lanes: Qwen2, Qwen3, DeepSeek-V3, DeepSeek-R1, GLM-4, and Kimi k1.5. It also preserves a gap lane for MiniMax, Baidu, Tencent, Xiaomi MiMo, StepFun, Qwen 3.5/3.6, and DeepSeek V4-era claims. The visual is a promise not to fake certainty.
 
 The chapter's job is different from the Meta chapter's job and different again from the next frontier chapter's job. Meta explains the control stack: what happens when weights, license, hosting, safety, ecosystem, and benchmarks no longer sit cleanly inside one provider. China explains source permission: what can be written from Qwen, DeepSeek, GLM, and Kimi rows today, and what must remain a gap lane until a cutoff-bounded primary source exists. Chapter 12 then widens the aperture to Mistral, xAI, Cohere, AI21, and other labs only when each changes a mechanism. The sequence should feel like a widening map, not like three chapters of names.
 
 Status: promoted chapter draft, pass I-0105, 2026-05-25.
-
-Source note: This chapter uses existing source IDs from the source ledger plus local arXiv captures under `assets/source_docs/china/`. It writes only the China/open-model claims supported by current cutoff-bounded source rows: Qwen2, Qwen3, DeepSeek-V3, DeepSeek-R1, GLM-4, and Kimi k1.5. It does not write Qwen 3.5, Qwen 3.6, DeepSeek V4-era systems, MiniMax, Baidu, Tencent, Xiaomi MiMo, or StepFun as happened releases unless the source-gap table has a supporting row.
-
-Visual integration: Figure 11.1, `assets/visual_system/china-open-model-source-map.svg`, maps supported primary-source lanes and unsupported gap lanes. The row data lives in the companion source table.
 
 ## Qwen and the Alibaba Route
 
@@ -28,7 +22,7 @@ Qwen3 is especially useful because it shows how fast the frontier vocabulary con
 
 But the same report is a trap if used carelessly. It contains benchmark claims. It compares against other models. It names predecessors and training choices. Those can become charts only after a row-level extraction separates model version, benchmark, setting, release status, and license terms. Chapter 13 has already made the rule: rank claims need dated, scoped evidence rather than a clean-looking story. [C-0046]
 
-The most important Qwen claim for this pass is therefore structural. Alibaba/Qwen shows that an open or openly available model strategy did not belong only to Meta or Western open-weight communities. It also became a Chinese cloud-and-developer strategy. A reader should see Qwen beside Llama not because the two releases are legally or technically identical, but because both changed what outsiders could build on.
+The most important Qwen claim for Alibaba/Qwen shows that an open or openly available model strategy did not belong only to Meta or Western open-weight communities. It also became a Chinese cloud-and-developer strategy. A reader should see Qwen beside Llama not because the two releases are legally or technically identical, but because both changed what outsiders could build on.
 
 This chapter deliberately does not write Qwen 3.5 or Qwen 3.6 as happened history. The goal file names those families as mandatory where supported, but the current claim ledger still marks them as verification gaps. [C-0007] That is not a failure of the chapter. It is the chapter behaving like a source system rather than a rumor mill.
 
@@ -41,8 +35,7 @@ The dominant AI story in 2023 and 2024 often made scale feel like an American hy
 The report's MoE structure matters because it changes the relationship between total size and active computation. A dense model uses all parameters for each token. A Mixture-of-Experts model can route tokens through a subset of experts, making the total parameter count larger than the active parameter count. That does not make inference free, and it creates routing, load-balancing, training-stability, and systems challenges. But it gives model builders another axis besides "make the dense model bigger."
 
 DeepSeek-R1 then pushed the narrative into reasoning. The R1 paper describes reinforcement-learning-driven reasoning capability and open-sources DeepSeek-R1-Zero, DeepSeek-R1, and several distilled dense models based on Qwen and Llama. [S-0029] The connection is important: one Chinese model line becomes part of another Chinese model line's reasoning ecosystem, and Meta's Llama appears inside the distillation story as well. The global model race was recombinatory, not national silo work.
-
-The chapter should resist two bad readings. The first is triumphalism: DeepSeek did not prove that compute no longer matters or that constraints are irrelevant. The second is dismissal: the source reports are technical enough that they cannot be waved away as marketing. DeepSeek belongs in the book because it made efficiency, MoE design, reinforcement-learning reasoning, distillation, and open release part of the mainstream frontier conversation.
+ two bad readings. The first is triumphalism: DeepSeek did not prove that compute no longer matters or that constraints are irrelevant. The second is dismissal: the source reports are technical enough that they cannot be waved away as marketing. DeepSeek belongs in the book because it made efficiency, MoE design, reinforcement-learning reasoning, distillation, and open release part of the mainstream frontier conversation.
 
 What remains blocked is just as important. DeepSeek V4-era claims stay out of prose until a cutoff-bounded primary source is captured. [C-0007] Exact benchmark comparisons and cost claims need table extraction. Claims about market impact, geopolitical shock, stock moves, national policy, or broad adoption need separate sources. This chapter is about LLM mechanisms and release strategy, not a financial-news montage.
 
@@ -64,19 +57,17 @@ The Meta chapter used a control-stack frame: weights, license, training transpar
 
 Qwen's Apache 2.0 claim in the Qwen3 report is a strong openness signal, but it does not automatically settle every model-family row, dataset question, or downstream deployment claim. DeepSeek-R1's open-source/distillation language is similarly important, but it does not authorize every rumor about cost, market impact, or geopolitical meaning. Open-source language is a start of analysis, not the end.
 
-The chapter should also distinguish "Chinese open models" from "models in China." DeepSeek-R1's distilled models based on Qwen and Llama show how release surfaces cross institutional and national lines. Meta's open-weight strategy becomes an input into a Chinese reasoning model. Qwen becomes an input into DeepSeek distillations. The open ecosystem is not one company's garden; it is a graph of dependencies.
-
 That graph is one of the reasons model rankings became so difficult. A leaderboard row can hide whether a model is base, instruct, distilled, reasoning, MoE, merged, quantized, API-only, open-weight, or benchmark-tuned. For Chinese model families, the naming complexity can be especially punishing to outsiders. The chapter must keep model names and version claims boringly precise, because one careless version suffix can turn a real model into a fictional historical event.
 
 The key phrase for this chapter is source permission. Qwen2 and Qwen3 have permission for structural prose. DeepSeek-V3 and R1 have permission for MoE, efficiency, and reasoning prose. GLM-4 and Kimi k1.5 have permission for broad family placement. MiniMax, Baidu, Tencent, Xiaomi MiMo, and StepFun currently have permission only as source-gap targets in this pass. That is how the chapter stays honest while still moving the book forward.
 
 ## Hardware Constraints and Model Style
 
-No China LLM chapter can avoid hardware, but hardware should not swallow the chapter. U.S. export controls, local accelerator efforts, cloud capacity, and datacenter constraints shape the environment, but this book should discuss them only where they explain LLM progress. In this pass, the supported model reports already give a narrower technical bridge: efficiency matters.
+No China LLM chapter can avoid hardware, but hardware should not swallow the chapter. U.S. export controls, local accelerator efforts, cloud capacity, and datacenter constraints shape the environment, but this book discusses them only where they explain LLM progress. The supported model reports already give a narrower technical bridge: efficiency matters.
 
 DeepSeek-V3's reported H800 training context and MoE design make efficiency visible as a design pressure. [S-0028] Qwen3's thinking-budget framing makes inference-time compute visible as a product and systems pressure. Kimi k1.5's reinforcement-learning framing makes reasoning behavior part of the training and test-time compute story. These are better chapter anchors than generic geopolitics because they show how constraint appears inside model design.
 
-The danger is to overexplain everything through scarcity. Scarcity can produce clever engineering, but it can also produce weaker systems, hidden dependencies, or unverified hero narratives. A model report does not prove a national thesis. It proves a set of claims about one system under one source's methodology. The chapter should let the technical reports be technical before turning them into symbols.
+The danger is to overexplain everything through scarcity. Scarcity can produce clever engineering, but it can also produce weaker systems, hidden dependencies, or unverified hero narratives. A model report does not prove a national thesis. It proves a set of claims about one system under one source's methodology. the technical reports be technical before turning them into symbols.
 
 Still, the pattern is real enough to matter. The Chinese frontier made efficiency public. It made open release and distillation public. It made reasoning models global. It made multilingual and domestic-product pressure harder to ignore. It forced U.S. readers to stop treating the model race as a private contest among Silicon Valley, Seattle, and London.
 
@@ -88,9 +79,9 @@ MiniMax, Baidu, Tencent, Xiaomi MiMo, and StepFun are precisely the kind of name
 
 This is not only about avoiding error. It is about preserving narrative quality. Unsupported name-dropping makes a chapter feel larger for a page and smaller afterward. The reader senses the blur. A strong chapter earns breadth by giving each lab a reason to be there: a model report, a product surface, an open-weight release, a reasoning method, a long-context system, a benchmark artifact, a deployment environment, a licensing move, or a visible ecosystem. Until those reasons are sourced, the names belong in a queue, not in decorative prose.
 
-The same rule applies to version suffixes. Qwen 3.5, Qwen 3.6, and DeepSeek V4-era systems are tempting because they sound like natural continuations of real lines. That is exactly why they are dangerous. A plausible version name is not a historical event. The current claim ledger marks those rows as support-pending. [C-0007] The chapter should keep them there until a cutoff-bounded source makes them real inside the book's evidence system.
+The same rule applies to version suffixes. Qwen 3.5, Qwen 3.6, and DeepSeek V4-era systems are tempting because they sound like natural continuations of real lines. That is exactly why they are dangerous. A plausible version name is not a historical event. The current claim ledger marks those rows as support-pending. [C-0007] them there until a cutoff-bounded source makes them real inside the book's evidence system.
 
-This discipline gives the chapter a rhythm: supported lanes in prose, missing lanes in a table, and explicit handoffs to future passes. It may feel slower than a magazine survey. It is better. A book trying to outlast the release cycle has to make its uncertainty visible.
+This discipline gives the chapter a rhythm: supported lanes in prose, missing lanes in a table, and explicit handoffs to It may feel slower than a magazine survey. It is better. A book trying to outlast the release cycle has to make its uncertainty visible.
 
 ## Why The Frontier Became Multipolar
 
@@ -110,7 +101,7 @@ The consequence for the book is structural. The China chapter should not sit aft
 
 That mesh is uncomfortable for readers who want one answer. It makes procurement harder. It makes safety comparisons harder. It makes export-control arguments harder. It makes benchmark charts less trustworthy. It also makes the history truer. LLMs became world infrastructure before the world had a shared language for comparing them.
 
-That is also why this chapter should stay technical before it becomes political. The politics are real, but the model reports show the mechanism: routing, reinforcement learning, distillation, multilingual training, release terms, and inference budgets. Those details are the durable evidence. They make the larger rivalry concrete without asking the reader to accept a mood. A reader should feel the pressure of the global race through the machinery itself, not through a prewritten theory of who is destined to win or lose. That restraint is a form of respect, and also a form of power.
+That is also why The politics are real, but the model reports show the mechanism: routing, reinforcement learning, distillation, multilingual training, release terms, and inference budgets. Those details are the durable evidence. They make the larger rivalry concrete without asking the reader to accept a mood. A reader feels the pressure of the global race through the machinery itself, not through a prewritten theory of who is destined to win or lose. That restraint is a form of respect, and also a form of power.
 
 ## What This Chapter Can Say Today
 

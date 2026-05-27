@@ -1,6 +1,5 @@
 # Next Token: Full Draft Assembly
 
-
 ## Table of Contents
 
 - [Chapter 01: The Shock](#chapter-01-the-shock)
@@ -32,7 +31,6 @@
 
 # Chapter 01: The Shock
 
-
 ## 1. The Shock
 
 The book opens at the smallest possible threshold: a blank text box that made a deep technical stack feel suddenly public.
@@ -41,8 +39,7 @@ The book opens at the smallest possible threshold: a blank text box that made a 
 
 > [!FIGURE] **F01.01 / A-0287-013 - OpenAI Platform Became A Public Product Surface**
 > Caption: F01.01: OpenAI Platform public-web screenshot used as private-edition product texture for the ChatGPT shock opening; it proves only a captured product surface, not usage, revenue, model quality, or current availability.
-> Source note: Sources: S-0006;S-0092;S-0098;S-0102. Rights path: ready_svg. Story role: opener chronology.
-
+> 
 
 The shock did not look like a shock.
 
@@ -59,7 +56,6 @@ The book begins here not because ChatGPT invented the technology. It did not. Th
 The deepest question was hidden in the ordinary act of pressing return: how had next-token prediction become a way to operate computers?
 
 This chapter uses source IDs and claim rows already normalized for Chapter 7, but its job is different. Chapter 1 frames the book's central question: how did next-token prediction become a general-purpose interface to language, code, work, and computing? It uses ChatGPT launch, adoption, and reception evidence only with metric firewalls and named-institution scope controls. It does not claim broad public panic, OpenAI-confirmed adoption totals, paid-user counts, revenue, or productivity outcomes.
-
 
 ### A Machine Made Of Nexts
 
@@ -95,8 +91,7 @@ That is why the evidence has to stay narrow. The book can say that people were t
 
 > [!FIGURE] **F01.02 / A-0069 - From Prompt to Answer, One Token at a Time**
 > Caption: F01.02: From Prompt to Answer, One Token at a Time.
-> Source note: Sources: S-0004;S-0005;S-0006;S-0014;S-0043. Rights path: ready_svg. Story role: mechanism bridge.
-
+> 
 
 The first reaction was not one public mood. It was a set of local control problems.
 
@@ -156,8 +151,7 @@ The first shock was category failure. The public could not decide whether ChatGP
 
 > [!FIGURE] **F01.03 / A-0070 - Local Alarms: First Institutional Response Chronology**
 > Caption: F01.03: Local Alarms: First Institutional Response Chronology.
-> Source note: Sources: S-0093;S-0094;S-0096;S-0097. Rights path: ready_svg. Story role: local response texture.
-
+> 
 
 The chat box made computation feel weightless. It was not.
 
@@ -201,7 +195,6 @@ The public shock now turns into the older engineering problem: before a text box
 
 # Chapter 02: Before the Transformer
 
-
 ## 2. Before the Transformer: The Machine Learns Sequence
 
 Before that box could feel natural, language had to be squeezed into representations a machine could compare, score, and extend.
@@ -210,8 +203,7 @@ Before that box could feel natural, language had to be squeezed into representat
 
 > [!FIGURE] **F02.01 / A-0285-001 - Transformer Paper Page As The Breakthrough Surface**
 > Caption: F02.01: Attention Is All You Need page-one render anchors the Transformer breakthrough as a primary source surface; it does not prove intention, later implementation details, modern product behavior, or claims beyond the cited paper.
-> Source note: Sources: S-0002;S-0104;S-0105;S-0106;S-0107. Rights path: ready_svg. Story role: pre-Transformer pressure chain.
-
+> 
 
 Before the language model became a chat window, it was a much colder instrument: a machine that assigned probabilities to strings. The work did not begin with personality. It began with sequence. Given the words already seen, what word should come next? Given a sentence in one language, what sentence in another language should follow? Given a fragment of meaning, what nearby symbols should carry it?
 
@@ -220,7 +212,6 @@ That framing sounds modest because it hides the depth of the trap. Language is n
 For a long time, the practical answer was counting. N-gram models estimated the next word from short histories: one word, two words, three words, sometimes more, depending on the data and smoothing. This made language mechanical in the useful sense: a speech recognizer or translation system could prefer the sequence that looked more probable. But counting exposed its own curse. Possible word sequences grow explosively; most long phrases never appear in the training data, and many that matter appear too rarely to estimate cleanly. The machine could count. The world of possible sentences was too large for counting alone.
 
 That is the chapter's pressure chain: counting made language computable, sparsity made counting brittle, embeddings made similarity usable, recurrence made sentence order learnable, sequence-to-sequence models made one stream of tokens become another, and attention made the fixed-memory bottleneck impossible to ignore. The history is technical, but the suspense is simple. Every solution made the machine stronger and exposed the next constraint.
-
 
 The important turn was not that researchers made language less discrete. It was that they made the discreteness negotiable. A word could remain a symbol in a vocabulary while also becoming a point in a learned space. "Dog" and "cat" would still be different tokens, but the model could learn that they lived nearer to one another than either lived to "thermodynamics" or "Wednesday." The bet was that language contained reusable structure below the surface of exact word identity.
 
@@ -250,7 +241,7 @@ This is why distributed representation was more than a technical convenience. It
 
 A useful analogy is a map, with the usual warning that the map is not the territory. If every town is represented only by its name, a traveler who has never seen one town knows nothing about where it lies. If the towns have coordinates, distance and neighborhood become calculable. Word vectors gave language models that rough coordinate system for words. The coordinates were learned from text rather than drawn by a human cartographer, so they could be useful and weird at the same time: good enough to reveal neighborhoods, not good enough to guarantee meaning. [S-0105]
 
-The price of that move was compression. A vector is useful because it throws away detail. It stores enough regularity to help the model, not enough reality to make the word fully known. This is one reason the chapter should resist romantic language about early embeddings. They did not contain meaning as a human contains meaning. They contained learned statistical structure. That distinction will matter later when fluent systems look as if they possess concepts more securely than they do.
+The price of that move was compression. A vector is useful because it throws away detail. It stores enough regularity to help the model, not enough reality to make the word fully known. This is one reason romantic language about early embeddings. They did not contain meaning as a human contains meaning. They contained learned statistical structure. That distinction will matter later when fluent systems look as if they possess concepts more securely than they do.
 
 The same discipline applies to analogies in word-vector papers and demos. They were striking because they made geometry feel semantic. But an analogy benchmark is not a theory of mind. It is evidence that certain relations can be captured in the space induced by the training objective and data. [S-0105] That is still a major fact. It is just not the same as understanding.
 
@@ -282,8 +273,6 @@ Attention changed the plot because it made memory addressable. Bahdanau, Cho, an
 
 This is one of the bridges from translation to general-purpose LLMs. A future assistant answering a question, writing code, or summarizing a document faces the same class of pressure. Which earlier tokens matter now? Which instruction governs this sentence? Which variable name, legal condition, or factual qualifier should shape the next word? The problem is not identical across tasks, but the shape rhymes. Attention made the relationship among positions a first-class computation.
 
-The chapter should also keep a useful skepticism here. Attention did not make models reliable. It made one route for information flow more flexible. A model can attend to the wrong token, learn a spurious relation, or produce a fluent answer from shallow cues. The point is architectural permission, not epistemic guarantee. [S-0107]
-
 ### What Attention Changed
 
 Attention is easy to describe badly. The lazy version gives the model a tiny theater spotlight and a suspiciously human inner life. The mechanical version is stranger and better: each position asks, in numbers, which other positions should matter to this one right now. The model computes those relationships and uses them to mix information. A token's representation becomes not a lonely bead on a string, but a bead whose color changes after looking at the rest of the necklace.
@@ -309,8 +298,7 @@ This is the first glimpse of a theme that will dominate the book later: model hi
 The connection to later LLMs should be drawn carefully. It is not that the Transformer paper predicted every product that followed. It is not that architecture alone explains the boom. Data, objectives, optimization, hardware, software frameworks, evaluation culture, and capital all mattered. But an architecture that could absorb more compute without the same sequential bottleneck became a natural chassis for the scaling era. [S-0002]
 
 That is why this chapter ends at the edge of the Transformer rather than treating it as the full destination. The Transformer is the hinge. Before it, the field had assembled representations, sequence transduction, and attention. After it, those components could be stacked, scaled, and repurposed into a pretraining engine. GPT, BERT, T5, PaLM, Llama, Claude, Gemini, Qwen, DeepSeek, and the rest of the modern cast belong to later chapters. Their family tree begins here, but the family drama requires scale.
-
-The reader should leave this opening with two ideas held together. First, the modern LLM is not an alien object. Its components have ancestry: probability, representation, sequence, alignment, attention. Second, ancestry is not destiny. The combination mattered because it met a moment when data and compute could turn architectural permission into industrial force.
+ this opening with two ideas held together. First, the modern LLM is not an alien object. Its components have ancestry: probability, representation, sequence, alignment, attention. Second, ancestry is not destiny. The combination mattered because it met a moment when data and compute could turn architectural permission into industrial force.
 
 ### The Hidden Continuity
 
@@ -346,7 +334,6 @@ The old systems did not fail because words were boring; they failed because mean
 
 # Chapter 03: Attention Catches Fire
 
-
 ## 3. Attention Catches Fire: The Architecture That Wanted To Scale
 
 The next breakthrough begins with a bottleneck: sequence models could remember, but not freely enough for the scale that was coming.
@@ -355,8 +342,7 @@ The next breakthrough begins with a bottleneck: sequence models could remember, 
 
 > [!FIGURE] **F03.01 / A-0288-001 - BERT Page As Bidirectional Transformer Lineage**
 > Caption: F03.01: BERT page-one render supplies masked-language-model lineage texture for the attention chapter; it does not make BERT a generative chatbot or prove later LLM behavior.
-> Source note: Sources: S-0002;S-0108. Rights path: ready_svg. Story role: self-attention mechanism.
-
+> 
 
 The Transformer begins as a revolt against waiting.
 
@@ -369,9 +355,7 @@ The 2017 Transformer paper made a different wager. It proposed a sequence transd
 That is why the paper belongs early in this book. It was not the first neural language model, not the first attention mechanism, and not the first model to turn text into vectors. Chapter 1 already traced that pressure chain: sparsity, representation, sequence, bottleneck, attention. The Transformer mattered because it turned the pressure chain into a repeatable block that wanted to be stacked, widened, trained, and repurposed.
 
 The public later met this architecture through other names: GPT, BERT, T5, PaLM, Llama, Claude, Gemini, Qwen, DeepSeek. The architecture itself did not guarantee any of those systems. But it supplied a substrate that matched the coming age: more data, more compute, faster accelerators, and labs willing to treat language modeling as a scaling problem.
-
-This chapter should therefore avoid myth. The Transformer was not a magic mind. It was a mechanism. Its beauty is that the mechanism is simple enough to explain and rich enough to become a civilization-scale industrial object.
-
+ The Transformer was not a magic mind. It was a mechanism. Its beauty is that the mechanism is simple enough to explain and rich enough to become a civilization-scale industrial object.
 
 ### Attention Without The Metaphor
 
@@ -390,8 +374,7 @@ The key phrase is "becomes," not "is." A token enters as an embedding plus posit
 ### Many Heads, Many Relations
 
 Multi-head attention is one of the Transformer's most important design choices because language rarely has one relationship at a time. A word may need syntactic information, semantic information, local phrase structure, long-range reference, and task-specific signals. One attention operation can learn one mixture pattern. Multiple heads let the model learn several mixture patterns in parallel, then combine them. [S-0002]
-
-The chapter should be careful here too. A head is not guaranteed to correspond neatly to a human-labeled rule. Some heads may look interpretable under analysis; others may not. The prose should not claim that one head "does grammar" and another "does facts" unless a later interpretability source supports that exact claim. The safe point is architectural: multi-head attention gives the model several learned attention subspaces per layer.
+ A head is not guaranteed to correspond neatly to a human-labeled rule. Some heads may look interpretable under analysis; others may not. one head "does grammar" and another "does facts" unless a later interpretability source supports that exact claim. The safe point is architectural: multi-head attention gives the model several learned attention subspaces per layer.
 
 This becomes important when the book later reaches prompting. Prompting works in part because the model can condition on instructions, examples, delimiters, retrieved documents, code context, and conversation history inside one token stream. That does not mean the Transformer "understands" a prompt as a person does. It means the architecture gives later tokens a path to earlier tokens through repeated attention and transformation.
 
@@ -421,13 +404,13 @@ The Transformer block is a compact industrial design: self-attention, feed-forwa
 
 Here the architecture begins to touch scale without yet becoming a scaling-law chapter. An architecture becomes historically powerful when it is not only clever but repeatable. Researchers can stack layers, widen hidden dimensions, add heads, feed more data, and distribute training across accelerators. Not every increase works cleanly, and later chapters separate evidence from hype. But the Transformer made the experiment legible: build a larger sequence model around attention and watch what happens to loss, benchmarks, and downstream behavior.
 
-This repeatability is one reason the architecture spread across labs and modalities. The book should keep its LLM focus, so this chapter does not need a full tour of vision Transformers, speech models, or diffusion systems. The relevant point is that a general attention-centered block could be adapted and recombined. For LLMs, the decoder-only branch would become especially important because autoregressive next-token prediction aligned naturally with generating text one token at a time.
+This repeatability is one reason the architecture spread across labs and modalities. its LLM focus, so this chapter does not need a full tour of vision Transformers, speech models, or diffusion systems. The relevant point is that a general attention-centered block could be adapted and recombined. For LLMs, the decoder-only branch would become especially important because autoregressive next-token prediction aligned naturally with generating text one token at a time.
 
 The GPT lineage later used Transformer language models trained on text to predict the next token, then adapted and scaled that recipe. GPT-1 used generative Transformer pretraining followed by supervised task adaptation. [S-0011] GPT-2 pushed unsupervised multitask framing. [S-0013] GPT-3 made scale and in-context learning unavoidable topics. [S-0004] Those are Chapter 5 facts, not the burden of this chapter. Here the point is the substrate: the Transformer block made those later recipes possible enough to become a race.
 
 The architecture also changed what counted as product imagination. Before the LLM boom, a model architecture could feel like a research artifact. After the boom, architecture became destiny in budgets: training clusters, memory bandwidth, parallelism, context length, inference latency, and serving cost. The Transformer sat between the paper and the datacenter.
 
-That is why the chapter should use one visual early: an annotated Transformer block with strict source labels. The figure should not pretend to be a full modern LLM implementation. It should show the core reading order: token embedding and position signal, self-attention, feed-forward transformation, residual/layer-normalization wrapper, stacked repetition. The caption should cite S-0002 and warn that later production models modify the block.
+That is why one visual early: an annotated Transformer block with strict source labels. The figure should not pretend to be a full modern LLM implementation. It should show the core reading order: token embedding and position signal, self-attention, feed-forward transformation, residual/layer-normalization wrapper, stacked repetition. The caption should cite S-0002 and warn that later production models modify the block.
 
 ### The Decoder Turn
 
@@ -444,8 +427,7 @@ But this bridge needs guardrails. GPT-style language modeling did not make the m
 ### Parallelism As Plot
 
 The Transformer paper's architectural move was also a hardware move. By removing recurrence from the core sequence transduction architecture, it allowed more parallel computation over sequence positions during training. [S-0002] This matters because modern LLMs did not scale in a vacuum. They scaled through GPUs, TPUs, distributed training software, memory systems, networking, and budgets large enough to turn training runs into capital projects.
-
-The chapter should phrase this as fit, not fate. The Transformer did not automatically become dominant simply because it was parallelizable. Many architectures are parallel in some ways. The important point is that the Transformer combined strong sequence modeling with a computation pattern that could ride accelerator improvements. That combination made it unusually fertile.
+ this as fit, not fate. The Transformer did not automatically become dominant simply because it was parallelizable. Many architectures are parallel in some ways. The important point is that the Transformer combined strong sequence modeling with a computation pattern that could ride accelerator improvements. That combination made it unusually fertile.
 
 The word "fertile" is useful because it avoids a false finality. Later models changed attention variants, normalization placement, activation functions, positional schemes, context strategies, training data, objectives, and alignment layers. Some systems use mixture-of-experts. Some use retrieval. Some reason with extra inference-time compute. The Transformer is not a frozen specimen. It is a family of design grammar.
 
@@ -484,8 +466,7 @@ A third optional diagram can show a "model stack view": embeddings at the bottom
 These diagrams matter because architecture prose can easily become soup. A reader can follow "query, key, value" for a paragraph and lose the larger shape. Visuals should keep the mechanism visible: what enters, what mixes, what repeats, what exits, and where the chapter is simplifying.
 
 ### What The Transformer Did Not Solve
-
-Every architecture chapter needs a humility section. The Transformer did not solve truth. It did not solve grounding. It did not solve memory in the human sense. It did not make models immune to hallucination, prompt injection, data contamination, or brittle reasoning. It did not remove the cost of long context. It did not make attention weights a faithful explanation of every output.
+ The Transformer did not solve truth. It did not solve grounding. It did not solve memory in the human sense. It did not make models immune to hallucination, prompt injection, data contamination, or brittle reasoning. It did not remove the cost of long context. It did not make attention weights a faithful explanation of every output.
 
 Those limits are not footnotes. They are part of the mechanism's importance. The Transformer made it easier to build larger and more capable sequence models, which meant errors could scale alongside usefulness. A model that better uses context can still use the wrong context. A model that can generate fluent text can still generate unsupported text. A model that can call tools can still choose badly, over-trust a prompt, or bury the source of an answer.
 
@@ -503,7 +484,6 @@ Attention gave the machine a better way to look backward; it did not say how far
 
 # Chapter 04: The Scaling Bet
 
-
 ## 4. The Scaling Bet: When Loss Became A Map
 
 Scaling enters the story as an empirical gamble, where curves became strategy before anyone knew what products they would justify.
@@ -512,8 +492,7 @@ Scaling enters the story as an empirical gamble, where curves became strategy be
 
 > [!FIGURE] **F04.01 / A-0285-005 - Scaling Laws Page As Loss-Compute Evidence**
 > Caption: F04.01: Scaling Laws for Neural Language Models page-one render grounds the scaling chapter in measured loss, model, data, and compute tradeoffs; it does not prove truth, safety, emergence thresholds, or business value.
-> Source note: Sources: S-0003;S-0004;S-0015;S-0016. Rights path: ready_svg. Story role: scaling evidence lanes.
-
+> 
 
 Before ChatGPT became an interface event and before the Transformer became a public synonym for modern AI, a quieter idea took hold inside labs: perhaps language models could be treated less like a collection of tricks and more like a measured process. Train bigger models. Feed more data. Spend more compute. Watch the loss move.
 
@@ -527,7 +506,6 @@ That sentence is dangerous if left alone. Forecastable loss is not forecastable 
 
 This chapter belongs after the Transformer because architecture created the substrate and scaling made the substrate strategic. Once the model block could absorb more data and compute, the question changed. The field no longer asked only, "Can we build a better architecture?" It asked, "How much improvement can we buy by scaling the architecture we already have?"
 
-
 ### The Industrialization Of Prediction
 
 The scaling bet made language modeling feel industrial. The central object was no longer only a clever model. It was a training run: data pipeline, model configuration, optimizer, accelerators, parallelism, wall-clock time, evaluation harness, and budget. Research became entangled with procurement.
@@ -535,20 +513,16 @@ The scaling bet made language modeling feel industrial. The central object was n
 Kaplan et al. separated three levers: model size, dataset size, and compute. [S-0003] That separation matters because it prevents a common simplification. "Scale" is not one thing. A larger parameter count without enough data can be wasteful. More data without enough model capacity can hit other limits. More compute can be spent in different ways. The scaling story is not a parade of bigger numbers; it is a tradeoff surface.
 
 The paper's strongest historical effect was psychological. It gave labs permission to treat larger training runs as rational rather than merely heroic. If loss trends could be fitted and extrapolated within a measured regime, then a bigger run could be planned before it existed. That planning logic hardened into organizational pressure: reserve clusters, raise money, sign cloud deals, buy accelerators, build datacenters, and recruit the teams that could keep the training machinery from falling over.
-
-The reader should feel the change in mood. In the older research story, progress could look like insight: a new architecture, a new objective, a new dataset. In the scaling story, progress also looked like throughput. The model became a vessel into which data and compute could be poured, and the question was how efficiently the vessel converted that investment into lower loss and better behavior.
+ the change in mood. In the older research story, progress could look like insight: a new architecture, a new objective, a new dataset. In the scaling story, progress also looked like throughput. The model became a vessel into which data and compute could be poured, and the question was how efficiently the vessel converted that investment into lower loss and better behavior.
 
 This is where the book's hardware chapters begin in embryo. A scaling law is not a GPU, but it creates demand for GPUs. It is not a datacenter, but it justifies a datacenter. It is not a business model, but it tells a CEO or investor why a larger model might be worth funding before the product exists. [S-0003]
 
 ### What The Laws Measured
 
-Scaling-law prose can become slippery because "performance" sounds general. This chapter should keep the word tied to what the sources actually measured. Kaplan et al. studied language-model loss and related evaluation behavior across model size, data, and compute regimes. [S-0003] The paper did not prove that every downstream task would improve smoothly forever. It did not prove that every user-visible capability was a direct function of parameter count. It did not prove that truth, calibration, or safety would arrive automatically.
+Scaling-law prose can become slippery because "performance" sounds general. Kaplan et al. studied language-model loss and related evaluation behavior across model size, data, and compute regimes. [S-0003] The paper did not prove that every downstream task would improve smoothly forever. It did not prove that every user-visible capability was a direct function of parameter count. It did not prove that truth, calibration, or safety would arrive automatically.
 
 This distinction is not pedantry. It is the difference between a scientific claim and a sales pitch. Loss is valuable because it is measurable and central to training. But the world asks for many things loss does not directly certify: can the model cite sources, solve a new programming issue, refuse a harmful request, use a tool safely, preserve privacy, obey a style guide, or admit uncertainty? Those questions require additional evidence.
-
-The chapter should therefore use three lanes.
-
-Measured lane: what the paper measured, such as loss trends under controlled scaling variables.
+ Measured lane: what the paper measured, such as loss trends under controlled scaling variables.
 
 Modeled lane: what the fitted relationships suggest within the regime studied.
 
@@ -576,7 +550,7 @@ For this chapter, GPT-3 is not mainly a parameter spectacle. It is a demonstrati
 
 GPT-3 also made the scaling question feel urgent. If a bigger language model could perform a wider range of tasks from prompts, then every lab had to ask whether the next jump in scale would unlock more such behavior. The answer was never clean. Some improvements were smooth. Some tasks remained brittle. Some benchmarks could be gamed or contaminated. Some apparent capabilities depended heavily on prompt format. But the direction was enough to reorganize ambition. [S-0004]
 
-This is the first place where the book should distinguish "capability" from "deployability." GPT-3 could be astonishing in demos and still be difficult to deploy safely. A model that can complete many tasks from examples can also complete bad instructions, produce confident nonsense, and imitate forms it does not ground. Scaling increased the prize and the blast radius together.
+This is the first place where "capability" from "deployability." GPT-3 could be astonishing in demos and still be difficult to deploy safely. A model that can complete many tasks from examples can also complete bad instructions, produce confident nonsense, and imitate forms it does not ground. Scaling increased the prize and the blast radius together.
 
 That paired growth is one of the central tensions of the book. The same recipe that made the models more useful made their failures more consequential.
 
@@ -587,16 +561,14 @@ The first scaling story tempted outsiders to look mainly at model size. Bigger p
 This is the Chinchilla correction. It did not say scale was over. It said scale had to be balanced. If the budget is compute, then the question is how to allocate compute between a larger model and more training tokens. A giant model trained on too little data may be less efficient than a smaller model trained on more data. [S-0015]
 
 That idea is narratively important because it complicates the arms race. The race was not simply "who has the biggest model?" It became "who knows how to spend compute best?" Data quality, token count, deduplication, training duration, optimizer choices, and evaluation discipline all mattered. The scaling bet matured from size worship into allocation strategy.
-
-The chapter should not use Chinchilla to make a universal numerical rule without extraction. It should use it as a conceptual pivot: scale had become precise enough that researchers could argue about optimality, not just magnitude. That is a sign of a field becoming industrial science.
+ use Chinchilla to make a universal numerical rule without extraction. It should use it as a conceptual pivot: scale had become precise enough that researchers could argue about optimality, not just magnitude. That is a sign of a field becoming industrial science.
 
 The Chinchilla lesson also points toward the data chapter. If compute-optimal training asks for more tokens, then the supply, quality, legality, duplication, language mix, code share, and contamination profile of data become strategic constraints. Data is not a passive pile. It is one of the dimensions of scale. [S-0015]
 
 ### Data Stops Being Background
 
 Once compute-optimality enters the story, data stops being scenery. In a casual account, a model is trained "on the internet," as if the internet were a clean bucket of language. In a real training system, data is selected, filtered, deduplicated, tokenized, mixed, weighted, and sometimes generated. Bad data can teach bad behavior. Duplicated data can distort training. Contaminated evaluation data can make a benchmark look better than the model really is.
-
-This pass does not add a full dataset source pack; that belongs in Chapter 17. But Chapter 3 needs the conceptual bridge. Chinchilla's compute/data balance makes data quantity part of the scaling equation, while the rest of the book will show that data quality and provenance are equally political. [S-0015]
+ But Chapter 3 needs the conceptual bridge. Chinchilla's compute/data balance makes data quantity part of the scaling equation, while the rest of the book will show that data quality and provenance are equally political. [S-0015]
 
 The Chinchilla correction also complicates the public obsession with parameter counts. Parameter count is visible. Training tokens are harder to explain. Data mixture is often undisclosed. Quality controls are rarely summarized in a single headline number. That asymmetry lets public debate overread model size while underreading the data and compute allocation choices that make size useful or wasteful.
 
@@ -660,7 +632,7 @@ What scaling bought was capacity: lower loss, broader pattern absorption, more f
 
 This distinction keeps the book honest. The scaling bet explains why frontier labs became capital-intensive and why the Transformer became the substrate of an industrial race. It does not explain why ChatGPT felt social. It does not explain why RLHF mattered. It does not explain why coding agents need tool permissions and tests. It does not explain why datacenters became grid events. It points toward all of those chapters, but it does not replace them.
 
-By the end of this chapter, the reader should understand the wager that set the next decade in motion. If loss falls predictably with scale, and if lower loss tends to make models more generally useful, then compute becomes a way to buy possibility. The terrifying part is that possibility is not the same as wisdom.
+By the end of this chapter, the wager that set the next decade in motion. If loss falls predictably with scale, and if lower loss tends to make models more generally useful, then compute becomes a way to buy possibility. The terrifying part is that possibility is not the same as wisdom.
 
 That sentence is the hinge. The next chapters will show labs acting as if possibility could be made repeatable: pretrain, scale, prompt, align, productize, serve, measure, repeat. Some of that confidence was earned. Some of it was projection. The difference is the book's work.
 
@@ -674,7 +646,6 @@ A loss curve could promise direction, but it could not promise a business, a use
 
 # Chapter 05: GPT-1 to GPT-3: The Door Opens
 
-
 ## 5. GPT-1 to GPT-3: The Door Opens
 
 The GPT line turns the gamble into a service surface, a door through which builders could start treating prediction as infrastructure.
@@ -683,8 +654,7 @@ The GPT line turns the gamble into a service surface, a door through which build
 
 > [!FIGURE] **F05.01 / A-0285-002 - GPT-1 Paper Page As Pretraining Origin**
 > Caption: F05.01: Improving Language Understanding by Generative Pre-Training page-one render anchors GPT-1 as a transfer/pretraining source surface; it does not prove ChatGPT, GPT-3, or broad product capability.
-> Source note: Sources: companion source table. Rights path: ready_svg. Story role: GPT lineage anchor.
-
+> 
 
 The first GPT paper did not read like the opening of a consumer revolution. Its title was technical and modest: improving language understanding by generative pre-training. The idea was not to build a chatbot, a search engine, or a programmer. It was to train a Transformer language model on unlabeled text, then adapt it to supervised natural-language understanding tasks. [S-0011]
 
@@ -697,9 +667,6 @@ That bet gave the chapter its first hinge. The model did not need to know what a
 This was not magic general intelligence. It was a new economic shape for learning. Unlabeled text was abundant. Labeled task data was narrow and expensive. Pretraining let the expensive part come later. The model learned a broad compression of language first, then specialized.
 
 GPT-1 therefore belongs in the book not because it was huge by later standards, but because it named a reusable recipe: pretrain a generative Transformer on text, then transfer. It was a door, not the room.
-
-
-Visual anchor: Figure 5.1, `assets/visual_system/gpt-lineage-table.svg`, compresses the chapter's lineage into a sourced table: GPT-1 as pretraining and transfer, GPT-2 as prompted multitask continuation, GPT-3 as few-shot prompting, the OpenAI API as infrastructure distribution, Codex as executable-language generation, and GitHub Copilot as the cursor-level product surface. Its companion data lives in the companion source table; its caveats should stay visible until usage, pricing, productivity, benchmark, and legal claims are separately snapshotted or triangulated. [S-0011] [S-0012] [S-0013] [S-0004] [S-0069] [S-0052] [S-0070]
 
 ### The Uncomfortable Release
 
@@ -745,7 +712,7 @@ OpenAI's Codex paper evaluated large language models trained on code and introdu
 
 GitHub Copilot made that capability ordinary enough to be unsettling. GitHub introduced Copilot in June 2021 as a technical preview in Visual Studio Code, developed with OpenAI and powered by OpenAI Codex. [S-0070] In the editor, the model did not present itself as a research result. It appeared at the cursor, where programmers already lived.
 
-That placement mattered. GPT-3's API made language models callable. Copilot made them ambient. A developer could write a comment and watch code appear. Sometimes it was useful. Sometimes it was wrong. Sometimes it raised legal, licensing, security, or quality worries. The chapter should preserve those concerns without pretending they are the whole story. The larger point is that code made the prompt-to-artifact loop concrete.
+That placement mattered. GPT-3's API made language models callable. Copilot made them ambient. A developer could write a comment and watch code appear. Sometimes it was useful. Sometimes it was wrong. Sometimes it raised legal, licensing, security, or quality worries. those concerns without pretending they are the whole story. The larger point is that code made the prompt-to-artifact loop concrete.
 
 Codex also changes the book's chronology. It is not merely a side branch for programmers. It is the bridge from language models to agents. Once a model can write code, it can write instructions for machines. Once it can operate inside an editor or repository, the prompt becomes closer to a work order. Later coding agents would read files, run tests, inspect errors, and propose diffs. But the conceptual path starts here: text in, code out, machine behavior changed.
 
@@ -757,7 +724,7 @@ ChatGPT did not invent the LLM as a platform. It made the platform feel social. 
 
 This distinction matters because it keeps the book from treating November 2022 as a miracle. The public shock was real, but it rested on a sequence of prior doors opening one after another. Prediction became representation. Representation became prompting. Prompting became an API. The API became a developer ecosystem. Code generation became a proof that language could command machinery.
 
-The prize-book version of this chapter should therefore be less about bigness than about conversion. A research technique converted unlabeled text into transferable representations. A bigger model converted prompts into temporary task programs. An API converted a lab artifact into infrastructure. Codex converted natural language into software action.
+The prize-book version of A research technique converted unlabeled text into transferable representations. A bigger model converted prompts into temporary task programs. An API converted a lab artifact into infrastructure. Codex converted natural language into software action.
 
 That is why the chapter ends at a threshold rather than a climax. The model had not become trustworthy. It had not solved hallucination, attribution, memory, or alignment. It had not become an engineer. But the door was open. A machine trained to predict the next token had become something developers could build on, argue with, sell, fear, and put at the cursor.
 
@@ -773,7 +740,7 @@ GPT-2 moved the interface toward the prompt. The model still looked like a resea
 
 GPT-3 turned that hint into a work surface. Few-shot prompting did not merely save fine-tuning time. It changed where the "program" lived. A user could put examples, labels, styles, or output formats into the context and ask the model to continue. [S-0004] The model weights stayed fixed; the task moved into the prompt. That is why the lineage table calls the prompt a temporary task program. The phrase should stay temporary. A prompt is not a robust software artifact. It has no formal specification, no guarantee of stability, no type system, and no reliable explanation when it fails. But it gave users a way to shape a general model at inference time, and that was a profound interface discovery.
 
-The OpenAI API then changed who could participate. A paper can be read. A demo can be watched. An API can be built into another product. OpenAI's June 2020 API announcement presented the model as a general-purpose text-in, text-out service, not a one-task endpoint. [S-0069] That made the model feel less like a spectacular artifact and more like a primitive. You sent text over the network. You got text back. If the exchange was useful enough, a developer could wrap it in a workflow, a product, or a prototype. The chapter should not turn this into unsourced adoption triumph. C-0029 still blocks exact ecosystem counts and Copilot productivity claims. But it can safely say that distribution changed the shape of the technology. A hosted model could become part of other people's software.
+The OpenAI API then changed who could participate. A paper can be read. A demo can be watched. An API can be built into another product. OpenAI's June 2020 API announcement presented the model as a general-purpose text-in, text-out service, not a one-task endpoint. [S-0069] That made the model feel less like a spectacular artifact and more like a primitive. You sent text over the network. You got text back. If the exchange was useful enough, a developer could wrap it in a workflow, a product, or a prototype. turn this into unsourced adoption triumph. C-0029 still blocks exact ecosystem counts and Copilot productivity claims. But it can safely say that distribution changed the shape of the technology. A hosted model could become part of other people's software.
 
 Codex sharpened the point because code is language with consequences. The Codex paper evaluated language models trained on code and treated functional correctness as the test that mattered. [S-0052] That was not just another benchmark genre. It made the model's output executable. A natural-language prompt or docstring could become a candidate function. The user could run it. The result could pass, fail, throw an error, or almost work. Code pulled language modeling closer to action because the generated tokens could be interpreted by another machine.
 
@@ -788,10 +755,9 @@ Read across those rows, the lineage table becomes a conversion machine. Pretrain
 The important thing about GPT-1 is not that it predicted the later frenzy. It did not. Its importance is that it made transfer feel native to the Transformer. Before the public learned to say "large language model," GPT-1 put together three ingredients that would keep returning: a generative objective, a Transformer architecture, and broad pretraining before supervised adaptation. [S-0011]
 
 That recipe mattered because language tasks had a fragmentation problem. A sentiment classifier, an entailment model, a question-answering system, and a similarity model could each be treated as separate supervised jobs. Each job had its own dataset, its own labels, its own evaluation routine, and often its own engineering habits. GPT-1 suggested that the expensive supervised layer could sit on top of a shared generative base. The base learned from text that did not come with task labels. The narrower task then shaped the last mile.
+ how practical that was. It did not require a philosophical claim about understanding. It required a calculation about where information was abundant. The web and books and documents contained far more unlabeled language than carefully labeled examples. If predicting the next token forced a model to compress syntax, semantics, facts, discourse patterns, and genre conventions, then the resulting internal representations might be useful even before a dataset named the task. GPT-1 did not solve the whole problem, but it made the bet respectable.
 
-The reader should feel how practical that was. It did not require a philosophical claim about understanding. It required a calculation about where information was abundant. The web and books and documents contained far more unlabeled language than carefully labeled examples. If predicting the next token forced a model to compress syntax, semantics, facts, discourse patterns, and genre conventions, then the resulting internal representations might be useful even before a dataset named the task. GPT-1 did not solve the whole problem, but it made the bet respectable.
-
-This is also where the book should resist hindsight. The later GPT line makes GPT-1 look like an obvious first rung. In its own moment, it was closer to an experimental bridge. It still leaned on supervised fine-tuning for downstream tasks. It did not offer the public a chat interface. It did not give developers a hosted API. It did not establish the cultural role of prompting. Calling it a "first model in the GPT lineage" is accurate; treating it as a miniature ChatGPT is not.
+This is also where hindsight. The later GPT line makes GPT-1 look like an obvious first rung. In its own moment, it was closer to an experimental bridge. It still leaned on supervised fine-tuning for downstream tasks. It did not offer the public a chat interface. It did not give developers a hosted API. It did not establish the cultural role of prompting. Calling it a "first model in the GPT lineage" is accurate; treating it as a miniature ChatGPT is not.
 
 What it did was give the lineage a grammar. Train on broad text. Let the model learn from sequence. Reuse the result. This grammar would be stretched by GPT-2, inflated by GPT-3, disciplined by instruction tuning, and productized by ChatGPT. The seed is not the tree, but the seed contains a constraint on what the tree can become.
 
@@ -803,7 +769,7 @@ That pairing is easy to flatten into a culture-war anecdote about openness. The 
 
 The model also changed what a task looked like. Translation could be cued in text. Summarization could be implied by a passage followed by a summary marker. Question answering could be set up as a pattern. The prompt was not yet a polished consumer interface, but it was already a way to smuggle task definition into context. GPT-2 therefore belongs between GPT-1 and GPT-3 not merely because it was larger, but because it exposed the prompt as an awkward, powerful control surface.
 
-The awkwardness matters. A prompt did not make the model obedient. It induced a continuation. It did not know whether the user wanted truth, fiction, imitation, satire, or a format that merely looked right. A model trained to predict text can be very good at sounding like the kind of text that would follow. That is not the same as being a reliable source. GPT-2 made that distinction visible early enough that the rest of the book should keep returning to it.
+The awkwardness matters. A prompt did not make the model obedient. It induced a continuation. It did not know whether the user wanted truth, fiction, imitation, satire, or a format that merely looked right. A model trained to predict text can be very good at sounding like the kind of text that would follow. That is not the same as being a reliable source. GPT-2 made that distinction visible early enough that the rest of returning to it.
 
 The staged release also foreshadowed platform governance. Later chapters will cover product policies, system cards, red teams, model specs, and evaluation loops. GPT-2 is an earlier public instance of the same pressure: when capability generalizes, release becomes part of engineering. What is shipped, withheld, documented, monitored, or delayed is no longer outside the technology. It is part of how the technology enters the world.
 
@@ -813,13 +779,12 @@ GPT-3 is the chapter's hinge because it made context feel mechanical. The GPT-3 
 
 The machine was fragile. A prompt could fail because the examples were ambiguous, the instruction was under-specified, the format was inconsistent, the ordering was unlucky, or the model simply guessed wrong. It could fabricate, overfit to the surface pattern, or perform beautifully on a toy example and poorly on the case that mattered. But it was still a machine of a kind. You could put in examples and get a transformation. You could change the examples and get a different transformation. You could ask for a table, a JSON shape, a short answer, a tone, or a reasoning style. The control was informal, yet real enough for developers to explore.
 
-This is why GPT-3 felt like a platform before it was a mass product. The user was not only consuming outputs. The user was arranging behavior. A few examples could turn the same model toward classification, extraction, rewriting, brainstorming, translation, or code-adjacent tasks. The model did not become equally good at all of them, and the book should avoid any claim that GPT-3 made task-specific systems obsolete. But it showed that a general model could be repurposed at the edge of use.
+This is why GPT-3 felt like a platform before it was a mass product. The user was not only consuming outputs. The user was arranging behavior. A few examples could turn the same model toward classification, extraction, rewriting, brainstorming, translation, or code-adjacent tasks. The model did not become equally good at all of them, and any claim that GPT-3 made task-specific systems obsolete. But it showed that a general model could be repurposed at the edge of use.
 
 The API amplified that repurposing. OpenAI's API post framed access as a way for developers to apply language models to many text tasks while OpenAI studied limitations and misuse. [S-0069] That sentence-level framing is enough for Chapter 5's purpose. It does not require exact app counts, revenue numbers, or customer claims. The core point is architectural and institutional: the model became reachable as a service. A developer did not need to train GPT-3. The developer needed to learn how to ask, constrain, retry, and wrap.
 
 That wrapping is the missing middle between research and ChatGPT. Before the chat box became iconic, developers were already discovering that the useful artifact was often not the raw model, but the prompt plus the surrounding product. The application supplied the input field, the examples, the guardrails, the retry button, the storage, the formatting, the human review, and the business context. GPT-3 supplied a shockingly flexible continuation engine. The product came from coupling that engine to a workflow.
-
-The chapter should therefore describe GPT-3 as a platform primitive, not a finished assistant. A primitive is powerful precisely because it is incomplete. It can be embedded in many systems. It can also fail in many systems. GPT-3 gave developers a new kind of material: language behavior exposed through an API and shaped by context. The later assistant layer would make that material feel polite, conversational, and bounded. But the raw primitive came first.
+ A primitive is powerful precisely because it is incomplete. It can be embedded in many systems. It can also fail in many systems. GPT-3 gave developers a new kind of material: language behavior exposed through an API and shaped by context. The later assistant layer would make that material feel polite, conversational, and bounded. But the raw primitive came first.
 
 ### The API Made Distribution A Technical Fact
 
@@ -829,7 +794,7 @@ That does not mean the API was neutral. Hosted access centralized control. It le
 
 The lineage table's "infrastructure service" wording is meant to hold that tension. Infrastructure is not just convenience. It is dependency. Once the model sits behind an API, downstream products inherit latency, price, rate limits, policy changes, model updates, outages, and provider strategy. This is the beginning of the platform politics that later chapters will examine through Microsoft, OpenAI, Anthropic, Google, Meta, and the open-weight world. For Chapter 5, the key is simpler: the model stopped being only something labs reported on. It became something other software could call.
 
-This is also where the book should avoid one of its most tempting unsupported claims. It should not say that GPT-3 immediately transformed every industry, or that developers everywhere switched paradigms overnight. The existing source spine does not support that kind of sweep. The safer and stronger claim is more specific: the API made a large language model available as a programmable service, and that changed what could be prototyped. The difference matters. A prototype is not adoption. A launch page is not market penetration. A demo is not durable value.
+This is also where one of its most tempting unsupported claims. It should not say that GPT-3 immediately transformed every industry, or that developers everywhere switched paradigms overnight. The existing source spine does not support that kind of sweep. The safer and stronger claim is more specific: the API made a large language model available as a programmable service, and that changed what could be prototyped. The difference matters. A prototype is not adoption. A launch page is not market penetration. A demo is not durable value.
 
 The API also prepared the reader for the ChatGPT moment by making the invisible stack visible. A chat product is not just a model. It is a model behind an interface, a policy layer, a serving system, a billing model, a feedback loop, and a public promise about behavior. GPT-3's API exposed one piece of that stack early: model capability as a service. ChatGPT would later make the interface feel simple enough for anyone to try, but the service idea was already there.
 
@@ -843,7 +808,7 @@ HumanEval, as a functional-correctness benchmark, also points toward a later age
 
 Copilot put that bridge where it mattered. The technical preview placed a Codex-powered system inside Visual Studio Code. [S-0070] That was not merely a new interface; it was a new social position for the model. In a chat box, the model waits for a question. In an editor, it watches the work take shape line by line. It can complete a pattern before the developer has fully articulated the task. It can be ignored, accepted, modified, or distrusted. The human and model share a surface where intent is often partial.
 
-This is why the chapter should resist both hype and dismissal. Copilot was not proof that programmers were obsolete. It was also not just fancier autocomplete. The right description is narrower and more durable: it made LLM assistance ambient in the developer workflow. That ambient placement made later coding agents imaginable because it taught users to treat model output as draft material inside real work, not just as text in a separate box.
+This is why both hype and dismissal. Copilot was not proof that programmers were obsolete. It was also not just fancier autocomplete. The right description is narrower and more durable: it made LLM assistance ambient in the developer workflow. That ambient placement made later coding agents imaginable because it taught users to treat model output as draft material inside real work, not just as text in a separate box.
 
 The same caveat remains: no productivity numbers, adoption figures, legal conclusions, or licensing claims should be promoted here without separate source rows. Those topics matter, but they require their own evidence. Chapter 5's role is to show the interface conversion. The model entered code not as a perfect programmer, but as a source of executable suggestions that had to be reviewed.
 
@@ -867,7 +832,6 @@ The door opened by GPT-3 was powerful but unruly. If language models were going 
 
 # Chapter 06: Alignment Enters the Product
 
-
 ## 6. Alignment Enters the Product
 
 Once prediction became a product, the central problem changed from fluent continuation to behavior under instruction, pressure, and refusal.
@@ -876,8 +840,7 @@ Once prediction became a product, the central problem changed from fluent contin
 
 > [!FIGURE] **F06.01 / A-0287-014 - Anthropic Console Product Surface**
 > Caption: F06.01: Anthropic Console public-web screenshot grounds the alignment-as-product discussion in a visible developer surface; it does not prove safety, model quality, adoption, uptime, or enterprise outcomes.
-> Source note: Sources: companion source table. Rights path: ready_svg. Story role: alignment mechanism.
-
+> 
 
 GPT-3 made the prompt feel like a temporary program: examples and instructions could sit inside the context window and steer the next completion. [S-0004] It also made the product problem impossible to ignore. A base language model is trained to continue text. A user, however, does not usually want continuation. The user wants help.
 
@@ -890,9 +853,6 @@ This is the point at which alignment entered the product. It was not an abstract
 OpenAI's InstructGPT work stated the product gap bluntly: making language models larger does not inherently make them better at following a user's intent. The paper described a pipeline that began with labeler-written demonstrations and API prompts, trained a supervised model, collected rankings of outputs, trained a reward model from those preferences, and then used reinforcement learning from human feedback to improve the policy. [S-0014] The OpenAI product post around that work made the contrast even more legible: GPT-3 could be coaxed with careful prompts, but it could also produce untruthful, toxic, or harmful outputs because it was trained to predict text rather than safely perform the user's task. [S-0074]
 
 That was the hinge. The model still predicted tokens. But the product began to ask a second question: which tokens should this assistant prefer to produce?
-
-
-Visual integration: Figure 6.1, `assets/visual_system/rlhf-alignment-pipeline.svg`, shows pretraining, supervised demonstrations, preference comparisons, reward/preference modeling, RL optimization, Constitutional AI/RLAIF, product policy, red teaming, and evaluation loops as a layered assistant-behavior stack. The companion rows live in the companion source table; the figure keeps the central caveat visible that refusals and caveats are product behavior built from several layers, not proof that the model "understands" the user's real-world interests. [S-0004] [S-0014] [S-0019] [S-0074] [S-0075]
 
 ### The Three-Step Machine
 
@@ -938,8 +898,7 @@ This is where Anthropic enters the larger narrative before the Claude chapter. C
 
 > [!FIGURE] **F06.02 / A-0284-006 - OpenAI API As Behavior Interface**
 > Caption: F06.02: OpenAI API source image anchors the chapter's behavior-as-interface discussion as private-edition product texture; it does not prove pricing, traffic, reliability, or model capability.
-> Source note: Sources: S-0006. Rights path: private_capture_needed. Story role: ChatGPT product surface.
-
+> 
 
 Once assistants reached millions of users, private testing was no longer enough. The safety boundary had to become at least partly public. System cards, model cards, red-team reports, and evaluation frameworks became the paperwork of productized alignment.
 
@@ -987,7 +946,7 @@ The alignment pipeline visual should not be treated as ornament. It is the chapt
 
 The second layer is demonstration. In the InstructGPT pipeline, humans supplied examples of desired behavior and prompts drawn from API use. The quote-safe table now makes the product-post phrasing available too: OpenAI described labelers who would "provide demonstrations" and rank outputs. [S-0074] That phrase is short, but it matters. The assistant did not simply emerge from scale as a finished personality. People showed it what an answer should look like under a particular product goal.
 
-This is one of the book's quiet human scenes. Not the mythic founder onstage, but a labeler comparing answers, writing a better one, or ranking which response better matched the task. The public documents do not give private biography, and the chapter should not invent it. They do show that assistant behavior was shaped through many small acts of judgment before the public saw a single fluent reply. [S-0014] [S-0074]
+This is one of the book's quiet human scenes. Not the mythic founder onstage, but a labeler comparing answers, writing a better one, or ranking which response better matched the task. The public documents do not give private biography, and invent it. They do show that assistant behavior was shaped through many small acts of judgment before the public saw a single fluent reply. [S-0014] [S-0074]
 
 The third and fourth layers are comparison and reward modeling. Preference comparisons turn a hard-to-write objective into ranked examples. A reward model then learns to predict which output a rater would prefer. [S-0014] This is elegant and dangerous in the same breath. It lets a lab optimize toward qualities that are hard to express as a simple rule. It also creates a proxy. A proxy can be useful, gamed, overoptimized, or quietly misaligned with the situation the user actually cares about.
 
@@ -1003,8 +962,7 @@ The final layer is the evaluation and release loop: red teams, system cards, eva
 
 > [!FIGURE] **F06.03 / A-0284-057 - Dario Amodei Public Profile Texture**
 > Caption: F06.03: Public-profile image of Dario Amodei adds a human organizational anchor near the Constitutional AI and assistant-behavior discussion; it does not prove alignment claims, governance outcomes, or biographical details beyond the ledger label.
-> Source note: Sources: S-0078;S-0089. Rights path: private_capture_needed. Story role: Plus productization surface.
-
+> 
 
 The quote-safe table is a permission map, not a decoration. It keeps the chapter from doing the two bad things alignment prose likes to do: quoting too much first-party language as if it were neutral truth, or avoiding exact wording so thoroughly that the reader cannot see how the labs described their own work.
 
@@ -1016,7 +974,7 @@ The quote table also carries a built-in antidote to hype: the phrase "far from f
 
 For the Model Spec, the safe phrases are structural. "Desired behavior" names the document's purpose. "Objectives, rules, and defaults" names its hierarchy. [S-0075] The quoted priority chain, "Platform > Developer > User > Tool," is useful because it makes the product reality concrete. A chat assistant is not a democratic surface where every instruction has the same force. It is a layered system in which the user's request sits inside constraints chosen by the provider and, in some contexts, the application developer.
 
-For system cards, the table is deliberately conservative. It allows short phrases such as GPT-4's "safety processes" and the note that mitigations were "limited and remain brittle." [S-0076] It allows GPT-4o's "more than 100 external red teamers" only as a first-party signal about release preparation, not as proof that the model was safe across the world. [S-0077] The reader should see the machinery of evaluation without being asked to treat a lab's paperwork as the verdict.
+For system cards, the table is deliberately conservative. It allows short phrases such as GPT-4's "safety processes" and the note that mitigations were "limited and remain brittle." [S-0076] It allows GPT-4o's "more than 100 external red teamers" only as a first-party signal about release preparation, not as proof that the model was safe across the world. [S-0077] the machinery of evaluation without being asked to treat a lab's paperwork as the verdict.
 
 This is the chapter's evidence discipline. Exact wording is allowed only when it clarifies a source's role. Otherwise, paraphrase is stronger. The book is not trying to sound like a policy appendix. It is trying to show how the assistant became an engineered behavior surface.
 
@@ -1053,8 +1011,7 @@ System cards changed launch rhythm. A frontier model release could no longer be 
 The ritual had several audiences. Users wanted to know whether the model was reliable. Developers wanted to know what could break. Enterprises wanted risk language they could pass through procurement and security review. Researchers wanted enough detail to scrutinize claims. Regulators and journalists wanted visible accountability. The lab wanted to ship. The system card sat at the intersection of all those needs.
 
 That position made system cards both valuable and limited. They disclose some categories of risk. They describe some mitigations. They name some testing procedures. They may mention external experts or red-team scale. But they are still authored by the provider, scoped by the provider, and constrained by what the provider chooses to reveal. A system card is an artifact of governance and marketing as well as safety.
-
-The book should use these documents neither cynically nor naively. Cynicism would miss their evidentiary value: they show what labs measured, feared, and publicly promised. Naivete would mistake disclosure for proof. The right posture is forensic: what risk categories appear, what is quantified, what is left qualitative, which mitigations are admitted to be brittle, which claims are first-party only, and which require independent tests before they become book facts?
+ these documents neither cynically nor naively. Cynicism would miss their evidentiary value: they show what labs measured, feared, and publicly promised. Naivete would mistake disclosure for proof. The right posture is forensic: what risk categories appear, what is quantified, what is left qualitative, which mitigations are admitted to be brittle, which claims are first-party only, and which require independent tests before they become book facts?
 
 That forensic posture also connects alignment to evaluation. If assistant behavior is produced by a stack, then no single score can certify it. A model can pass a multiple-choice exam and fail a conversation. It can refuse harmful requests and still be vulnerable to prompt injection. It can do well in English and fail in another language. It can look safe in short tests and degrade in long workflows. Evaluation becomes a portfolio, not a finish line.
 
@@ -1078,7 +1035,6 @@ Alignment work made the assistant shape possible, but ChatGPT tested that shape 
 
 # Chapter 07: ChatGPT: The Interface Event
 
-
 ## 7. ChatGPT: The Interface Event
 
 ChatGPT is the moment that behavior met the public: not as a paper, but as an interface ordinary people could test with ordinary language.
@@ -1087,8 +1043,7 @@ ChatGPT is the moment that behavior met the public: not as a paper, but as an in
 
 > [!FIGURE] **F07.01 / A-0016 - ChatGPT: From Interface Event To Business Surface**
 > Caption: F07.01: ChatGPT: From Interface Event To Business Surface.
-> Source note: Sources: S-0006;S-0014;S-0044;S-0045;S-0046;S-0077;S-0078;S-0079;S-0089;S-0090. Rights path: ready_svg. Story role: ChatGPT business timeline.
-
+> 
 
 On November 30, 2022, OpenAI published a product post with a plain invitation: try a conversational model called ChatGPT. The interface did not look like a scientific milestone. It looked like a text box. That was the trick, and also the rupture. A research trajectory that had been moving through papers, demos, APIs, and benchmark tables arrived in the old shape of computing's most forgiving command line: write something, press return, see what comes back. [S-0006]
 
@@ -1108,15 +1063,13 @@ The fussiness matters because the launch became legendary so quickly. "Users," "
 
 The first reaction was not a single public mood. It was a set of local control problems. On December 5, 2022, Meta Stack Overflow posted a temporary policy against ChatGPT-generated posts, saying the issue was not merely that answers could be wrong but that plausible wrong answers could arrive faster than volunteer moderators could inspect them. [S-0093] A month later, Chalkbeat reported that New York City's education department had blocked ChatGPT on school devices and networks, citing learning, safety, and accuracy concerns. [S-0094] Seattle Public Schools had taken a similar access-control route on district WiFi and devices, according to Axios Seattle, while Axios later reported that JPMorgan Chase restricted staff use under ordinary third-party-software controls rather than a named incident. [S-0096; S-0097] These were not proof that developers, schools, or companies all rejected ChatGPT. They were early signs that the chat box had escaped the product category OpenAI had given it: communities had to decide whether it was a tool, a shortcut, a cheating machine, a security risk, or all of those at once.
 
-The order matters. Stack Overflow was not a school. A school district was not a bank. A bank restriction was not a public cultural verdict. Each institution had a different failure mode in view. For a volunteer Q&A site, the danger was moderation overload from confident junk. For schools, the danger was assessment, learning, and student use inside managed networks. For a bank, the danger was third-party software inside a controlled enterprise environment. ChatGPT looked universal because the same text box appeared everywhere, but the local anxieties were specific. The chapter should preserve that specificity, because specificity is what keeps early reception from becoming a cartoon.
-
+The order matters. Stack Overflow was not a school. A school district was not a bank. A bank restriction was not a public cultural verdict. Each institution had a different failure mode in view. For a volunteer Q&A site, the danger was moderation overload from confident junk. For schools, the danger was assessment, learning, and student use inside managed networks. For a bank, the danger was third-party software inside a controlled enterprise environment. ChatGPT looked universal because the same text box appeared everywhere, but the local anxieties were specific. that specificity, because specificity is what keeps early reception from becoming a cartoon.
 
 ### The Product Was A Training Method With A Face
 
 > [!FIGURE] **F07.02 / A-0284-052 - Sam Altman Public Profile Texture**
 > Caption: F07.02: Public-profile image of Sam Altman gives the ChatGPT chapter a human organizational anchor; it is not evidence for launch causality, adoption, governance, or biographical claims beyond the ledger label.
-> Source note: Sources: S-0006. Rights path: private_capture_needed. Story role: ChatGPT launch surface.
-
+> 
 
 The quiet prehistory of ChatGPT is not a chat window. It is a change in training objective after pretraining. GPT-3 had shown how far next-token prediction could go when scaled. It also showed a product problem: a base model will continue patterns, not necessarily obey intentions. If the user writes a question, the model may answer. If the user writes a fragment, the model may continue the fragment. If the prompt resembles a hostile or nonsensical pattern, the model may follow the pattern. The behavior is powerful, but it is not yet an assistant.
 
@@ -1150,33 +1103,31 @@ That was democratizing in one sense and destabilizing in another. More people co
 
 > [!FIGURE] **F07.03 / A-0260-001 - Paid access became a product surface**
 > Caption: F07.03: ChatGPT Plus conversion.
-> Source note: Sources: S-0078. Rights path: private_capture_needed. Story role: ChatGPT Plus surface.
-
+> 
 
 The product did not stay a box for long. In March 2023, OpenAI announced ChatGPT plugins, framing them as a way for models to use tools designed for language models, including browsing, code execution, and third-party services under constrained protocols. [S-0044] The plugin announcement signaled that the chat interface was not only an answer machine. It could become a dispatch layer.
 
 That shift matters for the later chapters on agents and coding systems. A model that can call tools is a different product species from a model that only emits text. The underlying language model still predicts tokens, but the product can now turn text into action: retrieve a document, run code, query a service, or ask for user confirmation before an external operation. The interface event began to merge with the workflow event.
 
-The business surface changed just as quickly. In February 2023, OpenAI introduced ChatGPT Plus as a $20-a-month subscription pilot, promising general access during peak demand, faster responses, and priority access to new features. [S-0078] That was a product clue as much as a pricing clue. ChatGPT was no longer only a free research preview collecting feedback. It was becoming a service with reliability expectations, feature tiers, and paying users. The chapter should not inflate OpenAI's own feedback and use-case language into adoption statistics; the captured Plus evidence supports the subscription mechanics, not a market-size claim.
+The business surface changed just as quickly. In February 2023, OpenAI introduced ChatGPT Plus as a $20-a-month subscription pilot, promising general access during peak demand, faster responses, and priority access to new features. [S-0078] That was a product clue as much as a pricing clue. ChatGPT was no longer only a free research preview collecting feedback. It was becoming a service with reliability expectations, feature tiers, and paying users. inflate OpenAI's own feedback and use-case language into adoption statistics; the captured Plus evidence supports the subscription mechanics, not a market-size claim.
 
 The productization permission is narrow by design. The Plus source supports launch mechanics: date, price, access during peak demand, faster responses, and priority access to new features, with a text-render caveat. It does not support paid-user totals, retention, revenue, or broad claims about who depended on the service. That narrowness is useful. It lets the chapter show the moment when the research preview became a paid service without pretending the subscription page is a financial statement.
 
 In November 2023, OpenAI introduced GPTs, custom versions of ChatGPT that users could configure for particular purposes. [S-0045] This was another attempt to convert a general conversational model into a platform: not just one assistant, but many situated assistants, each with instructions, knowledge, and possible tools. Whether every custom assistant was useful is less important than the platform logic. The chat window was becoming a container for software-like behavior.
 
-Then GPT-4o pushed the interface in a different direction. OpenAI introduced GPT-4o in May 2024 as a model extending ChatGPT toward more natural multimodal interaction, with text and image capabilities rolling out and audio/video ambitions at the center of the announcement. [S-0046] The chapter should treat this carefully. The book is about LLMs, not a general history of image or video models. But GPT-4o belongs here because it shows the chat interface stretching beyond typed text while keeping the assistant as the product frame.
+Then GPT-4o pushed the interface in a different direction. OpenAI introduced GPT-4o in May 2024 as a model extending ChatGPT toward more natural multimodal interaction, with text and image capabilities rolling out and audio/video ambitions at the center of the announcement. [S-0046] this carefully. The book is about LLMs, not a general history of image or video models. But GPT-4o belongs here because it shows the chat interface stretching beyond typed text while keeping the assistant as the product frame.
 
 Across these steps, the pattern is clear: ChatGPT began as the public face of instruction-following language models and became a staging ground for tools, custom agents, multimodal interaction, and later reasoning products. The history of the interface is therefore not a side story. It is how the research program reached the market.
 
 The platform turn also created a new kind of product ambiguity. When a chat system uses a tool, is the answer from the model, the tool, the developer, the retrieved document, or the orchestration layer? When a custom GPT follows uploaded instructions, whose behavior is the user judging? When a multimodal assistant describes an image or listens to speech, where does the language model end and the product system begin? ChatGPT's strength was that it concealed these seams from the user. The historian's job is to put them back.
 
-This is why the chapter should treat plugins, GPTs, and GPT-4o as interface milestones rather than as a separate product catalog. Each widened the same promise: ordinary language could become a control surface for more kinds of computation. First the model answered. Then it could call tools. Then users could configure assistants. Then the assistant frame stretched toward voice, image, and more immediate multimodal exchange. The user's gesture stayed simple: ask. The machinery behind the ask kept getting less simple.
+This is why plugins, GPTs, and GPT-4o as interface milestones rather than as a separate product catalog. Each widened the same promise: ordinary language could become a control surface for more kinds of computation. First the model answered. Then it could call tools. Then users could configure assistants. Then the assistant frame stretched toward voice, image, and more immediate multimodal exchange. The user's gesture stayed simple: ask. The machinery behind the ask kept getting less simple.
 
 ### The Cloud Behind The Conversation
 
 > [!FIGURE] **F07.04 / A-0260-002 - Enterprise ChatGPT added workplace controls**
 > Caption: F07.04: ChatGPT Enterprise launch surface.
-> Source note: Sources: S-0079. Rights path: private_capture_needed. Story role: Enterprise surface.
-
+> 
 
 A text box can make computation feel weightless. ChatGPT was not weightless. It sat on a stack of training runs, inference servers, GPUs, networking, datacenters, and capital commitments. The Microsoft/OpenAI relationship is part of the chapter because the interface shock immediately became an infrastructure race.
 
@@ -1186,7 +1137,7 @@ This is one of the reasons ChatGPT frightened incumbents. It was not merely a po
 
 That flywheel was not automatic. Inference could be expensive. Models could be slow. Safety failures could travel at consumer scale. Enterprise customers wanted controls that a viral demo did not need. But after ChatGPT, every major lab and cloud company had to answer a new question: if language is a universal interface, where does your platform sit?
 
-OpenAI's August 2023 ChatGPT Enterprise release-note entry showed the same interface being repackaged for organizations: enterprise-grade security and privacy, higher-speed GPT-4 access, longer context, advanced data analysis, customization, and related workplace features. [S-0089] The original Enterprise product post now has text-rendered local evidence for short, attributed launch-page feature language, but the chapter should not turn OpenAI's Enterprise adoption, named-customer, or customer-productivity claims into neutral market statistics without row-specific corroboration and independent triangulation. [S-0079] The safer point is structural: once ChatGPT entered workplaces, the chat box had to become an administered product, not merely a public demo.
+OpenAI's August 2023 ChatGPT Enterprise release-note entry showed the same interface being repackaged for organizations: enterprise-grade security and privacy, higher-speed GPT-4 access, longer context, advanced data analysis, customization, and related workplace features. [S-0089] The original Enterprise product post now has text-rendered local evidence for short, attributed launch-page feature language, but turn OpenAI's Enterprise adoption, named-customer, or customer-productivity claims into neutral market statistics without row-specific corroboration and independent triangulation. [S-0079] The safer point is structural: once ChatGPT entered workplaces, the chat box had to become an administered product, not merely a public demo.
 
 By May 2024, PwC said its U.S. and U.K. firms had signed an OpenAI agreement around ChatGPT Enterprise, while TechCrunch, citing an OpenAI alliances executive, described PwC as OpenAI's largest customer and first reseller with a 100,000-user coverage/access scale; that is evidence of commercial-role framing, not pricing, revenue, active usage, paid seats, global rollout, client adoption, or productivity outcomes. [S-0100; S-0103]
 
@@ -1207,10 +1158,9 @@ Second, it hid calibration. ChatGPT could be useful while wrong, plausible while
 Third, it hid labor. Human feedback, red teaming, data work, evaluation, policy choices, and infrastructure operations were compressed into the personality of the assistant. Users experienced a single conversational surface. Underneath were many human and machine systems trying to shape what kinds of answers the model would give.
 
 Fourth, it hid the boundary between product behavior and model behavior. When ChatGPT refused a request, answered with a caveat, used a tool, or remembered context inside a conversation, the user often experienced one entity. In reality, those behaviors could come from model training, system prompts, product rules, retrieval, tool orchestration, or interface state. The assistant was a bundle, not a mind.
+ into this hidden machinery without flattening the wonder. The wonder was real. A person could ask an English sentence and receive a structured, useful, often startling reply. But the right explanation is not magic. It is a stack: pretraining, instruction tuning, preference optimization, interface design, cloud serving, safety systems, and user imagination.
 
-The chapter should lean into this hidden machinery without flattening the wonder. The wonder was real. A person could ask an English sentence and receive a structured, useful, often startling reply. But the right explanation is not magic. It is a stack: pretraining, instruction tuning, preference optimization, interface design, cloud serving, safety systems, and user imagination.
-
-It also hid authorship. When ChatGPT wrote a paragraph, the output felt newly made. But newly made is not the same as independently originated. The model's fluency came from training on human text; its helpfulness came partly from human demonstrations and preferences; its safe behavior came partly from policy choices and evaluations; its answer might be shaped by system prompts, tools, or retrieval. The user saw one voice. The book should keep showing the chorus.
+It also hid authorship. When ChatGPT wrote a paragraph, the output felt newly made. But newly made is not the same as independently originated. The model's fluency came from training on human text; its helpfulness came partly from human demonstrations and preferences; its safe behavior came partly from policy choices and evaluations; its answer might be shaped by system prompts, tools, or retrieval. The user saw one voice. showing the chorus.
 
 It hid time. A model has a training cutoff, a deployment date, and a product version. A user experiences the answer in the present tense. That mismatch made ChatGPT feel both immediate and oddly stale. It could explain a concept beautifully and miss a recent fact. It could sound authoritative about a world it had not observed. Later tool use and browsing features tried to patch that gap, but the original interface event taught millions of people the pleasure and danger of a timeless answer.
 
@@ -1222,8 +1172,7 @@ Most of all, it hid responsibility. A wrong answer could be blamed on the model,
 
 > [!FIGURE] **F07.05 / A-0260-003 - Release notes are product archaeology**
 > Caption: F07.05: ChatGPT plugins surface.
-> Source note: Sources: S-0044. Rights path: private_capture_needed. Story role: plugins surface.
-
+> 
 
 The race after ChatGPT was not only a race to match a model. It was a race to answer an interface. That distinction explains the speed of the response. A rival lab could have a capable model and still look behind if ordinary users could not touch it. A cloud company could have infrastructure and still look behind if the product did not make the capability legible. A search company could have decades of language technology and still look surprised if the public decided that one conversational box felt like the future.
 
@@ -1233,7 +1182,7 @@ That is why ChatGPT became a boardroom object without needing fake boardroom sce
 
 The same was true for developers. ChatGPT did not replace programming, but it changed the expected shape of developer tools. If a model could explain an error, draft a function, summarize documentation, and convert natural language into code-like artifacts, then the next interface might live in the editor, repository, terminal, ticket queue, or CI log. The chat box was not the final form. It was the public rehearsal for agents.
 
-The race also had a negative pressure. No major company wanted to be seen as absent from the new interface paradigm. That pressure can produce rushed demos, vague announcements, premature integrations, and benchmark theater. The book should treat those later moves with suspicion. But the pressure itself was real because ChatGPT had changed the default imagination. After the box, "AI strategy" no longer sounded like a research agenda. It sounded like a product deadline.
+The race also had a negative pressure. No major company wanted to be seen as absent from the new interface paradigm. That pressure can produce rushed demos, vague announcements, premature integrations, and benchmark theater. those later moves with suspicion. But the pressure itself was real because ChatGPT had changed the default imagination. After the box, "AI strategy" no longer sounded like a research agenda. It sounded like a product deadline.
 
 That deadline began with a modest launch frame. OpenAI's original ChatGPT post did not need to claim it had invented a new computer. It invited users to test a conversational model and give feedback. [S-0006] The mismatch between that modest frame and the industry reaction is the historical clue. A product can change the world not because its announcement is grand, but because it gives millions of people a new verb. After ChatGPT, to "ask the model" became a normal thing to imagine, and a normal thing to expect from every serious software company in the new platform race.
 
@@ -1243,7 +1192,7 @@ ChatGPT's deepest consequence was not that it answered questions. It changed wha
 
 Many of those expectations ran ahead of reliability. Some were bad ideas. Some made security harder. Some confused generated text with verified knowledge. But the expectation shift was irreversible by the cutoff of this book. ChatGPT had made the LLM a consumer habit, a boardroom urgency, a developer surface, a school problem, a cloud demand shock, and a new benchmark for interface ambition.
 
-This is why the book should call it the interface event. The model mattered. The training method mattered. The compute mattered. But the box made the system culturally legible. It turned next-token prediction into something people could ask to do work.
+This is why the interface event. The model mattered. The training method mattered. The compute mattered. But the box made the system culturally legible. It turned next-token prediction into something people could ask to do work.
 
 The next chapters must pull the machine apart. GPT-1 through GPT-3 explain how scale made the behavior possible. RLHF explains why the behavior could feel helpful. Microsoft and the cloud explain why the behavior could be served. Google, Anthropic, Meta, DeepSeek, Qwen, Mistral, and the rest explain why the shock became a race. Coding agents explain why chat was only the first interface, not the last.
 
@@ -1265,7 +1214,6 @@ The interface event created demand that no model paper could satisfy alone. To t
 
 # Chapter 08: Microsoft, OpenAI, and the Cloud Bargain
 
-
 ## 8. Microsoft, OpenAI, and the Cloud Bargain
 
 The interface event created a capacity problem, and capacity turned Microsoft and OpenAI's bargain into strategy, distribution, and governance.
@@ -1274,8 +1222,7 @@ The interface event created a capacity problem, and capacity turned Microsoft an
 
 > [!FIGURE] **F08.01 / A-0056 - Microsoft/OpenAI: The Cloud Bargain Timeline**
 > Caption: F08.01: Microsoft/OpenAI: The Cloud Bargain Timeline.
-> Source note: Sources: S-0125;S-0126;S-0127;S-0129;S-0130;S-0131;S-0132;S-0133. Rights path: ready_svg. Story role: cloud bargain timeline.
-
+> 
 
 The public saw a chat box. Microsoft saw a workload.
 
@@ -1301,7 +1248,7 @@ OpenAI, still trying to turn ambitious research into durable products and revenu
 
 The announcement did not prove that the partnership would work. It did not prove that OpenAI's models would become consumer products, enterprise tools, or developer infrastructure. What it did prove is that Microsoft understood the shape of the bottleneck early enough to make compute itself a strategic position.
 
-That is why the chapter should not begin in January 2023. By the time Microsoft extended the partnership after ChatGPT, the runway had already been poured.
+That is why begin in January 2023. By the time Microsoft extended the partnership after ChatGPT, the runway had already been poured.
 
 ### Supercomputer As Relationship
 
@@ -1319,8 +1266,7 @@ That loop will reappear later in the NVIDIA and datacenter chapters. Here, it ex
 
 > [!FIGURE] **F08.02 / A-0287-017 - Microsoft Copilot Product Surface**
 > Caption: F08.02: Microsoft Copilot public-web screenshot gives the Microsoft/OpenAI flywheel a concrete product surface; it does not prove enterprise adoption, productivity lift, revenue, margin, or search-share effects.
-> Source note: Sources: S-0125;S-0126;S-0127;S-0129;S-0130;S-0131;S-0132;S-0133. Rights path: ready_svg. Story role: cloud-to-product flywheel.
-
+> 
 
 The next turn was more explicit. In September 2020, Microsoft announced that it had teamed up with OpenAI to exclusively license GPT-3. [S-0127] The Microsoft post said OpenAI would continue to offer GPT-3 and other models through its own API, while Microsoft would use the license to develop and deliver AI solutions for customers. [S-0127]
 
@@ -1362,8 +1308,7 @@ The door was the point.
 
 > [!FIGURE] **F08.03 / A-0058 - Inference Cost Stack: What The Chat Box Hides**
 > Caption: F08.03: Inference Cost Stack: What The Chat Box Hides.
-> Source note: Sources: S-0041;S-0126;S-0129;S-0131;S-0133. Rights path: ready_svg. Story role: inference cost stack.
-
+> 
 
 In January 2023, Microsoft and OpenAI announced an extended partnership. [S-0130] Coming two months after ChatGPT's launch, the announcement read differently from the 2019 partnership. The world now had a visible interface. The cloud bargain no longer needed to be explained as a speculative research infrastructure bet. It could be understood as the backend of a product shock.
 
@@ -1401,8 +1346,7 @@ That is why the chapter's title is the cloud bargain, not the cloud backend. The
 
 > [!FIGURE] **F08.04 / A-0059 - Enterprise Claim Blocker Map**
 > Caption: F08.04: Enterprise Claim Blocker Map.
-> Source note: Sources: S-0129;S-0131;S-0132;S-0133. Rights path: ready_svg. Story role: enterprise blocker map.
-
+> 
 
 Microsoft also had a reason to move that was older than ChatGPT: it had spent decades living in Google's shadow in search and in the web's attention economy. LLMs offered a rare opening. A conversational answer layer could make Bing feel less like a smaller index and more like a different interface. That did not guarantee share gains, ad gains, or durable consumer behavior. Those claims are blocked in this pass. But strategically, the logic is clear: Microsoft could use OpenAI's model shock as a way to reopen a market that ordinary search competition had not reopened.
 
@@ -1452,7 +1396,6 @@ Microsoft's bargain showed how quickly a model could become leverage when cloud,
 
 # Chapter 09: Google and DeepMind Wake the Sleeping Giant
 
-
 ## 9. Google and DeepMind Wake the Sleeping Giant
 
 Google enters under a stranger burden: it already owned research depth, consumer habit, and infrastructure, and had to move them without breaking them.
@@ -1461,8 +1404,7 @@ Google enters under a stranger burden: it already owned research depth, consumer
 
 > [!FIGURE] **F09.01 / A-0288-004 - PaLM Page As Google's Scale Surface**
 > Caption: F09.01: PaLM page-one render gives the Google/DeepMind chapter a pre-Gemini scale artifact; it does not prove current Gemini quality, deployment, Search impact, or product adoption.
-> Source note: Sources: S-0002;S-0016;S-0108;S-0115;S-0116;S-0117;S-0118;S-0119;S-0121;S-0122;S-0123;S-0124. Rights path: ready_svg. Story role: Google conversion timeline.
-
+> 
 
 The strangest thing about Google's generative-AI panic was that it did not begin in ignorance. It began inside the company whose researchers had helped build the modern substrate. The Transformer was a Google paper before it became everyone else's factory floor. TPUs were Google's bid to make neural computation an internal utility. DeepMind had turned neural systems into a public spectacle of superhuman play and scientific ambition. Search was the web's front door. Gmail, Docs, Android, Chrome, YouTube, Maps, and Cloud gave Google more assistant surfaces than any startup could dream of owning.
 
@@ -1490,8 +1432,7 @@ The problem was conversion. How does a lab convert research depth into a product
 
 > [!FIGURE] **F09.02 / A-0289-004 - Gemini API Model Docs Surface**
 > Caption: F09.02: Google Gemini API model-docs screenshot makes Gemini's developer model surface visible; mutable docs do not prove cutoff-day availability, benchmark rank, Search impact, price, or stable behavior.
-> Source note: Sources: S-0115;S-0118;S-0121;S-0122;S-0123;S-0124. Rights path: ready_svg. Story role: Gemini surface conversion.
-
+> 
 
 Bard was Google's first public answer after ChatGPT made the chat interface culturally legible. Google's March 2023 Bard post described it as an early experiment that let users collaborate with generative AI and explicitly framed it as complementary to Search. [S-0118] That word, "complementary," carried the whole tension. Google did not want to say that chat would replace search. It wanted to add a conversational layer without admitting that the layer might rearrange the page underneath it.
 
@@ -1519,8 +1460,7 @@ That is the giant's burden. A startup can make one miracle. Google had to make a
 
 > [!FIGURE] **F09.03 / A-0288-016 - Gemini 1.5 Report Page As Long-Context Surface**
 > Caption: F09.03: Gemini 1.5 technical-report page-one render anchors long-context product grammar in a source surface; it does not prove current product state, live model rank, or Search impact.
-> Source note: Sources: S-0117;S-0123;S-0124. Rights path: ready_svg. Story role: long-context product grammar.
-
+> 
 
 Gemini 1.5 sharpened one of Google's strongest product arguments: context length. The Gemini 1.5 technical report framed the model around multimodal understanding across very long contexts. [S-0117] Google's May 2024 product update brought Gemini 1.5 Pro to Gemini Advanced subscribers and described a one-million-token context window in a consumer assistant setting. [S-0123] A developer update the same month described Gemini 1.5 Pro and 1.5 Flash availability, and mentioned a two-million-token context window path for developers and cloud customers through Google AI Studio or Vertex AI. [S-0124]
 
@@ -1539,8 +1479,7 @@ Google's infrastructure story cannot be reduced to TPUs, but TPUs are the visibl
 This gave Google a different kind of leverage from model-only labs. It could design chips, datacenters, frameworks, training systems, serving systems, and products inside one company. That did not mean it was invulnerable. NVIDIA GPUs and CUDA remained central to the wider frontier ecosystem, and Google's cloud customers still lived in a heterogeneous world. But Google's custom silicon gave it a story that looked less like buying capacity and more like owning part of the machine that makes capacity useful.
 
 The point is leverage, not triumph. A TPU is not a product people ask for at breakfast. It is a way to make the research and serving problem more internally controllable. Search users, Workspace users, Android users, and developers do not reward a chip for existing. They reward answers, latency, price, privacy, reliability, and integration. Google's infrastructure strength therefore had to pass through product conversion before it became visible to most of the market.
-
-The book should avoid turning this into a clean TPU-versus-GPU morality play. The real story is messier. TPUs can be a strength for internal training and serving, a differentiator for cloud, and a constraint if developer ecosystems, libraries, or customer habits point elsewhere. GPUs can be expensive and supply-constrained, while also benefiting from CUDA's enormous software gravity. Google lived with both realities. Its internal stack gave it power. The external market still judged products, APIs, prices, compatibility, and trust.
+ turning this into a clean TPU-versus-GPU morality play. The real story is messier. TPUs can be a strength for internal training and serving, a differentiator for cloud, and a constraint if developer ecosystems, libraries, or customer habits point elsewhere. GPUs can be expensive and supply-constrained, while also benefiting from CUDA's enormous software gravity. Google lived with both realities. Its internal stack gave it power. The external market still judged products, APIs, prices, compatibility, and trust.
 
 The TPU difference belongs here as a strategic fact, not a victory lap. It explains why Google could remain technically serious even when its consumer narrative wobbled. It also prepares Chapter 14, where the GPU/CUDA moat shows why most of the industry did not have Google's option.
 
@@ -1548,8 +1487,7 @@ The TPU difference belongs here as a strategic fact, not a victory lap. It expla
 
 > [!FIGURE] **F09.04 / A-0289-T001 - 2023 Model-Landscape Table**
 > Caption: F09.04: The 2023 benchmark/model-landscape table marks the year when Llama, Mistral, Code Llama, and tool-use/coding benchmarks entered the visible race; it is context, not a live rank or universal quality score.
-> Source note: Sources: S-0061;S-0119;S-0120. Rights path: ready_svg. Story role: Gemini claim blockers.
-
+> 
 
 Search is the part of Google's story that can be too familiar to see clearly. A search engine is already a kind of language machine. It parses a query, retrieves documents, ranks sources, displays fragments, sells attention, and teaches users to treat the web as an answerable surface. A chat assistant changes the shape of that contract. Instead of sending the user outward, it can pull the answer inward.
 
@@ -1575,14 +1513,12 @@ The same rule applies to pricing. The Gemini Developer API pricing snapshot is a
 
 > [!FIGURE] **F09.05 / A-0287-015 - Google AI Studio Product Surface**
 > Caption: F09.05: Google AI Studio public-web screenshot anchors Gemini as a developer-facing product surface; it does not prove benchmark rank, adoption, Search economics, TPU performance, or current feature status.
-> Source note: Sources: S-0119;S-0121;S-0123;S-0124. Rights path: private_capture_needed. Story role: Gemini/Bard source surface.
-
+> 
 
 Gemini also had a second audience: not the consumer asking a question in an app, but the developer deciding where to build. That audience changes the stakes. A consumer assistant competes for habit and trust. A developer platform competes for tooling, latency, reliability, pricing, documentation, model choice, data controls, and integration with the rest of a stack. Google's December 2023 Gemini collection pointed developers and enterprise customers toward Gemini Pro through the Gemini API, Vertex AI, and Google AI Studio. [S-0121] The May 2024 developer update kept the same pattern: Gemini was a model family, but it was also a set of access paths. [S-0124]
 
 This matters because it makes Google harder to judge from the outside. If Gemini is only a chatbot, a reader can compare it to ChatGPT or Claude by feel. If Gemini is also a cloud and developer platform, the comparison becomes messier. A company may choose Google because its data already lives in BigQuery, because its teams already use Workspace, because its mobile product depends on Android, because its security posture favors Vertex AI, or because its inference workload needs a particular price/context/latency shape. None of those choices proves model superiority. They prove that model competition is partly distribution competition.
-
-The chapter should therefore resist a clean scoreboard ending. Google's developer story is not "Gemini beats X." It is that Google could make Gemini available through enough surfaces that choosing the model might become entangled with choosing the platform. That is an old Google move in a new technical regime. Search made the web navigable and monetizable. Android made mobile distribution strategic. Gemini tried to make model access, workplace context, and cloud infrastructure part of one gravitational field.
+ Google's developer story is not "Gemini beats X." It is that Google could make Gemini available through enough surfaces that choosing the model might become entangled with choosing the platform. That is an old Google move in a new technical regime. Search made the web navigable and monetizable. Android made mobile distribution strategic. Gemini tried to make model access, workplace context, and cloud infrastructure part of one gravitational field.
 
 The danger is that platform gravity can hide user desire. A model can be available everywhere and still fail to become the product people love. That is why this chapter keeps returning to conversion. Google had the second audience, the developer and enterprise buyer, but it still needed the first audience, the person who opens the assistant because it feels obviously useful.
 
@@ -1602,7 +1538,7 @@ The tension remained: a research lab wants to be right; a product organization w
 
 This chapter should not end with Google declared ahead or behind. That would be leaderboard theater. Its job is to put Google back into the race as a structurally different competitor.
 
-By the time the story moves to Meta and Llama, the reader should understand why open weights hit Google differently from how they hit OpenAI or Anthropic. Google was not only defending a model. It was defending a model distribution system. Meta's open-weight strategy would argue that capability could diffuse outside a single hosted assistant. Chinese labs would show that the frontier was no longer an American two-company drama. Mistral and xAI would test speed, branding, openness, and specialization. Benchmarks would tempt everyone to call a winner. Hardware chapters would reveal how much of the race depended on chips, power, and serving cost.
+By the time the story moves to Meta and Llama, why open weights hit Google differently from how they hit OpenAI or Anthropic. Google was not only defending a model. It was defending a model distribution system. Meta's open-weight strategy would argue that capability could diffuse outside a single hosted assistant. Chinese labs would show that the frontier was no longer an American two-company drama. Mistral and xAI would test speed, branding, openness, and specialization. Benchmarks would tempt everyone to call a winner. Hardware chapters would reveal how much of the race depended on chips, power, and serving cost.
 
 Google's place in that sequence is the giant with too many muscles. It had the architecture roots, the custom silicon, the research brand, the product surfaces, the cloud channel, the mobile operating system, and the search habit. It also had the most to disrupt inside its own house.
 
@@ -1618,7 +1554,6 @@ Google kept the contest inside the familiar world of giant platforms and product
 
 # Chapter 10: Meta, Llama, and the Open-Weight Shock
 
-
 ## 10. Meta, Llama, and the Open-Weight Shock
 
 Meta changes the surface of the race by making powerful weights downloadable objects, which made openness feel practical and governance harder.
@@ -1627,27 +1562,20 @@ Meta changes the surface of the race by making powerful weights downloadable obj
 
 > [!FIGURE] **F10.01 / A-0288-009 - Llama 3 Herd Paper Page**
 > Caption: F10.01: The Llama 3 Herd of Models page-one render makes Meta's open-weight family visible as a report artifact; it does not prove open-source legal status, adoption, benchmark supremacy, or deployment outcomes.
-> Source note: Sources: S-0008;S-0023;S-0024;S-0025;S-0111;S-0113. Rights path: ready_svg. Story role: Llama family map.
-
+> 
 
 The LLM race looked, at first, like a race toward closed interfaces. OpenAI put GPT-3 behind an API, then ChatGPT behind a box. Google had model research, search distribution, and cloud products. Anthropic made assistant behavior part of the brand. A user might touch the model through a chat page, a subscription, a cloud endpoint, or an enterprise bundle. The model itself remained elsewhere: in a datacenter, behind policy, updated on a schedule the user did not control.
 
 Meta changed the argument by making model weights a strategic instrument. The Llama line did not make Meta an academic charity, and it did not remove the need for licenses, safety filters, data provenance, or compute. But it did make a different object central to the public story: a downloadable foundation model that researchers, developers, startups, hobbyists, cloud providers, and rival labs could study, adapt, quantize, fine-tune, host, criticize, and build around.
 
-That is the open-weight shock. It was not open source in the classic software sense. A release can include weights while withholding training data, curation details, training infrastructure, internal safety review, or unrestricted license rights. It can be open enough to transform the ecosystem while remaining controlled in important ways. [S-0023] The chapter has to live in that tension: say "open source" loosely and Meta's strategy blurs; say "closed" too broadly and Llama's force disappears.
-
-Figure 10.1 follows the family as a sequence of release objects rather than a rank chart: LLaMA as a research release, Llama 2 as an open foundation and chat-model family, Code Llama as the code-specialized branch, Llama 3 and 3.1 as larger and more polished public families, and Llama 4 as a natively multimodal, mixture-of-experts turn. [S-0111] [S-0023] [S-0025] [S-0024] [S-0113] [S-0008] The point is not that every later model is simply better in every sense. The point is that the release surface changed what other people could do.
-
-
-Visual integration: Figure 10.1, `assets/visual_system/llama-family-open-weight-map.svg`, sketches the Llama family as a release-and-claim map rather than a capability leaderboard. The row data lives in the companion source table. Figure 10.2, queued by pass I-0142, should make the control stack explicit: weights, license, training transparency, hosting burden, safety governance, ecosystem work, and benchmark permission move differently.
+That is the open-weight shock. It was not open source in the classic software sense. A release can include weights while withholding training data, curation details, training infrastructure, internal safety review, or unrestricted license rights. It can be open enough to transform the ecosystem while remaining controlled in important ways. [S-0023] Figure 10.1 follows the family as a sequence of release objects rather than a rank chart: LLaMA as a research release, Llama 2 as an open foundation and chat-model family, Code Llama as the code-specialized branch, Llama 3 and 3.1 as larger and more polished public families, and Llama 4 as a natively multimodal, mixture-of-experts turn. [S-0111] [S-0023] [S-0025] [S-0024] [S-0113] [S-0008] The point is not that every later model is simply better in every sense. The point is that the release surface changed what other people could do.
 
 ### LLaMA Begins as Research Infrastructure
 
 Meta introduced LLaMA in February 2023 as a set of foundation language models intended for researchers. [S-0111] The timing mattered. ChatGPT had just turned language models into a public interface event. The industry was learning that instruction-following assistants could become products, not only papers. Meta's first LLaMA release, by contrast, was not a consumer chat moment. It was a research object: a family of pretrained models made available to a selected research community.
 
 That research framing made sense for Meta's position. The company had enormous distribution through Facebook, Instagram, WhatsApp, and Messenger, but it did not own the public LLM story in late 2022 the way OpenAI suddenly did. Its advantage was different: open research habits, large-scale infrastructure, internal AI talent, and a history of releasing tools and models that others could extend. LLaMA converted that institutional character into a model strategy.
-
-The chapter should not romanticize the first release. Access was gated. The release did not make the whole training process transparent. It did not settle license questions. It did not guarantee safety or eliminate the risk that weights could be misused. But it showed that a frontier-adjacent model could be treated as something other than a remote service. The model could become an artifact in the hands of outsiders.
+ romanticize the first release. Access was gated. The release did not make the whole training process transparent. It did not settle license questions. It did not guarantee safety or eliminate the risk that weights could be misused. But it showed that a frontier-adjacent model could be treated as something other than a remote service. The model could become an artifact in the hands of outsiders.
 
 That change altered the social physics of model progress. A closed API improves when the provider ships a new endpoint. An open-weight model becomes a workshop with many doors: adapters, quantizers, fine-tunes, evaluation harnesses, safety wrappers, inference servers, deployment recipes, and local experiments start appearing around it. Some of that work is rigorous. Some is noisy. Some is unsafe. Some is commercially useful. The point is not that the crowd is wiser than the lab. The point is that the locus of iteration changes.
 
@@ -1657,8 +1585,7 @@ For a book about computing, this matters because software history is full of mom
 
 > [!FIGURE] **F10.02 / A-0286-004 - Llama 2 Hugging Face Model Card**
 > Caption: F10.02: Llama 2 Hugging Face model-card screenshot gives the open-weight control stack a concrete distribution surface; it does not prove open-source legal status, adoption, superiority, safety, or current rank.
-> Source note: Sources: S-0023;S-0024;S-0025;S-0111;S-0112;S-0113;S-0114. Rights path: ready_svg. Story role: open-weight control stack.
-
+> 
 
 Llama 2 made the strategy explicit. The Llama 2 paper described a collection of pretrained and fine-tuned large language models, ranging across several parameter scales, with chat-optimized variants and safety evaluations. [S-0023] The release also carried a license and acceptable-use structure, which is why the chapter needs careful language. The weights were available, and commercial use was possible under terms, but the release was not permissionless in the way a small MIT-licensed library might be.
 
@@ -1688,16 +1615,15 @@ This is one reason Meta's strategy cannot be reduced to generosity. Open-weight 
 
 > [!FIGURE] **F10.03 / A-0286-011 - Llama 3 Hugging Face Model Card**
 > Caption: F10.03: Llama 3 Hugging Face model-card screenshot shows the adopter-facing model-family surface; it does not prove deployment scale, benchmark supremacy, safety, or production outcomes.
-> Source note: Sources: S-0023;S-0024;S-0114. Rights path: ready_svg. Story role: adopter burden transfer.
-
+> 
 
 Llama 3 moved the family from a striking release to a platform program. Meta's Llama 3 paper used the "herd" language deliberately: not one model, but a family of pretrained and post-trained models, safety models, and multimodal extensions. [S-0024] The name sounds playful, but the strategy was industrial. A model family can cover different sizes, risk levels, deployment targets, and tasks. It can be the basis for chat assistants, local models, research experiments, cloud endpoints, and specialized fine-tunes.
 
-The Llama 3 paper is valuable because it is not only a launch post. It describes training scale, post-training, evaluation, safety work, and release choices in a technical frame. [S-0024] This chapter should use it to explain the system, not to crown a winner. Exact benchmark tables, contamination controls, and leaderboard comparisons belong in the model-rankings chapter, where rows can be normalized and caveats stay visible.
+The Llama 3 paper is valuable because it is not only a launch post. It describes training scale, post-training, evaluation, safety work, and release choices in a technical frame. [S-0024] Exact benchmark tables, contamination controls, and leaderboard comparisons belong in the model-rankings chapter, where rows can be normalized and caveats stay visible.
 
 Meta's Llama 3 announcement and later Llama 3.1 materials also show how the company tried to convert open weights into a mainstream proposition. [S-0112] [S-0113] The message was not only "researchers can use this." It was "developers and companies can build with this." That is a more aggressive claim, and it needs license and support caveats. An enterprise adopting an open-weight model still has to solve hosting, updates, security, monitoring, safety, governance, and evaluation. The absence of a per-token vendor dependency does not remove operational responsibility. It moves more of that responsibility to the adopter.
 
-Llama 3.1 made the frontier ambition more explicit by highlighting a large 405B model alongside smaller variants and by stressing open-source AI as a strategic path. [S-0113] Again, the chapter should keep the terms precise. Meta used the language of open source in public framing, but the book should treat license terms, weights, data, and governance as separate dimensions. A reader should leave understanding that "open" is not a single switch. It is a bundle of affordances and constraints.
+Llama 3.1 made the frontier ambition more explicit by highlighting a large 405B model alongside smaller variants and by stressing open-source AI as a strategic path. [S-0113] Again, the terms precise. Meta used the language of open source in public framing, but license terms, weights, data, and governance as separate dimensions. A reader should leave understanding that "open" is not a single switch. It is a bundle of affordances and constraints.
 
 This nuance is not pedantry. It explains why the open-weight race became commercially serious. A model can be open enough to attract developers, open enough to pressure API pricing, open enough to become a standard benchmark target, and open enough to shape hardware demand, while still not being open in every sense advocates might want. Meta's genius was to make that middle ground strategically useful.
 
@@ -1717,8 +1643,7 @@ The strongest version of this chapter will eventually include a visual ecosystem
 
 > [!FIGURE] **F10.04 / A-0287-019 - Meta Llama Documentation Surface**
 > Caption: F10.04: Meta Llama Docs public-web screenshot anchors Llama as a documented open-weight release surface; it does not prove openness beyond the cited license, benchmark superiority, deployment scale, or safety outcome.
-> Source note: Sources: S-0111. Rights path: private_capture_needed. Story role: LLaMA launch surface.
-
+> 
 
 Why would Meta release weights at all? The simplest answer, "because openness is good," is too clean. The more interesting answer is that Meta's business incentives differ from a pure API lab's incentives. If a company sells model access by token, closed control can be the product. If a company monetizes attention, advertising, social products, devices, infrastructure efficiency, developer influence, and ecosystem gravity, then releasing weights can be a way to commoditize a rival's margin.
 
@@ -1726,7 +1651,7 @@ Open weights pressure API providers. They give customers an alternative. They pu
 
 Meta could afford to think this way because it was not only selling model calls. It wanted AI inside its own products, but it also benefited if the broader market treated open models as normal. That normalization weakened the idea that frontier intelligence had to be rented from a closed API provider. It made model capability feel less like a rare temple and more like an infrastructure component.
 
-This does not make Meta the anti-OpenAI. The contrast is useful but incomplete. OpenAI also released papers and tools; Meta also controlled licenses and product strategy. Closed providers can be safer, better supported, or more capable in some contexts. Open-weight providers can be careless, underdocumented, or ambiguous. The book should avoid moral sorting. The sharper point is structural: different business models make different kinds of openness rational.
+This does not make Meta the anti-OpenAI. The contrast is useful but incomplete. OpenAI also released papers and tools; Meta also controlled licenses and product strategy. Closed providers can be safer, better supported, or more capable in some contexts. Open-weight providers can be careless, underdocumented, or ambiguous. moral sorting. The sharper point is structural: different business models make different kinds of openness rational.
 
 That structure explains why Llama belongs near the center of the book, not in a side note. It changed the bargaining table. Developers could ask whether they needed a frontier API. Enterprises could ask whether local control mattered more than top score. Governments and researchers could ask whether dependence on a few closed providers was acceptable. Hardware companies could optimize around public models. Benchmark communities could test models that everyone could run.
 
@@ -1744,8 +1669,7 @@ That control-stack framing also protects the chapter from two easy mistakes. It 
 
 > [!FIGURE] **F10.05 / A-0285-008 - Llama 2 Report Page As Open-Weight Infrastructure**
 > Caption: F10.05: Llama 2 report page-one render anchors open-weight infrastructure in a source surface; it does not prove open-source legal status, adoption, superiority, or safe deployment.
-> Source note: Sources: S-0114. Rights path: private_capture_needed. Story role: Llama repository surface.
-
+> 
 
 The open-weight story has its own temptations. The first is to confuse downloadability with accountability. If a model can run locally, the user gains control, but also inherits responsibility. Someone must patch, monitor, evaluate, secure, and govern the system. A closed provider can impose policy and update behavior centrally; an open-weight model can be forked, modified, and deployed in ways the originator cannot fully supervise.
 
@@ -1783,7 +1707,6 @@ Open weights widened the field, but they did not make it orderly. The next front
 
 # Chapter 11: The Chinese Frontier
 
-
 ## 11. The Chinese Frontier
 
 The Chinese frontier widens the map again, but the chapter treats each lab as evidence, not as a national scoreboard.
@@ -1792,28 +1715,21 @@ The Chinese frontier widens the map again, but the chapter treats each lab as ev
 
 > [!FIGURE] **F11.01 / A-0289-001 - Qwen3 Hugging Face Model Card**
 > Caption: F11.01: Qwen3 Hugging Face model-card screenshot anchors the China/open-model map in a live distribution surface captured for private use; it does not support Qwen 3.5 or Qwen 3.6 claims, live rank, safety, or broad adoption.
-> Source note: Sources: S-0026;S-0027;S-0028;S-0029;S-0030;S-0031. Rights path: ready_svg. Story role: China source-permission map.
-
+> 
 
 The American version of the LLM race is easy to narrate: OpenAI lit the interface fuse, Microsoft supplied cloud partnership and distribution, Google defended search and converted research depth into Gemini, Anthropic turned assistant behavior into a brand, Meta pushed open weights, and NVIDIA sold the factories. That story is true enough to be useful. It is also incomplete.
 
-China's model ecosystem became too technically important to treat as a footnote. The evidence does not support a single patriotic scoreboard, and the book should not build one. The supported story is sharper: Alibaba's Qwen line, DeepSeek's V3 and R1 reports, Zhipu/THUDM's GLM-4 work, and Moonshot's Kimi k1.5 show that frontier LLM progress was no longer a neat U.S.-centered sequence. [S-0026] [S-0028] [S-0030] [S-0031]
-
-The chapter begins with a warning: "China" is not a lab. It is a national market, policy environment, talent pool, hardware constraint, cloud ecosystem, language environment, and group of companies with different strategies. Alibaba, DeepSeek, Zhipu AI, Moonshot, Baidu, Tencent, MiniMax, Xiaomi, and StepFun should not be flattened into one character. Some systems are open-weight; some are APIs, reports, announcements, or still-unfilled source gaps.
+China's model ecosystem became too technically important to treat as a footnote. The evidence does not support a single patriotic scoreboard, and build one. The supported story is sharper: Alibaba's Qwen line, DeepSeek's V3 and R1 reports, Zhipu/THUDM's GLM-4 work, and Moonshot's Kimi k1.5 show that frontier LLM progress was no longer a neat U.S.-centered sequence. [S-0026] [S-0028] [S-0030] [S-0031]
 
 That is why Figure 11.1 is a source map rather than a league table. The safe evidence today supports six primary lanes: Qwen2, Qwen3, DeepSeek-V3, DeepSeek-R1, GLM-4, and Kimi k1.5. It also preserves a gap lane for MiniMax, Baidu, Tencent, Xiaomi MiMo, StepFun, Qwen 3.5/3.6, and DeepSeek V4-era claims. The visual is a promise not to fake certainty.
 
 The chapter's job is different from the Meta chapter's job and different again from the next frontier chapter's job. Meta explains the control stack: what happens when weights, license, hosting, safety, ecosystem, and benchmarks no longer sit cleanly inside one provider. China explains source permission: what can be written from Qwen, DeepSeek, GLM, and Kimi rows today, and what must remain a gap lane until a cutoff-bounded primary source exists. Chapter 12 then widens the aperture to Mistral, xAI, Cohere, AI21, and other labs only when each changes a mechanism. The sequence should feel like a widening map, not like three chapters of names.
 
-
-Visual integration: Figure 11.1, `assets/visual_system/china-open-model-source-map.svg`, maps supported primary-source lanes and unsupported gap lanes. The row data lives in the companion source table.
-
 ### Qwen and the Alibaba Route
 
 > [!FIGURE] **F11.02 / A-0289-002 - DeepSeek-V3 Hugging Face Model Card**
 > Caption: F11.02: DeepSeek-V3 Hugging Face model-card screenshot adds a visible distribution surface for DeepSeek; it does not prove current production use, universal superiority, safety, deployment scale, or live benchmark rank.
-> Source note: Sources: S-0026;S-0027;S-0028;S-0029;S-0030;S-0031. Rights path: ready_svg. Story role: supported-vs-gap board.
-
+> 
 
 Qwen matters because it gives the chapter a large-company China route that is not simply a copy of OpenAI's product path. Alibaba had cloud infrastructure, developer distribution, commerce data gravity, and a reason to make models part of a broader platform. The Qwen2 technical report provides a supported anchor for the line. The Qwen3 technical report then extends the story into a more explicitly reasoning-aware and multilingual frame. [S-0027]
 
@@ -1823,7 +1739,7 @@ Qwen3 is especially useful because it shows how fast the frontier vocabulary con
 
 But the same report is a trap if used carelessly. It contains benchmark claims. It compares against other models. It names predecessors and training choices. Those can become charts only after a row-level extraction separates model version, benchmark, setting, release status, and license terms. Chapter 13 has already made the rule: rank claims need dated, scoped evidence rather than a clean-looking story. [C-0046]
 
-The most important Qwen claim for this pass is therefore structural. Alibaba/Qwen shows that an open or openly available model strategy did not belong only to Meta or Western open-weight communities. It also became a Chinese cloud-and-developer strategy. A reader should see Qwen beside Llama not because the two releases are legally or technically identical, but because both changed what outsiders could build on.
+The most important Qwen claim for Alibaba/Qwen shows that an open or openly available model strategy did not belong only to Meta or Western open-weight communities. It also became a Chinese cloud-and-developer strategy. A reader should see Qwen beside Llama not because the two releases are legally or technically identical, but because both changed what outsiders could build on.
 
 This chapter deliberately does not write Qwen 3.5 or Qwen 3.6 as happened history. The goal file names those families as mandatory where supported, but the current claim ledger still marks them as verification gaps. [C-0007] That is not a failure of the chapter. It is the chapter behaving like a source system rather than a rumor mill.
 
@@ -1836,8 +1752,7 @@ The dominant AI story in 2023 and 2024 often made scale feel like an American hy
 The report's MoE structure matters because it changes the relationship between total size and active computation. A dense model uses all parameters for each token. A Mixture-of-Experts model can route tokens through a subset of experts, making the total parameter count larger than the active parameter count. That does not make inference free, and it creates routing, load-balancing, training-stability, and systems challenges. But it gives model builders another axis besides "make the dense model bigger."
 
 DeepSeek-R1 then pushed the narrative into reasoning. The R1 paper describes reinforcement-learning-driven reasoning capability and open-sources DeepSeek-R1-Zero, DeepSeek-R1, and several distilled dense models based on Qwen and Llama. [S-0029] The connection is important: one Chinese model line becomes part of another Chinese model line's reasoning ecosystem, and Meta's Llama appears inside the distillation story as well. The global model race was recombinatory, not national silo work.
-
-The chapter should resist two bad readings. The first is triumphalism: DeepSeek did not prove that compute no longer matters or that constraints are irrelevant. The second is dismissal: the source reports are technical enough that they cannot be waved away as marketing. DeepSeek belongs in the book because it made efficiency, MoE design, reinforcement-learning reasoning, distillation, and open release part of the mainstream frontier conversation.
+ two bad readings. The first is triumphalism: DeepSeek did not prove that compute no longer matters or that constraints are irrelevant. The second is dismissal: the source reports are technical enough that they cannot be waved away as marketing. DeepSeek belongs in the book because it made efficiency, MoE design, reinforcement-learning reasoning, distillation, and open release part of the mainstream frontier conversation.
 
 What remains blocked is just as important. DeepSeek V4-era claims stay out of prose until a cutoff-bounded primary source is captured. [C-0007] Exact benchmark comparisons and cost claims need table extraction. Claims about market impact, geopolitical shock, stock moves, national policy, or broad adoption need separate sources. This chapter is about LLM mechanisms and release strategy, not a financial-news montage.
 
@@ -1845,8 +1760,7 @@ What remains blocked is just as important. DeepSeek V4-era claims stay out of pr
 
 > [!FIGURE] **F11.03 / A-0285-010 - Qwen2 Technical Report Page**
 > Caption: F11.03: Qwen2 technical-report page-one render gives the China/open-model chapter a dated Qwen source surface; it does not support Qwen 3.5 or Qwen 3.6 claims or live rank without later sources.
-> Source note: Sources: S-0026. Rights path: private_capture_needed. Story role: Qwen2 source surface.
-
+> 
 
 GLM-4 and Kimi k1.5 keep the chapter from becoming a Qwen-and-DeepSeek duet. The GLM-4 report, from Zhipu AI/THUDM, supports a multilingual and multimodal chat-model lane. Kimi k1.5, from Moonshot AI, supports a reasoning and reinforcement-learning lane. [S-0031] Together they show that China's frontier was not just one open-model family and one efficiency lab.
 
@@ -1864,8 +1778,6 @@ The Meta chapter used a control-stack frame: weights, license, training transpar
 
 Qwen's Apache 2.0 claim in the Qwen3 report is a strong openness signal, but it does not automatically settle every model-family row, dataset question, or downstream deployment claim. DeepSeek-R1's open-source/distillation language is similarly important, but it does not authorize every rumor about cost, market impact, or geopolitical meaning. Open-source language is a start of analysis, not the end.
 
-The chapter should also distinguish "Chinese open models" from "models in China." DeepSeek-R1's distilled models based on Qwen and Llama show how release surfaces cross institutional and national lines. Meta's open-weight strategy becomes an input into a Chinese reasoning model. Qwen becomes an input into DeepSeek distillations. The open ecosystem is not one company's garden; it is a graph of dependencies.
-
 That graph is one of the reasons model rankings became so difficult. A leaderboard row can hide whether a model is base, instruct, distilled, reasoning, MoE, merged, quantized, API-only, open-weight, or benchmark-tuned. For Chinese model families, the naming complexity can be especially punishing to outsiders. The chapter must keep model names and version claims boringly precise, because one careless version suffix can turn a real model into a fictional historical event.
 
 The key phrase for this chapter is source permission. Qwen2 and Qwen3 have permission for structural prose. DeepSeek-V3 and R1 have permission for MoE, efficiency, and reasoning prose. GLM-4 and Kimi k1.5 have permission for broad family placement. MiniMax, Baidu, Tencent, Xiaomi MiMo, and StepFun currently have permission only as source-gap targets in this pass. That is how the chapter stays honest while still moving the book forward.
@@ -1874,14 +1786,13 @@ The key phrase for this chapter is source permission. Qwen2 and Qwen3 have permi
 
 > [!FIGURE] **F11.04 / A-0288-017 - Qwen3 Technical Report Page**
 > Caption: F11.04: Qwen3 technical-report page-one render adds a dated Qwen3 source surface; it does not support unsupported Qwen 3.5 or Qwen 3.6 claims or live ranking claims.
-> Source note: Sources: S-0027. Rights path: private_capture_needed. Story role: Qwen3 source surface.
-
+> 
 
 No China LLM chapter can avoid hardware, but hardware should not swallow the chapter. U.S. export controls, local accelerator efforts, cloud capacity, and datacenter constraints shape the environment, but this book should discuss them only where they explain LLM progress. In this pass, the supported model reports already give a narrower technical bridge: efficiency matters.
 
 DeepSeek-V3's reported H800 training context and MoE design make efficiency visible as a design pressure. [S-0028] Qwen3's thinking-budget framing makes inference-time compute visible as a product and systems pressure. Kimi k1.5's reinforcement-learning framing makes reasoning behavior part of the training and test-time compute story. These are better chapter anchors than generic geopolitics because they show how constraint appears inside model design.
 
-The danger is to overexplain everything through scarcity. Scarcity can produce clever engineering, but it can also produce weaker systems, hidden dependencies, or unverified hero narratives. A model report does not prove a national thesis. It proves a set of claims about one system under one source's methodology. The chapter should let the technical reports be technical before turning them into symbols.
+The danger is to overexplain everything through scarcity. Scarcity can produce clever engineering, but it can also produce weaker systems, hidden dependencies, or unverified hero narratives. A model report does not prove a national thesis. It proves a set of claims about one system under one source's methodology. the technical reports be technical before turning them into symbols.
 
 Still, the pattern is real enough to matter. The Chinese frontier made efficiency public. It made open release and distillation public. It made reasoning models global. It made multilingual and domestic-product pressure harder to ignore. It forced U.S. readers to stop treating the model race as a private contest among Silicon Valley, Seattle, and London.
 
@@ -1893,16 +1804,15 @@ MiniMax, Baidu, Tencent, Xiaomi MiMo, and StepFun are precisely the kind of name
 
 This is not only about avoiding error. It is about preserving narrative quality. Unsupported name-dropping makes a chapter feel larger for a page and smaller afterward. The reader senses the blur. A strong chapter earns breadth by giving each lab a reason to be there: a model report, a product surface, an open-weight release, a reasoning method, a long-context system, a benchmark artifact, a deployment environment, a licensing move, or a visible ecosystem. Until those reasons are sourced, the names belong in a queue, not in decorative prose.
 
-The same rule applies to version suffixes. Qwen 3.5, Qwen 3.6, and DeepSeek V4-era systems are tempting because they sound like natural continuations of real lines. That is exactly why they are dangerous. A plausible version name is not a historical event. The current claim ledger marks those rows as support-pending. [C-0007] The chapter should keep them there until a cutoff-bounded source makes them real inside the book's evidence system.
+The same rule applies to version suffixes. Qwen 3.5, Qwen 3.6, and DeepSeek V4-era systems are tempting because they sound like natural continuations of real lines. That is exactly why they are dangerous. A plausible version name is not a historical event. The current claim ledger marks those rows as support-pending. [C-0007] them there until a cutoff-bounded source makes them real inside the book's evidence system.
 
-This discipline gives the chapter a rhythm: supported lanes in prose, missing lanes in a table, and explicit handoffs to future passes. It may feel slower than a magazine survey. It is better. A book trying to outlast the release cycle has to make its uncertainty visible.
+This discipline gives the chapter a rhythm: supported lanes in prose, missing lanes in a table, and explicit handoffs to It may feel slower than a magazine survey. It is better. A book trying to outlast the release cycle has to make its uncertainty visible.
 
 ### Why The Frontier Became Multipolar
 
 > [!FIGURE] **F11.05 / A-0285-011 - DeepSeek-V3 Technical Report Page**
 > Caption: F11.05: DeepSeek-V3 technical-report page-one render grounds the DeepSeek lane in a primary report surface; it does not prove post-cutoff V4 claims, neutral benchmark superiority, or deployment scale.
-> Source note: Sources: S-0029. Rights path: private_capture_needed. Story role: DeepSeek-R1 source surface.
-
+> 
 
 The China chapter also changes how earlier chapters should be read. Scaling laws can sound universal when written from a distance, but model builders do not inhabit the same constraint set. Hardware access, cloud economics, language demand, product distribution, policy pressure, and open-release strategy all change what "scale" means in practice. Qwen, DeepSeek, GLM, and Kimi are not merely additional examples. They show how the same Transformer-era substrate can be pushed through different institutional machinery.
 
@@ -1920,7 +1830,7 @@ The consequence for the book is structural. The China chapter should not sit aft
 
 That mesh is uncomfortable for readers who want one answer. It makes procurement harder. It makes safety comparisons harder. It makes export-control arguments harder. It makes benchmark charts less trustworthy. It also makes the history truer. LLMs became world infrastructure before the world had a shared language for comparing them.
 
-That is also why this chapter should stay technical before it becomes political. The politics are real, but the model reports show the mechanism: routing, reinforcement learning, distillation, multilingual training, release terms, and inference budgets. Those details are the durable evidence. They make the larger rivalry concrete without asking the reader to accept a mood. A reader should feel the pressure of the global race through the machinery itself, not through a prewritten theory of who is destined to win or lose. That restraint is a form of respect, and also a form of power.
+That is also why The politics are real, but the model reports show the mechanism: routing, reinforcement learning, distillation, multilingual training, release terms, and inference budgets. Those details are the durable evidence. They make the larger rivalry concrete without asking the reader to accept a mood. A reader should feel the pressure of the global race through the machinery itself, not through a prewritten theory of who is destined to win or lose. That restraint is a form of respect, and also a form of power.
 
 ### What This Chapter Can Say Today
 
@@ -1964,7 +1874,6 @@ That distinction matters because the frontier race was not only a race to larger
 
 The constitutional frame did not solve alignment. This section must not let the phrase do too much work. A written constitution raises hard questions: who chooses the principles, how conflicts between principles are handled, how the training distribution represents real users, how refusals are evaluated, and how a model behaves outside curated examples. [C-0044] But the frame changed the competitive vocabulary. Anthropic could present Claude as an assistant shaped by principles, not only by scale or leaderboard wins. That made the Claude story both technical and rhetorical: the research program became a product promise.
 
-
 ### Constitutional AI as Product Grammar
 
 The Constitutional AI paper is useful because it makes the hidden product problem visible. A base language model can continue almost any pattern. An assistant has to choose among patterns. The paper's procedure used a set of written principles to guide critiques and revisions in a supervised phase, then used AI-generated preference labels in a reinforcement-learning phase. [S-0019] In other words, the model was trained not merely to produce a fluent answer, but to evaluate and revise an answer against a stated behavioral frame.
@@ -1975,7 +1884,7 @@ This changed how Claude could be narrated. The company could say, in effect: our
 
 The risk is that readers may hear "constitution" as law, guarantee, or moral settlement. The safer interpretation is engineering grammar. A constitution in this context is a list of principles used during training. It does not prove that the model understands law, morality, user intent, or future consequences. It does not remove the need for red-team testing, deployment monitoring, system-level controls, or product policy. It does, however, show why Anthropic's early public identity differed from a pure capability race. Capability still mattered. Claude would compete on coding, long context, multimodality, tool use, speed, and cost. But the lab's origin story kept returning to assistant behavior.
 
-That product grammar also helps explain why Claude often occupied a distinctive place in user culture. The chapter should avoid unsupported claims about broad adoption, user sentiment, or enterprise preference. The evidence here is not a statistically valid survey of taste. The supported claim is narrower: Anthropic's public materials and research lineage repeatedly tied Claude to a safety-and-behavior frame, and that frame shaped how the product family was explained. [S-0020]
+That product grammar also helps explain why Claude often occupied a distinctive place in user culture. unsupported claims about broad adoption, user sentiment, or enterprise preference. The evidence here is not a statistically valid survey of taste. The supported claim is narrower: Anthropic's public materials and research lineage repeatedly tied Claude to a safety-and-behavior frame, and that frame shaped how the product family was explained. [S-0020]
 
 ### The Claude 3 Family Makes A Product Line
 
@@ -1983,7 +1892,7 @@ Claude became a clearer market object with the Claude 3 family. In March 2024, A
 
 This was the same industrial pattern that would appear across the frontier market. Model labs began packaging intelligence as a menu. The old question, "Which model is best?" became less useful than a procurement question: best for what workload, what latency, what price, what context length, what risk profile, and what tool environment? Chapter 13 treats leaderboard rank as a fragile historical slice rather than a permanent crown. [C-0046] Claude 3 made the same lesson visible inside a product family. A lab did not need one answer for every use case. It needed a portfolio.
 
-Anthropic's Claude 3 materials also pushed multimodality into the product story. The family accepted image inputs for tasks involving charts, diagrams, photos, and documents. The chapter should not overstate that as image-generation history or as proof of visual understanding. The book's topic remains LLMs. The point is that the assistant interface was becoming less text-only. A user could bring the model a screenshot, a slide, a table, or a scanned page and ask for language work around it. For a company selling assistants to knowledge workers, that mattered.
+Anthropic's Claude 3 materials also pushed multimodality into the product story. The family accepted image inputs for tasks involving charts, diagrams, photos, and documents. overstate that as image-generation history or as proof of visual understanding. The book's topic remains LLMs. The point is that the assistant interface was becoming less text-only. A user could bring the model a screenshot, a slide, a table, or a scanned page and ask for language work around it. For a company selling assistants to knowledge workers, that mattered.
 
 The model card is especially useful because it connects product capability to risk practice. It describes the Claude 3 family, multimodal input, training methods including Constitutional AI, and safety evaluation context. [S-0110] This is a better source for sober prose than a launch post alone, because it makes the product line look less like a trophy cabinet and more like a deployment object with capabilities, limitations, and evaluation obligations.
 
@@ -2005,7 +1914,7 @@ That action loop is why safety and usability collide. A refusal error in chat ma
 
 In February 2025, Anthropic announced Claude 3.7 Sonnet and Claude Code. [S-0048] The launch matters for two reasons. First, Anthropic described Claude 3.7 Sonnet as a hybrid reasoning model that could produce quick responses or spend more time on extended thinking, with API controls over that thinking budget. Second, it introduced Claude Code as a command-line tool for agentic coding in a limited research preview.
 
-The reasoning claim belongs in Chapter 21 as part of the test-time compute story, but it also belongs here because it shows how Anthropic tried to preserve product simplicity. The market was beginning to split models into ordinary chat models and reasoning models. Anthropic's public framing for Claude 3.7 Sonnet argued for an integrated model that could answer normally or think longer when needed. The book should treat that as Anthropic's product philosophy, not as proof that one reasoning architecture beat another. Exact benchmark comparisons, scaffolding details, and numerical superiority claims remain blocked until a benchmark-specific pass checks the harnesses. [C-0013]
+The reasoning claim belongs in Chapter 21 as part of the test-time compute story, but it also belongs here because it shows how Anthropic tried to preserve product simplicity. The market was beginning to split models into ordinary chat models and reasoning models. Anthropic's public framing for Claude 3.7 Sonnet argued for an integrated model that could answer normally or think longer when needed. that as Anthropic's product philosophy, not as proof that one reasoning architecture beat another. Exact benchmark comparisons, scaffolding details, and numerical superiority claims remain blocked until a benchmark-specific pass checks the harnesses. [C-0013]
 
 Claude Code made the same philosophical move in the developer domain. Instead of asking the model only to produce a code snippet, Anthropic placed Claude in a command-line workflow where it could search and read code, edit files, write and run tests, commit or push when permitted, and use command-line tools while keeping the developer in the loop. That belongs mainly in Chapter 20. This Anthropic section uses it differently: as evidence that Claude's product line was becoming an operating layer for work.
 
@@ -2025,7 +1934,7 @@ Claude 4 also shows how quickly "assistant" became too small a word. A chat assi
 
 That is the bridge to the coding-agents chapter. Claude Code is not important only because a famous lab made a developer tool. It is important because it reveals the next operating question for LLMs: once language can call tools, who controls the action boundary? Anthropic's safety identity makes that question feel native to the company story. The lab that made behavior its brand was now selling assistants that could take more consequential actions.
 
-This is where the chapter must stop before it becomes Chapter 20. The Anthropic chapter can say that Claude Code completes Claude's behavior-to-action arc: a safety-origin assistant enters the terminal and forces the permission question into software work. Chapter 20 owns the operational loop: repository context, issue framing, command execution, tests, benchmark harnesses, review, and the productivity trap. A reader should leave this chapter understanding why Anthropic's identity made action risky and central; the reader should enter Chapter 20 ready to watch the work loop itself.
+This is where the chapter must stop before it becomes Chapter 20. The Anthropic chapter can say that Claude Code completes Claude's behavior-to-action arc: a safety-origin assistant enters the terminal and forces the permission question into software work. Chapter 20 owns the operational loop: repository context, issue framing, command execution, tests, benchmark harnesses, review, and the productivity trap. A reader should leave this chapter understanding why Anthropic's identity made action risky and central; Chapter 20 ready to watch the work loop itself.
 
 ### The Distribution Layer: APIs, Clouds, and Protocols
 
@@ -2045,14 +1954,13 @@ Claude proves that assistant behavior can become a strategic identity. Constitut
 
 What Claude does not prove is just as important. It does not prove that constitutional training solves alignment. It does not prove that benchmark leadership translates into deployed productivity. It does not prove that a model with tool use is autonomous in the human sense. It does not prove that a product post is neutral market evidence. It does not prove that a pricing row can be plotted against a leaderboard row without careful normalization. [C-0046]
 
-The chapter's job is to hold both halves. Anthropic deserves a central place because it made one of the era's strongest arguments about what an assistant should be, then carried that argument into model releases, developer tools, protocols, and coding agents. But the book should resist making the company a moral protagonist. The better story is more interesting: a safety-origin lab entered a market where capability, cost, distribution, and action were pulling the assistant into more powerful environments. Its brand helped explain why safety mattered. Its products showed why safety became harder.
+The chapter's job is to hold both halves. Anthropic deserves a central place because it made one of the era's strongest arguments about what an assistant should be, then carried that argument into model releases, developer tools, protocols, and coding agents. But making the company a moral protagonist. The better story is more interesting: a safety-origin lab entered a market where capability, cost, distribution, and action were pulling the assistant into more powerful environments. Its brand helped explain why safety mattered. Its products showed why safety became harder.
 
 The human-facing consequence is simple. A user does not experience Constitutional AI as a paper. They experience it as the assistant's posture: the way it helps, refuses, hedges, asks, reasons, remembers, uses tools, or declines to act. A developer does not experience Claude Code as a benchmark. They experience it as a supervised worker inside a repository, reading files and producing diffs that may or may not deserve to live. [S-0022]
 
 That is why Anthropic belongs at the front of this chapter rather than in a supplemental file. The company's story connects the book's deepest strands: alignment as product behavior, model families as infrastructure menus, reasoning as a spendable resource, tools as action surfaces, and coding agents as the first domain where language models began to operate inside the machinery that builds other machinery. Claude was not the whole race. It was one of the clearest arguments about where the race was going. The rest of this chapter widens the lens so the reader sees why no single lab, architecture, country, or product surface owned the frontier.
 
 ## The Plural Frontier Outside The Center
-
 
 ### The Race Outside the Center
 
@@ -2074,8 +1982,6 @@ Mixtral sharpened the point. Mistral's "Mixtral of Experts" paper described a sp
 
 Open weights gave Mistral cultural force, but the company could not live only as a gift to developers. Its strategic problem was the same one facing every ambitious model lab: open releases create attention, but inference, enterprise support, security posture, custom deployment, and cloud availability create revenue. Mistral's later product language therefore became more enterprise-facing. Mistral Medium 3, announced on May 7, 2025, was presented as a frontier-class multimodal model balancing performance, lower cost, and deployability, with availability through Mistral's platform and named cloud or enterprise channels. [S-0147]
 
-The chapter must keep that as vendor positioning, not neutral proof. Mistral's own page says what Mistral wanted buyers to believe: frontier performance, lower cost, simpler deployment, hybrid or in-VPC options, and professional use cases including coding and multimodal work. [S-0147] That is useful evidence for the story of a company. It is not enough for an independent price-performance crown, a market-share claim, or a claim that European enterprises adopted Mistral at scale. Those claims need normalized benchmark rows, billing rows, customer evidence, and independent usage data. [CH12FR-004; CH12FR-006]
-
 The deeper Mistral point is that Europe became technical in the LLM story when sovereignty was attached to actual model work. Without models, "sovereign AI" is procurement poetry. With Mistral 7B, Mixtral, and later enterprise-positioned models, the phrase had a machine behind it. A European organization could ask not only "Whose cloud holds our data?" but "Which model, license, deployment path, and support contract lets us build this system under our constraints?" That is a narrower claim than national independence. It is also more real.
 
 The narrowness is the reason it belongs in the book. LLMs turned sovereignty from a legal abstraction into an operational stack. A model could be open-weight but hosted on American GPUs. A model could be European but trained with global data, American accelerators, and cloud distribution. A model could run on premises but still depend on libraries, compilers, and expert labor from the wider ecosystem. Mistral did not dissolve those dependencies. It made them visible in a European key.
@@ -2095,8 +2001,7 @@ This is the part of the chapter where prose can easily become an unpaid billboar
 That speed created a different sort of trust problem. OpenAI's ChatGPT had to learn how to be a mass-market assistant. Anthropic made behavior and safety part of its brand. Google's Gemini had to fit inside a giant consumer and enterprise platform. xAI put Grok near X, where live public information, political argument, entertainment, and personal identity all collided. The advantage was freshness and distribution. The risk was that the model's social surface could make every failure feel public, ideological, or personal.
 
 For the LLM book, xAI is not a Musk biography detour. It is a lab that makes two technical-business forces vivid. First, the training race had become a data-center race: speed of cluster construction and use could change how quickly a lab caught up. Second, the product race had become a surface race: putting a model inside a social network gave it a different feedback loop and a different hazard profile from putting it inside a cloud console or office suite.
-
-The chapter should not settle whether that strategy wins. The cutoff does not license a victory lap. It licenses a sharper question: if a lab can rapidly assemble talent, compute, and distribution, how much of the frontier is still defendable by incumbency? xAI's existence made that question harder for every slower institution.
+ settle whether that strategy wins. The cutoff does not license a victory lap. It licenses a sharper question: if a lab can rapidly assemble talent, compute, and distribution, how much of the frontier is still defendable by incumbency? xAI's existence made that question harder for every slower institution.
 
 ### Cohere and the Enterprise Counterargument
 
@@ -2106,7 +2011,7 @@ Command A, announced in March 2025, was presented by Cohere as its most performa
 
 That strategy connects directly to Chapters 18 and 20. A retrieval system is not just a model. It is documents, embedding, ranking, permissions, citations, refresh cycles, and answer formatting. An agent is not just a model. It is tool access, memory, workflow constraints, and tests. Cohere's enterprise positioning makes sense because many companies did not want a dazzling general assistant as much as they wanted a system that could answer from approved sources, handle multilingual users, and sit behind governance boundaries.
 
-The strongest version of this argument is not that Cohere was secretly winning the whole race. That would require market evidence this pass does not have. The stronger and safer claim is that Cohere preserved an enterprise-native interpretation of LLM progress: the winning model is the one that can be integrated, retrieved against, controlled, translated, audited, and paid for in a business process. That interpretation is less cinematic than a consumer launch, but it explains why the frontier kept branching.
+The strongest version of this argument is not that Cohere was secretly winning the whole race. That would require market evidence The stronger and safer claim is that Cohere preserved an enterprise-native interpretation of LLM progress: the winning model is the one that can be integrated, retrieved against, controlled, translated, audited, and paid for in a business process. That interpretation is less cinematic than a consumer launch, but it explains why the frontier kept branching.
 
 Cohere's Aya work adds another branch. The Aya model announcement described an open-source multilingual generative LLM covering 101 languages, along with a multilingual instruction dataset covering 114 languages. [S-0151] The exact superlatives should remain source-attributed. The narrative point is clear without overclaiming: the English-heavy frontier was not the whole world. A model race that optimizes only for English benchmarks can produce an illusion of universality while leaving many users in a lower-quality regime.
 
@@ -2118,7 +2023,7 @@ AI21 belongs here because it refused to let the reader think there was only one 
 
 State space models and Transformer hybrids matter because the attention mechanism that made modern LLMs powerful also made long-context scaling expensive. Attention lets every token attend across a context, but that expressive freedom has computational costs. A hybrid architecture asks whether some of the sequence-handling burden can be moved into mechanisms that scale differently. AI21's Jamba line was not the only attempt to answer that question, but it was a commercially visible one.
 
-For readers, AI21 functions like a side road that reveals the highway. The main frontier race often looked like the same recipe repeated at larger scale: more data, more GPUs, bigger dense or sparse Transformers, more post-training, more tool scaffolding. Jamba says: the recipe itself remained contestable. That does not mean every alternative architecture wins. It means the field had not reached the end of model design. The second half of the book should keep that openness alive, especially before Chapter 21 turns to reasoning and test-time compute as another scaling axis.
+For readers, AI21 functions like a side road that reveals the highway. The main frontier race often looked like the same recipe repeated at larger scale: more data, more GPUs, bigger dense or sparse Transformers, more post-training, more tool scaffolding. Jamba says: the recipe itself remained contestable. That does not mean every alternative architecture wins. It means the field had not reached the end of model design. The second half of that openness alive, especially before Chapter 21 turns to reasoning and test-time compute as another scaling axis.
 
 AI21 also keeps the book from over-Americanizing or over-Sinicizing the frontier. Israel's LLM contribution was not a national substitute for OpenAI or Google. It was a concrete technical bet inside a global market. That is a more useful unit of analysis than country pride. The book's job is to show which technical bets changed the reader's understanding of LLMs. Jamba's hybrid architecture does that.
 
@@ -2126,9 +2031,7 @@ AI21 also keeps the book from over-Americanizing or over-Sinicizing the frontier
 
 There is a trap in a chapter like this. Once the major players have their own chapters, the remaining labs can become a decorative parade: one paragraph for France, one for Musk, one for Canada, one for Israel, then a list of names that signals breadth without doing intellectual work. That would be worse than omission. It would teach the reader that the rest of the frontier is a miscellany instead of a set of pressure tests on the main story.
 
-The discipline is to include a lab only when it changes a mechanism. Mistral changes the mechanism of open-weight credibility and deployment politics. xAI changes the mechanism of compute-speed competition and social-network distribution. Cohere changes the mechanism of enterprise retrieval and multilingual operationalization. AI21 changes the mechanism of architecture search. Other labs may deserve later rows, but a row is not the same as a chapter argument. If MiniMax, Baidu, Tencent, Xiaomi MiMo, StepFun, Reka, Aleph Alpha, or another lab enters this chapter in a later pass, it should enter through a sourced mechanism: a model card, technical report, benchmark-ready release, enterprise deployment, language-coverage result, architecture claim, or distribution surface that materially changes the LLM story.
-
-That rule also protects the book from national scoreboard writing. Europe matters here because Mistral built models and product channels, not because a continent wished to matter. Canada matters because Cohere's enterprise and multilingual work gives a different answer to what model usefulness means, not because the book needs a Canadian box. Israel matters because AI21 kept the architecture question open. The United States matters in the xAI section because Musk's lab compressed compute, product surface, and attention into a strange high-velocity package, not because celebrity is a substitute for model evidence.
+The discipline is to include a lab only when it changes a mechanism. Mistral changes the mechanism of open-weight credibility and deployment politics. xAI changes the mechanism of compute-speed competition and social-network distribution. Cohere changes the mechanism of enterprise retrieval and multilingual operationalization. AI21 changes the mechanism of architecture search. Other labs may deserve later rows, but a row is not the same as a chapter argument. If MiniMax, Baidu, Tencent, Xiaomi MiMo, StepFun, Reka, Aleph Alpha, or another lab enters this chapter That rule also protects the book from national scoreboard writing. Europe matters here because Mistral built models and product channels, not because a continent wished to matter. Canada matters because Cohere's enterprise and multilingual work gives a different answer to what model usefulness means, not because the book needs a Canadian box. Israel matters because AI21 kept the architecture question open. The United States matters in the xAI section because Musk's lab compressed compute, product surface, and attention into a strange high-velocity package, not because celebrity is a substitute for model evidence.
 
 The phrase "frontier" should therefore be treated as provisional. In a leaderboard table it may refer to a rank slice at a date. In a procurement discussion it may refer to whether a model is good enough for a demanding workload. In a research discussion it may mean a technique that changes what is possible. In a geopolitical speech it may mean symbolic independence. This chapter uses the word in the third and fourth senses only with restraints: a lab is frontier-relevant when it changes the technical, product, deployment, or strategic shape of the race by the cutoff.
 
@@ -2148,7 +2051,7 @@ The book also needs discipline about what this chapter cannot prove. It cannot p
 
 That plural frontier is not comforting. It means no single story is enough. The model that wins a leaderboard can lose a procurement fight. The model that delights developers can fail an enterprise security review. The model that carries national hopes can still depend on foreign chips. The model that speaks many languages can still struggle with evaluation and business demand. The model that reasons for minutes can become too expensive or too slow for a product loop.
 
-But plural also means the field remained alive. The next token was not being written by one lab, one country, one architecture, or one ideology. It was being pulled through a set of constraints: compute, openness, deployment, trust, language, architecture, product surface, and cost. Chapter 12 belongs at this point in the book because it widens the aperture before the benchmark chapter narrows it again. The reader should enter Chapter 13 ready to distrust crowns, because Chapter 12 has shown how many different games the labs were actually playing.
+But plural also means the field remained alive. The next token was not being written by one lab, one country, one architecture, or one ideology. It was being pulled through a set of constraints: compute, openness, deployment, trust, language, architecture, product surface, and cost. Chapter 12 belongs at this point in the book because it widens the aperture before the benchmark chapter narrows it again. Chapter 13 ready to distrust crowns, because Chapter 12 has shown how many different games the labs were actually playing.
 
 ---
 
@@ -2160,9 +2063,7 @@ A crowded frontier creates a measurement hunger. Once readers have met many labs
 
 After so many contenders, the reader naturally wants a crown; this chapter shows why rankings are evidence, not verdicts.
 
-
 ## Chapter 13: The Leaderboard Trap
-
 
 This chapter section is the book's caution label for model rankings, prices, and "best model" claims. It uses the Chapter 13 visual sequence A-0014, A-0013, and A-0019 as a reader-facing argument: first teach how leaderboard evidence is made, then show one historical rank slice, then show why the price-quality frontier is still blocked. It is not a live May 24, 2026 leaderboard. It is not a crown ceremony. It is an audit trail.
 
@@ -2170,8 +2071,7 @@ This chapter section is the book's caution label for model rankings, prices, and
 
 > [!FIGURE] **F13.01 / A-0286-009 - LMArena Leaderboard Surface**
 > Caption: F13.01: LMArena leaderboard screenshot anchors arena-rank claims as a mutable benchmark surface; it does not prove universal model quality, live rank after capture, price-quality, safety, or adoption.
-> Source note: Sources: S-0036;S-0056;S-0057;S-0080. Rights path: ready_svg. Story role: leaderboard methodology.
-
+> 
 
 Every era of computing invents a scoreboard. Mainframes had benchmarks. Microprocessors had clock speed, then SPEC scores, then power envelopes. Cloud had uptime, regions, and price sheets. Large language models inherited all of those instincts and added a stranger one: the public wanted one sentence that could name the best mind in the machine world.
 
@@ -2225,7 +2125,7 @@ Caption:
 
 The chart is useful because it shows the drama of the period without pretending to settle it. In the captured rows, Anthropic-labeled Claude Opus variants, Google Gemini rows, OpenAI GPT-labeled rows, Meta's `muse-spark`, and xAI's Grok-labeled beta row appear in the top twelve of one historical `text_style_control` / `latest` / `overall` slice. The central ratings in that slice run from about 1502 at the top row to about 1478 at the twelfth row, with vote counts ranging from thousands to tens of thousands. [S-0080]
 
-That is enough to support a careful narrative point: by the cutoff period, the visible frontier had become crowded. The reader should feel the compression. No single lab is being granted metaphysical possession of intelligence. The top of the table is a jostling cluster of rows, names, versions, previews, beta labels, and confidence bands. The chart is not saying that one model had conquered all tasks. It is saying that the public surface of the race had become dense enough that rank, versioning, and methodology could not be treated as footnotes.
+That is enough to support a careful narrative point: by the cutoff period, the visible frontier had become crowded. the compression. No single lab is being granted metaphysical possession of intelligence. The top of the table is a jostling cluster of rows, names, versions, previews, beta labels, and confidence bands. The chart is not saying that one model had conquered all tasks. It is saying that the public surface of the race had become dense enough that rank, versioning, and methodology could not be treated as footnotes.
 
 Several labels in the slice are especially instructive. `gemini-3.1-pro-preview` carries a preview marker; the chart cannot convert that into stable product availability. `grok-4.20-beta1` carries a beta marker; the prose must preserve that label if it mentions the row. OpenAI-labeled `gpt-5.5-high`, `gpt-5.4-high`, and `gpt-5.5` rows are dataset row labels here, not independent proof of product release, pricing, context windows, safety, or enterprise support. The same rule applies to every lab. A leaderboard dataset can name a row without certifying a procurement checklist.
 
@@ -2241,8 +2141,7 @@ The footnote is not legal padding. It is part of the argument. Readers trained b
 
 > [!FIGURE] **F13.02 / A-0289-T005 - May 2026 Cutoff Model-Landscape Table**
 > Caption: F13.02: The May 2026 cutoff benchmark/model-landscape table gives the model-race chapter a frozen memory aid through the cutoff; it is not a live leaderboard, universal quality score, price-quality frontier, safety proof, or adoption claim.
-> Source note: Sources: S-0080. Rights path: ready_svg. Story role: historical leaderboard slice.
-
+> 
 
 The sentence "Claude/OpenAI/Gemini/Grok is the best model" fails because it hides five questions:
 
@@ -2254,7 +2153,7 @@ The sentence "Claude/OpenAI/Gemini/Grok is the best model" fails because it hide
 
 Those questions are not pedantic. They are the story of the LLM industry after ChatGPT. Frontier labs were no longer selling one thing. They were selling general chat, coding assistance, tool use, long-context analysis, enterprise administration, batch processing, cached input, multimodal endpoints, fine-tuning, reasoning modes, search/grounding options, and increasingly agentic software workflows. A "best" model for a researcher reading a long PDF might not be the best model for a customer-service bot with tight output costs. A model that shines under a benchmark harness might be too slow or too expensive for an interactive product. A model that is cheap for input can be expensive for verbose output. A model that wins a preference fight can still hallucinate a legal citation.
 
-This is why the chapter should speak in evidence lanes: [S-0035] [S-0037] [S-0057] [S-0060] [S-0061] [S-0062] [S-0063]
+This is why in evidence lanes: [S-0035] [S-0037] [S-0057] [S-0060] [S-0061] [S-0062] [S-0063]
 
 - preference-rank lane: what a captured Arena-style row can show;
 - benchmark lane: what a named task harness can show;
@@ -2300,8 +2199,7 @@ For those reasons, C-0046 remains open. The book may show the exclusion map now.
 ### How To Read Provider Prices
 
 Provider price sheets look crisp because dollars have decimals. That crispness is deceptive. The unit is usually one million tokens, but a token is not a word, and the useful cost of a model depends on the ratio of input to output, cache hits, batch discounts, latency tolerance, tool calls, and how often the system has to retry or verify its own work. A model with a low input price can become expensive if it writes long answers. A model with a high output price can still be economical if it solves in fewer turns or avoids human review. A cached-input discount can transform a repeated retrieval workflow but do almost nothing for one-off creative chat. [S-0060] [S-0061] [S-0062] [S-0063]
-
-This chapter should keep prices as economics evidence, not moral scorekeeping. Price is part of the LLM story because inference turned model quality into a metered commodity. Every assistant answer had a hidden bill of materials: accelerator time, memory bandwidth, networking, energy, cooling, reliability engineering, safety filtering, orchestration, and provider margin. But a book about the race cannot pretend that the cheapest visible API row is therefore the winning business. The cheapest row may be subsidized, capacity-constrained, limited by terms, narrow in modality, or less useful after task-specific evaluation.
+ Price is part of the LLM story because inference turned model quality into a metered commodity. Every assistant answer had a hidden bill of materials: accelerator time, memory bandwidth, networking, energy, cooling, reliability engineering, safety filtering, orchestration, and provider margin. But a book about the race cannot pretend that the cheapest visible API row is therefore the winning business. The cheapest row may be subsidized, capacity-constrained, limited by terms, narrow in modality, or less useful after task-specific evaluation.
 
 The right prose formula is conditional:
 
@@ -2313,8 +2211,7 @@ That sentence is too long for a tweet and just long enough for truth.
 
 > [!FIGURE] **F13.03 / A-0289-T002 - 2024 Model-Landscape Table**
 > Caption: F13.03: The 2024 benchmark/model-landscape table shows the year as model-card and benchmark context, not as a price-quality frontier, safety result, live rank, or adoption proof.
-> Source note: Sources: C-0046; a supporting audit table. Rights path: ready_svg. Story role: price-quality exclusion map.
-
+> 
 
 If leaderboards are fragile and prices are conditional, benchmark tables can seem like the hard way out. They are not. SWE-bench, LiveCodeBench, and other task-specific evaluations are indispensable because they make the task explicit. They can tell a sharper story about coding agents, repair loops, unit tests, harnesses, and contamination risks than a broad preference arena can. [S-0035] [S-0037]
 
@@ -2372,7 +2269,7 @@ Blocked:
 
 These restrictions are not a retreat from judgment. They are what makes judgment possible. A prize-worthy book about LLMs should help readers see the race more clearly than the race saw itself. That means refusing the easy crown, building the evidence lanes, and letting uncertainty remain visible where the evidence is genuinely uncertain.
 
-The final sentence of the chapter should make the reader carry the habit forward: the leaderboard is not the answer sheet. It is a map of where the next question begins.
+The final sentence of the reader carry the habit forward: the leaderboard is not the answer sheet. It is a map of where the next question begins.
 
 ---
 
@@ -2382,7 +2279,6 @@ The measurement chapter leaves no crown sitting safely on the table. Under every
 
 # Chapter 14: NVIDIA and CUDA: The Moat Under the Moat
 
-
 ## 14. NVIDIA and CUDA: The Moat Under the Moat
 
 Under every benchmark row sits a machine stack, and NVIDIA's moat begins where silicon, software, and developer habit reinforce one another.
@@ -2391,8 +2287,7 @@ Under every benchmark row sits a machine stack, and NVIDIA's moat begins where s
 
 > [!FIGURE] **F14.01 / A-0071 - CUDA Stack: The Moat Under The Moat**
 > Caption: F14.01: CUDA Stack: The Moat Under The Moat.
-> Source note: Sources: S-0138;S-0141;S-0142. Rights path: ready_svg. Story role: CUDA stack.
-
+> 
 
 By the time ChatGPT made the language-model race visible, NVIDIA's advantage looked almost obvious. The world's frontier labs needed GPUs. NVIDIA sold GPUs. The stock chart went vertical. The keynote stage filled with racks, roadmaps, and the phrase "AI factory." It was tempting to narrate the whole thing as hardware destiny.
 
@@ -2406,15 +2301,13 @@ CUDA did that work over years. It gave the GPU a developer-facing grammar: kerne
 
 That is why the LLM boom did not arrive as a clean contest among chips. It arrived as a contest among stacks.
 
-
 The software moat leads to a hardware moat, and the hardware moat leads to a physical moat. The next two chapters narrow the lens: first to NVIDIA's own public argument at GTC 2026 about AI factories, then to the independent physical constraints of power, interconnection, cooling, and useful capacity that test every factory claim against reality.
 
 ### Parallelism Becomes A Habit
 
 > [!FIGURE] **F14.02 / A-0072 - GPU Memory and Interconnect: The Traffic Pattern**
 > Caption: F14.02: GPU Memory and Interconnect: The Traffic Pattern.
-> Source note: Sources: S-0039;S-0139;S-0140;S-0143. Rights path: ready_svg. Story role: GPU memory/interconnect.
-
+> 
 
 The GPU's original public identity was images. Games, graphics, shading, triangles, pixels. The deeper capability was parallel arithmetic. Graphics required many small calculations at once; neural networks required many small calculations at once; scientific computing required many small calculations at once. CUDA made the parallel machine available to programmers who wanted computation rather than pictures.
 
@@ -2432,8 +2325,7 @@ That traffic pattern is why NVIDIA's advantage became more than FLOPS. Raw arith
 
 > [!FIGURE] **F14.03 / A-0073 - Training vs Inference: Two Capacity Problems**
 > Caption: F14.03: Training vs Inference: Two Capacity Problems.
-> Source note: Sources: S-0139;S-0142;S-0143. Rights path: ready_svg. Story role: training-vs-inference capacity.
-
+> 
 
 The moats that matter most are often the ones users do not see.
 
@@ -2445,7 +2337,7 @@ This is the part of NVIDIA's position that rivals struggled to clone quickly. A 
 
 The moat also worked through fear. A lab with a model to train and billions of dollars at stake preferred the stack already proven at scale. An inference provider chasing utilization wanted known tooling. A cloud customer needing support wanted a path vendor engineers, open-source maintainers, and community examples had already walked. CUDA's lock-in was not only contractual or proprietary. It was operational. The cost of switching included uncertainty.
 
-That uncertainty did not make NVIDIA invulnerable. It made the contest harder. AMD, Google TPUs, AWS Trainium/Inferentia, custom ASICs, Groq, Cerebras, and other architectures all mattered in different slices of the market. The book should not pretend NVIDIA is the only hardware story. But CUDA explains why the LLM race could concentrate around NVIDIA even when buyers had every financial reason to seek alternatives. The stack reduced risk at the moment when model labs were spending historic sums to buy capability.
+That uncertainty did not make NVIDIA invulnerable. It made the contest harder. AMD, Google TPUs, AWS Trainium/Inferentia, custom ASICs, Groq, Cerebras, and other architectures all mattered in different slices of the market. pretend NVIDIA is the only hardware story. But CUDA explains why the LLM race could concentrate around NVIDIA even when buyers had every financial reason to seek alternatives. The stack reduced risk at the moment when model labs were spending historic sums to buy capability.
 
 The library layer also changed who could participate in performance work. In an earlier computing culture, only a small group of specialists could make exotic hardware sing. CUDA did not eliminate specialization, but it made specialization composable. A kernel engineer could tune a primitive. A framework maintainer could expose it. A model researcher could call it indirectly through a high-level tensor operation. A cloud provider could package it into an image. A startup could rent it by the hour. The expertise traveled upward through interfaces.
 
@@ -2469,8 +2361,7 @@ Hopper also demonstrates the difference between training and inference. Training
 
 > [!FIGURE] **F14.04 / A-0261-001 - Lithography Evidence Becomes Packaging Logic**
 > Caption: F14.04: Lithography/ASML proxy physical texture..
-> Source note: Sources: S-0273;S-0274. Rights path: rights_review_needed. Story role: lithography/ASML proxy.
-
+> 
 
 Blackwell made NVIDIA's argument more explicit: the unit of competition was no longer just the chip. It was the system. NVIDIA's Blackwell architecture page frames B200, GB200, and rack-scale designs around generative AI and accelerated computing. [S-0040] [S-0140] GB200 NVL72, in NVIDIA's framing, links Grace CPUs and Blackwell GPUs in a rack-scale design. [S-0140] The important historical signal is the level of abstraction. NVIDIA was not selling only a GPU generation. It was selling a rack as a computer for frontier AI.
 
@@ -2480,7 +2371,7 @@ That is where NVLink and NVSwitch enter the narrative. NVIDIA's own LLM-inferenc
 
 The phrase "the rack becomes the computer" is not a metaphor for decoration. It names a shift in the buyer's problem. A frontier lab did not simply ask, "Which GPU is fastest?" It asked how many GPUs could be made to act together, how much memory they exposed, how quickly they exchanged data, how the software partitioned a model, how inference requests were batched, how failures were isolated, how the cluster was cooled, and how the whole machine fit into a datacenter power envelope.
 
-Blackwell also tightened the link between hardware and precision. Lower-precision formats, transformer-specific optimizations, and inference-focused kernels could change the economics of serving. But the chapter should resist treating any vendor performance chart as neutral truth. A chart is a claim made under conditions. If the condition is a particular model, batch size, quantization, sequence length, kernel library, or system topology, the comparison does not automatically generalize. This caution is not anti-NVIDIA. It is pro-reader.
+Blackwell also tightened the link between hardware and precision. Lower-precision formats, transformer-specific optimizations, and inference-focused kernels could change the economics of serving. But treating any vendor performance chart as neutral truth. A chart is a claim made under conditions. If the condition is a particular model, batch size, quantization, sequence length, kernel library, or system topology, the comparison does not automatically generalize. This caution is not anti-NVIDIA. It is pro-reader.
 
 By the cutoff of May 24, 2026, NVIDIA's roadmap language also ran ahead of shipped reality in places. GTC 2026 materials discuss Vera Rubin, future racks, and AI factory designs as announced or roadmap claims. [S-0001] [S-0010] Chapter 15 treats that stagecraft directly. Chapter 14 should prepare the reader to understand why the stagecraft worked: because a decade-plus of CUDA, libraries, and accelerator systems had made NVIDIA the default grammar of frontier compute.
 
@@ -2492,8 +2383,7 @@ This is where Chapter 14 hands forward to the economics chapter. A token has a m
 
 > [!FIGURE] **F14.05 / A-0261-002 - Cleanrooms Are Too Weak Without Rights**
 > Caption: F14.05: Cleanroom manufacturing environment..
-> Source note: Sources: S-0275. Rights path: rights_review_needed. Story role: cleanroom photo.
-
+> 
 
 Moats protect the builder and constrain the customer.
 
@@ -2519,8 +2409,7 @@ This is why the word "moat" should be used carefully. A moat can be a protective
 
 > [!FIGURE] **F14.06 / A-0287-002 - NVIDIA GB200 NVL72 Hardware Surface**
 > Caption: F14.06: NVIDIA GB200 NVL72 public-web screenshot adds rack-scale hardware texture to the systems discussion; it does not prove benchmark performance, availability, shipment volume, customer deployment, or power efficiency.
-> Source note: Sources: S-0277. Rights path: rights_review_needed. Story role: server rack photo.
-
+> 
 
 The book should be hard on NVIDIA because NVIDIA matters.
 
@@ -2550,7 +2439,6 @@ CUDA and GPUs are the hidden substrate; GTC is the theater where that substrate 
 
 # Chapter 15: GTC 2026: The AI Factory Sells Itself
 
-
 ## 15. GTC 2026: The AI Factory Sells Itself
 
 GTC turns that stack into theater, selling the AI factory as a story the market could see before the infrastructure was finished.
@@ -2559,8 +2447,7 @@ GTC turns that stack into theater, selling the AI factory as a story the market 
 
 > [!FIGURE] **F15.01 / A-0287-001 - NVIDIA DGX Cloud Product Surface**
 > Caption: F15.01: NVIDIA DGX Cloud public-web screenshot gives the AI factory stack a concrete infrastructure product surface; it does not prove capacity, customer usage, economics, or comparative performance.
-> Source note: Sources: companion source table. Rights path: ready_svg. Story role: AI factory stack.
-
+> 
 
 The old datacenter was supposed to disappear into metaphor. Users said cloud, as if computation had become weather. Executives said platform, as if the machines were a surface rather than a room. Engineers said cluster, region, accelerator, network, rack. Almost nobody outside the industry wanted to picture the building: concrete, chillers, transformers, fiber, security gates, raised floors, power contracts, and the constant conversion of electricity into answers.
 
@@ -2574,19 +2461,13 @@ That is the right opening for this chapter, provided the attribution stays bolte
 
 Still, the argument matters. By 2026, the most important LLM systems had become too large to explain only as models. The model was the visible brain. The factory was the body: GPU racks, CPUs, memory, NVLink, Ethernet or InfiniBand fabrics, storage, power distribution, cooling, scheduling software, inference servers, and the accounting layer that turned tokens into bills. Earlier NVIDIA documents around H100 and Blackwell had already made the hardware stack legible as more than a chip story: memory bandwidth, interconnect, tensor cores, rack-scale systems, and software libraries were part of the product. [S-0039] [S-0040] GTC 2026 pushed the same logic into a larger industrial frame.
 
-The chapter begins there because it keeps the LLM story honest. ChatGPT made intelligence feel like a box you typed into. Coding agents made it feel like a collaborator in a terminal. But at the scale of frontier systems, every answer was also an event in a machine room. A token was not free because language felt free. A token was a tiny expenditure of silicon time, memory movement, network coordination, electricity, and cooling.
-
-
 Visual sequence after I-0186: open with A-0024, the page 29 AI-factory thesis claim card. Use Figure 15.1, A-0012, `assets/visual_system/ai-factory-stack.svg`, as the explanatory bridge after the opening metaphor. Use A-0027 for the page 49 system-comparison guardrail, A-0028 for roadmap cadence if the spread has room, and A-0029 as the DSX reference-design handoff to Chapter 16. Keep A-0025, A-0026, and A-0145 as reserve or cite-only source surfaces until product-roadmap and token-economics claims are normalized. Keep A-0004, A-0007, A-0008, and A-0009 as private-use provenance handles rather than placing them beside their claim-card duplicates. [S-0001]
-
-Continuity note: Chapter 14 explains why NVIDIA could credibly sell systems rather than lonely chips. Chapter 15 shows the sales argument becoming doctrine. Chapter 16 tests the doctrine against independent evidence about sites, power, cooling, and queues. Keep those evidence roles separate.
 
 ### A Keynote As A Sales Funnel For A Worldview
 
 > [!FIGURE] **F15.02 / A-0284-051 - Jensen Huang Public Profile Texture**
 > Caption: F15.02: Public-profile image of Jensen Huang supplies leadership texture alongside NVIDIA's AI-factory framing; it does not prove roadmap delivery, product claims, market share, or biographical claims beyond the ledger label.
-> Source note: Sources: S-0001. Rights path: ready_svg. Story role: GTC AI-factory thesis card.
-
+> 
 
 The GTC 2026 deck did not present one product in isolation. It arranged a worldview. First came the claim that AI had become a platform for enterprises and model builders. Then came the inference inflection: after the training race, the act of serving models to users would become its own scaling problem. Then came the factory language, the hardware roadmaps, the rack-scale comparisons, the reference designs, and the partner slides. [S-0001] [S-0064]
 
@@ -2599,8 +2480,7 @@ That is why the AI factory metaphor had force. It made inference economics visib
 The metaphor also served NVIDIA's own position. If the world bought the idea that intelligence was becoming an industrial output, then the company selling the machinery for that output could claim a larger role than component supplier. NVIDIA could be the architect of the production line. That is the sales pitch running beneath the spectacle: not just chips, but systems; not just systems, but reference designs; not just reference designs, but a platform for facilities, software, networking, and power-aware deployment.
 
 The old GPU story was that NVIDIA sold acceleration. The new GTC story was that NVIDIA sold a production doctrine. That doctrine had technical content: memory hierarchy, interconnect, rack-scale integration, software libraries, serving stacks, storage movement, and power/cooling design. It also had market content: if tokens are a commodity and compute is revenue, then the buyer should stop seeing the datacenter as a cost center and start seeing it as a factory floor. The phrase was doing business work.
-
-The chapter should let the reader feel both the insight and the manipulation. NVIDIA had a real point: LLM products had turned inference into a manufacturing-like workload. But the company also had a reason to make the world see intelligence through the machine it sold. A serious book should not sneer at the pitch. It should dissect it.
+ the reader feel both the insight and the manipulation. NVIDIA had a real point: LLM products had turned inference into a manufacturing-like workload. But the company also had a reason to make the world see intelligence through the machine it sold. A serious book should not sneer at the pitch. It should dissect it.
 
 ### Inference Becomes The Business
 
@@ -2612,33 +2492,30 @@ The difference matters because inference is not a single workload. A consumer ch
 
 NVIDIA's advantage was that many of those differences still passed through the same broad stack: accelerators, memory, interconnect, software, networking, scheduling, and power. The company could argue that system design mattered more as inference grew. If the workload is continuous, then utilization matters. If utilization matters, then software and networking matter. If software and networking matter, then the vendor with the strongest platform story can sell more than chips.
 
-That does not make the platform story false. It makes it strategic. The reader should understand that a hardware company can be right about a technical shift and self-interested in how it names the shift. The AI factory was both a mechanism and a market category.
+That does not make the platform story false. It makes it strategic. that a hardware company can be right about a technical shift and self-interested in how it names the shift. The AI factory was both a mechanism and a market category.
 
 ### Roadmaps Are Not Time Machines
 
 > [!FIGURE] **F15.03 / A-0285-019 - GTC 2026 Rack-Scale Comparison Page**
 > Caption: F15.03: GTC 2026 page render supplies NVIDIA-attributed rack-scale comparison texture; it does not prove independent performance, customer outcomes, or real workload mix.
-> Source note: Sources: S-0001;S-0010. Rights path: ready_svg. Story role: GTC system comparison card.
-
+> 
 
 GTC keynotes are built partly out of products and partly out of time. The 2026 deck linked Blackwell, Rubin, Feynman, Vera, BlueField, Spectrum, ConnectX, NVLink, and rack-scale systems into a cadence. The page 50 roadmap slide is valuable because it captures what NVIDIA was telling the market before May 24, 2026. It is dangerous for exactly the same reason. A roadmap is a claim about direction, not a record of delivery. [S-0001]
 
 Place A-0028, `assets/visual_system/gtc-page50-roadmap-card.svg`, in the roadmap section. The card's point is the label: roadmap. It preserves the 2024/2026/2028 cadence and blocks the leap from future-generation items into happened history. [S-0001; S-0065; S-0067; A-0008; C-0047]
 
-The prose has to keep that distinction visible. Vera Rubin material can be discussed as an announcement and roadmap known by the cutoff, supported by NVIDIA's own GTC and investor materials. [S-0010] Vera CPU and BlueField-4 STX can be discussed as official NVIDIA announcements with their release language and forward-looking posture preserved. [S-0065] [S-0067] But the chapter should not slide from "NVIDIA announced" to "the industry had." That small verb change is how hardware chapters become promotional paste.
+The prose has to keep that distinction visible. Vera Rubin material can be discussed as an announcement and roadmap known by the cutoff, supported by NVIDIA's own GTC and investor materials. [S-0010] Vera CPU and BlueField-4 STX can be discussed as official NVIDIA announcements with their release language and forward-looking posture preserved. [S-0065] [S-0067] But slide from "NVIDIA announced" to "the industry had." That small verb change is how hardware chapters become promotional paste.
 
 A-0025, `assets/visual_system/gtc-page45-inference-compute-roadmap-card.svg`, should remain reserve or cite-only after I-0186 unless a later layout pass cuts a stronger core card. It labels Groq 3 LPX and the "Available 2H26" line as NVIDIA roadmap, availability, and performance-claim evidence. The book may say NVIDIA presented the line this way. It may not say the product had shipped or that the listed specifications were independently verified by the cutoff. [S-0001; S-0067; A-0005; C-0047]
 
 The roadmap discipline does not weaken the chapter. It gives the chapter tension. NVIDIA's claims were powerful because they were plausible enough to move markets and ambitious enough to demand scrutiny. The company had earned credibility through CUDA, H100, Blackwell, and the acceleration of the LLM boom. It had also become so central to the race that its own stagecraft could distort the way outsiders understood the race. A serious book should let the reader see both facts at once.
-
-The reader should leave this section with a habit: when a chip company shows a timeline, ask what kind of evidence each item is. Existing product, announced architecture, partner announcement, availability target, performance projection, reference design, or future roadmap? The slide may combine all of them in one visual rhythm. The book must pull them apart.
+ this section with a habit: when a chip company shows a timeline, ask what kind of evidence each item is. Existing product, announced architecture, partner announcement, availability target, performance projection, reference design, or future roadmap? The slide may combine all of them in one visual rhythm. The book must pull them apart.
 
 ### Vera Rubin As A System Promise
 
 > [!FIGURE] **F15.04 / A-0285-018 - GTC 2026 Hardware Roadmap Page**
 > Caption: F15.04: GTC 2026 hardware-roadmap page render anchors the cutoff-labeled roadmap discussion; roadmap language is not happened history after the cutoff.
-> Source note: Sources: S-0001;S-0065;S-0067. Rights path: ready_svg. Story role: GTC roadmap cadence card.
-
+> 
 
 The Vera Rubin material is where the AI factory pitch becomes most concrete. NVIDIA was not merely naming a GPU. It was selling a rack-scale future: GPUs, CPUs, memory, NVLink, networking, storage movement, software, and facility design arranged as a system for agentic AI and inference-heavy workloads. [S-0001] [S-0010]
 
@@ -2646,7 +2523,7 @@ A-0026, `assets/visual_system/gtc-page46-vera-rubin-partner-card.svg`, should su
 
 This is the chapter's opportunity to explain why rack-scale systems mattered to LLMs. A frontier model is not accelerated by a GPU in isolation. Training and inference at scale are constrained by how fast data moves between memory, chips, racks, and networks; by how many accelerators can coordinate; by how much power and cooling the facility can deliver; and by how software schedules the work. The system promise says: stop comparing chips as if they were lonely objects. Compare the production line.
 
-That promise had real technical logic. H100 and Blackwell materials had already made clear that NVIDIA's story was tensor cores, memory bandwidth, interconnect, software libraries, and system integration, not only raw arithmetic. [S-0039] [S-0040] Vera Rubin extended that story into a future platform frame. But the book should preserve the verb "promised" where the evidence is roadmap or announcement. Promise is not a sneer. It is an accurate evidence label.
+That promise had real technical logic. H100 and Blackwell materials had already made clear that NVIDIA's story was tensor cores, memory bandwidth, interconnect, software libraries, and system integration, not only raw arithmetic. [S-0039] [S-0040] Vera Rubin extended that story into a future platform frame. But the verb "promised" where the evidence is roadmap or announcement. Promise is not a sneer. It is an accurate evidence label.
 
 The system promise also created a new kind of lock-in. CUDA had made NVIDIA a software platform. Rack-scale AI factory design could make NVIDIA a facilities and operations platform. If customers planned buildings, power, cooling, networking, and software around NVIDIA reference designs, the moat widened. The unit of lock-in moved from code to capital expenditure.
 
@@ -2668,16 +2545,14 @@ This restraint makes the paragraph better, not weaker. The drama is not only in 
 
 > [!FIGURE] **F15.05 / A-0029 - GTC Page 51: DSX Platform Frame**
 > Caption: F15.05: GTC Page 51: DSX Platform Frame.
-> Source note: Sources: S-0001;S-0066. Rights path: ready_svg. Story role: GTC DSX platform card.
-
+> 
 
 This is where A-0009 and A-0029 belong. NVIDIA presented DSX as an AI Factory Platform spanning chips, systems, facilities, libraries, APIs, software, reference designs, methodologies, simulation, cooling, and power. The phrasing should stay close to the source and remain attributed. The safe historical claim is that NVIDIA publicly positioned DSX as an AI factory reference-design and platform layer by the cutoff, with official release material available in the source ledger. [S-0001] [S-0066]
 
 Place A-0029, `assets/visual_system/gtc-page51-dsx-platform-card.svg`, in this section. The card labels DSX as NVIDIA reference-design and platform framing. It blocks the tempting leap to customer deployment scale or facility performance. [S-0001; S-0066; A-0009; C-0047]
 
 DSX is narratively important because it shows the factory metaphor hardening into a product architecture. The pitch was not only "buy faster chips." It was "build the factory this way." That is a different level of ambition. It reaches into facility planning, simulation, cooling, power, software, and reference methodologies. If CUDA made the GPU programmable, DSX tried to make the AI factory repeatable.
-
-The chapter should explain why repeatability mattered. Frontier AI capacity was no longer a boutique supercomputer project. Every major lab and cloud provider needed capacity plans. Enterprise customers wanted assurance that the infrastructure behind their assistants would be reliable, secure, and scalable. Governments wanted domestic or regional capacity. Investors wanted a story about capital converting into tokens. A reference design promised to reduce uncertainty. It said: here is how to turn money, chips, buildings, and software into a factory.
+ why repeatability mattered. Frontier AI capacity was no longer a boutique supercomputer project. Every major lab and cloud provider needed capacity plans. Enterprise customers wanted assurance that the infrastructure behind their assistants would be reliable, secure, and scalable. Governments wanted domestic or regional capacity. Investors wanted a story about capital converting into tokens. A reference design promised to reduce uncertainty. It said: here is how to turn money, chips, buildings, and software into a factory.
 
 But reference designs are not deployments. A release can prove a product position. It cannot prove adoption scale, customer economics, uptime, facility performance, power availability, or operational success without further evidence. This is why C-0047 stays open. The chapter can use DSX as a public NVIDIA bid to own the factory blueprint. It cannot pretend the blueprint had already become the world.
 
@@ -2685,8 +2560,7 @@ But reference designs are not deployments. A release can prove a product positio
 
 > [!FIGURE] **F15.06 / A-0285-017 - GTC 2026 AI Factory Framing Page**
 > Caption: F15.06: GTC 2026 AI-factory framing page render shows NVIDIA's source-actor language about inference, tokens, compute, and revenue; it does not prove deployed capacity, revenue, or a neutral industry definition.
-> Source note: Sources: S-0001;local:GTC-2026-Keynote.pdf page 29. Rights path: local_ignored_hash_available. Story role: GTC page 29 slide render.
-
+> 
 
 The most useful question in the chapter is not whether "AI factory" is perfect language. It is what the phrase reveals.
 
@@ -2696,7 +2570,7 @@ It also reveals a change in who mattered. In the early language-model story, the
 
 The factory metaphor also changes the emotional weather of the story. A chatbot feels intimate. A coding agent feels like a colleague. A factory feels impersonal, expensive, and strategic. That tension is the book's territory. The same technology that made computing feel conversational also made computing more industrial. The friendly text box depended on a production stack with the bargaining power of a refinery and the depreciation schedule of a utility asset.
 
-Here the chapter should stay a little uncomfortable. NVIDIA's phrase makes the economics clear, but it also tries to make the future feel inevitable. Factories are built. Factories produce. Factories justify capital. Factories imply owners, suppliers, inputs, outputs, and throughput. By renaming the datacenter a factory, NVIDIA was not merely describing a change. It was inviting everyone else to finance one.
+Here a little uncomfortable. NVIDIA's phrase makes the economics clear, but it also tries to make the future feel inevitable. Factories are built. Factories produce. Factories justify capital. Factories imply owners, suppliers, inputs, outputs, and throughput. By renaming the datacenter a factory, NVIDIA was not merely describing a change. It was inviting everyone else to finance one.
 
 ### The Claim-Control Surface
 
@@ -2725,8 +2599,7 @@ The claim cards A-0024 through A-0029 exist because this is a visual problem as 
 
 > [!FIGURE] **F15.07 / A-0260-022 - Inference compute is a roadmap argument**
 > Caption: F15.07: NVIDIA's page 29 AI-factory thesis as attributed stagecraft/source rhetoric..
-> Source note: Sources: S-0001. Rights path: local_ignored_hash_available. Story role: page 29 hashed source surface.
-
+> 
 
 The AI factory pitch would have sounded hollow if NVIDIA were merely selling metal. Its force came from the older moat underneath it: CUDA, libraries, developer habits, model frameworks, optimization work, and the accumulated expectation that serious accelerator software would run first and best on NVIDIA's stack. Chapter 14 should carry the deeper history, but Chapter 15 needs the handoff. A factory is not only equipment. It is a production process. NVIDIA's claim to the factory rested on its claim to the process.
 
@@ -2757,8 +2630,7 @@ The last word matters. Accountable means the book can admire the elegance of the
 That question is the handoff. If Chapter 15 is the sales floor, Chapter 16 is the loading dock, the utility queue, the cooling loop, and the local hearing. GTC made the next token sound like an industrial product. The next chapter asks what industry demands from the world around it. The answer is not just better chips or more capital. It is places that can absorb the factory.
 
 That handoff is also the claim boundary. Chapter 15 can say NVIDIA tried to make the machine room legible as a factory. Chapter 16 must ask what happens when that factory seeks interconnection, cooling, local permission, and enough flexible capacity to turn nameplate infrastructure into useful tokens. A slide can rename the datacenter in a second. A substation cannot be renamed into existence.
-
-This is why the chapter should close on the renamed machine room rather than on a product name. Blackwell, Rubin, Vera, BlueField, DSX, and the roadmap cadence all matter, but the durable shift is larger than any one generation. NVIDIA was selling a way to see the LLM era: intelligence as output, inference as workload, tokens as commodity, and infrastructure as production line. The buyer could accept, resist, or bargain with that frame. No serious participant could ignore it.
+ Blackwell, Rubin, Vera, BlueField, DSX, and the roadmap cadence all matter, but the durable shift is larger than any one generation. NVIDIA was selling a way to see the LLM era: intelligence as output, inference as workload, tokens as commodity, and infrastructure as production line. The buyer could accept, resist, or bargain with that frame. No serious participant could ignore it.
 
 The phrase was stagecraft, but it named a real pressure, and pressure changes strategy, budgets, buildings, local timelines, and bargaining power.
 
@@ -2766,7 +2638,7 @@ The phrase was stagecraft, but it named a real pressure, and pressure changes st
 
 The AI factory was persuasive on a keynote screen because it turned tokens into industrial destiny. Then the metaphor hit the ground. A factory needs a site, a substation, cooling, transformers, permits, and time; after the applause, the book walks out of the convention hall and into the physical internet that has to carry the promise. [S-0083] [S-0084] [S-0086] [S-0087]
 
-GTC gives the book a public stage without pretending the stage is neutral. NVIDIA's deck can show how the company wanted the world to see the transition: systems, roadmaps, partners, and the AI-factory frame arranged as an industrial story. The reader should feel the salesmanship and the constraint at the same time. A slide can announce a frame; a grid connection has to survive physics, capital, and time. [S-0001] [S-0206]
+GTC gives the book a public stage without pretending the stage is neutral. NVIDIA's deck can show how the company wanted the world to see the transition: systems, roadmaps, partners, and the AI-factory frame arranged as an industrial story. the salesmanship and the constraint at the same time. A slide can announce a frame; a grid connection has to survive physics, capital, and time. [S-0001] [S-0206]
 
 Jensen Huang belongs here as a public stage figure, not as an invented inner life. NVIDIA's own event framing made the CEO and the keynote part of the evidence surface: the company was not merely publishing specifications; it was asking customers, partners, investors, and governments to imagine accelerated computing as industrial infrastructure. The character work is therefore rhetorical and public: who gets to name the factory, and who has to build it? [S-0001] [S-0206]
 
@@ -2775,7 +2647,6 @@ Jensen Huang belongs here as a public stage figure, not as an invented inner lif
 # Chapter 16: Datacenters, Power, and the Physical Internet
 
 Outside the keynote, the factory has to find land, power, cooling, transformers, network links, and time.
-
 
 ## Chapter 16 - Speed To Power
 
@@ -2787,33 +2658,26 @@ For years, the frontier race had trained its participants to speak in tokens, pa
 
 This is not an energy morality play. It is a mechanism chapter: what happens when a technology whose visible output is weightless starts to compete for heavy things like megawatts, transformers, turbines, switchgear, substations, permits, cooling capacity, water plans, local politics, and grid patience? The answer matters because the frontier model is no longer just a file on a server. It is a claim on a place. [S-0083; S-0084; S-0087]
 
-Place Figure 16.1, A-0015, `assets/visual_system/power-to-token-flow.svg`, near the start of the chapter. The figure should teach the reader that a token is the last mile of a dependency chain: electricity demand, grid interconnection, facility and cooling constraints, accelerators and networks, inference scheduling, and software output. Caption rule: this is a mechanism diagram, not a quantified energy-per-token model and not proof of NVIDIA performance, partner, roadmap, availability, or deployment claims. [S-0083; S-0084; S-0085; S-0086; S-0087; S-0088; CH16Q-017; CH16Q-018]
-
 ### The Small Share That Became A Local Problem
 
 > [!FIGURE] **F16.01 / A-0015 - Power To Token Flow**
 > Caption: F16.01: Power To Token Flow.
-> Source note: Sources: S-0001;S-0039;S-0040;S-0066;S-0083;S-0084;S-0085;S-0086;S-0087;S-0088. Rights path: ready_svg. Story role: power-to-token flow.
-
+> 
 
 The first trap is scale. Data centres were still a small part of the global electricity system. The International Energy Agency estimated that data centres accounted for roughly 1.5 percent of global electricity consumption in 2024. [S-0083; CH16Q-001] On a global balance sheet, that sounds modest. It can tempt a reader into thinking the whole concern is a culture-war exaggeration, another way for people to yell at the cloud.
 
 But the same IEA report treated data centres as a fast-growing and locally concentrated load class, with a base case in which data-centre electricity consumption more than doubled by 2030. [S-0083; CH16Q-002] The tension was in those two facts at once: globally small enough to be easy to misread, locally large enough to change the planning problem for a utility, a town, or a transmission region. The model did not consume a global average. It consumed power at a site, on a feeder, inside a market, under weather and peak-load conditions, with a particular queue for equipment and interconnection.
 
-Place Figure 16.2, A-0020, `assets/visual_system/chapter16-data-center-load-scenarios.svg`, after this opening scale distinction. The point of the figure is not to make one dramatic curve. It is to separate measured estimates from scenario ranges and forecasts. In the global lane, the IEA's 2024 share and 2030 base-case projection should sit in different visual states. In the U.S. lane, the LBNL/DOE 2023 estimate and 2028 modeled scenarios should likewise stay separate. Forecasts and scenarios are not happened history. A beautiful chart that erases that difference would weaken the chapter.
-
 The United States made the compression visible. Lawrence Berkeley National Laboratory and the Department of Energy reported about 176 terawatt-hours of U.S. data-centre electricity use in 2023, then modeled 2028 scenarios ranging from 325 to 580 terawatt-hours. [S-0084; S-0085; N16-1] In share terms, the report put U.S. data centres at about 4.4 percent of electricity use in 2023 and projected a possible 6.7 to 12 percent by 2028. [S-0084; S-0085] Those were scenarios, not prophecy. But even as scenarios they changed the conversation. A model lab could announce a new training cluster in a product cadence. A grid operator could not summon transmission, transformers, interconnection studies, gas turbines, backup systems, water plans, and local approval on the same rhythm.
 
 That mismatch is the spine of the chapter: speed to power. The LLM race is usually narrated as a race for intelligence, chips, talent, capital, and data. By the time models became products, it had also become a race for the right to plug in. A hundred megawatts was no longer a metaphor. EPRI described new data centres in the 100 to 1,000 megawatt range, a scale it compared to the load of roughly 80,000 to 800,000 average homes. [S-0086; CH16Q-007; CH16Q-008] The comparison is imperfect, because household use varies by region and hour, but it does the necessary work. It moves "AI infrastructure" out of the cloud-shaped abstraction and back onto land, wires, and equipment.
-
-The book should resist two easy overreactions. One is to say that data-centre electricity use was tiny, therefore irrelevant. The other is to say that any increase proved an oncoming national crisis. The better sentence is narrower and more useful: a fast-growing, concentrated load can be modest in aggregate and still difficult in the places where it arrives. That is the kind of sentence a power planner would recognize. It is also the kind of sentence the AI industry had to learn the hard way.
+ two easy overreactions. One is to say that data-centre electricity use was tiny, therefore irrelevant. The other is to say that any increase proved an oncoming national crisis. The better sentence is narrower and more useful: a fast-growing, concentrated load can be modest in aggregate and still difficult in the places where it arrives. That is the kind of sentence a power planner would recognize. It is also the kind of sentence the AI industry had to learn the hard way.
 
 ### Geography Beats Averages
 
 > [!FIGURE] **F16.02 / A-0020 - Data-Centre Load Scenarios**
 > Caption: F16.02: Data-Centre Load Scenarios.
-> Source note: Sources: S-0083;S-0084;S-0085. Rights path: ready_svg. Story role: load scenarios.
-
+> 
 
 The second trap is national averaging. The word "electricity" sounds smooth, as if it were a single national pool. In practice, power is stubbornly local. A data-centre campus attaches to a real grid, not to a metaphor. It needs interconnection studies, substations, transformers, transmission capacity, distribution upgrades, land, cooling, backup, contracts, and local approval. A national demand chart can tell the reader that the pressure is rising. It cannot tell the reader where the next constraint will bite.
 
@@ -2825,14 +2689,11 @@ This is why "the cloud" is such a dangerous word in an infrastructure chapter. I
 
 The plot of Chapter 16 is not that AI suddenly discovered electricity. It is that the next scaling contest forced the software industry to negotiate with slower institutions. Cloud companies and model labs could buy accelerators, sign leases, reserve capacity, and design racks with urgency. Utilities had to study loads, plan upgrades, procure equipment, protect reliability, and decide who paid for what. A megawatt is not merely a procurement line. It is a coordination problem.
 
-Place Figure 16.3, A-0021, `assets/visual_system/chapter16-interconnection-queue-schematic.svg`, near this section. The figure should show a hyperscale request entering a queue of studies, transformers, substations, cables, permits, generation, and local readiness before becoming usable site power. Caption rule: EPRI and DOE-SEAB evidence can show facility-scale requests and one-to-three-year grid lead-time pressure, but not a complete project-level delay database. [S-0086; S-0087; CH16Q-013; CH16Q-014]
-
 ### The Queue Behind The Plug
 
 > [!FIGURE] **F16.03 / A-0021 - The Interconnection Queue**
 > Caption: F16.03: The Interconnection Queue.
-> Source note: Sources: S-0083;S-0086;S-0087. Rights path: ready_svg. Story role: interconnection queue.
-
+> 
 
 Interconnection became one of the hidden verbs of scaling. The Department of Energy's Secretary of Energy Advisory Board reported hyperscale connection requests of 300 to 1,000 megawatts or larger, with one-to-three-year lead times stretching local grids. [S-0087; CH16Q-013; CH16Q-014] The phrase sounds bureaucratic until it is translated into model time. A one-to-three-year lead time is a generation in the life of frontier AI. It can span several model releases, multiple chip refreshes, and a complete change in what customers expect from an assistant.
 
@@ -2852,16 +2713,13 @@ The old cloud story was "scale hides complexity." The AI infrastructure story is
 
 > [!FIGURE] **F16.04 / A-0288-014 - GTC 2026 Data-Center Power/Cooling Page**
 > Caption: F16.04: GTC 2026 data-center power/cooling page render adds facility-constraint texture; it does not prove site-level grid impact, water use, or economics.
-> Source note: Sources: S-0087;S-0088. Rights path: ready_svg. Story role: cooling/rack-density note.
-
+> 
 
 The power problem also refused to fit cleanly into a one-note story about fuels. The IEA projected global electricity generation for data centres rising from about 460 terawatt-hours in 2024 to more than 1,000 terawatt-hours in 2030, with renewables meeting nearly half of additional demand in its analysis while natural gas and coal still remained important near term. [S-0083; CH16Q-011; CH16Q-012] This is forecast language. It should not be written as destiny. But it is strong enough to complicate the lazy version of the debate.
 
 The lazy version says AI is either a clean-power accelerator or a fossil-power disaster. The evidence points to a more difficult mechanism. New demand can support new renewable procurement, grid upgrades, storage, nuclear discussions, gas turbines, backup systems, and tariff experiments at the same time. Those categories do not cancel each other. They coexist inside planning. The physical system needs electricity at specific hours. The corporate system needs procurement claims, sustainability reports, contracts, and public legitimacy. The two systems overlap but are not identical.
 
 That forced a distinction the industry often blurred: a corporate clean-power contract could be real and still not be the same thing as the physical fuel mix serving a specific load at a specific hour. Certificates, power purchase agreements, new solar, gas turbines, nuclear discussions, battery storage, backup generation, and grid upgrades all belonged in the same chapter because the model did not consume a press release. It consumed electricity where and when the facility ran.
-
-Place Figure 16.5, A-0023, `assets/visual_system/chapter16-clean-power-physical-supply.svg`, in this section. The figure should separate corporate procurement instruments from physical hourly supply. Caption rule: IEA supply-mix projection language and DOE-SEAB flexibility categories support the distinction; they do not authorize equating PPAs or certificates with delivered electrons at a specific site and hour. [S-0083; S-0087; CH16Q-011; CH16Q-012]
 
 This distinction gives the chapter moral steadiness. It does not need to sneer at clean-power procurement. Procurement can finance new resources and shape markets. It also does not need to accept procurement as the whole story. A book about LLMs should be specific enough to say that accounting, procurement, generation, transmission, storage, backup, and hourly operation are different layers. The reader who understands that distinction will be harder to fool by both triumphal marketing and doom rhetoric.
 
@@ -2873,16 +2731,13 @@ For the LLM story, the important point is not to adjudicate all energy politics.
 
 > [!FIGURE] **F16.05 / A-0023 - Clean Procurement Is Not Physical Supply**
 > Caption: F16.05: Clean Procurement Is Not Physical Supply.
-> Source note: Sources: S-0083;S-0087. Rights path: ready_svg. Story role: clean procurement vs physical supply.
-
+> 
 
 Cooling was not a plumbing footnote. It was the place where the thermal reality of chips met the real estate and water reality of a facility. The denser the rack, the less useful it is to talk about chips as isolated components. Power delivery, heat removal, floor loading, water availability, maintenance practices, and facility retrofits become part of the same system. A chip can be impressive in a benchmark and still demand a building that not every operator has.
 
-DOE-SEAB recommended facility-level solutions including advanced cooling technologies, power and water reduction, waste-heat use, and experiments with onsite or facility-level electricity supply. [S-0087] That language is broad by design. It supports a chapter mechanism, not a detailed engineering verdict on one cooling architecture. The book should not pretend to settle the relative merits of liquid loops, air systems, immersion approaches, water strategies, or waste-heat reuse without a later technical source pack. What it can say now is that facility design became inseparable from model scaling.
+DOE-SEAB recommended facility-level solutions including advanced cooling technologies, power and water reduction, waste-heat use, and experiments with onsite or facility-level electricity supply. [S-0087] That language is broad by design. It supports a chapter mechanism, not a detailed engineering verdict on one cooling architecture. pretend to settle the relative merits of liquid loops, air systems, immersion approaches, water strategies, or waste-heat reuse without a later technical source pack. What it can say now is that facility design became inseparable from model scaling.
 
 Uptime Institute's 2025 operator survey added a caution from the field: average PUE had changed little for a sixth consecutive year, server-rack power densities were rising slowly, and only a small share of facilities exceeded 30 kilowatts per rack. [S-0088; CH16Q-015; CH16Q-016] This is an operator-survey signal, not a universal law of physics. It should be used as a brake on fantasy. The industry could talk about denser AI racks, and some facilities would build them. But the installed base did not transform as fast as the slideware.
-
-Place Figure 16.4, A-0022, `assets/visual_system/chapter16-cooling-rack-density-note.svg`, beside this section. The figure should show denser racks leading into facility response categories and then into usable accelerator capacity. Caption rule: DOE-SEAB supports facility response categories; Uptime supports an operator-survey caution. Detailed cooling engineering claims need a later source pack. [S-0087; S-0088; CH16Q-015; CH16Q-016]
 
 Cooling is also where the AI factory metaphor becomes both useful and suspicious. It is useful because it reminds the reader that tokens have a production stack. It is suspicious because the metaphor can make industrialization sound cleaner than it is. A factory is a place of standardized process. AI infrastructure in this period was still a negotiation among new rack designs, older facilities, supply chains, grid queues, water constraints, local politics, and fast-changing model demand.
 
@@ -2894,8 +2749,7 @@ The physical system did not merely support the software system. It fed back into
 
 > [!FIGURE] **F16.06 / A-0287-009 - Equinix AI Data-Center Surface**
 > Caption: F16.06: Equinix AI public-web screenshot gives the data-center chapter a facility/operator surface; it does not prove site-level power demand, interconnection timing, water use, carbon intensity, or customer load.
-> Source note: Sources: S-0278. Rights path: rights_review_needed. Story role: data-center hall photo.
-
+> 
 
 The most honest version of the "AI factory" is not a slogan. It is a stack of dependencies. At the top are tokens, assistants, code agents, search answers, customer-support chats, synthetic data, and internal enterprise workflows. Beneath them are inference servers, training clusters, GPUs, CPUs, memory, networking, storage, schedulers, monitoring, and security. Beneath those are racks, chillers, liquid loops, generators, switchgear, substations, transmission, water, land, contracts, and local permissions. The stack is only as fast as the slowest layer that matters at that moment. It is not yet a quantified energy-per-token model. [CH16Q-018]
 
@@ -2903,11 +2757,11 @@ That last sentence is a guardrail. The chapter can describe the chain from elect
 
 The guardrail is not a weakness. It is the same discipline Chapter 13 applies to model rankings. A number without its habitat is decoration. Energy per token is tempting because it sounds like the perfect bridge between the invisible answer and the physical grid. But the token is not a fixed unit of work. A short answer, a long answer, a cached prompt, a tool call, a batch job, a reasoning trace, and a coding-agent loop can all have different shapes. If the book prints one neat number too early, it will teach false precision.
 
-The better contribution of this chapter is to make the dependency chain vivid. The reader should finish it understanding why the LLM race expanded from model architecture into site selection, utility planning, procurement, cooling, and grid strategy. The race for intelligence did not stop being a race for algorithms. It became a race in which algorithms had to negotiate with physical time.
+The better contribution of this chapter is to make the dependency chain vivid. it understanding why the LLM race expanded from model architecture into site selection, utility planning, procurement, cooling, and grid strategy. The race for intelligence did not stop being a race for algorithms. It became a race in which algorithms had to negotiate with physical time.
 
 That negotiation also changed the sociology of the industry. The central characters were no longer only researchers, founders, product managers, and chip architects. They included energy buyers, utility planners, real-estate teams, facilities engineers, water managers, local officials, construction firms, and reliability staff. The glamour remained at the model surface. The risk accumulated in the layers underneath.
 
-This is where the chapter should carry a bit of human tension without inventing scenes. Imagine the mismatch in clocks. A model team wants more capacity because a new capability has become product-critical. A procurement team wants GPUs. A facilities team wants a site. A utility wants studies, upgrades, and assurances. A local government wants jobs, taxes, reliability, and political cover. A sustainability team wants clean-power accounting. A finance team wants utilization. A product team wants low latency. A safety team wants monitoring. The user wants the answer now. None of these demands is imaginary, and none obeys the same calendar.
+This is where a bit of human tension without inventing scenes. Imagine the mismatch in clocks. A model team wants more capacity because a new capability has become product-critical. A procurement team wants GPUs. A facilities team wants a site. A utility wants studies, upgrades, and assurances. A local government wants jobs, taxes, reliability, and political cover. A sustainability team wants clean-power accounting. A finance team wants utilization. A product team wants low latency. A safety team wants monitoring. The user wants the answer now. None of these demands is imaginary, and none obeys the same calendar.
 
 The physical bottleneck therefore became a narrative bottleneck. It slowed the myth of frictionless intelligence. It made the reader ask what an LLM really was. Not only a neural network. Not only a product. Not only a set of weights, prompts, and tools. A frontier LLM was also an operating claim on a machine room, a power system, and a geography.
 
@@ -2915,16 +2769,15 @@ The physical bottleneck therefore became a narrative bottleneck. It slowed the m
 
 > [!FIGURE] **F16.07 / A-0261-004 - Interconnection Is A Queue, Not Atmosphere**
 > Caption: F16.07: Grid interconnection texture..
-> Source note: Sources: S-0280. Rights path: rights_review_needed. Story role: substation photo.
-
+> 
 
 The hardest infrastructure lesson is that nominal capacity and useful capacity are not the same thing. A campus may have a headline megawatt figure. A rack may have a design density. A model may have a context window, a price sheet, and an advertised latency target. But the useful capacity for an LLM product depends on whether all the layers line up at the same time: grid connection, facility readiness, cooling, accelerators, networking, software scheduling, model mix, customer demand, reliability targets, and the shape of the workload.
 
 This is where Chapter 16 touches the economics chapters. A provider does not sell raw megawatts to the user. It sells answers, code suggestions, tool calls, analyses, summaries, and agent actions. The conversion from physical capacity into billable or useful work is mediated by utilization. A cluster that is idle because the product has no demand is wasteful. A cluster that is fully subscribed but cannot meet latency expectations is also constrained. A cluster that works for overnight batch inference may be the wrong asset for interactive chat. A cluster that handles short answers cheaply may be strained by long-context retrieval or reasoning-heavy work. The same power system can support several business realities.
 
-The evidence pack does not support a single utilization number, and the chapter should not invent one. What it can do is make the categories legible. Interactive inference values responsiveness. Training and some synthetic-data jobs can be planned. Batch inference can sometimes tolerate delay. Internal enterprise workflows may be schedulable if the user is not waiting at the cursor. Coding agents sit in between: a developer may tolerate a longer background repair loop, but the product still has to feel alive when the agent is planning, explaining, or asking for approval. The infrastructure chapter should teach that "AI load" is not one load. It is a portfolio of workloads with different time sensitivity.
+The evidence pack does not support a single utilization number, and invent one. What it can do is make the categories legible. Interactive inference values responsiveness. Training and some synthetic-data jobs can be planned. Batch inference can sometimes tolerate delay. Internal enterprise workflows may be schedulable if the user is not waiting at the cursor. Coding agents sit in between: a developer may tolerate a longer background repair loop, but the product still has to feel alive when the agent is planning, explaining, or asking for approval. The infrastructure chapter should teach that "AI load" is not one load. It is a portfolio of workloads with different time sensitivity.
 
-That portfolio matters for grid flexibility. DOE-SEAB's discussion of temporal/spatial compute flexibility, backup-power strategy, grid services, and model tariffs is important precisely because not every AI job has the same urgency. [S-0087] A future operator might move some compute to a different region, schedule it around lower-stress hours, or offer grid services under carefully designed rules. But the evidence row is a set of possible responses, not proof that the whole industry already runs as a dispatchable grid resource. The book should keep the conditional mood. It can say that flexibility became a strategic question. It cannot say that flexibility solved the problem.
+That portfolio matters for grid flexibility. DOE-SEAB's discussion of temporal/spatial compute flexibility, backup-power strategy, grid services, and model tariffs is important precisely because not every AI job has the same urgency. [S-0087] A future operator might move some compute to a different region, schedule it around lower-stress hours, or offer grid services under carefully designed rules. But the evidence row is a set of possible responses, not proof that the whole industry already runs as a dispatchable grid resource. the conditional mood. It can say that flexibility became a strategic question. It cannot say that flexibility solved the problem.
 
 Useful capacity also depends on bottleneck order. If the constraint is accelerator supply, then the site waits on chips. If the constraint is interconnection, the chips wait on the grid. If the constraint is cooling, the rack waits on the facility. If the constraint is software efficiency, the hardware runs below its economic potential. If the constraint is product demand, the provider owns expensive optionality. The frontier race moved so quickly that the binding constraint could change from quarter to quarter. That made planning difficult and made vertical integration attractive: the more layers a company controlled or closely partnered around, the fewer handoffs could surprise it.
 
@@ -2936,12 +2789,9 @@ That question belongs beside the visual package. A-0015 shows the dependency cha
 
 For the reader, this section should have a practical aftertaste. When a company says it has secured capacity, ask: capacity in what form? Power rights, land, chips, racks, interconnection approval, completed buildings, operational clusters, or usable low-latency serving? When a provider advertises a cheaper model, ask whether the price reflects architectural efficiency, hardware utilization, subsidy, product tiering, caching, batching, or a narrower capability. When a lab says it will scale, ask what must be built outside the model for that sentence to become true. These questions are not cynicism. They are how the software story becomes real.
 
-### What This Chapter Must Not Claim
-
 > [!FIGURE] **F16.08 / A-0261-005 - Fast Power Is A Constraint Stack**
 > Caption: F16.08: Gas turbine speed-to-power texture..
-> Source note: Sources: S-0282. Rights path: rights_review_needed. Story role: gas turbine photo.
-
+> 
 
 The chapter's power comes from specificity, so its exclusions should remain visible.
 
@@ -2963,10 +2813,9 @@ Those exclusions keep the chapter from becoming either boosterish or scolding. T
 
 > [!FIGURE] **F16.09 / A-0261-006 - Nuclear Evidence Needs Specific Claims**
 > Caption: F16.09: Nuclear/cooling tower power texture..
-> Source note: Sources: S-0284. Rights path: rights_review_needed. Story role: nuclear/cooling tower photo.
+> 
 
-
-By the end of the chapter, the reader should see why the phrase "AI infrastructure" was too soft. Infrastructure was not just a cost center below the story. It was a source of timing, constraint, strategy, and bargaining power. The lab with a clever model still needed capacity. The cloud with capacity still needed power. The utility with power still needed equipment and planning. The community with land still needed a reason to accept the trade. The chip with performance still needed a rack that could cool it. The rack still needed a building. The building still needed a grid.
+By the end of the chapter, why the phrase "AI infrastructure" was too soft. Infrastructure was not just a cost center below the story. It was a source of timing, constraint, strategy, and bargaining power. The lab with a clever model still needed capacity. The cloud with capacity still needed power. The utility with power still needed equipment and planning. The community with land still needed a reason to accept the trade. The chip with performance still needed a rack that could cool it. The rack still needed a building. The building still needed a grid.
 
 That is the reversal Chapter 16 exists to deliver. LLMs made text feel liquid. They made code feel conversational. They made work feel as if it could be summoned through a prompt. Then the race to serve them at scale ran into things that were not liquid at all.
 
@@ -2974,7 +2823,7 @@ The substation was not a metaphor.
 
 It was the plot.
 
-And it changed how the rest of the book should read. When the next chapter returns to chips, labs, agents, or model releases, the reader should carry this infrastructure shadow with them. A faster model is not only a research result. A cheaper answer is not only a pricing decision. A longer context window is not only a product setting. Each one implies a chain of physical accommodations somewhere below the interface. The point is not to make every LLM story into an electricity story. It is to make the invisible floor visible enough that the race can no longer float above it.
+And it changed how the rest of the book should read. When the next chapter returns to chips, labs, agents, or model releases, this infrastructure shadow with them. A faster model is not only a research result. A cheaper answer is not only a pricing decision. A longer context window is not only a product setting. Each one implies a chain of physical accommodations somewhere below the interface. The point is not to make every LLM story into an electricity story. It is to make the invisible floor visible enough that the race can no longer float above it.
 
 That is why Chapter 16 belongs after the model and product chapters rather than in a technical appendix. The industry first made language feel like software. Then scale made software feel industrial again. The strange grandeur of the period is that both were true at once: a sentence could appear in a browser with the lightness of thought, while behind it a company negotiated for transformers, cooling, chips, land, and time.
 
@@ -2986,7 +2835,6 @@ Power is one input to the LLM machine; data is the other, and it is less visible
 
 # Chapter 17: Data, Tokens, and the Library Problem
 
-
 ## 17. Data, Tokens, and the Library Problem
 
 Power is only half the supply chain; the other half is language itself, collected, filtered, tokenized, remembered, and disputed.
@@ -2995,8 +2843,7 @@ Power is only half the supply chain; the other half is language itself, collecte
 
 > [!FIGURE] **F17.01 / A-0064 - Tokenization Ladder**
 > Caption: F17.01: Tokenization Ladder.
-> Source note: Sources: S-0043;S-0153;S-0154. Rights path: ready_svg. Story role: tokenization ladder.
-
+> 
 
 Before the AI factory could turn electricity into tokens, someone had to decide what counted as text.
 
@@ -3007,7 +2854,6 @@ The model did not read the library as a person reads. It did not walk through a 
 This chapter sits after datacenters because the physical story is incomplete without the library story. A gigawatt campus can train nothing if the corpus is bad, stale, contaminated, illegal to use, badly tokenized, or too narrow. It sits before the tools chapter because retrieval, function calling, and agents are partly responses to the limits of pretraining. If the model's internalized library is frozen, lossy, and opaque, tool use becomes a way to borrow fresher evidence at inference time.
 
 The library problem has three layers. First, language must be broken into pieces the machine can handle. Second, a corpus must be assembled from sources whose provenance, quality, duplication, and permissions are uneven. Third, the model must be trained without pretending that statistical exposure is the same thing as permission, knowledge, truth, or memory.
-
 
 Visual note: Figures A-0064 through A-0067 should make the supply chain visible: tokenization ladder, web-corpus filter funnel, data-mixture control board, and memorization/contamination blocker map. Their job is not decoration. They keep the reader from mistaking "data" for one substance.
 
@@ -3021,7 +2867,7 @@ Byte pair encoding entered neural machine translation as a way to handle rare wo
 
 The mechanism matters because tokens are the unit that pricing pages, context windows, training runs, and inference systems make visible. A million-token context is not a million words. A token may be a word, a word piece, a space-plus-word piece, a punctuation mark, a byte-like fallback, a code fragment, or a fragment of another script. That makes token counts powerful and slippery. They are operationally real but linguistically uneven.
 
-This is where the book should be careful with comparisons. A model with a larger context window can receive more tokens, but that does not mean it understands a larger book the way a reader does. A language whose script tokenizes inefficiently may pay more tokens for the same human sentence. A code file can be chopped differently from prose. A prompt that looks short on the page can be expensive in tokens because of formatting, hidden tool text, retrieved passages, or system instructions.
+This is where with comparisons. A model with a larger context window can receive more tokens, but that does not mean it understands a larger book the way a reader does. A language whose script tokenizes inefficiently may pay more tokens for the same human sentence. A code file can be chopped differently from prose. A prompt that looks short on the page can be expensive in tokens because of formatting, hidden tool text, retrieved passages, or system instructions.
 
 Tokenization is therefore a quiet distribution mechanism. It decides which languages, naming patterns, formats, and programming idioms are cheap or expensive to represent. The tokenizer does not determine capability by itself; the training data, architecture, post-training, and product harness matter too. But every model begins by agreeing with its tokenizer about what counts as the next thing.
 
@@ -3031,8 +2877,7 @@ The phrase "next token" in the book's title is partly poetic. It is also literal
 
 > [!FIGURE] **F17.02 / A-0065 - Web Corpus Filter Funnel**
 > Caption: F17.02: Web Corpus Filter Funnel.
-> Source note: Sources: S-0155;S-0156;S-0159;S-0160. Rights path: ready_svg. Story role: web-corpus filter funnel.
-
+> 
 
 Once the world has been chopped into tokens, the next question is which tokens enter the diet.
 
@@ -3082,8 +2927,7 @@ The echo problem also affects ordinary use. If a model has seen many near-identi
 
 > [!FIGURE] **F17.03 / A-0066 - Data Mixture Control Board**
 > Caption: F17.03: Data Mixture Control Board.
-> Source note: Sources: S-0042;S-0157;S-0158;S-0159;S-0163. Rights path: ready_svg. Story role: data mixture control board.
-
+> 
 
 By 2024, another temptation had appeared: perhaps the data problem could be dodged by making the context window enormous. If a model can read a million tokens, why worry so much about what was in the weights? Put the user's documents into the prompt. Let the model read the case file, repository, notebook, inbox, or research archive at inference time.
 
@@ -3113,14 +2957,12 @@ The clean sentence is this: LLMs do not remember like people, but they can repro
 
 > [!FIGURE] **F17.04 / A-0067 - Memorization and Contamination Blocker Map**
 > Caption: F17.04: Memorization and Contamination Blocker Map.
-> Source note: Sources: S-0160;S-0161;S-0162. Rights path: ready_svg. Story role: memorization blocker map.
-
+> 
 
 As the obvious web became more exhausted, more contested, or more heavily filtered, the frontier turned toward another library: model-generated data.
 
 Synthetic data can mean many things. It can be a model writing instruction-following examples. It can be a stronger model generating traces for a weaker model. It can be code problems, chain-of-thought-like rationales, preference pairs, simulated dialogues, tool-use trajectories, math solutions, or cleaned rewrites of messy source material. It can look like a practice exam, a rehearsal, a lab-grown edge case, or a translation of messy human evidence into a form the training run can digest. It can improve a model by making rare tasks abundant. It can also make the model world more self-referential.
-
-This pass does not add a dedicated synthetic-data source row, so the prose must stay general and cautious. The supported claim is structural: by the mid-2020s, data was no longer only scraped human text; post-training and reasoning systems increasingly depended on generated examples, critiques, tool traces, and preference-like signals discussed elsewhere in the book. Exact synthetic-data shares for particular models remain blocked.
+ The supported claim is structural: by the mid-2020s, data was no longer only scraped human text; post-training and reasoning systems increasingly depended on generated examples, critiques, tool traces, and preference-like signals discussed elsewhere in the book. Exact synthetic-data shares for particular models remain blocked.
 
 Synthetic data makes the library problem recursive. If models train on model outputs, what happens to errors, styles, omissions, and hidden biases? Can synthetic curricula cover tasks humans rarely write down? Can generated traces teach reasoning or merely teach the appearance of reasoning? Can models produce data beyond the quality frontier of their teachers, or do they amplify the teacher's blind spots? Those questions belong to Chapter 21 as well as this chapter.
 
@@ -3140,8 +2982,6 @@ The data chapter's final claim is modest and central: LLMs are not trained on la
 
 The next chapter turns that last move into machinery. Retrieval, function calling, connectors, and agents are not departures from the data problem. They are what happens when the data problem becomes live.
 
-### What This Chapter Still Refuses
-
 The final discipline is to keep the missing rows visible. Exact tokenizer and vocabulary-size examples belong only where a figure has row-level support. Model-specific synthetic-data shares need a source pack before they become prose. Copyright and licensing belong here as provenance and trust constraints unless a later legal source pack licenses actual legal findings. Proprietary corpus composition remains blocked unless a paper, card, filing, audit, or lab disclosure makes the claim specific.
 
 The visual package already names the right four jobs: tokenization ladder, web-corpus filter funnel, data-mixture control board, and memorization/contamination blocker map. The remaining task is not to add more generic data art. It is to place those figures where they prevent mistakes: token counts are not words, cleaned web data is not clean truth, mixture boards are not closed-model recipes, and memorization evidence is not a universal leakage rate.
@@ -3156,7 +2996,6 @@ Data gives a model memory-shaped material, but tools change what the model can d
 
 # Chapter 18: Tools, Retrieval, and the Agent Turn
 
-
 ## 18. Tools, Retrieval, and the Agent Turn
 
 Tools move the model outward, turning answers into actions that need context, permissions, observations, and rollback.
@@ -3165,8 +3004,7 @@ Tools move the model outward, turning answers into actions that need context, pe
 
 > [!FIGURE] **F18.01 / A-0060 - RAG Evidence Conveyor**
 > Caption: F18.01: RAG Evidence Conveyor.
-> Source note: Sources: S-0038. Rights path: ready_svg. Story role: RAG evidence conveyor.
-
+> 
 
 The original ChatGPT miracle was still mostly a conversation. The model answered, refused, rewrote, summarized, translated, improvised, and explained. It could feel like a universal machine because language is the interface to so many human activities. But under the product glamour, the system was usually doing one old thing with astonishing fluency: receiving tokens and returning tokens.
 
@@ -3178,13 +3016,11 @@ This is the agent turn. It is easy to overstate and easy to miss. Overstated, it
 
 The result was not one invention. It was a stack: retrieval, tool description, action selection, observation, memory-like context, permissions, evaluation, and human review. [S-0038] [S-0044] [S-0055] Chapter 20 will follow that stack into coding, where the artifact is a diff and the judge can be a test. This chapter stays one level more general. It asks how the chat box became a tool runner.
 
-
 ### Retrieval: Memory Without Memory
 
 > [!FIGURE] **F18.02 / A-0061 - Function-Call Boundary**
 > Caption: F18.02: Function-Call Boundary.
-> Source note: Sources: S-0044;S-0134. Rights path: ready_svg. Story role: function-call boundary.
-
+> 
 
 The simplest way to make an LLM look grounded is not to change the model at all. Put better evidence in its prompt.
 
@@ -3194,7 +3030,7 @@ That distinction matters because readers will naturally call retrieval "memory."
 
 RAG therefore moved the truth problem rather than solving it. It made evidence visible enough to engineer around. Developers could inspect retrieval hits, tune chunking, attach citations, filter by permissions, and measure answer faithfulness. They could also build brittle systems that gave users the theater of sourcing without the discipline of source selection. A citation is not a guarantee. It is an affordance for checking.
 
-The product importance was enormous. Retrieval made LLMs useful in places where the model weights alone were too general: customer-support archives, internal wikis, legal documents, research libraries, source-code repositories, medical-policy manuals, and enterprise knowledge bases. But the book should resist the lazy sentence that RAG "fixes hallucination." It does not. It creates a new attack surface and a new evaluation surface. The model can still ignore evidence, misread evidence, overgeneralize from evidence, or reconcile conflicting snippets with invented glue. The retriever can still fetch the wrong thing. The database can still contain garbage. The user can still ask for a conclusion the evidence does not support.
+The product importance was enormous. Retrieval made LLMs useful in places where the model weights alone were too general: customer-support archives, internal wikis, legal documents, research libraries, source-code repositories, medical-policy manuals, and enterprise knowledge bases. But the lazy sentence that RAG "fixes hallucination." It does not. It creates a new attack surface and a new evaluation surface. The model can still ignore evidence, misread evidence, overgeneralize from evidence, or reconcile conflicting snippets with invented glue. The retriever can still fetch the wrong thing. The database can still contain garbage. The user can still ask for a conclusion the evidence does not support.
 
 The better sentence is this: retrieval gave the next-token machine a way to borrow the library at the moment of use.
 
@@ -3224,14 +3060,13 @@ The strongest prose here should make the machinery feel ordinary. The agent turn
 
 > [!FIGURE] **F18.03 / A-0062 - Agent Loop as Harness**
 > Caption: F18.03: Agent Loop as Harness.
-> Source note: Sources: S-0055;S-0109;S-0135;S-0136. Rights path: ready_svg. Story role: agent loop as harness.
-
+> 
 
 ChatGPT plugins made the public version of the shift visible. OpenAI framed plugins in 2023 as tools designed for language models, with examples such as browsing, code execution, retrieval, and third-party services. [S-0044] Whatever happened later to that exact product surface, the historical signal was clear: the assistant would not remain sealed inside a chat transcript. It would become a client for a tool ecosystem.
 
 The same pattern appeared in several forms. Custom GPTs made tool and instruction bundles more accessible to non-developers. [S-0045] GPT-4o-era ChatGPT brought more tools into the everyday assistant surface. [S-0046] Anthropic's computer-use announcement in October 2024 pushed the idea toward graphical interfaces, framing Claude 3.5 Sonnet as able, in public beta, to use a computer through screen-level actions. [S-0109] Anthropic's Model Context Protocol announcement a month later framed another layer: an open-standard approach for connecting assistants to data sources and tools. [S-0055]
 
-These are different products and protocols, and the chapter should not flatten them into one triumphant march. Plugins are not the same as function calls. Computer use is not the same as an API connector. MCP is not proof of universal standardization. But together they show the product logic of the period. Models were valuable when they could talk. They became harder to ignore when they could operate the interfaces through which work already flowed.
+These are different products and protocols, and flatten them into one triumphant march. Plugins are not the same as function calls. Computer use is not the same as an API connector. MCP is not proof of universal standardization. But together they show the product logic of the period. Models were valuable when they could talk. They became harder to ignore when they could operate the interfaces through which work already flowed.
 
 The tool world also revealed a constraint hidden by chat. A conversation can be evaluated after the fact. A tool action may change state. It may send a message, spend money, delete a file, expose private data, schedule an appointment, or run a command. That means agent design is not only about capability. It is about authority.
 
@@ -3243,8 +3078,7 @@ This is why coding agents arrived as one of the cleanest agent case studies. Cod
 
 > [!FIGURE] **F18.04 / A-0063 - Prompt Injection Boundary**
 > Caption: F18.04: Prompt Injection Boundary.
-> Source note: Sources: S-0137. Rights path: ready_svg. Story role: prompt-injection boundary.
-
+> 
 
 The research literature found another way to name the shift. ReAct, published as an ICLR 2023 paper, explored interleaving reasoning traces and task-specific actions so that language models could reason, act, observe, and update their plans. [S-0135] Toolformer studied whether a language model could learn to use external tools through self-supervised examples. [S-0136] These papers did not settle the engineering of production agents, but they helped give the field a vocabulary: the model could think in text, act through a tool, receive an observation, and continue.
 
@@ -3264,8 +3098,7 @@ Still, the loop mattered because it changed the unit of AI product design. Inste
 The phrase "glue language" is important. It keeps the model from swallowing the whole story. A tool-using LLM is often less like an autonomous mind and more like a flexible coordinator. The calculator supplies arithmetic. The database supplies records. The retriever supplies documents. The code interpreter supplies execution. The browser supplies a page. The model supplies interpretation, routing, synthesis, and a sometimes-fragile sense of what to do next.
 
 That fragility is not a side issue. It defines the limits of the agent turn. LLMs are excellent at making the next step sound reasonable. They are not automatically excellent at maintaining an invariant across a long procedure, preserving hidden constraints, resisting malicious instructions embedded in data, or knowing when their own plan has become stale. Long-horizon agency is therefore not just "more steps." It is more opportunities for drift.
-
-The chapter should let readers feel both emotions at once. The agent loop genuinely expands what LLM systems can do. It also multiplies failure surfaces.
+ readers feel both emotions at once. The agent loop genuinely expands what LLM systems can do. It also multiplies failure surfaces.
 
 ### Prompt Injection: The Instruction/Data Problem Returns
 
@@ -3287,8 +3120,7 @@ The best agent systems will act like paranoid bureaucrats. They will isolate unt
 
 > [!FIGURE] **F18.05 / A-0260-003 - Release notes are product archaeology**
 > Caption: F18.05: ChatGPT Tool Surface.
-> Source note: Sources: S-0044;S-0045;S-0046. Rights path: private_capture_needed. Story role: ChatGPT tools/GPTs surface.
-
+> 
 
 By the time the field began saying "agents" constantly, the word had become almost too broad to use. It could mean a chat assistant with search. It could mean an API wrapper with tools. It could mean a browser automation demo. It could mean a coding terminal. It could mean a multi-step workflow engine. It could mean a benchmark scaffold that quietly did much of the work around the model.
 
@@ -3326,7 +3158,6 @@ General tool use shows the harness; code shows the first domain where language b
 
 # Chapter 19: Code as the Second Native Language
 
-
 ## 19. Code as the Second Native Language
 
 Code sharpens that outward move because language can now become syntax, run against tests, and fail in public.
@@ -3335,8 +3166,7 @@ Code sharpens that outward move because language can now become syntax, run agai
 
 > [!FIGURE] **F19.01 / A-0288-006 - Code Llama Paper Page As Code-Model Lineage**
 > Caption: F19.01: Code Llama page-one render anchors code models as a visible open-foundation-model source surface; it does not prove developer replacement, production correctness, or current benchmark rank.
-> Source note: Sources: S-0035;S-0052;S-0054;S-0070;S-0132. Rights path: ready_svg. Story role: code as language.
-
+> 
 
 Code was never merely another dataset. It was the strange twin of language: written by humans, read by humans, executed by machines, and punished by machines when it lied.
 
@@ -3352,13 +3182,11 @@ The most important word in that sentence is "associations." The model did not un
 
 That is why code belongs near the center of the LLM story. It is where language stopped being only expression and became operation.
 
-
 ### From Snippet To Companion
 
 > [!FIGURE] **F19.02 / A-0289-007 - LiveCodeBench Leaderboard Surface**
 > Caption: F19.02: LiveCodeBench leaderboard screenshot makes coding-model evaluation visible as a benchmark surface; it does not prove broad software productivity, current live rank after capture, developer replacement, or production correctness.
-> Source note: Sources: S-0070;S-0132. Rights path: ready_svg. Story role: assistant at cursor.
-
+> 
 
 GitHub Copilot turned the research surprise into an everyday product surface. GitHub introduced Copilot in 2021 as an AI pair programmer built with OpenAI Codex, designed to suggest whole lines or functions inside the editor. [S-0070] [S-0132] The metaphor mattered. Pair programming implied proximity, not replacement. The model sat beside the developer at the cursor, watching the local context and proposing the next move.
 
@@ -3390,8 +3218,7 @@ That reading loop also explains why code models felt personal. A spreadsheet ass
 
 > [!FIGURE] **F19.03 / A-0289-T003 - 2025 Model-Landscape Table**
 > Caption: F19.03: The 2025 benchmark/model-landscape table gives the coding-score discussion a year-specific context panel; it is not a universal quality score, safety result, adoption claim, or live rank.
-> Source note: Sources: S-0035;S-0037;S-0052;S-0053;S-0054. Rights path: ready_svg. Story role: coding score harness.
-
+> 
 
 If Codex and Copilot made code generation feel practical, AlphaCode made it feel competitive.
 
@@ -3413,8 +3240,7 @@ Every programmer has felt the little betrayal of a program that does exactly wha
 
 > [!FIGURE] **F19.04 / A-0286-008 - SWE-bench GitHub Repository Surface**
 > Caption: F19.04: SWE-bench GitHub repository screenshot anchors repository-repair evaluation as a source surface; it does not prove production productivity, developer replacement, or model reliability outside the benchmark harness.
-> Source note: Sources: S-0035;S-0037;S-0053. Rights path: ready_svg. Story role: repository as prompt.
-
+> 
 
 Code capability did not remain only inside proprietary assistants. Meta's Code Llama work framed open foundation models for code, extending the Llama family into code generation and related programming tasks. [S-0025] That mattered because code is not only a product feature. It is an ecosystem pressure.
 
@@ -3450,8 +3276,7 @@ The difference is not caution for caution's sake. It preserves the wonder. The r
 
 > [!FIGURE] **F19.05 / A-0286-T004 - 2021 Model-Landscape Table**
 > Caption: F19.05: The 2021 benchmark/model-landscape table records early code/model context as a memory aid; it is not a live rank, universal quality score, or product adoption claim.
-> Source note: Sources: S-0070. Rights path: private_capture_needed. Story role: GitHub Copilot surface.
-
+> 
 
 The deepest change in coding tools was not that the model could emit code. It was that the repository became part of the prompt.
 
@@ -3497,7 +3322,6 @@ Code made the stakes measurable; Claude Code makes the workflow visible. The nex
 
 # Chapter 20: Claude Code and the Industrialization of Pair Programming
 
-
 ## 20. Claude Code and the Industrialization of Pair Programming
 
 Claude Code makes the agent loop concrete: the terminal becomes useful only when files, commands, tests, and review are bounded.
@@ -3506,8 +3330,7 @@ Claude Code makes the agent loop concrete: the terminal becomes useful only when
 
 > [!FIGURE] **F20.01 / A-0289-010 - OpenAI Evals Repository Surface**
 > Caption: F20.01: OpenAI Evals GitHub repository screenshot gives the coding-agent harness loop an evaluation-tool surface; it does not prove benchmark neutrality, current coverage, safety, adoption, or production value.
-> Source note: Sources: S-0022;S-0035;S-0037;S-0050. Rights path: ready_svg. Story role: coding-agent harness loop.
-
+> 
 
 Autocomplete made the first generation of AI coding tools feel like a faster keyboard. The model waited at the cursor. It guessed the next line, the next block, the next test case. That was useful, and sometimes uncanny, but the unit of work remained small. The developer still carried the shape of the change in their head.
 
@@ -3521,13 +3344,11 @@ Claude Code belonged to the next phase because it treated software engineering a
 
 That shift made the product feel less like a helper and more like a junior colleague with shell access. The phrase is dangerous. A colleague has responsibility, memory, judgment, and accountability. A coding agent has a context window, tools, policies, and probabilistic behavior. But the social metaphor matters because it explains the new managerial burden. The developer was no longer only writing code. The developer was scoping work, granting permissions, reviewing diffs, deciding when to interrupt, and judging whether the agent had actually understood the system.
 
-
 ### From Prompt To Work Order
 
 > [!FIGURE] **F20.02 / A-0285-013 - SWE-bench Paper Page As Harness Evidence**
 > Caption: F20.02: SWE-bench page-one render makes coding-agent evaluation a visible benchmark-harness surface; it does not prove developer replacement or production productivity.
-> Source note: Sources: S-0007;S-0035;S-0037. Rights path: ready_svg. Story role: coding benchmark caveat matrix.
-
+> 
 
 The basic ergonomics of agentic coding are simple enough to hide their novelty. A user describes a change. The agent reads. It edits. It runs tests. It reports back. Underneath that loop are several hard problems. Chapter 18 named those problems as tool agency in general. Chapter 19 showed why code made language operational. Here the two lines meet: the tool runner enters the software system and tries to leave behind an artifact that other tools can judge.
 
@@ -3543,12 +3364,11 @@ The result is a new kind of prompt. It is less like "write me a function" and mo
 
 > [!FIGURE] **F20.03 / A-0285-014 - Toolformer Paper Page As Tool-Use Lineage**
 > Caption: F20.03: Toolformer page-one render gives tool-use chapters a primary research source surface; it does not prove autonomous reliability or current agent capability.
-> Source note: Sources: S-0022;S-0050. Rights path: ready_svg. Story role: tool-call lifecycle.
-
+> 
 
 SWE-bench matters because it changed what "good at code" could mean. Instead of only asking a model to solve isolated programming exercises, SWE-bench asks whether language models can resolve real GitHub issues in real projects. [S-0035] That made the benchmark feel closer to work: understand the repo, modify the right files, pass the tests.
 
-But the chapter should not treat SWE-bench as a scoreboard oracle. Benchmarks can be gamed, contaminated, overfit, or narrowed into product theater. LiveCodeBench was created partly to reduce contamination and make coding evaluation more dynamic. [S-0037] Terminal-bench and other agentic benchmarks add another angle: not just whether a model writes code, but whether it can act in a terminal-like environment. Anthropic's Claude 4 announcement reports strong SWE-bench Verified and Terminal-bench results for Claude Opus 4, but the exact numbers, harness settings, and agent framework details must be checked before any chart or comparative claim is promoted. [S-0007]
+But treat SWE-bench as a scoreboard oracle. Benchmarks can be gamed, contaminated, overfit, or narrowed into product theater. LiveCodeBench was created partly to reduce contamination and make coding evaluation more dynamic. [S-0037] Terminal-bench and other agentic benchmarks add another angle: not just whether a model writes code, but whether it can act in a terminal-like environment. Anthropic's Claude 4 announcement reports strong SWE-bench Verified and Terminal-bench results for Claude Opus 4, but the exact numbers, harness settings, and agent framework details must be checked before any chart or comparative claim is promoted. [S-0007]
 
 The better conclusion is subtler: coding gave LLMs a measurable arena for agency. The model could plan, edit, run, observe, revise. The environment could push back. The developer could inspect the artifact. This made coding agents commercially legible in a way many other agent demos were not. A broken test is a cleaner signal than a vague promise of productivity.
 
@@ -3556,11 +3376,10 @@ Still, passing a benchmark is not the same as shipping software. Real codebases 
 
 SWE-bench was powerful because it moved the target from "Can the model write the next function?" to "Can the model change a living codebase in response to a defect report?" The difference sounds small until you imagine the work. A programming contest problem usually arrives clean. The inputs and outputs are specified. The file is empty. The judge is waiting. A GitHub issue is messier. The fix may hide in a dependency assumption, a test helper, a stale abstraction, a path that only fails under one configuration, or a piece of behavior that the original authors understood socially before anyone wrote it down. The benchmark's own framing makes the point: the task gives the model a codebase and an issue description, then asks it to edit the codebase. [S-0035]
 
-That is why the early low scores were as important as the later high scores. The initial paper reported that then-current systems could resolve only a small share of the tasks; the chapter should preserve that historical friction rather than race straight to the victory lap. [S-0035] The first lesson was not "models can replace programmers." The first lesson was that real software engineering had become a hard, reusable testbed for LLM agency. The benchmark gave labs a hill to climb. It also gave product teams a story they could sell: not merely autocomplete, but issue resolution.
+That is why the early low scores were as important as the later high scores. The initial paper reported that then-current systems could resolve only a small share of the tasks; that historical friction rather than race straight to the victory lap. [S-0035] The first lesson was not "models can replace programmers." The first lesson was that real software engineering had become a hard, reusable testbed for LLM agency. The benchmark gave labs a hill to climb. It also gave product teams a story they could sell: not merely autocomplete, but issue resolution.
 
 LiveCodeBench supplies the counter-pressure. If SWE-bench brought code evaluation closer to repositories, LiveCodeBench attacked another weakness: static benchmarks age badly in a world where training data and public leaderboards circulate quickly. Its authors framed the benchmark around contamination-free evaluation, continuously collecting new problems from programming contests and broadening evaluation beyond plain code generation into self-repair, execution, and test-output prediction. [S-0037] That matters because a coding agent is not one skill. It is a bundle: understand the request, write code, execute or reason about code, interpret failure, repair the attempt, and decide when to stop.
-
-The book should make readers feel the evaluation ladder. HumanEval asked for small functions. MBPP and contest-style tasks tested compact algorithmic competence. SWE-bench asked for repository repair. LiveCodeBench kept the stream fresher and broadened the code-skill surface. Terminal-style benchmarks asked whether models could operate through a shell. None of these is the real world. Each is a lens. Together they show the field trying to measure the moment when language models stopped being only code generators and started becoming code workers.
+ readers feel the evaluation ladder. HumanEval asked for small functions. MBPP and contest-style tasks tested compact algorithmic competence. SWE-bench asked for repository repair. LiveCodeBench kept the stream fresher and broadened the code-skill surface. Terminal-style benchmarks asked whether models could operate through a shell. None of these is the real world. Each is a lens. Together they show the field trying to measure the moment when language models stopped being only code generators and started becoming code workers.
 
 The danger is that every lens becomes a billboard. A model provider can choose the row that flatters it, a harness setting that suits it, an agent scaffold that does hidden work, or a benchmark slice that looks more practical than it is. Chapter 20 should therefore use benchmark language as evidence of direction, not as a final ranking. Exact SWE-bench Verified, Terminal-bench, LiveCodeBench, or "best coding model" claims remain blocked until the row states the benchmark version, scaffold, tool permissions, sample budget, date, source snapshot, and whether the number belongs to the model alone or to a model-plus-agent system. [C-0013]
 
@@ -3578,9 +3397,9 @@ That last category is the one the chapter must keep in view. Agentic coding is p
 
 The plugboard image explains why Claude Code belongs in a book about computing, not just chatbots. The terminal is a user interface, but it is also an operating surface for the software supply chain: version control, package registries, compilers, test runners, linters, deployment tools, cloud CLIs, database shells, and observability systems. When an LLM enters the terminal, it is not merely answering a developer. It stands near the same levers the developer uses to change production systems.
 
-That nearness is why the chapter should resist the romance of "autonomy." The more accurate word is supervision. The agent may propose commands, inspect files, edit code, and rerun checks, but the system is valuable only when permission prompts, sandboxes, tests, branches, logs, and review keep the work legible.
+That nearness is why the romance of "autonomy." The more accurate word is supervision. The agent may propose commands, inspect files, edit code, and rerun checks, but the system is valuable only when permission prompts, sandboxes, tests, branches, logs, and review keep the work legible.
 
-That makes permissions part of the narrative, not an appendix. Anthropic's security documentation describes Claude Code as read-only by default, with additional actions such as file edits, tests, and command execution requiring explicit permission. [S-0050] The same docs frame approval as direct user control and point to permission configuration for more detail. Those details are product-specific and may change, so the chapter should avoid pretending that a captured page freezes every future default. The durable point is architectural: agentic coding moved safety from content moderation into operating authority. The question became not only "What will the model say?" but "What may the model do?"
+That makes permissions part of the narrative, not an appendix. Anthropic's security documentation describes Claude Code as read-only by default, with additional actions such as file edits, tests, and command execution requiring explicit permission. [S-0050] The same docs frame approval as direct user control and point to permission configuration for more detail. Those details are product-specific and may change, so pretending that a captured page freezes every future default. The durable point is architectural: agentic coding moved safety from content moderation into operating authority. The question became not only "What will the model say?" but "What may the model do?"
 
 That shift makes software work a preview of the wider agent problem. In a browser, an agent might click the wrong button. In a calendar, it might invite the wrong person. In finance, it might move money. In code, the action boundary is unusually visible. A diff can be inspected. A command can be logged. A test can be rerun. A branch can be discarded. Coding agents therefore became a training ground for a larger social bargain: give the model tools, but make the tool boundary legible enough that humans and organizations can still own the outcome.
 
@@ -3590,16 +3409,13 @@ The best Claude Code passage should avoid both extremes. It should not sound lik
 
 > [!FIGURE] **F20.04 / A-0289-008 - Berkeley Function Calling Leaderboard Surface**
 > Caption: F20.04: Berkeley Function Calling Leaderboard screenshot makes tool-use evaluation visible; it does not prove general agent reliability, live rank after capture, enterprise outcomes, or safety.
-> Source note: Sources: S-0022;S-0035;S-0037;S-0050. Rights path: ready_svg. Story role: productivity blocker map.
-
+> 
 
 Classic pair programming has a driver and a navigator. One person types. The other watches the shape of the work, catches mistakes, asks questions, and thinks a little farther ahead. Coding agents scramble that arrangement. Sometimes the human drives and the model navigates. Sometimes the model drives and the human reviews. Sometimes the model becomes a swarm of short-lived attempts: one agent investigates, another patches, another writes tests, another reviews.
 
 Claude Code's common workflow materials encourage use cases such as understanding a codebase, fixing bugs, refactoring, writing tests, and working through development tasks. [S-0051] Those are not exotic tasks. They are the daily texture of engineering. That ordinariness is the point. The agent does not need to invent a new category of software work to matter. It needs to compress the cycle time of ordinary work without hiding the cost of review.
 
-The strongest version of this chapter should show the rhythm:
-
-1. The human frames the task.
+The strongest version of The human frames the task.
 2. The agent builds a map of the repository.
 3. The agent proposes a plan or starts with a small edit.
 4. The agent runs a check.
@@ -3617,8 +3433,7 @@ Claude Code's best-practice material emphasizes context and workflow because the
 That is why "ask it to fix the bug" is weaker than "here is the failing test; inspect these modules first; do not touch the migration layer; run this command; stop if the snapshot changes." The second prompt is not merely more detailed. It encodes authority, scope, and evidence. It transforms the model from a wandering writer into a bounded worker. Much of the craft of agentic coding will live in those boundaries.
 
 The same loop explains why coding agents can feel more impressive than ordinary chat even when they fail. A chat model that hallucinates a paragraph leaves the user with fog. A coding agent that makes a bad patch leaves a diff, a failing test, a changed file, and a trail of reasoning or tool calls. Failure becomes inspectable. That is not a guarantee of safety, but it is a better substrate for learning. The agent can be wrong in a way that teaches the user where the boundary should be.
-
-The chapter should not reduce coding agents to productivity. Productivity is the tempting business-book claim: fewer hours, faster teams, cheaper software. The evidence threshold is high; it needs baseline tasks, developer skill levels, code-review cost, defect rates, security outcomes, maintenance burden, and long-term effects on architecture. The safer and more revealing claim is narrower: coding agents changed the unit of developer interaction from snippets to supervised repository tasks. Revenue and productivity may follow in some contexts, but the book should not smuggle them in through vibes.
+ reduce coding agents to productivity. Productivity is the tempting business-book claim: fewer hours, faster teams, cheaper software. The evidence threshold is high; it needs baseline tasks, developer skill levels, code-review cost, defect rates, security outcomes, maintenance burden, and long-term effects on architecture. The safer and more revealing claim is narrower: coding agents changed the unit of developer interaction from snippets to supervised repository tasks. Revenue and productivity may follow in some contexts, but smuggle them in through vibes.
 
 The first durable change may be pedagogical. Junior developers learn systems by reading code, making small changes, running tests, and being corrected. Coding agents can accelerate some of that loop and distort other parts of it. They can explain an unfamiliar file, propose a patch, or generate a test. They can also hide the struggle that teaches judgment. A team that uses agents well will have to decide when the machine should act, when the human should read, and when slowness is the price of understanding.
 
@@ -3628,8 +3443,7 @@ The second durable change is organizational. Code review becomes more important,
 
 > [!FIGURE] **F20.05 / A-0284-014 - GitHub Copilot Product Surface**
 > Caption: F20.05: GitHub Copilot source image anchors coding agents as a real developer product surface; it does not prove productivity lift, replacement effects, code quality, revenue, or enterprise adoption.
-> Source note: Sources: S-0048;S-0049;S-0050;S-0051. Rights path: private_capture_needed. Story role: Claude Code surface.
-
+> 
 
 The failure modes are not footnotes. They are the chapter's honesty.
 
@@ -3653,7 +3467,7 @@ The phrase is not literally new. Programs have generated programs for decades. C
 
 That translation is why coding agents belong at the center of the LLM story. They connect the book's major strands: language as interface, code as data, benchmarks as market signals, tool use as agency, cloud inference as labor, and software engineering as the first large profession to feel a model working inside its native medium.
 
-Claude Code was not the only coding agent, and the chapter should not pretend otherwise. OpenAI's 2025 Codex agent, GitHub Copilot's evolution, Cursor-style editor agents, Devin-like systems, open-source terminal agents, and model-specific coding tools all belong in the landscape. [S-0054] But Claude Code is a clean case study because it concentrates the transition in one place: a frontier model, a terminal, a repository, permissions, context management, tests, and a user deciding how much agency to grant.
+Claude Code was not the only coding agent, and pretend otherwise. OpenAI's 2025 Codex agent, GitHub Copilot's evolution, Cursor-style editor agents, Devin-like systems, open-source terminal agents, and model-specific coding tools all belong in the landscape. [S-0054] But Claude Code is a clean case study because it concentrates the transition in one place: a frontier model, a terminal, a repository, permissions, context management, tests, and a user deciding how much agency to grant.
 
 The old promise of programming tools was that they would help you write code faster. The new promise was stranger: describe the work, supervise the machine, and decide whether the diff deserves to live.
 
@@ -3677,30 +3491,25 @@ Coding agents expose the cost of action, review, and retries. Reasoning systems 
 
 # Chapter 21: Reasoning, Test-Time Compute, and the New Scaling Axis
 
-
 ## 21. Reasoning, Test-Time Compute, and the New Scaling Axis
 
 Reasoning systems shift some of the cost into the pause before an answer, making thought-like behavior a metered inference choice.
 
 > [!FIGURE] **F21.01 / A-0289-T004 - 2026 Model-Landscape Table**
 > Caption: F21.01: The 2026 benchmark/model-landscape table gives reasoning/test-time-compute context as of the cutoff era; it is not a live rank, universal quality score, safety proof, or adoption claim.
-> Source note: Sources: S-0168;S-0169;S-0170;S-0171;S-0172;S-0173. Rights path: ready_svg. Story role: reasoning compute axis.
-
+> 
 
 > [!FIGURE] **F21.02 / A-0288-005 - Chain-of-Thought Paper Page**
 > Caption: F21.02: Chain-of-Thought Prompting page-one render anchors reasoning/test-time prompting in a primary source surface; it does not prove robust reasoning, hidden cognition, or safety.
-> Source note: Sources: S-0135;S-0170;S-0171;S-0172;S-0173. Rights path: ready_svg. Story role: reasoning loop.
-
+> 
 
 > [!FIGURE] **F21.03 / A-0285-012 - DeepSeek-R1 Report Page As Reasoning Surface**
 > Caption: F21.03: DeepSeek-R1 report page-one render ties the reasoning score discussion to a primary report surface; it does not prove universal reasoning, safe deployment, or current rank.
-> Source note: Sources: S-0035;S-0036;S-0037. Rights path: ready_svg. Story role: inference contract.
-
+> 
 
 > [!FIGURE] **F21.04 / A-0286-T005 - 2022 Model-Landscape Table**
 > Caption: F21.04: The 2022 benchmark/model-landscape table records the instruction/RLHF-to-early-chat context as a memory aid; it is not a live rank, universal quality score, safety proof, or product adoption claim.
-> Source note: Sources: S-0029;S-0031;S-0119;S-0135;S-0168;S-0169. Rights path: ready_svg. Story role: thinking cost tradeoff.
-
+> 
 
 The old scaling story spent most of its drama before the answer. Build a larger model. Train it on more data. Spend more floating-point operations before deployment. Then, at inference time, the trained model would receive a prompt and emit tokens. Inference was a delivery cost, the meter that Chapter 22 would later turn into a business model. Reasoning models changed the emotional location of compute. The answer itself became a place to spend.
 
@@ -3710,7 +3519,6 @@ The roots were visible before the product labels arrived. Chain-of-thought promp
 
 That was the crack in the old mental model. If a model's effective capability depended on the amount and structure of inference-time work, then "model size" stopped being the only axis readers needed to hold. There was training compute, data quality, architecture, post-training, tool access, retrieval, and now test-time compute: how many candidate paths, how much scratch work, how much verification, how many tool calls, how much latency, and how much money the system could spend before returning an answer.
 
-
 The phrase "chain of thought" carried two meanings the book must keep separate. In research papers, it often meant visible intermediate reasoning tokens that helped solve tasks or helped humans inspect the model's path. In deployed products, it could become hidden internal deliberation, summarized reasoning, or no visible reasoning at all. The user might see a brief explanation while the system used private scratch work. That secrecy has safety and product reasons: raw chains can contain policy-sensitive details, user data, misleading rationales, or attack surface. It also creates an evidence problem. A visible explanation is not necessarily the actual causal trace.
 
 That caveat belongs at the center of the chapter, not in a footnote. The book can say that chain-of-thought style methods changed prompting, evaluation, and product design. It cannot say that a displayed rationale proves how the model reached the answer. Chapter 23's trust logic reaches backward here: fluent explanation is not provenance. A model can solve the problem and explain it badly, fail the problem and explain it beautifully, or generate an explanation that is useful pedagogically without being a faithful microscope into the computation.
@@ -3719,9 +3527,9 @@ The ambiguity changed user behavior. Early prompting advice often told users to 
 
 This is why hidden chain-of-thought cannot be treated as a missing appendix the reader deserves to see. There are good reasons not to expose every internal token. Raw traces can be verbose, misleading, sensitive, or adversarially useful. But the replacement must not be theater. A short answer that says "I checked" is not an audit. A summary of reasoning is useful only if the product also preserves the evidence that matters for the task: sources, calculations, tool outputs, tests, assumptions, uncertainty, and the scope of verification. Reasoning traces are one possible artifact. They are not the only trust artifact.
 
-OpenAI's o1 product and research framing made the inference-time turn visible to a broad audience. The official o1 materials described a model trained to spend more time thinking before responding, with stronger performance on difficult reasoning tasks in OpenAI's framing. [S-0168] The chapter should treat that as vendor-attributed product/research evidence, not as an independent crown. The important narrative fact is that a leading lab made "thinking before answering" the product grammar. The model was sold not merely as bigger, but as more deliberative.
+OpenAI's o1 product and research framing made the inference-time turn visible to a broad audience. The official o1 materials described a model trained to spend more time thinking before responding, with stronger performance on difficult reasoning tasks in OpenAI's framing. [S-0168] that as vendor-attributed product/research evidence, not as an independent crown. The important narrative fact is that a leading lab made "thinking before answering" the product grammar. The model was sold not merely as bigger, but as more deliberative.
 
-OpenAI's later o3 and o4-mini official materials extended that grammar into a family of reasoning models and tool-using systems. [S-0169] Again, the book should avoid exact rank and benchmark superiority claims unless row-normalized. But the product direction is clear enough for prose: reasoning became a mode, a SKU, and a routing decision. Some requests deserved a fast model. Some deserved a model that would take more time. Some deserved tools. Some deserved abstention. Inference became a portfolio.
+OpenAI's later o3 and o4-mini official materials extended that grammar into a family of reasoning models and tool-using systems. [S-0169] Again, exact rank and benchmark superiority claims unless row-normalized. But the product direction is clear enough for prose: reasoning became a mode, a SKU, and a routing decision. Some requests deserved a fast model. Some deserved a model that would take more time. Some deserved tools. Some deserved abstention. Inference became a portfolio.
 
 Google's Gemini 2.5 source captured the same industry convergence in different language, presenting Gemini 2.5 as a "thinking" model and connecting reasoning to improved performance and context-aware agents. [S-0119] DeepSeek-R1 framed reasoning through reinforcement learning, self-reflection, verification, dynamic strategy adaptation, and distillation into smaller models. [S-0029] Kimi k1.5 framed scaling reinforcement learning with LLMs as a reasoning frontier. [S-0031] These rows do not make a universal chronology, but they show that reasoning was no longer an OpenAI-only product story. It became a field grammar across frontier labs.
 
@@ -3767,13 +3575,11 @@ This also reframes "best model" rhetoric. A model may be best under a high reaso
 
 DeepSeek-R1 and Kimi k1.5 made another pressure visible: distillation. If a large reasoning model can generate traces, curricula, or solutions that train smaller models, then test-time compute can migrate back into training data. [S-0029; S-0031] The big model spends effort; the smaller model learns from the path. This complicates the simple train-time versus test-time division. The industry can spend at inference to solve, then spend the resulting artifacts to train, tune, or distill. Reasoning becomes both a product behavior and a data generator.
 
-That feedback loop is powerful and dangerous. It can improve smaller models. It can also amplify errors, benchmark artifacts, and style quirks. If the teacher model's reasoning trace is wrong, unfaithful, or overfit to a benchmark, the student may inherit the pattern. Synthetic reasoning data is still data, with all the concerns from Chapter 17: provenance, filtering, contamination, mixture design, and evaluation leakage. The book should not treat distillation as alchemy. It is a compression and transfer mechanism, and compression always asks what was lost or smuggled in.
+That feedback loop is powerful and dangerous. It can improve smaller models. It can also amplify errors, benchmark artifacts, and style quirks. If the teacher model's reasoning trace is wrong, unfaithful, or overfit to a benchmark, the student may inherit the pattern. Synthetic reasoning data is still data, with all the concerns from Chapter 17: provenance, filtering, contamination, mixture design, and evaluation leakage. treat distillation as alchemy. It is a compression and transfer mechanism, and compression always asks what was lost or smuggled in.
 
 Distillation also changes competitive dynamics. A frontier lab may spend heavily to generate high-quality reasoning behavior, only to see parts of that behavior compressed into cheaper open or smaller systems. An open-weight community can use teacher outputs, public traces, or benchmark solutions to chase the frontier. A closed lab can use internal stronger models to train cheaper serving models. This is not a clean open-versus-closed morality tale. It is a movement of capability through artifacts. The artifact may be weights, traces, answers, rankings, tool logs, or synthetic curricula. Each has different provenance and leakage risks.
 
-For readers, the key is that reasoning creates reusable work. A normal answer disappears after use. A reasoning trace, solution set, or verifier-labeled trajectory can become training material. That means inference can be harvested. It also means benchmark hygiene becomes harder. If public reasoning traces circulate, if models train on solutions, or if synthetic data resembles evaluation tasks, the line between learning and memorizing blurs. The book should leave exact contamination claims blocked unless a later pass adds dataset-level evidence, but the mechanism belongs here.
-
-The chapter also needs to refuse a seductive phrase: "models can now reason." The safer sentence is longer and truer. By the cutoff, labs had shown and productized methods that improved performance on many reasoning-heavy tasks by using intermediate reasoning, reinforcement learning, search, verification, tool use, and inference-time compute. That is real. It is not the same as claiming human-like understanding, formal correctness, faithful explanations, broad transfer to every domain, or reliable judgment under uncertainty. Reasoning became a capability family, not a solved essence.
+For readers, the key is that reasoning creates reusable work. A normal answer disappears after use. A reasoning trace, solution set, or verifier-labeled trajectory can become training material. That means inference can be harvested. It also means benchmark hygiene becomes harder. If public reasoning traces circulate, if models train on solutions, or if synthetic data resembles evaluation tasks, the line between learning and memorizing blurs. exact contamination claims blocked unless a later pass adds dataset-level evidence, but the mechanism belongs here.
 
 The hardest unsolved zone was open-world reasoning. Closed tasks reward the final answer. Open-world tasks ask what the task even is. A user says, "Should we launch?" or "Is this contract safe?" or "What is the best architecture for the next year?" The model must gather context, identify missing information, weigh tradeoffs, and know when the evidence is too thin. Test-time compute helps only if the system has the right tools, sources, authority, and stopping rules. More hidden tokens cannot manufacture missing facts.
 
@@ -3799,7 +3605,6 @@ If test-time compute becomes another scaling axis, intelligence stops being only
 
 # Chapter 22: The Economics of Intelligence on Tap
 
-
 ## 22. The Economics of Intelligence on Tap
 
 The meter changes the business story: intelligence is sold through tokens, tiers, latency, cache rules, and scope caveats.
@@ -3808,8 +3613,7 @@ The meter changes the business story: intelligence is sold through tokens, tiers
 
 > [!FIGURE] **F22.01 / A-0286-T001 - 2018 Model-Landscape Table**
 > Caption: F22.01: The 2018 benchmark/model-landscape table anchors the meter-and-margin discussion in the first GPT-era context; it is not a live rank, universal quality score, price-quality frontier, or adoption claim.
-> Source note: Sources: S-0060;S-0061;S-0062;S-0072;S-0081;S-0082. Rights path: ready_svg. Story role: visible meter.
-
+> 
 
 The first consumer shock of ChatGPT was that intelligence seemed to be free. A box appeared on the web. A user typed. The machine answered. The price, at least at the beginning of the public experience, was hidden behind a login screen, investor capital, cloud capacity, and the patience of a product team trying to discover what demand looked like when the meter was not visible.
 
@@ -3821,7 +3625,6 @@ The answer changed by surface. Consumers bought access, speed, availability, and
 
 The cleanest unit was the token. A token could be counted, priced, cached, batched, and charged. But a token was not a product by itself. It was a billing grain inside a wider system. A million tokens of a small fast model did not equal a million tokens of a frontier reasoning model. A cached input token did not equal a fresh input token. A batch token did not equal an interactive token. A long-context prompt did not equal a short chat. The unit looked simple only from far away.
 
-
 The previous chapter made inference a new place to spend. This chapter makes that spending visible. The same hidden work that can improve a reasoning answer becomes latency, routing, cache policy, batch scheduling, premium access, and ultimately a bill.
 
 ### From Demonstration to Subscription
@@ -3831,8 +3634,7 @@ ChatGPT Plus made the first obvious consumer bargain. OpenAI's product-evolution
 A subscription hides complexity. The user pays a monthly amount and experiences the service as a bundle: access during peak demand, faster responses, model availability, feature previews, higher limits, or a more capable tier. The provider experiences the same subscription as a portfolio of uncertain costs. One user asks for a handful of short answers. Another uses long prompts, images, files, tools, and repeated retries. The fixed price is a bet that usage, capacity, and retention will average out.
 
 That is why consumer AI subscriptions were never only about willingness to pay. They were about load shaping. A subscription can ration access, segment power users, fund capacity, and create a product ladder. It can also become economically awkward if the most devoted customers are the most expensive to serve. A flat monthly fee feels generous when inference costs fall or average use is modest. It feels dangerous when models become more capable, context windows grow, tool calls multiply, and users discover high-volume workflows.
-
-The chapter should not infer OpenAI's revenue or margin from the existence of Plus. The source rows support productization and pricing, not profit. [C-0010] A $20 price tag does not reveal acquisition cost, retention, free-user subsidy, model mix, GPU depreciation, cloud-transfer costs, support, safety review, or research spend. It shows where the meter became visible to consumers.
+ infer OpenAI's revenue or margin from the existence of Plus. The source rows support productization and pricing, not profit. [C-0010] A $20 price tag does not reveal acquisition cost, retention, free-user subsidy, model mix, GPU depreciation, cloud-transfer costs, support, safety review, or research spend. It shows where the meter became visible to consumers.
 
 The consumer subscription also shaped expectations. People learned to think of frontier intelligence like a streaming service: always available, frequently upgraded, and priced low enough to feel ordinary. That expectation collided with the industrial reality described in Chapters 14 through 16. The service might feel weightless, but the provider was buying accelerators, power, datacenter space, networking, storage, software talent, and support teams. The subscription was a price sticker placed over a factory.
 
@@ -3840,8 +3642,7 @@ The consumer subscription also shaped expectations. People learned to think of f
 
 > [!FIGURE] **F22.02 / A-0287-026 - OpenRouter Logo As Routing-Ecosystem Handle**
 > Caption: F22.02: OpenRouter logo is used as a small private-edition ecosystem handle for routing-market texture; it does not prove traffic, pricing, reliability, model access, or market share.
-> Source note: Sources: supporting data tables; C-0046. Rights path: ready_svg. Story role: routing/caching/batching/distillation.
-
+> 
 
 The API made the meter sharper.
 
@@ -3873,8 +3674,7 @@ For the reader, the price-quality frontier should feel like a dangerous instrume
 
 > [!FIGURE] **F22.03 / A-0286-T002 - 2019 Model-Landscape Table**
 > Caption: F22.03: The 2019 benchmark/model-landscape table gives the sales-route discussion a GPT-2-era context panel; it is not a live rank, universal quality score, price-quality frontier, or adoption claim.
-> Source note: Sources: S-0069;S-0078;S-0090;S-0103. Rights path: ready_svg. Story role: business models.
-
+> 
 
 Training gets the spectacle. Inference gets the rent.
 
@@ -3904,12 +3704,10 @@ The enterprise chapter also keeps the provider honest. If a provider claims tran
 
 > [!FIGURE] **F22.04 / A-0286-T003 - 2020 Model-Landscape Table**
 > Caption: F22.04: The 2020 benchmark/model-landscape table supplies GPT-3-era context for blocked economics claims; it is not a live rank, universal quality score, price-quality frontier, or adoption claim.
-> Source note: Sources: C-0046;C-0136; C-0141; a supporting audit table. Rights path: ready_svg. Story role: economics claim blockers.
-
+> 
 
 The frontier race was expensive enough that ordinary software metaphors failed. A model lab could grow quickly and still burn cash. A product could be beloved and still be subsidized. A cloud partnership could look like revenue and capacity at the same time. A chip purchase could be strategy, cost, and bargaining position all at once.
-
-The book should be careful here because many of the most interesting numbers were private. Exact OpenAI revenue, Anthropic margin, Gemini economics, Copilot profitability, xAI utilization, or Mistral enterprise adoption cannot be inferred from price pages. The ledgers repeatedly block revenue, margin, workload-volume, and customer-ROI claims. [C-0136; C-0141; C-0142]
+ here because many of the most interesting numbers were private. Exact OpenAI revenue, Anthropic margin, Gemini economics, Copilot profitability, xAI utilization, or Mistral enterprise adoption cannot be inferred from price pages. The ledgers repeatedly block revenue, margin, workload-volume, and customer-ROI claims. [C-0136; C-0141; C-0142]
 
 What can be said safely is structural. LLM providers faced high fixed costs for research, training, infrastructure commitments, and talent; high variable or semi-variable costs for inference, support, and safety operations; and uncertain demand elasticity as prices fell and capabilities improved. Investors and cloud partners could subsidize growth because the prize looked like a new computing platform. Customers could subsidize experimentation because the upside looked like labor leverage, software acceleration, or competitive insurance.
 
@@ -3927,7 +3725,7 @@ The buyer may never see this routing. A polished product can present one assista
 
 Routing also creates a trust problem. If a product silently changes model mix to control cost, does quality drift? If a cheap model handles a task that needed a stronger one, who notices? If a strong model is used for every request, who pays? The economics and evaluation chapters meet here. A model router needs tests, not just prices. It has to know when the cheaper path is good enough.
 
-Caching is another quiet business mechanism. If a user, team, or application repeats the same long instruction, system prompt, document bundle, or codebase context, a provider can sometimes reuse computation or bill cached input at a different rate. The normalized pricing rows show cached-input prices for some providers, but the chapter should not turn those rows into universal savings claims. [the normalized pricing rows] Cache value depends on workload shape, product design, and provider policy. Still, the existence of cached-input pricing reveals an important fact: in an LLM economy, even repetition has a price theory.
+Caching is another quiet business mechanism. If a user, team, or application repeats the same long instruction, system prompt, document bundle, or codebase context, a provider can sometimes reuse computation or bill cached input at a different rate. The normalized pricing rows show cached-input prices for some providers, but turn those rows into universal savings claims. [the normalized pricing rows] Cache value depends on workload shape, product design, and provider policy. Still, the existence of cached-input pricing reveals an important fact: in an LLM economy, even repetition has a price theory.
 
 Batch pricing says the same thing about time. If the customer can wait, the provider can schedule work differently. Lower batch prices are not simply discounts; they are a trade of latency for utilization. The factory can run smoother when not every request demands instant service. That is why batch rows must stay out of ordinary interactive price comparisons unless the chart says what it is comparing. [C-0046]
 
@@ -3955,35 +3753,29 @@ Cheap fluency is seductive because it feels like abundance, but abundance is use
 
 # Chapter 23: Failure Modes, Truth, and Trust
 
-
 ## 23. Failure Modes, Truth, and Trust
 
 Trust is the price of useful fluency, because an answer that sounds finished can still be unsupported, poisoned, or wrong.
 
 > [!FIGURE] **F23.01 / A-0074 - Failure Modes Are Different Claims**
 > Caption: F23.01: Failure Modes Are Different Claims.
-> Source note: Sources: S-0005;S-0035;S-0036;S-0037;S-0038;S-0137;S-0164;S-0165;S-0166;S-0167. Rights path: ready_svg. Story role: failure modes separation.
-
+> 
 
 > [!FIGURE] **F23.02 / A-0075 - Trust Is A Stack**
 > Caption: F23.02: Trust Is A Stack.
-> Source note: Sources: S-0038;S-0076;S-0077;S-0110;S-0137. Rights path: ready_svg. Story role: trust stack.
-
+> 
 
 > [!FIGURE] **F23.03 / A-0076 - Every Evaluation Casts A Shadow**
 > Caption: F23.03: Every Evaluation Casts A Shadow.
-> Source note: Sources: S-0035;S-0036;S-0037;S-0164. Rights path: ready_svg. Story role: evaluation shadow.
-
+> 
 
 > [!FIGURE] **F23.04 / A-0077 - From Answer To Auditable Claim**
 > Caption: F23.04: From Answer To Auditable Claim.
-> Source note: Sources: S-0038;S-0076;S-0077;S-0110. Rights path: ready_svg. Story role: auditable claim loop.
-
+> 
 
 The same machine that felt general could fail generally. That was the most unsettling part. Older software usually failed in recognizable shapes: a crash, an error code, a blank screen, a timeout, a wrong calculation traceable to a line of code. A large language model could fail by sounding excellent. It could produce a polished answer that was false, a citation that looked like scholarship but pointed nowhere, a summary that omitted the key exception, a refusal that vanished under pressure, or a confident plan assembled from a misunderstanding. The failure was not outside the interface. It was inside the fluency.
 
 That is why the final technical reckoning of the book cannot be a safety chapter in the bureaucratic sense. It is a trust chapter. Trust is what connects the previous twenty-two chapters: scaling, instruction tuning, ChatGPT, cloud platforms, open weights, rankings, datacenters, tools, coding agents, data, reasoning, and economics. A model that cannot be trusted is not useless. It may be extraordinarily useful. But every deployment then becomes a trust architecture: what the model may see, what it may do, what evidence it must carry, what humans must review, what logs must survive, and which claims the system is forbidden to make about itself.
-
 
 That placement matters. Chapter 21 asked how much thinking a task deserves. Chapter 22 asked who pays for that thinking. This chapter asks whether the resulting answer, action, or diff deserves authority.
 
@@ -3991,7 +3783,7 @@ The first failure mode was hallucination, a bad word for a real phenomenon. The 
 
 Hallucination was also not one thing. There was factual invention: a nonexistent paper, wrong date, invented API, or false legal rule. There was attribution failure: a real claim attached to the wrong source, or a real source made to support a stronger claim than it contained. There was synthesis failure: every sentence might be locally plausible, but the conclusion did not follow. There was compression failure: a summary could erase the caveat that made the original safe. There was stale-world failure: the model remembered a prior state of a price, product, dependency, law, or leaderboard. There was instruction collision: the user wanted concision, the system wanted safety, the retrieved text wanted to override both, and the final answer blurred those layers.
 
-TruthfulQA gave the book a clean way to say why truth was not just a benchmark afterthought. The benchmark was designed to test whether models mimic human falsehoods when answering questions. Its result does not authorize a universal ranking claim for every later system, and the chapter should not turn it into a permanent law of scale. But it does support the deeper point: a model trained to imitate web text can learn the shape of a common misconception as well as the shape of a correction. [S-0164] The danger is not stupidity. The danger is competent mimicry of the wrong distribution.
+TruthfulQA gave the book a clean way to say why truth was not just a benchmark afterthought. The benchmark was designed to test whether models mimic human falsehoods when answering questions. Its result does not authorize a universal ranking claim for every later system, and turn it into a permanent law of scale. But it does support the deeper point: a model trained to imitate web text can learn the shape of a common misconception as well as the shape of a correction. [S-0164] The danger is not stupidity. The danger is competent mimicry of the wrong distribution.
 
 This makes truth different from accuracy in a narrow task. A model can be accurate on a benchmark and still unreliable in a workflow where the prompt is ambiguous, the evidence is missing, the date matters, the user is wrong, or the system needs to say, "I do not know." Truth requires calibrated permission. The answer must know when it has enough support, when it needs retrieval, when it must cite, when it must ask a clarifying question, and when it should stop. None of those behaviors follows automatically from a higher score on a general benchmark.
 
@@ -4059,37 +3851,31 @@ The trust chapter leaves the reader with no simple crown, cure, or prophecy. The
 
 # Chapter 24: Next Token
 
-
 ## 24. Next Token
 
 The ending returns to the mechanism itself: every next token is both a technical act and a human decision about what to ask, build, and believe.
 
 > [!FIGURE] **F24.01 / A-0108 - From Next Token To Computing Stack**
 > Caption: F24.01: From Next Token To Computing Stack.
-> Source note: Sources: CH24SYN-001;CH24SYN-002;CH24SYN-005;CH24SYN-012. Rights path: ready_svg. Story role: next-token system map.
-
+> 
 
 > [!FIGURE] **F24.02 / A-0109 - Five Conversion Gates**
 > Caption: F24.02: Five Conversion Gates.
-> Source note: Sources: CH24SYN-002;CH24SYN-007;CH24SYN-013. Rights path: ready_svg. Story role: five conversion gates.
-
+> 
 
 > [!FIGURE] **F24.03 / A-0110 - Unsettled By The Cutoff**
 > Caption: F24.03: Unsettled By The Cutoff.
-> Source note: Sources: CH24SYN-008;CH24SYN-010;CH24SYN-014;CH24SYN-016. Rights path: ready_svg. Story role: unsettled claims board.
-
+> 
 
 > [!FIGURE] **F24.04 / A-0111 - Human Judgment Loop**
 > Caption: F24.04: Human Judgment Loop.
-> Source note: Sources: CH24SYN-003;CH24SYN-008;CH24SYN-015;CH24SYN-017. Rights path: ready_svg. Story role: human judgment loop.
-
+> 
 
 The smallest act in this book was never a keynote, a benchmark, a lawsuit, a server rack, a venture round, or a product launch. It was a choice among possible next pieces of text.
 
 The machine saw a context and assigned probabilities to what might follow. Then it chose, sampled, or searched. A word fragment appeared. Another followed. Out of that small repetitive act came a paragraph, a reply, a program, a plan, a refusal, a citation, a hallucination, a diff, a customer-support draft, a benchmark answer, or a tool call. The act was statistical. The consequences were not small. [CH24SYN-001; CH24SYN-004]
 
 This is the last trick the subject plays on the reader. If the story is told from the inside of the model, it can sound deflationary: vectors, attention, loss, token prediction. If it is told from the outside of the market, it can sound mystical: machines that write, reason, code, and converse. The honest history sits between those two temptations. By the hard cutoff of May 24, 2026, next-token prediction had not become a mind. It had become a computing interface. [CH24SYN-006; CH24SYN-009]
-
 
 That distinction is the spine of the ending. An interface does not have to be conscious to change work. A spreadsheet did not understand finance. A browser did not understand publishing. A compiler did not understand the intentions of the programmer. But each made a set of actions newly cheap, visible, repeatable, and social. The LLM interface did something similar with language. It made text a control surface for computation.
 

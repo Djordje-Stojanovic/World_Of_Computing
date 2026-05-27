@@ -12,7 +12,7 @@ This is the agent turn. It is easy to overstate and easy to miss. Overstated, it
 
 The result was not one invention. It was a stack: retrieval, tool description, action selection, observation, memory-like context, permissions, evaluation, and human review. [S-0038] [S-0044] [S-0055] Chapter 20 will follow that stack into coding, where the artifact is a diff and the judge can be a test. This chapter stays one level more general. It asks how the chat box became a tool runner.
 
-Status: promoted continuity draft, pass I-0161, 2026-05-26. Source note: This chapter uses existing source IDs from the source ledger plus the I-0115 tools/agents source pack. It treats retrieval, function calling, computer use, MCP, and planner/executor loops as tool-control surfaces, not as proof of reliable autonomy. It blocks adoption, productivity, safety, and broad "agents can do work" claims until separate benchmark, deployment, and incident rows exist.
+Status: promoted continuity draft, pass I-0161, 2026-05-26. 
 
 ## Retrieval: Memory Without Memory
 
@@ -24,7 +24,7 @@ That distinction matters because readers will naturally call retrieval "memory."
 
 RAG therefore moved the truth problem rather than solving it. It made evidence visible enough to engineer around. Developers could inspect retrieval hits, tune chunking, attach citations, filter by permissions, and measure answer faithfulness. They could also build brittle systems that gave users the theater of sourcing without the discipline of source selection. A citation is not a guarantee. It is an affordance for checking.
 
-The product importance was enormous. Retrieval made LLMs useful in places where the model weights alone were too general: customer-support archives, internal wikis, legal documents, research libraries, source-code repositories, medical-policy manuals, and enterprise knowledge bases. But the book should resist the lazy sentence that RAG "fixes hallucination." It does not. It creates a new attack surface and a new evaluation surface. The model can still ignore evidence, misread evidence, overgeneralize from evidence, or reconcile conflicting snippets with invented glue. The retriever can still fetch the wrong thing. The database can still contain garbage. The user can still ask for a conclusion the evidence does not support.
+The product importance was enormous. Retrieval made LLMs useful in places where the model weights alone were too general: customer-support archives, internal wikis, legal documents, research libraries, source-code repositories, medical-policy manuals, and enterprise knowledge bases. But the lazy sentence that RAG "fixes hallucination." It does not. It creates a new attack surface and a new evaluation surface. The model can still ignore evidence, misread evidence, overgeneralize from evidence, or reconcile conflicting snippets with invented glue. The retriever can still fetch the wrong thing. The database can still contain garbage. The user can still ask for a conclusion the evidence does not support.
 
 The better sentence is this: retrieval gave the next-token machine a way to borrow the library at the moment of use.
 
@@ -56,7 +56,7 @@ ChatGPT plugins made the public version of the shift visible. OpenAI framed plug
 
 The same pattern appeared in several forms. Custom GPTs made tool and instruction bundles more accessible to non-developers. [S-0045] GPT-4o-era ChatGPT brought more tools into the everyday assistant surface. [S-0046] Anthropic's computer-use announcement in October 2024 pushed the idea toward graphical interfaces, framing Claude 3.5 Sonnet as able, in public beta, to use a computer through screen-level actions. [S-0109] Anthropic's Model Context Protocol announcement a month later framed another layer: an open-standard approach for connecting assistants to data sources and tools. [S-0055]
 
-These are different products and protocols, and the chapter should not flatten them into one triumphant march. Plugins are not the same as function calls. Computer use is not the same as an API connector. MCP is not proof of universal standardization. But together they show the product logic of the period. Models were valuable when they could talk. They became harder to ignore when they could operate the interfaces through which work already flowed.
+These are different products and protocols, and flatten them into one triumphant march. Plugins are not the same as function calls. Computer use is not the same as an API connector. MCP is not proof of universal standardization. But together they show the product logic of the period. Models were valuable when they could talk. They became harder to ignore when they could operate the interfaces through which work already flowed.
 
 The tool world also revealed a constraint hidden by chat. A conversation can be evaluated after the fact. A tool action may change state. It may send a message, spend money, delete a file, expose private data, schedule an appointment, or run a command. That means agent design is not only about capability. It is about authority.
 
@@ -85,7 +85,7 @@ The phrase "glue language" is important. It keeps the model from swallowing the 
 
 That fragility is not a side issue. It defines the limits of the agent turn. LLMs are excellent at making the next step sound reasonable. They are not automatically excellent at maintaining an invariant across a long procedure, preserving hidden constraints, resisting malicious instructions embedded in data, or knowing when their own plan has become stale. Long-horizon agency is therefore not just "more steps." It is more opportunities for drift.
 
-The prize-book version of this chapter should let readers feel both emotions at once. The agent loop is a genuine expansion of what LLM systems can do. It is also a multiplication of failure surfaces.
+The prize-book version of The agent loop is a genuine expansion of what LLM systems can do. It is also a multiplication of failure surfaces.
 
 ## Prompt Injection: The Instruction/Data Problem Returns
 

@@ -14,15 +14,9 @@ That is the right opening for this chapter, provided the attribution stays bolte
 
 Still, the argument matters. By 2026, the most important LLM systems had become too large to explain only as models. The model was the visible brain. The factory was the body: GPU racks, CPUs, memory, NVLink, Ethernet or InfiniBand fabrics, storage, power distribution, cooling, scheduling software, inference servers, and the accounting layer that turned tokens into bills. Earlier NVIDIA documents around H100 and Blackwell had already made the hardware stack legible as more than a chip story: memory bandwidth, interconnect, tensor cores, rack-scale systems, and software libraries were part of the product. [S-0039] [S-0040] GTC 2026 pushed the same logic into a larger industrial frame.
 
-The chapter begins there because it keeps the LLM story honest. ChatGPT made intelligence feel like a box you typed into. Coding agents made it feel like a collaborator in a terminal. But at the scale of frontier systems, every answer was also an event in a machine room. A token was not free because language felt free. A token was a tiny expenditure of silicon time, memory movement, network coordination, electricity, and cooling.
-
 Status: expanded in pass I-0102, 2026-05-25. Hardware continuity strengthened in pass I-0159, 2026-05-26.
 
-Source note: This chapter uses source IDs from the source ledger, the GTC slide caption register, and the I-0101 claim-card pack. It treats the GTC 2026 keynote as a staged NVIDIA argument, not as independent proof of performance, availability, partner adoption, deployment scale, revenue, facility performance, or future roadmap delivery. Exact ratios, dates, partner lists, and throughput claims remain blocked under C-0021 and C-0047 until corroborated.
-
 Visual sequence after I-0186: open with A-0024, the page 29 AI-factory thesis claim card. Use Figure 15.1, A-0012, `assets/visual_system/ai-factory-stack.svg`, as the explanatory bridge after the opening metaphor. Use A-0027 for the page 49 system-comparison guardrail, A-0028 for roadmap cadence if the spread has room, and A-0029 as the DSX reference-design handoff to Chapter 16. Keep A-0025, A-0026, and A-0145 as reserve or cite-only source surfaces until product-roadmap and token-economics claims are normalized. Keep A-0004, A-0007, A-0008, and A-0009 as private-use provenance handles rather than placing them beside their claim-card duplicates. [S-0001]
-
-Continuity note: Chapter 14 explains why NVIDIA could credibly sell systems rather than lonely chips. Chapter 15 shows the sales argument becoming doctrine. Chapter 16 tests the doctrine against independent evidence about sites, power, cooling, and queues. Keep those evidence roles separate.
 
 ## A Keynote As A Sales Funnel For A Worldview
 
@@ -37,8 +31,7 @@ That is why the AI factory metaphor had force. It made inference economics visib
 The metaphor also served NVIDIA's own position. If the world bought the idea that intelligence was becoming an industrial output, then the company selling the machinery for that output could claim a larger role than component supplier. NVIDIA could be the architect of the production line. That is the sales pitch running beneath the spectacle: not just chips, but systems; not just systems, but reference designs; not just reference designs, but a platform for facilities, software, networking, and power-aware deployment.
 
 The old GPU story was that NVIDIA sold acceleration. The new GTC story was that NVIDIA sold a production doctrine. That doctrine had technical content: memory hierarchy, interconnect, rack-scale integration, software libraries, serving stacks, storage movement, and power/cooling design. It also had market content: if tokens are a commodity and compute is revenue, then the buyer should stop seeing the datacenter as a cost center and start seeing it as a factory floor. The phrase was doing business work.
-
-The chapter should let the reader feel both the insight and the manipulation. NVIDIA had a real point: LLM products had turned inference into a manufacturing-like workload. But the company also had a reason to make the world see intelligence through the machine it sold. A serious book should not sneer at the pitch. It should dissect it.
+ the reader feel both the insight and the manipulation. NVIDIA had a real point: LLM products had turned inference into a manufacturing-like workload. But the company also had a reason to make the world see intelligence through the machine it sold. A serious book does not sneer at the pitch. It should dissect it.
 
 ## Inference Becomes The Business
 
@@ -50,7 +43,7 @@ The difference matters because inference is not a single workload. A consumer ch
 
 NVIDIA's advantage was that many of those differences still passed through the same broad stack: accelerators, memory, interconnect, software, networking, scheduling, and power. The company could argue that system design mattered more as inference grew. If the workload is continuous, then utilization matters. If utilization matters, then software and networking matter. If software and networking matter, then the vendor with the strongest platform story can sell more than chips.
 
-That does not make the platform story false. It makes it strategic. The reader should understand that a hardware company can be right about a technical shift and self-interested in how it names the shift. The AI factory was both a mechanism and a market category.
+That does not make the platform story false. It makes it strategic. that a hardware company can be right about a technical shift and self-interested in how it names the shift. The AI factory was both a mechanism and a market category.
 
 ## Roadmaps Are Not Time Machines
 
@@ -58,13 +51,12 @@ GTC keynotes are built partly out of products and partly out of time. The 2026 d
 
 Place A-0028, `assets/visual_system/gtc-page50-roadmap-card.svg`, in the roadmap section. The card's point is the label: roadmap. It preserves the 2024/2026/2028 cadence and blocks the leap from future-generation items into happened history. [S-0001; S-0065; S-0067; A-0008; C-0047]
 
-The prose has to keep that distinction visible. Vera Rubin material can be discussed as an announcement and roadmap known by the cutoff, supported by NVIDIA's own GTC and investor materials. [S-0010] Vera CPU and BlueField-4 STX can be discussed as official NVIDIA announcements with their release language and forward-looking posture preserved. [S-0065] [S-0067] But the chapter should not slide from "NVIDIA announced" to "the industry had." That small verb change is how hardware chapters become promotional paste.
+The prose has to keep that distinction visible. Vera Rubin material can be discussed as an announcement and roadmap known by the cutoff, supported by NVIDIA's own GTC and investor materials. [S-0010] Vera CPU and BlueField-4 STX can be discussed as official NVIDIA announcements with their release language and forward-looking posture preserved. [S-0065] [S-0067] But slide from "NVIDIA announced" to "the industry had." That small verb change is how hardware chapters become promotional paste.
 
 A-0025, `assets/visual_system/gtc-page45-inference-compute-roadmap-card.svg`, should remain reserve or cite-only after I-0186 unless a later layout pass cuts a stronger core card. It labels Groq 3 LPX and the "Available 2H26" line as NVIDIA roadmap, availability, and performance-claim evidence. The book may say NVIDIA presented the line this way. It may not say the product had shipped or that the listed specifications were independently verified by the cutoff. [S-0001; S-0067; A-0005; C-0047]
 
-The roadmap discipline does not weaken the chapter. It gives the chapter tension. NVIDIA's claims were powerful because they were plausible enough to move markets and ambitious enough to demand scrutiny. The company had earned credibility through CUDA, H100, Blackwell, and the acceleration of the LLM boom. It had also become so central to the race that its own stagecraft could distort the way outsiders understood the race. A serious book should let the reader see both facts at once.
-
-The reader should leave this section with a habit: when a chip company shows a timeline, ask what kind of evidence each item is. Existing product, announced architecture, partner announcement, availability target, performance projection, reference design, or future roadmap? The slide may combine all of them in one visual rhythm. The book must pull them apart.
+The roadmap discipline does not weaken the chapter. It gives the chapter tension. NVIDIA's claims were powerful because they were plausible enough to move markets and ambitious enough to demand scrutiny. The company had earned credibility through CUDA, H100, Blackwell, and the acceleration of the LLM boom. It had also become so central to the race that its own stagecraft could distort the way outsiders understood the race. The reader can see both facts at once.
+ this section with a habit: when a chip company shows a timeline, ask what kind of evidence each item is. Existing product, announced architecture, partner announcement, availability target, performance projection, reference design, or future roadmap? The slide may combine all of them in one visual rhythm. The book must pull them apart.
 
 ## Vera Rubin As A System Promise
 
@@ -74,7 +66,7 @@ A-0026, `assets/visual_system/gtc-page46-vera-rubin-partner-card.svg`, should su
 
 This is the chapter's opportunity to explain why rack-scale systems mattered to LLMs. A frontier model is not accelerated by a GPU in isolation. Training and inference at scale are constrained by how fast data moves between memory, chips, racks, and networks; by how many accelerators can coordinate; by how much power and cooling the facility can deliver; and by how software schedules the work. The system promise says: stop comparing chips as if they were lonely objects. Compare the production line.
 
-That promise had real technical logic. H100 and Blackwell materials had already made clear that NVIDIA's story was tensor cores, memory bandwidth, interconnect, software libraries, and system integration, not only raw arithmetic. [S-0039] [S-0040] Vera Rubin extended that story into a future platform frame. But the book should preserve the verb "promised" where the evidence is roadmap or announcement. Promise is not a sneer. It is an accurate evidence label.
+That promise had real technical logic. H100 and Blackwell materials had already made clear that NVIDIA's story was tensor cores, memory bandwidth, interconnect, software libraries, and system integration, not only raw arithmetic. [S-0039] [S-0040] Vera Rubin extended that story into a future platform frame. But the verb "promised" where the evidence is roadmap or announcement. Promise is not a sneer. It is an accurate evidence label.
 
 The system promise also created a new kind of lock-in. CUDA had made NVIDIA a software platform. Rack-scale AI factory design could make NVIDIA a facilities and operations platform. If customers planned buildings, power, cooling, networking, and software around NVIDIA reference designs, the moat widened. The unit of lock-in moved from code to capital expenditure.
 
@@ -88,7 +80,7 @@ Place A-0027, `assets/visual_system/gtc-page49-system-comparison-card.svg`, befo
 
 The slide matters because it translates the AI factory from metaphor into accounting. One gigawatt is a power-plant-scale phrase. Tokens per second is a product phrase. AI FLOPS and bandwidth are engineering phrases. Put them in one comparison and the story becomes legible: NVIDIA wanted buyers to think about the factory as a revenue-producing system whose economic output depended on rack-scale efficiency.
 
-That is a powerful idea. It is also exactly where the chapter must be careful. A keynote comparison can show what NVIDIA claimed. It cannot show what a utility delivered, what a customer deployed, what a workload achieved, or what a balance sheet earned. The prose should therefore say "NVIDIA compared," "NVIDIA argued," "the slide framed," and "the keynote presented," rather than "the Vera Rubin system delivered" unless a later corroborating source earns that verb.
+That is a powerful idea. It is also exactly where the chapter must be careful. A keynote comparison can show what NVIDIA claimed. It cannot show what a utility delivered, what a customer deployed, what a workload achieved, or what a balance sheet earned. The prose therefore say "NVIDIA compared," "NVIDIA argued," "the slide framed," and "the keynote presented," rather than "the Vera Rubin system delivered" unless a later corroborating source earns that verb.
 
 This restraint makes the paragraph better, not weaker. The drama is not only in whether the numbers are true. The drama is that the dominant supplier to the LLM boom was teaching the world to evaluate intelligence infrastructure as a gigawatt-scale production asset. Even the need for caveats tells the story: the race had become so industrial that performance claims now lived at the boundary between chips, buildings, power, and revenue.
 
@@ -99,8 +91,7 @@ This is where A-0009 and A-0029 belong. NVIDIA presented DSX as an AI Factory Pl
 Place A-0029, `assets/visual_system/gtc-page51-dsx-platform-card.svg`, in this section. The card labels DSX as NVIDIA reference-design and platform framing. It blocks the tempting leap to customer deployment scale or facility performance. [S-0001; S-0066; A-0009; C-0047]
 
 DSX is narratively important because it shows the factory metaphor hardening into a product architecture. The pitch was not only "buy faster chips." It was "build the factory this way." That is a different level of ambition. It reaches into facility planning, simulation, cooling, power, software, and reference methodologies. If CUDA made the GPU programmable, DSX tried to make the AI factory repeatable.
-
-The chapter should explain why repeatability mattered. Frontier AI capacity was no longer a boutique supercomputer project. Every major lab and cloud provider needed capacity plans. Enterprise customers wanted assurance that the infrastructure behind their assistants would be reliable, secure, and scalable. Governments wanted domestic or regional capacity. Investors wanted a story about capital converting into tokens. A reference design promised to reduce uncertainty. It said: here is how to turn money, chips, buildings, and software into a factory.
+ why repeatability mattered. Frontier AI capacity was no longer a boutique supercomputer project. Every major lab and cloud provider needed capacity plans. Enterprise customers wanted assurance that the infrastructure behind their assistants would be reliable, secure, and scalable. Governments wanted domestic or regional capacity. Investors wanted a story about capital converting into tokens. A reference design promised to reduce uncertainty. It said: here is how to turn money, chips, buildings, and software into a factory.
 
 But reference designs are not deployments. A release can prove a product position. It cannot prove adoption scale, customer economics, uptime, facility performance, power availability, or operational success without further evidence. This is why C-0047 stays open. The chapter can use DSX as a public NVIDIA bid to own the factory blueprint. It cannot pretend the blueprint had already become the world.
 
@@ -114,7 +105,7 @@ It also reveals a change in who mattered. In the early language-model story, the
 
 The factory metaphor also changes the emotional weather of the story. A chatbot feels intimate. A coding agent feels like a colleague. A factory feels impersonal, expensive, and strategic. That tension is the book's territory. The same technology that made computing feel conversational also made computing more industrial. The friendly text box depended on a production stack with the bargaining power of a refinery and the depreciation schedule of a utility asset.
 
-This is where the chapter should stay a little uncomfortable. NVIDIA's phrase makes the economics clear, but it also tries to make the future feel inevitable. Factories are built. Factories produce. Factories justify capital. Factories imply owners, suppliers, inputs, outputs, and throughput. By renaming the datacenter a factory, NVIDIA was not merely describing a change. It was inviting everyone else to finance one.
+This is where a little uncomfortable. NVIDIA's phrase makes the economics clear, but it also tries to make the future feel inevitable. Factories are built. Factories produce. Factories justify capital. Factories imply owners, suppliers, inputs, outputs, and throughput. By renaming the datacenter a factory, NVIDIA was not merely describing a change. It was inviting everyone else to finance one.
 
 ## The Claim-Control Surface
 
@@ -170,7 +161,6 @@ The last word matters. Accountable means the book can admire the elegance of the
 That question is the handoff. If Chapter 15 is the sales floor, Chapter 16 is the loading dock, the utility queue, the cooling loop, and the local hearing. GTC made the next token sound like an industrial product. The next chapter asks what industry demands from the world around it. The answer is not just better chips or more capital. It is places that can absorb the factory.
 
 That handoff is also the claim boundary. Chapter 15 can say NVIDIA tried to make the machine room legible as a factory. Chapter 16 must ask what happens when that factory seeks interconnection, cooling, local permission, and enough flexible capacity to turn nameplate infrastructure into useful tokens. A slide can rename the datacenter in a second. A substation cannot be renamed into existence.
-
-This is why the chapter should close on the renamed machine room rather than on a product name. Blackwell, Rubin, Vera, BlueField, DSX, and the roadmap cadence all matter, but the durable shift is larger than any one generation. NVIDIA was selling a way to see the LLM era: intelligence as output, inference as workload, tokens as commodity, and infrastructure as production line. The buyer could accept, resist, or bargain with that frame. No serious participant could ignore it.
+ Blackwell, Rubin, Vera, BlueField, DSX, and the roadmap cadence all matter, but the durable shift is larger than any one generation. NVIDIA was selling a way to see the LLM era: intelligence as output, inference as workload, tokens as commodity, and infrastructure as production line. The buyer could accept, resist, or bargain with that frame. No serious participant could ignore it.
 
 The phrase was stagecraft, but it named a real pressure, and pressure changes strategy, budgets, buildings, local timelines, and bargaining power.

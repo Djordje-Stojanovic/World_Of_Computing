@@ -16,8 +16,6 @@ That is why the LLM boom did not arrive as a clean contest among chips. It arriv
 
 Status: first promoted draft, pass I-0116, 2026-05-25. Hardware continuity strengthened in pass I-0159, 2026-05-26.
 
-Source note: This chapter uses NVIDIA primary sources and local captures from I-0116. It explains CUDA, Hopper/H100, Blackwell/B200/GB200, NVLink/NVSwitch, cuDNN, and TensorRT-LLM only where they explain LLM progress. Exact performance, throughput, cost, revenue, partner, roadmap, and availability claims remain NVIDIA-attributed or blocked unless independently normalized in later rows.
-
 The software moat leads to a hardware moat, and the hardware moat leads to a physical moat. The next two chapters narrow the lens: first to NVIDIA's own public argument at GTC 2026 about AI factories, then to the independent physical constraints of power, interconnection, cooling, and useful capacity that test every factory claim against reality.
 
 ## Parallelism Becomes A Habit
@@ -46,7 +44,7 @@ This is the part of NVIDIA's position that rivals struggled to clone quickly. A 
 
 The moat also worked through fear. If a lab had a model to train and billions of dollars at stake, the safe path was the stack already proven at scale. If an inference provider needed high utilization, it wanted known tooling. If a cloud customer needed support, it wanted a path that vendor engineers, open-source maintainers, and community examples had already walked. CUDA's lock-in was not only contractual or proprietary. It was operational. The cost of switching included uncertainty.
 
-That uncertainty did not make NVIDIA invulnerable. It made the contest harder. AMD, Google TPUs, AWS Trainium/Inferentia, custom ASICs, Groq, Cerebras, and other architectures all mattered in different slices of the market. The book should not pretend NVIDIA is the only hardware story. But CUDA explains why the LLM race could concentrate around NVIDIA even when buyers had every financial reason to seek alternatives. The stack reduced risk at the moment when model labs were spending historic sums to buy capability.
+That uncertainty did not make NVIDIA invulnerable. It made the contest harder. AMD, Google TPUs, AWS Trainium/Inferentia, custom ASICs, Groq, Cerebras, and other architectures all mattered in different slices of the market. pretend NVIDIA is the only hardware story. But CUDA explains why the LLM race could concentrate around NVIDIA even when buyers had every financial reason to seek alternatives. The stack reduced risk at the moment when model labs were spending historic sums to buy capability.
 
 The library layer also changed who could participate in performance work. In an earlier computing culture, only a small group of specialists could make exotic hardware sing. CUDA did not eliminate specialization, but it made specialization composable. A kernel engineer could tune a primitive. A framework maintainer could expose it. A model researcher could call it indirectly through a high-level tensor operation. A cloud provider could package it into an image. A startup could rent it by the hour. The expertise traveled upward through interfaces.
 
@@ -76,7 +74,7 @@ That is where NVLink and NVSwitch enter the narrative. NVIDIA's own LLM-inferenc
 
 The phrase "the rack becomes the computer" is not a metaphor for decoration. It names a shift in the buyer's problem. A frontier lab did not simply ask, "Which GPU is fastest?" It asked how many GPUs could be made to act together, how much memory they exposed, how quickly they exchanged data, how the software partitioned a model, how inference requests were batched, how failures were isolated, how the cluster was cooled, and how the whole machine fit into a datacenter power envelope.
 
-Blackwell also tightened the link between hardware and precision. Lower-precision formats, transformer-specific optimizations, and inference-focused kernels could change the economics of serving. But the chapter should resist treating any vendor performance chart as neutral truth. A chart is a claim made under conditions. If the condition is a particular model, batch size, quantization, sequence length, kernel library, or system topology, the comparison does not automatically generalize. This caution is not anti-NVIDIA. It is pro-reader.
+Blackwell also tightened the link between hardware and precision. Lower-precision formats, transformer-specific optimizations, and inference-focused kernels could change the economics of serving. But treating any vendor performance chart as neutral truth. A chart is a claim made under conditions. If the condition is a particular model, batch size, quantization, sequence length, kernel library, or system topology, the comparison does not automatically generalize. This caution is not anti-NVIDIA. It is pro-reader.
 
 By the cutoff of May 24, 2026, NVIDIA's roadmap language also ran ahead of shipped reality in places. GTC 2026 materials discuss Vera Rubin, future racks, and AI factory designs as announced or roadmap claims. [S-0001] [S-0010] Chapter 15 treats that stagecraft directly. Chapter 14 should prepare the reader to understand why the stagecraft worked: because a decade-plus of CUDA, libraries, and accelerator systems had made NVIDIA the default grammar of frontier compute.
 
@@ -108,7 +106,7 @@ This is why the word "moat" should be used carefully. A moat can be a protective
 
 ## What The NVIDIA Chapter Must Not Do
 
-The book should be hard on NVIDIA because NVIDIA matters.
+NVIDIA matters, and the book is hard on NVIDIA for that reason.
 
 It should not launder vendor claims into neutral facts. It should not take a keynote ratio and turn it into a general law of inference economics. It should not imply that a roadmap item had shipped by the cutoff unless the source proves that status. It should not treat partner lists as deployment proof. It should not reduce the LLM race to "who bought the most GPUs." It should not ignore AMD, TPUs, custom silicon, or open software alternatives where they explain real pressure on NVIDIA's position. It should not confuse CUDA's strategic strength with a moral argument that lock-in is good.
 

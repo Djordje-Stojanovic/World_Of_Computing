@@ -14,8 +14,6 @@ The library problem has three layers. First, language must be broken into pieces
 
 Status: first promoted draft, pass I-0121, 2026-05-26. Data prose-beauty pass I-0160, 2026-05-26.
 
-Source note: This chapter uses existing source rows plus the I-0121 data/token source pack. It treats tokenization, web corpora, filtering, deduplication, memorization, and data curation as supply-chain mechanisms for LLMs, not as proof that any frontier lab disclosed its full training set. It blocks exact corpus composition, copyright/legal conclusions, contamination prevalence, memorization rates, and synthetic-data share claims until row-level extraction licenses them.
-
 Visual note: Figures A-0064 through A-0067 should make the supply chain visible: tokenization ladder, web-corpus filter funnel, data-mixture control board, and memorization/contamination blocker map. Their job is not decoration. They keep the reader from mistaking "data" for one substance.
 
 ## The Word Is Too Large
@@ -28,7 +26,7 @@ Byte pair encoding entered neural machine translation as a way to handle rare wo
 
 The mechanism matters because tokens are the unit that pricing pages, context windows, training runs, and inference systems make visible. A million-token context is not a million words. A token may be a word, a word piece, a space-plus-word piece, a punctuation mark, a byte-like fallback, a code fragment, or a fragment of another script. That makes token counts powerful and slippery. They are operationally real but linguistically uneven.
 
-This is where the book should be careful with comparisons. A model with a larger context window can receive more tokens, but that does not mean it understands a larger book the way a reader does. A language whose script tokenizes inefficiently may pay more tokens for the same human sentence. A code file can be chopped differently from prose. A prompt that looks short on the page can be expensive in tokens because of formatting, hidden tool text, retrieved passages, or system instructions.
+This is where with comparisons. A model with a larger context window can receive more tokens, but that does not mean it understands a larger book the way a reader does. A language whose script tokenizes inefficiently may pay more tokens for the same human sentence. A code file can be chopped differently from prose. A prompt that looks short on the page can be expensive in tokens because of formatting, hidden tool text, retrieved passages, or system instructions.
 
 Tokenization is therefore a quiet distribution mechanism. It decides which languages, naming patterns, formats, and programming idioms are cheap or expensive to represent. The tokenizer does not determine capability by itself; the training data, architecture, post-training, and product harness matter too. But every model begins by agreeing with its tokenizer about what counts as the next thing.
 
@@ -42,7 +40,7 @@ The open web became the obvious ocean. It is large, multilingual, current, cheap
 
 Google's T5 paper made one influential cleaned web corpus famous: C4, the Colossal Clean Crawled Corpus, derived from Common Crawl through filtering. [S-0155] That source supports the high-level point that large-scale web text was being cleaned and repurposed for language-model pretraining. It does not license the lazy claim that cleaned web data is clean in the moral, legal, or epistemic sense.
 
-The later "Documenting Large Webtext Corpora" paper is useful precisely because it refuses that comfort. It studied C4 as a dataset object, documenting how filtering decisions affected content and raising questions about provenance and representation. [S-0156] The book should use that paper to make a broader point: dataset cleaning is not a neutral household chore. Filtering changes whose language remains, whose pages disappear, what kinds of text become underrepresented, and which biases are made less visible rather than solved.
+The later "Documenting Large Webtext Corpora" paper is useful precisely because it refuses that comfort. It studied C4 as a dataset object, documenting how filtering decisions affected content and raising questions about provenance and representation. [S-0156] that paper to make a broader point: dataset cleaning is not a neutral household chore. Filtering changes whose language remains, whose pages disappear, what kinds of text become underrepresented, and which biases are made less visible rather than solved.
 
 Common Crawl also explains why the data chapter cannot be only a legal chapter. The book is not turning into a copyright treatise. The LLM story needs the web because web-scale text changed the technical possibilities of pretraining. But the same scale made provenance fragile. A lab could train on trillions of tokens without a reader, a customer, or sometimes even an outside auditor knowing the precise source mix. That opacity became part of the technology.
 
@@ -100,9 +98,9 @@ A model does not store a searchable copy of its training set in a normal databas
 
 This distinction matters for both awe and fear. The awe version says the model remembers the internet. The fear version says it is a database of stolen text. Both can be too broad. The model is a statistical object trained on token prediction. Some sequences become easier to reproduce because they are frequent, distinctive, duplicated, or otherwise favored by the training dynamics. Some information may be inferable without being memorized verbatim. Some memorized text may be hard to elicit. Some generated text may resemble training text without being copied from one source.
 
-The legal and ethical stakes are real, but this chapter should not adjudicate them beyond source permission. The book's technical job is to show why memorization follows from the training setup: repeated exposure, overparameterization, rare sequences, long tails, and evaluation prompts that can pull the model toward stored-looking strings. It should also show why memorization is hard to observe from the outside. A user sees output, not the training path.
+The legal and ethical stakes are real, but This chapter does not adjudicate them beyond source permission. The book's technical job is to show why memorization follows from the training setup: repeated exposure, overparameterization, rare sequences, long tails, and evaluation prompts that can pull the model toward stored-looking strings. It should also show why memorization is hard to observe from the outside. A user sees output, not the training path.
 
-Memorization connects to privacy, copyright, benchmark integrity, and product trust. It also connects to product design. A company may add filters, refusal policies, retrieval citations, training-data controls, data-deletion processes, or enterprise privacy commitments. Those measures matter, but they are not licensed by this pass as solved claims. The chapter can say the risk exists and the field studied it. It cannot say a particular frontier model solved it without model-specific evidence.
+Memorization connects to privacy, copyright, benchmark integrity, and product trust. It also connects to product design. A company may add filters, refusal policies, retrieval citations, training-data controls, data-deletion processes, or enterprise privacy commitments. Those measures matter, but they are not licensed as solved claims. The chapter can say the risk exists and the field studied it. It cannot say a particular frontier model solved it without model-specific evidence.
 
 The clean sentence is this: LLMs do not remember like people, but they can reproduce like machines.
 
@@ -111,8 +109,7 @@ The clean sentence is this: LLMs do not remember like people, but they can repro
 As the obvious web became more exhausted, more contested, or more heavily filtered, the frontier turned toward another library: model-generated data.
 
 Synthetic data can mean many things. It can be a model writing instruction-following examples. It can be a stronger model generating traces for a weaker model. It can be code problems, chain-of-thought-like rationales, preference pairs, simulated dialogues, tool-use trajectories, math solutions, or cleaned rewrites of messy source material. It can look like a practice exam, a rehearsal, a lab-grown edge case, or a translation of messy human evidence into a form the training run can digest. It can improve a model by making rare tasks abundant. It can also make the model world more self-referential.
-
-This pass does not add a dedicated synthetic-data source row, so the prose must stay general and cautious. The supported claim is structural: by the mid-2020s, data was no longer only scraped human text; post-training and reasoning systems increasingly depended on generated examples, critiques, tool traces, and preference-like signals discussed elsewhere in the book. Exact synthetic-data shares for particular models remain blocked.
+ The supported claim is structural: by the mid-2020s, data was no longer only scraped human text; post-training and reasoning systems increasingly depended on generated examples, critiques, tool traces, and preference-like signals discussed elsewhere in the book. Exact synthetic-data shares for particular models remain blocked.
 
 Synthetic data makes the library problem recursive. If models train on model outputs, what happens to errors, styles, omissions, and hidden biases? Can synthetic curricula cover tasks humans rarely write down? Can generated traces teach reasoning or merely teach the appearance of reasoning? Can models produce data beyond the quality frontier of their teachers, or do they amplify the teacher's blind spots? Those questions belong to Chapter 21 as well as this chapter.
 
@@ -131,8 +128,6 @@ This is why data sits between infrastructure and tools. Compute turns the proces
 The data chapter's final claim is modest and central: LLMs are not trained on language in the abstract. They are trained on curated sequences of tokens produced by institutions, people, crawlers, filters, licenses, scripts, and other models. The frontier was therefore never only a race for bigger chips. It was a race to decide which parts of the library could be converted into prediction, which parts should be excluded, which parts would be hidden, and which parts would come back as evidence only when a user asked.
 
 The next chapter turns that last move into machinery. Retrieval, function calling, connectors, and agents are not departures from the data problem. They are what happens when the data problem becomes live.
-
-## What This Chapter Still Refuses
 
 The final discipline is to keep the missing rows visible. Exact tokenizer and vocabulary-size examples belong only where a figure has row-level support. Model-specific synthetic-data shares need a source pack before they become prose. Copyright and licensing belong here as provenance and trust constraints unless a later legal source pack licenses actual legal findings. Proprietary corpus composition remains blocked unless a paper, card, filing, audit, or lab disclosure makes the claim specific.
 

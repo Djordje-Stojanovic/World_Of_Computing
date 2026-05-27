@@ -18,10 +18,6 @@ That was the hinge. The model still predicted tokens. But the product began to a
 
 Status: OpenAI spine continuity pass promoted in I-0154, 2026-05-26; first promoted draft candidate from pass I-0018 preserved as source context.
 
-Source note: This chapter draft uses source IDs from the source ledger. It treats alignment as a product and mechanism story: how base-model continuation became instruction following, refusal behavior, policy-shaped assistant behavior, and evaluation work. It deliberately avoids becoming a regulation chapter. Pass I-0033 adds `data/alignment_quote_safe_table_i0033.tsv` for short, reviewed quote candidates from captured Model Spec and system-card artifacts; pass I-0038 adds S-0074 text-render quote candidates for the instruction-following product post, while longer red-team, system-card, and exact policy passages still need row-specific extraction before final prose.
-
-Visual integration: Figure 6.1, `assets/visual_system/rlhf-alignment-pipeline.svg`, shows pretraining, supervised demonstrations, preference comparisons, reward/preference modeling, RL optimization, Constitutional AI/RLAIF, product policy, red teaming, and evaluation loops as a layered assistant-behavior stack. The companion rows live in the companion source table; the figure keeps the central caveat visible that refusals and caveats are product behavior built from several layers, not proof that the model "understands" the user's real-world interests. [S-0004] [S-0014] [S-0019] [S-0074] [S-0075]
-
 ## The Three-Step Machine
 
 RLHF became famous enough that the acronym started to flatten the machinery. In practice, the important thing was the sequence.
@@ -90,7 +86,7 @@ This is why GPT-4's launch also pointed to evals as infrastructure. OpenAI descr
 
 The loop could also mislead. A model optimized for what raters like may become verbose, flattering, overcautious, or too polished. A refusal policy can be jailbroken. A benchmark can be gamed. A red-team finding can become a product mitigation that fails elsewhere. "Aligned" can become a marketing word that hides how local, contested, and temporary the alignment actually is.
 
-The book should therefore use the word carefully. In this chapter, alignment means the practical work of shaping model behavior toward specified human and institutional preferences. It does not mean the problem is solved.
+The word deserves care. In this chapter, alignment means the practical work of shaping model behavior toward specified human and institutional preferences. It does not mean the problem is solved.
 
 ## The Product Learns To Say No
 
@@ -110,7 +106,7 @@ The second layer is demonstration. In the InstructGPT pipeline, humans supplied 
 
 The third and fourth layers are comparison and reward modeling. Preference comparisons turn a hard-to-write objective into ranked examples. A reward model then learns to predict which output a rater would prefer. [S-0014] This is elegant and dangerous in the same breath. It lets a lab optimize toward qualities that are hard to express as a simple rule. It also creates a proxy. A proxy can be useful, gamed, overoptimized, or quietly misaligned with the situation the user actually cares about.
 
-The fifth layer is policy optimization. The model is pushed toward the learned preference signal. Here the chapter should be especially careful with verbs. The system is not taught truth as a metaphysical property. It is optimized to produce answers that score better under a learned model of preferences produced by a process. The result can be dramatically more useful and still brittle. It can become more helpful and still hallucinate. It can become more harmless under one policy and still fail under another. It can become more honest in the average case and still produce false confidence.
+The fifth layer is policy optimization. The model is pushed toward the learned preference signal. Here the chapter must be especially careful with verbs. The system is not taught truth as a metaphysical property. It is optimized to produce answers that score better under a learned model of preferences produced by a process. The result can be dramatically more useful and still brittle. It can become more helpful and still hallucinate. It can become more harmless under one policy and still fail under another. It can become more honest in the average case and still produce false confidence.
 
 The sixth layer is the constitutional or principle-guided branch. Anthropic's Constitutional AI adds a different route: written principles, model-generated critiques and revisions, and AI-generated preference judgments. [S-0019] The visual puts this as a branch rather than a replacement because the point is not to declare a winner. The point is to show that the field began searching for ways to make assistant behavior less dependent on one narrow form of direct human comparison, while still leaving the hard questions of principle choice, conflict resolution, and product accountability open.
 
@@ -130,7 +126,7 @@ The quote table also carries a built-in antidote to hype: the phrase "far from f
 
 For the Model Spec, the safe phrases are structural. "Desired behavior" names the document's purpose. "Objectives, rules, and defaults" names its hierarchy. [S-0075] The quoted priority chain, "Platform > Developer > User > Tool," is useful because it makes the product reality concrete. A chat assistant is not a democratic surface where every instruction has the same force. It is a layered system in which the user's request sits inside constraints chosen by the provider and, in some contexts, the application developer.
 
-For system cards, the table is deliberately conservative. It allows short phrases such as GPT-4's "safety processes" and the note that mitigations were "limited and remain brittle." [S-0076] It allows GPT-4o's "more than 100 external red teamers" only as a first-party signal about release preparation, not as proof that the model was safe across the world. [S-0077] The reader should see the machinery of evaluation without being asked to treat a lab's paperwork as the verdict.
+For system cards, the table is deliberately conservative. It allows short phrases such as GPT-4's "safety processes" and the note that mitigations were "limited and remain brittle." [S-0076] It allows GPT-4o's "more than 100 external red teamers" only as a first-party signal about release preparation, not as proof that the model was safe across the world. [S-0077] the machinery of evaluation without being asked to treat a lab's paperwork as the verdict.
 
 This is the chapter's evidence discipline. Exact wording is allowed only when it clarifies a source's role. Otherwise, paraphrase is stronger. The book is not trying to sound like a policy appendix. It is trying to show how the assistant became an engineered behavior surface.
 
@@ -167,8 +163,7 @@ System cards changed launch rhythm. A frontier model release could no longer be 
 The ritual had several audiences. Users wanted to know whether the model was reliable. Developers wanted to know what could break. Enterprises wanted risk language they could pass through procurement and security review. Researchers wanted enough detail to scrutinize claims. Regulators and journalists wanted visible accountability. The lab wanted to ship. The system card sat at the intersection of all those needs.
 
 That position made system cards both valuable and limited. They disclose some categories of risk. They describe some mitigations. They name some testing procedures. They may mention external experts or red-team scale. But they are still authored by the provider, scoped by the provider, and constrained by what the provider chooses to reveal. A system card is an artifact of governance and marketing as well as safety.
-
-The book should use these documents neither cynically nor naively. Cynicism would miss their evidentiary value: they show what labs measured, feared, and publicly promised. Naivete would mistake disclosure for proof. The right posture is forensic. What risk categories appear? What is quantified? What is left qualitative? Which mitigations are admitted to be brittle? Which claims are first-party only? Which require independent tests before they become book facts?
+ these documents neither cynically nor naively. Cynicism would miss their evidentiary value: they show what labs measured, feared, and publicly promised. Naivete would mistake disclosure for proof. The right posture is forensic. What risk categories appear? What is quantified? What is left qualitative? Which mitigations are admitted to be brittle? Which claims are first-party only? Which require independent tests before they become book facts?
 
 That forensic posture also connects alignment to evaluation. If assistant behavior is produced by a stack, then no single score can certify it. A model can pass a multiple-choice exam and fail a conversation. It can refuse harmful requests and still be vulnerable to prompt injection. It can do well in English and fail in another language. It can look safe in short tests and degrade in long workflows. Evaluation becomes a portfolio, not a finish line.
 

@@ -58,7 +58,7 @@ Caption:
 
 The chart is useful because it shows the drama of the period without pretending to settle it. In the captured rows, Anthropic-labeled Claude Opus variants, Google Gemini rows, OpenAI GPT-labeled rows, Meta's `muse-spark`, and xAI's Grok-labeled beta row appear in the top twelve of one historical `text_style_control` / `latest` / `overall` slice. The central ratings in that slice run from about 1502 at the top row to about 1478 at the twelfth row, with vote counts ranging from thousands to tens of thousands. [S-0080]
 
-That is enough to support a careful narrative point: by the cutoff period, the visible frontier had become crowded. The reader should feel the compression. No single lab is being granted metaphysical possession of intelligence. The top of the table is a jostling cluster of rows, names, versions, previews, beta labels, and confidence bands. The chart is not saying that one model had conquered all tasks. It is saying that the public surface of the race had become dense enough that rank, versioning, and methodology could not be treated as footnotes.
+That is enough to support a careful narrative point: by the cutoff period, the visible frontier had become crowded. the compression. No single lab is being granted metaphysical possession of intelligence. The top of the table is a jostling cluster of rows, names, versions, previews, beta labels, and confidence bands. The chart is not saying that one model had conquered all tasks. It is saying that the public surface of the race had become dense enough that rank, versioning, and methodology could not be treated as footnotes.
 
 Several labels in the slice are especially instructive. `gemini-3.1-pro-preview` carries a preview marker; the chart cannot convert that into stable product availability. `grok-4.20-beta1` carries a beta marker; the prose must preserve that label if it mentions the row. OpenAI-labeled `gpt-5.5-high`, `gpt-5.4-high`, and `gpt-5.5` rows are dataset row labels here, not independent proof of product release, pricing, context windows, safety, or enterprise support. The same rule applies to every lab. A leaderboard dataset can name a row without certifying a procurement checklist.
 
@@ -82,7 +82,7 @@ The sentence "Claude/OpenAI/Gemini/Grok is the best model" fails because it hide
 
 Those questions are not pedantic. They are the story of the LLM industry after ChatGPT. Frontier labs were no longer selling one thing. They were selling general chat, coding assistance, tool use, long-context analysis, enterprise administration, batch processing, cached input, multimodal endpoints, fine-tuning, reasoning modes, search/grounding options, and increasingly agentic software workflows. A "best" model for a researcher reading a long PDF might not be the best model for a customer-service bot with tight output costs. A model that shines under a benchmark harness might be too slow or too expensive for an interactive product. A model that is cheap for input can be expensive for verbose output. A model that wins a preference fight can still hallucinate a legal citation.
 
-This is why the chapter should speak in evidence lanes: [S-0035] [S-0037] [S-0057] [S-0060] [S-0061] [S-0062] [S-0063]
+This is why in evidence lanes: [S-0035] [S-0037] [S-0057] [S-0060] [S-0061] [S-0062] [S-0063]
 
 - preference-rank lane: what a captured Arena-style row can show;
 - benchmark lane: what a named task harness can show;
@@ -93,7 +93,7 @@ This is why the chapter should speak in evidence lanes: [S-0035] [S-0037] [S-005
 
 The lanes may converge later, but they cannot be casually merged. A claim that joins preference rank and price must prove the two rows refer to comparable model scopes. A claim that joins context window and price must show which tier or prompt length applies. A claim that joins coding performance and enterprise usefulness must explain the harness, the scaffold, and the organizational constraint. The ordinary English word "best" is too small for that payload. [C-0046]
 
-Chapter 13 should therefore use rankings to teach competition, not to certify winners. The narrative value is still high. The reader sees a market in which the frontier compressed, product names multiplied, and providers had to compete not only on raw answer quality but also on price, latency, tool integration, context, safety posture, and developer ergonomics. That is more interesting than a crown. A crown ends the story. A crowded, caveated table starts it.
+Chapter 13 therefore use rankings to teach competition, not to certify winners. The narrative value is still high. The reader sees a market in which the frontier compressed, product names multiplied, and providers had to compete not only on raw answer quality but also on price, latency, tool integration, context, safety posture, and developer ergonomics. That is more interesting than a crown. A crown ends the story. A crowded, caveated table starts it.
 
 ## The Price-Quality Temptation
 
@@ -128,8 +128,7 @@ For those reasons, C-0046 remains open. The book may show the exclusion map now.
 ## How To Read Provider Prices
 
 Provider price sheets look crisp because dollars have decimals. That crispness is deceptive. The unit is usually one million tokens, but a token is not a word, and the useful cost of a model depends on the ratio of input to output, cache hits, batch discounts, latency tolerance, tool calls, and how often the system has to retry or verify its own work. A model with a low input price can become expensive if it writes long answers. A model with a high output price can still be economical if it solves in fewer turns or avoids human review. A cached-input discount can transform a repeated retrieval workflow but do almost nothing for one-off creative chat. [S-0060] [S-0061] [S-0062] [S-0063]
-
-This chapter should keep prices as economics evidence, not moral scorekeeping. Price is part of the LLM story because inference turned model quality into a metered commodity. Every assistant answer had a hidden bill of materials: accelerator time, memory bandwidth, networking, energy, cooling, reliability engineering, safety filtering, orchestration, and provider margin. But a book about the race cannot pretend that the cheapest visible API row is therefore the winning business. The cheapest row may be subsidized, capacity-constrained, limited by terms, narrow in modality, or less useful after task-specific evaluation.
+ Price is part of the LLM story because inference turned model quality into a metered commodity. Every assistant answer had a hidden bill of materials: accelerator time, memory bandwidth, networking, energy, cooling, reliability engineering, safety filtering, orchestration, and provider margin. But a book about the race cannot pretend that the cheapest visible API row is therefore the winning business. The cheapest row may be subsidized, capacity-constrained, limited by terms, narrow in modality, or less useful after task-specific evaluation.
 
 The right prose formula is conditional:
 
@@ -151,7 +150,7 @@ For a casual reader, model version strings look like clutter: dates, preview lab
 
 A dated OpenAI row, a Claude family row, a Gemini prompt-length tier, a Grok beta row, or a Mistral cutoff-price caveat is not merely metadata. It tells the reader what kind of object the model was at the moment evidence touched it. Was it a public API model, a preview endpoint, a fine-tuning price row, a deprecated row, a thinking variant, a family-level alias, or a dataset label that needs independent release evidence? These distinctions shape the story more than a clean rank number does. [S-0060] [S-0061] [S-0062] [S-0063] [S-0080]
 
-The prose should therefore make version strings visible when they prevent overclaim. It does not need to drown the page in raw IDs, but it should preserve the labels that carry meaning: `preview`, `beta`, `thinking`, `high`, dated suffixes, deprecated status, context-tier splits, and explicit price-basis notes. When those labels are too heavy for the main sentence, they belong in a figure caption, side note, or data table. Hiding them entirely makes the book sound smoother and become less true.
+The prose therefore make version strings visible when they prevent overclaim. It does not need to drown the page in raw IDs, but it should preserve the labels that carry meaning: `preview`, `beta`, `thinking`, `high`, dated suffixes, deprecated status, context-tier splits, and explicit price-basis notes. When those labels are too heavy for the main sentence, they belong in a figure caption, side note, or data table. Hiding them entirely makes the book sound smoother and become less true.
 
 Dates have the same narrative function. A model-ranking dataset published on 2026-05-19, a provider price captured on 2026-05-24, and a local evidence snapshot taken on 2026-05-25 are three different dates. The first can support a historical pre-cutoff rank slice. The second can support a cutoff-day price row if the source and scope are right. The third is provenance for the workspace, not an event the book may write as happened before the cutoff. Treating all three as one "current" date would erase the exact boundary this project is built to honor. [S-0080] [C-0046]
 
@@ -195,4 +194,4 @@ Blocked:
 
 These restrictions are not a retreat from judgment. They are what makes judgment possible. A prize-worthy book about LLMs should help readers see the race more clearly than the race saw itself. That means refusing the easy crown, building the evidence lanes, and letting uncertainty remain visible where the evidence is genuinely uncertain.
 
-The final sentence of the chapter should make the reader carry the habit forward: the leaderboard is not the answer sheet. It is a map of where the next question begins.
+The final sentence of the reader carry the habit forward: the leaderboard is not the answer sheet. It is a map of where the next question begins.

@@ -18,8 +18,6 @@ This chapter belongs after the Transformer because architecture created the subs
 
 Status: Chapter 4 clarity pass promoted in I-0153, 2026-05-26; first promoted as a Chapter 3 draft in pass I-0094 before the later ChatGPT opener became Chapter 1.
 
-Source note: This chapter is a first scaling-laws draft anchored on Kaplan et al.'s "Scaling Laws for Neural Language Models" and Hoffmann et al.'s "Training Compute-Optimal Large Language Models." It uses GPT-3 and PaLM only as bounded examples of the scaling era, not as proof that scale alone explains every capability. It avoids exact exponents, benchmark numbers, emergent-capability claims, and frontier extrapolation until later extraction rows support them. See `data/chapter3_scaling_claim_audit_i0094.tsv` and `data/chapter3_scaling_chart_plan_i0094.tsv`.
-
 ## The Industrialization Of Prediction
 
 The scaling bet made language modeling feel industrial. The central object was no longer only a clever model. It was a training run: data pipeline, model configuration, optimizer, accelerators, parallelism, wall-clock time, evaluation harness, and budget. Research became entangled with procurement.
@@ -27,20 +25,16 @@ The scaling bet made language modeling feel industrial. The central object was n
 Kaplan et al. separated three levers: model size, dataset size, and compute. [S-0003] That separation matters because it prevents a common simplification. "Scale" is not one thing. A larger parameter count without enough data can be wasteful. More data without enough model capacity can hit other limits. More compute can be spent in different ways. The scaling story is not a parade of bigger numbers; it is a tradeoff surface.
 
 The paper's strongest historical effect was psychological. It gave labs permission to believe that investing in larger training runs could be rational rather than merely heroic. If loss trends could be fitted and extrapolated within a measured regime, then a bigger run could be planned before it existed. That planning logic later turned into organizational pressure: reserve clusters, raise money, sign cloud deals, buy accelerators, build datacenters, and recruit teams that could keep the training machinery from falling over.
-
-The reader should feel the change in mood. In the older research story, progress could look like insight: a new architecture, a new objective, a new dataset. In the scaling story, progress also looked like throughput. The model became a vessel into which data and compute could be poured, and the question was how efficiently the vessel converted that investment into lower loss and better behavior.
+ the change in mood. In the older research story, progress could look like insight: a new architecture, a new objective, a new dataset. In the scaling story, progress also looked like throughput. The model became a vessel into which data and compute could be poured, and the question was how efficiently the vessel converted that investment into lower loss and better behavior.
 
 This is where the book's hardware chapters begin in embryo. A scaling law is not a GPU, but it creates demand for GPUs. It is not a datacenter, but it justifies a datacenter. It is not a business model, but it tells a CEO or investor why a larger model might be worth funding before the product exists. [S-0003]
 
 ## What The Laws Measured
 
-Scaling-law prose can become slippery because "performance" sounds general. This chapter should keep the word tied to what the sources actually measured. Kaplan et al. studied language-model loss and related evaluation behavior across model size, data, and compute regimes. [S-0003] The paper did not prove that every downstream task would improve smoothly forever. It did not prove that every user-visible capability was a direct function of parameter count. It did not prove that truth, calibration, or safety would arrive automatically.
+Scaling-law prose can become slippery because "performance" sounds general. Kaplan et al. studied language-model loss and related evaluation behavior across model size, data, and compute regimes. [S-0003] The paper did not prove that every downstream task would improve smoothly forever. It did not prove that every user-visible capability was a direct function of parameter count. It did not prove that truth, calibration, or safety would arrive automatically.
 
 This distinction is not pedantry. It is the difference between a scientific claim and a sales pitch. Loss is valuable because it is measurable and central to training. But the world asks for many things loss does not directly certify: can the model cite sources, solve a new programming issue, refuse a harmful request, use a tool safely, preserve privacy, obey a style guide, or admit uncertainty? Those questions require additional evidence.
-
-The chapter should therefore use three lanes.
-
-Measured lane: what the paper measured, such as loss trends under controlled scaling variables.
+ Measured lane: what the paper measured, such as loss trends under controlled scaling variables.
 
 Modeled lane: what the fitted relationships suggest within the regime studied.
 
@@ -68,7 +62,7 @@ For this chapter, GPT-3 is not mainly a parameter spectacle. It is a demonstrati
 
 GPT-3 also made the scaling question feel urgent. If a bigger language model could perform a wider range of tasks from prompts, then every lab had to ask whether the next jump in scale would unlock more such behavior. The answer was never clean. Some improvements were smooth. Some tasks remained brittle. Some benchmarks could be gamed or contaminated. Some apparent capabilities depended heavily on prompt format. But the direction was enough to reorganize ambition. [S-0004]
 
-This is the first place where the book should distinguish "capability" from "deployability." GPT-3 could be astonishing in demos and still be difficult to deploy safely. A model that can complete many tasks from examples can also complete bad instructions, produce confident nonsense, and imitate forms it does not ground. Scaling increased the prize and the blast radius together.
+This is the first place where "capability" from "deployability." GPT-3 could be astonishing in demos and still be difficult to deploy safely. A model that can complete many tasks from examples can also complete bad instructions, produce confident nonsense, and imitate forms it does not ground. Scaling increased the prize and the blast radius together.
 
 That paired growth is one of the central tensions of the book. The same recipe that made the models more useful made their failures more consequential.
 
@@ -79,16 +73,14 @@ The first scaling story tempted outsiders to look mainly at model size. Bigger p
 This is the Chinchilla correction. It did not say scale was over. It said scale had to be balanced. If the budget is compute, then the question is how to allocate compute between a larger model and more training tokens. A giant model trained on too little data may be less efficient than a smaller model trained on more data. [S-0015]
 
 That idea is narratively important because it complicates the arms race. The race was not simply "who has the biggest model?" It became "who knows how to spend compute best?" Data quality, token count, deduplication, training duration, optimizer choices, and evaluation discipline all mattered. The scaling bet matured from size worship into allocation strategy.
-
-The chapter should not use Chinchilla to make a universal numerical rule without extraction. It should use it as a conceptual pivot: scale had become precise enough that researchers could argue about optimality, not just magnitude. That is a sign of a field becoming industrial science.
+ use Chinchilla to make a universal numerical rule without extraction. It should use it as a conceptual pivot: scale had become precise enough that researchers could argue about optimality, not just magnitude. That is a sign of a field becoming industrial science.
 
 The Chinchilla lesson also points toward the data chapter. If compute-optimal training asks for more tokens, then the supply, quality, legality, duplication, language mix, code share, and contamination profile of data become strategic constraints. Data is not a passive pile. It is one of the dimensions of scale. [S-0015]
 
 ## Data Stops Being Background
 
 Once compute-optimality enters the story, data stops being scenery. In a casual account, a model is trained "on the internet," as if the internet were a clean bucket of language. In a real training system, data is selected, filtered, deduplicated, tokenized, mixed, weighted, and sometimes generated. Bad data can teach bad behavior. Duplicated data can distort training. Contaminated evaluation data can make a benchmark look better than the model really is.
-
-This pass does not add a full dataset source pack; that belongs in Chapter 17. But Chapter 3 needs the conceptual bridge. Chinchilla's compute/data balance makes data quantity part of the scaling equation, while the rest of the book will show that data quality and provenance are equally political. [S-0015]
+ But Chapter 3 needs the conceptual bridge. Chinchilla's compute/data balance makes data quantity part of the scaling equation, while the rest of the book will show that data quality and provenance are equally political. [S-0015]
 
 The Chinchilla correction also complicates the public obsession with parameter counts. Parameter count is visible. Training tokens are harder to explain. Data mixture is often undisclosed. Quality controls are rarely summarized in a single headline number. That asymmetry lets public debate overread model size while underreading the data and compute allocation choices that make size useful or wasteful.
 
@@ -98,7 +90,7 @@ This is why the later data chapter is not a copyright detour or a library sideba
 
 ## The PaLM Example
 
-PaLM belongs here as a bounded example of the scaling era moving through a major lab. The PaLM paper presented a large language model trained with Google's Pathways system and framed scaling as part of a broader infrastructure and model-quality push. [S-0016] This chapter should not unpack every PaLM result. That belongs later in the Google chapter. The point here is institutional: by the early 2020s, the scaling bet had become a lab strategy.
+PaLM belongs here as a bounded example of the scaling era moving through a major lab. The PaLM paper presented a large language model trained with Google's Pathways system and framed scaling as part of a broader infrastructure and model-quality push. [S-0016] This chapter does not unpack every PaLM result. That belongs later in the Google chapter. The point here is institutional: by the early 2020s, the scaling bet had become a lab strategy.
 
 OpenAI, Google, DeepMind, Anthropic, Meta, and later a global field of frontier labs would each build their own version of this logic. Some emphasized closed APIs. Some released open weights. Some optimized inference cost. Some specialized in coding, long context, reasoning, or multilingual coverage. But the shared grammar was visible: choose a Transformer-family architecture, assemble data, spend compute, measure loss and benchmarks, then decide what product surface or release strategy could carry the result.
 
@@ -110,11 +102,11 @@ That factory will return in the NVIDIA and datacenter chapters. For now, Chapter
 
 Few words in the LLM era invite more trouble than emergence. It is tempting to say that new abilities "emerge" when models cross a scale threshold. Sometimes that word points to real surprises in evaluation behavior. Sometimes it smuggles in mystery where the evidence is thinner than the rhetoric. This chapter should be restrained.
 
-The safe statement is that larger models often showed new or stronger behaviors on tasks and benchmarks, and GPT-3 made in-context learning a central topic. [S-0004] The unsafe statement is that scale guarantees qualitatively new intelligence at predictable thresholds. The sources in this pass do not license that.
+The safe statement is that larger models often showed new or stronger behaviors on tasks and benchmarks, and GPT-3 made in-context learning a central topic. [S-0004] The unsafe statement is that scale guarantees qualitatively new intelligence at predictable thresholds. The sources do not license that.
 
 This matters because emergence became part of the funding story. If scale might unlock new behavior, then the next training run could look like a door rather than an increment. That psychology helped drive the race. But prize nonfiction has to separate psychology from proof. The book can describe the temptation without endorsing the prophecy.
 
-The chart plan should therefore include a blocked "emergence threshold" lane. It can say: do not draw a cliff or magic-step curve unless a later source pack audits the exact benchmark, metric, smoothing, and interpretation. Smooth loss curves and sudden benchmark jumps are not the same claim.
+The chart plan therefore include a blocked "emergence threshold" lane. It can say: do not draw a cliff or magic-step curve unless a later source pack audits the exact benchmark, metric, smoothing, and interpretation. Smooth loss curves and sudden benchmark jumps are not the same claim.
 
 ## Evaluation Becomes Part Of The Race
 
@@ -150,7 +142,7 @@ What scaling bought was capacity: lower loss, broader pattern absorption, more f
 
 This distinction keeps the book honest. The scaling bet explains why frontier labs became capital-intensive and why the Transformer became the substrate of an industrial race. It does not explain why ChatGPT felt social. It does not explain why RLHF mattered. It does not explain why coding agents need tool permissions and tests. It does not explain why datacenters became grid events. It points toward all of those chapters, but it does not replace them.
 
-By the end of this chapter, the reader should understand the wager that set the next decade in motion. If loss falls predictably with scale, and if lower loss tends to make models more generally useful, then compute becomes a way to buy possibility. The terrifying part is that possibility is not the same as wisdom.
+By the end of this chapter, the wager that set the next decade in motion. If loss falls predictably with scale, and if lower loss tends to make models more generally useful, then compute becomes a way to buy possibility. The terrifying part is that possibility is not the same as wisdom.
 
 That sentence is the hinge. The next chapters will show labs acting as if possibility could be made repeatable: pretrain, scale, prompt, align, productize, serve, measure, repeat. Some of that confidence was earned. Some of it was projection. The difference is the book's work.
 

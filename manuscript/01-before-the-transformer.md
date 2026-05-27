@@ -14,8 +14,6 @@ That is the chapter's pressure chain: counting made language computable, sparsit
 
 Status: Chapter 2 clarity pass promoted in I-0153, 2026-05-26; first promoted as a Chapter 1 draft in pass I-0092 before the later ChatGPT opener became Chapter 1.
 
-Source note: This chapter uses newly ledgered primary papers for the early technical spine: Bengio et al. on neural probabilistic language modeling, Mikolov et al. on efficient word-vector learning, Sutskever et al. on sequence-to-sequence learning, Bahdanau et al. on alignment/attention in neural machine translation, and Vaswani et al. on the Transformer. It is a narrative foundation, not a complete history of NLP. It deliberately avoids unsupported claims about who "invented" every component, exact state-of-the-art rankings, or hidden industrial adoption. See `data/chapter1_early_lm_claim_audit_i0092.tsv` for row-level claim permissions.
-
 The important turn was not that researchers made language less discrete. It was that they made the discreteness negotiable. A word could remain a symbol in a vocabulary while also becoming a point in a learned space. "Dog" and "cat" would still be different tokens, but the model could learn that they lived nearer to one another than either lived to "thermodynamics" or "Wednesday." The bet was that language contained reusable structure below the surface of exact word identity.
 
 That bet runs through the neural probabilistic language model proposed by Yoshua Bengio, Rejean Ducharme, Pascal Vincent, and Christian Jauvin. The paper attacked the curse of dimensionality by learning a distributed representation for words and using those representations inside a neural language model. The point was not merely to make a clever lookup table. It was to let statistical strength move across related contexts: if two words occupied nearby places in representation space, evidence about one context might help the model generalize to another. [S-0104]
@@ -44,7 +42,7 @@ This is why distributed representation was more than a technical convenience. It
 
 A useful analogy is a map, with the usual warning that the map is not the territory. If every town is represented only by its name, a traveler who has never seen one town knows nothing about where it lies. If the towns have coordinates, a traveler can infer distance, direction, and neighborhood. Word vectors gave language models a rough coordinate system. The coordinates were learned from text, not from human definitions, but they made similarity calculable. [S-0105]
 
-The price of that move was compression. A vector is useful because it throws away detail. It stores enough regularity to help the model, not enough reality to make the word fully known. This is one reason the chapter should resist romantic language about early embeddings. They did not contain meaning as a human contains meaning. They contained learned statistical structure. That distinction will matter later when fluent systems look as if they possess concepts more securely than they do.
+The price of that move was compression. A vector is useful because it throws away detail. It stores enough regularity to help the model, not enough reality to make the word fully known. This is one reason romantic language about early embeddings. They did not contain meaning as a human contains meaning. They contained learned statistical structure. That distinction will matter later when fluent systems look as if they possess concepts more securely than they do.
 
 The same discipline applies to analogies in word-vector papers and demos. They were striking because they made geometry feel semantic. But an analogy benchmark is not a theory of mind. It is evidence that certain relations can be captured in the space induced by the training objective and data. [S-0105] That is still a major fact. It is just not the same as understanding.
 
@@ -76,8 +74,6 @@ Attention changed the plot because it made memory addressable. Bahdanau, Cho, an
 
 This is one of the bridges from translation to general-purpose LLMs. A future assistant answering a question, writing code, or summarizing a document faces the same class of pressure. Which earlier tokens matter now? Which instruction governs this sentence? Which variable name, legal condition, or factual qualifier should shape the next word? The problem is not identical across tasks, but the shape rhymes. Attention made the relationship among positions a first-class computation.
 
-The chapter should also keep a useful skepticism here. Attention did not make models reliable. It made one route for information flow more flexible. A model can attend to the wrong token, learn a spurious relation, or produce a fluent answer from shallow cues. The point is architectural permission, not epistemic guarantee. [S-0107]
-
 ## What Attention Changed
 
 Attention is easy to describe badly. The lazy description says the model "pays attention" as if it had a little spotlight of consciousness. The better description is mechanical. A model computes relationships among positions in a sequence. It uses those relationships to mix information. A token's representation becomes a function not only of itself but of other tokens, weighted by learned relevance.
@@ -103,8 +99,7 @@ This is the first glimpse of a theme that will dominate the book later: model hi
 The connection to later LLMs should be drawn carefully. It is not that the Transformer paper predicted every product that followed. It is not that architecture alone explains the boom. Data, objectives, optimization, hardware, software frameworks, evaluation culture, and capital all mattered. But an architecture that could absorb more compute without the same sequential bottleneck became a natural chassis for the scaling era. [S-0002]
 
 That is why this chapter ends at the edge of the Transformer rather than treating it as the full destination. The Transformer is the hinge. Before it, the field had assembled representations, sequence transduction, and attention. After it, those components could be stacked, scaled, and repurposed into a pretraining engine. GPT, BERT, T5, PaLM, Llama, Claude, Gemini, Qwen, DeepSeek, and the rest of the modern cast belong to later chapters. Their family tree begins here, but the family drama requires scale.
-
-The reader should leave this opening with two ideas held together. First, the modern LLM is not an alien object. Its components have ancestry: probability, representation, sequence, alignment, attention. Second, ancestry is not destiny. The combination mattered because it met a moment when data and compute could turn architectural permission into industrial force.
+ this opening with two ideas held together. First, the modern LLM is not an alien object. Its components have ancestry: probability, representation, sequence, alignment, attention. Second, ancestry is not destiny. The combination mattered because it met a moment when data and compute could turn architectural permission into industrial force.
 
 ## The Hidden Continuity
 

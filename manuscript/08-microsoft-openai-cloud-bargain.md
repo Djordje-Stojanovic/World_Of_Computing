@@ -18,8 +18,6 @@ This chapter is about that factory bargain.
 
 Status: Microsoft/OpenAI cloud-bargain strengthening pass promoted in I-0155, 2026-05-26; first full Chapter 8 draft and I-0118 visual package preserved as source context.
 
-Source note: This chapter uses local captures of Microsoft/OpenAI partnership, supercomputer, GPT-3 license, Azure OpenAI Service, ChatGPT-on-Azure, Microsoft 365 Copilot, and GitHub Copilot sources. It treats Microsoft/OpenAI posts as company-attributed strategic framing, not neutral proof of revenue, productivity, adoption, market share, model superiority, customer ROI, workload volume, margin, or search-share effects. See `data/chapter8_microsoft_openai_chronology_i0113.tsv`, `data/chapter8_microsoft_openai_claim_audit_i0113.tsv`, and `data/chapter8_microsoft_openai_visual_package_i0118.tsv`.
-
 ## The 2019 Bet
 
 Microsoft and OpenAI announced an exclusive computing partnership in July 2019. [S-0125] The announcement framed Microsoft as OpenAI's preferred partner for commercializing new AI technologies and said the companies would work on Azure AI supercomputing technologies. [S-0125] The timing matters. This was before ChatGPT, before the public interface shock, and before "generative AI" became a boardroom reflex. Microsoft was buying into a hypothesis before the category had a mass-market face.
@@ -30,7 +28,7 @@ OpenAI, still trying to turn ambitious research into durable products and revenu
 
 The announcement did not prove that the partnership would work. It did not prove that OpenAI's models would become consumer products, enterprise tools, or developer infrastructure. What it did prove is that Microsoft understood the shape of the bottleneck early enough to make compute itself a strategic position.
 
-That is why the chapter should not begin in January 2023. By the time Microsoft extended the partnership after ChatGPT, the runway had already been poured.
+That is why begin in January 2023. By the time Microsoft extended the partnership after ChatGPT, the runway had already been poured.
 
 ## Supercomputer As Relationship
 
@@ -61,8 +59,6 @@ This is where the bargain begins to look less like patronage and more like distr
 GitHub Copilot arrived before ChatGPT and before Microsoft 365 Copilot. GitHub introduced it in June 2021 as an AI pair programmer technical preview for Visual Studio Code, developed with OpenAI and powered by OpenAI Codex. [S-0132] That placement made the bargain tangible. The model did not sit in an abstract cloud announcement. It appeared beside a developer's code.
 
 Copilot belongs partly in the code chapter, but it also belongs here because it shows Microsoft turning model capability into distribution. GitHub gave Microsoft a developer surface with extraordinary leverage. Software developers already trusted it with repositories, issues, pull requests, actions, packages, and identity. Putting model assistance into that environment made the LLM feel less like a chatbot and more like an ambient workplace tool.
-
-The chapter must keep the claim narrow. Copilot's launch did not prove developer productivity gains, adoption at scale, legal safety, code correctness, or economic impact. C-0029 still blocks those claims until row-specific evidence supports them. The supported point is more basic and more important: Copilot converted a model into a cursor-level product surface. [S-0132]
 
 That conversion foreshadowed everything. ChatGPT would later teach the public to talk to a model. Copilot had already taught a narrower audience that a model could sit inside work and propose artifacts. In a chat box, the answer is the artifact. In an editor, the artifact must compile, pass tests, fit style, avoid security mistakes, and survive review. This made Copilot an early lesson in both promise and friction.
 
@@ -118,7 +114,7 @@ That is why the chapter's title is the cloud bargain, not the cloud backend. The
 
 ## Search, Office, And The Incumbent's Revenge
 
-Microsoft also had a reason to move that was older than ChatGPT: it had spent decades living in Google's shadow in search and in the web's attention economy. LLMs offered a rare opening. A conversational answer layer could make Bing feel less like a smaller index and more like a different interface. That did not guarantee share gains, ad gains, or durable consumer behavior. Those claims are blocked in this pass. But strategically, the logic is clear: Microsoft could use OpenAI's model shock as a way to reopen a market that ordinary search competition had not reopened.
+Microsoft also had a reason to move that was older than ChatGPT: it had spent decades living in Google's shadow in search and in the web's attention economy. LLMs offered a rare opening. A conversational answer layer could make Bing feel less like a smaller index and more like a different interface. That did not guarantee share gains, ad gains, or durable consumer behavior. Those claims are blocked. But strategically, the logic is clear: Microsoft could use OpenAI's model shock as a way to reopen a market that ordinary search competition had not reopened.
 
 This is where Microsoft differed from Google. Google had to worry that a direct-answer interface would damage a business it already dominated. Microsoft could treat the same interface as an insurgent wedge. It had less to lose in search and more to gain if the public believed that generative answers made the old hierarchy unstable. The same technology therefore carried opposite emotional weight inside the two companies. For Google, it was a self-disruption problem. For Microsoft, it was a chance to make an old defeat newly contestable.
 
