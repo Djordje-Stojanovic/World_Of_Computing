@@ -506,3 +506,6 @@ Tables and source excerpts should enter the book through the same proof membrane
 ## 2026-05-27 - I-0284 Real-World Image Layer
 
 Real-world visuals are useful only when they arrive as evidence handles, not vibes: the minimum unit is local file, source URL, source-asset URL, hash, role, story purpose, quality note, rights/private-use status, and blocked-claim text. Logos identify actors, profile images humanize institutions, and source images add texture, but none of them license market, benchmark, safety, adoption, current-product, or private-scene claims.
+## 2026-05-27 - I-0285 Paper/PDF Source Surfaces
+
+A paper page or deck page becomes book material only after it has a document hash, page render hash, page number, story job, lightweight card, rights/private-use note, and blocked-claim footer. The render proves what was captured; it does not turn vendor slides, annual reports, or benchmark-heavy papers into neutral truth without sentence-level attribution.

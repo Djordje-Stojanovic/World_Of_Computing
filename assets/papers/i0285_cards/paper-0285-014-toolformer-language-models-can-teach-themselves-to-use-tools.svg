@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
+<rect width="100%" height="100%" fill="#fffaf2"/>
+<rect x="46" y="42" width="1108" height="676" fill="#ffffff" stroke="#24323a" stroke-width="3"/>
+<rect x="46" y="42" width="1108" height="96" fill="#24323a"/>
+<text x="78" y="88" font-family="Arial" font-size="29" font-weight="700" fill="#ffffff">Toolformer: Language Models Can Teach Themselves to Use...</text>
+<text x="78" y="116" font-family="Arial" font-size="15" fill="#dce9eb">paper_report_excerpt page 1 surface card, acquired in I-0285.</text>
+<text x="80" y="188" font-family="Arial" font-size="20" font-weight="700" fill="#26323a">Local page render</text>
+<text x="80" y="224" font-family="Arial" font-size="15" fill="#37464b">assets/source_surfaces/i0285/paper-0285-014-toolformer-language-models-can-teach-...</text>
+<text x="80" y="278" font-family="Arial" font-size="20" font-weight="700" fill="#26323a">Story job</text>
+<text x="80" y="314" font-family="Arial" font-size="17" fill="#26323a">Gives tool-use chapters a primary research source page.</text>
+<text x="80" y="374" font-family="Arial" font-size="20" font-weight="700" fill="#26323a">Source note</text>
+<text x="80" y="410" font-family="Arial" font-size="15" fill="#26323a">https://arxiv.org/pdf/2302.04761</text>
+<rect x="78" y="492" width="1044" height="112" fill="#f4eadc" stroke="#c8bba8"/>
+<text x="104" y="532" font-family="Arial" font-size="18" font-weight="700" fill="#3d3127">Blocked claims</text>
+<text x="104" y="568" font-family="Arial" font-size="15" fill="#3d3127">Does not prove autonomous reliability or current agent capability.</text>
+<text x="80" y="664" font-family="Arial" font-size="13" fill="#6f675d">sha256 page render: 9f067a45ff641775dec84ae0 | source document: 6d7483d94653008e40c2058a</text>
+</svg>

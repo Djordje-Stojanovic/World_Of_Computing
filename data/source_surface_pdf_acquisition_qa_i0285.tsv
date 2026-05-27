@@ -1,0 +1,10 @@
+check_id	category	result	evidence	recommended_action
+I0285-001	paper_report_count	pass	paper_report_count=15; target=13-15	Use in I-0291 evidence-surface integration.
+I0285-002	pdf_deck_report_count	pass	pdf_deck_report_count=15; target=13-15	Use in I-0291 evidence-surface integration.
+I0285-003	local_files	pass	rows=30 all_source_render_card_files_exist=True	Repair missing file handles before integration.
+I0285-004	hashes	pass	source/render/card hashes match=True	Keep hashes as acquisition proof.
+I0285-005	provenance_fields	pass	required_fields=story_purpose,blocked_claims,rights_status,source_url_or_path,page_number all_present=True	Do not promote rows without story purpose and blocked claims.
+I0285-006	text_extraction	pass	text_excerpt_rows=27; total_rows=30	Use OCR/manual review for image-heavy slides before quotation.
+I0285-007	diversity	pass	families={'paper_report_excerpt': 15, 'pdf_presentation_page': 11, 'pdf_report_page': 4}	Use I-0288 to fill any missing source-surface families.
+I0285-008	failure_log	pass	failures_logged=0	Use failures to target I-0288 second half.
+I0285-009	card_count	pass	cards=30; rows=30	Use cards as placement handles, not final raw-page permission.
