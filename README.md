@@ -6,16 +6,17 @@ This repository is the working memory, manuscript lab, source ledger, visual sys
 
 ## Current Book State
 
-Updated **2026-05-27** after pass `I-0302`.
+Updated **2026-05-27** after pass `I-0303`.
 
-- **Latest recorded pass:** `I-0302`, final private visual inventory/contact-sheet audit.
+- **Latest recorded pass:** `I-0303`, final source and unsupported-claim quarantine audit.
 - **Words:** 103,526 assembled source words across the canonical 24-chapter draft.
 - **Chapters:** 24 / 24 main chapters.
 - **Best local private PDF proof:** `rendered/final_private_i0301/Next-Token-final-private-personal-edition-i0301.pdf`.
-- **Final visual inventory:** `data/final_private_visual_inventory_i0302.tsv` maps 530 visual rows to the I-0301 PDF pages, local files, provenance, private-use status, story purpose, and blocked-claim boundaries.
-- **Final contact sheet:** `rendered/final_inventory_i0302/Next-Token-final-private-visual-contact-sheet-i0302.pdf` exists locally and is intentionally not committed. It has 16 pages, 159 image objects, and SHA256 `218eb5faa5e374c56c53f85ac69e5305910636a654702fe13a4d8c79aa426c5a`.
+- **Final visual inventory/contact sheet:** `data/final_private_visual_inventory_i0302.tsv` and `rendered/final_inventory_i0302/Next-Token-final-private-visual-contact-sheet-i0302.pdf`.
+- **Claim status:** `claims.tsv` has 318 supported rows and 0 needs-verification rows after the I-0303 audit.
+- **Source density:** the frozen champion manuscript has 545 source refs, 26 claim refs, and 181.3 words/reference.
 
-The private edition now has both the rich PDF and a separate audit surface for inspecting its charts, screenshots, source excerpts, logos, people images, tables, and model/documentation surfaces.
+The private edition is visually maximal and now has an explicit final claim-boundary audit for its manuscript and visual captions.
 
 ## Readiness Snapshot
 

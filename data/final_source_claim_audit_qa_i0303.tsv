@@ -1,0 +1,7 @@
+pass_id	check_id	category	result	evidence	recommended_action
+I-0303	I0303-001	claim_ledger_zero_unsupported	pass	claims={'supported': 318}	No action required for this automated check.
+I-0303	I0303-002	manuscript_risk_scan	pass	bounded=117; needs_review=0	No action required for this automated check.
+I-0303	I0303-003	visual_boundaries	pass	visual_rows=530; needs_boundary_review=0	No action required for this automated check.
+I-0303	I0303-004	source_density	pass	words_per_ref=181.3; refs=571	No action required for this automated check.
+I-0303	I0303-005	source_ledger_exists	pass	source_rows=510	No action required for this automated check.
+I-0303	I0303-006	book_invariants	pass	words=103526; chapters=24	No action required for this automated check.
