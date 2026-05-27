@@ -2,7 +2,15 @@
 
 Read this file fully before acting. Then run exactly one FIFO loop pass per invocation, record what happened, commit, push, and continue forever when launched with `/goal`.
 
-## 0. Mission
+## 0. FINAL PHASE — Page-by-Page Perfection (I-0337)
+
+The ten rescue passes are complete. The book now enters its final phase: page-by-page manual perfection.
+
+**Process:** Inspect each page of `rendered/final_i0337/Next-Token-final-i0337.pdf` one at a time. Fix the HTML source. Re-render. Verify. Log in `data/page_perfection_log_i0337.tsv`. Move to next page. When every page is perfect, the book is published.
+
+**No more automated passes. No more batch edits. One page at a time until done.**
+
+## 0. Mission (original)
 
 Finish **Next Token: The Race to Build the Machines That Learned Language, Code, and Computing** as a 100,000-120,000 word, exactly 24-chapter, deeply sourced, visually maximal **private personal edition** about large language models through the hard factual cutoff of **May 24, 2026**.
 

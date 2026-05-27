@@ -2,6 +2,32 @@
 
 This workspace is for the Codex `/goal` loop defined in `GOAL.md`.
 
+## FINAL PHASE: Page-by-Page Perfection (I-0337)
+
+The book is now in its FINAL phase. No more passes. No more batches. No more automated sweeps.
+
+**The only remaining work:** go through every page of the rendered PDF ONE AT A TIME, make that single page perfect, log it in `data/page_perfection_log_i0337.tsv`, re-render, verify, then move to the next page. When every page is perfect, the book is published.
+
+### Page Perfection Protocol
+
+1. Open `rendered/final_i0337/Next-Token-final-i0337.pdf` and inspect page N.
+2. Determine what would make this page perfect: correct image placement, proper text context, right image for the right chapter, good caption, no blankness, no process language, correct chronology.
+3. Edit `rendered/final_i0337/Next-Token-final-i0337.html` to fix the page.
+4. Re-render the PDF via Chrome headless.
+5. Verify page N is perfect.
+6. Log the page in `data/page_perfection_log_i0337.tsv` with columns: page, status, words, images, issue, action_taken, new_words, new_images, notes.
+7. Commit and push after every page or small batch.
+8. Move to page N+1.
+
+### Rules for this phase
+
+- Work ONE page at a time. Do not skip ahead.
+- Every image must have text context above and below it.
+- Images must be placed in their correct chronological chapter context.
+- No blank pages. No sparse pages. No process language. No bad captions.
+- Log every page fix in `data/page_perfection_log_i0337.tsv`.
+- After each page is perfect, describe it to the user and ask if ready to proceed.
+
 ## Operating Rules
 
 - Read `GOAL.md` fully before every serious pass.
@@ -33,6 +59,7 @@ This workspace is for the Codex `/goal` loop defined in `GOAL.md`.
 - `archive/` - stepping-stone variants.
 - `assets/` - visual/data/source assets.
 - `rendered/` - PDF outputs and render QA.
+- `data/page_perfection_log_i0337.tsv` - FINAL PHASE: page-by-page perfection tracking.
 
 ## GitHub
 
