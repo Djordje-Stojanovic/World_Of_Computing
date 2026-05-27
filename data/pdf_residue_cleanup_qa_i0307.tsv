@@ -1,0 +1,10 @@
+pass_id	check_id	category	result	evidence	recommended_action
+I-0307	I0307-001	pdf_render_exists	pass	pages=677; blank_like=0; sha256=a33496a2b5cb66b233a275e0accbe6d741869e56d0218f8371c06f5c3acb06fd	No action required for this automated check.
+I-0307	I0307-002	visible_residue_zero	pass	before=2794; after=0	No action required for this automated check.
+I-0307	I0307-003	local_path_zero	pass	drive=0; file_uri=0; assets=0; rendered=0; local=0	No action required for this automated check.
+I-0307	I0307-004	process_residue_zero	pass	process residue rows all zero	No action required for this automated check.
+I-0307	I0307-005	visual_objects_preserved	pass	before_images=330; after_images=330; before_drawings=4998; after_drawings=4891	No action required for this automated check.
+I-0307	I0307-006	svg_cards_cleaned	pass	svg_images_cleaned=200; replacement_rows=200	No action required for this automated check.
+I-0307	I0307-007	claim_ledger_zero_unsupported	pass	claims={'supported': 323}	No action required for this automated check.
+I-0307	I0307-008	book_invariants_preserved	pass	words=103526; chapters=24	No action required for this automated check.
+I-0307	I0307-009	manifest_complete	pass	artifacts=8; missing=0	No action required for this automated check.

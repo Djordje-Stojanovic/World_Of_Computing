@@ -6,28 +6,28 @@ This repository is the working memory, manuscript lab, source ledger, visual sys
 
 ## Current Book State
 
-Updated **2026-05-27** after pass `I-0307`.
+Updated **2026-05-27** after pass `I-0306`.
 
-- **Latest recorded pass:** `I-0307`, PDF path/process residue cleanup.
+- **Latest recorded pass:** `I-0306`, final pointer/report refresh.
 - **Words:** 103,526 assembled source words across the canonical 24-chapter draft.
 - **Chapters:** 24 / 24 main chapters.
-- **Best local private PDF proof:** `rendered/final_private_i0307/Next-Token-final-private-residue-clean-i0307.pdf`.
-- **Final champion pointer:** `champion/final-private-pdf-pointer-i0307.md`.
+- **Best local private PDF proof:** `rendered/final_private_i0305/Next-Token-final-private-reader-polish-i0305.pdf`.
+- **Final champion pointer:** `champion/final-private-champion-pointer-i0306.md`.
 - **Final visual inventory/contact sheet:** `data/final_private_visual_inventory_i0302.tsv` and `rendered/final_inventory_i0302/Next-Token-final-private-visual-contact-sheet-i0302.pdf`.
 - **Final visual inventory rows:** 530, including the 100 curated chart/data/SVG lane plus the additional GOAL.md lanes for photos/screenshots/source images, paper/report excerpts, PDF/deck/report pages, model-card/benchmark/doc surfaces, logos, benchmark tables, people/profile images, and authored visual boards.
-- **Claim status:** `claims.tsv` has 323 supported rows and 0 needs-verification rows after the I-0307 residue cleanup.
+- **Claim status:** `claims.tsv` has 322 supported rows and 0 needs-verification rows after the I-0306 pointer refresh.
 - **Source density:** the frozen champion manuscript has 545 source refs, 26 claim refs, and 181.3 words/reference.
 
-The current local proof has cleared the first publication-surface blocker: visible path/process residue now scans at 0 hits. It is still not final until I-0308 fixes contextual visual placement and I-0309 performs page-by-page publishable-proof QA.
+The private edition is visually abundant for personal use, but the current PDF is only a proof. It is not publication-surface clean until local path leaks, process/proof residue, bottom-heavy visual dumping, placeholders, and out-of-context visuals are removed.
 
 ## Readiness Snapshot
 
 Private-edition readiness as of 2026-05-27:
 
-- **Private personal edition:** usable as a cleaner local proof after I-0307; not done as a publishable-looking book until I-0308-I-0309 repair contextual visual placement and full-page PDF QA.
-- **Hard invariant compliance:** passing for word count, 24 chapters, visual target categories, blank-page checks, unsupported-claim ledger, and visible path/process residue; still failing the publication-surface standard because visual placement remains too atlas-heavy.
+- **Private personal edition:** usable as a local proof, but not done as a publishable-looking book until I-0307-I-0309 repair path/process residue, contextual visual placement, and full-page PDF QA.
+- **Hard invariant compliance:** passing for word count, 24 chapters, visual target categories, blank-page checks, and unsupported-claim ledger; failing the publication-surface standard because the PDF can expose local paths/process residue and over-concentrated visual sections.
 - **Visual ambition:** quantity is not the issue; the next gate is professional placement. Kept visuals must sit near the argument they serve, and weak, placeholder, duplicated, or out-of-context visuals must be cut or replaced.
-- **Publication-surface readiness:** not claimed. I-0308 and I-0309 remain reserved for contextual visual integration and final page-by-page PDF QA.
+- **Publication-surface readiness:** not claimed. The next three FIFO passes are reserved for making the PDF look and read like a professionally edited book, separate from any legal/public-rights clearance.
 
 ## 100-Exhibit Dashboard
 

@@ -558,3 +558,5 @@ The benchmark layer is strongest when tables are explicit memory aids rather tha
 - I-0305: after visual abundance is solved, the best reader polish is orientation, not explanation bloat. Four text-only gates can make the opening, ending, atlas, and authored boards feel intentional while adding no new factual burden and preserving the visual evidence layer.
 
 - I-0306: a visually rich proof is not a finished book if the PDF leaks local filesystem paths, process labels, proof language, or bottom-dump visual assembly. The next gate is publication-surface cleanliness: remove path/residue text, place every good visual in context, cut weak visuals, then render and QA page by page.
+
+- I-0307: path leaks in a PDF are usually a render-surface failure, not a prose failure. The right repair is to disable browser file footers, sanitize visible source-card/SVG text, and prove the result by extracting text from the rendered PDF rather than trusting the HTML source.

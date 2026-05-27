@@ -1,0 +1,3 @@
+pass_id	source_path	backup_path	bytes	sha256	status
+I-0307	README.md	archive/champion_backup_i0307_changed_files/README.md	9325	b29d77c03bfd64298e6d8dfd97e230b444d63fe68d4641b7fe39af544672e61e	preserved
+I-0307	champion/README.md	archive/champion_backup_i0307_changed_files/champion/README.md	1169	5c02e0ac2dab0fd16edbc5951c734b09d7fcff10086734e6f76d0d91668b1570	preserved

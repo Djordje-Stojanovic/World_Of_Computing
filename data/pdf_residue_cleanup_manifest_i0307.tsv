@@ -1,0 +1,9 @@
+pass_id	artifact	path	exists	bytes	sha256	pages	image_objects	drawing_objects	residue_total	note
+I-0307	source_pdf	rendered/final_private_i0305/Next-Token-final-private-reader-polish-i0305.pdf	yes	76525810	967ea2421b7c9cb18d5e6f7dc7354425434d68d8e4ac8bbbc85c3b1deff16926	685	330	4998	2794	I-0305 reader-polished proof before residue cleanup
+I-0307	clean_html	rendered/final_private_i0307/Next-Token-final-private-residue-clean-i0307.html	yes	97383067	baa6272fd68b20e4639cd27b333a290a89837d9eb6d05759c6b69568efc65000					I-0307 cleaned HTML source for local proof
+I-0307	clean_pdf	rendered/final_private_i0307/Next-Token-final-private-residue-clean-i0307.pdf	yes	68171291	a33496a2b5cb66b233a275e0accbe6d741869e56d0218f8371c06f5c3acb06fd	677	330	4891	0	I-0307 local residue-clean PDF proof
+I-0307	residue_counts	data/pdf_residue_cleanup_counts_i0307.tsv	yes	909	91b49934a76fc4940d2f4f47218b519c41231db51cb8e8dcc37cc56e47a11468					before/after PDF residue counts
+I-0307	replacement_ledger	data/pdf_residue_cleanup_replacements_i0307.tsv	yes	59035	64a22c6ab20c3f20266c3df47bf3359e909a4e93c4a807958ce6f4fba77802d5					sanitized SVG copies=200; text nodes cleaned=1523
+I-0307	qa	data/pdf_residue_cleanup_qa_i0307.tsv	yes	1255	2659c1515412fe91b951a3a99a16a1f194cabfc67e34636281b24c7079fe8401					I-0307 QA ledger
+I-0307	report	manuscript/pdf-residue-cleanup-i0307.md	yes	2204	5f2f04b52d794682acccce404bbfb89b39312d1ebd5982e2938f07494d1cb67b					I-0307 report
+I-0307	champion_pointer	champion/final-private-pdf-pointer-i0307.md	yes	832	18beca054685c67f53a4294499a41078373745f749d4c134907c71b32978fc2c					human-facing pointer to I-0307 clean proof
