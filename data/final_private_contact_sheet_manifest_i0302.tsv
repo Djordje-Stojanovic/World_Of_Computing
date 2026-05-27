@@ -1,0 +1,4 @@
+pass_id	artifact	path	rows_represented	pages	image_objects	bytes	sha256	private_use_note
+I-0302	contact_sheet_html	rendered/final_inventory_i0302/Next-Token-final-private-visual-contact-sheet-i0302.html	530			379835	cb18bdda3ee58787ed22dd2e9ec6c7190b492bcce39bbcb1eda34b860a851d05	local ignored contact-sheet source
+I-0302	contact_sheet_pdf	rendered/final_inventory_i0302/Next-Token-final-private-visual-contact-sheet-i0302.pdf	530	16	159	59164399	218eb5faa5e374c56c53f85ac69e5305910636a654702fe13a4d8c79aa426c5a	local ignored contact-sheet PDF
+I-0302	source_pdf	rendered/final_private_i0301/Next-Token-final-private-personal-edition-i0301.pdf	530			76497555	5eade58d218f10cf8d7146964660a81d9aeb7560e057ee1eee3766619ac35ce6	best local rhythm-repaired private PDF

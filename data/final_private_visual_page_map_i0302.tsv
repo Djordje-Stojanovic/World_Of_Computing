@@ -1,0 +1,531 @@
+pass_id	inventory_id	visual_family	asset_id	title	old_pdf_page_i0300	pdf_page_i0302	mapping_method	mapping_evidence	status
+I-0302	FI-0001	expanded_300_exhibit	A-0287-013	Figure 01.01 - OpenAI Platform Became A Public Product Surface		2	figure_or_section_id	F01.01	mapped
+I-0302	FI-0002	expanded_300_exhibit	A-0069	Figure 1.2 - From Prompt to Answer, One Token at a Time. Human text becomes tokens, context, next-token predictions, and generated answer.		7	figure_or_section_id	F01.02	mapped
+I-0302	FI-0003	expanded_300_exhibit	A-0070	Figure 1.3 - Local Alarms: First Institutional Response Chronology. Stack Overflow, NYC schools, Seattle schools, and JPMorgan become named local-control examples.		12	figure_or_section_id	F01.03	mapped
+I-0302	FI-0004	expanded_300_exhibit	A-0285-001	Figure 02.01 - Transformer Paper Page As The Breakthrough Surface		17	figure_or_section_id	F02.01	mapped
+I-0302	FI-0005	expanded_300_exhibit	A-0288-001	Figure 03.01 - BERT Page As Bidirectional Transformer Lineage		30	figure_or_section_id	F03.01	mapped
+I-0302	FI-0006	expanded_300_exhibit	A-0285-005	Figure 04.01 - Scaling Laws Page As Loss-Compute Evidence		43	figure_or_section_id	F04.01	mapped
+I-0302	FI-0007	expanded_300_exhibit	A-0285-002	Figure 05.01 - GPT-1 Paper Page As Pretraining Origin		56	figure_or_section_id	F05.01	mapped
+I-0302	FI-0008	expanded_300_exhibit	A-0287-014	Figure 06.01 - Anthropic Console Product Surface		72	figure_or_section_id	F06.01	mapped
+I-0302	FI-0009	expanded_300_exhibit	A-0284-006	Figure 06.02 - OpenAI API As Behavior Interface	77	77	figure_or_section_id	F06.02	mapped
+I-0302	FI-0010	expanded_300_exhibit	A-0284-057	Figure 06.03 - Dario Amodei Public Profile Texture		83	figure_or_section_id	F06.03	mapped
+I-0302	FI-0011	expanded_300_exhibit	A-0016	Figure 7.x - ChatGPT: From Interface Event To Business Surface. Sourced timeline for ChatGPT launch, Plus, plugins, Enterprise release-note entry, GPTs, and GPT-4o with a blocked adoption/productivity lane.		91	figure_or_section_id	F07.01	mapped
+I-0302	FI-0012	expanded_300_exhibit	A-0284-052	Figure 07.02 - Sam Altman Public Profile Texture	95	95	figure_or_section_id	F07.02	mapped
+I-0302	FI-0013	expanded_300_exhibit	A-0260-001	Paid access became a product surface	99	99	figure_or_section_id	F07.03	mapped
+I-0302	FI-0014	expanded_300_exhibit	A-0260-002	Enterprise ChatGPT added workplace controls	102	102	figure_or_section_id	F07.04	mapped
+I-0302	FI-0015	expanded_300_exhibit	A-0260-003	Release notes are product archaeology	106	106	figure_or_section_id	F07.05	mapped
+I-0302	FI-0016	expanded_300_exhibit	A-0056	Figure 8.1 - Microsoft/OpenAI: The Cloud Bargain Timeline. Sourced chronology from 2019 compute partnership to Microsoft 365 Copilot with blocked outcome lane.		111	figure_or_section_id	F08.01	mapped
+I-0302	FI-0017	expanded_300_exhibit	A-0287-017	Figure 08.02 - Microsoft Copilot Product Surface	115	115	figure_or_section_id	F08.02	mapped
+I-0302	FI-0018	expanded_300_exhibit	A-0058	Figure 8.3 - Inference Cost Stack: What The Chat Box Hides. Non-quantified stack of latency, governance, serving software, accelerators, and physical datacenter layers.		118	figure_or_section_id	F08.03	mapped
+I-0302	FI-0019	expanded_300_exhibit	A-0059	Figure 8.4 - Enterprise Claim Blocker Map. Access routes and product surfaces are allowed now; revenue, ROI, productivity, adoption, search share, and margin need stronger rows.		121	figure_or_section_id	F08.04	mapped
+I-0302	FI-0020	expanded_300_exhibit	A-0288-004	Figure 09.01 - PaLM Page As Google's Scale Surface		127	figure_or_section_id	F09.01	mapped
+I-0302	FI-0021	expanded_300_exhibit	A-0289-004	Figure 09.02 - Gemini API Model Docs Surface	130	130	figure_or_section_id	F09.02	mapped
+I-0302	FI-0022	expanded_300_exhibit	A-0288-016	Figure 09.03 - Gemini 1.5 Report Page As Long-Context Surface		133	figure_or_section_id	F09.03	mapped
+I-0302	FI-0023	expanded_300_exhibit	A-0289-T001	Figure 09.04 - 2023 Model-Landscape Table	136	136	figure_or_section_id	F09.04	mapped
+I-0302	FI-0024	expanded_300_exhibit	A-0287-015	Figure 09.05 - Google AI Studio Product Surface	139	139	figure_or_section_id	F09.05	mapped
+I-0302	FI-0025	expanded_300_exhibit	A-0288-009	Figure 10.01 - Llama 3 Herd Paper Page	144	144	figure_or_section_id	F10.01	mapped
+I-0302	FI-0026	expanded_300_exhibit	A-0286-004	Figure 10.02 - Llama 2 Hugging Face Model Card	147	147	figure_or_section_id	F10.02	mapped
+I-0302	FI-0027	expanded_300_exhibit	A-0286-011	Figure 10.03 - Llama 3 Hugging Face Model Card	150	150	figure_or_section_id	F10.03	mapped
+I-0302	FI-0028	expanded_300_exhibit	A-0287-019	Figure 10.04 - Meta Llama Documentation Surface		153	figure_or_section_id	F10.04	mapped
+I-0302	FI-0029	expanded_300_exhibit	A-0285-008	Figure 10.05 - Llama 2 Report Page As Open-Weight Infrastructure		156	figure_or_section_id	F10.05	mapped
+I-0302	FI-0030	expanded_300_exhibit	A-0289-001	Figure 11.01 - Qwen3 Hugging Face Model Card	160	160	figure_or_section_id	F11.01	mapped
+I-0302	FI-0031	expanded_300_exhibit	A-0289-002	Figure 11.02 - DeepSeek-V3 Hugging Face Model Card		162	figure_or_section_id	F11.02	mapped
+I-0302	FI-0032	expanded_300_exhibit	A-0285-010	Figure 11.03 - Qwen2 Technical Report Page	166	166	figure_or_section_id	F11.03	mapped
+I-0302	FI-0033	expanded_300_exhibit	A-0288-017	Figure 11.04 - Qwen3 Technical Report Page	169	169	figure_or_section_id	F11.04	mapped
+I-0302	FI-0034	expanded_300_exhibit	A-0285-011	Figure 11.05 - DeepSeek-V3 Technical Report Page		172	figure_or_section_id	F11.05	mapped
+I-0302	FI-0035	expanded_300_exhibit	A-0094	Figure 12.1 - Constitutional AI As Behavior Grammar. Written principles, critique/revision, AI feedback, and evaluation loops can shape assistant behavior, but they do not prove solved alignment or moral guarantees.		179	figure_or_section_id	F12.01	mapped
+I-0302	FI-0036	expanded_300_exhibit	A-0095	Figure 12.2 - Claude Becomes A Product Family. Haiku, Sonnet, Opus, computer use, Claude Code, and Claude 4 mark release surfaces and product positioning, not permanent best-model status.		181	figure_or_section_id	F12.02	mapped
+I-0302	FI-0037	expanded_300_exhibit	A-0096	Figure 12.3 - From Assistant To Action Surface. Anthropic's computer-use, MCP, and Claude Code materials show a move toward tool-connected assistants, with permissions and review as part of the system.		186	figure_or_section_id	F12.03	mapped
+I-0302	FI-0038	expanded_300_exhibit	A-0097	Figure 12.4 - The Tempting Claude Claims Are Not The Sourced Ones. Vendor launch pages and docs can show product direction, but outcome claims need benchmark, pricing, adoption, productivity, and safety evidence at the same scope.		191	figure_or_section_id	F12.04	mapped
+I-0302	FI-0039	expanded_300_exhibit	A-0260-017	Computer use was a product announcement	188	188	figure_or_section_id	F12.05	mapped
+I-0302	FI-0040	expanded_300_exhibit	A-0260-018	Claude is a model-family product surface	189	189	figure_or_section_id	F12.06	mapped
+I-0302	FI-0041	expanded_300_exhibit	A-0286-009	Figure 13.01 - LMArena Leaderboard Surface	204	204	figure_or_section_id	F13.01	mapped
+I-0302	FI-0042	expanded_300_exhibit	A-0289-T005	Figure 13.02 - May 2026 Cutoff Model-Landscape Table		209	figure_or_section_id	F13.02	mapped
+I-0302	FI-0043	expanded_300_exhibit	A-0289-T002	Figure 13.03 - 2024 Model-Landscape Table	214	214	figure_or_section_id	F13.03	mapped
+I-0302	FI-0044	expanded_300_exhibit	A-0071	Figure 14.1 - CUDA Stack: The Moat Under The Moat. Frameworks, libraries, CUDA programming model, runtime, accelerators, and cloud operations form one stack.		219	figure_or_section_id	F14.01	mapped
+I-0302	FI-0045	expanded_300_exhibit	A-0072	Figure 14.2 - GPU Memory and Interconnect: The Traffic Pattern. Host orchestration, HBM, GPU shards, and interconnect fabric make LLM systems a communication problem.		221	figure_or_section_id	F14.02	mapped
+I-0302	FI-0046	expanded_300_exhibit	A-0073	Figure 14.3 - Training vs Inference: Two Capacity Problems. Training runs and inference services stress the same GPU stack in different ways.		223	figure_or_section_id	F14.03	mapped
+I-0302	FI-0047	expanded_300_exhibit	A-0261-001	Lithography Texture Becomes Packaging Logic	227	227	figure_or_section_id	F14.04	mapped
+I-0302	FI-0048	expanded_300_exhibit	A-0261-002	Cleanrooms Are Too Weak Without Rights	230	230	figure_or_section_id	F14.05	mapped
+I-0302	FI-0049	expanded_300_exhibit	A-0287-002	Figure 14.06 - NVIDIA GB200 NVL72 Hardware Surface		233	figure_or_section_id	F14.06	mapped
+I-0302	FI-0050	expanded_300_exhibit	A-0287-001	Figure 15.01 - NVIDIA DGX Cloud Product Surface		236	figure_or_section_id	F15.01	mapped
+I-0302	FI-0051	expanded_300_exhibit	A-0284-051	Figure 15.02 - Jensen Huang Public Profile Texture		239	figure_or_section_id	F15.02	mapped
+I-0302	FI-0052	expanded_300_exhibit	A-0285-019	Figure 15.03 - GTC 2026 Rack-Scale Comparison Page		242	figure_or_section_id	F15.03	mapped
+I-0302	FI-0053	expanded_300_exhibit	A-0285-018	Figure 15.04 - GTC 2026 Hardware Roadmap Page		244	figure_or_section_id	F15.04	mapped
+I-0302	FI-0054	expanded_300_exhibit	A-0029	Figure 15.x - GTC Page 51: DSX Platform Frame. Lightweight card labeling DSX as NVIDIA reference-design and AI factory platform framing.		247	figure_or_section_id	F15.05	mapped
+I-0302	FI-0055	expanded_300_exhibit	A-0285-017	Figure 15.06 - GTC 2026 AI Factory Framing Page		249	figure_or_section_id	F15.06	mapped
+I-0302	FI-0056	expanded_300_exhibit	A-0260-022	Inference compute is a roadmap argument	252	252	figure_or_section_id	F15.07	mapped
+I-0302	FI-0057	expanded_300_exhibit	A-0015	Figure 16.1 - Power To Token Flow. Sourced Chapter 16 flow diagram tracing electricity demand, grid interconnection, facility cooling, accelerators, inference scheduling, and token output with caveat bands.		258	figure_or_section_id	F16.01	mapped
+I-0302	FI-0058	expanded_300_exhibit	A-0020	Figure 16.2 - Data-Centre Load Scenarios. IEA, LBNL, and DOE rows show measured/current estimates separately from forecast and scenario ranges for global and U.S. data-centre electricity demand.		261	figure_or_section_id	F16.02	mapped
+I-0302	FI-0059	expanded_300_exhibit	A-0021	Figure 16.3 - The Interconnection Queue. EPRI and DOE-SEAB evidence can show facility-scale requests and one-to-three-year grid lead-time pressure, but not a complete project-level delay database.		263	figure_or_section_id	F16.03	mapped
+I-0302	FI-0060	expanded_300_exhibit	A-0288-014	Figure 16.04 - GTC 2026 Data-Center Power/Cooling Page		266	figure_or_section_id	F16.04	mapped
+I-0302	FI-0061	expanded_300_exhibit	A-0023	Figure 16.5 - Clean Procurement Is Not Physical Supply. IEA supply-mix projection language and DOE-SEAB flexibility categories support a distinction between corporate contracts/certificates and the electricity physically serving a site at a given hour.		268	figure_or_section_id	F16.05	mapped
+I-0302	FI-0062	expanded_300_exhibit	A-0287-009	Figure 16.06 - Equinix AI Data-Center Surface	271	271	figure_or_section_id	F16.06	mapped
+I-0302	FI-0063	expanded_300_exhibit	A-0261-004	Interconnection Is A Queue, Not Atmosphere	273	273	figure_or_section_id	F16.07	mapped
+I-0302	FI-0064	expanded_300_exhibit	A-0261-005	Fast Power Is A Constraint Stack	277	277	figure_or_section_id	F16.08	mapped
+I-0302	FI-0065	expanded_300_exhibit	A-0261-006	Nuclear Texture Needs Evidence, Not Steam	279	279	figure_or_section_id	F16.09	mapped
+I-0302	FI-0066	expanded_300_exhibit	A-0064	Figure 17.1 - Tokenization Ladder. Human text becomes subword pieces, token IDs, context budget, and next-token prediction target.		281	figure_or_section_id	F17.01	mapped
+I-0302	FI-0067	expanded_300_exhibit	A-0065	Figure 17.2 - Web Corpus Filter Funnel. Common Crawl style data becomes a training-mixture candidate through filtering, deduplication, and documentation decisions.		284	figure_or_section_id	F17.02	mapped
+I-0302	FI-0068	expanded_300_exhibit	A-0066	Figure 17.3 - Data Mixture Control Board. Schematic corpus lanes show data mixtures as recipes with open-corpus rows and closed-corpus blockers.		289	figure_or_section_id	F17.03	mapped
+I-0302	FI-0069	expanded_300_exhibit	A-0067	Figure 17.4 - Memorization and Contamination Blocker Map. Duplication, benchmark contamination, memorization, extraction, and blocker families are separated.		292	figure_or_section_id	F17.04	mapped
+I-0302	FI-0070	expanded_300_exhibit	A-0060	Figure 18.1 - RAG Evidence Conveyor. Retrieval, ranking, context packing, generation, citation, and audit gates with failure labels.		296	figure_or_section_id	F18.01	mapped
+I-0302	FI-0071	expanded_300_exhibit	A-0061	Figure 18.2 - Function-Call Boundary. The model proposes typed calls; application validation, permissions, execution, and logging decide what happens.		298	figure_or_section_id	F18.02	mapped
+I-0302	FI-0072	expanded_300_exhibit	A-0062	Figure 18.3 - Agent Loop as Harness. Plan, act, observe, gate, context, and review form a bounded system loop.		302	figure_or_section_id	F18.03	mapped
+I-0302	FI-0073	expanded_300_exhibit	A-0063	Figure 18.4 - Prompt Injection Boundary. Untrusted retrieved content tries to cross from data into instruction before a tool action.		304	figure_or_section_id	F18.04	mapped
+I-0302	FI-0074	expanded_300_exhibit	A-0260-003	Release notes are product archaeology	106	307	figure_or_section_id	F18.05	mapped
+I-0302	FI-0075	expanded_300_exhibit	A-0288-006	Figure 19.01 - Code Llama Paper Page As Code-Model Lineage		312	figure_or_section_id	F19.01	mapped
+I-0302	FI-0076	expanded_300_exhibit	A-0289-007	Figure 19.02 - LiveCodeBench Leaderboard Surface		315	figure_or_section_id	F19.02	mapped
+I-0302	FI-0077	expanded_300_exhibit	A-0289-T003	Figure 19.03 - 2025 Model-Landscape Table	318	318	figure_or_section_id	F19.03	mapped
+I-0302	FI-0078	expanded_300_exhibit	A-0286-008	Figure 19.04 - SWE-bench GitHub Repository Surface		320	figure_or_section_id	F19.04	mapped
+I-0302	FI-0079	expanded_300_exhibit	A-0286-T004	Figure 19.05 - 2021 Model-Landscape Table	324	324	figure_or_section_id	F19.05	mapped
+I-0302	FI-0080	expanded_300_exhibit	A-0289-010	Figure 20.01 - OpenAI Evals Repository Surface	329	329	figure_or_section_id	F20.01	mapped
+I-0302	FI-0081	expanded_300_exhibit	A-0285-013	Figure 20.02 - SWE-bench Paper Page As Harness Evidence		331	figure_or_section_id	F20.02	mapped
+I-0302	FI-0082	expanded_300_exhibit	A-0285-014	Figure 20.03 - Toolformer Paper Page As Tool-Use Lineage		333	figure_or_section_id	F20.03	mapped
+I-0302	FI-0083	expanded_300_exhibit	A-0289-008	Figure 20.04 - Berkeley Function Calling Leaderboard Surface		338	figure_or_section_id	F20.04	mapped
+I-0302	FI-0084	expanded_300_exhibit	A-0284-014	Figure 20.05 - GitHub Copilot Product Surface	341	341	figure_or_section_id	F20.05	mapped
+I-0302	FI-0085	expanded_300_exhibit	A-0289-T004	Figure 21.01 - 2026 Model-Landscape Table	346	346	figure_or_section_id	F21.01	mapped
+I-0302	FI-0086	expanded_300_exhibit	A-0288-005	Figure 21.02 - Chain-of-Thought Paper Page	347	347	figure_or_section_id	F21.02	mapped
+I-0302	FI-0087	expanded_300_exhibit	A-0285-012	Figure 21.03 - DeepSeek-R1 Report Page As Reasoning Surface		348	figure_or_section_id	F21.03	mapped
+I-0302	FI-0088	expanded_300_exhibit	A-0286-T005	Figure 21.04 - 2022 Model-Landscape Table	349	349	figure_or_section_id	F21.04	mapped
+I-0302	FI-0089	expanded_300_exhibit	A-0286-T001	Figure 22.01 - 2018 Model-Landscape Table	361	361	figure_or_section_id	F22.01	mapped
+I-0302	FI-0090	expanded_300_exhibit	A-0287-026	Figure 22.02 - OpenRouter Logo As Routing-Ecosystem Handle		364	figure_or_section_id	F22.02	mapped
+I-0302	FI-0091	expanded_300_exhibit	A-0286-T002	Figure 22.03 - 2019 Model-Landscape Table	367	367	figure_or_section_id	F22.03	mapped
+I-0302	FI-0092	expanded_300_exhibit	A-0286-T003	Figure 22.04 - 2020 Model-Landscape Table	370	370	figure_or_section_id	F22.04	mapped
+I-0302	FI-0093	expanded_300_exhibit	A-0074	Figure 23.1 - Failure Modes Are Different Claims. Hallucination/truth, sycophancy, adversarial, proxy, evidence, and measurement failures are separate evidence lanes.		375	figure_or_section_id	F23.01	mapped
+I-0302	FI-0094	expanded_300_exhibit	A-0075	Figure 23.2 - Trust Is A Stack. Evidence selection, evidence use, authority, evaluation, permission/action, and audit memory form layered controls.		376	figure_or_section_id	F23.02	mapped
+I-0302	FI-0095	expanded_300_exhibit	A-0076	Figure 23.3 - Every Evaluation Casts A Shadow. TruthfulQA, Arena preference, SWE-bench, and LiveCodeBench each illuminate a scoped slice and leave blind spots.		377	figure_or_section_id	F23.03	mapped
+I-0302	FI-0096	expanded_300_exhibit	A-0077	Figure 23.4 - From Answer To Auditable Claim. Question, retrieval, generation, audit, blocker, record, and publish steps separate fluent output from scoped evidence.		378	figure_or_section_id	F23.04	mapped
+I-0302	FI-0097	expanded_300_exhibit	A-0108	Figure 24.1 - From Next Token To Computing Stack. Next-token prediction is surrounded by data, architecture, training, products, tools, infrastructure, economics, and trust.		388	figure_or_section_id	F24.01	mapped
+I-0302	FI-0098	expanded_300_exhibit	A-0109	Figure 24.2 - Five Conversion Gates. Prediction-to-interface, interface-to-product, model-to-platform, compute-to-infrastructure, and fluency-to-trust are shown as overlapping pressures.		389	figure_or_section_id	F24.02	mapped
+I-0302	FI-0099	expanded_300_exhibit	A-0110	Figure 24.3 - Unsettled By The Cutoff. Tempting end-of-book claims are paired with the same-scope evidence still required.		390	figure_or_section_id	F24.03	mapped
+I-0302	FI-0100	expanded_300_exhibit	A-0111	Figure 24.4 - Human Judgment Loop. User intent, model tokens, tools, evidence trace, audit, blockers, and human decision form the closing loop.		391	figure_or_section_id	F24.04	mapped
+I-0302	FI-0101	expanded_300_exhibit	A-0001	Generated visual grammar prototype	402	402	figure_or_section_id	VX001	mapped
+I-0302	FI-0102	expanded_300_exhibit	A-0002	Generated visual grammar prototype	402	403	figure_or_section_id	VX002	mapped
+I-0302	FI-0103	expanded_300_exhibit	A-0003	Generated visual grammar prototype	402	404	figure_or_section_id	VX003	mapped
+I-0302	FI-0104	expanded_300_exhibit	A-0010	Generated GPT lineage visual table	405	405	figure_or_section_id	VX004	mapped
+I-0302	FI-0105	expanded_300_exhibit	A-0011	Generated RLHF and alignment pipeline visual	406	406	figure_or_section_id	VX005	mapped
+I-0302	FI-0106	expanded_300_exhibit	A-0012	Generated AI factory stack visual	407	407	figure_or_section_id	VX006	mapped
+I-0302	FI-0107	expanded_300_exhibit	A-0013	Generated LMArena historical leaderboard chart	408	408	figure_or_section_id	VX007	mapped
+I-0302	FI-0108	expanded_300_exhibit	A-0014	Generated Arena leaderboard methodology flow	409	409	figure_or_section_id	VX008	mapped
+I-0302	FI-0109	expanded_300_exhibit	A-0017	Generated Chapter 16 N16-1 note layout mock	410	410	figure_or_section_id	VX009	mapped
+I-0302	FI-0110	expanded_300_exhibit	A-0018	Generated Chapter 16 parent inline-cue render	411	411	figure_or_section_id	VX010	mapped
+I-0302	FI-0111	expanded_300_exhibit	A-0019	Generated price-quality exclusion map	412	412	figure_or_section_id	VX011	mapped
+I-0302	FI-0112	expanded_300_exhibit	A-0022	Generated Chapter 16 cooling and rack-density note	413	413	figure_or_section_id	VX012	mapped
+I-0302	FI-0113	expanded_300_exhibit	A-0024	Generated GTC page 29 AI factory thesis card	414	414	figure_or_section_id	VX013	mapped
+I-0302	FI-0114	expanded_300_exhibit	A-0025	Generated GTC page 45 inference compute roadmap card	415	415	figure_or_section_id	VX014	mapped
+I-0302	FI-0115	expanded_300_exhibit	A-0026	Generated GTC page 46 Vera Rubin partner card	416	416	figure_or_section_id	VX015	mapped
+I-0302	FI-0116	expanded_300_exhibit	A-0027	Generated GTC page 49 system comparison card	417	417	figure_or_section_id	VX016	mapped
+I-0302	FI-0117	expanded_300_exhibit	A-0028	Generated GTC page 50 roadmap card	418	418	figure_or_section_id	VX017	mapped
+I-0302	FI-0118	expanded_300_exhibit	A-0030	Generated Llama family open-weight map	419	419	figure_or_section_id	VX018	mapped
+I-0302	FI-0119	expanded_300_exhibit	A-0031	Generated China open-model source-permission map	420	420	figure_or_section_id	VX019	mapped
+I-0302	FI-0120	expanded_300_exhibit	A-0032	Generated Chapter 20 coding-agent harness loop	421	421	figure_or_section_id	VX020	mapped
+I-0302	FI-0121	expanded_300_exhibit	A-0033	Generated Chapter 20 coding benchmark caveat matrix	422	422	figure_or_section_id	VX021	mapped
+I-0302	FI-0122	expanded_300_exhibit	A-0034	Generated Chapter 20 tool-call lifecycle	423	423	figure_or_section_id	VX022	mapped
+I-0302	FI-0123	expanded_300_exhibit	A-0035	Generated Chapter 20 productivity claim blocker map	424	424	figure_or_section_id	VX023	mapped
+I-0302	FI-0124	expanded_300_exhibit	A-0057	Generated Chapter 8 cloud-to-product flywheel	425	425	figure_or_section_id	VX024	mapped
+I-0302	FI-0125	expanded_300_exhibit	A-0068	Generated Chapter 1 ChatGPT shock chronology	426	426	figure_or_section_id	VX025	mapped
+I-0302	FI-0126	expanded_300_exhibit	A-0078	Generated Chapter 21 train-time versus test-time compute axes	427	427	figure_or_section_id	VX026	mapped
+I-0302	FI-0127	expanded_300_exhibit	A-0079	Generated Chapter 21 verifier/search loop	428	428	figure_or_section_id	VX027	mapped
+I-0302	FI-0128	expanded_300_exhibit	A-0080	Generated Chapter 21 inference-contract matrix	429	429	figure_or_section_id	VX028	mapped
+I-0302	FI-0129	expanded_300_exhibit	A-0081	Generated Chapter 21 reasoning-budget routing map	430	430	figure_or_section_id	VX029	mapped
+I-0302	FI-0130	expanded_300_exhibit	A-0082	Generated Chapter 22 token meter	431	431	figure_or_section_id	VX030	mapped
+I-0302	FI-0131	expanded_300_exhibit	A-0083	Generated Chapter 22 routing/caching/batching levers	432	432	figure_or_section_id	VX031	mapped
+I-0302	FI-0132	expanded_300_exhibit	A-0084	Generated Chapter 22 subscription/API/bundle map	433	433	figure_or_section_id	VX032	mapped
+I-0302	FI-0133	expanded_300_exhibit	A-0085	Generated Chapter 22 margin and ROI blocker grid	434	434	figure_or_section_id	VX033	mapped
+I-0302	FI-0134	expanded_300_exhibit	A-0086	Generated Chapter 9 research-to-product conversion timeline	435	435	figure_or_section_id	VX034	mapped
+I-0302	FI-0135	expanded_300_exhibit	A-0087	Generated Chapter 9 TPU/Search/Workspace surface map	436	436	figure_or_section_id	VX035	mapped
+I-0302	FI-0136	expanded_300_exhibit	A-0088	Generated Chapter 9 Gemini long-context lane	437	437	figure_or_section_id	VX036	mapped
+I-0302	FI-0137	expanded_300_exhibit	A-0089	Generated Chapter 9 benchmark/adoption blocker grid	438	438	figure_or_section_id	VX037	mapped
+I-0302	FI-0138	expanded_300_exhibit	A-0090	Generated Chapter 19 code-as-language ladder	439	439	figure_or_section_id	VX038	mapped
+I-0302	FI-0139	expanded_300_exhibit	A-0091	Generated Chapter 19 editor-to-repository workflow	440	440	figure_or_section_id	VX039	mapped
+I-0302	FI-0140	expanded_300_exhibit	A-0092	Generated Chapter 19 coding benchmark ladder	441	441	figure_or_section_id	VX040	mapped
+I-0302	FI-0141	expanded_300_exhibit	A-0093	Generated Chapter 19 repository-as-prompt schematic	442	443	figure_or_section_id	VX041	mapped
+I-0302	FI-0142	expanded_300_exhibit	A-0112	Generated Chapter 10 open-weight control stack	443	445	figure_or_section_id	VX042	mapped
+I-0302	FI-0143	expanded_300_exhibit	A-0113	Generated Chapter 10 adopter burden transfer diagram	444	446	figure_or_section_id	VX043	mapped
+I-0302	FI-0144	expanded_300_exhibit	A-0114	Generated Chapter 10 Llama screenshot-priority board	445	447	figure_or_section_id	VX044	mapped
+I-0302	FI-0145	expanded_300_exhibit	A-0106	GTC 2026 page 29 AI-factory source surface	446	448	figure_or_section_id	VX045	mapped
+I-0302	FI-0146	expanded_300_exhibit	A-0107	GTC 2026 page 51 DSX handoff source surface	447	449	figure_or_section_id	VX046	mapped
+I-0302	FI-0147	expanded_300_exhibit	A-0168	Jensen Huang cropped portrait	448	450	figure_or_section_id	VX047	mapped
+I-0302	FI-0148	expanded_300_exhibit	A-0169	TSMC Fab5 building	449	451	figure_or_section_id	VX048	mapped
+I-0302	FI-0149	expanded_300_exhibit	A-0170	Google data center in The Dalles	450	452	figure_or_section_id	VX049	mapped
+I-0302	FI-0150	expanded_300_exhibit	A-0171	Electrical substation	451	453	figure_or_section_id	VX050	mapped
+I-0302	FI-0151	expanded_300_exhibit	A-0177	Silicon wafer	452	454	figure_or_section_id	VX051	mapped
+I-0302	FI-0152	expanded_300_exhibit	A-0284-001	NVIDIA AI	453	455	figure_or_section_id	VX052	mapped
+I-0302	FI-0153	expanded_300_exhibit	A-0284-002	NVIDIA Blackwell	454	456	figure_or_section_id	VX053	mapped
+I-0302	FI-0154	expanded_300_exhibit	A-0284-003	NVIDIA GTC	455	457	figure_or_section_id	VX054	mapped
+I-0302	FI-0155	expanded_300_exhibit	A-0284-004	AMD Instinct	456	458	figure_or_section_id	VX055	mapped
+I-0302	FI-0156	expanded_300_exhibit	A-0284-005	CoreWeave	457	459	figure_or_section_id	VX056	mapped
+I-0302	FI-0157	expanded_300_exhibit	A-0284-007	Anthropic Claude	211	460	figure_or_section_id	VX057	mapped
+I-0302	FI-0158	expanded_300_exhibit	A-0284-008	Anthropic Claude 4	459	461	figure_or_section_id	VX058	mapped
+I-0302	FI-0159	expanded_300_exhibit	A-0284-009	DeepSeek	460	462	figure_or_section_id	VX059	mapped
+I-0302	FI-0160	expanded_300_exhibit	A-0284-010	Meta Llama	153	463	figure_or_section_id	VX060	mapped
+I-0302	FI-0161	expanded_300_exhibit	A-0284-011	Meta AI	462	464	figure_or_section_id	VX061	mapped
+I-0302	FI-0162	expanded_300_exhibit	A-0284-012	Google Gemini	130	465	figure_or_section_id	VX062	mapped
+I-0302	FI-0163	expanded_300_exhibit	A-0284-013	Google Cloud AI	464	466	figure_or_section_id	VX063	mapped
+I-0302	FI-0164	expanded_300_exhibit	A-0284-015	ASML	465	467	figure_or_section_id	VX064	mapped
+I-0302	FI-0165	expanded_300_exhibit	A-0284-016	Hugging Face	147	468	figure_or_section_id	VX065	mapped
+I-0302	FI-0166	expanded_300_exhibit	A-0284-017	Mistral AI	194	469	figure_or_section_id	VX066	mapped
+I-0302	FI-0167	expanded_300_exhibit	A-0284-018	xAI	468	470	figure_or_section_id	VX067	mapped
+I-0302	FI-0168	expanded_300_exhibit	A-0284-019	PyTorch	469	471	figure_or_section_id	VX068	mapped
+I-0302	FI-0169	expanded_300_exhibit	A-0284-020	CUDA Toolkit	470	472	figure_or_section_id	VX069	mapped
+I-0302	FI-0170	expanded_300_exhibit	A-0284-021	LMArena	471	473	figure_or_section_id	VX070	mapped
+I-0302	FI-0171	expanded_300_exhibit	A-0284-022	Oracle AI	472	474	figure_or_section_id	VX071	mapped
+I-0302	FI-0172	expanded_300_exhibit	A-0284-023	IBM watsonx	473	475	figure_or_section_id	VX072	mapped
+I-0302	FI-0173	expanded_300_exhibit	A-0284-024	Databricks ML	474	476	figure_or_section_id	VX073	mapped
+I-0302	FI-0174	expanded_300_exhibit	A-0284-025	Snowflake Cortex	475	477	figure_or_section_id	VX074	mapped
+I-0302	FI-0175	expanded_300_exhibit	A-0287-003	NVIDIA CUDA Toolkit	476	478	figure_or_section_id	VX075	mapped
+I-0302	FI-0176	expanded_300_exhibit	A-0287-004	AMD ROCm	477	479	figure_or_section_id	VX076	mapped
+I-0302	FI-0177	expanded_300_exhibit	A-0287-005	AMD Instinct MI300	478	480	figure_or_section_id	VX077	mapped
+I-0302	FI-0178	expanded_300_exhibit	A-0287-006	CoreWeave Cloud	479	481	figure_or_section_id	VX078	mapped
+I-0302	FI-0179	expanded_300_exhibit	A-0287-007	Lambda GPU Cloud	480	482	figure_or_section_id	VX079	mapped
+I-0302	FI-0180	expanded_300_exhibit	A-0287-008	Crusoe Cloud	481	483	figure_or_section_id	VX080	mapped
+I-0302	FI-0181	expanded_300_exhibit	A-0287-010	Digital Realty AI	482	485	figure_or_section_id	VX081	mapped
+I-0302	FI-0182	expanded_300_exhibit	A-0287-011	ASML Lithography	483	487	figure_or_section_id	VX082	mapped
+I-0302	FI-0183	expanded_300_exhibit	A-0287-012	TSMC 3DFabric	484	488	figure_or_section_id	VX083	mapped
+I-0302	FI-0184	expanded_300_exhibit	A-0287-016	Vertex AI	485	489	figure_or_section_id	VX084	mapped
+I-0302	FI-0185	expanded_300_exhibit	A-0259-001	OpenAI ChatGPT Plus launch text render	486	490	figure_or_section_id	VX085	mapped
+I-0302	FI-0186	expanded_300_exhibit	A-0259-002	OpenAI ChatGPT Enterprise launch text render	487	491	figure_or_section_id	VX086	mapped
+I-0302	FI-0187	expanded_300_exhibit	A-0259-003	OpenAI ChatGPT release notes source surface	488	492	figure_or_section_id	VX087	mapped
+I-0302	FI-0188	expanded_300_exhibit	A-0259-004	OpenAI Model Spec behavior surface	489	493	figure_or_section_id	VX088	mapped
+I-0302	FI-0189	expanded_300_exhibit	A-0259-005	OpenAI GPT-4 System Card first page	490	494	figure_or_section_id	VX089	mapped
+I-0302	FI-0190	expanded_300_exhibit	A-0259-006	OpenAI GPT-4o System Card first page	491	495	figure_or_section_id	VX090	mapped
+I-0302	FI-0191	expanded_300_exhibit	A-0259-007	LMArena historical dataset JSON surface	492	496	figure_or_section_id	VX091	mapped
+I-0302	FI-0192	expanded_300_exhibit	A-0259-008	Mistral pricing source surface	493	497	figure_or_section_id	VX092	mapped
+I-0302	FI-0193	expanded_300_exhibit	A-0259-009	Google Gemini launch blog source surface	494	498	figure_or_section_id	VX093	mapped
+I-0302	FI-0194	expanded_300_exhibit	A-0259-010	Bard becomes Gemini source surface	495	499	figure_or_section_id	VX094	mapped
+I-0302	FI-0195	expanded_300_exhibit	A-0259-011	Gemini 1.5 arXiv source surface	496	500	figure_or_section_id	VX095	mapped
+I-0302	FI-0196	expanded_300_exhibit	A-0004	GTC-2026-Keynote.pdf	414	501	figure_or_section_id	VX096	mapped
+I-0302	FI-0197	expanded_300_exhibit	A-0005	GTC-2026-Keynote.pdf	414	502	figure_or_section_id	VX097	mapped
+I-0302	FI-0198	expanded_300_exhibit	A-0006	GTC-2026-Keynote.pdf	414	503	figure_or_section_id	VX098	mapped
+I-0302	FI-0199	expanded_300_exhibit	A-0007	GTC-2026-Keynote.pdf	414	504	figure_or_section_id	VX099	mapped
+I-0302	FI-0200	expanded_300_exhibit	A-0008	GTC-2026-Keynote.pdf	414	505	figure_or_section_id	VX100	mapped
+I-0302	FI-0201	expanded_300_exhibit	A-0009	GTC-2026-Keynote.pdf	414	506	figure_or_section_id	VX101	mapped
+I-0302	FI-0202	expanded_300_exhibit	A-0145	GTC-2026-Keynote.pdf	414	507	figure_or_section_id	VX102	mapped
+I-0302	FI-0203	expanded_300_exhibit	A-0285-016	GTC 2026 keynote title/opening surface	504	508	figure_or_section_id	VX103	mapped
+I-0302	FI-0204	expanded_300_exhibit	A-0285-020	GTC 2026 inference/economics framing	505	509	figure_or_section_id	VX104	mapped
+I-0302	FI-0205	expanded_300_exhibit	A-0285-021	GTC 2026 networking/platform surface	506	510	figure_or_section_id	VX105	mapped
+I-0302	FI-0206	expanded_300_exhibit	A-0285-022	GTC 2026 DSX/factory design surface	507	511	figure_or_section_id	VX106	mapped
+I-0302	FI-0207	expanded_300_exhibit	A-0285-023	GTC 2026 closing/ecosystem surface	508	512	figure_or_section_id	VX107	mapped
+I-0302	FI-0208	expanded_300_exhibit	A-0285-024	GTC 2026 software stack surface	509	513	figure_or_section_id	VX108	mapped
+I-0302	FI-0209	expanded_300_exhibit	A-0285-025	GTC 2026 accelerator system surface	510	514	figure_or_section_id	VX109	mapped
+I-0302	FI-0210	expanded_300_exhibit	A-0285-026	GTC 2026 datacenter/facility surface	511	515	figure_or_section_id	VX110	mapped
+I-0302	FI-0211	expanded_300_exhibit	A-0285-027	GPT-4 System Card first-page surface	512	516	figure_or_section_id	VX111	mapped
+I-0302	FI-0212	expanded_300_exhibit	A-0285-028	GPT-4o System Card first-page surface	513	517	figure_or_section_id	VX112	mapped
+I-0302	FI-0213	expanded_300_exhibit	A-0285-029	GPT-4 Technical Report first-page surface	514	518	figure_or_section_id	VX113	mapped
+I-0302	FI-0214	expanded_300_exhibit	A-0285-030	Sparks of AGI paper first-page surface	515	519	figure_or_section_id	VX114	mapped
+I-0302	FI-0215	expanded_300_exhibit	A-0283-003	I-0283 local model-card screenshot surface	516	520	figure_or_section_id	VX115	mapped
+I-0302	FI-0216	expanded_300_exhibit	A-0286-001	Hugging Face GPT-2 model card	516	520	figure_or_section_id	VX116	mapped
+I-0302	FI-0217	expanded_300_exhibit	A-0286-002	OpenAI GPT-2 GitHub repo	517	521	figure_or_section_id	VX117	mapped
+I-0302	FI-0218	expanded_300_exhibit	A-0286-003	Hugging Face BLOOM model card	518	522	figure_or_section_id	VX118	mapped
+I-0302	FI-0219	expanded_300_exhibit	A-0286-005	Hugging Face Mistral 7B model card	519	523	figure_or_section_id	VX119	mapped
+I-0302	FI-0220	expanded_300_exhibit	A-0286-006	Hugging Face Qwen2 model card	520	524	figure_or_section_id	VX120	mapped
+I-0302	FI-0221	expanded_300_exhibit	A-0286-007	Hugging Face DeepSeek-R1 model card	521	526	figure_or_section_id	VX121	mapped
+I-0302	FI-0222	expanded_300_exhibit	A-0286-010	OpenAI API model docs surface	522	528	figure_or_section_id	VX122	mapped
+I-0302	FI-0223	expanded_300_exhibit	A-0289-003	Anthropic Claude model docs	523	529	figure_or_section_id	VX123	mapped
+I-0302	FI-0224	expanded_300_exhibit	A-0289-005	Mistral model docs	524	530	figure_or_section_id	VX124	mapped
+I-0302	FI-0225	expanded_300_exhibit	A-0284-026	NVIDIA	525	531	figure_or_section_id	VX125	mapped
+I-0302	FI-0226	expanded_300_exhibit	A-0284-027	AMD	526	532	figure_or_section_id	VX126	mapped
+I-0302	FI-0227	expanded_300_exhibit	A-0284-028	Anthropic	527	533	figure_or_section_id	VX127	mapped
+I-0302	FI-0228	expanded_300_exhibit	A-0284-029	Meta	528	534	figure_or_section_id	VX128	mapped
+I-0302	FI-0229	expanded_300_exhibit	A-0284-030	Google	529	535	figure_or_section_id	VX129	mapped
+I-0302	FI-0230	expanded_300_exhibit	A-0284-031	Google Cloud	113	536	figure_or_section_id	VX130	mapped
+I-0302	FI-0231	expanded_300_exhibit	A-0284-032	Alibaba Cloud	531	537	figure_or_section_id	VX131	mapped
+I-0302	FI-0232	expanded_300_exhibit	A-0284-033	Hugging Face	147	538	figure_or_section_id	VX132	mapped
+I-0302	FI-0233	expanded_300_exhibit	A-0284-034	Mistral AI	194	539	figure_or_section_id	VX133	mapped
+I-0302	FI-0234	expanded_300_exhibit	A-0284-035	xAI/X	534	540	figure_or_section_id	VX134	mapped
+I-0302	FI-0235	expanded_300_exhibit	A-0284-036	Baidu	535	541	figure_or_section_id	VX135	mapped
+I-0302	FI-0236	expanded_300_exhibit	A-0284-037	Xiaomi	536	542	figure_or_section_id	VX136	mapped
+I-0302	FI-0237	expanded_300_exhibit	A-0284-038	Intel	537	543	figure_or_section_id	VX137	mapped
+I-0302	FI-0238	expanded_300_exhibit	A-0284-039	Arm	538	544	figure_or_section_id	VX138	mapped
+I-0302	FI-0239	expanded_300_exhibit	A-0284-040	GitHub	539	545	figure_or_section_id	VX139	mapped
+I-0302	FI-0240	expanded_300_exhibit	A-0284-041	Python	540	546	figure_or_section_id	VX140	mapped
+I-0302	FI-0241	expanded_300_exhibit	A-0284-042	PyTorch	541	547	figure_or_section_id	VX141	mapped
+I-0302	FI-0242	expanded_300_exhibit	A-0284-043	TensorFlow	542	548	figure_or_section_id	VX142	mapped
+I-0302	FI-0243	expanded_300_exhibit	A-0284-044	Docker	543	549	figure_or_section_id	VX143	mapped
+I-0302	FI-0244	expanded_300_exhibit	A-0284-045	Kubernetes	544	550	figure_or_section_id	VX144	mapped
+I-0302	FI-0245	expanded_300_exhibit	A-0284-046	Linux	545	551	figure_or_section_id	VX145	mapped
+I-0302	FI-0246	expanded_300_exhibit	A-0284-047	Databricks	474	552	figure_or_section_id	VX146	mapped
+I-0302	FI-0247	expanded_300_exhibit	A-0284-048	Cloudflare	547	553	figure_or_section_id	VX147	mapped
+I-0302	FI-0248	expanded_300_exhibit	A-0284-049	Apache	548	554	figure_or_section_id	VX148	mapped
+I-0302	FI-0249	expanded_300_exhibit	A-0284-050	Kaggle	549	555	figure_or_section_id	VX149	mapped
+I-0302	FI-0250	expanded_300_exhibit	A-0287-027	Ollama	550	556	figure_or_section_id	VX150	mapped
+I-0302	FI-0251	expanded_300_exhibit	A-0287-028	LangChain	551	557	figure_or_section_id	VX151	mapped
+I-0302	FI-0252	expanded_300_exhibit	A-0287-029	OpenTelemetry	552	558	figure_or_section_id	VX152	mapped
+I-0302	FI-0253	expanded_300_exhibit	A-0287-030	Ray	553	559	figure_or_section_id	VX153	mapped
+I-0302	FI-0254	expanded_300_exhibit	A-0287-031	Dask	554	560	figure_or_section_id	VX154	mapped
+I-0302	FI-0255	expanded_300_exhibit	A-0287-032	Jupyter	555	561	figure_or_section_id	VX155	mapped
+I-0302	FI-0256	expanded_300_exhibit	A-0287-033	Anaconda	556	562	figure_or_section_id	VX156	mapped
+I-0302	FI-0257	expanded_300_exhibit	A-0287-034	NumPy	557	563	figure_or_section_id	VX157	mapped
+I-0302	FI-0258	expanded_300_exhibit	A-0287-035	pandas	558	564	figure_or_section_id	VX158	mapped
+I-0302	FI-0259	expanded_300_exhibit	A-0287-036	SciPy	559	565	figure_or_section_id	VX159	mapped
+I-0302	FI-0260	expanded_300_exhibit	A-0287-037	scikit-learn	560	566	figure_or_section_id	VX160	mapped
+I-0302	FI-0261	expanded_300_exhibit	A-0287-038	FastAPI	561	568	figure_or_section_id	VX161	mapped
+I-0302	FI-0262	expanded_300_exhibit	A-0287-039	Go	562	570	figure_or_section_id	VX162	mapped
+I-0302	FI-0263	expanded_300_exhibit	A-0287-040	Rust	563	571	figure_or_section_id	VX163	mapped
+I-0302	FI-0264	expanded_300_exhibit	A-0287-041	Node.js	564	572	figure_or_section_id	VX164	mapped
+I-0302	FI-0265	expanded_300_exhibit	A-0287-042	TypeScript	565	573	figure_or_section_id	VX165	mapped
+I-0302	FI-0266	expanded_300_exhibit	A-0287-043	JavaScript	313	574	figure_or_section_id	VX166	mapped
+I-0302	FI-0267	expanded_300_exhibit	A-0287-044	Vite	567	575	figure_or_section_id	VX167	mapped
+I-0302	FI-0268	expanded_300_exhibit	A-0287-045	Vercel	568	576	figure_or_section_id	VX168	mapped
+I-0302	FI-0269	expanded_300_exhibit	A-0287-046	Netlify	569	577	figure_or_section_id	VX169	mapped
+I-0302	FI-0270	expanded_300_exhibit	A-0287-047	PostgreSQL	570	578	figure_or_section_id	VX170	mapped
+I-0302	FI-0271	expanded_300_exhibit	A-0287-048	Redis	571	579	figure_or_section_id	VX171	mapped
+I-0302	FI-0272	expanded_300_exhibit	A-0287-049	MongoDB	572	580	figure_or_section_id	VX172	mapped
+I-0302	FI-0273	expanded_300_exhibit	A-0287-050	Elastic	573	581	figure_or_section_id	VX173	mapped
+I-0302	FI-0274	expanded_300_exhibit	A-0284-053	Ilya Sutskever	574	582	figure_or_section_id	VX174	mapped
+I-0302	FI-0275	expanded_300_exhibit	A-0284-054	Andrej Karpathy	575	583	figure_or_section_id	VX175	mapped
+I-0302	FI-0276	expanded_300_exhibit	A-0284-055	Lisa Su	576	584	figure_or_section_id	VX176	mapped
+I-0302	FI-0277	expanded_300_exhibit	A-0284-056	Greg Brockman	577	585	figure_or_section_id	VX177	mapped
+I-0302	FI-0278	expanded_300_exhibit	A-0284-058	Daniela Amodei	578	586	figure_or_section_id	VX178	mapped
+I-0302	FI-0279	expanded_300_exhibit	A-0284-059	Mark Zuckerberg	579	587	figure_or_section_id	VX179	mapped
+I-0302	FI-0280	expanded_300_exhibit	A-0284-060	Demis Hassabis	580	588	figure_or_section_id	VX180	mapped
+I-0302	FI-0281	expanded_300_exhibit	A-0284-061	Sundar Pichai	581	589	figure_or_section_id	VX181	mapped
+I-0302	FI-0282	expanded_300_exhibit	A-0284-062	Satya Nadella	582	590	figure_or_section_id	VX182	mapped
+I-0302	FI-0283	expanded_300_exhibit	A-0284-063	Yann LeCun	583	591	figure_or_section_id	VX183	mapped
+I-0302	FI-0284	expanded_300_exhibit	A-0284-064	Geoffrey Hinton	584	592	figure_or_section_id	VX184	mapped
+I-0302	FI-0285	expanded_300_exhibit	A-0284-065	Yoshua Bengio	19	593	figure_or_section_id	VX185	mapped
+I-0302	FI-0286	expanded_300_exhibit	A-0287-051	Andrew Ng	586	594	figure_or_section_id	VX186	mapped
+I-0302	FI-0287	expanded_300_exhibit	A-0287-052	Jeff Dean	587	595	figure_or_section_id	VX187	mapped
+I-0302	FI-0288	expanded_300_exhibit	A-0287-053	Oriol Vinyals	588	596	figure_or_section_id	VX188	mapped
+I-0302	FI-0289	expanded_300_exhibit	A-0287-054	Ashish Vaswani	589	597	figure_or_section_id	VX189	mapped
+I-0302	FI-0290	expanded_300_exhibit	A-0287-055	Noam Shazeer	590	598	figure_or_section_id	VX190	mapped
+I-0302	FI-0291	expanded_300_exhibit	A-0287-056	Mira Murati	591	599	figure_or_section_id	VX191	mapped
+I-0302	FI-0292	expanded_300_exhibit	A-0287-057	Wojciech Zaremba	592	600	figure_or_section_id	VX192	mapped
+I-0302	FI-0293	expanded_300_exhibit	A-0287-058	John Schulman	593	601	figure_or_section_id	VX193	mapped
+I-0302	FI-0294	expanded_300_exhibit	A-0287-059	Aidan Gomez	594	602	figure_or_section_id	VX194	mapped
+I-0302	FI-0295	expanded_300_exhibit	A-0287-060	Arthur Mensch	595	603	figure_or_section_id	VX195	mapped
+I-0302	FI-0296	expanded_300_exhibit	A-0287-061	Clem Delangue	596	604	figure_or_section_id	VX196	mapped
+I-0302	FI-0297	expanded_300_exhibit	A-0287-062	Thomas Wolf	597	605	figure_or_section_id	VX197	mapped
+I-0302	FI-0298	expanded_300_exhibit	A-0287-063	Percy Liang	598	606	figure_or_section_id	VX198	mapped
+I-0302	FI-0299	expanded_300_exhibit	A-0287-064	Christopher Manning	599	607	figure_or_section_id	VX199	mapped
+I-0302	FI-0300	expanded_300_exhibit	A-0287-065	Sebastian Bubeck	600	608	figure_or_section_id	VX200	mapped
+I-0302	FI-0301	logo_people_strip	A-0284-026	NVIDIA	603	611	board_title	Compute And AI Factory Stack	mapped
+I-0302	FI-0302	logo_people_strip	A-0284-027	AMD	603	611	board_title	Compute And AI Factory Stack	mapped
+I-0302	FI-0303	logo_people_strip	A-0284-038	Intel	603	611	board_title	Compute And AI Factory Stack	mapped
+I-0302	FI-0304	logo_people_strip	A-0284-039	Arm	603	611	board_title	Compute And AI Factory Stack	mapped
+I-0302	FI-0305	logo_people_strip	A-0284-044	Docker	603	611	board_title	Compute And AI Factory Stack	mapped
+I-0302	FI-0306	logo_people_strip	A-0284-045	Kubernetes	603	611	board_title	Compute And AI Factory Stack	mapped
+I-0302	FI-0307	logo_people_strip	A-0284-046	Linux	603	611	board_title	Compute And AI Factory Stack	mapped
+I-0302	FI-0308	logo_people_strip	A-0284-028	Anthropic	605	613	board_title	Frontier Labs And Model Families	mapped
+I-0302	FI-0309	logo_people_strip	A-0284-029	Meta	605	613	board_title	Frontier Labs And Model Families	mapped
+I-0302	FI-0310	logo_people_strip	A-0284-030	Google	605	613	board_title	Frontier Labs And Model Families	mapped
+I-0302	FI-0311	logo_people_strip	A-0284-034	Mistral AI	605	613	board_title	Frontier Labs And Model Families	mapped
+I-0302	FI-0312	logo_people_strip	A-0284-035	xAI/X	605	613	board_title	Frontier Labs And Model Families	mapped
+I-0302	FI-0313	logo_people_strip	A-0284-036	Baidu	605	613	board_title	Frontier Labs And Model Families	mapped
+I-0302	FI-0314	logo_people_strip	A-0284-032	Alibaba Cloud	605	613	board_title	Frontier Labs And Model Families	mapped
+I-0302	FI-0315	logo_people_strip	A-0284-037	Xiaomi	605	613	board_title	Frontier Labs And Model Families	mapped
+I-0302	FI-0316	logo_people_strip	A-0284-031	Google Cloud	607	615	board_title	Cloud, Hub, And Distribution Surfaces	mapped
+I-0302	FI-0317	logo_people_strip	A-0284-033	Hugging Face	607	615	board_title	Cloud, Hub, And Distribution Surfaces	mapped
+I-0302	FI-0318	logo_people_strip	A-0284-040	GitHub	607	615	board_title	Cloud, Hub, And Distribution Surfaces	mapped
+I-0302	FI-0319	logo_people_strip	A-0287-026	OpenRouter	607	615	board_title	Cloud, Hub, And Distribution Surfaces	mapped
+I-0302	FI-0320	logo_people_strip	A-0287-027	Ollama	607	615	board_title	Cloud, Hub, And Distribution Surfaces	mapped
+I-0302	FI-0321	logo_people_strip	A-0284-047	Databricks	607	615	board_title	Cloud, Hub, And Distribution Surfaces	mapped
+I-0302	FI-0322	logo_people_strip	A-0284-048	Cloudflare	607	615	board_title	Cloud, Hub, And Distribution Surfaces	mapped
+I-0302	FI-0323	logo_people_strip	A-0287-045	Vercel	607	615	board_title	Cloud, Hub, And Distribution Surfaces	mapped
+I-0302	FI-0324	logo_people_strip	A-0287-046	Netlify	607	615	board_title	Cloud, Hub, And Distribution Surfaces	mapped
+I-0302	FI-0325	logo_people_strip	A-0284-041	Python	609	617	board_title	Research And Data-Science Substrate	mapped
+I-0302	FI-0326	logo_people_strip	A-0284-042	PyTorch	609	617	board_title	Research And Data-Science Substrate	mapped
+I-0302	FI-0327	logo_people_strip	A-0284-043	TensorFlow	609	617	board_title	Research And Data-Science Substrate	mapped
+I-0302	FI-0328	logo_people_strip	A-0287-032	Jupyter	609	617	board_title	Research And Data-Science Substrate	mapped
+I-0302	FI-0329	logo_people_strip	A-0287-033	Anaconda	609	617	board_title	Research And Data-Science Substrate	mapped
+I-0302	FI-0330	logo_people_strip	A-0287-034	NumPy	609	617	board_title	Research And Data-Science Substrate	mapped
+I-0302	FI-0331	logo_people_strip	A-0287-035	pandas	609	617	board_title	Research And Data-Science Substrate	mapped
+I-0302	FI-0332	logo_people_strip	A-0287-036	SciPy	609	617	board_title	Research And Data-Science Substrate	mapped
+I-0302	FI-0333	logo_people_strip	A-0287-037	scikit-learn	609	617	board_title	Research And Data-Science Substrate	mapped
+I-0302	FI-0334	logo_people_strip	A-0284-050	Kaggle	609	617	board_title	Research And Data-Science Substrate	mapped
+I-0302	FI-0335	logo_people_strip	A-0287-028	LangChain	611	619	board_title	Agent And Application Runtime Stack	mapped
+I-0302	FI-0336	logo_people_strip	A-0287-038	FastAPI	611	619	board_title	Agent And Application Runtime Stack	mapped
+I-0302	FI-0337	logo_people_strip	A-0287-039	Go	611	619	board_title	Agent And Application Runtime Stack	mapped
+I-0302	FI-0338	logo_people_strip	A-0287-040	Rust	611	619	board_title	Agent And Application Runtime Stack	mapped
+I-0302	FI-0339	logo_people_strip	A-0287-041	Node.js	611	619	board_title	Agent And Application Runtime Stack	mapped
+I-0302	FI-0340	logo_people_strip	A-0287-042	TypeScript	611	619	board_title	Agent And Application Runtime Stack	mapped
+I-0302	FI-0341	logo_people_strip	A-0287-043	JavaScript	611	619	board_title	Agent And Application Runtime Stack	mapped
+I-0302	FI-0342	logo_people_strip	A-0287-044	Vite	611	619	board_title	Agent And Application Runtime Stack	mapped
+I-0302	FI-0343	logo_people_strip	A-0287-029	OpenTelemetry	613	621	board_title	Data, Observability, And Service Infrastructure	mapped
+I-0302	FI-0344	logo_people_strip	A-0287-030	Ray	613	621	board_title	Data, Observability, And Service Infrastructure	mapped
+I-0302	FI-0345	logo_people_strip	A-0287-031	Dask	613	621	board_title	Data, Observability, And Service Infrastructure	mapped
+I-0302	FI-0346	logo_people_strip	A-0287-047	PostgreSQL	613	621	board_title	Data, Observability, And Service Infrastructure	mapped
+I-0302	FI-0347	logo_people_strip	A-0287-048	Redis	613	621	board_title	Data, Observability, And Service Infrastructure	mapped
+I-0302	FI-0348	logo_people_strip	A-0287-049	MongoDB	613	621	board_title	Data, Observability, And Service Infrastructure	mapped
+I-0302	FI-0349	logo_people_strip	A-0287-050	Elastic	613	621	board_title	Data, Observability, And Service Infrastructure	mapped
+I-0302	FI-0350	logo_people_strip	A-0284-049	Apache	613	621	board_title	Data, Observability, And Service Infrastructure	mapped
+I-0302	FI-0351	logo_people_strip	A-0284-064	Geoffrey Hinton	615	623	board_title	Deep-Learning And NLP Lineage	mapped
+I-0302	FI-0352	logo_people_strip	A-0284-065	Yoshua Bengio	615	623	board_title	Deep-Learning And NLP Lineage	mapped
+I-0302	FI-0353	logo_people_strip	A-0284-063	Yann LeCun	615	623	board_title	Deep-Learning And NLP Lineage	mapped
+I-0302	FI-0354	logo_people_strip	A-0287-051	Andrew Ng	615	623	board_title	Deep-Learning And NLP Lineage	mapped
+I-0302	FI-0355	logo_people_strip	A-0287-064	Christopher Manning	615	623	board_title	Deep-Learning And NLP Lineage	mapped
+I-0302	FI-0356	logo_people_strip	A-0287-053	Oriol Vinyals	615	623	board_title	Deep-Learning And NLP Lineage	mapped
+I-0302	FI-0357	logo_people_strip	A-0287-054	Ashish Vaswani	617	625	board_title	Transformer, Scaling, And Evaluation Line	mapped
+I-0302	FI-0358	logo_people_strip	A-0287-055	Noam Shazeer	617	625	board_title	Transformer, Scaling, And Evaluation Line	mapped
+I-0302	FI-0359	logo_people_strip	A-0287-052	Jeff Dean	617	625	board_title	Transformer, Scaling, And Evaluation Line	mapped
+I-0302	FI-0360	logo_people_strip	A-0287-059	Aidan Gomez	617	625	board_title	Transformer, Scaling, And Evaluation Line	mapped
+I-0302	FI-0361	logo_people_strip	A-0287-065	Sebastian Bubeck	617	625	board_title	Transformer, Scaling, And Evaluation Line	mapped
+I-0302	FI-0362	logo_people_strip	A-0287-063	Percy Liang	617	625	board_title	Transformer, Scaling, And Evaluation Line	mapped
+I-0302	FI-0363	logo_people_strip	A-0284-052	Sam Altman	619	627	board_title	OpenAI Product And RLHF Line	mapped
+I-0302	FI-0364	logo_people_strip	A-0284-053	Ilya Sutskever	619	627	board_title	OpenAI Product And RLHF Line	mapped
+I-0302	FI-0365	logo_people_strip	A-0284-056	Greg Brockman	619	627	board_title	OpenAI Product And RLHF Line	mapped
+I-0302	FI-0366	logo_people_strip	A-0287-056	Mira Murati	619	627	board_title	OpenAI Product And RLHF Line	mapped
+I-0302	FI-0367	logo_people_strip	A-0287-057	Wojciech Zaremba	619	627	board_title	OpenAI Product And RLHF Line	mapped
+I-0302	FI-0368	logo_people_strip	A-0287-058	John Schulman	619	627	board_title	OpenAI Product And RLHF Line	mapped
+I-0302	FI-0369	logo_people_strip	A-0284-054	Andrej Karpathy	619	627	board_title	OpenAI Product And RLHF Line	mapped
+I-0302	FI-0370	logo_people_strip	A-0284-057	Dario Amodei	621	629	board_title	Plural Frontier Institutions	mapped
+I-0302	FI-0371	logo_people_strip	A-0284-058	Daniela Amodei	621	629	board_title	Plural Frontier Institutions	mapped
+I-0302	FI-0372	logo_people_strip	A-0284-060	Demis Hassabis	621	629	board_title	Plural Frontier Institutions	mapped
+I-0302	FI-0373	logo_people_strip	A-0284-061	Sundar Pichai	621	629	board_title	Plural Frontier Institutions	mapped
+I-0302	FI-0374	logo_people_strip	A-0284-059	Mark Zuckerberg	621	629	board_title	Plural Frontier Institutions	mapped
+I-0302	FI-0375	logo_people_strip	A-0284-062	Satya Nadella	621	629	board_title	Plural Frontier Institutions	mapped
+I-0302	FI-0376	logo_people_strip	A-0284-051	Jensen Huang	623	631	board_title	Hardware And Open Ecosystem Operators	mapped
+I-0302	FI-0377	logo_people_strip	A-0284-055	Lisa Su	623	631	board_title	Hardware And Open Ecosystem Operators	mapped
+I-0302	FI-0378	logo_people_strip	A-0287-060	Arthur Mensch	623	631	board_title	Hardware And Open Ecosystem Operators	mapped
+I-0302	FI-0379	logo_people_strip	A-0287-061	Clem Delangue	623	631	board_title	Hardware And Open Ecosystem Operators	mapped
+I-0302	FI-0380	logo_people_strip	A-0287-062	Thomas Wolf	623	631	board_title	Hardware And Open Ecosystem Operators	mapped
+I-0302	FI-0381	source_surface_gallery	A-0285-001	Attention Is All You Need	625	633	board_title	Transformer, GPT, And Scaling Origins	mapped
+I-0302	FI-0382	source_surface_gallery	A-0285-002	Improving Language Understanding by Generative Pre-Training	625	633	board_title	Transformer, GPT, And Scaling Origins	mapped
+I-0302	FI-0383	source_surface_gallery	A-0285-003	Language Models are Unsupervised Multitask Learners	625	633	board_title	Transformer, GPT, And Scaling Origins	mapped
+I-0302	FI-0384	source_surface_gallery	A-0285-004	Language Models are Few-Shot Learners	625	633	board_title	Transformer, GPT, And Scaling Origins	mapped
+I-0302	FI-0385	source_surface_gallery	A-0285-005	Scaling Laws for Neural Language Models	625	633	board_title	Transformer, GPT, And Scaling Origins	mapped
+I-0302	FI-0386	source_surface_gallery	A-0285-006	Training language models to follow instructions	627	635	board_title	Alignment, Open Weights, And Model Families	mapped
+I-0302	FI-0387	source_surface_gallery	A-0285-007	Constitutional AI	627	635	board_title	Alignment, Open Weights, And Model Families	mapped
+I-0302	FI-0388	source_surface_gallery	A-0285-008	Llama 2: Open Foundation and Fine-Tuned Chat Models	627	635	board_title	Alignment, Open Weights, And Model Families	mapped
+I-0302	FI-0389	source_surface_gallery	A-0285-009	Gemini: A Family of Highly Capable Multimodal Models	627	635	board_title	Alignment, Open Weights, And Model Families	mapped
+I-0302	FI-0390	source_surface_gallery	A-0285-010	Qwen2 Technical Report	627	635	board_title	Alignment, Open Weights, And Model Families	mapped
+I-0302	FI-0391	source_surface_gallery	A-0285-011	DeepSeek-V3 Technical Report	629	637	board_title	Reasoning, Coding, Tool Use, And Retrieval	mapped
+I-0302	FI-0392	source_surface_gallery	A-0285-012	DeepSeek-R1: Incentivizing Reasoning Capability in LLMs	629	637	board_title	Reasoning, Coding, Tool Use, And Retrieval	mapped
+I-0302	FI-0393	source_surface_gallery	A-0285-013	SWE-bench: Can Language Models Resolve Real-World GitHub Issues?	629	637	board_title	Reasoning, Coding, Tool Use, And Retrieval	mapped
+I-0302	FI-0394	source_surface_gallery	A-0285-014	Toolformer: Language Models Can Teach Themselves to Use Tools	629	637	board_title	Reasoning, Coding, Tool Use, And Retrieval	mapped
+I-0302	FI-0395	source_surface_gallery	A-0285-015	Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks	629	637	board_title	Reasoning, Coding, Tool Use, And Retrieval	mapped
+I-0302	FI-0396	source_surface_gallery	A-0288-001	BERT: Pre-training of Deep Bidirectional Transformers	631	639	board_title	Pretraining Lineage And Compute-Optimal Scale	mapped
+I-0302	FI-0397	source_surface_gallery	A-0288-002	Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer	631	639	board_title	Pretraining Lineage And Compute-Optimal Scale	mapped
+I-0302	FI-0398	source_surface_gallery	A-0288-003	Training Compute-Optimal Large Language Models	631	639	board_title	Pretraining Lineage And Compute-Optimal Scale	mapped
+I-0302	FI-0399	source_surface_gallery	A-0288-004	PaLM: Scaling Language Modeling with Pathways	631	639	board_title	Pretraining Lineage And Compute-Optimal Scale	mapped
+I-0302	FI-0400	source_surface_gallery	A-0288-005	Chain-of-Thought Prompting Elicits Reasoning in Large Language Models	631	639	board_title	Pretraining Lineage And Compute-Optimal Scale	mapped
+I-0302	FI-0401	source_surface_gallery	A-0288-006	Code Llama: Open Foundation Models for Code	633	641	board_title	Open-Model, Code, And Benchmark Texture	mapped
+I-0302	FI-0402	source_surface_gallery	A-0288-007	Mistral 7B	633	641	board_title	Open-Model, Code, And Benchmark Texture	mapped
+I-0302	FI-0403	source_surface_gallery	A-0288-008	Mixtral of Experts	633	641	board_title	Open-Model, Code, And Benchmark Texture	mapped
+I-0302	FI-0404	source_surface_gallery	A-0288-009	The Llama 3 Herd of Models	633	641	board_title	Open-Model, Code, And Benchmark Texture	mapped
+I-0302	FI-0405	source_surface_gallery	A-0288-010	LiveCodeBench: Holistic and Contamination Free Evaluation	633	641	board_title	Open-Model, Code, And Benchmark Texture	mapped
+I-0302	FI-0406	source_surface_gallery	A-0285-016	GTC 2026 keynote title/opening surface	635	643	board_title	GTC Stagecraft: AI Factory Thesis	mapped
+I-0302	FI-0407	source_surface_gallery	A-0285-017	GTC 2026 AI factory framing	635	643	board_title	GTC Stagecraft: AI Factory Thesis	mapped
+I-0302	FI-0408	source_surface_gallery	A-0285-018	GTC 2026 hardware roadmap surface	635	643	board_title	GTC Stagecraft: AI Factory Thesis	mapped
+I-0302	FI-0409	source_surface_gallery	A-0285-019	GTC 2026 rack-scale comparison surface	635	643	board_title	GTC Stagecraft: AI Factory Thesis	mapped
+I-0302	FI-0410	source_surface_gallery	A-0285-020	GTC 2026 inference/economics framing	635	643	board_title	GTC Stagecraft: AI Factory Thesis	mapped
+I-0302	FI-0411	source_surface_gallery	A-0285-021	GTC 2026 networking/platform surface	637	645	board_title	GTC Platform, Networking, And Facilities	mapped
+I-0302	FI-0412	source_surface_gallery	A-0285-022	GTC 2026 DSX/factory design surface	637	645	board_title	GTC Platform, Networking, And Facilities	mapped
+I-0302	FI-0413	source_surface_gallery	A-0285-023	GTC 2026 closing/ecosystem surface	637	645	board_title	GTC Platform, Networking, And Facilities	mapped
+I-0302	FI-0414	source_surface_gallery	A-0285-024	GTC 2026 software stack surface	637	645	board_title	GTC Platform, Networking, And Facilities	mapped
+I-0302	FI-0415	source_surface_gallery	A-0285-025	GTC 2026 accelerator system surface	637	645	board_title	GTC Platform, Networking, And Facilities	mapped
+I-0302	FI-0416	source_surface_gallery	A-0285-026	GTC 2026 datacenter/facility surface	639	647	board_title	System Cards And GPT-4 Report Surfaces	mapped
+I-0302	FI-0417	source_surface_gallery	A-0285-027	GPT-4 System Card first-page surface	639	647	board_title	System Cards And GPT-4 Report Surfaces	mapped
+I-0302	FI-0418	source_surface_gallery	A-0285-028	GPT-4o System Card first-page surface	639	647	board_title	System Cards And GPT-4 Report Surfaces	mapped
+I-0302	FI-0419	source_surface_gallery	A-0285-029	GPT-4 Technical Report first-page surface	639	647	board_title	System Cards And GPT-4 Report Surfaces	mapped
+I-0302	FI-0420	source_surface_gallery	A-0285-030	Sparks of AGI paper first-page surface	639	647	board_title	System Cards And GPT-4 Report Surfaces	mapped
+I-0302	FI-0421	source_surface_gallery	A-0288-011	GTC 2026 Blackwell/Rubin transition surface	641	649	board_title	GTC Infrastructure Constraint Surfaces	mapped
+I-0302	FI-0422	source_surface_gallery	A-0288-012	GTC 2026 NVLink/network fabric surface	641	649	board_title	GTC Infrastructure Constraint Surfaces	mapped
+I-0302	FI-0423	source_surface_gallery	A-0288-013	GTC 2026 ecosystem partner surface	641	649	board_title	GTC Infrastructure Constraint Surfaces	mapped
+I-0302	FI-0424	source_surface_gallery	A-0288-014	GTC 2026 datacenter power/cooling surface	641	649	board_title	GTC Infrastructure Constraint Surfaces	mapped
+I-0302	FI-0425	source_surface_gallery	A-0288-015	GTC 2026 closing roadmap surface	641	649	board_title	GTC Infrastructure Constraint Surfaces	mapped
+I-0302	FI-0426	source_surface_gallery	A-0288-016	Gemini 1.5 Technical Report	643	651	board_title	Frontier Technical Reports Beyond The US Core	mapped
+I-0302	FI-0427	source_surface_gallery	A-0288-017	Qwen3 Technical Report	643	651	board_title	Frontier Technical Reports Beyond The US Core	mapped
+I-0302	FI-0428	source_surface_gallery	A-0288-018	GLM-4 Technical Report	643	651	board_title	Frontier Technical Reports Beyond The US Core	mapped
+I-0302	FI-0429	source_surface_gallery	A-0288-019	Kimi k1.5 Technical Report	643	651	board_title	Frontier Technical Reports Beyond The US Core	mapped
+I-0302	FI-0430	source_surface_gallery	A-0288-020	Nemotron-4 340B Technical Report	643	651	board_title	Frontier Technical Reports Beyond The US Core	mapped
+I-0302	FI-0431	chart_data_svg_atlas	A-0069	Figure 1.2 - From Prompt to Answer, One Token at a Time. Human text becomes tokens, context, next-token predictions, and generated answer.	645	653	board_title	Language Model Foundations	mapped
+I-0302	FI-0432	chart_data_svg_atlas	A-0261-005	Fast Power Is A Constraint Stack	645	653	board_title	Language Model Foundations	mapped
+I-0302	FI-0433	chart_data_svg_atlas	A-0064	Figure 17.1 - Tokenization Ladder. Human text becomes subword pieces, token IDs, context budget, and next-token prediction target.	645	653	board_title	Language Model Foundations	mapped
+I-0302	FI-0434	chart_data_svg_atlas	A-0066	Figure 17.3 - Data Mixture Control Board. Schematic corpus lanes show data mixtures as recipes with open-corpus rows and closed-corpus blockers.	645	653	board_title	Language Model Foundations	mapped
+I-0302	FI-0435	chart_data_svg_atlas	A-0062	Figure 18.3 - Agent Loop as Harness. Plan, act, observe, gate, context, and review form a bounded system loop.	645	653	board_title	Language Model Foundations	mapped
+I-0302	FI-0436	chart_data_svg_atlas	A-0075	Figure 23.2 - Trust Is A Stack. Evidence selection, evidence use, authority, evaluation, permission/action, and audit memory form layered controls.	645	653	board_title	Language Model Foundations	mapped
+I-0302	FI-0437	chart_data_svg_atlas	A-0014	Generated Arena leaderboard methodology flow	645	653	board_title	Language Model Foundations	mapped
+I-0302	FI-0438	chart_data_svg_atlas	A-0028	Generated GTC page 50 roadmap card	645	653	board_title	Language Model Foundations	mapped
+I-0302	FI-0439	chart_data_svg_atlas	A-0081	Generated Chapter 21 reasoning-budget routing map	645	653	board_title	Language Model Foundations	mapped
+I-0302	FI-0440	chart_data_svg_atlas	A-0092	Generated Chapter 19 coding benchmark ladder	645	653	board_title	Language Model Foundations	mapped
+I-0302	FI-0441	chart_data_svg_atlas	A-0016	Figure 7.x - ChatGPT: From Interface Event To Business Surface. Sourced timeline for ChatGPT launch, Plus, plugins, Enterprise release-note entry, GPTs, and GPT-4o with a blocked adoption/productivity lane.	647	655	board_title	Assistant Product Grammar	mapped
+I-0302	FI-0442	chart_data_svg_atlas	A-0094	Figure 12.1 - Constitutional AI As Behavior Grammar. Written principles, critique/revision, AI feedback, and evaluation loops can shape assistant behavior, but they do not prove solved alignment or moral guarantees.	647	655	board_title	Assistant Product Grammar	mapped
+I-0302	FI-0443	chart_data_svg_atlas	A-0011	Generated RLHF and alignment pipeline visual	647	655	board_title	Assistant Product Grammar	mapped
+I-0302	FI-0444	chart_data_svg_atlas	A-0060	Figure 18.1 - RAG Evidence Conveyor. Retrieval, ranking, context packing, generation, citation, and audit gates with failure labels.	647	655	board_title	Assistant Product Grammar	mapped
+I-0302	FI-0445	chart_data_svg_atlas	A-0063	Figure 18.4 - Prompt Injection Boundary. Untrusted retrieved content tries to cross from data into instruction before a tool action.	647	655	board_title	Assistant Product Grammar	mapped
+I-0302	FI-0446	chart_data_svg_atlas	A-0109	Figure 24.2 - Five Conversion Gates. Prediction-to-interface, interface-to-product, model-to-platform, compute-to-infrastructure, and fluency-to-trust are shown as overlapping pressures.	647	655	board_title	Assistant Product Grammar	mapped
+I-0302	FI-0447	chart_data_svg_atlas	A-0024	Generated GTC page 29 AI factory thesis card	647	655	board_title	Assistant Product Grammar	mapped
+I-0302	FI-0448	chart_data_svg_atlas	A-0035	Generated Chapter 20 productivity claim blocker map	647	655	board_title	Assistant Product Grammar	mapped
+I-0302	FI-0449	chart_data_svg_atlas	A-0086	Generated Chapter 9 research-to-product conversion timeline	647	655	board_title	Assistant Product Grammar	mapped
+I-0302	FI-0450	chart_data_svg_atlas	A-0093	Generated Chapter 19 repository-as-prompt schematic	647	655	board_title	Assistant Product Grammar	mapped
+I-0302	FI-0451	chart_data_svg_atlas	A-0289-T001	Figure 09.04 - 2023 Model-Landscape Table	650	658	board_title	Model Race And Benchmark Memory	mapped
+I-0302	FI-0452	chart_data_svg_atlas	A-0289-T005	Figure 13.02 - May 2026 Cutoff Model-Landscape Table	650	658	board_title	Model Race And Benchmark Memory	mapped
+I-0302	FI-0453	chart_data_svg_atlas	A-0289-T002	Figure 13.03 - 2024 Model-Landscape Table	650	658	board_title	Model Race And Benchmark Memory	mapped
+I-0302	FI-0454	chart_data_svg_atlas	A-0289-T003	Figure 19.03 - 2025 Model-Landscape Table	650	658	board_title	Model Race And Benchmark Memory	mapped
+I-0302	FI-0455	chart_data_svg_atlas	A-0286-T004	Figure 19.05 - 2021 Model-Landscape Table	650	658	board_title	Model Race And Benchmark Memory	mapped
+I-0302	FI-0456	chart_data_svg_atlas	A-0289-T004	Figure 21.01 - 2026 Model-Landscape Table	650	658	board_title	Model Race And Benchmark Memory	mapped
+I-0302	FI-0457	chart_data_svg_atlas	A-0286-T005	Figure 21.04 - 2022 Model-Landscape Table	650	658	board_title	Model Race And Benchmark Memory	mapped
+I-0302	FI-0458	chart_data_svg_atlas	A-0286-T001	Figure 22.01 - 2018 Model-Landscape Table	650	658	board_title	Model Race And Benchmark Memory	mapped
+I-0302	FI-0459	chart_data_svg_atlas	A-0286-T002	Figure 22.03 - 2019 Model-Landscape Table	650	658	board_title	Model Race And Benchmark Memory	mapped
+I-0302	FI-0460	chart_data_svg_atlas	A-0013	Generated LMArena historical leaderboard chart	650	658	board_title	Model Race And Benchmark Memory	mapped
+I-0302	FI-0461	chart_data_svg_atlas	A-0261-004	Interconnection Is A Queue, Not Atmosphere	652	660	board_title	Labs, Open Weights, And Plural Frontier	mapped
+I-0302	FI-0462	chart_data_svg_atlas	A-0261-006	Nuclear Texture Needs Evidence, Not Steam	652	660	board_title	Labs, Open Weights, And Plural Frontier	mapped
+I-0302	FI-0463	chart_data_svg_atlas	A-0065	Figure 17.2 - Web Corpus Filter Funnel. Common Crawl style data becomes a training-mixture candidate through filtering, deduplication, and documentation decisions.	652	660	board_title	Labs, Open Weights, And Plural Frontier	mapped
+I-0302	FI-0464	chart_data_svg_atlas	A-0061	Figure 18.2 - Function-Call Boundary. The model proposes typed calls; application validation, permissions, execution, and logging decide what happens.	652	660	board_title	Labs, Open Weights, And Plural Frontier	mapped
+I-0302	FI-0465	chart_data_svg_atlas	A-0260-003	Release notes are product archaeology	652	660	board_title	Labs, Open Weights, And Plural Frontier	mapped
+I-0302	FI-0466	chart_data_svg_atlas	A-0110	Figure 24.3 - Unsettled By The Cutoff. Tempting end-of-book claims are paired with the same-scope evidence still required.	652	660	board_title	Labs, Open Weights, And Plural Frontier	mapped
+I-0302	FI-0467	chart_data_svg_atlas	A-0025	Generated GTC page 45 inference compute roadmap card	652	660	board_title	Labs, Open Weights, And Plural Frontier	mapped
+I-0302	FI-0468	chart_data_svg_atlas	A-0068	Generated Chapter 1 ChatGPT shock chronology	652	660	board_title	Labs, Open Weights, And Plural Frontier	mapped
+I-0302	FI-0469	chart_data_svg_atlas	A-0087	Generated Chapter 9 TPU/Search/Workspace surface map	652	660	board_title	Labs, Open Weights, And Plural Frontier	mapped
+I-0302	FI-0470	chart_data_svg_atlas	A-0112	Generated Chapter 10 open-weight control stack	652	660	board_title	Labs, Open Weights, And Plural Frontier	mapped
+I-0302	FI-0471	chart_data_svg_atlas	A-0072	Figure 14.2 - GPU Memory and Interconnect: The Traffic Pattern. Host orchestration, HBM, GPU shards, and interconnect fabric make LLM systems a communication problem.	654	662	board_title	Hardware, CUDA, And AI Factories	mapped
+I-0302	FI-0472	chart_data_svg_atlas	A-0073	Figure 14.3 - Training vs Inference: Two Capacity Problems. Training runs and inference services stress the same GPU stack in different ways.	654	662	board_title	Hardware, CUDA, And AI Factories	mapped
+I-0302	FI-0473	chart_data_svg_atlas	A-0260-022	Inference compute is a roadmap argument	654	662	board_title	Hardware, CUDA, And AI Factories	mapped
+I-0302	FI-0474	chart_data_svg_atlas	A-0026	Generated GTC page 46 Vera Rubin partner card	654	662	board_title	Hardware, CUDA, And AI Factories	mapped
+I-0302	FI-0475	chart_data_svg_atlas	A-0074	Figure 23.1 - Failure Modes Are Different Claims. Hallucination/truth, sycophancy, adversarial, proxy, evidence, and measurement failures are separate evidence lanes.	654	662	board_title	Hardware, CUDA, And AI Factories	mapped
+I-0302	FI-0476	chart_data_svg_atlas	A-0111	Figure 24.4 - Human Judgment Loop. User intent, model tokens, tools, evidence trace, audit, blockers, and human decision form the closing loop.	654	662	board_title	Hardware, CUDA, And AI Factories	mapped
+I-0302	FI-0477	chart_data_svg_atlas	A-0027	Generated GTC page 49 system comparison card	654	662	board_title	Hardware, CUDA, And AI Factories	mapped
+I-0302	FI-0478	chart_data_svg_atlas	A-0080	Generated Chapter 21 inference-contract matrix	654	662	board_title	Hardware, CUDA, And AI Factories	mapped
+I-0302	FI-0479	chart_data_svg_atlas	A-0089	Generated Chapter 9 benchmark/adoption blocker grid	654	662	board_title	Hardware, CUDA, And AI Factories	mapped
+I-0302	FI-0480	chart_data_svg_atlas	A-0113	Generated Chapter 10 adopter burden transfer diagram	654	662	board_title	Hardware, CUDA, And AI Factories	mapped
+I-0302	FI-0481	chart_data_svg_atlas	A-0058	Figure 8.3 - Inference Cost Stack: What The Chat Box Hides. Non-quantified stack of latency, governance, serving software, accelerators, and physical datacenter layers.	657	665	board_title	Power, Data, And Token Supply Chains	mapped
+I-0302	FI-0482	chart_data_svg_atlas	A-0015	Figure 16.1 - Power To Token Flow. Sourced Chapter 16 flow diagram tracing electricity demand, grid interconnection, facility cooling, accelerators, inference scheduling, and token output with caveat bands.	657	665	board_title	Power, Data, And Token Supply Chains	mapped
+I-0302	FI-0483	chart_data_svg_atlas	A-0020	Figure 16.2 - Data-Centre Load Scenarios. IEA, LBNL, and DOE rows show measured/current estimates separately from forecast and scenario ranges for global and U.S. data-centre electricity demand.	657	665	board_title	Power, Data, And Token Supply Chains	mapped
+I-0302	FI-0484	chart_data_svg_atlas	A-0023	Figure 16.5 - Clean Procurement Is Not Physical Supply. IEA supply-mix projection language and DOE-SEAB flexibility categories support a distinction between corporate contracts/certificates and the electricity physically serving a site at a given hour.	657	665	board_title	Power, Data, And Token Supply Chains	mapped
+I-0302	FI-0485	chart_data_svg_atlas	A-0022	Generated Chapter 16 cooling and rack-density note	657	665	board_title	Power, Data, And Token Supply Chains	mapped
+I-0302	FI-0486	chart_data_svg_atlas	A-0057	Generated Chapter 8 cloud-to-product flywheel	657	665	board_title	Power, Data, And Token Supply Chains	mapped
+I-0302	FI-0487	chart_data_svg_atlas	A-0078	Generated Chapter 21 train-time versus test-time compute axes	657	665	board_title	Power, Data, And Token Supply Chains	mapped
+I-0302	FI-0488	chart_data_svg_atlas	A-0088	Generated Chapter 9 Gemini long-context lane	657	665	board_title	Power, Data, And Token Supply Chains	mapped
+I-0302	FI-0489	chart_data_svg_atlas	A-0091	Generated Chapter 19 editor-to-repository workflow	657	665	board_title	Power, Data, And Token Supply Chains	mapped
+I-0302	FI-0490	chart_data_svg_atlas	A-0114	Generated Chapter 10 Llama screenshot-priority board	657	665	board_title	Power, Data, And Token Supply Chains	mapped
+I-0302	FI-0491	chart_data_svg_atlas	A-0095	Figure 12.2 - Claude Becomes A Product Family. Haiku, Sonnet, Opus, computer use, Claude Code, and Claude 4 mark release surfaces and product positioning, not permanent best-model status.	659	667	board_title	Agents, Coding, And Tool Use	mapped
+I-0302	FI-0492	chart_data_svg_atlas	A-0096	Figure 12.3 - From Assistant To Action Surface. Anthropic's computer-use, MCP, and Claude Code materials show a move toward tool-connected assistants, with permissions and review as part of the system.	659	667	board_title	Agents, Coding, And Tool Use	mapped
+I-0302	FI-0493	chart_data_svg_atlas	A-0076	Figure 23.3 - Every Evaluation Casts A Shadow. TruthfulQA, Arena preference, SWE-bench, and LiveCodeBench each illuminate a scoped slice and leave blind spots.	659	667	board_title	Agents, Coding, And Tool Use	mapped
+I-0302	FI-0494	chart_data_svg_atlas	A-0002	Generated visual grammar prototype	659	667	board_title	Agents, Coding, And Tool Use	mapped
+I-0302	FI-0495	chart_data_svg_atlas	A-0010	Generated GPT lineage visual table	659	667	board_title	Agents, Coding, And Tool Use	mapped
+I-0302	FI-0496	chart_data_svg_atlas	A-0032	Generated Chapter 20 coding-agent harness loop	659	667	board_title	Agents, Coding, And Tool Use	mapped
+I-0302	FI-0497	chart_data_svg_atlas	A-0033	Generated Chapter 20 coding benchmark caveat matrix	659	667	board_title	Agents, Coding, And Tool Use	mapped
+I-0302	FI-0498	chart_data_svg_atlas	A-0034	Generated Chapter 20 tool-call lifecycle	659	667	board_title	Agents, Coding, And Tool Use	mapped
+I-0302	FI-0499	chart_data_svg_atlas	A-0079	Generated Chapter 21 verifier/search loop	659	667	board_title	Agents, Coding, And Tool Use	mapped
+I-0302	FI-0500	chart_data_svg_atlas	A-0090	Generated Chapter 19 code-as-language ladder	659	667	board_title	Agents, Coding, And Tool Use	mapped
+I-0302	FI-0501	chart_data_svg_atlas	A-0059	Figure 8.4 - Enterprise Claim Blocker Map. Access routes and product surfaces are allowed now; revenue, ROI, productivity, adoption, search share, and margin need stronger rows.	661	669	board_title	Economics, Trust, And Evaluation	mapped
+I-0302	FI-0502	chart_data_svg_atlas	A-0286-T003	Figure 22.04 - 2020 Model-Landscape Table	661	669	board_title	Economics, Trust, And Evaluation	mapped
+I-0302	FI-0503	chart_data_svg_atlas	A-0077	Figure 23.4 - From Answer To Auditable Claim. Question, retrieval, generation, audit, blocker, record, and publish steps separate fluent output from scoped evidence.	661	669	board_title	Economics, Trust, And Evaluation	mapped
+I-0302	FI-0504	chart_data_svg_atlas	A-0108	Figure 24.1 - From Next Token To Computing Stack. Next-token prediction is surrounded by data, architecture, training, products, tools, infrastructure, economics, and trust.	661	669	board_title	Economics, Trust, And Evaluation	mapped
+I-0302	FI-0505	chart_data_svg_atlas	A-0003	Generated visual grammar prototype	661	669	board_title	Economics, Trust, And Evaluation	mapped
+I-0302	FI-0506	chart_data_svg_atlas	A-0030	Generated Llama family open-weight map	661	669	board_title	Economics, Trust, And Evaluation	mapped
+I-0302	FI-0507	chart_data_svg_atlas	A-0082	Generated Chapter 22 token meter	661	669	board_title	Economics, Trust, And Evaluation	mapped
+I-0302	FI-0508	chart_data_svg_atlas	A-0083	Generated Chapter 22 routing/caching/batching levers	661	669	board_title	Economics, Trust, And Evaluation	mapped
+I-0302	FI-0509	chart_data_svg_atlas	A-0084	Generated Chapter 22 subscription/API/bundle map	661	669	board_title	Economics, Trust, And Evaluation	mapped
+I-0302	FI-0510	chart_data_svg_atlas	A-0085	Generated Chapter 22 margin and ROI blocker grid	661	669	board_title	Economics, Trust, And Evaluation	mapped
+I-0302	FI-0511	chart_data_svg_atlas	A-0260-001	Paid access became a product surface	663	671	board_title	Source Cards And Claim Boundaries	mapped
+I-0302	FI-0512	chart_data_svg_atlas	A-0260-002	Enterprise ChatGPT added workplace controls	663	671	board_title	Source Cards And Claim Boundaries	mapped
+I-0302	FI-0513	chart_data_svg_atlas	A-0260-003	Release notes are product archaeology	663	671	board_title	Source Cards And Claim Boundaries	mapped
+I-0302	FI-0514	chart_data_svg_atlas	A-0097	Figure 12.4 - The Tempting Claude Claims Are Not The Sourced Ones. Vendor launch pages and docs can show product direction, but outcome claims need benchmark, pricing, adoption, productivity, and safety evidence at the same scope.	663	671	board_title	Source Cards And Claim Boundaries	mapped
+I-0302	FI-0515	chart_data_svg_atlas	A-0260-017	Computer use was a product announcement	663	671	board_title	Source Cards And Claim Boundaries	mapped
+I-0302	FI-0516	chart_data_svg_atlas	A-0260-018	Claude is a model-family product surface	663	671	board_title	Source Cards And Claim Boundaries	mapped
+I-0302	FI-0517	chart_data_svg_atlas	A-0261-001	Lithography Texture Becomes Packaging Logic	663	671	board_title	Source Cards And Claim Boundaries	mapped
+I-0302	FI-0518	chart_data_svg_atlas	A-0261-002	Cleanrooms Are Too Weak Without Rights	663	671	board_title	Source Cards And Claim Boundaries	mapped
+I-0302	FI-0519	chart_data_svg_atlas	A-0029	Figure 15.x - GTC Page 51: DSX Platform Frame. Lightweight card labeling DSX as NVIDIA reference-design and AI factory platform framing.	663	671	board_title	Source Cards And Claim Boundaries	mapped
+I-0302	FI-0520	chart_data_svg_atlas	A-0021	Figure 16.3 - The Interconnection Queue. EPRI and DOE-SEAB evidence can show facility-scale requests and one-to-three-year grid lead-time pressure, but not a complete project-level delay database.	663	671	board_title	Source Cards And Claim Boundaries	mapped
+I-0302	FI-0521	chart_data_svg_atlas	A-0070	Figure 1.3 - Local Alarms: First Institutional Response Chronology. Stack Overflow, NYC schools, Seattle schools, and JPMorgan become named local-control examples.	666	674	board_title	Reader Memory Rails	mapped
+I-0302	FI-0522	chart_data_svg_atlas	A-0056	Figure 8.1 - Microsoft/OpenAI: The Cloud Bargain Timeline. Sourced chronology from 2019 compute partnership to Microsoft 365 Copilot with blocked outcome lane.	666	674	board_title	Reader Memory Rails	mapped
+I-0302	FI-0523	chart_data_svg_atlas	A-0071	Figure 14.1 - CUDA Stack: The Moat Under The Moat. Frameworks, libraries, CUDA programming model, runtime, accelerators, and cloud operations form one stack.	666	674	board_title	Reader Memory Rails	mapped
+I-0302	FI-0524	chart_data_svg_atlas	A-0067	Figure 17.4 - Memorization and Contamination Blocker Map. Duplication, benchmark contamination, memorization, extraction, and blocker families are separated.	666	674	board_title	Reader Memory Rails	mapped
+I-0302	FI-0525	chart_data_svg_atlas	A-0001	Generated visual grammar prototype	666	674	board_title	Reader Memory Rails	mapped
+I-0302	FI-0526	chart_data_svg_atlas	A-0012	Generated AI factory stack visual	666	674	board_title	Reader Memory Rails	mapped
+I-0302	FI-0527	chart_data_svg_atlas	A-0017	Generated Chapter 16 N16-1 note layout mock	666	674	board_title	Reader Memory Rails	mapped
+I-0302	FI-0528	chart_data_svg_atlas	A-0018	Generated Chapter 16 parent inline-cue render	666	674	board_title	Reader Memory Rails	mapped
+I-0302	FI-0529	chart_data_svg_atlas	A-0019	Generated price-quality exclusion map	666	674	board_title	Reader Memory Rails	mapped
+I-0302	FI-0530	chart_data_svg_atlas	A-0031	Generated China open-model source-permission map	666	674	board_title	Reader Memory Rails	mapped

@@ -6,16 +6,16 @@ This repository is the working memory, manuscript lab, source ledger, visual sys
 
 ## Current Book State
 
-Updated **2026-05-27** after pass `I-0301`.
+Updated **2026-05-27** after pass `I-0302`.
 
-- **Latest recorded pass:** `I-0301`, final visual rhythm repair.
+- **Latest recorded pass:** `I-0302`, final private visual inventory/contact-sheet audit.
 - **Words:** 103,526 assembled source words across the canonical 24-chapter draft.
 - **Chapters:** 24 / 24 main chapters.
-- **Best local private PDF proof:** `rendered/final_private_i0301/Next-Token-final-private-personal-edition-i0301.pdf` exists locally and is intentionally not committed. It has 675 pages, 330 PDF image objects, 4966 drawing/vector objects, 0 blank-like pages, and SHA256 `5eade58d218f10cf8d7146964660a81d9aeb7560e057ee1eee3766619ac35ce6`.
-- **Rhythm repair:** the maximum consecutive visual-heavy run was reduced from 199 pages to 40 pages by inserting text-only reading dividers inside the 200-item private atlas.
-- **Visual target status:** the I-0300 visual inventory and category summary still record all private visual targets as passed; I-0301 changes rhythm only, not the exhibit set.
+- **Best local private PDF proof:** `rendered/final_private_i0301/Next-Token-final-private-personal-edition-i0301.pdf`.
+- **Final visual inventory:** `data/final_private_visual_inventory_i0302.tsv` maps 530 visual rows to the I-0301 PDF pages, local files, provenance, private-use status, story purpose, and blocked-claim boundaries.
+- **Final contact sheet:** `rendered/final_inventory_i0302/Next-Token-final-private-visual-contact-sheet-i0302.pdf` exists locally and is intentionally not committed. It has 16 pages, 159 image objects, and SHA256 `218eb5faa5e374c56c53f85ac69e5305910636a654702fe13a4d8c79aa426c5a`.
 
-The book remains a visually maximal private personal edition, now with better breathing room inside the densest atlas section.
+The private edition now has both the rich PDF and a separate audit surface for inspecting its charts, screenshots, source excerpts, logos, people images, tables, and model/documentation surfaces.
 
 ## Readiness Snapshot
 

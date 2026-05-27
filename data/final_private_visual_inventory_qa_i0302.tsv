@@ -1,0 +1,9 @@
+pass_id	check_id	category	result	evidence	recommended_action
+I-0302	I0302-001	inventory_row_count	pass	rows=530	No action required for this automated check.
+I-0302	I0302-002	page_mapping	pass	unmapped_rows=0	No action required for this automated check.
+I-0302	I0302-003	visual_targets	pass	pass_rows=9/9	No action required for this automated check.
+I-0302	I0302-004	provenance_fields	pass	rows=530	No action required for this automated check.
+I-0302	I0302-005	local_files_exist	pass	missing_files=0	No action required for this automated check.
+I-0302	I0302-006	contact_sheet_pdf	pass	pages=16; images=159; bytes=59164399	No action required for this automated check.
+I-0302	I0302-007	contact_sheet_blank_pages	pass	blank_like=0	No action required for this automated check.
+I-0302	I0302-008	book_invariants	pass	words=103526; chapters=24	No action required for this automated check.
