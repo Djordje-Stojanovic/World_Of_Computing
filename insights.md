@@ -578,3 +578,4 @@ The benchmark layer is strongest when tables are explicit memory aids rather tha
 - I-0314: source integrity should be felt as confidence, not displayed as scaffolding. The reader-facing page needs plain captions; URLs, old captions, source caveats, and rights/provenance details belong in endnote ledgers unless they are part of the story itself.
 
 - I-0315: chronology is a reader contract, not a table-of-contents decoration. Moving ChatGPT later also requires killing old cross-reference sentences that tell the reader the book is about to move backward.
+- I-0316: date rails are most useful when they are visible and boring in the right way. A chapter span, three concrete time beads, and a cutoff guard orient the reader without turning the page back into source bureaucracy.

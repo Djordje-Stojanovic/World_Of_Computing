@@ -1,0 +1,11 @@
+pass_id	check	result	evidence
+I-0316	24 visible chapter date rails	pass	date_span_hits=24
+I-0316	24 visible cutoff guards	pass	cutoff_guard_hits=24
+I-0316	chapter timeline points visible	pass	timeline_point_hits=132/72
+I-0316	toc carries date spans	pass	toc_date_span_hits=24
+I-0316	cutoff date visible	pass	May 24, 2026
+I-0316	no unqualified post-cutoff scan hits	pass	post_cutoff_year_contexts=0 unlabelled/9 total; post_cutoff_exact_date=0 unlabelled/0 total; future_roadmap_unlabeled=0 unlabelled/0 total
+I-0316	rescue proof wording removed from reader note	pass	hits=0
+I-0316	exactly 24 main chapters preserved	pass	unique_chapters=24
+I-0316	word count remains in band	pass	106029
+I-0316	claim ledger unsupported zero	pass	332 supported / 0 needs-verification

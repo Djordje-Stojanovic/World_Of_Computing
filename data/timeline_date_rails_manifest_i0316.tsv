@@ -1,0 +1,10 @@
+pass_id	artifact	path	exists	bytes	sha256	pages	note
+I-0316	source_pdf	rendered/final_private_i0315/Next-Token-final-private-chronological-spine-i0315.pdf	yes	65017443	adb575d04d82f38d1ad392ba1042f7eae96e3dd0b2ff11dffe18fe1d5c494848	536	I-0315 chronological-spine proof
+I-0316	timeline_html	rendered/final_private_i0316/Next-Token-final-private-timeline-date-rails-i0316.html	yes	107705634	bdb86ba17971e50e1a6416e6edc4e3cde26b553b91ee4cff6633f85a81d3e188		I-0316 timeline/date-rail HTML
+I-0316	timeline_pdf	rendered/final_private_i0316/Next-Token-final-private-timeline-date-rails-i0316.pdf	yes	65108240	313814679b640df1fdcd778c862260c1f0a7a92c072771a7ac9403db5dadeb7c	541	I-0316 timeline/date-rail PDF
+I-0316	timeline_markdown	manuscript/Next-Token-timeline-date-rails-i0316.md	yes	379238	b00e386992ec7ad40dd13f86be8470ef545c3114bb5d49a6d8925e86c35b831c		I-0316 manuscript snapshot
+I-0316	timeline_ledger	data/timeline_date_rails_i0316.tsv	yes	8290	e36b9ec9ec84fb436dbb8220aed700d902b933c774853df6f71fcb2633351a97		24 chapter date rails
+I-0316	qa	data/timeline_date_rails_qa_i0316.tsv	yes	765	4deea8bfe185ac7c86fd73bc0d66c861f15d1aec6c2588a15380d50d3877cae1		I-0316 timeline QA
+I-0316	cutoff_scan	data/timeline_date_rails_cutoff_scan_i0316.tsv	yes	1582	0c9c90f501063fc889a01aedde3e4a535f46389153b24a73bc273eefa4804109		post-cutoff text scan
+I-0316	report	manuscript/timeline-date-rails-i0316.md	yes	1118	d5d0c152aa69be4d855957effab783aa6b37fe1961881d3549258a9ca2984b18		I-0316 report
+I-0316	pointer	champion/final-private-pdf-pointer-i0316.md	yes	605	99ba7be7bd7230a9ce816c4d31cbaac0149d9e1ac3c99a7159bc81417f976a14		I-0316 pointer

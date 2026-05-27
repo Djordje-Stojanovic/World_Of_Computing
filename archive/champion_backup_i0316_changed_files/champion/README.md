@@ -1,6 +1,6 @@
 # Champion
 
-Current private personal-edition rescue package updated by `I-0316` on 2026-05-27, then kept under the direct chronological publication rescue.
+Current private personal-edition rescue package updated by `I-0315` on 2026-05-27, then kept under the direct chronological publication rescue.
 
 - Human package pointer: `final-private-pdf-pointer-i0316.md`
 - Private reader guide: `private-reader-guide-i0311.md`
@@ -25,14 +25,14 @@ Current private personal-edition rescue package updated by `I-0316` on 2026-05-2
 - Final claim audit report: `final-source-claim-quarantine-i0303.md`
 - Prior champion backup: `archive/champion_backup_i0304`
 
-The I-0316 PDF is the current local rescue proof, not the final accepted book. The active queue in `ideas.tsv` now runs `I-0317` through `I-0322` to add timelines, repair blank/sparse pages, contextualize visuals, enforce one visual per page, add stronger quantitative material, and produce a final private publication candidate.
+The I-0316 PDF is the current local rescue proof, not the final accepted book. The active queue in `ideas.tsv` now runs `I-0316` through `I-0322` to add timelines, repair blank/sparse pages, contextualize visuals, enforce one visual per page, add stronger quantitative material, and produce a final private publication candidate.
 
 The PDF/contact-sheet renders are intentionally local/ignored private-use artifacts; use the pointer file for path, hash, render metrics, and the current package map.
 
 I-0313 update: the rescue proof reached zero forbidden reader-facing bureaucracy-string hits in extracted PDF text. It still needed endnotes, chronology, timelines, page density, contextual visuals, one-image pages, quantitative enrichment, hostile QA, and final build.
 
-I-0314 update: the current rescue proof has zero visible URL/source-note/caveat mechanics hits in extracted PDF text. It still needs I-0317 through I-0322 for page density, contextual visuals, one-image pages, quantitative enrichment, hostile QA, and final build.
+I-0314 update: the current rescue proof has zero visible URL/source-note/caveat mechanics hits in extracted PDF text. It still needs I-0317 through I-0322 for chronology, timelines, page density, contextual visuals, one-image pages, quantitative enrichment, hostile QA, and final build.
 
-I-0315 update: the current rescue proof begins with the Transformer/attention chapter and moves ChatGPT to chapters 06-07. It still needs I-0317 through I-0322 for page density, contextual visuals, one-image pages, quantitative enrichment, hostile QA, and final build.
+I-0315 update: the current rescue proof begins with the Transformer/attention chapter and moves ChatGPT to chapters 06-07. It still needs I-0317 through I-0322 for date rails, page density, contextual visuals, one-image pages, quantitative enrichment, hostile QA, and final build.
 
 I-0316 update: the current rescue proof adds visible date spans, chapter timeline strips, and May 24, 2026 cutoff guards to all 24 chapters. It still needs I-0317 through I-0322 for page density, contextual visuals, one-image pages, quantitative enrichment, hostile QA, and final build.

@@ -8,7 +8,7 @@ Open this only as the current rescue baseline, not as the final edition:
 
 `rendered/final_private_i0316/Next-Token-final-private-timeline-date-rails-i0316.pdf`
 
-This proof has 541 pages, 356 image objects, 3600 drawing/vector objects, 24 visible chapter date rails, and 24 visible cutoff guards. SHA-256: `313814679b640df1fdcd778c862260c1f0a7a92c072771a7ac9403db5dadeb7c`.
+This proof has 541 pages, 356 image objects, 3600 drawing/vector objects, 24 visible chapter date rails, and 24 visible cutoff guards. SHA-256: `407cd186d7db79ca68fc1b2c6c89663dd82736149d7fb44145d4e89f9e36af78`.
 
 It is not final. A direct reader review rejected the current book surface because it opens with ChatGPT instead of a chronological Transformer-era spine, exposes caption/source bureaucracy, contains blank and sparse pages, uses visual portfolio dumps, and allows multi-image pages.
 
@@ -52,8 +52,8 @@ Private-use note: found/company/source-surface visuals remain for private readin
 
 I-0313 update: the rescue proof reached zero forbidden reader-facing bureaucracy-string hits in extracted PDF text. It still needed endnotes, chronology, timelines, page density, contextual visuals, one-image pages, quantitative enrichment, hostile QA, and final build.
 
-I-0314 update: the current rescue proof has zero visible URL/source-note/caveat mechanics hits in extracted PDF text. It still needs I-0317 through I-0322 for page density, contextual visuals, one-image pages, quantitative enrichment, hostile QA, and final build.
+I-0314 update: the current rescue proof has zero visible URL/source-note/caveat mechanics hits in extracted PDF text. It still needs I-0317 through I-0322 for chronology, timelines, page density, contextual visuals, one-image pages, quantitative enrichment, hostile QA, and final build.
 
-I-0315 update: the current rescue proof begins with the Transformer/attention chapter and moves ChatGPT to chapters 06-07. It still needs I-0317 through I-0322 for page density, contextual visuals, one-image pages, quantitative enrichment, hostile QA, and final build.
+I-0315 update: the current rescue proof begins with the Transformer/attention chapter and moves ChatGPT to chapters 06-07. It still needs I-0317 through I-0322 for date rails, page density, contextual visuals, one-image pages, quantitative enrichment, hostile QA, and final build.
 
 I-0316 update: the current rescue proof adds visible date spans, chapter timeline strips, and May 24, 2026 cutoff guards to all 24 chapters. It still needs I-0317 through I-0322 for page density, contextual visuals, one-image pages, quantitative enrichment, hostile QA, and final build.
