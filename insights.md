@@ -574,3 +574,5 @@ The benchmark layer is strongest when tables are explicit memory aids rather tha
 - Rescue override after I-0312: a clean automated proof can still be the wrong book. The final sprint must optimize for a chronological reader experience, plain captions, contextual one-image pages, dense layouts, and visible numbers/tables, while moving provenance bureaucracy out of the reader's way.
 
 - I-0313: reader-facing trust is not improved by showing the machinery of trust. Raw IDs, use notes, blocked-claim boilerplate, checksums, and provenance memos belong in endnotes and ledgers; the page itself needs plain captions and clean narrative air.
+
+- I-0314: source integrity should be felt as confidence, not displayed as scaffolding. The reader-facing page needs plain captions; URLs, old captions, source caveats, and rights/provenance details belong in endnote ledgers unless they are part of the story itself.

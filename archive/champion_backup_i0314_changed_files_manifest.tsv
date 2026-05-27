@@ -1,0 +1,5 @@
+pass_id	source_path	backup_path	sha256
+I-0314	README.md	archive/champion_backup_i0314_changed_files/README.md	6cc990ded8d970f1181216bcf413fcacbebcb2fd913d30decc2def077e788fa3
+I-0314	champion/README.md	archive/champion_backup_i0314_changed_files/champion/README.md	ae38b63324da84550751b3df6a2029ceaa3f4f054981db310fdb41088ff7abf7
+I-0314	champion/private-reader-guide-i0311.md	archive/champion_backup_i0314_changed_files/champion/private-reader-guide-i0311.md	2e0b9c39395c1c52617da320384e427a997be9a9742c7640080f50c38b4e36a1
+I-0314	champion/final-private-reader-guide-pointer-i0311.md	archive/champion_backup_i0314_changed_files/champion/final-private-reader-guide-pointer-i0311.md	e90a7eb37321515868f7020c4f37b7c3da4d94d35bd6dcd5268d027c619a6116

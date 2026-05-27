@@ -1,0 +1,8 @@
+pass_id	check	result	evidence
+I-0314	reader-facing source mechanics cleared	pass	1099 -> 0
+I-0314	captions rewritten	pass	267 / 300
+I-0314	caption endnote ledger written	pass	caption_endnotes=267
+I-0314	visual abundance preserved	pass	image_objects=356
+I-0314	chapter count invariant	pass	chapters=24
+I-0314	word count invariant	pass	words=103526
+I-0314	claim ledger unsupported zero	pass	330 supported / 0 needs-verification

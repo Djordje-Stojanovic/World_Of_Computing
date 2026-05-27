@@ -8,7 +8,7 @@ Open this only as the current rescue baseline, not as the final edition:
 
 `rendered/final_private_i0314/Next-Token-final-private-endnotes-captions-i0314.pdf`
 
-This proof has 537 pages, 356 image objects, 3424 drawing/vector objects, and 0 visible source/caption mechanics hits. SHA-256: `e967e5f95936c110c353fd2389646d16b50db43ef2cce75a095bc715e7b10f0c`.
+This proof has 537 pages, 356 image objects, 3424 drawing/vector objects, and 0 visible source/caption mechanics hits. SHA-256: `386a5d5aa957f4ce8a0be07f4a79cd523fc74eb51c4c7ec063a9f5a8e5350414`.
 
 It is not final. A direct reader review rejected the current book surface because it opens with ChatGPT instead of a chronological Transformer-era spine, exposes caption/source bureaucracy, contains blank and sparse pages, uses visual portfolio dumps, and allows multi-image pages.
 
@@ -50,6 +50,6 @@ Do not treat this as the done-enough edition. The open gates have been replaced 
 
 Private-use note: found/company/source-surface visuals remain for private reading and audit. This guide does not claim public distribution rights.
 
-I-0313 update: the rescue proof reached zero forbidden reader-facing bureaucracy-string hits in extracted PDF text. It still needed endnotes, chronology, timelines, page density, contextual visuals, one-image pages, quantitative enrichment, hostile QA, and final build.
+I-0313 update: the current rescue proof has zero forbidden reader-facing bureaucracy-string hits in extracted PDF text. It still needs I-0315 through I-0322 for endnotes, chronology, timelines, page density, contextual visuals, one-image pages, quantitative enrichment, hostile QA, and final build.
 
 I-0314 update: the current rescue proof has zero visible URL/source-note/caveat mechanics hits in extracted PDF text. It still needs I-0315 through I-0322 for chronology, timelines, page density, contextual visuals, one-image pages, quantitative enrichment, hostile QA, and final build.

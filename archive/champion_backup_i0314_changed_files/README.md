@@ -140,6 +140,6 @@ The project is past idea stage. It is now in the conversion phase: turning a sub
 
 Current manuscript baseline: 103526 words after I-0293 full private-edition render; I-0293 generated a local ignored full visual PDF at rendered/full_book_i0293/Next-Token-full-draft-i0293.pdf with 100 embedded image objects, 0 blank-like pages, and 0 pass / 100 warn / 0 fail figure-page QA.
 
-I-0313 update: the rescue proof reached zero forbidden reader-facing bureaucracy-string hits in extracted PDF text. It still needed endnotes, chronology, timelines, page density, contextual visuals, one-image pages, quantitative enrichment, hostile QA, and final build.
+I-0313 update: the current rescue proof has zero forbidden reader-facing bureaucracy-string hits in extracted PDF text. It still needs I-0315 through I-0322 for endnotes, chronology, timelines, page density, contextual visuals, one-image pages, quantitative enrichment, hostile QA, and final build.
 
 I-0314 update: the current rescue proof has zero visible URL/source-note/caveat mechanics hits in extracted PDF text. It still needs I-0315 through I-0322 for chronology, timelines, page density, contextual visuals, one-image pages, quantitative enrichment, hostile QA, and final build.
