@@ -500,3 +500,6 @@ Acquisition readiness should be proved with local files before it touches the we
 ## 2026-05-27 - I-0282 Media Prep
 
 Bulk visual acquisition needs a triage machine before it needs more images. The useful gate is candidate in, ignored original out, derivative variants, perceptual hash, quality score, duplicate group, provenance fields, and a contact sheet the editor can actually look at; otherwise a photo sprint becomes an unreviewable pile.
+## 2026-05-27 - I-0283 Table/Excerpt Integration
+
+Tables and source excerpts should enter the book through the same proof membrane as images: row schema, local file, hash, caption contract, claim boundary, placement row, and PDF smoke proof. A screenshot or paper page is not an exhibit until the render path and blocked-claim footer travel with it.

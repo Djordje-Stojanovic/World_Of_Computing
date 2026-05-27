@@ -1,0 +1,10 @@
+year	model_or_surface	reader_job	source_ids	cutoff_and_claim_boundary	final_table_status
+2018	GPT-1	pretraining transfer	S-0004	paper/source-card row required before final table	schema_probe_not_final_fact
+2019	GPT-2	staged release	S-0012	do not infer misuse prevalence	schema_probe_not_final_fact
+2020	GPT-3	prompting and API turn	S-0005;S-0127	do not treat parameter count as capability rank	schema_probe_not_final_fact
+2021	Codex/Copilot	code interface	S-0132	productivity claims need separate evidence	schema_probe_not_final_fact
+2022	ChatGPT	assistant interface	S-0006;S-0078	adoption metrics stay attributed	schema_probe_not_final_fact
+2023	GPT-4/Llama/Claude	frontier and open-weight split	S-0076;S-0111;S-0020	no crown without benchmark scope	schema_probe_not_final_fact
+2024	Gemini/Llama 3/Claude 3	model-family competition	S-0121;S-0113;S-0020	mutable pages need snapshot dates	schema_probe_not_final_fact
+2025	DeepSeek-R1/GPT-4.1/Claude Code	reasoning and coding surface	S-0029;S-0244;S-0048	vendor benchmark claims need harness caveats	schema_probe_not_final_fact
+2026	GTC/roadmap-era landscape	cutoff-bounded roadmap pressure	S-0001	post-cutoff events barred as history	schema_probe_not_final_fact

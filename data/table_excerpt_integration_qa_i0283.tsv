@@ -1,0 +1,9 @@
+pass_id	check_id	category	result	evidence	recommended_action
+I-0283	I0283-001	benchmark_table_generator_by_year	pass	rows=9; svg=assets/benchmarks/i0283/benchmark-year-table-probe-i0283.svg	Use this route in I-0285/I-0286/I-0288/I-0289.
+I-0283	I0283-002	paper_pdf_page_render	pass	rendered GTC-2026-Keynote.pdf page 1 to rendered/i0283_table_excerpt_smoke/media/gtc_2026_page_1_probe.png	Use this route in I-0285/I-0286/I-0288/I-0289.
+I-0283	I0283-003	paper_pdf_excerpt_card_builder	pass	excerpt_card=assets/papers/i0283/pdf-excerpt-card-probe-i0283.svg with blocked-claim footer	Use this route in I-0285/I-0286/I-0288/I-0289.
+I-0283	I0283-004	model_card_screenshot_capture	pass	chrome screenshot from assets/model_cards/i0283/model-card-screenshot-probe-i0283.html to rendered/i0283_table_excerpt_smoke/media/model_card_screenshot_probe_i0283.png	Use this route in I-0285/I-0286/I-0288/I-0289.
+I-0283	I0283-005	figure_placement_manifest_updater	pass	draft placement rows=3; chapters={'CH13': 1, 'CH15': 1, 'CH12': 1}	Use this route in I-0285/I-0286/I-0288/I-0289.
+I-0283	I0283-006	render_smoke_pdf	pass	pdf_pages=3; image_xobjects=2; text_i0283=True	Use this route in I-0285/I-0286/I-0288/I-0289.
+I-0283	I0283-007	provenance_hashing	pass	placement rows include sha256 for all source files; ignored smoke rasters/PDF have probe hashes	Use this route in I-0285/I-0286/I-0288/I-0289.
+I-0283	I0283-008	claim_boundary_carriage	pass	all draft placements carry explicit claim boundaries and next gates	Use this route in I-0285/I-0286/I-0288/I-0289.
