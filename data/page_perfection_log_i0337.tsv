@@ -18,3 +18,4 @@ page	status	words	images	issue	action_taken	new_words	new_images	notes
 16	PERFECT	304	0	none	Moved Transformer paper image to Ch1, adding 264 words to this page	304	0	Chapter 2 opening: The Sequence Problem. Full prose intro, 304w. Clean.
 17	PERFECT	363	0	Had Jupyter logo (wrong chapter)	Removed Jupyter logo, relocated to Ch19 queue	363	0	Language modeling pressure chain: counting, embeddings, seq2seq, attention. Clean prose.
 18	PERFECT	336	0	none	none	336	0	Embedding geometry, Word2vec, distributed representation prose. Clean.
+19	PERFECT	388	0	"Had ""the chapter should resist romantic language"""	"Rewrote to ""to resist romantic language about early embeddings"""	388	0	Bengio neural LM, distributed representation, sparsity, embeddings. Clean prose.
