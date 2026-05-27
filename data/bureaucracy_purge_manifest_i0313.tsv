@@ -1,0 +1,9 @@
+pass_id	artifact	path	exists	bytes	sha256	pages	forbidden_total	note
+I-0313	source_pdf	rendered/final_private_i0312/Next-Token-final-private-polished-matter-i0312.pdf	yes	68116631	f9b423d83a5d3fb41d21a5e504a63a3001d933dd9457b387e47418413e991dcc	662	4123	I-0312 baseline proof
+I-0313	clean_html	rendered/final_private_i0313/Next-Token-final-private-bureaucracy-purged-i0313.html	yes	107736105	0f09726e77586ca5d6fae343ecd9d276b9b78317961ee6ccdd8956fa7ad128b2			I-0313 bureaucracy-purged HTML
+I-0313	clean_pdf	rendered/final_private_i0313/Next-Token-final-private-bureaucracy-purged-i0313.pdf	yes	65498375	fbf8e55e59d5ab54c072a29e30b246c18902714b0570ff6de25740ea6d44724d	549	0	I-0313 bureaucracy-purged PDF
+I-0313	counts	data/bureaucracy_purge_counts_i0313.tsv	yes	1462	18e01124b9dc7565a6fd0b02bfffe014ec78d4e655dd57a750dcb2fc88f73507			forbidden-string before/after counts
+I-0313	qa	data/bureaucracy_purge_qa_i0313.tsv	yes	308	62f0f7ea85c09cbac215401dd2d46520297a64cefd969b952fd60f4764b15242			I-0313 QA ledger
+I-0313	report	manuscript/bureaucracy-purge-i0313.md	yes	1203	878b3ff4e4f015a9ac0ac61f78141e348f39f7e689fcd0f1212c44a8f4e209b1			I-0313 report
+I-0313	pointer	champion/final-private-pdf-pointer-i0313.md	yes	559	20f154a46daffab352a1c127a5008d773935d3cbd8fefb68217f4f03dcb4354c			I-0313 pointer
+I-0313	cleaning_counts		yes					svg_images_cleaned=201; captions_cleaned=300; sections_renamed=24; paragraphs_dropped=421; text_nodes_cleaned=5638; text_replacements=1546

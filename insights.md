@@ -572,3 +572,5 @@ The benchmark layer is strongest when tables are explicit memory aids rather tha
 - I-0312: broad residue scans are not enough for final matter. The first and last pages need their own professional-surface audit because stale structural phrases, tiny copy errors, and trailing blanks can survive even when path and metadata checks are clean.
 
 - Rescue override after I-0312: a clean automated proof can still be the wrong book. The final sprint must optimize for a chronological reader experience, plain captions, contextual one-image pages, dense layouts, and visible numbers/tables, while moving provenance bureaucracy out of the reader's way.
+
+- I-0313: reader-facing trust is not improved by showing the machinery of trust. Raw IDs, use notes, blocked-claim boilerplate, checksums, and provenance memos belong in endnotes and ledgers; the page itself needs plain captions and clean narrative air.

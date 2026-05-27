@@ -1,4 +1,4 @@
-# Private Reader Guide - Baseline After I-0313
+# Private Reader Guide - Baseline After I-0312
 
 Updated: 2026-05-27
 
@@ -8,13 +8,13 @@ Open this only as the current rescue baseline, not as the final edition:
 
 `rendered/final_private_i0313/Next-Token-final-private-bureaucracy-purged-i0313.pdf`
 
-This proof has 549 pages, 330 image objects, 4816 drawing/vector objects, and 0 forbidden reader-facing bureaucracy-string hits. SHA-256: `fbf8e55e59d5ab54c072a29e30b246c18902714b0570ff6de25740ea6d44724d`.
+This proof has 662 pages, 330 image objects, 5816 drawing/vector objects, 0 visible local-path residue hits, and 0 front/back process phrase hits. SHA-256: `df89b199e39bdaae213ec81923d1f4e33bf4d41b3ad466c23e62a35419da12c9`.
 
 It is not final. A direct reader review rejected the current book surface because it opens with ChatGPT instead of a chronological Transformer-era spine, exposes caption/source bureaucracy, contains blank and sparse pages, uses visual portfolio dumps, and allows multi-image pages.
 
 ## Use These Alongside It
 
-- PDF pointer: `champion/final-private-pdf-pointer-i0313.md`
+- PDF pointer: `champion/final-private-pdf-pointer-i0312.md`
 - Page-by-page PDF QA: `data/publishable_surface_page_qa_i0309.tsv`
 - Publishable-surface QA summary: `data/publishable_surface_qa_i0309.tsv`
 - Visual inventory: `data/final_private_visual_inventory_i0310.tsv`
@@ -30,7 +30,7 @@ It is not final. A direct reader review rejected the current book surface becaus
 - PDF surface QA: 11 pass / 0 fail
 - Visual page-map QA: 12 pass / 0 fail
 - Visual inventory mapping: 530 / 530 across 308 distinct visual-bearing pages
-- Claim ledger: 329 supported / 0 needs-verification
+- Claim ledger: 328 supported / 0 needs-verification
 - Book invariants: 103,526 words and 24 main chapters
 
 ## Active Rescue Sprint

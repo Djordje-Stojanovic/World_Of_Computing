@@ -1,0 +1,6 @@
+pass_id	check	result	evidence
+I-0313	forbidden strings cleared	pass	4123 -> 0
+I-0313	visual abundance preserved	pass	image_objects=330
+I-0313	chapter count invariant	pass	chapters=24
+I-0313	word count invariant	pass	words=103526
+I-0313	claim ledger unsupported zero	pass	329 supported / 0 needs-verification
