@@ -1,0 +1,5 @@
+artifact	role	bytes	sha256	notes
+rendered/final_private_i0309/Next-Token-final-private-publishable-surface-i0309.html	clean publishable-surface HTML proof	108687531	3c1c61abe082111d792d87a8966abdc53e1f56b12b78bbd42a073c265b0e5325	inlined_image_refs=230
+rendered/final_private_i0309/Next-Token-final-private-publishable-surface-i0309.pdf	clean publishable-surface PDF proof	68116683	3bafb20e3a5e51eb013c693afc606fd1b25ee4e3f4f4392470940367347a5f1f	pages=662; image_objects=330; residue_total=0
+data/publishable_surface_page_qa_i0309.tsv	page-by-page automated publishable-surface QA	22711	043b450df550d3d59323d65f7d022b2984bbd6c981536dfa2f7e5f7f3a41d367	one row per rendered page
+data/publishable_surface_sample_pages_i0309.tsv	sampled page text/object ledger	6055	901458a9cb4cef66578e09872d8ce7b7fd81a19fc60c6d9bf688929e111c0364	representative pages for follow-up human visual QA

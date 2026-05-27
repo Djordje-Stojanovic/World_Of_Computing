@@ -562,3 +562,5 @@ The benchmark layer is strongest when tables are explicit memory aids rather tha
 - I-0307: path leaks in a PDF are usually a render-surface failure, not a prose failure. The right repair is to disable browser file footers, sanitize visible source-card/SVG text, and prove the result by extracting text from the rendered PDF rather than trusting the HTML source.
 
 - I-0308: visual abundance becomes booklike only when the supplemental layer is relocated by chapter job. A terminal atlas can prove counts, but a chapter-context portfolio makes the same evidence feel edited, paced, and tied to the argument instead of dumped after the story ends.
+
+- I-0309: A proof can be substantively rich and still not be done if the reader-facing surface carries draft/process residue. The final standard needs both visible PDF text QA and source-package hygiene: clean cover language, clean metadata, embedded image references, and page-by-page checks before delivery polish.

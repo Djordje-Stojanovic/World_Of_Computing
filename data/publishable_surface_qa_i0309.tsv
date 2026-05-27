@@ -1,0 +1,12 @@
+check_id	check	result	evidence	notes
+I0309-001	pdf_render_exists	pass	pages=662	Fresh I-0309 proof rendered.
+I0309-002	cover_title_clean	pass	cover begins with clean title	No Full Draft Assembly cover language.
+I0309-003	visible_residue_zero	pass	residue_total=0	No visible local paths or source-machine tokens.
+I0309-004	process_phrase_zero	pass	process_total=0	No draft/placeholder/AI-process residue in rendered text.
+I0309-005	metadata_clean	pass	title=Next Token; bad_hits=0	PDF metadata does not expose renderer/path/draft residue.
+I0309-006	html_refs_inlined	pass	inlined=230; unresolved=0; clean_file_uri=0	Publishable proof HTML carries embedded images rather than local file references.
+I0309-007	page_qa_all_pass	pass	fail_pages=0	Every rendered page clears the automated publishable-surface scan.
+I0309-008	visual_context_preserved	pass	context_hits=24; terminal_dump_hits=0	I-0308 contextual visual placement remains intact.
+I0309-009	visual_density_preserved	pass	images=330; drawings=5818	The repair did not collapse the visual program.
+I0309-010	visual_rhythm_bounded	pass	max_visual_run=29	No renewed terminal visual dump.
+I0309-011	claims_supported	pass	325 supported / 0 needs-verification	No unsupported claim debt introduced.
