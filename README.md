@@ -6,9 +6,9 @@ This repository is the working memory, manuscript lab, source ledger, visual sys
 
 ## Current Book State
 
-Updated **2026-05-27** after pass `I-0304`.
+Updated **2026-05-27** after pass `I-0305`.
 
-- **Latest recorded pass:** `I-0304`, final private champion package freeze.
+- **Latest recorded pass:** `I-0305`, private-reader polish render.
 - **Words:** 103,526 assembled source words across the canonical 24-chapter draft.
 - **Chapters:** 24 / 24 main chapters.
 - **Best local private PDF proof:** `rendered/final_private_i0301/Next-Token-final-private-personal-edition-i0301.pdf`.
@@ -18,7 +18,7 @@ Updated **2026-05-27** after pass `I-0304`.
 - **Claim status:** `claims.tsv` has 320 supported rows and 0 needs-verification rows after the I-0303 audit and I-0304 package claim.
 - **Source density:** the frozen champion manuscript has 545 source refs, 26 claim refs, and 181.3 words/reference.
 
-The private edition is visually maximal for personal use. The remaining caveat is not visual quantity; it is that heavy PDF/contact-sheet files are local ignored artifacts and found/source-surface visuals are not public-use cleared.
+The private edition now has a reader-polished local PDF with 685 pages and four text-only transition pages around the opening, ending, private visual atlas, and authored boards. The private edition now has a reader-polished local PDF with 685 pages and four text-only transition pages around the opening, ending, private visual atlas, and authored boards. The private edition now has a reader-polished local PDF with 685 pages and four text-only transition pages around the opening, ending, private visual atlas, and authored boards. The private edition now has a reader-polished local PDF with 685 pages and four text-only transition pages around the opening, ending, private visual atlas, and authored boards. The private edition is visually maximal for personal use. The remaining caveat is not visual quantity; it is that heavy PDF/contact-sheet files are local ignored artifacts and found/source-surface visuals are not public-use cleared.
 
 ## Readiness Snapshot
 

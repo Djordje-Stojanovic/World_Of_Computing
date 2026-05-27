@@ -1,0 +1,8 @@
+pass_id	check_id	category	result	evidence	recommended_action
+I-0305	I0305-001	reader_gate_count	pass	manifest=4; pdf_hits=4	No action required for this automated check.
+I-0305	I0305-002	book_invariants_preserved	pass	words=103526; chapters=24	No action required for this automated check.
+I-0305	I0305-003	render_integrity	pass	old_pages=675; new_pages=685; blank_like=0	No action required for this automated check.
+I-0305	I0305-004	visual_abundance_preserved	pass	old_images=330; new_images=330; old_drawings=4966; new_drawings=4998	No action required for this automated check.
+I-0305	I0305-005	claim_ledger_zero_unsupported	pass	claims={'supported': 321}	No action required for this automated check.
+I-0305	I0305-006	source_safe_polish	pass	sections=4	No action required for this automated check.
+I-0305	I0305-007	rhythm_not_worse	pass	old_max_visual_run=40; new_max_visual_run=40	No action required for this automated check.

@@ -1,0 +1,9 @@
+pass_id	metric	value	status	evidence
+I-0305	reader_polish_pages	4	pass	opening gate, closing coda, atlas transition, authored-board transition
+I-0305	best_pdf_path	rendered/final_private_i0305/Next-Token-final-private-reader-polish-i0305.pdf	pass	new local/ignored reader-polished PDF
+I-0305	pdf_pages	685	pass	old_pages=675
+I-0305	pdf_image_objects	330	pass	old_images=330
+I-0305	pdf_drawing_objects	4998	pass	old_drawings=4966
+I-0305	blank_like_pages	0	pass	PyMuPDF scan
+I-0305	max_visual_run	40	pass	old_max_visual_run=40
+I-0305	qa	7 pass / 0 fail	pass	data/private_reader_polish_qa_i0305.tsv

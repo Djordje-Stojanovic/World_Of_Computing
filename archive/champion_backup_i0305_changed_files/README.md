@@ -3,9 +3,8 @@
 Final private personal-edition champion package updated by `I-0304` on 2026-05-27.
 
 - Human package pointer: `final-private-champion-pointer-i0304.md`
-- Best local PDF pointer: `final-private-pdf-pointer-i0305.md`
+- Best local PDF pointer: `final-private-pdf-pointer-i0301.md`
 - Manuscript snapshot: `Next-Token-final-private-edition-i0300.md`
-- Reader polish report: `private-reader-polish-i0305.md`
 - Final package report: `final-champion-package-i0304.md`
 - Final package manifest: `final-champion-package-manifest-i0304.tsv`
 - Final scorecard: `final-champion-scorecard-i0304.tsv`
