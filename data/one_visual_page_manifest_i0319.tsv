@@ -1,0 +1,10 @@
+pass_id	artifact	path	exists	bytes	sha256	pages	note
+I-0319	source_pdf	rendered/final_private_i0318/Next-Token-final-private-contextual-visuals-i0318.pdf	yes	64264414	db075d58fb5d17cfe006ea10f85050c047a3dac5158e293c0cd3b46b5ddc8e59	523	I-0318 contextual visual proof
+I-0319	one_visual_html	rendered/final_private_i0319/Next-Token-final-private-one-visual-page-i0319.html	yes	96999183	d084fabcd21de3a196b538dc8dd0ebe6d43881926cf96aae7a8bc3e181c30d24		I-0319 one-visual-per-page HTML
+I-0319	one_visual_pdf	rendered/final_private_i0319/Next-Token-final-private-one-visual-page-i0319.pdf	yes	64160890	0bc74c0dbb3d3045a9ec3f572a5937f84c524b5f852df32bb39f4682f89e0288	639	I-0319 one-visual-per-page PDF
+I-0319	one_visual_markdown	manuscript/Next-Token-one-visual-page-i0319.md	yes	379262	29eeeafa51034e1121f818ab941f2234ef23e767526300de84c194a0707e81d2		I-0319 manuscript snapshot
+I-0319	baseline	data/one_visual_page_baseline_i0319.tsv	yes	307	8355f03a14d964dc5895407898956903c9c92efbc2036740e89df5c1d57e58b3		I-0319 multi-image baseline
+I-0319	removed_boards	data/one_visual_page_removed_boards_i0319.tsv	yes	9724	d0ed5fca5fda5152b4ac1a181810c2b43f13f1cb7a26fe17285b4ecd2c006384		I-0319 removed composite boards
+I-0319	qa	data/one_visual_page_qa_i0319.tsv	yes	614	c154c48eae6eab1c106083bc931feb1d6096dde747636ebde44b4a550eb9088a		I-0319 one-visual-page QA
+I-0319	report	manuscript/one-visual-page-i0319.md	yes	924	8079b72b866fe8203184f25002b3d4af9d84a51f390236728f4a0606b567e48a		I-0319 report
+I-0319	pointer	champion/final-private-pdf-pointer-i0319.md	yes	745	fc001064ddc99f21c495b1027d177c05199b57d5a2397acce2348450702d4ce0		I-0319 pointer

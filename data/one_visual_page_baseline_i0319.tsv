@@ -1,0 +1,10 @@
+pass_id	metric	value
+I-0319	source_pages	523
+I-0319	source_image_objects	357
+I-0319	source_multi_image_pages	97
+I-0319	source_max_images_on_page	7
+I-0319	source_blank_pages	0
+I-0319	html_composite_boards	31
+I-0319	html_board_images	230
+I-0319	html_single_image_figures	300
+I-0319	html_multi_image_figures	0

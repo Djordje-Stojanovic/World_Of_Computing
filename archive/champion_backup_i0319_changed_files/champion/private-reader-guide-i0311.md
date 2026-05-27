@@ -8,7 +8,7 @@ Open this only as the current rescue baseline, not as the final edition:
 
 `rendered/final_private_i0318/Next-Token-final-private-contextual-visuals-i0318.pdf`
 
-This proof has 639 pages, 300 image objects, 2117 drawing/vector objects, 0 multi-image pages, and 0 blank pages by ink/text/image QA. SHA-256: `0bc74c0dbb3d3045a9ec3f572a5937f84c524b5f852df32bb39f4682f89e0288`.
+This proof has 639 pages, 300 image objects, 2117 drawing/vector objects, 0 multi-image pages, and 0 blank pages by ink/text/image QA. SHA-256: `07513af5387909f095ff4ae1cbd7394a421c9dd08970edc87c3d9617df9c9ba0`.
 
 It is not final. A direct reader review rejected the current book surface because it opens with ChatGPT instead of a chronological Transformer-era spine, exposes caption/source bureaucracy, contains blank and sparse pages, uses visual portfolio dumps, and allows multi-image pages.
 
@@ -41,6 +41,7 @@ Do not treat this as the done-enough edition. The open gates have been replaced 
 - I-0314: move sourcing/provenance to endnotes and ledgers; keep captions plain.
 - I-0315: rebuild the 24-chapter chronological spine from the Transformer era forward.
 - I-0316: add date ranges, timelines, timestamps, and cutoff controls.
+- I-0319: enforce max one visual per page and remove composite boards/portfolio plates.
 - I-0320: add missing numbers, stats, formulas, benchmarks, comparisons, charts, and tables.
 - I-0321: run hostile rendered-page proofread and visual QA.
 - I-0322: build the final private publication candidate with guide, hash, and honest report.

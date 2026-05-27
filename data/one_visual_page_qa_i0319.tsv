@@ -1,0 +1,10 @@
+pass_id	check	result	evidence
+I-0319	multi-image pages eliminated	pass	97 -> 0; max_images_on_page=1
+I-0319	composite boards removed from reader HTML	pass	boards_removed=31; remaining=0
+I-0319	single-image figure flow retained	pass	single_visual_figures=300
+I-0319	visual abundance remains high	pass	357 -> 300 image objects
+I-0319	zero blank pages preserved	pass	blank_pages=0
+I-0319	forbidden reader-facing residue absent	pass	0 hits
+I-0319	24 chapters preserved	pass	unique_chapters=24
+I-0319	word count remains in band	pass	100520
+I-0319	claim ledger unsupported zero	pass	335 supported / 0 needs-verification
