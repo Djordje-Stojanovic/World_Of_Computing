@@ -166,4 +166,14 @@ InstructGPT and RLHF belong immediately after this chapter because they addresse
 
 The hand-off should be sober. RLHF did not solve truth, safety, bias, robustness, jailbreaking, or misuse. It did not turn a base model into a moral agent. But it changed the product surface. The model could be trained not merely to continue, but to respond in ways humans preferred under specified conditions. That difference is why ChatGPT could feel less like a raw completion engine and more like a counterpart.
 
+## GPT-5.5: The Frontier Does Not Pause
+
+On April 23, 2026, OpenAI launched GPT-5.5, releasing it to ChatGPT Plus, Pro, Business, and Enterprise users alongside integration into Codex, the company's coding interface. NVIDIA, in a same-day engineering blog post, disclosed that over 10,000 of its staff had early access through Codex and used the model across engineering, legal, finance, and operations workflows. GPT-5.5 Instant followed on May 5, becoming the new default model for ChatGPT.
+
+GPT-5.5 was not presented as a revolutionary architecture change. It was presented as the next iteration in a cadence that had become the industry's heartbeat: a model with stronger reasoning, better coding, improved reliability, and a million-token context window, priced at five dollars per million input tokens and thirty dollars per million output tokens. The pricing was notable because it was among the highest in the market, signaling that OpenAI believed the capability premium justified the cost.
+
+For this book, GPT-5.5 is the last entry in the OpenAI chronology. The model that began as GPT-1 in 2018, a 117-million-parameter experiment in generative pretraining, had become a family of systems that defined the frontier's public face. The arc from Improving Language Understanding by Generative Pre-Training to GPT-5.5 is now available to all ChatGPT users was not just a technical story. It was a story about how research posture became product posture, and how a small company with a strange name and an unusual charter became the organization that defined what the public expected from AI.
+
+At the cutoff, GPT-5.5 was barely a month old. Its long-term significance could not be assessed. What could be said was that the pace of OpenAI's releases had not slowed, the pricing had not collapsed, and the integration with Codex suggested that coding was no longer a side feature. It was becoming the primary product surface through which many users would encounter frontier AI.
+
 The final image of Chapter 5 is therefore not a triumphant model, but a problem made legible. The GPT line opened the door. Behind it was a room full of users, developers, prompts, code, policies, failures, business dependencies, and expectations. The next chapter asks how a continuation machine learned to act as if it had been asked for help.

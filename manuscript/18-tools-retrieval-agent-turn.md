@@ -135,4 +135,12 @@ This distinction makes the agent loop both powerful and fragile. Power comes fro
 
 The most important technical lesson of the agent era before the cutoff was therefore not that models had become autonomous. It was that effective agent systems required as much engineering around the model as inside it. Retrieval pipelines, schema validation, permission gates, sandboxing, logging, retry logic, error handling, and human-in-the-loop review were not afterthoughts. They were the system.
 
+## The Model Context Protocol: A Shared Agent Grammar
+
+Anthropic's Model Context Protocol, announced in November 2024, represented an attempt to standardize how AI models connect to external tools and data sources. MCP defined a client-server architecture where models act as clients that discover and connect to servers providing resources, prompts, and tools. A single MCP server could expose file systems, databases, APIs, or web search to any model client that spoke the protocol. [S-0190]
+
+MCP mattered for this book because it was the first serious attempt to solve a problem the agent turn had made urgent: every frontier model was developing its own tool-calling grammar, and developers who wanted to switch between providers had to rewrite their integration layer. MCP proposed a shared grammar. If adopted widely, it would lower the switching cost between model providers and make tool access a commodity rather than a differentiator. If ignored by major labs, it would remain an Anthropic-specific convenience.
+
+At the cutoff, MCP had gained significant traction among developers and tool builders. OpenAI had not adopted it, preferring its own function-calling and GPT Actions frameworks. Google had its own extension mechanisms through Vertex AI and AI Studio. The protocol war was not resolved, but the fact that it existed at all was evidence that the agent economy was outgrowing proprietary integration patterns. The next generation of coding agents, retrieval systems, and workflow automation would depend on whether a shared tool grammar could emerge, and MCP was the strongest candidate at the cutoff.
+
 The remaining editorial work is no longer a chapter-ending to-do list. It belongs in the pass ledgers: normalize the OpenAI function-calling source before exact schema quotation, build the RAG/tool/prompt-injection visual package, add product-specific tool-use rows only where needed, and keep MCP adoption, computer-use reliability, agent productivity, and tool-safety claims blocked until same-scope evidence exists.

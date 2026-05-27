@@ -78,6 +78,8 @@ The human judgment loop that the book has traced is not a weakness of the techno
 
 The next token is not destiny. It is a request for judgment.
 
+The machines were real, the race was real, the money was real, the science was real, the failures were real, and the unresolved questions were real. A history that names what was built and what remained unresolved is the only kind that ages honestly.
+
 The race to build machines that learned language, code, and computing did not end at the cutoff. This book ends there because a history needs a boundary. Inside that boundary, the central fact is already large enough: prediction became interface; interface became work; work demanded infrastructure; infrastructure demanded money; money demanded metrics; metrics demanded trust; trust demanded judgment.
 
-A next token is small. Around it grew a machine for turning language into work. The machine was neither magic nor fraud. It was a stack of prediction, evidence, compute, incentives, products, tools, and human judgment. That was enough to change computing, and not enough to relieve anyone of the responsibility to understand what had been built. [CH24SYN-017]
+A next token is small. Around it grew a machine for turning language into work. The machine was neither magic nor fraud, and it was not finished evolving when the final hard cutoff arrived. It was a stack of prediction, evidence, compute, incentives, products, tools, and human judgment. That was enough to change computing, and not enough to relieve anyone of the responsibility to understand what had been built. [CH24SYN-017]
