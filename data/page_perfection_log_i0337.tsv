@@ -5,3 +5,4 @@ page	status	words	images	issue	action_taken	new_words	new_images	notes
 4	PENDING	43	0	Chapter 1 opening page - verify clean	Under review	43	0	"Chapter 01: The Transformer Arrives: Attention Becomes the Engine". Opening sentence and section heading. Needs verification.
 4	PERFECT	43	0	none	none	43	0	Chapter 1 opening: title, hook sentence, section heading. 43w acceptable for chapter start page. No process language.
 5	PERFECT	320	0	Had BERT image (wrong chapter)	Removed BERT paper figure from Chapter 1 HTML	320	0	Clean prose: Transformer architecture narrative. 320 words, no images, good flow.
+6	PERFECT	323	0	"Had ""chapter should be careful"" process language"	"Rewrote to ""The architectural point deserves care"""	323	0	Multi-head attention prose. Clean, 323w, no process language.
