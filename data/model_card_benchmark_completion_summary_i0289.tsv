@@ -1,0 +1,2 @@
+surface_count	table_count	normalized_row_count	combined_surface_count	combined_table_count	combined_year_coverage	failure_count	qa_pass	qa_warn	qa_fail	surface_kinds
+10	5	15	21	10	2018,2019,2020,2021,2022,2023,2024,2025,2026,2026-cutoff	1	11	0	0	"{""documentation_surface"": 3, ""leaderboard_surface"": 3, ""model_card"": 2, ""repo_surface"": 2}"

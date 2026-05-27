@@ -1,0 +1,12 @@
+check_id	category	result	evidence	recommended_action
+I0289-001	new_surface_count	pass	surface_count=10 target>=9	Use surfaces in I-0292 placement triage.
+I0289-002	new_table_count	pass	table_count=5 target=5	Use tables in I-0292 model-race sequence.
+I0289-003	combined_surface_target	pass	combined_surface_count=21 target>=20	Only close I-0289 when aggregate threshold clears.
+I0289-004	combined_table_target	pass	combined_table_count=10 target>=10	Only close I-0289 when aggregate threshold clears.
+I0289-005	year_coverage	pass	combined_years=['2018', '2019', '2020', '2021', '2022', '2023', '2024', '2025', '2026', '2026-cutoff']; expected_core=['2018', '2019', '2020', '2021', '2022', '2023', '2024', '2025', '2026']	Ensure one table or landscape panel for every year from GPT-1 through cutoff.
+I0289-006	local_files	pass	surface_files=True; table_files=True	Repair missing captures before integration.
+I0289-007	hashes	pass	surface_hashes=True; table_hashes=True	Keep hashes as provenance proof.
+I0289-008	provenance_fields	pass	required_surface_fields=source_url,story_purpose,blocked_claims,rights_status,screenshot_sha256,html_sha256 all_present=True	Do not promote rows without blocked claims.
+I0289-009	surface_mix	pass	surface_kinds={'model_card': 2, 'documentation_surface': 3, 'leaderboard_surface': 3, 'repo_surface': 2}	Use I-0292 to choose a balanced mix.
+I0289-010	normalized_rows	pass	normalized_table_rows=15	Exact scores stay blocked until row-level source extraction.
+I0289-011	failure_log	pass	failures_logged=1	Failures are acceptable only if thresholds clear.

@@ -519,3 +519,7 @@ The useful completion pattern is aggregate proof plus blocked-claim discipline: 
 ## 2026-05-27 - I-0288 Source-Surface Completion
 
 The second source-surface wave should widen mechanisms rather than merely add pages: BERT/T5/Chinchilla/PaLM/CoT/code-model/open-model/benchmark surfaces cover intellectual lineage, while GTC and China/frontier technical-report pages cover infrastructure and lab diversity. The 25-30/25-30 targets are now aggregate constraints, but every page card remains a private-use handle until later caption, placement, quote, and claim-boundary review.
+
+## 2026-05-27 - I-0289 Benchmark/Model-Card Completion
+
+The benchmark layer is strongest when tables are explicit memory aids rather than scoreboards. I-0286 plus I-0289 now cover 2018 through the May 2026 cutoff with model-card, docs, repo, and leaderboard surfaces, but every table still says what it cannot support: no live rank, universal quality score, price-quality frontier, safety result, or adoption claim without later normalized rows.
