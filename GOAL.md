@@ -14,7 +14,7 @@ The ten rescue passes are complete. The book now enters its final and ONLY remai
 - **Fixes applied:** Title page, verso page, Table of Contents, 200 images relocated from chapter-start dumps into prose flow, 68 bad captions fixed, 25 process elements removed, page-break directives removed, BERT/NVIDIA/4 person images removed from Chapter 1
 - **Page tracking:** `data/page_perfection_log_i0337.tsv` — one row per page
 - **Pages done:** 1 (title), 2 (verso), 3 (TOC), 4 (Ch1 opening), 5 (Transformer prose), 6 (attention), 7 (positional encoding), 8 (Transformer block), 9 (GPT bridge) — all PERFECT
-- **Page in progress:** 28
+- **Page in progress:** 29
 - **Images relocated:** BERT→Ch2, NVIDIA Blackwell→Ch14, Vinyals/Vaswani/Shazeer/Gomez→Ch1 (pending re-insertion with text context)
 
 ### What "Perfect" Means Per Page
