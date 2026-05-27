@@ -544,3 +544,5 @@ The benchmark layer is strongest when tables are explicit memory aids rather tha
 - I-0298: chart abundance needs a reading rhythm. A 100-item visualization layer becomes usable when grouped into thematic atlas boards that tell the reader what kind of memory aid each page provides while keeping live-rank, adoption, revenue, safety, deployment, and roadmap claims blocked unless separately sourced.
 
 - I-0299: final visual proof must distinguish abundance from rhythm. Once the PDF carries the 300-exhibit layer plus authored boards, the remaining quality question is not whether there are enough images, logos, papers, screenshots, charts, tables, and people; it is whether provenance stays legible and the dense appendix is placed honestly in the final private edition.
+
+- I-0300: a private-edition freeze should separate delivery from public release. The durable package is the manuscript snapshot, visual inventory, scorecard, provenance pointers, champion backup, and honest risk report; the large PDF/contact-sheet can remain local as long as hashes and paths make the final object recoverable.

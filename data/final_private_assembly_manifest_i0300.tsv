@@ -1,0 +1,9 @@
+pass_id	key	value	evidence
+I-0300	final_pdf	rendered/final_private_i0300/Next-Token-final-private-personal-edition-i0300.pdf	667 pages; sha256 e42f1e7a6db6a4155b32b111a424475343a641fca1dca4ce8f07c9be3349997d
+I-0300	final_contact_sheet_pdf	rendered/final_private_i0300/Next-Token-final-private-visual-contact-sheet-i0300.pdf	Local ignored contact-sheet PDF rendered from the committed final visual inventory.
+I-0300	champion_backup	archive/champion_backup_i0300	87 files preserved; manifest archive/champion_backup_i0300_manifest.tsv
+I-0300	final_inventory_rows	530	data/final_private_visual_inventory_i0300.tsv
+I-0300	visual_target_pass_rows	9/9	data/final_private_visual_category_summary_i0300.tsv
+I-0300	words	103526	manuscript/Next-Token-full-draft.md
+I-0300	chapters	24	manuscript/Next-Token-full-draft.md
+I-0300	claim_ledger_status	supported=315	claims.tsv

@@ -6,16 +6,17 @@ This repository is the working memory, manuscript lab, source ledger, visual sys
 
 ## Current Book State
 
-Updated **2026-05-27** after pass `I-0299`.
+Updated **2026-05-27** after pass `I-0300`.
 
-- **Latest recorded pass:** `I-0299`, expanded private PDF render QA.
+- **Latest recorded pass:** `I-0300`, final private-edition assembly/freeze.
 - **Words:** 103,526 assembled source words across the canonical 24-chapter draft.
 - **Chapters:** 24 / 24 main chapters.
-- **Current expanded private visual PDF proof:** `rendered/full_book_i0299/Next-Token-expanded-private-visual-i0299.pdf` exists locally and is intentionally not committed. It contains 667 pages, 330 PDF image objects, 4946 PDF drawing objects, 0 blank-like pages, and 31 authored visual-board pages appended to the I-0295 expanded edition.
-- **Visual target status:** `data/private_visual_target_audit_i0295.tsv` still records rendered-target pass rows for all GOAL.md visual categories: charts/SVG/data visuals, real screenshots/source images, paper/report excerpts, PDF/deck/report pages, model-card/repo/docs surfaces, logos, benchmark tables, and people/profile images.
-- **Remaining production risk:** the book now has visual abundance; the final assembly issue is rhythm, freeze discipline, and honest source/claim reporting, not a shortage of images.
+- **Final private PDF proof:** `rendered/final_private_i0300/Next-Token-final-private-personal-edition-i0300.pdf` exists locally and is intentionally not committed. It has 667 pages, 330 PDF image objects, 4946 drawing/vector objects, 0 blank-like pages, and SHA256 `e42f1e7a6db6a4155b32b111a424475343a641fca1dca4ce8f07c9be3349997d`.
+- **Final visual inventory:** `data/final_private_visual_inventory_i0300.tsv` maps 530 visual rows to local files, provenance, blocked-claim notes, and render locations/pages where detected.
+- **Champion freeze:** `champion/` now contains the I-0300 manuscript snapshot, report, scorecard, inventory, summary, assembly manifest, and local PDF pointer; the prior champion was backed up under `archive/champion_backup_i0300/`.
+- **Remaining production risk:** the private edition is visually abundant and frozen, but the dense visual appendix still carries a rhythm warning and the private-use visuals are not a public-rights package.
 
-The book is now well beyond the old 100-image ceiling: the local proof combines hundreds of reader-facing exhibits with authored boards for real screenshots, paper/PDF surfaces, logos, people, charts, benchmark tables, model-card/docs surfaces, and provenance notes.
+The book is now a delivered private personal edition rather than a 100-image draft: the final proof carries hundreds of reader-facing exhibits, real source surfaces, paper/PDF excerpts, logos, people/profile images, benchmark tables, model-card/docs surfaces, charts, SVGs, and provenance notes.
 
 ## Readiness Snapshot
 

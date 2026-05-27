@@ -1,0 +1,13 @@
+pass_id	check_id	category	result	evidence	recommended_action
+I-0300	I0300-001	champion_backup	pass	backup_files=87; path=archive/champion_backup_i0300	No action required for this automated check.
+I-0300	I0300-002	final_pdf_render	pass	pdf=rendered/final_private_i0300/Next-Token-final-private-personal-edition-i0300.pdf; bytes=76467205	No action required for this automated check.
+I-0300	I0300-003	book_invariants	pass	words=103526; chapters=24	No action required for this automated check.
+I-0300	I0300-004	visual_targets	pass	curated_chart_data_svg_visualization=100/100; real_photo_screenshot_source_image=50/50; paper_report_excerpt=25/25; pdf_deck_report_page=25/25; model_card_hf_benchmark_repo_docs_surface=20/20; logo=50/50; benchmark_table=10/10; person_image=30/30	No action required for this automated check.
+I-0300	I0300-005	inventory_size	pass	inventory_rows=530	No action required for this automated check.
+I-0300	I0300-006	inventory_provenance	pass	rows=530	No action required for this automated check.
+I-0300	I0300-007	inventory_page_mapping	pass	unmapped_rows=63	No action required for this automated check.
+I-0300	I0300-008	pdf_blank_pages	pass	blank_like=0	No action required for this automated check.
+I-0300	I0300-009	caption_source_labels	pass	label_spans=1232; min_font=5.70	No action required for this automated check.
+I-0300	I0300-010	contact_sheet	pass	contact_pdf=rendered/final_private_i0300/Next-Token-final-private-visual-contact-sheet-i0300.pdf	No action required for this automated check.
+I-0300	I0300-011	claim_ledger_supported	pass	claims={'supported': 315}	No action required for this automated check.
+I-0300	I0300-012	visual_rhythm_honest	warn	max_visual_run=199	Accept only as honest warning or run rhythm repair.
