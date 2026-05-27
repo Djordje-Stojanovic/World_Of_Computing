@@ -683,7 +683,7 @@ The GPT line turns the gamble into a service surface, a door through which build
 
 > [!FIGURE] **F05.01 / A-0285-002 - GPT-1 Paper Page As Pretraining Origin**
 > Caption: F05.01: Improving Language Understanding by Generative Pre-Training page-one render anchors GPT-1 as a transfer/pretraining source surface; it does not prove ChatGPT, GPT-3, or broad product capability.
-> Source note: Sources: local:data/gpt_lineage_visual_table.tsv. Rights path: ready_svg. Story role: GPT lineage anchor.
+> Source note: Sources: companion source table. Rights path: ready_svg. Story role: GPT lineage anchor.
 
 
 The first GPT paper did not read like the opening of a consumer revolution. Its title was technical and modest: improving language understanding by generative pre-training. The idea was not to build a chatbot, a search engine, or a programmer. It was to train a Transformer language model on unlabeled text, then adapt it to supervised natural-language understanding tasks. [S-0011]
@@ -699,7 +699,7 @@ This was not magic general intelligence. It was a new economic shape for learnin
 GPT-1 therefore belongs in the book not because it was huge by later standards, but because it named a reusable recipe: pretrain a generative Transformer on text, then transfer. It was a door, not the room.
 
 
-Visual anchor: Figure 5.1, `assets/visual_system/gpt-lineage-table.svg`, compresses the chapter's lineage into a sourced table: GPT-1 as pretraining and transfer, GPT-2 as prompted multitask continuation, GPT-3 as few-shot prompting, the OpenAI API as infrastructure distribution, Codex as executable-language generation, and GitHub Copilot as the cursor-level product surface. Its companion data lives in `data/gpt_lineage_visual_table.tsv`; its caveats should stay visible until usage, pricing, productivity, benchmark, and legal claims are separately snapshotted or triangulated. [S-0011] [S-0012] [S-0013] [S-0004] [S-0069] [S-0052] [S-0070]
+Visual anchor: Figure 5.1, `assets/visual_system/gpt-lineage-table.svg`, compresses the chapter's lineage into a sourced table: GPT-1 as pretraining and transfer, GPT-2 as prompted multitask continuation, GPT-3 as few-shot prompting, the OpenAI API as infrastructure distribution, Codex as executable-language generation, and GitHub Copilot as the cursor-level product surface. Its companion data lives in the companion source table; its caveats should stay visible until usage, pricing, productivity, benchmark, and legal claims are separately snapshotted or triangulated. [S-0011] [S-0012] [S-0013] [S-0004] [S-0069] [S-0052] [S-0070]
 
 ### The Uncomfortable Release
 
@@ -876,7 +876,7 @@ Once prediction became a product, the central problem changed from fluent contin
 
 > [!FIGURE] **F06.01 / A-0287-014 - Anthropic Console Product Surface**
 > Caption: F06.01: Anthropic Console public-web screenshot grounds the alignment-as-product discussion in a visible developer surface; it does not prove safety, model quality, adoption, uptime, or enterprise outcomes.
-> Source note: Sources: local:data/rlhf_alignment_pipeline_i0023.tsv. Rights path: ready_svg. Story role: alignment mechanism.
+> Source note: Sources: companion source table. Rights path: ready_svg. Story role: alignment mechanism.
 
 
 GPT-3 made the prompt feel like a temporary program: examples and instructions could sit inside the context window and steer the next completion. [S-0004] It also made the product problem impossible to ignore. A base language model is trained to continue text. A user, however, does not usually want continuation. The user wants help.
@@ -892,7 +892,7 @@ OpenAI's InstructGPT work stated the product gap bluntly: making language models
 That was the hinge. The model still predicted tokens. But the product began to ask a second question: which tokens should this assistant prefer to produce?
 
 
-Visual integration: Figure 6.1, `assets/visual_system/rlhf-alignment-pipeline.svg`, shows pretraining, supervised demonstrations, preference comparisons, reward/preference modeling, RL optimization, Constitutional AI/RLAIF, product policy, red teaming, and evaluation loops as a layered assistant-behavior stack. The companion rows live in `data/rlhf_alignment_pipeline_i0023.tsv`; the figure keeps the central caveat visible that refusals and caveats are product behavior built from several layers, not proof that the model "understands" the user's real-world interests. [S-0004] [S-0014] [S-0019] [S-0074] [S-0075]
+Visual integration: Figure 6.1, `assets/visual_system/rlhf-alignment-pipeline.svg`, shows pretraining, supervised demonstrations, preference comparisons, reward/preference modeling, RL optimization, Constitutional AI/RLAIF, product policy, red teaming, and evaluation loops as a layered assistant-behavior stack. The companion rows live in the companion source table; the figure keeps the central caveat visible that refusals and caveats are product behavior built from several layers, not proof that the model "understands" the user's real-world interests. [S-0004] [S-0014] [S-0019] [S-0074] [S-0075]
 
 ### The Three-Step Machine
 
@@ -1639,7 +1639,7 @@ That is the open-weight shock. It was not open source in the classic software se
 Figure 10.1 follows the family as a sequence of release objects rather than a rank chart: LLaMA as a research release, Llama 2 as an open foundation and chat-model family, Code Llama as the code-specialized branch, Llama 3 and 3.1 as larger and more polished public families, and Llama 4 as a natively multimodal, mixture-of-experts turn. [S-0111] [S-0023] [S-0025] [S-0024] [S-0113] [S-0008] The point is not that every later model is simply better in every sense. The point is that the release surface changed what other people could do.
 
 
-Visual integration: Figure 10.1, `assets/visual_system/llama-family-open-weight-map.svg`, sketches the Llama family as a release-and-claim map rather than a capability leaderboard. The row data lives in `data/chapter10_llama_family_tree_i0104.tsv`. Figure 10.2, queued by pass I-0142, should make the control stack explicit: weights, license, training transparency, hosting burden, safety governance, ecosystem work, and benchmark permission move differently.
+Visual integration: Figure 10.1, `assets/visual_system/llama-family-open-weight-map.svg`, sketches the Llama family as a release-and-claim map rather than a capability leaderboard. The row data lives in the companion source table. Figure 10.2, queued by pass I-0142, should make the control stack explicit: weights, license, training transparency, hosting burden, safety governance, ecosystem work, and benchmark permission move differently.
 
 ### LLaMA Begins as Research Infrastructure
 
@@ -1806,7 +1806,7 @@ That is why Figure 11.1 is a source map rather than a league table. The safe evi
 The chapter's job is different from the Meta chapter's job and different again from the next frontier chapter's job. Meta explains the control stack: what happens when weights, license, hosting, safety, ecosystem, and benchmarks no longer sit cleanly inside one provider. China explains source permission: what can be written from Qwen, DeepSeek, GLM, and Kimi rows today, and what must remain a gap lane until a cutoff-bounded primary source exists. Chapter 12 then widens the aperture to Mistral, xAI, Cohere, AI21, and other labs only when each changes a mechanism. The sequence should feel like a widening map, not like three chapters of names.
 
 
-Visual integration: Figure 11.1, `assets/visual_system/china-open-model-source-map.svg`, maps supported primary-source lanes and unsupported gap lanes. The row data lives in `data/chapter11_china_open_model_source_map_i0105.tsv`.
+Visual integration: Figure 11.1, `assets/visual_system/china-open-model-source-map.svg`, maps supported primary-source lanes and unsupported gap lanes. The row data lives in the companion source table.
 
 ### Qwen and the Alibaba Route
 
@@ -1889,7 +1889,7 @@ Still, the pattern is real enough to matter. The Chinese frontier made efficienc
 
 The gap lane in Figure 11.1 is not a bureaucratic embarrassment. It is part of the story the book is trying to tell. Frontier AI moves faster than a sober manuscript can safely absorb. Product names circulate before papers. Benchmark screenshots travel before model cards. English summaries simplify Chinese announcements. GitHub repositories, Hugging Face pages, corporate posts, chat-product launches, and API docs disagree in level of detail. If the writer follows the excitement rather than the evidence, the chapter becomes obsolete and possibly false before the ink dries.
 
-MiniMax, Baidu, Tencent, Xiaomi MiMo, and StepFun are precisely the kind of names that create this risk. They matter to the mandatory spine because China's frontier is broader than Qwen, DeepSeek, GLM, and Kimi. But without local primary rows in the current workspace, the safe move is not to pretend they are absent. The safe move is to name them as required research targets and refuse to grant them unsupported paragraphs. That is why `data/chapter11_china_open_model_source_map_i0105.tsv` exists.
+MiniMax, Baidu, Tencent, Xiaomi MiMo, and StepFun are precisely the kind of names that create this risk. They matter to the mandatory spine because China's frontier is broader than Qwen, DeepSeek, GLM, and Kimi. But without local primary rows in the current workspace, the safe move is not to pretend they are absent. The safe move is to name them as required research targets and refuse to grant them unsupported paragraphs. That is why the companion source table exists.
 
 This is not only about avoiding error. It is about preserving narrative quality. Unsupported name-dropping makes a chapter feel larger for a page and smaller afterward. The reader senses the blur. A strong chapter earns breadth by giving each lab a reason to be there: a model report, a product surface, an open-weight release, a reasoning method, a long-context system, a benchmark artifact, a deployment environment, a licensing move, or a visible ecosystem. Until those reasons are sourced, the names belong in a queue, not in decorative prose.
 
@@ -2277,7 +2277,7 @@ Caption:
 
 > Figure 13.3 - Price-Quality Exclusion Map. The current evidence allows an exclusion/permission map, not a price-quality frontier: rows can enter only when rank snapshot, exact model/version, cutoff-compatible price, pricing basis, and scope caveats align.
 
-The exclusion map is not a failed chart. It is a truthful chart about why the tempting chart is not ready. The audit table behind it, `data/price_quality_join_audit_i0036.tsv`, contains candidate rows and negative rows. Some rows have same-scope promise: xAI's Grok 4.3 row, Google Gemini 2.5 Pro tiers, Gemini 2.5 Flash, and Anthropic Claude family rows each show why a future price-quality chart might become possible. But the table also shows why "just plot the dots" would mislead. [S-0060] [S-0061] [S-0062] [S-0063] [C-0046]
+The exclusion map is not a failed chart. It is a truthful chart about why the tempting chart is not ready. The audit table behind it, a supporting audit table, contains candidate rows and negative rows. Some rows have same-scope promise: xAI's Grok 4.3 row, Google Gemini 2.5 Pro tiers, Gemini 2.5 Flash, and Anthropic Claude family rows each show why a future price-quality chart might become possible. But the table also shows why "just plot the dots" would mislead. [S-0060] [S-0061] [S-0062] [S-0063] [C-0046]
 
 There are seven common traps.
 
@@ -2313,7 +2313,7 @@ That sentence is too long for a tweet and just long enough for truth.
 
 > [!FIGURE] **F13.03 / A-0289-T002 - 2024 Model-Landscape Table**
 > Caption: F13.03: The 2024 benchmark/model-landscape table shows the year as model-card and benchmark context, not as a price-quality frontier, safety result, live rank, or adoption proof.
-> Source note: Sources: C-0046;data/price_quality_join_audit_i0036.tsv. Rights path: ready_svg. Story role: price-quality exclusion map.
+> Source note: Sources: C-0046; a supporting audit table. Rights path: ready_svg. Story role: price-quality exclusion map.
 
 
 If leaderboards are fragile and prices are conditional, benchmark tables can seem like the hard way out. They are not. SWE-bench, LiveCodeBench, and other task-specific evaluations are indispensable because they make the task explicit. They can tell a sharper story about coding agents, repair loops, unit tests, harnesses, and contamination risks than a broad preference arena can. [S-0035] [S-0037]
@@ -2357,7 +2357,7 @@ Allowed:
 - A-0014 can explain the path from human preference votes to gated rank claims.
 - A-0013 can show a historical `text_style_control` / `latest` / `overall` slice published 2026-05-19 and captured as S-0080/SNAP-20260525-008.
 - A-0019 can show why a price-quality frontier is not yet chart-ready.
-- `data/price_quality_join_audit_i0036.tsv` can support candidate/exclusion language about same-scope joins, tiering, missing prices, deprecated rows, fine-tuning prices, reasoning variants, and post-cutoff price capture blockers.
+- a supporting audit table can support candidate/exclusion language about same-scope joins, tiering, missing prices, deprecated rows, fine-tuning prices, reasoning variants, and post-cutoff price capture blockers.
 - The chapter can argue that the frontier was crowded and methodologically hard to summarize.
 
 Blocked:
@@ -2407,7 +2407,7 @@ CUDA did that work over years. It gave the GPU a developer-facing grammar: kerne
 That is why the LLM boom did not arrive as a clean contest among chips. It arrived as a contest among stacks.
 
 
-Continuity note: Chapter 14 owns the software-and-system moat: CUDA habits, libraries, kernels, accelerator memory, interconnect, and the conversion of model ambition into usable accelerator work. Chapter 15 owns NVIDIA's public AI-factory stagecraft and roadmap framing. Chapter 16 owns independent physical constraints: power, interconnection, cooling, and useful capacity. The handoff should feel like a narrowing doorway, not three separate essays.
+The software moat leads to a hardware moat, and the hardware moat leads to a physical moat. The next two chapters narrow the lens: first to NVIDIA's own public argument at GTC 2026 about AI factories, then to the independent physical constraints of power, interconnection, cooling, and useful capacity that test every factory claim against reality.
 
 ### Parallelism Becomes A Habit
 
@@ -2559,7 +2559,7 @@ GTC turns that stack into theater, selling the AI factory as a story the market 
 
 > [!FIGURE] **F15.01 / A-0287-001 - NVIDIA DGX Cloud Product Surface**
 > Caption: F15.01: NVIDIA DGX Cloud public-web screenshot gives the AI factory stack a concrete infrastructure product surface; it does not prove capacity, customer usage, economics, or comparative performance.
-> Source note: Sources: local:data/ai_factory_stack_i0027.tsv. Rights path: ready_svg. Story role: AI factory stack.
+> Source note: Sources: companion source table. Rights path: ready_svg. Story role: AI factory stack.
 
 
 The old datacenter was supposed to disappear into metaphor. Users said cloud, as if computation had become weather. Executives said platform, as if the machines were a surface rather than a room. Engineers said cluster, region, accelerator, network, rack. Almost nobody outside the industry wanted to picture the building: concrete, chillers, transformers, fiber, security gates, raised floors, power contracts, and the constant conversion of electricity into answers.
@@ -3840,7 +3840,7 @@ The consumer subscription also shaped expectations. People learned to think of f
 
 > [!FIGURE] **F22.02 / A-0287-026 - OpenRouter Logo As Routing-Ecosystem Handle**
 > Caption: F22.02: OpenRouter logo is used as a small private-edition ecosystem handle for routing-market texture; it does not prove traffic, pricing, reliability, model access, or market share.
-> Source note: Sources: data/provider_pricing_rows_i0026.tsv;data/mistral_pricing_rows_i0031.tsv;C-0046. Rights path: ready_svg. Story role: routing/caching/batching/distillation.
+> Source note: Sources: supporting data tables; C-0046. Rights path: ready_svg. Story role: routing/caching/batching/distillation.
 
 
 The API made the meter sharper.
@@ -3861,7 +3861,7 @@ Open weights changed that bargain but did not eliminate cost. A team could host 
 
 The most seductive chart in AI economics is the price-quality frontier. Put model quality on one axis, token price on another, and crown the efficient winners. The book should eventually contain such charts only when the evidence can bear them. The current price-quality audit says the work is not done.
 
-The existing join table is useful because it refuses false cleanliness. It joins a clean historical LMArena slice to normalized pricing rows and then marks which rows can be candidates, which are blocked, and why. [S-0080; data/price_quality_join_audit_i0036.tsv] xAI, Google, Anthropic, and Mistral rows each carry scope labels. OpenAI rows are excluded where the available capture is fine-tuning pricing rather than standard inference. Mistral pricing is captured one day after cutoff and needs a cutoff caveat. Reasoning variants, deprecated rows, model-alias mismatches, missing price rows, prompt-length tiers, batch tiers, and code-specific models all create traps. [C-0046]
+The existing join table is useful because it refuses false cleanliness. It joins a clean historical LMArena slice to normalized pricing rows and then marks which rows can be candidates, which are blocked, and why. [S-0080; a supporting audit table] xAI, Google, Anthropic, and Mistral rows each carry scope labels. OpenAI rows are excluded where the available capture is fine-tuning pricing rather than standard inference. Mistral pricing is captured one day after cutoff and needs a cutoff caveat. Reasoning variants, deprecated rows, model-alias mismatches, missing price rows, prompt-length tiers, batch tiers, and code-specific models all create traps. [C-0046]
 
 This is not a bookkeeping annoyance. It is economics. A model can look cheap because the chart used input price and ignored output price. It can look cheap because the user can tolerate batch latency. It can look expensive because its output tokens include reasoning tokens. It can look strong because the benchmark measured a use case unlike the buyer's workload. It can look comparable because two rows share a brand name while differing in version, context tier, modality, or tool scaffold.
 
@@ -3904,7 +3904,7 @@ The enterprise chapter also keeps the provider honest. If a provider claims tran
 
 > [!FIGURE] **F22.04 / A-0286-T003 - 2020 Model-Landscape Table**
 > Caption: F22.04: The 2020 benchmark/model-landscape table supplies GPT-3-era context for blocked economics claims; it is not a live rank, universal quality score, price-quality frontier, or adoption claim.
-> Source note: Sources: C-0046;C-0136;C-0141;data/price_quality_join_audit_i0036.tsv. Rights path: ready_svg. Story role: economics claim blockers.
+> Source note: Sources: C-0046;C-0136; C-0141; a supporting audit table. Rights path: ready_svg. Story role: economics claim blockers.
 
 
 The frontier race was expensive enough that ordinary software metaphors failed. A model lab could grow quickly and still burn cash. A product could be beloved and still be subsidized. A cloud partnership could look like revenue and capacity at the same time. A chip purchase could be strategy, cost, and bargaining position all at once.
@@ -3927,7 +3927,7 @@ The buyer may never see this routing. A polished product can present one assista
 
 Routing also creates a trust problem. If a product silently changes model mix to control cost, does quality drift? If a cheap model handles a task that needed a stronger one, who notices? If a strong model is used for every request, who pays? The economics and evaluation chapters meet here. A model router needs tests, not just prices. It has to know when the cheaper path is good enough.
 
-Caching is another quiet business mechanism. If a user, team, or application repeats the same long instruction, system prompt, document bundle, or codebase context, a provider can sometimes reuse computation or bill cached input at a different rate. The normalized pricing rows show cached-input prices for some providers, but the chapter should not turn those rows into universal savings claims. [data/provider_pricing_rows_i0026.tsv] Cache value depends on workload shape, product design, and provider policy. Still, the existence of cached-input pricing reveals an important fact: in an LLM economy, even repetition has a price theory.
+Caching is another quiet business mechanism. If a user, team, or application repeats the same long instruction, system prompt, document bundle, or codebase context, a provider can sometimes reuse computation or bill cached input at a different rate. The normalized pricing rows show cached-input prices for some providers, but the chapter should not turn those rows into universal savings claims. [the normalized pricing rows] Cache value depends on workload shape, product design, and provider policy. Still, the existence of cached-input pricing reveals an important fact: in an LLM economy, even repetition has a price theory.
 
 Batch pricing says the same thing about time. If the customer can wait, the provider can schedule work differently. Lower batch prices are not simply discounts; they are a trade of latency for utilization. The factory can run smoother when not every request demands instant service. That is why batch rows must stay out of ordinary interactive price comparisons unless the chart says what it is comparing. [C-0046]
 
@@ -4021,7 +4021,7 @@ System cards were another trust technology. They made model risk, evaluation, re
 
 Vendor system cards need a double frame. On one side, they are primary sources, far better than rumor, vibes, or screenshots of cherry-picked failures. On the other, they are produced by interested parties. A vendor can be honest and still selective. The right prose stance is neither cynicism nor credulity. It is audit: what did the card claim, what methods did it disclose, what categories did it omit, which claims were measured, red-teamed, policy-defined, or merely described, and what does it still block?
 
-Provenance is the operational version of that stance. A trustworthy answer should carry enough source trail for the user to inspect it. A trustworthy chart should say where its data came from, what was filtered out, and what the axes do not mean. A trustworthy chapter should separate primary-source claims, secondary reporting, model output, author synthesis, and blocked leaps. This is why the project's ledgers matter. `sources.tsv`, `claims.tsv`, and `assets_manifest.tsv` are not housekeeping. They are the book practicing the trust argument it makes.
+Provenance is the operational version of that stance. A trustworthy answer should carry enough source trail for the user to inspect it. A trustworthy chart should say where its data came from, what was filtered out, and what the axes do not mean. A trustworthy chapter should separate primary-source claims, secondary reporting, model output, author synthesis, and blocked leaps. This is why the project's ledgers matter. the project's source, claim, and asset ledgers are not housekeeping. They are the book practicing the trust argument it makes.
 
 The hardest provenance problem is that ordinary users do not want a dissertation under every answer. They want the useful thing. A doctor wants a differential diagnosis draft, not a philosophy of evidence. A lawyer wants a memo, not a source audit. A programmer wants a patch, not a benchmark caveat. But high-stakes use requires some friction. The system has to decide when to be fast, when to be sourced, when to ask, when to refuse, and when to hand control back to a human. Trust is partly a user-experience problem: expose too little and the model becomes magic; expose too much and the user ignores the warnings.
 

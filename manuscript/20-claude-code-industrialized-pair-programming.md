@@ -12,7 +12,7 @@ Claude Code belonged to the next phase because it treated software engineering a
 
 That shift made the product feel less like a helper and more like a junior colleague with shell access. The phrase is dangerous. A colleague has responsibility, memory, judgment, and accountability. A coding agent has a context window, tools, policies, and probabilistic behavior. But the social metaphor matters because it explains the new managerial burden. The developer was no longer only writing code. The developer was scoping work, granting permissions, reviewing diffs, deciding when to interrupt, and judging whether the agent had actually understood the system.
 
-Status: promoted continuity draft, pass I-0161, 2026-05-26. Source note: This chapter draft uses source IDs from `sources.tsv`. It avoids private workplace anecdotes, unverified productivity claims, and benchmark triumphalism. Future passes should add source snapshots, firsthand workflow notes, and benchmark caveats before sharpening claims about adoption, enterprise use, or superiority over other coding agents.
+Status: promoted continuity draft, pass I-0161, 2026-05-26. Source note: This chapter draft uses source IDs from the source ledger. It avoids private workplace anecdotes, unverified productivity claims, and benchmark triumphalism. Future passes should add source snapshots, firsthand workflow notes, and benchmark caveats before sharpening claims about adoption, enterprise use, or superiority over other coding agents.
 
 ## From Prompt To Work Order
 

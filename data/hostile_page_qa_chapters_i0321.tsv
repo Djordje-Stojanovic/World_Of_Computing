@@ -1,0 +1,18 @@
+chapter	name	type	start_page	end_page	pages	sampled	issues
+1	Before the Transformer	early technical	103	59	-43	0	none
+4	Pre-training as Platform	early technical / platform	60	59	0	0	none
+5	GPT-1 to GPT-3: The Door Opens	platform / company	60	84	25	5	forbidden_strings;process_language;sparse_page
+6	Alignment Enters the Product	company / mechanism	85	148	64	6	sparse_page
+8	Microsoft: The Cloud Bargain	company / platform	149	169	21	4	forbidden_strings;process_language;sparse_page
+9	Google, DeepMind, and Gemini	company / product	170	203	34	6	sparse_page
+10	Meta, Llama, and the Open-Weight Shock	company / open	204	243	40	6	sparse_page
+12	Europe, xAI, and the Rest of the Frontier	company / frontier	244	276	33	2	none
+13	Model Rankings: How We Measured	benchmark / method	277	365	89	0	none
+14	NVIDIA and the CUDA Moat	hardware / company	366	354	-11	0	none
+15	GTC 2026: The AI Factory Sells Itself	hardware / event	355	354	0	0	none
+16	Speed to Power	hardware / infrastructure	355	515	161	0	none
+18	Tools, Retrieval, and the Agent Turn	tools / mechanism	516	495	-20	0	none
+19	Code as the Second Native Language	code / mechanism	496	260	-235	0	none
+20	Claude Code: Industrialized Pair Programming	code / company	261	273	13	4	no_visual_sparse;sparse_page
+21	Reasoning, Test-Time Compute, and the New Scaling Axis	reasoning / mechanism	274	588	315	25	light_page;process_language;sparse_page
+22	Economics of Intelligence on Tap	economics / mechanism	589	640	52	6	forbidden_strings;light_page;no_visual_sparse;process_language;sparse_page

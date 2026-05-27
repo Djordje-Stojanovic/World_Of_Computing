@@ -1,0 +1,22 @@
+metric	value
+pass_id	I-0321
+pdf_checked	rendered/final_private_i0320/Next-Token-final-private-quantitative-i0320.pdf
+pdf_pages	640
+pages_sampled	66
+pages_rendered_for_inspection	30
+global_forbidden_hits	3
+internal_path_hits_fixed	33
+continuity_note_fixed	8
+chapter_files_fixed	13
+hard_gate_failures	0
+multi_image_pages	0
+blank_pages	0
+real_defects_found	3
+defects_fixed_in_source	2
+defects_deferred_to_i0322	3
+visual_exhibit_pages	~270
+truly_sparse_pages	3
+image_objects_total	300
+word_count	101906
+chapter_count	24
+qa_verdict	PASS with fixes applied

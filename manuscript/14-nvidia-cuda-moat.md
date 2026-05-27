@@ -18,7 +18,7 @@ Status: first promoted draft, pass I-0116, 2026-05-25. Hardware continuity stren
 
 Source note: This chapter uses NVIDIA primary sources and local captures from I-0116. It explains CUDA, Hopper/H100, Blackwell/B200/GB200, NVLink/NVSwitch, cuDNN, and TensorRT-LLM only where they explain LLM progress. Exact performance, throughput, cost, revenue, partner, roadmap, and availability claims remain NVIDIA-attributed or blocked unless independently normalized in later rows.
 
-Continuity note: Chapter 14 owns the software-and-system moat: CUDA habits, libraries, kernels, accelerator memory, interconnect, and the conversion of model ambition into usable accelerator work. Chapter 15 owns NVIDIA's public AI-factory stagecraft and roadmap framing. Chapter 16 owns independent physical constraints: power, interconnection, cooling, and useful capacity. The handoff should feel like a narrowing doorway, not three separate essays.
+The software moat leads to a hardware moat, and the hardware moat leads to a physical moat. The next two chapters narrow the lens: first to NVIDIA's own public argument at GTC 2026 about AI factories, then to the independent physical constraints of power, interconnection, cooling, and useful capacity that test every factory claim against reality.
 
 ## Parallelism Becomes A Habit
 

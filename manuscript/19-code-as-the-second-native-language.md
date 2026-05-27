@@ -16,7 +16,7 @@ The most important word in that sentence is "associations." The model did not un
 
 That is why code belongs near the center of the LLM story. It is where language stopped being only expression and became operation.
 
-Status: promoted continuity draft, pass I-0161, 2026-05-26. Source note: This draft uses existing source IDs from `sources.tsv` and the local coding-agent source captures already present in the workspace. It treats code models, coding assistants, and coding benchmarks as evidence for a changing work loop, not as proof that software engineering has been automated away. Exact productivity, adoption, live leaderboard, and model-superiority claims remain blocked until row-normalized evidence exists.
+Status: promoted continuity draft, pass I-0161, 2026-05-26. Source note: This draft uses existing source IDs from the source ledger and the local coding-agent source captures already present in the workspace. It treats code models, coding assistants, and coding benchmarks as evidence for a changing work loop, not as proof that software engineering has been automated away. Exact productivity, adoption, live leaderboard, and model-superiority claims remain blocked until row-normalized evidence exists.
 
 ## From Snippet To Companion
 

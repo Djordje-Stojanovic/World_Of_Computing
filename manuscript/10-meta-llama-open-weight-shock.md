@@ -12,9 +12,9 @@ Figure 10.1 follows the family as a sequence of release objects rather than a ra
 
 Status: promoted chapter draft, pass I-0104, 2026-05-25.
 
-Source note: This chapter uses source IDs from `sources.tsv` plus local source assets captured under `assets/source_docs/meta/`. It treats "open weights" and "open source" as separate claims. It does not infer license freedom, benchmark superiority, deployment scale, fine-tune quality, safety, commercial adoption, or ecosystem size unless a row-level source supports that exact claim.
+Source note: This chapter uses source IDs from the source ledger plus local source assets captured under `assets/source_docs/meta/`. It treats "open weights" and "open source" as separate claims. It does not infer license freedom, benchmark superiority, deployment scale, fine-tune quality, safety, commercial adoption, or ecosystem size unless a row-level source supports that exact claim.
 
-Visual integration: Figure 10.1, `assets/visual_system/llama-family-open-weight-map.svg`, sketches the Llama family as a release-and-claim map rather than a capability leaderboard. The row data lives in `data/chapter10_llama_family_tree_i0104.tsv`. Figure 10.2, queued by pass I-0142, should make the control stack explicit: weights, license, training transparency, hosting burden, safety governance, ecosystem work, and benchmark permission move differently.
+Visual integration: Figure 10.1, `assets/visual_system/llama-family-open-weight-map.svg`, sketches the Llama family as a release-and-claim map rather than a capability leaderboard. The row data lives in the companion source table. Figure 10.2, queued by pass I-0142, should make the control stack explicit: weights, license, training transparency, hosting burden, safety governance, ecosystem work, and benchmark permission move differently.
 
 ## LLaMA Begins as Research Infrastructure
 

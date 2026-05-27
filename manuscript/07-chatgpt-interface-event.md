@@ -24,7 +24,7 @@ The order matters. Stack Overflow was not a school. A school district was not a 
 
 Status: OpenAI spine continuity pass promoted in I-0154, 2026-05-26; first promoted draft from pass I-0003 and source-specific claim audit pass I-0041 preserved as source context.
 
-Source note: This chapter uses source IDs from `sources.tsv` and remains conservative about adoption numbers, private scenes, internal motives, boardroom drama, and unsupported market or productivity claims. Productization, adoption, reception, and Enterprise caveats now sit beside the paragraphs that need them; C-0010 remains active for unattributed quantitative adoption, broad public-reception, named-customer deployment, and customer-productivity claims.
+Source note: This chapter uses source IDs from the source ledger and remains conservative about adoption numbers, private scenes, internal motives, boardroom drama, and unsupported market or productivity claims. Productization, adoption, reception, and Enterprise caveats now sit beside the paragraphs that need them; C-0010 remains active for unattributed quantitative adoption, broad public-reception, named-customer deployment, and customer-productivity claims.
 
 ## The Product Was A Training Method With A Face
 

@@ -105,7 +105,7 @@ Caption:
 
 > Figure 13.3 - Price-Quality Exclusion Map. The current evidence allows an exclusion/permission map, not a price-quality frontier: rows can enter only when rank snapshot, exact model/version, cutoff-compatible price, pricing basis, and scope caveats align.
 
-The exclusion map is not a failed chart. It is a truthful chart about why the tempting chart is not ready. The audit table behind it, `data/price_quality_join_audit_i0036.tsv`, contains candidate rows and negative rows. Some rows have same-scope promise: xAI's Grok 4.3 row, Google Gemini 2.5 Pro tiers, Gemini 2.5 Flash, and Anthropic Claude family rows each show why a future price-quality chart might become possible. But the table also shows why "just plot the dots" would mislead. [S-0060] [S-0061] [S-0062] [S-0063] [C-0046]
+The exclusion map is not a failed chart. It is a truthful chart about why the tempting chart is not ready. The audit table behind it, a supporting audit table, contains candidate rows and negative rows. Some rows have same-scope promise: xAI's Grok 4.3 row, Google Gemini 2.5 Pro tiers, Gemini 2.5 Flash, and Anthropic Claude family rows each show why a future price-quality chart might become possible. But the table also shows why "just plot the dots" would mislead. [S-0060] [S-0061] [S-0062] [S-0063] [C-0046]
 
 There are seven common traps.
 
@@ -180,7 +180,7 @@ Allowed:
 - A-0014 can explain the path from human preference votes to gated rank claims.
 - A-0013 can show a historical `text_style_control` / `latest` / `overall` slice published 2026-05-19 and captured as S-0080/SNAP-20260525-008.
 - A-0019 can show why a price-quality frontier is not yet chart-ready.
-- `data/price_quality_join_audit_i0036.tsv` can support candidate/exclusion language about same-scope joins, tiering, missing prices, deprecated rows, fine-tuning prices, reasoning variants, and post-cutoff price capture blockers.
+- a supporting audit table can support candidate/exclusion language about same-scope joins, tiering, missing prices, deprecated rows, fine-tuning prices, reasoning variants, and post-cutoff price capture blockers.
 - The chapter can argue that the frontier was crowded and methodologically hard to summarize.
 
 Blocked:

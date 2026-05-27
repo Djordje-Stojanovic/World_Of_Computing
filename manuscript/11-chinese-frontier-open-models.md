@@ -14,9 +14,9 @@ The chapter's job is different from the Meta chapter's job and different again f
 
 Status: promoted chapter draft, pass I-0105, 2026-05-25.
 
-Source note: This chapter uses existing source IDs from `sources.tsv` plus local arXiv captures under `assets/source_docs/china/`. It writes only the China/open-model claims supported by current cutoff-bounded source rows: Qwen2, Qwen3, DeepSeek-V3, DeepSeek-R1, GLM-4, and Kimi k1.5. It does not write Qwen 3.5, Qwen 3.6, DeepSeek V4-era systems, MiniMax, Baidu, Tencent, Xiaomi MiMo, or StepFun as happened releases unless the source-gap table has a supporting row.
+Source note: This chapter uses existing source IDs from the source ledger plus local arXiv captures under `assets/source_docs/china/`. It writes only the China/open-model claims supported by current cutoff-bounded source rows: Qwen2, Qwen3, DeepSeek-V3, DeepSeek-R1, GLM-4, and Kimi k1.5. It does not write Qwen 3.5, Qwen 3.6, DeepSeek V4-era systems, MiniMax, Baidu, Tencent, Xiaomi MiMo, or StepFun as happened releases unless the source-gap table has a supporting row.
 
-Visual integration: Figure 11.1, `assets/visual_system/china-open-model-source-map.svg`, maps supported primary-source lanes and unsupported gap lanes. The row data lives in `data/chapter11_china_open_model_source_map_i0105.tsv`.
+Visual integration: Figure 11.1, `assets/visual_system/china-open-model-source-map.svg`, maps supported primary-source lanes and unsupported gap lanes. The row data lives in the companion source table.
 
 ## Qwen and the Alibaba Route
 
@@ -84,7 +84,7 @@ Still, the pattern is real enough to matter. The Chinese frontier made efficienc
 
 The gap lane in Figure 11.1 is not a bureaucratic embarrassment. It is part of the story the book is trying to tell. Frontier AI moves faster than a sober manuscript can safely absorb. Product names circulate before papers. Benchmark screenshots travel before model cards. English summaries simplify Chinese announcements. GitHub repositories, Hugging Face pages, corporate posts, chat-product launches, and API docs disagree in level of detail. If the writer follows the excitement rather than the evidence, the chapter becomes obsolete and possibly false before the ink dries.
 
-MiniMax, Baidu, Tencent, Xiaomi MiMo, and StepFun are precisely the kind of names that create this risk. They matter to the mandatory spine because China's frontier is broader than Qwen, DeepSeek, GLM, and Kimi. But without local primary rows in the current workspace, the safe move is not to pretend they are absent. The safe move is to name them as required research targets and refuse to grant them unsupported paragraphs. That is why `data/chapter11_china_open_model_source_map_i0105.tsv` exists.
+MiniMax, Baidu, Tencent, Xiaomi MiMo, and StepFun are precisely the kind of names that create this risk. They matter to the mandatory spine because China's frontier is broader than Qwen, DeepSeek, GLM, and Kimi. But without local primary rows in the current workspace, the safe move is not to pretend they are absent. The safe move is to name them as required research targets and refuse to grant them unsupported paragraphs. That is why the companion source table exists.
 
 This is not only about avoiding error. It is about preserving narrative quality. Unsupported name-dropping makes a chapter feel larger for a page and smaller afterward. The reader senses the blur. A strong chapter earns breadth by giving each lab a reason to be there: a model report, a product surface, an open-weight release, a reasoning method, a long-context system, a benchmark artifact, a deployment environment, a licensing move, or a visible ecosystem. Until those reasons are sourced, the names belong in a queue, not in decorative prose.
 

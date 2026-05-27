@@ -18,7 +18,7 @@ The chapter begins there because it keeps the LLM story honest. ChatGPT made int
 
 Status: expanded in pass I-0102, 2026-05-25. Hardware continuity strengthened in pass I-0159, 2026-05-26.
 
-Source note: This chapter uses source IDs from `sources.tsv`, the GTC slide caption register, and the I-0101 claim-card pack. It treats the GTC 2026 keynote as a staged NVIDIA argument, not as independent proof of performance, availability, partner adoption, deployment scale, revenue, facility performance, or future roadmap delivery. Exact ratios, dates, partner lists, and throughput claims remain blocked under C-0021 and C-0047 until corroborated.
+Source note: This chapter uses source IDs from the source ledger, the GTC slide caption register, and the I-0101 claim-card pack. It treats the GTC 2026 keynote as a staged NVIDIA argument, not as independent proof of performance, availability, partner adoption, deployment scale, revenue, facility performance, or future roadmap delivery. Exact ratios, dates, partner lists, and throughput claims remain blocked under C-0021 and C-0047 until corroborated.
 
 Visual sequence after I-0186: open with A-0024, the page 29 AI-factory thesis claim card. Use Figure 15.1, A-0012, `assets/visual_system/ai-factory-stack.svg`, as the explanatory bridge after the opening metaphor. Use A-0027 for the page 49 system-comparison guardrail, A-0028 for roadmap cadence if the spread has room, and A-0029 as the DSX reference-design handoff to Chapter 16. Keep A-0025, A-0026, and A-0145 as reserve or cite-only source surfaces until product-roadmap and token-economics claims are normalized. Keep A-0004, A-0007, A-0008, and A-0009 as private-use provenance handles rather than placing them beside their claim-card duplicates. [S-0001]
 
