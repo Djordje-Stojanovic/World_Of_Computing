@@ -1,0 +1,15 @@
+pass_id	metric	value	status	evidence
+I-0304	Private Masterpiece BookScore	100.0	held	Scoreboard remains at 100.0 after final render, rhythm, inventory, claim audit, and package freeze.
+I-0304	word_count	103526	pass	>100,000 and <120,000
+I-0304	chapter_count	24	pass	exactly 24 main chapters
+I-0304	best_final_pdf	rendered/final_private_i0301/Next-Token-final-private-personal-edition-i0301.pdf	pass	pages=675; sha256=5eade58d218f10cf8d7146964660a81d9aeb7560e057ee1eee3766619ac35ce6
+I-0304	pdf_image_objects	330	pass	visual abundance proof, not a unique-asset count
+I-0304	pdf_drawing_objects	4966	pass	vector charts/logos/SVG/table surfaces carried into PDF
+I-0304	blank_like_pages	0	pass	PyMuPDF scan of best local PDF
+I-0304	max_consecutive_visual_heavy_pages	40	pass	I-0301 rhythm repair reduced the atlas run from 199 to 40
+I-0304	final_visual_inventory_rows	530	pass	data/final_private_visual_inventory_i0302.tsv
+I-0304	visual_target_categories	9/9	pass	all private-edition target categories pass in I-0302 summary
+I-0304	claim_ledger_status	320 supported / 0 needs-verification	pass	claims.tsv current status counts
+I-0304	final_claim_audit_qa	6/6 pass	pass	data/final_source_claim_audit_qa_i0303.tsv
+I-0304	champion_backup	103 files	pass	archive/champion_backup_i0304
+I-0304	public_use_rights	not claimed	pass	final package states private-use only and preserves remaining rights risk

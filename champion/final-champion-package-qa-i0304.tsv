@@ -1,0 +1,9 @@
+pass_id	check_id	category	result	evidence	recommended_action
+I-0304	I0304-001	champion_backup_exists	pass	files=103; manifest=archive/champion_backup_i0304_manifest.tsv	No action required for this automated check.
+I-0304	I0304-002	best_pdf_verified	pass	pages=675; blank_like=0; sha256=5eade58d218f10cf8d7146964660a81d9aeb7560e057ee1eee3766619ac35ce6	No action required for this automated check.
+I-0304	I0304-003	package_manifest_complete	pass	artifacts=12; missing=0	No action required for this automated check.
+I-0304	I0304-004	visual_targets_pass	pass	pass_rows=9/9	No action required for this automated check.
+I-0304	I0304-005	claim_ledger_zero_unsupported	pass	claims={'supported': 320}	No action required for this automated check.
+I-0304	I0304-006	book_invariants	pass	words=103526; chapters=24	No action required for this automated check.
+I-0304	I0304-007	champion_files_written	pass	required=6	No action required for this automated check.
+I-0304	I0304-008	scorecard_all_pass_or_held	pass	rows=14	No action required for this automated check.

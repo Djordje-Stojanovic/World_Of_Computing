@@ -552,3 +552,5 @@ The benchmark layer is strongest when tables are explicit memory aids rather tha
 - I-0302: a visually maximal private book needs a second artifact for trust. The contact sheet and page-mapped inventory let the reader audit hundreds of images, charts, logos, papers, screenshots, and people surfaces without re-opening the whole PDF or treating visual abundance as unverifiable clutter.
 
 - I-0303: final claim discipline is not the absence of risky words; it is making risky words carry their own boundaries. The private edition can use screenshots, logos, people images, source pages, and benchmarks richly only when every such surface says what it cannot prove.
+
+- I-0304: a final private champion package should point to the newest proof set, not the first freeze. The durable map is now the I-0301 rhythm-repaired PDF, I-0302 visual inventory/contact sheet, I-0303 claim audit, and an explicit remaining-risk ledger that says private-use richness is not public-use clearance.

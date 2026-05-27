@@ -1,0 +1,13 @@
+pass_id	artifact	path	exists	bytes	sha256	pages	image_objects	drawing_objects	private_use_note
+I-0304	best_private_pdf	rendered/final_private_i0301/Next-Token-final-private-personal-edition-i0301.pdf	yes	76497555	5eade58d218f10cf8d7146964660a81d9aeb7560e057ee1eee3766619ac35ce6	675	330	4966	local ignored final rhythm-repaired private PDF
+I-0304	final_contact_sheet_pdf	rendered/final_inventory_i0302/Next-Token-final-private-visual-contact-sheet-i0302.pdf	yes	59164399	218eb5faa5e374c56c53f85ac69e5305910636a654702fe13a4d8c79aa426c5a	16	159	4623	local ignored visual contact sheet for 530-row inventory
+I-0304	final_visual_inventory	data/final_private_visual_inventory_i0302.tsv	yes	456441	f6cfd814bfa488b7f09d5184c038b41794675dd13a3c46d3db37df07fd9f1429				committed current visual inventory
+I-0304	final_visual_category_summary	data/final_private_visual_category_summary_i0302.tsv	yes	2510	8105d432c15ed8b708f6b787be4bf85a6a05336022c4fabe0ce8b82e16989718				committed visual target proof
+I-0304	final_contact_sheet_manifest	data/final_private_contact_sheet_manifest_i0302.tsv	yes	763	1cb345a6312029a2228961339dd4de9e26fde018979f26e1d2dd9220b62e3673				committed contact-sheet and best-PDF hash manifest
+I-0304	final_claim_audit_qa	data/final_source_claim_audit_qa_i0303.tsv	yes	751	27cf010b9e76bee17983fab3dca9f28adcb4f75047aa9bce5d4c3a07af2c96b3				committed claim/source quarantine QA
+I-0304	source_ledger	sources.tsv	yes	275350	caafac796ec2a5e47461b70122d66ae70cfb1b8985afbae5e15bfff559dbfaf2				committed source ledger
+I-0304	claim_ledger	claims.tsv	yes	283157	1f4cd67df137c58afcb55418ee1e4ffe6ab8d7295cd6c4cd514b934822bb6de4				committed claim ledger
+I-0304	champion_manuscript_snapshot	champion/Next-Token-final-private-edition-i0300.md	yes	679032	c2f122afc161006c665d5c5640bff97fa21a77cc1340b51c5b115f140b087ad3				committed final champion manuscript snapshot
+I-0304	final_pdf_pointer_i0301	champion/final-private-pdf-pointer-i0301.md	yes	715	eb2d8b08f3eec9ef29bec40cd1f9b73deb04e90402bf1df332661e0c9127b5bf				committed best local PDF pointer
+I-0304	final_visual_inventory_pointer_i0302	champion/final-private-visual-inventory-i0302.md	yes	1526	bc2f258d581a0fea0ea95194739cae71f7db1f3b476dee95e7bb8ed3752171ae				committed inventory report
+I-0304	final_source_claim_report_i0303	champion/final-source-claim-quarantine-i0303.md	yes	1026	f0ca152553754c5cc540fc4119571d511a815642d10e0187c10909015080e35d				committed claim-boundary report

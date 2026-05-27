@@ -1,0 +1,8 @@
+pass_id	metric	value	status	evidence
+I-0301	Private Masterpiece BookScore	100.0	held	Visual rhythm repair improves final private PDF without reducing visual abundance.
+I-0301	max_consecutive_visual_pages_before	199	baseline	I-0300 final QA warning.
+I-0301	max_consecutive_visual_pages_after	40	pass	data/final_visual_rhythm_page_runs_i0301.tsv
+I-0301	rhythm_divider_pages	442,484,525,567	pass	Text-only dividers inserted inside the 200-item atlas.
+I-0301	pdf_image_objects	330	pass	Image count preserved versus I-0300.
+I-0301	pdf_drawing_objects	4966	pass	Vector/drawing count preserved versus I-0300.
+I-0301	blank_like_pages	0	pass	PyMuPDF scan.

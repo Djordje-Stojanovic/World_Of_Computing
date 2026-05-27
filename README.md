@@ -6,34 +6,28 @@ This repository is the working memory, manuscript lab, source ledger, visual sys
 
 ## Current Book State
 
-Updated **2026-05-27** after pass `I-0303`.
+Updated **2026-05-27** after pass `I-0304`.
 
-- **Latest recorded pass:** `I-0303`, final source and unsupported-claim quarantine audit.
+- **Latest recorded pass:** `I-0304`, final private champion package freeze.
 - **Words:** 103,526 assembled source words across the canonical 24-chapter draft.
 - **Chapters:** 24 / 24 main chapters.
 - **Best local private PDF proof:** `rendered/final_private_i0301/Next-Token-final-private-personal-edition-i0301.pdf`.
+- **Final champion pointer:** `champion/final-private-champion-pointer-i0304.md`.
 - **Final visual inventory/contact sheet:** `data/final_private_visual_inventory_i0302.tsv` and `rendered/final_inventory_i0302/Next-Token-final-private-visual-contact-sheet-i0302.pdf`.
-- **Claim status:** `claims.tsv` has 318 supported rows and 0 needs-verification rows after the I-0303 audit.
+- **Final visual inventory rows:** 530, including the 100 curated chart/data/SVG lane plus the additional GOAL.md lanes for photos/screenshots/source images, paper/report excerpts, PDF/deck/report pages, model-card/benchmark/doc surfaces, logos, benchmark tables, people/profile images, and authored visual boards.
+- **Claim status:** `claims.tsv` has 320 supported rows and 0 needs-verification rows after the I-0303 audit and I-0304 package claim.
 - **Source density:** the frozen champion manuscript has 545 source refs, 26 claim refs, and 181.3 words/reference.
 
-The private edition is visually maximal and now has an explicit final claim-boundary audit for its manuscript and visual captions.
+The private edition is visually maximal for personal use. The remaining caveat is not visual quantity; it is that heavy PDF/contact-sheet files are local ignored artifacts and found/source-surface visuals are not public-use cleared.
 
 ## Readiness Snapshot
 
-Rough editorial/commercial estimates as of 2026-05-26:
+Private-edition readiness as of 2026-05-27:
 
-- **Manuscript substance:** 80-85%.
-- **Structural completeness:** 85-90%.
-- **Hard invariant compliance:** 75-80% because the assembled draft now clears the word-count target only conditionally, while 8 claims still need verification and full render QA is not complete.
-- **Source/claim discipline:** 75-80%.
-- **Visual ambition:** 85-90%.
-- **Visual planning maturity:** 60-65%.
-- **Visual publication readiness:** 25-35% under fail-closed render/rights/caption gates.
-- **Commercial launch-ready:** 35-45%.
-- **Award/shortlist-ready:** 25-35%.
-- **Revenue-generating beautiful book:** 40-50% for a disciplined self-published launch after package, rights, render, and cover work; lower for traditional/major-prize lanes until a finished packet exists.
-
-Prize-winning potential is real because the subject, scope, source base, and industrial narrative are strong. Prize readiness is still gated by finishing work: claims, rights, layout, render QA, editorial polish, and a coherent public package.
+- **Private personal edition:** done enough to read from the local I-0301 PDF, with final package, scorecard, visual inventory, contact sheet, and claim audit.
+- **Hard invariant compliance:** passing for word count, 24 chapters, visual target categories, rendered PDF integrity, and unsupported-claim ledger.
+- **Visual ambition:** satisfied for the private edition; the target was never only 100 images, but 100 curated visualization exhibits plus the other real-world/source-surface categories.
+- **Public/commercial readiness:** still not claimed because rights clearance, public replacement/redraw work, and human legal/factual review are outside the private-use finish package.
 
 ## 100-Exhibit Dashboard
 

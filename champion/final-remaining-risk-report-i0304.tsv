@@ -1,0 +1,7 @@
+pass_id	risk_id	status	evidence	recommended_action
+I-0304	private_visual_rights	open	Found/company/source-surface visuals are for private use; no public publication clearance is claimed.	Keep private, replace, redraw, license, or clear rights before public release.
+I-0304	heavy_local_artifacts	open	Best PDF and contact sheet remain local ignored files; committed package stores paths and hashes.	Preserve local rendered/ directory or regenerate from committed scripts and ledgers.
+I-0304	programmatic_audit_limits	open	I-0303 catches unsupported ledger rows and risky boundary language, but it is not a human legal/factual review.	Use human review before external distribution.
+I-0304	visual_density_rhythm	mitigated	I-0301 reduced the longest visual-heavy run from 199 pages to 40 while keeping visual abundance.	Optional reader polish can further soften transitions without deleting evidence.
+I-0304	stale_pointer_confusion	mitigated	I-0304 package points at I-0301 PDF, I-0302 inventory/contact sheet, and I-0303 claim audit.	Use champion/final-private-champion-pointer-i0304.md as the human-facing package map.
+I-0304	reader_polish	open	Opening/ending pages and visual transitions can still be improved without adding new factual claims.	Run I-0305 if continuing the finish sprint.

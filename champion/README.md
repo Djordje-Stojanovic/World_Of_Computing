@@ -1,15 +1,17 @@
 # Champion
 
-Final private personal-edition champion updated by `I-0301` on 2026-05-27.
+Final private personal-edition champion package updated by `I-0304` on 2026-05-27.
 
+- Human package pointer: `final-private-champion-pointer-i0304.md`
+- Best local PDF pointer: `final-private-pdf-pointer-i0301.md`
 - Manuscript snapshot: `Next-Token-final-private-edition-i0300.md`
-- Completion report: `final-private-completion-report-i0300.md`
-- Rhythm repair report: `final-visual-rhythm-repair-i0301.md`
-- Rhythm scorecard: `final-visual-rhythm-scorecard-i0301.tsv`
-- Visual inventory: `final-private-visual-inventory-i0300.tsv`
-- Visual category summary: `final-private-visual-category-summary-i0300.tsv`
-- Assembly manifest: `final-private-assembly-manifest-i0300.tsv`
-- Local revised PDF pointer: `final-private-pdf-pointer-i0301.md`
-- Prior changed champion files backup: `archive/champion_backup_i0301_changed_files`
+- Final package report: `final-champion-package-i0304.md`
+- Final package manifest: `final-champion-package-manifest-i0304.tsv`
+- Final scorecard: `final-champion-scorecard-i0304.tsv`
+- Remaining-risk ledger: `final-remaining-risk-report-i0304.tsv`
+- Final visual inventory: `final-private-visual-inventory-i0302.tsv`
+- Final visual category summary: `final-private-visual-category-summary-i0302.tsv`
+- Final claim audit report: `final-source-claim-quarantine-i0303.md`
+- Prior champion backup: `archive/champion_backup_i0304`
 
-The PDF/contact-sheet renders are intentionally local/ignored private-use artifacts; use the pointer file for path, hash, and render metrics.
+The PDF/contact-sheet renders are intentionally local/ignored private-use artifacts; use the pointer file for path, hash, render metrics, and the current package map.

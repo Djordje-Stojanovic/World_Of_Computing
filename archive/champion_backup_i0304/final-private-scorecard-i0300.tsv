@@ -1,0 +1,12 @@
+pass_id	metric	value	status	evidence
+I-0300	Private Masterpiece BookScore	100.0	held	Scoreboard maintained at 100.0 after final private visual target proof and freeze.
+I-0300	word_count	103526	pass	>100,000 and <120,000
+I-0300	chapter_count	24	pass	exactly 24 main chapters
+I-0300	final_pdf_pages	667	pass	rendered/final_private_i0300/Next-Token-final-private-personal-edition-i0300.pdf
+I-0300	pdf_image_objects	330	pass	visual abundance proof, not a unique-asset count
+I-0300	pdf_drawing_objects	4946	pass	vector charts/logos/SVG/table surfaces carried into PDF
+I-0300	blank_like_pages	0	pass	PyMuPDF scan
+I-0300	visual_target_categories	9/9	pass	data/final_private_visual_category_summary_i0300.tsv
+I-0300	final_visual_inventory_rows	530	pass	data/final_private_visual_inventory_i0300.tsv
+I-0300	unsupported_claim_ledger_rows	0	pass	claims.tsv currently groups as supported=315
+I-0300	remaining_weakness	dense appendix rhythm warning	warn	max_consecutive_visual_pages=199
