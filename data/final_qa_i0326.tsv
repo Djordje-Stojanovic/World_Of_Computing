@@ -1,0 +1,7 @@
+gate	value	status
+Word count 100k-120k	95870	FAIL
+24 chapters	1	FAIL
+Forbidden strings	4	FAIL
+Process language	0	PASS
+data/*.tsv paths	1	FAIL
+ledger .tsv references	0	PASS
