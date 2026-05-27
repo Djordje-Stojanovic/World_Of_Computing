@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Inference Cost Stack</title>
+  <desc id="desc">A Chapter 8 stack diagram showing non-quantified cost layers behind serving an LLM product, with explicit blockers for exact economics.</desc>
+  <style>
+    .bg{fill:#f7f4ee}.ink{fill:#1f2933;font-family:Arial,Helvetica,sans-serif}.muted{fill:#5d6470;font-family:Arial,Helvetica,sans-serif}.title{font-size:38px;font-weight:800}.sub{font-size:19px}.label{font-size:22px;font-weight:800}.small{font-size:16px}.tiny{font-size:13px}.layer{stroke:#1f2933;stroke-width:2}.l1{fill:#e7efff}.l2{fill:#e8f5ef}.l3{fill:#fff3d8}.l4{fill:#efeafb}.l5{fill:#fff0ec}.gate{fill:#fffdf7;stroke:#c2412d;stroke-width:3}
+  </style>
+  <rect class="bg" width="1200" height="760"/>
+  <text class="ink title" x="60" y="72">Inference Cost Stack: What The Chat Box Hides</text>
+  <text class="muted sub" x="60" y="108">Non-quantified Chapter 8 mechanism. Exact costs, margins, and workload volumes are blocked.</text>
+  <g transform="translate(210 160)">
+    <rect class="layer l5" x="0" y="0" width="760" height="72" rx="8"/><text class="ink label" x="35" y="44">User-facing latency and reliability promise</text><text class="muted tiny" x="610" y="44">product SLA pressure</text>
+    <rect class="layer l4" x="45" y="82" width="670" height="72" rx="8"/><text class="ink label" x="80" y="126">Safety, monitoring, auth, governance</text><text class="muted tiny" x="555" y="126">enterprise wrapper</text>
+    <rect class="layer l3" x="90" y="164" width="580" height="72" rx="8"/><text class="ink label" x="125" y="208">Serving software, batching, routing</text><text class="muted tiny" x="490" y="208">utilization layer</text>
+    <rect class="layer l2" x="135" y="246" width="490" height="72" rx="8"/><text class="ink label" x="170" y="290">Accelerators, memory, network</text><text class="muted tiny" x="465" y="290">capacity layer</text>
+    <rect class="layer l1" x="180" y="328" width="400" height="72" rx="8"/><text class="ink label" x="215" y="372">Power, cooling, datacenter</text><text class="muted tiny" x="440" y="372">physical base</text>
+  </g>
+  <rect class="gate" x="110" y="605" width="980" height="92" rx="8"/>
+  <text class="ink small" x="140" y="640">Allowed: explain why serving ChatGPT/Copilot is a cloud-capacity and product-governance problem. Sources: S-0126, S-0129, S-0131, S-0133.</text>
+  <text class="ink small" x="140" y="668">Blocked: exact inference cost, revenue, margin, workload volume, utilization, customer ROI, productivity, or paid-seat claims without later rows.</text>
+  <text class="muted tiny" x="140" y="691">Figure A-0058. Claim controls: CH8MS-009, CH8MS-010, CH8MS-011.</text>
+</svg>

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="446" viewBox="0 0 1320 446">
+<rect width="100%" height="100%" fill="#fffdf8"/>
+<rect x="38" y="34" width="1244" height="82" fill="#17202a"/>
+<text x="68" y="82" font-family="Arial" font-size="31" font-weight="700" fill="#ffffff">2020 benchmark/model-landscape table</text>
+<text x="68" y="108" font-family="Arial" font-size="14" fill="#d7e6ea">Early-era model race surface: benchmark context, Sources, and barred overreadings travel together.</text>
+<text x="60" y="150" font-family="Arial" font-size="16" font-weight="700" fill="#27323a">Model/surface</text>
+<text x="300" y="150" font-family="Arial" font-size="16" font-weight="700" fill="#27323a">Evidence</text>
+<text x="545" y="150" font-family="Arial" font-size="16" font-weight="700" fill="#27323a">Benchmark/eval surface</text>
+<text x="850" y="150" font-family="Arial" font-size="16" font-weight="700" fill="#27323a">Sources</text>
+<text x="1030" y="150" font-family="Arial" font-size="16" font-weight="700" fill="#27323a">Boundary</text>
+<rect x="44" y="168" width="1240" height="82" fill="#f1f6f5" stroke="#c7d0ca"/>
+<text x="60" y="198" font-family="Arial" font-size="17" font-weight="700" fill="#1d2a2e">GPT-3</text>
+<text x="300" y="198" font-family="Arial" font-size="15" fill="#24333a">few-shot paper</text>
+<text x="545" y="198" font-family="Arial" font-size="15" fill="#24333a">few-shot benchmark tables across...</text>
+<text x="850" y="198" font-family="Arial" font-size="14" fill="#33444a">S-0005;PAPER-0285-004</text>
+<text x="1030" y="195" font-family="Arial" font-size="13" fill="#3d403b">Parameter count is not a product...</text>
+<text x="1030" y="219" font-family="Arial" font-size="12" fill="#70695d">not a live rank or single quality score</text>
+<rect x="44" y="260" width="1240" height="82" fill="#fbf4e6" stroke="#c7d0ca"/>
+<text x="60" y="290" font-family="Arial" font-size="17" font-weight="700" fill="#1d2a2e">Scaling laws</text>
+<text x="300" y="290" font-family="Arial" font-size="15" fill="#24333a">loss/compute/data report</text>
+<text x="545" y="290" font-family="Arial" font-size="15" fill="#24333a">loss curves and scaling fit</text>
+<text x="850" y="290" font-family="Arial" font-size="14" fill="#33444a">S-0003;PAPER-0285-005</text>
+<text x="1030" y="287" font-family="Arial" font-size="13" fill="#3d403b">Loss is not truth, safety, or market...</text>
+<text x="1030" y="311" font-family="Arial" font-size="12" fill="#70695d">not a live rank or single quality score</text>
+<rect x="44" y="352" width="1240" height="82" fill="#f1f6f5" stroke="#c7d0ca"/>
+<text x="60" y="382" font-family="Arial" font-size="17" font-weight="700" fill="#1d2a2e">API distribution</text>
+<text x="300" y="382" font-family="Arial" font-size="15" fill="#24333a">product/API surface</text>
+<text x="545" y="382" font-family="Arial" font-size="15" fill="#24333a">developer access rather than...</text>
+<text x="850" y="382" font-family="Arial" font-size="14" fill="#33444a">S-0127</text>
+<text x="1030" y="379" font-family="Arial" font-size="13" fill="#3d403b">Not usage, revenue, or quality proof.</text>
+<text x="1030" y="403" font-family="Arial" font-size="12" fill="#70695d">not a live rank or single quality score</text>
+</svg>

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Chapter 22 Token Meter</title>
+  <desc id="desc">Schematic showing how prompts and answers become metered token economics with input, cached input, and output lanes.</desc>
+  <rect width="1200" height="760" fill="#fbfaf7"/>
+  <text x="70" y="72" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#111827">The meter is visible before the margin is knowable</text>
+  <text x="70" y="108" font-family="Arial, sans-serif" font-size="17" fill="#4b5563">Provider pricing rows expose units of sale, not cost-to-serve or profit.</text>
+  <g font-family="Arial, sans-serif">
+    <rect x="90" y="180" width="260" height="135" rx="8" fill="#ffffff" stroke="#2563eb" stroke-width="3"/>
+    <text x="125" y="225" font-size="22" font-weight="700" fill="#1e3a8a">Input tokens</text>
+    <text x="125" y="260" font-size="16" fill="#1f2937">prompt, context, files</text>
+    <text x="125" y="288" font-size="14" fill="#6b7280">priced by provider row</text>
+    <path d="M350 248 H460" stroke="#334155" stroke-width="3"/>
+    <rect x="470" y="180" width="260" height="135" rx="8" fill="#ffffff" stroke="#16a34a" stroke-width="3"/>
+    <text x="505" y="225" font-size="22" font-weight="700" fill="#14532d">Cached input</text>
+    <text x="505" y="260" font-size="16" fill="#1f2937">reused context discounts</text>
+    <text x="505" y="288" font-size="14" fill="#6b7280">where source rows allow</text>
+    <path d="M730 248 H840" stroke="#334155" stroke-width="3"/>
+    <rect x="850" y="180" width="260" height="135" rx="8" fill="#ffffff" stroke="#d97706" stroke-width="3"/>
+    <text x="885" y="225" font-size="22" font-weight="700" fill="#78350f">Output tokens</text>
+    <text x="885" y="260" font-size="16" fill="#1f2937">generated answer</text>
+    <text x="885" y="288" font-size="14" fill="#6b7280">often priced differently</text>
+    <rect x="180" y="390" width="840" height="84" rx="8" fill="#111827"/>
+    <text x="220" y="425" font-size="20" font-weight="700" fill="#ffffff">Allowed claim</text>
+    <text x="220" y="455" font-size="16" fill="#fef3c7">Tokens, cache tiers, batch tiers, and model rows reveal how intelligence is sold.</text>
+    <rect x="180" y="520" width="840" height="84" rx="8" fill="#ffffff" stroke="#be123c" stroke-width="3"/>
+    <text x="220" y="555" font-size="20" font-weight="700" fill="#881337">Blocked leap</text>
+    <text x="220" y="585" font-size="16" fill="#1f2937">No live-price, cost-per-token, margin, revenue, utilization, or price-quality frontier claim.</text>
+  </g>
+  <text x="70" y="705" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">Sources/data: data/provider_pricing_rows_i0026.tsv; data/openai_pricing_rows_i0021.tsv; data/mistral_pricing_rows_i0031.tsv; CH22ECO-003.</text>
+</svg>

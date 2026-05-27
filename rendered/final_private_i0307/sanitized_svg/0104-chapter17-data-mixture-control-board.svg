@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Data Mixture Control Board</title>
+  <desc id="desc">A Chapter 17 control-board diagram showing different data lanes entering pretraining with documentation and blocked exact-composition claims.</desc>
+  <style>
+    .bg{fill:#f7f4ee}.ink{fill:#1f2933;font-family:Arial,Helvetica,sans-serif}.muted{fill:#5d6470;font-family:Arial,Helvetica,sans-serif}.title{font-size:38px;font-weight:800}.sub{font-size:19px}.label{font-size:20px;font-weight:800}.small{font-size:15px}.tiny{font-size:12px}.card{fill:#fffdf7;stroke:#c8c1b5;stroke-width:2}.data{fill:#e8f5ef;stroke:#0f8b6f;stroke-width:3}.compute{fill:#e7efff;stroke:#2563eb;stroke-width:3}.risk{fill:#fff0ec;stroke:#c2412d;stroke-width:3}.bar{fill:#0f8b6f}.bar2{fill:#2563eb}.bar3{fill:#b7791f}.bar4{fill:#6d5bd0}.bar5{fill:#c2412d}.line{fill:none;stroke:#1f2933;stroke-width:4;marker-end:url(#arrow)}
+  </style>
+  <defs><marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 Z" fill="#1f2933"/></marker></defs>
+  <rect class="bg" width="1200" height="760"/>
+  <text class="ink title" x="60" y="72">Data Mixture Control Board</text>
+  <text class="muted sub" x="60" y="108">A dataset is a recipe: corpus lanes, filters, documentation, and blocked exact closed-model composition.</text>
+  <rect class="card" x="75" y="160" width="690" height="390" rx="10"/>
+  <text class="ink label" x="110" y="200">Candidate lanes</text>
+  <text class="muted small" x="110" y="235">Web / Common Crawl</text><rect class="bar" x="325" y="218" width="360" height="18" rx="4"/>
+  <text class="muted small" x="110" y="285">Code and docs</text><rect class="bar2" x="325" y="268" width="260" height="18" rx="4"/>
+  <text class="muted small" x="110" y="335">Books / long-form</text><rect class="bar3" x="325" y="318" width="210" height="18" rx="4"/>
+  <text class="muted small" x="110" y="385">Academic / encyclopedic</text><rect class="bar4" x="325" y="368" width="235" height="18" rx="4"/>
+  <text class="muted small" x="110" y="435">Synthetic / post-training</text><rect class="bar5" x="325" y="418" width="170" height="18" rx="4"/>
+  <text class="muted tiny" x="110" y="502">Bars are schematic, not proportions.</text>
+  <rect class="data" x="835" y="178" width="245" height="95" rx="8"/><text class="ink label" x="875" y="216">Open rows</text><text class="muted small" x="875" y="244">The Pile, Dolma,</text><text class="muted small" x="875" y="264">FineWeb, DataComp-LM</text>
+  <rect class="compute" x="835" y="322" width="245" height="95" rx="8"/><text class="ink label" x="875" y="360">Training recipe</text><text class="muted small" x="875" y="388">mixture, tokenizer,</text><text class="muted small" x="875" y="408">filters, schedule</text>
+  <rect class="risk" x="835" y="466" width="245" height="95" rx="8"/><text class="ink label" x="875" y="504">Blocked</text><text class="muted small" x="875" y="532">closed model corpus</text><text class="muted small" x="875" y="552">shares and legality</text>
+  <path class="line" d="M765 354 H828"/>
+  <rect class="card" x="105" y="635" width="990" height="55" rx="8"/>
+  <text class="ink small" x="130" y="665">Use rule: shows mixture design as process; does not assert exact proportions, proprietary source mixes, or legal permission.</text>
+  <text class="muted tiny" x="130" y="685">Figure A-0066. Sources: S-0042; S-0157; S-0158; S-0159; S-0163. Claim rows: CH17DATA-006/007/010.</text>
+</svg>

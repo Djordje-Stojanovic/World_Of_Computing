@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Chapter 9 TPU, Search, and Workspace surface map</title>
+  <desc id="desc">A schematic map of Google's Gemini conversion stack from research and TPUs to Search, Workspace, Android, developer APIs, and cloud, with blocked outcome claims.</desc>
+  <rect width="1200" height="760" fill="#fbfaf7"/>
+  <text x="64" y="70" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#202124">Google's Gemini Question Was Surface Conversion</text>
+  <text x="64" y="108" font-family="Arial, sans-serif" font-size="17" fill="#4b5563">The advantage was the possible stack: lab, silicon, cloud, Search, Workspace, Android, and developer paths.</text>
+  <g font-family="Arial, sans-serif">
+    <rect x="424" y="168" width="352" height="126" rx="10" fill="#e8f0fe" stroke="#4285f4" stroke-width="3"/>
+    <text x="600" y="210" font-size="24" font-weight="700" fill="#174ea6" text-anchor="middle">Research + model family</text>
+    <text x="600" y="242" font-size="16" fill="#374151" text-anchor="middle">Transformer roots, PaLM, Gemini, Gemini 2.5</text>
+    <text x="600" y="268" font-size="13" fill="#374151" text-anchor="middle">S-0002; S-0115; S-0121; S-0119</text>
+    <rect x="424" y="348" width="352" height="126" rx="10" fill="#e6f4ea" stroke="#34a853" stroke-width="3"/>
+    <text x="600" y="390" font-size="24" font-weight="700" fill="#137333" text-anchor="middle">AI-optimized infrastructure</text>
+    <text x="600" y="422" font-size="16" fill="#374151" text-anchor="middle">TPUs, Pathways, serving systems, Cloud</text>
+    <text x="600" y="448" font-size="13" fill="#374151" text-anchor="middle">S-0115; S-0121</text>
+    <line x1="600" y1="294" x2="600" y2="348" stroke="#1f2937" stroke-width="3" marker-end="url(#arrow)"/>
+    <line x1="424" y1="410" x2="262" y2="410" stroke="#1f2937" stroke-width="3" marker-end="url(#arrow)"/>
+    <line x1="776" y1="410" x2="938" y2="410" stroke="#1f2937" stroke-width="3" marker-end="url(#arrow)"/>
+    <line x1="500" y1="474" x2="286" y2="588" stroke="#1f2937" stroke-width="3" marker-end="url(#arrow)"/>
+    <line x1="700" y1="474" x2="914" y2="588" stroke="#1f2937" stroke-width="3" marker-end="url(#arrow)"/>
+    <g>
+      <rect x="72" y="342" width="204" height="136" rx="9" fill="#fef7e0" stroke="#fbbc04" stroke-width="2"/>
+      <text x="174" y="382" font-size="22" font-weight="700" fill="#8a5a00" text-anchor="middle">Search</text>
+      <text x="174" y="414" font-size="15" fill="#374151" text-anchor="middle">Bard as complement</text>
+      <text x="174" y="440" font-size="13" fill="#374151" text-anchor="middle">S-0118</text>
+    </g>
+    <g>
+      <rect x="924" y="342" width="204" height="136" rx="9" fill="#fce8e6" stroke="#ea4335" stroke-width="2"/>
+      <text x="1026" y="382" font-size="22" font-weight="700" fill="#a50e0e" text-anchor="middle">Workspace + app</text>
+      <text x="1026" y="414" font-size="15" fill="#374151" text-anchor="middle">Gemini Advanced, mobile</text>
+      <text x="1026" y="440" font-size="13" fill="#374151" text-anchor="middle">S-0122; S-0123</text>
+    </g>
+    <g>
+      <rect x="72" y="582" width="256" height="104" rx="9" fill="#f3e8ff" stroke="#a142f4" stroke-width="2"/>
+      <text x="200" y="622" font-size="22" font-weight="700" fill="#6f2da8" text-anchor="middle">Android / on-device</text>
+      <text x="200" y="654" font-size="15" fill="#374151" text-anchor="middle">Nano-size product logic</text>
+    </g>
+    <g>
+      <rect x="872" y="582" width="256" height="104" rx="9" fill="#ccfbf1" stroke="#0f766e" stroke-width="2"/>
+      <text x="1000" y="622" font-size="22" font-weight="700" fill="#115e59" text-anchor="middle">Developer + cloud</text>
+      <text x="1000" y="654" font-size="15" fill="#374151" text-anchor="middle">AI Studio, API, Vertex AI</text>
+      <text x="1000" y="678" font-size="13" fill="#374151" text-anchor="middle">S-0121; S-0124</text>
+    </g>
+  </g>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#1f2937"/>
+    </marker>
+  </defs>
+  <rect x="64" y="710" width="1072" height="30" rx="7" fill="#111827"/>
+  <text x="84" y="731" font-family="Arial, sans-serif" font-size="13" fill="#ffffff">This map shows available surfaces and stack logic, not user preference, productivity, revenue, cloud share, or TPU performance superiority.</text>
+</svg>

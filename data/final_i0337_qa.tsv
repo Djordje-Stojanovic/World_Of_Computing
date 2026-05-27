@@ -1,0 +1,30 @@
+check	description	result	count	details
+forbidden_C:/_paths	Check for C:/ paths	PASS	0	None found
+forbidden_file://_URLs	Check for file:// URLs	PASS	0	None found
+forbidden_data/*.tsv_references	Check for data/*.tsv references	PASS	0	None found
+forbidden_assets_manifest_references	Check for assets_manifest references	PASS	0	None found
+forbidden_sources.tsv_references	Check for sources.tsv references	PASS	0	None found
+forbidden_claims.tsv_references	Check for claims.tsv references	PASS	0	None found
+forbidden_Date_span_metadata	Check for Date span metadata	PASS	0	None found
+forbidden_Cutoff_guard_metadata	Check for Cutoff guard metadata	PASS	0	None found
+forbidden_Status_metadata	Check for Status metadata	PASS	0	None found
+forbidden_Use_note_metadata	Check for Use note metadata	PASS	0	None found
+forbidden_Boundary_metadata	Check for Boundary metadata	FAIL	1	Found 1 instances
+forbidden_What_This_Chapter_Must_Not	Check for What This Chapter Must Not	PASS	0	None found
+forbidden_notes_ledger	Check for notes ledger	PASS	0	None found
+forbidden_Place_Figure	Check for Place Figure	PASS	0	None found
+forbidden_Visual_integration	Check for Visual integration	PASS	0	None found
+forbidden_Visual_anchor	Check for Visual anchor	PASS	0	None found
+forbidden_this_pass_does	Check for this pass does	PASS	0	None found
+forbidden_later_pass	Check for later pass	PASS	0	None found
+forbidden_future_pass	Check for future pass	PASS	0	None found
+forbidden_queued_by_pass	Check for queued by pass	PASS	0	None found
+forbidden_does_not_support	Check for does not support	FAIL	9	Found 9 instances
+forbidden_remains_blocked	Check for remains blocked	FAIL	3	Found 3 instances
+forbidden_private-edition_visual_layer	Check for private-edition visual layer	PASS	0	None found
+forbidden_visual_portfolio	Check for visual portfolio	PASS	0	None found
+forbidden_PORTFOLIO_PLATE	Check for PORTFOLIO PLATE	PASS	0	None found
+chapter_count	Verify 24 chapters	PASS	24	Found 24 chapters
+word_count	Verify 100,000-120,000 words	PASS	104416	Found 104416 words
+pdf_exists	PDF file exists	PASS	1	PDF exists
+pdf_size	PDF size reasonable (>1MB)	PASS	2588528	2,588,528 bytes

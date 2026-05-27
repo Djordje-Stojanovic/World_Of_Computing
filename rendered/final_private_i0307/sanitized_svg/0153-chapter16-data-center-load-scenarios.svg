@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Data-Centre Load Scenarios</title>
+  <desc id="desc">A Chapter 16 diagram separating measured estimates from forecast and scenario ranges for data-centre electricity demand.</desc>
+  <style>
+    .bg{fill:#f6f3ea}.ink{fill:#20242a}.muted{fill:#5f6872}.panel{fill:#fff;stroke:#222831;stroke-width:2}.measured{fill:#dceccf;stroke:#47733f;stroke-width:2}.scenario{fill:#f5dfc8;stroke:#a45a28;stroke-width:2}.line{stroke:#30343b;stroke-width:4}.thin{stroke:#7b838c;stroke-width:2}.title{font-family:Arial,Helvetica,sans-serif;font-size:38px;font-weight:700}.label{font-family:Arial,Helvetica,sans-serif;font-size:26px;font-weight:700}.small{font-family:Arial,Helvetica,sans-serif;font-size:21px}.note{font-family:Arial,Helvetica,sans-serif;font-size:17px;fill:#5f6872}
+  </style>
+  <rect class="bg" width="1200" height="760"/>
+  <text class="title ink" x="60" y="70">Data-Centre Load Scenarios</text>
+  <text class="small muted" x="60" y="108">Measured/current estimates stay separate from forecasts and modeled scenarios.</text>
+  <rect class="panel" x="70" y="155" width="500" height="430" rx="8"/>
+  <text class="label ink" x="105" y="200">Global frame</text>
+  <line class="line" x1="135" y1="470" x2="495" y2="470"/>
+  <rect class="measured" x="155" y="335" width="90" height="135"/>
+  <rect class="scenario" x="385" y="190" width="90" height="280"/>
+  <text class="small ink" x="142" y="505">2024</text>
+  <text class="small ink" x="367" y="505">2030</text>
+  <text class="small ink" x="105" y="250">IEA: roughly 1.5% of</text>
+  <text class="small ink" x="105" y="280">global electricity in 2024</text>
+  <text class="small ink" x="290" y="250">IEA base case:</text>
+  <text class="small ink" x="290" y="280">more than doubled by 2030</text>
+  <text class="note" x="105" y="545">Forecast, not happened history. Keep IEA attribution.</text>
+  <rect class="panel" x="630" y="155" width="500" height="430" rx="8"/>
+  <text class="label ink" x="665" y="200">United States frame</text>
+  <line class="line" x1="695" y1="470" x2="1055" y2="470"/>
+  <rect class="measured" x="720" y="358" width="90" height="112"/>
+  <rect class="scenario" x="950" y="185" width="90" height="285"/>
+  <text class="small ink" x="704" y="505">2023</text>
+  <text class="small ink" x="934" y="505">2028</text>
+  <text class="small ink" x="665" y="250">LBNL/DOE: about 176 TWh</text>
+  <text class="small ink" x="665" y="280">and about 4.4% in 2023</text>
+  <text class="small ink" x="840" y="250">Modeled 2028 scenarios:</text>
+  <text class="small ink" x="840" y="280">325-580 TWh; 6.7%-12%</text>
+  <text class="note" x="665" y="545">Scenario range depends on assumptions; do not collapse to a midpoint.</text>
+  <rect class="scenario" x="70" y="625" width="1060" height="62" rx="8"/>
+  <text class="small ink" x="100" y="665">Caption guardrail: measured estimates, projections, and scenario ranges are different evidence types.</text>
+  <text class="note" x="60" y="725">Sources: S-0083, S-0084, S-0085; rows CH16Q-001 through CH16Q-006 and CH16Q-011/012.</text>
+</svg>

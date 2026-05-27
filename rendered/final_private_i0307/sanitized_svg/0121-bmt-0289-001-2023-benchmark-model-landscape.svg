@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="446" viewBox="0 0 1320 446">
+<rect width="100%" height="100%" fill="#fffdf8"/>
+<rect x="38" y="34" width="1244" height="82" fill="#182434"/>
+<text x="68" y="82" font-family="Arial" font-size="31" font-weight="700" fill="#ffffff">2023 benchmark/model-landscape table</text>
+<text x="68" y="108" font-family="Arial" font-size="14" fill="#d7e6ea">Cutoff-bounded model race surface: sources and barred overreadings travel with every row.</text>
+<text x="60" y="150" font-family="Arial" font-size="16" font-weight="700" fill="#27323a">Model/surface</text>
+<text x="300" y="150" font-family="Arial" font-size="16" font-weight="700" fill="#27323a">Evidence</text>
+<text x="545" y="150" font-family="Arial" font-size="16" font-weight="700" fill="#27323a">Benchmark/eval surface</text>
+<text x="850" y="150" font-family="Arial" font-size="16" font-weight="700" fill="#27323a">Sources</text>
+<text x="1030" y="150" font-family="Arial" font-size="16" font-weight="700" fill="#27323a">Boundary</text>
+<rect x="44" y="168" width="1240" height="82" fill="#eef5fb" stroke="#c7d0ca"/>
+<text x="60" y="198" font-family="Arial" font-size="17" font-weight="700" fill="#1d2a2e">GPT-4</text>
+<text x="300" y="198" font-family="Arial" font-size="15" fill="#24333a">technical report/system card</text>
+<text x="545" y="198" font-family="Arial" font-size="15" fill="#24333a">MMLU, bar exam, and broad...</text>
+<text x="850" y="198" font-family="Arial" font-size="14" fill="#33444a">PAPER-0285-014;PDF-...</text>
+<text x="1030" y="195" font-family="Arial" font-size="13" fill="#3d403b">Exact scores need row extraction; do...</text>
+<text x="1030" y="219" font-family="Arial" font-size="12" fill="#70695d">not a live rank or single quality score</text>
+<rect x="44" y="260" width="1240" height="82" fill="#fbf4e6" stroke="#c7d0ca"/>
+<text x="60" y="290" font-family="Arial" font-size="17" font-weight="700" fill="#1d2a2e">Llama 2 / Code Llama</text>
+<text x="300" y="290" font-family="Arial" font-size="15" fill="#24333a">open-weight papers/model cards</text>
+<text x="545" y="290" font-family="Arial" font-size="15" fill="#24333a">foundation and code model eval tables</text>
+<text x="850" y="290" font-family="Arial" font-size="14" fill="#33444a">...</text>
+<text x="1030" y="287" font-family="Arial" font-size="13" fill="#3d403b">Open weights are not automatically...</text>
+<text x="1030" y="311" font-family="Arial" font-size="12" fill="#70695d">not a live rank or single quality score</text>
+<rect x="44" y="352" width="1240" height="82" fill="#eef5fb" stroke="#c7d0ca"/>
+<text x="60" y="382" font-family="Arial" font-size="17" font-weight="700" fill="#1d2a2e">Mistral 7B</text>
+<text x="300" y="382" font-family="Arial" font-size="15" fill="#24333a">efficient model paper/card</text>
+<text x="545" y="382" font-family="Arial" font-size="15" fill="#24333a">public benchmark comparison surface</text>
+<text x="850" y="382" font-family="Arial" font-size="14" fill="#33444a">PAPER-0288-007;MCS-...</text>
+<text x="1030" y="379" font-family="Arial" font-size="13" fill="#3d403b">Not a broad superiority or adoption...</text>
+<text x="1030" y="403" font-family="Arial" font-size="12" fill="#70695d">not a live rank or single quality score</text>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
+<rect width="100%" height="100%" fill="#fffaf2"/>
+<rect x="46" y="42" width="1108" height="676" fill="#ffffff" stroke="#24323a" stroke-width="3"/>
+<rect x="46" y="42" width="1108" height="96" fill="#24323a"/>
+<text x="78" y="88" font-family="Arial" font-size="29" font-weight="700" fill="#ffffff">GTC 2026 software stack surface</text>
+<text x="78" y="116" font-family="Arial" font-size="15" fill="#dce9eb">pdf_presentation_page page 12 surface card, acquired in.</text>
+<text x="80" y="188" font-family="Arial" font-size="20" font-weight="700" fill="#26323a">Source surface</text>
+<text x="80" y="224" font-family="Arial" font-size="15" fill="#37464b">provenance ledger</text>
+<text x="80" y="278" font-family="Arial" font-size="20" font-weight="700" fill="#26323a">Story job</text>
+<text x="80" y="314" font-family="Arial" font-size="17" fill="#26323a">Software/platform layer for CUDA and AI-stack narration.</text>
+<text x="80" y="374" font-family="Arial" font-size="20" font-weight="700" fill="#26323a">Source</text>
+<text x="80" y="410" font-family="Arial" font-size="15" fill="#26323a">NVIDIA GTC 2026 keynote</text>
+<rect x="78" y="492" width="1044" height="112" fill="#f4eadc" stroke="#c8bba8"/>
+<text x="104" y="532" font-family="Arial" font-size="18" font-weight="700" fill="#3d3127">Context note</text> <text x="80" y="664" font-family="Arial" font-size="13" fill="#6f675d">checksum recordedsource document: cc3674320b2763748db4033b</text>
+</svg>

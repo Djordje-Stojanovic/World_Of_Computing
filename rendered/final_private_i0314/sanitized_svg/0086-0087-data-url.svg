@@ -1,0 +1,26 @@
+<svg xmlns=" width="1320" height="446" viewBox="0 0 1320 446">
+<rect width="100%" height="100%" fill="#fffdf8"/>
+<rect x="38" y="34" width="1244" height="82" fill="#182434"/>
+<text x="68" y="82" font-family="Arial" font-size="31" font-weight="700" fill="#ffffff">2025 benchmark/model-landscape table</text>
+<text x="68" y="108" font-family="Arial" font-size="14" fill="#d7e6ea">Cutoff-bounded model race surface: sources and barred overreadings travel with every row.</text>
+<text x="60" y="150" font-family="Arial" font-size="16" font-weight="700" fill="#27323a">Model/surface</text>
+<text x="300" y="150" font-family="Arial" font-size="16" font-weight="700" fill="#27323a">Evidence</text>
+<text x="545" y="150" font-family="Arial" font-size="16" font-weight="700" fill="#27323a">Benchmark/eval surface</text>
+<text x="850" y="150" font-family="Arial" font-size="16" font-weight="700" fill="#27323a">Sources</text>
+<text x="1030" y="150" font-family="Arial" font-size="16" font-weight="700" fill="#27323a">Limit</text>
+<rect x="44" y="168" width="1240" height="82" fill="#eef5fb" stroke="#c7d0ca"/>
+<text x="60" y="198" font-family="Arial" font-size="17" font-weight="700" fill="#1d2a2e">DeepSeek-V3 / R1</text>
+<text x="300" y="198" font-family="Arial" font-size="15" fill="#24333a">technical reports/model cards</text>
+<text x="545" y="198" font-family="Arial" font-size="15" fill="#24333a">reasoning and open-model benchmark...</text>
+<text x="850" y="198" font-family="Arial" font-size="14" fill="#33444a">...</text>
+<text x="1030" y="195" font-family="Arial" font-size="13" fill="#3d403b">Reasoning benchmark rows are not...</text> <rect x="44" y="260" width="1240" height="82" fill="#fbf4e6" stroke="#c7d0ca"/>
+<text x="60" y="290" font-family="Arial" font-size="17" font-weight="700" fill="#1d2a2e">Qwen3 / GLM / Kimi</text>
+<text x="300" y="290" font-family="Arial" font-size="15" fill="#24333a">technical reports/model cards</text>
+<text x="545" y="290" font-family="Arial" font-size="15" fill="#24333a">China frontier/open-model...</text>
+<text x="850" y="290" font-family="Arial" font-size="14" fill="#33444a">...</text>
+<text x="1030" y="287" font-family="Arial" font-size="13" fill="#3d403b">Do not promote unsupported Qwen...</text> <rect x="44" y="352" width="1240" height="82" fill="#eef5fb" stroke="#c7d0ca"/>
+<text x="60" y="382" font-family="Arial" font-size="17" font-weight="700" fill="#1d2a2e">Claude / Gemini / OpenAI...</text>
+<text x="300" y="382" font-family="Arial" font-size="15" fill="#24333a">provider model docs</text>
+<text x="545" y="382" font-family="Arial" font-size="15" fill="#24333a">mutable model/version surfaces</text>
+<text x="850" y="382" font-family="Arial" font-size="14" fill="#33444a">...</text>
+<text x="1030" y="379" font-family="Arial" font-size="13" fill="#3d403b">Mutable docs are not stable cutoff-...</text> </svg>
