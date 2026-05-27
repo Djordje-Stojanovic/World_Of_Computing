@@ -6,16 +6,16 @@ This repository is the working memory, manuscript lab, source ledger, visual sys
 
 ## Current Book State
 
-Updated **2026-05-27** after pass `I-0298`.
+Updated **2026-05-27** after pass `I-0299`.
 
-- **Latest recorded pass:** `I-0298`, authored chart/data/SVG atlas.
-- **Words:** 103,524 assembled source words across the canonical 24-chapter draft.
+- **Latest recorded pass:** `I-0299`, expanded private PDF render QA.
+- **Words:** 103,526 assembled source words across the canonical 24-chapter draft.
 - **Chapters:** 24 / 24 main chapters.
-- **Current expanded private visual PDF:** `rendered/full_book_i0295/Next-Token-expanded-private-visual-i0295.pdf` exists locally and is intentionally not committed; I-0295 records 300 rendered exhibit rows and all 8 GOAL.md visual targets met.
-- **Visualization authorship layer:** I-0298 adds 10 chart/data/SVG atlas boards using 100 curated visualization exhibits, with local contact-sheet proof at `rendered/chart_data_svg_atlas_i0298/chart-data-svg-atlas-i0298.pdf` (10 pages, 0 blank-like).
-- **Remaining production risk:** the expanded visual system now has abundance, identity texture, source-surface grouping, and chart-atlas rhythm, but final full-PDF QA still needs density control, caption/source-note legibility, champion backup, and completion report.
+- **Current expanded private visual PDF proof:** `rendered/full_book_i0299/Next-Token-expanded-private-visual-i0299.pdf` exists locally and is intentionally not committed. It contains 667 pages, 330 PDF image objects, 4946 PDF drawing objects, 0 blank-like pages, and 31 authored visual-board pages appended to the I-0295 expanded edition.
+- **Visual target status:** `data/private_visual_target_audit_i0295.tsv` still records rendered-target pass rows for all GOAL.md visual categories: charts/SVG/data visuals, real screenshots/source images, paper/report excerpts, PDF/deck/report pages, model-card/repo/docs surfaces, logos, benchmark tables, and people/profile images.
+- **Remaining production risk:** the book now has visual abundance; the final assembly issue is rhythm, freeze discipline, and honest source/claim reporting, not a shortage of images.
 
-The private edition now has the visual mass and visual authorship structure requested: real-world images, logos, people, papers, PDFs, model-card surfaces, benchmark tables, and a 100-item curated chart/data/SVG atlas.
+The book is now well beyond the old 100-image ceiling: the local proof combines hundreds of reader-facing exhibits with authored boards for real screenshots, paper/PDF surfaces, logos, people, charts, benchmark tables, model-card/docs surfaces, and provenance notes.
 
 ## Readiness Snapshot
 
