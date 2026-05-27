@@ -1,0 +1,12 @@
+check	status	detail
+manifest_row_count	pass	100
+manifest_unique_figure_ids	pass	100
+integrated_visual_count	pass	15
+manuscript_callout_sync	pass	15
+chapter_count	pass	24
+word_count_band	pass	102797
+source_files_exist	pass	15
+source_hashes_match	pass	15
+category_coverage	pass	logo,person_image,source_image
+rights_stage_set	pass	15
+manifest_failures	pass	none

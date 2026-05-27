@@ -184,4 +184,4 @@ The immediate next phase should prioritize:
 The project is past idea stage. It is now in the conversion phase: turning a substantial, sourced manuscript into a finished object. The next decisive gains come from truth cleanup, rights cleanup, source capture, page design, render QA, cover/package work, reader sampling, pricing, launch mechanics, and award calendar discipline.
 
 
-Current manuscript baseline: 102454 words after I-0279 final-third sentence-quality pass; I-0280 adds a fresh local typography/layout render without changing manuscript word count.
+Current manuscript baseline: 102797 words after I-0290 real-world visual integration; I-0290 synced 15 private-use photos/screenshots/logos/person images into the active selected exhibit manifest, while I-0293 remains responsible for full render QA.

@@ -39,8 +39,8 @@ The book opens at the smallest possible threshold: a blank text box that made a 
 
 ### The Box That Was Too Easy
 
-> [!FIGURE] **F01.01 / A-0068 - ChatGPT Shock Chronology**
-> Caption: F01.01: ChatGPT Shock Chronology.
+> [!FIGURE] **F01.01 / A-0287-013 - OpenAI Platform Became A Public Product Surface**
+> Caption: F01.01: OpenAI Platform public-web screenshot used as private-edition product texture for the ChatGPT shock opening; it proves only a captured product surface, not usage, revenue, model quality, or current availability.
 > Source note: Sources: S-0006;S-0092;S-0098;S-0102. Rights path: ready_svg. Story role: opener chronology.
 
 
@@ -874,8 +874,8 @@ Once prediction became a product, the central problem changed from fluent contin
 
 ### The Model That Needed A Boss
 
-> [!FIGURE] **F06.01 / A-0011 - Alignment As A Product Stack**
-> Caption: F06.01: Alignment As A Product Stack.
+> [!FIGURE] **F06.01 / A-0287-014 - Anthropic Console Product Surface**
+> Caption: F06.01: Anthropic Console public-web screenshot grounds the alignment-as-product discussion in a visible developer surface; it does not prove safety, model quality, adoption, uptime, or enterprise outcomes.
 > Source note: Sources: local:data/rlhf_alignment_pipeline_i0023.tsv. Rights path: ready_svg. Story role: alignment mechanism.
 
 
@@ -936,8 +936,8 @@ This is where Anthropic enters the larger narrative before the Claude chapter. C
 
 ### Red Teams, System Cards, And The Public Boundary
 
-> [!FIGURE] **F06.02 / A-0260-004 - Behavior became a written product spec**
-> Caption: F06.02: ChatGPT Product Surface.
+> [!FIGURE] **F06.02 / A-0284-006 - OpenAI API As Behavior Interface**
+> Caption: F06.02: OpenAI API source image anchors the chapter's behavior-as-interface discussion as private-edition product texture; it does not prove pricing, traffic, reliability, or model capability.
 > Source note: Sources: S-0006. Rights path: private_capture_needed. Story role: ChatGPT product surface.
 
 
@@ -1001,8 +1001,8 @@ The final layer is the evaluation and release loop: red teams, system cards, eva
 
 ### What The Quote Table Allows
 
-> [!FIGURE] **F06.03 / A-0260-001 - Paid access became a product surface**
-> Caption: F06.03: ChatGPT Plus Productization Surface.
+> [!FIGURE] **F06.03 / A-0284-057 - Dario Amodei Public Profile Texture**
+> Caption: F06.03: Public-profile image of Dario Amodei adds a human organizational anchor near the Constitutional AI and assistant-behavior discussion; it does not prove alignment claims, governance outcomes, or biographical details beyond the ledger label.
 > Source note: Sources: S-0078;S-0089. Rights path: private_capture_needed. Story role: Plus productization surface.
 
 
@@ -1113,8 +1113,8 @@ The order matters. Stack Overflow was not a school. A school district was not a 
 
 ### The Product Was A Training Method With A Face
 
-> [!FIGURE] **F07.02 / A-0208 - ChatGPT Starts As A Public Threshold. Paraphrase-first source card treats launch and...**
-> Caption: F07.02: ChatGPT launch surface.
+> [!FIGURE] **F07.02 / A-0284-052 - Sam Altman Public Profile Texture**
+> Caption: F07.02: Public-profile image of Sam Altman gives the ChatGPT chapter a human organizational anchor; it is not evidence for launch causality, adoption, governance, or biographical claims beyond the ledger label.
 > Source note: Sources: S-0006. Rights path: private_capture_needed. Story role: ChatGPT launch surface.
 
 
@@ -1317,8 +1317,8 @@ That loop will reappear later in the NVIDIA and datacenter chapters. Here, it ex
 
 ### Licensing The Primitive
 
-> [!FIGURE] **F08.02 / A-0057 - Cloud-To-Product Flywheel**
-> Caption: F08.02: Cloud-To-Product Flywheel.
+> [!FIGURE] **F08.02 / A-0287-017 - Microsoft Copilot Product Surface**
+> Caption: F08.02: Microsoft Copilot public-web screenshot gives the Microsoft/OpenAI flywheel a concrete product surface; it does not prove enterprise adoption, productivity lift, revenue, margin, or search-share effects.
 > Source note: Sources: S-0125;S-0126;S-0127;S-0129;S-0130;S-0131;S-0132;S-0133. Rights path: ready_svg. Story role: cloud-to-product flywheel.
 
 
@@ -1573,8 +1573,8 @@ The same rule applies to pricing. The Gemini Developer API pricing snapshot is a
 
 ### Developers, Cloud, And The Second Audience
 
-> [!FIGURE] **F09.05 / A-0260-009 - Gemini arrived as a public product**
-> Caption: F09.05: Gemini/Bard Product Surface.
+> [!FIGURE] **F09.05 / A-0287-015 - Google AI Studio Product Surface**
+> Caption: F09.05: Google AI Studio public-web screenshot anchors Gemini as a developer-facing product surface; it does not prove benchmark rank, adoption, Search economics, TPU performance, or current feature status.
 > Source note: Sources: S-0119;S-0121;S-0123;S-0124. Rights path: private_capture_needed. Story role: Gemini/Bard source surface.
 
 
@@ -1715,8 +1715,8 @@ The strongest version of this chapter will eventually include a visual ecosystem
 
 ### The Economics of Giving Away The Machine
 
-> [!FIGURE] **F10.04 / A-0260-012 - LLaMA was a release artifact**
-> Caption: F10.04: LLaMA launch surface.
+> [!FIGURE] **F10.04 / A-0287-019 - Meta Llama Documentation Surface**
+> Caption: F10.04: Meta Llama Docs public-web screenshot anchors Llama as a documented open-weight release surface; it does not prove openness beyond the cited license, benchmark superiority, deployment scale, or safety outcome.
 > Source note: Sources: S-0111. Rights path: private_capture_needed. Story role: LLaMA launch surface.
 
 
@@ -1899,8 +1899,8 @@ This discipline gives the chapter a rhythm: supported lanes in prose, missing la
 
 ### Why The Frontier Became Multipolar
 
-> [!FIGURE] **F11.05 / A-0260-016 - DeepSeek-R1 anchors reasoning claims**
-> Caption: F11.05: DeepSeek-R1 source surface.
+> [!FIGURE] **F11.05 / A-0284-009 - DeepSeek Public Product Texture**
+> Caption: F11.05: DeepSeek source image supplies a visible China/open-model surface beside the DeepSeek-R1 discussion; it does not prove training cost, benchmark superiority, censorship behavior, or deployment scale.
 > Source note: Sources: S-0029. Rights path: private_capture_needed. Story role: DeepSeek-R1 source surface.
 
 
@@ -2517,8 +2517,8 @@ This is why the word "moat" should be used carefully. A moat can be a protective
 
 ### What The NVIDIA Chapter Must Not Do
 
-> [!FIGURE] **F14.06 / A-0261-003 - Racks Need Systems, Not Stock Photos**
-> Caption: F14.06: Server racks as compute infrastructure..
+> [!FIGURE] **F14.06 / A-0287-002 - NVIDIA GB200 NVL72 Hardware Surface**
+> Caption: F14.06: NVIDIA GB200 NVL72 public-web screenshot adds rack-scale hardware texture to the systems discussion; it does not prove benchmark performance, availability, shipment volume, customer deployment, or power efficiency.
 > Source note: Sources: S-0277. Rights path: rights_review_needed. Story role: server rack photo.
 
 
@@ -2557,8 +2557,8 @@ GTC turns that stack into theater, selling the AI factory as a story the market 
 
 ### The Slide That Tried To Rename The Datacenter
 
-> [!FIGURE] **F15.01 / A-0012 - AI Factory Stack**
-> Caption: F15.01: AI Factory Stack.
+> [!FIGURE] **F15.01 / A-0287-001 - NVIDIA DGX Cloud Product Surface**
+> Caption: F15.01: NVIDIA DGX Cloud public-web screenshot gives the AI factory stack a concrete infrastructure product surface; it does not prove capacity, customer usage, economics, or comparative performance.
 > Source note: Sources: local:data/ai_factory_stack_i0027.tsv. Rights path: ready_svg. Story role: AI factory stack.
 
 
@@ -2583,8 +2583,8 @@ Continuity note: Chapter 14 explains why NVIDIA could credibly sell systems rath
 
 ### A Keynote As A Sales Funnel For A Worldview
 
-> [!FIGURE] **F15.02 / A-0024 - GTC Page 29: AI Factory Thesis**
-> Caption: F15.02: GTC Page 29: AI Factory Thesis.
+> [!FIGURE] **F15.02 / A-0284-051 - Jensen Huang Public Profile Texture**
+> Caption: F15.02: Public-profile image of Jensen Huang supplies leadership texture alongside NVIDIA's AI-factory framing; it does not prove roadmap delivery, product claims, market share, or biographical claims beyond the ledger label.
 > Source note: Sources: S-0001. Rights path: ready_svg. Story role: GTC AI-factory thesis card.
 
 
@@ -2892,8 +2892,8 @@ The physical system did not merely support the software system. It fed back into
 
 ### From Tokens Back To Land
 
-> [!FIGURE] **F16.06 / A-0260-025 - DSX is a reference-design claim**
-> Caption: F16.06: Data-center hall physical texture..
+> [!FIGURE] **F16.06 / A-0287-009 - Equinix AI Data-Center Surface**
+> Caption: F16.06: Equinix AI public-web screenshot gives the data-center chapter a facility/operator surface; it does not prove site-level power demand, interconnection timing, water use, carbon intensity, or customer load.
 > Source note: Sources: S-0278. Rights path: rights_review_needed. Story role: data-center hall photo.
 
 
@@ -3626,8 +3626,8 @@ The second durable change is organizational. Code review becomes more important,
 
 ### What The Agent Still Cannot Own
 
-> [!FIGURE] **F20.05 / A-0260-019 - Claude Code turned coding into an agent surface**
-> Caption: F20.05: Claude Code Surface.
+> [!FIGURE] **F20.05 / A-0284-014 - GitHub Copilot Product Surface**
+> Caption: F20.05: GitHub Copilot source image anchors coding agents as a real developer product surface; it does not prove productivity lift, replacement effects, code quality, revenue, or enterprise adoption.
 > Source note: Sources: S-0048;S-0049;S-0050;S-0051. Rights path: private_capture_needed. Story role: Claude Code surface.
 
 
@@ -3838,8 +3838,8 @@ The consumer subscription also shaped expectations. People learned to think of f
 
 ### The API Turns Intelligence Into Units
 
-> [!FIGURE] **F22.02 / A-0083 - Routing, Caching, Batching, Distillation**
-> Caption: F22.02: Routing, Caching, Batching, Distillation.
+> [!FIGURE] **F22.02 / A-0287-026 - OpenRouter Logo As Routing-Ecosystem Handle**
+> Caption: F22.02: OpenRouter logo is used as a small private-edition ecosystem handle for routing-market texture; it does not prove traffic, pricing, reliability, model access, or market share.
 > Source note: Sources: data/provider_pricing_rows_i0026.tsv;data/mistral_pricing_rows_i0031.tsv;C-0046. Rights path: ready_svg. Story role: routing/caching/batching/distillation.
 
 
