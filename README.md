@@ -6,16 +6,16 @@ This repository is the working memory, manuscript lab, source ledger, visual sys
 
 ## Current Book State
 
-Updated **2026-05-27** after pass `I-0297`.
+Updated **2026-05-27** after pass `I-0298`.
 
-- **Latest recorded pass:** `I-0297`, authored source-surface galleries.
+- **Latest recorded pass:** `I-0298`, authored chart/data/SVG atlas.
 - **Words:** 103,524 assembled source words across the canonical 24-chapter draft.
 - **Chapters:** 24 / 24 main chapters.
 - **Current expanded private visual PDF:** `rendered/full_book_i0295/Next-Token-expanded-private-visual-i0295.pdf` exists locally and is intentionally not committed; I-0295 records 300 rendered exhibit rows and all 8 GOAL.md visual targets met.
-- **Source-surface authorship layer:** I-0297 adds 10 gallery boards using 25 paper/report surfaces and 25 PDF/deck/report surfaces, with local contact-sheet proof at `rendered/source_surface_galleries_i0297/source-surface-galleries-i0297.pdf` (10 pages, 0 blank-like).
-- **Remaining production risk:** the expanded visual system now has abundance, identity texture, and source-surface grouping, but final design still needs chart atlas polish, density control, final render QA, champion backup, and completion report.
+- **Visualization authorship layer:** I-0298 adds 10 chart/data/SVG atlas boards using 100 curated visualization exhibits, with local contact-sheet proof at `rendered/chart_data_svg_atlas_i0298/chart-data-svg-atlas-i0298.pdf` (10 pages, 0 blank-like).
+- **Remaining production risk:** the expanded visual system now has abundance, identity texture, source-surface grouping, and chart-atlas rhythm, but final full-PDF QA still needs density control, caption/source-note legibility, champion backup, and completion report.
 
-The private edition now treats evidence pages as authored artifacts: papers, reports, technical cards, system cards, and decks are grouped by the job they do in the story, with blocked-claim notes preventing source surfaces from becoming unsupported capability or market claims.
+The private edition now has the visual mass and visual authorship structure requested: real-world images, logos, people, papers, PDFs, model-card surfaces, benchmark tables, and a 100-item curated chart/data/SVG atlas.
 
 ## Readiness Snapshot
 

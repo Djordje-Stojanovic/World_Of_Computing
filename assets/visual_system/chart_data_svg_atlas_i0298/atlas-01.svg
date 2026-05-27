@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="720" viewBox="0 0 1500 720">
+<rect width="1500" height="720" fill="#fffdf7"/>
+<rect x="32" y="30" width="1436" height="92" rx="14" fill="#161411"/>
+<text x="60" y="70" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#f8efe1">Language Model Foundations</text>
+<text x="60" y="102" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#d8cdbd">CH01-CH05 - Tokens, attention, GPT lineage, scaling, and early benchmark context.</text>
+<rect x="44" y="154" width="270" height="236" rx="12" fill="#ffffff" stroke="#b8aa96" stroke-width="1.2"/>
+<image href="../chapter1-token-to-answer-schematic.svg" x="56" y="166" width="246" height="162" preserveAspectRatio="xMidYMid meet"/>
+<text x="56" y="348" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#171411">Figure 1.2 - From Prompt to Answer, O.</text>
+<text x="56" y="369" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#6d3f2e">F01.02 / svg_diagram</text>
+<rect x="332" y="154" width="270" height="236" rx="12" fill="#ffffff" stroke="#b8aa96" stroke-width="1.2"/>
+<image href="../i0261/i0261-f16-08-speed-to-power-card.svg" x="344" y="166" width="246" height="162" preserveAspectRatio="xMidYMid meet"/>
+<text x="344" y="348" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#171411">Fast Power Is A Constraint Stack</text>
+<text x="344" y="369" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#6d3f2e">F16.08 / svg_repair_source_card</text>
+<rect x="620" y="154" width="270" height="236" rx="12" fill="#ffffff" stroke="#b8aa96" stroke-width="1.2"/>
+<image href="../chapter17-tokenization-ladder.svg" x="632" y="166" width="246" height="162" preserveAspectRatio="xMidYMid meet"/>
+<text x="632" y="348" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#171411">Figure 17.1 - Tokenization Ladder. Hu.</text>
+<text x="632" y="369" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#6d3f2e">F17.01 / svg_diagram</text>
+<rect x="908" y="154" width="270" height="236" rx="12" fill="#ffffff" stroke="#b8aa96" stroke-width="1.2"/>
+<image href="../chapter17-data-mixture-control-board.svg" x="920" y="166" width="246" height="162" preserveAspectRatio="xMidYMid meet"/>
+<text x="920" y="348" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#171411">Figure 17.3 - Data Mixture Control Bo.</text>
+<text x="920" y="369" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#6d3f2e">F17.03 / svg_diagram</text>
+<rect x="1196" y="154" width="270" height="236" rx="12" fill="#ffffff" stroke="#b8aa96" stroke-width="1.2"/>
+<image href="../chapter18-agent-loop-harness.svg" x="1208" y="166" width="246" height="162" preserveAspectRatio="xMidYMid meet"/>
+<text x="1208" y="348" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#171411">Figure 18.3 - Agent Loop as Harness..</text>
+<text x="1208" y="369" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#6d3f2e">F18.03 / svg_diagram</text>
+<rect x="44" y="398" width="270" height="236" rx="12" fill="#ffffff" stroke="#b8aa96" stroke-width="1.2"/>
+<image href="../chapter23-trust-stack.svg" x="56" y="410" width="246" height="162" preserveAspectRatio="xMidYMid meet"/>
+<text x="56" y="592" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#171411">Figure 23.2 - Trust Is A Stack. Evide.</text>
+<text x="56" y="613" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#6d3f2e">F23.02 / svg_diagram</text>
+<rect x="332" y="398" width="270" height="236" rx="12" fill="#ffffff" stroke="#b8aa96" stroke-width="1.2"/>
+<image href="../leaderboard-methodology-flow.svg" x="344" y="410" width="246" height="162" preserveAspectRatio="xMidYMid meet"/>
+<text x="344" y="592" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#171411">Generated Arena leaderboard methodolo.</text>
+<text x="344" y="613" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#6d3f2e">VX008 / svg_diagram</text>
+<rect x="620" y="398" width="270" height="236" rx="12" fill="#ffffff" stroke="#b8aa96" stroke-width="1.2"/>
+<image href="../gtc-page50-roadmap-card.svg" x="632" y="410" width="246" height="162" preserveAspectRatio="xMidYMid meet"/>
+<text x="632" y="592" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#171411">Generated GTC page 50 roadmap card</text>
+<text x="632" y="613" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#6d3f2e">VX017 / svg_claim_card</text>
+<rect x="908" y="398" width="270" height="236" rx="12" fill="#ffffff" stroke="#b8aa96" stroke-width="1.2"/>
+<image href="../chapter21-reasoning-budget-routing-map.svg" x="920" y="410" width="246" height="162" preserveAspectRatio="xMidYMid meet"/>
+<text x="920" y="592" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#171411">Generated Chapter 21 reasoning-budget.</text>
+<text x="920" y="613" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#6d3f2e">VX029 / svg_diagram</text>
+<rect x="1196" y="398" width="270" height="236" rx="12" fill="#ffffff" stroke="#b8aa96" stroke-width="1.2"/>
+<image href="../chapter19-benchmark-ladder.svg" x="1208" y="410" width="246" height="162" preserveAspectRatio="xMidYMid meet"/>
+<text x="1208" y="592" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#171411">Generated Chapter 19 coding benchmark.</text>
+<text x="1208" y="613" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#6d3f2e">VX040 / svg_diagram</text>
+<text x="44" y="676" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#4b4238">Private-use chart/data/SVG atlas. Full provenance, hashes, captions, and blocked-claim notes are in the I-0295/I-0298 ledgers.</text>
+<text x="44" y="696" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#4b4238">Blocked claims: these visuals orient and explain; they do not prove live rank, adoption, revenue, safety, deployment, or roadmap delivery by themselves.</text>
+</svg>

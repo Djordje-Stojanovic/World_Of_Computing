@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="720" viewBox="0 0 1500 720">
+<rect width="1500" height="720" fill="#fffdf7"/>
+<rect x="32" y="30" width="1436" height="92" rx="14" fill="#161411"/>
+<text x="60" y="70" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#f8efe1">Hardware, CUDA, And AI Factories</text>
+<text x="60" y="102" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#d8cdbd">CH14-CH16 - CUDA, accelerators, racks, networking, facilities, and token economics.</text>
+<rect x="44" y="154" width="270" height="236" rx="12" fill="#ffffff" stroke="#b8aa96" stroke-width="1.2"/>
+<image href="../chapter14-gpu-memory-interconnect.svg" x="56" y="166" width="246" height="162" preserveAspectRatio="xMidYMid meet"/>
+<text x="56" y="348" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#171411">Figure 14.2 - GPU Memory and Intercon.</text>
+<text x="56" y="369" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#6d3f2e">F14.02 / svg_diagram</text>
+<rect x="332" y="154" width="270" height="236" rx="12" fill="#ffffff" stroke="#b8aa96" stroke-width="1.2"/>
+<image href="../chapter14-training-vs-inference-capacity.svg" x="344" y="166" width="246" height="162" preserveAspectRatio="xMidYMid meet"/>
+<text x="344" y="348" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#171411">Figure 14.3 - Training vs Inference:.</text>
+<text x="344" y="369" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#6d3f2e">F14.03 / svg_diagram</text>
+<rect x="620" y="154" width="270" height="236" rx="12" fill="#ffffff" stroke="#b8aa96" stroke-width="1.2"/>
+<image href="../../source_cards/i0260/sc-0260-022-inference-compute-is-a-roadmap-argument.svg" x="632" y="166" width="246" height="162" preserveAspectRatio="xMidYMid meet"/>
+<text x="632" y="348" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#171411">Inference compute is a roadmap argume.</text>
+<text x="632" y="369" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#6d3f2e">F15.07 / source_excerpt_card_svg</text>
+<rect x="908" y="154" width="270" height="236" rx="12" fill="#ffffff" stroke="#b8aa96" stroke-width="1.2"/>
+<image href="../gtc-page46-vera-rubin-partner-card.svg" x="920" y="166" width="246" height="162" preserveAspectRatio="xMidYMid meet"/>
+<text x="920" y="348" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#171411">Generated GTC page 46 Vera Rubin part.</text>
+<text x="920" y="369" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#6d3f2e">VX015 / svg_claim_card</text>
+<rect x="1196" y="154" width="270" height="236" rx="12" fill="#ffffff" stroke="#b8aa96" stroke-width="1.2"/>
+<image href="../chapter23-failure-mode-map.svg" x="1208" y="166" width="246" height="162" preserveAspectRatio="xMidYMid meet"/>
+<text x="1208" y="348" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#171411">Figure 23.1 - Failure Modes Are Diffe.</text>
+<text x="1208" y="369" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#6d3f2e">F23.01 / svg_diagram</text>
+<rect x="44" y="398" width="270" height="236" rx="12" fill="#ffffff" stroke="#b8aa96" stroke-width="1.2"/>
+<image href="../chapter24-human-judgment-loop.svg" x="56" y="410" width="246" height="162" preserveAspectRatio="xMidYMid meet"/>
+<text x="56" y="592" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#171411">Figure 24.4 - Human Judgment Loop. Us.</text>
+<text x="56" y="613" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#6d3f2e">F24.04 / svg_diagram</text>
+<rect x="332" y="398" width="270" height="236" rx="12" fill="#ffffff" stroke="#b8aa96" stroke-width="1.2"/>
+<image href="../gtc-page49-system-comparison-card.svg" x="344" y="410" width="246" height="162" preserveAspectRatio="xMidYMid meet"/>
+<text x="344" y="592" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#171411">Generated GTC page 49 system comparis.</text>
+<text x="344" y="613" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#6d3f2e">VX016 / svg_claim_card</text>
+<rect x="620" y="398" width="270" height="236" rx="12" fill="#ffffff" stroke="#b8aa96" stroke-width="1.2"/>
+<image href="../chapter21-inference-contract-matrix.svg" x="632" y="410" width="246" height="162" preserveAspectRatio="xMidYMid meet"/>
+<text x="632" y="592" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#171411">Generated Chapter 21 inference-contra.</text>
+<text x="632" y="613" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#6d3f2e">VX028 / svg_diagram</text>
+<rect x="908" y="398" width="270" height="236" rx="12" fill="#ffffff" stroke="#b8aa96" stroke-width="1.2"/>
+<image href="../chapter9-benchmark-adoption-blocker-grid.svg" x="920" y="410" width="246" height="162" preserveAspectRatio="xMidYMid meet"/>
+<text x="920" y="592" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#171411">Generated Chapter 9 benchmark/adoptio.</text>
+<text x="920" y="613" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#6d3f2e">VX037 / svg_diagram</text>
+<rect x="1196" y="398" width="270" height="236" rx="12" fill="#ffffff" stroke="#b8aa96" stroke-width="1.2"/>
+<image href="../chapter10-adopter-burden-transfer.svg" x="1208" y="410" width="246" height="162" preserveAspectRatio="xMidYMid meet"/>
+<text x="1208" y="592" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#171411">Generated Chapter 10 adopter burden t.</text>
+<text x="1208" y="613" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#6d3f2e">VX043 / svg_diagram</text>
+<text x="44" y="676" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#4b4238">Private-use chart/data/SVG atlas. Full provenance, hashes, captions, and blocked-claim notes are in the I-0295/I-0298 ledgers.</text>
+<text x="44" y="696" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#4b4238">Blocked claims: these visuals orient and explain; they do not prove live rank, adoption, revenue, safety, deployment, or roadmap delivery by themselves.</text>
+</svg>

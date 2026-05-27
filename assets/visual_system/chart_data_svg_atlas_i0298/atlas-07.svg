@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="720" viewBox="0 0 1500 720">
+<rect width="1500" height="720" fill="#fffdf7"/>
+<rect x="32" y="30" width="1436" height="92" rx="14" fill="#161411"/>
+<text x="60" y="70" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#f8efe1">Agents, Coding, And Tool Use</text>
+<text x="60" y="102" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#d8cdbd">CH18-CH21 - Tool use, coding benchmarks, repo loops, Claude Code, and software automation.</text>
+<rect x="44" y="154" width="270" height="236" rx="12" fill="#ffffff" stroke="#b8aa96" stroke-width="1.2"/>
+<image href="../chapter12-claude-model-family-timeline.svg" x="56" y="166" width="246" height="162" preserveAspectRatio="xMidYMid meet"/>
+<text x="56" y="348" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#171411">Figure 12.2 - Claude Becomes A Produc.</text>
+<text x="56" y="369" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#6d3f2e">F12.02 / svg_diagram</text>
+<rect x="332" y="154" width="270" height="236" rx="12" fill="#ffffff" stroke="#b8aa96" stroke-width="1.2"/>
+<image href="../chapter12-computer-use-mcp-code-bridge.svg" x="344" y="166" width="246" height="162" preserveAspectRatio="xMidYMid meet"/>
+<text x="344" y="348" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#171411">Figure 12.3 - From Assistant To Actio.</text>
+<text x="344" y="369" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#6d3f2e">F12.03 / svg_diagram</text>
+<rect x="620" y="154" width="270" height="236" rx="12" fill="#ffffff" stroke="#b8aa96" stroke-width="1.2"/>
+<image href="../chapter23-eval-blind-spot-matrix.svg" x="632" y="166" width="246" height="162" preserveAspectRatio="xMidYMid meet"/>
+<text x="632" y="348" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#171411">Figure 23.3 - Every Evaluation Casts.</text>
+<text x="632" y="369" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#6d3f2e">F23.03 / svg_diagram</text>
+<rect x="908" y="154" width="270" height="236" rx="12" fill="#ffffff" stroke="#b8aa96" stroke-width="1.2"/>
+<image href="../agent-loop-prototype.svg" x="920" y="166" width="246" height="162" preserveAspectRatio="xMidYMid meet"/>
+<text x="920" y="348" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#171411">Generated visual grammar prototype</text>
+<text x="920" y="369" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#6d3f2e">VX002 / svg_diagram</text>
+<rect x="1196" y="154" width="270" height="236" rx="12" fill="#ffffff" stroke="#b8aa96" stroke-width="1.2"/>
+<image href="../gpt-lineage-table.svg" x="1208" y="166" width="246" height="162" preserveAspectRatio="xMidYMid meet"/>
+<text x="1208" y="348" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#171411">Generated GPT lineage visual table</text>
+<text x="1208" y="369" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#6d3f2e">VX004 / svg_diagram</text>
+<rect x="44" y="398" width="270" height="236" rx="12" fill="#ffffff" stroke="#b8aa96" stroke-width="1.2"/>
+<image href="../chapter20-coding-agent-harness-loop.svg" x="56" y="410" width="246" height="162" preserveAspectRatio="xMidYMid meet"/>
+<text x="56" y="592" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#171411">Generated Chapter 20 coding-agent har.</text>
+<text x="56" y="613" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#6d3f2e">VX020 / svg_diagram</text>
+<rect x="332" y="398" width="270" height="236" rx="12" fill="#ffffff" stroke="#b8aa96" stroke-width="1.2"/>
+<image href="../chapter20-benchmark-caveat-matrix.svg" x="344" y="410" width="246" height="162" preserveAspectRatio="xMidYMid meet"/>
+<text x="344" y="592" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#171411">Generated Chapter 20 coding benchmark.</text>
+<text x="344" y="613" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#6d3f2e">VX021 / svg_diagram</text>
+<rect x="620" y="398" width="270" height="236" rx="12" fill="#ffffff" stroke="#b8aa96" stroke-width="1.2"/>
+<image href="../chapter20-tool-call-lifecycle.svg" x="632" y="410" width="246" height="162" preserveAspectRatio="xMidYMid meet"/>
+<text x="632" y="592" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#171411">Generated Chapter 20 tool-call lifecy.</text>
+<text x="632" y="613" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#6d3f2e">VX022 / svg_diagram</text>
+<rect x="908" y="398" width="270" height="236" rx="12" fill="#ffffff" stroke="#b8aa96" stroke-width="1.2"/>
+<image href="../chapter21-verifier-search-loop.svg" x="920" y="410" width="246" height="162" preserveAspectRatio="xMidYMid meet"/>
+<text x="920" y="592" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#171411">Generated Chapter 21 verifier/search.</text>
+<text x="920" y="613" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#6d3f2e">VX027 / svg_diagram</text>
+<rect x="1196" y="398" width="270" height="236" rx="12" fill="#ffffff" stroke="#b8aa96" stroke-width="1.2"/>
+<image href="../chapter19-code-as-language-ladder.svg" x="1208" y="410" width="246" height="162" preserveAspectRatio="xMidYMid meet"/>
+<text x="1208" y="592" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#171411">Generated Chapter 19 code-as-language.</text>
+<text x="1208" y="613" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#6d3f2e">VX038 / svg_diagram</text>
+<text x="44" y="676" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#4b4238">Private-use chart/data/SVG atlas. Full provenance, hashes, captions, and blocked-claim notes are in the I-0295/I-0298 ledgers.</text>
+<text x="44" y="696" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#4b4238">Blocked claims: these visuals orient and explain; they do not prove live rank, adoption, revenue, safety, deployment, or roadmap delivery by themselves.</text>
+</svg>

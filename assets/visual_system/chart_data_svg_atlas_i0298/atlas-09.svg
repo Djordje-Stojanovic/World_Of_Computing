@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="720" viewBox="0 0 1500 720">
+<rect width="1500" height="720" fill="#fffdf7"/>
+<rect x="32" y="30" width="1436" height="92" rx="14" fill="#161411"/>
+<text x="60" y="70" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#f8efe1">Source Cards And Claim Boundaries</text>
+<text x="60" y="102" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#d8cdbd">CH01-CH24 - Quote-safe cards, repair cards, and visual guardrails that keep evidence honest.</text>
+<rect x="44" y="154" width="270" height="236" rx="12" fill="#ffffff" stroke="#b8aa96" stroke-width="1.2"/>
+<image href="../../source_cards/i0260/sc-0260-001-paid-access-became-a-product-surface.svg" x="56" y="166" width="246" height="162" preserveAspectRatio="xMidYMid meet"/>
+<text x="56" y="348" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#171411">Paid access became a product surface</text>
+<text x="56" y="369" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#6d3f2e">F07.03 / source_excerpt_card_svg</text>
+<rect x="332" y="154" width="270" height="236" rx="12" fill="#ffffff" stroke="#b8aa96" stroke-width="1.2"/>
+<image href="../../source_cards/i0260/sc-0260-002-enterprise-chatgpt-added-workplace-controls.svg" x="344" y="166" width="246" height="162" preserveAspectRatio="xMidYMid meet"/>
+<text x="344" y="348" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#171411">Enterprise ChatGPT added workplace co.</text>
+<text x="344" y="369" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#6d3f2e">F07.04 / source_excerpt_card_svg</text>
+<rect x="620" y="154" width="270" height="236" rx="12" fill="#ffffff" stroke="#b8aa96" stroke-width="1.2"/>
+<image href="../../source_cards/i0260/sc-0260-003-release-notes-are-product-archaeology.svg" x="632" y="166" width="246" height="162" preserveAspectRatio="xMidYMid meet"/>
+<text x="632" y="348" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#171411">Release notes are product archaeology</text>
+<text x="632" y="369" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#6d3f2e">F07.05 / source_excerpt_card_svg</text>
+<rect x="908" y="154" width="270" height="236" rx="12" fill="#ffffff" stroke="#b8aa96" stroke-width="1.2"/>
+<image href="../chapter12-safety-productivity-blocker-grid.svg" x="920" y="166" width="246" height="162" preserveAspectRatio="xMidYMid meet"/>
+<text x="920" y="348" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#171411">Figure 12.4 - The Tempting Claude Cla.</text>
+<text x="920" y="369" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#6d3f2e">F12.04 / svg_diagram</text>
+<rect x="1196" y="154" width="270" height="236" rx="12" fill="#ffffff" stroke="#b8aa96" stroke-width="1.2"/>
+<image href="../../source_cards/i0260/sc-0260-017-computer-use-was-a-product-announcement.svg" x="1208" y="166" width="246" height="162" preserveAspectRatio="xMidYMid meet"/>
+<text x="1208" y="348" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#171411">Computer use was a product announceme.</text>
+<text x="1208" y="369" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#6d3f2e">F12.05 / source_excerpt_card_svg</text>
+<rect x="44" y="398" width="270" height="236" rx="12" fill="#ffffff" stroke="#b8aa96" stroke-width="1.2"/>
+<image href="../../source_cards/i0260/sc-0260-018-claude-is-a-model-family-product-surface.svg" x="56" y="410" width="246" height="162" preserveAspectRatio="xMidYMid meet"/>
+<text x="56" y="592" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#171411">Claude is a model-family product surf.</text>
+<text x="56" y="613" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#6d3f2e">F12.06 / source_excerpt_card_svg</text>
+<rect x="332" y="398" width="270" height="236" rx="12" fill="#ffffff" stroke="#b8aa96" stroke-width="1.2"/>
+<image href="../i0261/i0261-f14-04-packaging-logic-card.svg" x="344" y="410" width="246" height="162" preserveAspectRatio="xMidYMid meet"/>
+<text x="344" y="592" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#171411">Lithography Texture Becomes Packaging.</text>
+<text x="344" y="613" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#6d3f2e">F14.04 / svg_repair_source_card</text>
+<rect x="620" y="398" width="270" height="236" rx="12" fill="#ffffff" stroke="#b8aa96" stroke-width="1.2"/>
+<image href="../i0261/i0261-f14-05-cleanroom-rights-card.svg" x="632" y="410" width="246" height="162" preserveAspectRatio="xMidYMid meet"/>
+<text x="632" y="592" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#171411">Cleanrooms Are Too Weak Without Rights</text>
+<text x="632" y="613" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#6d3f2e">F14.05 / svg_repair_source_card</text>
+<rect x="908" y="398" width="270" height="236" rx="12" fill="#ffffff" stroke="#b8aa96" stroke-width="1.2"/>
+<image href="../gtc-page51-dsx-platform-card.svg" x="920" y="410" width="246" height="162" preserveAspectRatio="xMidYMid meet"/>
+<text x="920" y="592" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#171411">Figure 15.x - GTC Page 51: DSX Platfo.</text>
+<text x="920" y="613" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#6d3f2e">F15.05 / svg_claim_card</text>
+<rect x="1196" y="398" width="270" height="236" rx="12" fill="#ffffff" stroke="#b8aa96" stroke-width="1.2"/>
+<image href="../chapter16-interconnection-queue-schematic.svg" x="1208" y="410" width="246" height="162" preserveAspectRatio="xMidYMid meet"/>
+<text x="1208" y="592" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#171411">Figure 16.3 - The Interconnection Que.</text>
+<text x="1208" y="613" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#6d3f2e">F16.03 / svg_diagram</text>
+<text x="44" y="676" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#4b4238">Private-use chart/data/SVG atlas. Full provenance, hashes, captions, and blocked-claim notes are in the I-0295/I-0298 ledgers.</text>
+<text x="44" y="696" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#4b4238">Blocked claims: these visuals orient and explain; they do not prove live rank, adoption, revenue, safety, deployment, or roadmap delivery by themselves.</text>
+</svg>

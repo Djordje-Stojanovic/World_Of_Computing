@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="720" viewBox="0 0 1500 720">
+<rect width="1500" height="720" fill="#fffdf7"/>
+<rect x="32" y="30" width="1436" height="92" rx="14" fill="#161411"/>
+<text x="60" y="70" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#f8efe1">Labs, Open Weights, And Plural Frontier</text>
+<text x="60" y="102" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#d8cdbd">CH09-CH12 - Google, Meta, China, Anthropic, and open-model structure.</text>
+<rect x="44" y="154" width="270" height="236" rx="12" fill="#ffffff" stroke="#b8aa96" stroke-width="1.2"/>
+<image href="../i0261/i0261-f16-07-interconnection-queue-card.svg" x="56" y="166" width="246" height="162" preserveAspectRatio="xMidYMid meet"/>
+<text x="56" y="348" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#171411">Interconnection Is A Queue, Not Atmos.</text>
+<text x="56" y="369" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#6d3f2e">F16.07 / svg_repair_source_card</text>
+<rect x="332" y="154" width="270" height="236" rx="12" fill="#ffffff" stroke="#b8aa96" stroke-width="1.2"/>
+<image href="../i0261/i0261-f16-09-clean-supply-card.svg" x="344" y="166" width="246" height="162" preserveAspectRatio="xMidYMid meet"/>
+<text x="344" y="348" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#171411">Nuclear Texture Needs Evidence, Not S.</text>
+<text x="344" y="369" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#6d3f2e">F16.09 / svg_repair_source_card</text>
+<rect x="620" y="154" width="270" height="236" rx="12" fill="#ffffff" stroke="#b8aa96" stroke-width="1.2"/>
+<image href="../chapter17-web-corpus-filter-funnel.svg" x="632" y="166" width="246" height="162" preserveAspectRatio="xMidYMid meet"/>
+<text x="632" y="348" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#171411">Figure 17.2 - Web Corpus Filter Funne.</text>
+<text x="632" y="369" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#6d3f2e">F17.02 / svg_diagram</text>
+<rect x="908" y="154" width="270" height="236" rx="12" fill="#ffffff" stroke="#b8aa96" stroke-width="1.2"/>
+<image href="../chapter18-function-call-boundary.svg" x="920" y="166" width="246" height="162" preserveAspectRatio="xMidYMid meet"/>
+<text x="920" y="348" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#171411">Figure 18.2 - Function-Call Boundary..</text>
+<text x="920" y="369" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#6d3f2e">F18.02 / svg_diagram</text>
+<rect x="1196" y="154" width="270" height="236" rx="12" fill="#ffffff" stroke="#b8aa96" stroke-width="1.2"/>
+<image href="../../source_cards/i0260/sc-0260-003-release-notes-are-product-archaeology.svg" x="1208" y="166" width="246" height="162" preserveAspectRatio="xMidYMid meet"/>
+<text x="1208" y="348" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#171411">Release notes are product archaeology</text>
+<text x="1208" y="369" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#6d3f2e">F18.05 / source_excerpt_card_svg</text>
+<rect x="44" y="398" width="270" height="236" rx="12" fill="#ffffff" stroke="#b8aa96" stroke-width="1.2"/>
+<image href="../chapter24-unsettled-claims-board.svg" x="56" y="410" width="246" height="162" preserveAspectRatio="xMidYMid meet"/>
+<text x="56" y="592" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#171411">Figure 24.3 - Unsettled By The Cutoff.</text>
+<text x="56" y="613" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#6d3f2e">F24.03 / svg_diagram</text>
+<rect x="332" y="398" width="270" height="236" rx="12" fill="#ffffff" stroke="#b8aa96" stroke-width="1.2"/>
+<image href="../gtc-page45-inference-compute-roadmap-card.svg" x="344" y="410" width="246" height="162" preserveAspectRatio="xMidYMid meet"/>
+<text x="344" y="592" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#171411">Generated GTC page 45 inference compu.</text>
+<text x="344" y="613" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#6d3f2e">VX014 / svg_claim_card</text>
+<rect x="620" y="398" width="270" height="236" rx="12" fill="#ffffff" stroke="#b8aa96" stroke-width="1.2"/>
+<image href="../chapter1-chatgpt-shock-chronology.svg" x="632" y="410" width="246" height="162" preserveAspectRatio="xMidYMid meet"/>
+<text x="632" y="592" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#171411">Generated Chapter 1 ChatGPT shock chr.</text>
+<text x="632" y="613" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#6d3f2e">VX025 / svg_diagram</text>
+<rect x="908" y="398" width="270" height="236" rx="12" fill="#ffffff" stroke="#b8aa96" stroke-width="1.2"/>
+<image href="../chapter9-tpu-search-workspace-surface-map.svg" x="920" y="410" width="246" height="162" preserveAspectRatio="xMidYMid meet"/>
+<text x="920" y="592" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#171411">Generated Chapter 9 TPU/Search/Worksp.</text>
+<text x="920" y="613" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#6d3f2e">VX035 / svg_diagram</text>
+<rect x="1196" y="398" width="270" height="236" rx="12" fill="#ffffff" stroke="#b8aa96" stroke-width="1.2"/>
+<image href="../chapter10-open-weight-control-stack.svg" x="1208" y="410" width="246" height="162" preserveAspectRatio="xMidYMid meet"/>
+<text x="1208" y="592" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#171411">Generated Chapter 10 open-weight cont.</text>
+<text x="1208" y="613" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#6d3f2e">VX042 / svg_diagram</text>
+<text x="44" y="676" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#4b4238">Private-use chart/data/SVG atlas. Full provenance, hashes, captions, and blocked-claim notes are in the I-0295/I-0298 ledgers.</text>
+<text x="44" y="696" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#4b4238">Blocked claims: these visuals orient and explain; they do not prove live rank, adoption, revenue, safety, deployment, or roadmap delivery by themselves.</text>
+</svg>
