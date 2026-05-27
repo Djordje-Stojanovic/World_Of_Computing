@@ -1,4 +1,4 @@
-# 8. Microsoft, OpenAI, and the Cloud Bargain
+# 7. Microsoft, OpenAI, and the Cloud Bargain
 
 ## The Backend Becomes The Plot
 

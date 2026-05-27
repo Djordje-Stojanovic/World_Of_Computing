@@ -1,4 +1,4 @@
-# Anthropic and Claude: The Assistant as a Safety Argument
+# 11. Anthropic and Claude: The Assistant as a Safety Argument
 
 ## The Lab That Made Behavior Its Brand
 

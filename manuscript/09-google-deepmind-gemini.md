@@ -1,4 +1,4 @@
-# 9. Google and DeepMind Wake the Sleeping Giant
+# 8. Google and DeepMind Wake the Sleeping Giant
 
 ## The Company That Had Already Built the Future
 

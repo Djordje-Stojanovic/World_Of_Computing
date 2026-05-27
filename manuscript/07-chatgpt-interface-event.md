@@ -1,4 +1,36 @@
-# 7. ChatGPT: The Interface Event
+# 6. ChatGPT: The Interface Event
+
+## Prologue: The Box That Was Too Easy
+
+## The Box That Was Too Easy
+
+The shock did not look like a shock.
+
+On November 30, 2022, OpenAI introduced ChatGPT as a conversational model, a sibling to InstructGPT, trained to follow instructions in a prompt and provide a detailed response. [S-0006] There was no dramatic hardware reveal. No consumer device appeared in a hand. No founder pulled the future from a pocket. The object that mattered was almost embarrassingly plain: an empty box for typing.
+
+That plainness was the rupture. The interface did not ask the public to understand transformers, loss curves, reinforcement learning from human feedback, tokenization, pretraining corpora, GPUs, datacenters, or benchmark tables. It asked for language. A user could type a question, a half-formed need, a classroom assignment, a legal-ish phrase, a line of code, a complaint, a recipe, a joke, a bug report, a poem, a sales email, or a confession of confusion. The machine answered in the same medium, with the eerie confidence of a system that had learned the shape of reply.
+
+For decades, computing had trained people to meet machines halfway. Learn the menu. Learn the syntax. Learn the file path. Learn the search query. Learn the command. ChatGPT inverted the first move. It let the user begin badly and still receive something shaped like help. The system was not always right. It was not always grounded. It could be glib, evasive, stale, overconfident, or wrong. But it was easy, and ease is a form of power.
+
+The first surprise, then, was not that software had become omniscient. It had not. The surprise was that a fallible statistical machine could become useful enough, fast enough, to make schools, Q&A moderators, banks, programmers, executives, teachers, journalists, and bored late-night users ask the same practical question in different ways: what kind of object is this, and what do we do with it now?
+
+The deepest question was hidden in the ordinary act of pressing return: how had next-token prediction become a way to operate computers?
+
+## Prologue: The Box That Was Too Easy
+
+## The Box That Was Too Easy
+
+The shock did not look like a shock.
+
+On November 30, 2022, OpenAI introduced ChatGPT as a conversational model, a sibling to InstructGPT, trained to follow instructions in a prompt and provide a detailed response. [S-0006] There was no dramatic hardware reveal. No consumer device appeared in a hand. No founder pulled the future from a pocket. The object that mattered was almost embarrassingly plain: an empty box for typing.
+
+That plainness was the rupture. The interface did not ask the public to understand transformers, loss curves, reinforcement learning from human feedback, tokenization, pretraining corpora, GPUs, datacenters, or benchmark tables. It asked for language. A user could type a question, a half-formed need, a classroom assignment, a legal-ish phrase, a line of code, a complaint, a recipe, a joke, a bug report, a poem, a sales email, or a confession of confusion. The machine answered in the same medium, with the eerie confidence of a system that had learned the shape of reply.
+
+For decades, computing had trained people to meet machines halfway. Learn the menu. Learn the syntax. Learn the file path. Learn the search query. Learn the command. ChatGPT inverted the first move. It let the user begin badly and still receive something shaped like help. The system was not always right. It was not always grounded. It could be glib, evasive, stale, overconfident, or wrong. But it was easy, and ease is a form of power.
+
+The first surprise, then, was not that software had become omniscient. It had not. The surprise was that a fallible statistical machine could become useful enough, fast enough, to make schools, Q&A moderators, banks, programmers, executives, teachers, journalists, and bored late-night users ask the same practical question in different ways: what kind of object is this, and what do we do with it now?
+
+The deepest question was hidden in the ordinary act of pressing return: how had next-token prediction become a way to operate computers?
 
 ## The Box
 

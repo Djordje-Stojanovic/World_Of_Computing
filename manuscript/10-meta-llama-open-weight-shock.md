@@ -1,4 +1,4 @@
-# 10. Meta, Llama, and the Open-Weight Shock
+# 9. Meta, Llama, and the Open-Weight Shock
 
 ## The Downloadable Object
 

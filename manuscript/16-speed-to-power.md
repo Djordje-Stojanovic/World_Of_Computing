@@ -1,4 +1,4 @@
-# Chapter 16 - Speed To Power
+# 16. - Speed To Power
 
 The next bottleneck in language models did not look like language.
 

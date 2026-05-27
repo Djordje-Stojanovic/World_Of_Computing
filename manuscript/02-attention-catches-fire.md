@@ -1,4 +1,4 @@
-# 3. Attention Catches Fire: The Architecture That Wanted To Scale
+# 2. Attention Catches Fire: The Architecture That Wanted To Scale
 
 ## The Break In The Loop
 

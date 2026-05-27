@@ -1,4 +1,4 @@
-# 4. The Scaling Bet: When Loss Became A Map
+# 3. The Scaling Bet: When Loss Became A Map
 
 ## The Curve Before The Product
 

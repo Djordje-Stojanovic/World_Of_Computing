@@ -1,4 +1,4 @@
-# Chapter 13: The Leaderboard Trap
+# 13. The Leaderboard Trap
 
 This chapter section is the book's caution label for model rankings, prices, and "best model" claims. It uses the Chapter 13 visual sequence A-0014, A-0013, and A-0019 as a reader-facing argument: first teach how leaderboard evidence is made, then show one historical rank slice, then show why the price-quality frontier is still blocked. It is not a live May 24, 2026 leaderboard. It is not a crown ceremony. It is an audit trail.
 

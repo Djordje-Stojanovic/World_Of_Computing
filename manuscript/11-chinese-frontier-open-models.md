@@ -1,4 +1,4 @@
-# 11. The Chinese Frontier
+# 10. The Chinese Frontier
 
 ## Too Important To Treat As A Footnote
 

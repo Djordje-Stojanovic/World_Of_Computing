@@ -1,4 +1,4 @@
-# 2. Before the Transformer: The Machine Learns Sequence
+# 1. Before the Transformer: The Machine Learns Sequence
 
 ## The Older Machine
 

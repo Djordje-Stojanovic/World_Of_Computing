@@ -1,4 +1,4 @@
-# 6. Alignment Enters the Product
+# 5. Alignment Enters the Product
 
 ## The Model That Needed A Boss
 

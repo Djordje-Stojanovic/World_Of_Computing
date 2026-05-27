@@ -1,4 +1,4 @@
-# 5. GPT-1 to GPT-3: The Door Opens
+# 4. GPT-1 to GPT-3: The Door Opens
 
 ## The Model That Learned To Begin
 
