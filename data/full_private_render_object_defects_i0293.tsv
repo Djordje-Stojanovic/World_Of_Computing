@@ -1,0 +1,4 @@
+pass_id	defect_id	severity	category	evidence	recommended_action
+I-0293	V3DEF-003	P0	html_embedding	html_img_count=98; html_png_img_count=98; html_svg_img_count=0; embedded_callout_blocks=100; skipped_callout_blocks=0	Repair callout replacement if HTML lacks 100 images.
+I-0293	V3DEF-005	P0	figure_id_survival	source_figures=94; manifest_figures=100; pdf_figures=100; missing=none	Repair captions/source-note extraction for embedded figures.
+I-0293	V3DEF-009	P1	svg_vector_survival	html_svg_img_count=0; html_png_img_count=98; SVGs intentionally Chrome-rasterized to PNG for PDF object QA	If vector survival is required later, add a separate vector render path; current production QA uses rasterized images.

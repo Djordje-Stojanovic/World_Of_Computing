@@ -184,4 +184,4 @@ The immediate next phase should prioritize:
 The project is past idea stage. It is now in the conversion phase: turning a substantial, sourced manuscript into a finished object. The next decisive gains come from truth cleanup, rights cleanup, source capture, page design, render QA, cover/package work, reader sampling, pricing, launch mechanics, and award calendar discipline.
 
 
-Current manuscript baseline: 103526 words after I-0292 benchmark/model-card visual integration; I-0292 synced 10 model-card/docs/repo/leaderboard screenshots and 10 yearly benchmark/model-landscape tables into the active selected exhibit manifest, while I-0293 remains responsible for full render QA.
+Current manuscript baseline: 103526 words after I-0293 full private-edition render; I-0293 generated a local ignored full visual PDF at rendered/full_book_i0293/Next-Token-full-draft-i0293.pdf with 100 embedded image objects, 0 blank-like pages, and 0 pass / 100 warn / 0 fail figure-page QA.
