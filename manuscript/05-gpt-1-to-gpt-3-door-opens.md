@@ -184,4 +184,20 @@ The Amazon investment was particularly significant because it came with a multiy
 
 The OpenAI raise, combined with Anthropic's $30 billion Series G two weeks earlier, meant that $140 billion had been committed to the two leading American AI labs in February 2026 alone. For context, the entire global venture capital industry deployed roughly $350 billion in 2024. Two companies had raised nearly half that amount in one month. The numbers were so large they broke the normal vocabulary of startup finance. This was not venture capital in the traditional sense. It was industrial capital, allocated at industrial scale, to companies that had become infrastructure projects as much as software startups.
 
+## The o-series: Reasoning Becomes a Product Line
+
+OpenAI's o-series models represented a fundamental shift in how the company thought about model capability. The o1 model, released in September 2024, was the first to treat chain-of-thought reasoning as a core product feature rather than a prompting technique. The o3 model, released on April 16, 2025 alongside o4-mini, extended this capability to vision: the model could "think with images," reasoning about diagrams, sketches, and photographs in the same chain-of-thought process it used for text. [S-0204]
+
+The o3 release was notable for several reasons. First, it formalized reasoning as a tiered product. o3 was the premium option at $10 per million input tokens and $40 per million output tokens. o4-mini was the smaller, faster, cheaper alternative. Both models could use tools during their reasoning process, calling APIs, searching the web, or executing code as part of their chain of thought. Second, the release included Codex CLI, an open-source terminal-based coding agent that could edit files, run tests, and manage Git operations using the same reasoning models. Codex CLI was a direct response to Claude Code and signaled that OpenAI saw terminal-based coding as a strategic product surface. [S-0204]
+
+The o3-pro model followed on June 10, 2025, available exclusively to Pro subscribers. And on October 3, 2025, OpenAI updated GPT-5, the model that unified the o-series reasoning capability with the traditional GPT chat experience, making the distinction between reasoning models and chat models increasingly artificial.
+
+## The GPT-5 Era: Unification and Acceleration
+
+GPT-5, released in late 2025, was OpenAI's attempt to collapse the distinction between fast chat models and slow reasoning models into a single system. The model could switch between modes depending on the task, using more compute for harder problems and less for simple ones. This was a product simplification that hid enormous engineering complexity: a model that could dynamically allocate inference compute required a serving infrastructure that could predict demand, manage latency, and route requests to the right hardware. [S-0196]
+
+GPT-5.1 and GPT-5.2 followed in rapid succession, with GPT-5.2 Thinking receiving an update on February 4, 2026 that gave users more control over thinking time settings. GPT-5.4 and GPT-5.5 continued the cadence through April 2026. By the cutoff, the naming convention had become its own form of evidence: OpenAI was shipping point releases on a roughly monthly schedule, and each release brought measurable improvements in reasoning, coding, and agentic behavior.
+
+GPT-5-Codex-Mini, also released in this period, was a specialized variant optimized for coding tasks, available through the Codex interface. The mini variant was designed to be fast and cheap enough to serve as a default coding assistant while routing harder problems to the full GPT-5.5 model. This tiered architecture, where a small model handled common tasks and a large model handled edge cases, was becoming the industry standard for inference economics.
+
 The final image of Chapter 5 is therefore not a triumphant model, but a problem made legible. The GPT line opened the door. Behind it was a room full of users, developers, prompts, code, policies, failures, business dependencies, and expectations. The next chapter asks how a continuation machine learned to act as if it had been asked for help.

@@ -1,8 +1,8 @@
 # Final Book Assembly Report
-Date: 2026-05-27T20:26:01.661891
+Date: 2026-05-27T20:32:01.992084
 File: manuscript/Next-Token-FINAL.md
-SHA-256: 5c658b395a405f6660b05f0a5b20b2dfa3e938de02e8ca656883c6cc276c4097
-Word count: 101142
+SHA-256: 1286651921795660fcd32c410bf569b23c0d17594aaafb1f49f6326348f7744b
+Word count: 104701
 Chapters detected: 24
 
 ## What's in this book:
