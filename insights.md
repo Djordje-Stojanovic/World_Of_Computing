@@ -512,3 +512,6 @@ A paper page or deck page becomes book material only after it has a document has
 ## 2026-05-27 - I-0286 Model-Card And Benchmark Surfaces
 
 Model-card and leaderboard pages are mutable evidence surfaces, not final facts. The safe acquisition unit is screenshot, HTML/text capture, hash, source URL, story purpose, and a blocked-claim footer; benchmark tables should start as source-bound landscape maps before any exact score or rank is allowed into prose.
+## 2026-05-27 - I-0287 Real-World Image Completion
+
+The useful completion pattern is aggregate proof plus blocked-claim discipline: I-0284 and I-0287 now clear the 50/50/30 real-world visual thresholds, but every row remains a private-use evidence handle. Mutable page screenshots are especially good for product, datacenter, tooling, and China/frontier-model texture because they carry local hashes and source URLs while refusing to become proof of currentness, deployment, benchmark superiority, safety, revenue, or biography.

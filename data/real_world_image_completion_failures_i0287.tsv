@@ -1,0 +1,3 @@
+category	subject	source	failure
+logo	Cohere	https://cdn.simpleicons.org/cohere	HTTPError: HTTP Error 404: Not Found
+person_image	Fei-Fei Li	https://profiles.stanford.edu/fei-fei-li	TimeoutExpired: Command '['C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe', '--headless=new', '--disable-gpu', '--no-sandbox', '--disable-extensions', '--hide-scrollbars', '--window-size=1360,920', '--virtual-time-budget=7000', '--screenshot=C:\\AI\\TEMP\\World_Of_Computing\\assets\\people\\i0287\\person-0287-001-fei-fei-li.png', 'https://profiles.stanford.edu/fei-fei-li']' timed out after 45 seconds
