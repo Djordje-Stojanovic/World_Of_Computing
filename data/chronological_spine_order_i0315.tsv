@@ -1,0 +1,25 @@
+pass_id	new_no	old_no	new_title	old_title	date_span	spine_job
+I-0315	01	03	The Transformer Arrives: Attention Becomes the Engine	Chapter 03: Attention Catches Fire	2017	Open on the Transformer/attention breakthrough.
+I-0315	02	02	The Sequence Problem: The Road Into Attention	Chapter 02: Before the Transformer	pre-2017	Brief technical prehistory: counting, embeddings, recurrence, seq2seq, and early attention.
+I-0315	03	04	Scaling Laws: The Bet Becomes Measurable	Chapter 04: The Scaling Bet	2020	Make scale, loss, compute, data, and measurement legible.
+I-0315	04	05	GPT-1 to GPT-3: Pretraining Opens the Door	Chapter 05: GPT-1 to GPT-3: The Door Opens	2018-2021	Move from generative pretraining to GPT-3, API, Codex, and prompting.
+I-0315	05	06	Instruction Tuning and RLHF: Alignment Enters the Product	Chapter 06: Alignment Enters the Product	2021-2022	Bridge raw models to assistant behavior.
+I-0315	06	01	The ChatGPT Shock: The Interface Goes Public	Chapter 01: The Shock	November-December 2022	Put the public shock after the technical runway.
+I-0315	07	07	ChatGPT Becomes the Product Surface	Chapter 07: ChatGPT: The Interface Event	2022-2023	Treat ChatGPT as the public interface and adoption/reception turn.
+I-0315	08	08	Microsoft, OpenAI, and the Cloud Bargain	Chapter 08: Microsoft, OpenAI, and the Cloud Bargain	2019-2024	Explain compute partnership, Azure route, Copilot, and enterprise packaging.
+I-0315	09	09	Google and DeepMind Wake the Sleeping Giant	Chapter 09: Google and DeepMind Wake the Sleeping Giant	2022-2025	Follow the incumbent response through Bard, Gemini, and DeepMind.
+I-0315	10	10	Meta, Llama, and the Open-Weight Shock	Chapter 10: Meta, Llama, and the Open-Weight Shock	2023-2025	Introduce open weights and the control-stack consequences.
+I-0315	11	12	Anthropic, Claude, and the Plural Frontier	Chapter 12: Anthropic, Claude, and the Plural Frontier	2023-2025	Place Claude and Constitutional AI in the frontier-lab sequence.
+I-0315	12	11	The Chinese Frontier	Chapter 11: The Chinese Frontier	2023-2026	Move through Qwen, DeepSeek, GLM, Kimi, and other China/frontier-model pressure.
+I-0315	13	13	Benchmarks, Arenas, and the Mirage of Rank	Chapter 13: Benchmarks, Arenas, and the Mirage of Rank	2023-2026	Explain rankings, model cards, leaderboards, and benchmark evidence.
+I-0315	14	14	NVIDIA and CUDA: The Moat Under the Moat	Chapter 14: NVIDIA and CUDA: The Moat Under the Moat	2006-2025	Put the LLM race onto CUDA, GPUs, memory, and interconnect.
+I-0315	15	15	GTC 2026: The AI Factory Sells Itself	Chapter 15: GTC 2026: The AI Factory Sells Itself	March 2026	Use GTC 2026 as cutoff-bounded infrastructure stagecraft.
+I-0315	16	16	Datacenters, Power, and the Physical Internet	Chapter 16: Datacenters, Power, and the Physical Internet	2023-2026	Move from chips to sites, power, cooling, and grid constraints.
+I-0315	17	17	Data, Tokens, and the Library Problem	Chapter 17: Data, Tokens, and the Library Problem	2003-2026	Put tokens, corpora, data mixtures, and contamination before tool use.
+I-0315	18	18	Tools, Retrieval, and the Agent Turn	Chapter 18: Tools, Retrieval, and the Agent Turn	2023-2026	Show retrieval, tool calls, MCP-like surfaces, and agent harnesses.
+I-0315	19	19	Code as the Second Native Language	Chapter 19: Code as the Second Native Language	2021-2026	Follow code models, Copilot, benchmarks, and executable language.
+I-0315	20	20	Claude Code and the Industrialization of Pair Programming	Chapter 20: Claude Code and the Industrialization of Pair Programming	2024-2026	Narrow from code generation to repository-work packaging.
+I-0315	21	21	Reasoning, Test-Time Compute, and the New Scaling Axis	Chapter 21: Reasoning, Test-Time Compute, and the New Scaling Axis	2024-2026	Cover reasoning models, inference-time budgets, and evaluation uncertainty.
+I-0315	22	22	The Economics of Intelligence on Tap	Chapter 22: The Economics of Intelligence on Tap	2023-2026	Explain price, inference cost, packaging, and business-model pressure.
+I-0315	23	23	Failure Modes, Truth, and Trust	Chapter 23: Failure Modes, Truth, and Trust	2022-2026	End the mechanism story with failure modes and trust boundaries.
+I-0315	24	24	Next Token	Chapter 24: Next Token	through May 24, 2026	Close at the cutoff without post-cutoff history.

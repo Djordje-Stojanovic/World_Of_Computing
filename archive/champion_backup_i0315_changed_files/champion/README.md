@@ -1,6 +1,6 @@
 # Champion
 
-Current private personal-edition rescue package updated by `I-0315` on 2026-05-27, then kept under the direct chronological publication rescue.
+Current private personal-edition rescue package updated by `I-0314` on 2026-05-27, then kept under the direct chronological publication rescue.
 
 - Human package pointer: `final-private-pdf-pointer-i0315.md`
 - Private reader guide: `private-reader-guide-i0311.md`
@@ -25,7 +25,7 @@ Current private personal-edition rescue package updated by `I-0315` on 2026-05-2
 - Final claim audit report: `final-source-claim-quarantine-i0303.md`
 - Prior champion backup: `archive/champion_backup_i0304`
 
-The I-0315 PDF is the current local rescue proof, not the final accepted book. The active queue in `ideas.tsv` now runs `I-0316` through `I-0322` to add timelines, repair blank/sparse pages, contextualize visuals, enforce one visual per page, add stronger quantitative material, and produce a final private publication candidate.
+The I-0315 PDF is the current local rescue proof, not the final accepted book. The active queue in `ideas.tsv` now runs `I-0315` through `I-0322` to rebuild the chronology from the Transformer era forward, add timelines, repair blank/sparse pages, contextualize visuals, enforce one visual per page, add stronger quantitative material, and produce a final private publication candidate.
 
 The PDF/contact-sheet renders are intentionally local/ignored private-use artifacts; use the pointer file for path, hash, render metrics, and the current package map.
 

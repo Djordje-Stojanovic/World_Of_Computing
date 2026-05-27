@@ -1,0 +1,10 @@
+pass_id	artifact	path	exists	bytes	sha256	pages	note
+I-0315	source_pdf	rendered/final_private_i0314/Next-Token-final-private-endnotes-captions-i0314.pdf	yes	65017843	e967e5f95936c110c353fd2389646d16b50db43ef2cce75a095bc715e7b10f0c	537	I-0314 endnotes-caption proof
+I-0315	chronological_html	rendered/final_private_i0315/Next-Token-final-private-chronological-spine-i0315.html	yes	107690998	ec2e72f3289f80eb2e2a2d7d005bf2acd80cbf2e0a134ac2f6e832bd5a0d1dbf		I-0315 chronological-spine HTML
+I-0315	chronological_pdf	rendered/final_private_i0315/Next-Token-final-private-chronological-spine-i0315.pdf	yes	65017443	adb575d04d82f38d1ad392ba1042f7eae96e3dd0b2ff11dffe18fe1d5c494848	536	I-0315 chronological-spine PDF
+I-0315	chronological_markdown	manuscript/Next-Token-chronological-spine-i0315.md	yes	371953	9b873b7b3676f18db6231f3d3d2c827fa94370fe1906acae589cb0921d3aac42		I-0315 chronological manuscript snapshot
+I-0315	order	data/chronological_spine_order_i0315.tsv	yes	4266	6f3f4415285fe7b200d170fd93f34c2d101864c1c71263e144719e94e189e8aa		new 24-chapter chronological order
+I-0315	qa	data/chronological_spine_qa_i0315.tsv	yes	1416	37c5551ab8b43b0528edef52d60dfc5705bf244a99f741c92da5f0b752b1e60e		I-0315 chronology QA
+I-0315	rewrites	data/chronological_spine_rewrites_i0315.tsv	yes	1689	f2b2f1eb176d797a484b1ea934b3d6cfcd59fa73ed117f65ceae91d02e6f2d8c		targeted stale cross-reference rewrites
+I-0315	report	manuscript/chronological-spine-i0315.md	yes	1313	fd5b397d9c0ce195bc07d2b45c2e7de940c92a9aa8036bb54cb6d7248c7b4c5d		I-0315 report
+I-0315	pointer	champion/final-private-pdf-pointer-i0315.md	yes	656	cefc04157fbc6cf24f164e3a6a2c894bb0c916110d3a93d801588089b6beb673		I-0315 pointer

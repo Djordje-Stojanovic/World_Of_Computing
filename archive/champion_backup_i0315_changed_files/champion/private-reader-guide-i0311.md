@@ -8,7 +8,7 @@ Open this only as the current rescue baseline, not as the final edition:
 
 `rendered/final_private_i0315/Next-Token-final-private-chronological-spine-i0315.pdf`
 
-This proof has 536 pages, 356 image objects, 3420 drawing/vector objects, and begins with `The Transformer Arrives: Attention Becomes the Engine`. SHA-256: `adb575d04d82f38d1ad392ba1042f7eae96e3dd0b2ff11dffe18fe1d5c494848`.
+This proof has 536 pages, 356 image objects, 3420 drawing/vector objects, and begins with `The Transformer Arrives: Attention Becomes the Engine`. SHA-256: `49a7aff9c69839aababbb2f490c595f2569ca587d14fd812f0b0b55cd03f3ab7`.
 
 It is not final. A direct reader review rejected the current book surface because it opens with ChatGPT instead of a chronological Transformer-era spine, exposes caption/source bureaucracy, contains blank and sparse pages, uses visual portfolio dumps, and allows multi-image pages.
 

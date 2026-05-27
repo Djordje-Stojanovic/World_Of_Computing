@@ -1,0 +1,10 @@
+pass_id	check	result	evidence
+I-0315	first chapter is transformer attention	pass	The Transformer Arrives: Attention Becomes the Engine
+I-0315	first chapter is not chatgpt shock	pass	The Transformer Arrives: Attention Becomes the Engine
+I-0315	toc begins with transformer attention	pass	Next Token Table of Contents Chapter 01: The Transformer Arrives: Attention Becomes the Engine Chapter 02: The Sequence Problem: The Road Into Attention Chapter 03: Scaling Laws: The Bet Becomes Measurable Chapter 04: GPT-1 to GPT-3: Pretraining Opens the Door Chapter 05: Instruction Tuning and RLHF: Alignment Enters the Product Chapter 06: The ChatGPT Shock: The Interface Goes Public Chapter 07: ChatGPT Becomes the Product Surface Chapter 08: Microsoft, OpenAI, and the Cloud Bargain Chapter 09: Google and DeepMind Wake the Sleeping Giant Chapter 10: Meta, Llama, and the Open-Weight Shock Chapter 11: Anthropic, Claude, and the Plural Frontier Chapter 12: The Chinese Frontier Chapter 13: Benc
+I-0315	chatgpt moved later	pass	Chapter 06 and 07 ChatGPT positions checked
+I-0315	exactly 24 ordered chapter specs	pass	order_specs=24
+I-0315	old chapters unique	pass	03,02,04,05,06,01,07,08,09,10,12,11,13,14,15,16,17,18,19,20,21,22,23,24
+I-0315	backward-opening language removed	pass	hits=0
+I-0315	visual abundance preserved	pass	image_objects=356
+I-0315	claim ledger unsupported zero	pass	331 supported / 0 needs-verification

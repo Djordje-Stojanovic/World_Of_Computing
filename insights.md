@@ -576,3 +576,5 @@ The benchmark layer is strongest when tables are explicit memory aids rather tha
 - I-0313: reader-facing trust is not improved by showing the machinery of trust. Raw IDs, use notes, blocked-claim boilerplate, checksums, and provenance memos belong in endnotes and ledgers; the page itself needs plain captions and clean narrative air.
 
 - I-0314: source integrity should be felt as confidence, not displayed as scaffolding. The reader-facing page needs plain captions; URLs, old captions, source caveats, and rights/provenance details belong in endnote ledgers unless they are part of the story itself.
+
+- I-0315: chronology is a reader contract, not a table-of-contents decoration. Moving ChatGPT later also requires killing old cross-reference sentences that tell the reader the book is about to move backward.
