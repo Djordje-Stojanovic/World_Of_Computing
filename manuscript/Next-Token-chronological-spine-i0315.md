@@ -252,7 +252,7 @@ Before ChatGPT became an interface event and before the Transformer became a pub
 
 Loss is not a romantic word. It does not sound like intelligence, creativity, reasoning, or work. It is an error signal, a measure of how surprised the model is by the data under its training objective. But in the scaling era, loss became a kind of map. If the map kept improving predictably as researchers increased model size, dataset size, and compute, then the future stopped looking like a sequence of isolated inventions and started looking like a capital allocation problem.
 
-That was the next pressure point after the Transformer. Chapter 3 made the architecture feel stackable and parallel enough to absorb accelerator-era training. Chapter 4 asks what happened when labs began to treat that stack as something they could push along measured axes. The suspense moved from "can the machine represent language?" to "how much improvement can be bought, forecast, and industrialized?"
+That was the next pressure point after the Transformer. The Transformer chapter made the architecture feel stackable and parallel enough to absorb accelerator-era training. Chapter 4 asks what happened when labs began to treat that stack as something they could push along measured axes. The suspense moved from "can the machine represent language?" to "how much improvement can be bought, forecast, and industrialized?"
 
 That sentence is dangerous if left alone. Forecastable loss is not forecastable truth, safety, usefulness, or product-market fit. A model can predict text better and still hallucinate, reduce loss and still fail the task that matters, improve benchmark averages and still hide brittleness. Scaling laws are not a theology of bigger-is-better. They are a measurement tradition that made larger models feel less like gambling.
 
@@ -479,7 +479,7 @@ Once prediction became a product, the central problem changed from fluent contin
 
 ### The Model That Needed A Boss
 
-This is the second conversion in the OpenAI spine. Chapter 5 showed models becoming programmable through prompts, APIs, and code. Chapter 6 shows why programmability was not enough. A system that can continue almost anything has to learn when continuation is the wrong product behavior.
+This is the second conversion in the OpenAI spine. The GPT chapter showed models becoming programmable through prompts, APIs, and code. Chapter 6 shows why programmability was not enough. A system that can continue almost anything has to learn when continuation is the wrong product behavior.
 
 That difference sounds small until it becomes the whole interface. If a user asks for a summary, the desired behavior is not merely a statistically plausible completion after the words "summarize this." The desired behavior is a bounded act: read the source, preserve the important facts, compress without inventing, match the requested audience, and stop. If a user asks a harmful question, the product may need the model not to continue the pattern at all. If a user asks a confused question, the best answer may be a correction, not obedience.
 

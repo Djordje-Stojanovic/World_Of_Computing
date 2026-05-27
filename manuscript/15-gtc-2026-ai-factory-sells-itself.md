@@ -14,8 +14,6 @@ That is the right opening for this chapter, provided the attribution stays bolte
 
 Still, the argument matters. By 2026, the most important LLM systems had become too large to explain only as models. The model was the visible brain. The factory was the body: GPU racks, CPUs, memory, NVLink, Ethernet or InfiniBand fabrics, storage, power distribution, cooling, scheduling software, inference servers, and the accounting layer that turned tokens into bills. Earlier NVIDIA documents around H100 and Blackwell had already made the hardware stack legible as more than a chip story: memory bandwidth, interconnect, tensor cores, rack-scale systems, and software libraries were part of the product. [S-0039] [S-0040] GTC 2026 pushed the same logic into a larger industrial frame.
 
-Status: expanded in pass I-0102, 2026-05-25. Hardware continuity strengthened in pass I-0159, 2026-05-26.
-
 Visual sequence after I-0186: open with A-0024, the page 29 AI-factory thesis claim card. Use Figure 15.1, A-0012, `assets/visual_system/ai-factory-stack.svg`, as the explanatory bridge after the opening metaphor. Use A-0027 for the page 49 system-comparison guardrail, A-0028 for roadmap cadence if the spread has room, and A-0029 as the DSX reference-design handoff to Chapter 16. Keep A-0025, A-0026, and A-0145 as reserve or cite-only source surfaces until product-roadmap and token-economics claims are normalized. Keep A-0004, A-0007, A-0008, and A-0009 as private-use provenance handles rather than placing them beside their claim-card duplicates. [S-0001]
 
 ## A Keynote As A Sales Funnel For A Worldview

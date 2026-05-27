@@ -12,8 +12,6 @@ This is the agent turn. It is easy to overstate and easy to miss. Overstated, it
 
 The result was not one invention. It was a stack: retrieval, tool description, action selection, observation, memory-like context, permissions, evaluation, and human review. [S-0038] [S-0044] [S-0055] Chapter 20 will follow that stack into coding, where the artifact is a diff and the judge can be a test. This chapter stays one level more general. It asks how the chat box became a tool runner.
 
-Status: promoted continuity draft, pass I-0161, 2026-05-26. 
-
 ## Retrieval: Memory Without Memory
 
 The simplest way to make an LLM look grounded is not to change the model at all. Put better evidence in its prompt.

@@ -4,8 +4,6 @@ The same machine that felt general could fail generally. That was the most unset
 
 That is why the final technical reckoning of the book cannot be a safety chapter in the bureaucratic sense. It is a trust chapter. Trust is what connects the previous twenty-two chapters: scaling, instruction tuning, ChatGPT, cloud platforms, open weights, rankings, datacenters, tools, coding agents, data, reasoning, and economics. A model that cannot be trusted is not useless. It may be extraordinarily useful. But every deployment then becomes a trust architecture: what the model may see, what it may do, what evidence it must carry, what humans must review, what logs must survive, and which claims the system is forbidden to make about itself.
 
-Status: promoted continuity draft, pass I-0162, 2026-05-26. 
-
 That placement matters. Chapter 21 asked how much thinking a task deserves. Chapter 22 asked who pays for that thinking. This chapter asks whether the resulting answer, action, or diff deserves authority.
 
 The first failure mode was hallucination, a bad word for a real phenomenon. The model was not seeing visions. It was continuing text. When the continuation pattern favored an answer-shaped object, the model could emit that object without a stable relation to the world. GPT-4's technical report and system-card lineage support this broad caution: high capability did not eliminate hallucinations, reasoning errors, unsafe outputs, or high-stakes limits. [S-0005; S-0076] Earlier chapters treated this as a product problem. Here it becomes an epistemic problem. The user sees grammar, confidence, and form. The system sees tokens.

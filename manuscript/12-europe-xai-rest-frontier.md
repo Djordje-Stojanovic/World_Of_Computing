@@ -1,7 +1,5 @@
 # Europe, xAI, and the Rest of the Frontier
 
-Status: merged into integrated Chapter 12 structure, pass I-0269, 2026-05-26.
-
 Placement note: Pass I-0269 resolved the Chapter 12 conflict by placing Anthropic/Claude first and retaining this draft as the plural-frontier pressure sequence inside the same chapter. Mistral, xAI, Cohere, and AI21 remain mechanism-gated lanes rather than a second chapter or a supplemental appendix.
 
 ## The Race Outside the Center

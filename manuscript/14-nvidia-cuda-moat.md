@@ -14,8 +14,6 @@ CUDA did that work over years. It gave the GPU a developer-facing grammar: kerne
 
 That is why the LLM boom did not arrive as a clean contest among chips. It arrived as a contest among stacks.
 
-Status: first promoted draft, pass I-0116, 2026-05-25. Hardware continuity strengthened in pass I-0159, 2026-05-26.
-
 The software moat leads to a hardware moat, and the hardware moat leads to a physical moat. The next two chapters narrow the lens: first to NVIDIA's own public argument at GTC 2026 about AI factories, then to the independent physical constraints of power, interconnection, cooling, and useful capacity that test every factory claim against reality.
 
 ## Parallelism Becomes A Habit

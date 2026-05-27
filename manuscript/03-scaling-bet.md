@@ -6,7 +6,7 @@ Before ChatGPT became an interface event and before the Transformer became a pub
 
 Loss is not a romantic word. It does not sound like intelligence, creativity, reasoning, or work. It is an error signal, a measure of how surprised the model is by the data under its training objective. But in the scaling era, loss became a kind of map. If the map kept improving predictably as researchers increased model size, dataset size, and compute, then the future stopped looking like a sequence of isolated inventions and started looking like a capital allocation problem.
 
-That was the next pressure point after the Transformer. Chapter 3 made the architecture feel stackable and parallel enough to absorb accelerator-era training. Chapter 4 asks what happened when labs began to treat that stack as something they could push along measured axes. The suspense moved from "can the machine represent language?" to "how much improvement can be bought, forecast, and industrialized?"
+That was the next pressure point after the Transformer. The Transformer chapter made the architecture feel stackable and parallel enough to absorb accelerator-era training. Chapter 4 asks what happened when labs began to treat that stack as something they could push along measured axes. The suspense moved from "can the machine represent language?" to "how much improvement can be bought, forecast, and industrialized?"
 
 Kaplan and colleagues' "Scaling Laws for Neural Language Models" gave that bet a sharp form. The paper studied how language-model performance varied with model size, dataset size, and compute, and argued that performance followed power-law-like trends over ranges they measured. [S-0003] The practical implication was not that everything was solved. It was that some parts of progress looked forecastable enough to plan around.
 
@@ -15,8 +15,6 @@ That is a dangerous sentence if left alone. Forecastable loss is not the same as
 This chapter belongs after the Transformer because architecture created the substrate and scaling made the substrate strategic. Once the model block could absorb more data and compute, the question changed. The field no longer asked only, "Can we build a better architecture?" It asked, "How much improvement can we buy by scaling the architecture we already have?"
 
 ## Drafting Controls
-
-Status: Chapter 4 clarity pass promoted in I-0153, 2026-05-26; first promoted as a Chapter 3 draft in pass I-0094 before the later ChatGPT opener became Chapter 1.
 
 ## The Industrialization Of Prediction
 

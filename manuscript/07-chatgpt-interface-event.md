@@ -22,8 +22,6 @@ The order matters. Stack Overflow was not a school. A school district was not a 
 
 ## Drafting Controls
 
-Status: OpenAI spine continuity pass promoted in I-0154, 2026-05-26; first promoted draft from pass I-0003 and source-specific claim audit pass I-0041 preserved as source context.
-
 ## The Product Was A Training Method With A Face
 
 The quiet prehistory of ChatGPT is not a chat window. It is a change in training objective after pretraining. GPT-3 had shown how far next-token prediction could go when scaled. It also showed a product problem: a base model will continue patterns, not necessarily obey intentions. If the user writes a question, the model may answer. If the user writes a fragment, the model may continue the fragment. If the prompt resembles a hostile or nonsensical pattern, the model may follow the pattern. The behavior is powerful, but it is not yet an assistant.

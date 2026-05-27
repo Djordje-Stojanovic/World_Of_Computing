@@ -10,8 +10,6 @@ That is why Figure 11.1 is a source map rather than a league table. The safe evi
 
 The chapter's job is different from the Meta chapter's job and different again from the next frontier chapter's job. Meta explains the control stack: what happens when weights, license, hosting, safety, ecosystem, and benchmarks no longer sit cleanly inside one provider. China explains source permission: what can be written from Qwen, DeepSeek, GLM, and Kimi rows today, and what must remain a gap lane until a cutoff-bounded primary source exists. Chapter 12 then widens the aperture to Mistral, xAI, Cohere, AI21, and other labs only when each changes a mechanism. The sequence should feel like a widening map, not like three chapters of names.
 
-Status: promoted chapter draft, pass I-0105, 2026-05-25.
-
 ## Qwen and the Alibaba Route
 
 Qwen matters because it gives the chapter a large-company China route that is not simply a copy of OpenAI's product path. Alibaba had cloud infrastructure, developer distribution, commerce data gravity, and a reason to make models part of a broader platform. The Qwen2 technical report provides a supported anchor for the line. The Qwen3 technical report then extends the story into a more explicitly reasoning-aware and multilingual frame. [S-0027]

@@ -16,8 +16,6 @@ This chapter is about that factory bargain.
 
 ## Drafting Controls
 
-Status: Microsoft/OpenAI cloud-bargain strengthening pass promoted in I-0155, 2026-05-26; first full Chapter 8 draft and I-0118 visual package preserved as source context.
-
 ## The 2019 Bet
 
 Microsoft and OpenAI announced an exclusive computing partnership in July 2019. [S-0125] The announcement framed Microsoft as OpenAI's preferred partner for commercializing new AI technologies and said the companies would work on Azure AI supercomputing technologies. [S-0125] The timing matters. This was before ChatGPT, before the public interface shock, and before "generative AI" became a boardroom reflex. Microsoft was buying into a hypothesis before the category had a mass-market face.

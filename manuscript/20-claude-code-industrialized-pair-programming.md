@@ -12,8 +12,6 @@ Claude Code belonged to the next phase because it treated software engineering a
 
 That shift made the product feel less like a helper and more like a junior colleague with shell access. The phrase is dangerous. A colleague has responsibility, memory, judgment, and accountability. A coding agent has a context window, tools, policies, and probabilistic behavior. But the social metaphor matters because it explains the new managerial burden. The developer was no longer only writing code. The developer was scoping work, granting permissions, reviewing diffs, deciding when to interrupt, and judging whether the agent had actually understood the system.
 
-Status: promoted continuity draft, pass I-0161, 2026-05-26. 
-
 The basic ergonomics of agentic coding are simple enough to hide their novelty. A user describes a change. The agent reads. It edits. It runs tests. It reports back. Underneath that loop are several hard problems. Chapter 18 named those problems as tool agency in general. Chapter 19 showed why code made language operational. Here the two lines meet: the tool runner enters the software system and tries to leave behind an artifact that other tools can judge.
 
 First, context has to be selected. A repository is larger than a prompt. Claude Code documentation and best-practice materials emphasize context management because the model's useful attention is finite. [S-0022] [S-0049] The agent must decide which files, commands, conventions, and prior messages matter. A human developer does this through memory and project familiarity. An agent does it through search, file reads, tool calls, summaries, and whatever instructions the user or repository provides.

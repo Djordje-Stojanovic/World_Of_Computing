@@ -16,8 +16,6 @@ The most important word in that sentence is "associations." The model did not un
 
 That is why code belongs near the center of the LLM story. It is where language stopped being only expression and became operation.
 
-Status: promoted continuity draft, pass I-0161, 2026-05-26. 
-
 ## From Snippet To Companion
 
 GitHub Copilot turned the research surprise into an everyday product surface. GitHub introduced Copilot in 2021 as an AI pair programmer built with OpenAI Codex, designed to suggest whole lines or functions inside the editor. [S-0070] [S-0132] The metaphor mattered. Pair programming implied proximity, not replacement. The model sat beside the developer at the cursor, watching the local context and proposing the next move.

@@ -14,8 +14,6 @@ This is the chapter's discipline: Google should not be flattened into a slow fol
 
 ## Drafting Controls
 
-Status: Google/DeepMind prose upgrade promoted in I-0156, 2026-05-26; first full Chapter 9 draft and I-0132 visual package preserved as source context.
-
 ## Pathways Before Panic
 
 Before Bard and Gemini, there was PaLM: the Pathways Language Model. The PaLM paper presented a 540-billion-parameter dense Transformer language model trained with Google's Pathways system. [S-0115] In the book's earlier scaling chapter, PaLM appears as an example of the scaling era. Here it becomes something more specific: a sign that Google was not outside the frontier race. It had a model, an infrastructure thesis, and a language for making many accelerators act like a coherent training system.

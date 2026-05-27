@@ -4,7 +4,7 @@
 
 The first GPT paper did not read like the opening of a consumer revolution. Its title was technical and modest: improving language understanding by generative pre-training. The idea was not to build a chatbot, a search engine, or a programmer. It was to train a Transformer language model on unlabeled text, then adapt it to supervised natural-language understanding tasks. [S-0011]
 
-This chapter is the first conversion in the OpenAI spine. Chapter 4 made scale feel measurable. Chapter 5 shows a lab turning that measurement culture into a usable lineage: pretrain, prompt, serve by API, generate code, and place the model at the cursor. The story is not inevitability. It is a sequence of doors that only look aligned after ChatGPT walks through them.
+This chapter is the first conversion in the OpenAI spine. The scaling-laws chapter made scale feel measurable. This chapter shows a lab turning that measurement culture into a usable lineage: pretrain, prompt, serve by API, generate code, and place the model at the cursor. The story is not inevitability. It is a sequence of doors that only look aligned after ChatGPT walks through them.
 
 The quiet reversal mattered. For years, much of machine learning had treated labels as the precious ingredient. A dataset had examples. A task had answers. The model learned the mapping. GPT-1 took a different bet: maybe the internet's unlabeled text contained enough structure that predicting the next token could teach a model broadly useful representations before anyone told it the specific exam it would sit.
 
@@ -15,8 +15,6 @@ This was not magic general intelligence. It was a new economic shape for learnin
 GPT-1 therefore belongs in the book not because it was huge by later standards, but because it named a reusable recipe: pretrain a generative Transformer on text, then transfer. It was a door, not the room.
 
 ## Drafting Controls
-
-Status: OpenAI spine continuity pass promoted in I-0154, 2026-05-26; first promoted draft from pass I-0010 preserved as source context.
 
 GPT-2 made the door visible. OpenAI's GPT-2 paper described language models as unsupervised multitask learners: train on a large, diverse web corpus, then ask the model to perform tasks from natural-language prompts rather than from task-specific fine-tuning. [S-0013] The phrase "multitask" was doing important work. Translation, summarization, question answering, and reading comprehension could be expressed as text-to-text continuations. The model did not need a separate head for every task if the task could be phrased in language.
 

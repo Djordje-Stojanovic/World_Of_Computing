@@ -12,8 +12,6 @@ This chapter sits after datacenters because the physical story is incomplete wit
 
 The library problem has three layers. First, language must be broken into pieces the machine can handle. Second, a corpus must be assembled from sources whose provenance, quality, duplication, and permissions are uneven. Third, the model must be trained without pretending that statistical exposure is the same thing as permission, knowledge, truth, or memory.
 
-Status: first promoted draft, pass I-0121, 2026-05-26. Data prose-beauty pass I-0160, 2026-05-26.
-
 Visual note: Figures A-0064 through A-0067 should make the supply chain visible: tokenization ladder, web-corpus filter funnel, data-mixture control board, and memorization/contamination blocker map. Their job is not decoration. They keep the reader from mistaking "data" for one substance.
 
 ## The Word Is Too Large

@@ -33,9 +33,7 @@ This manuscript snapshot adds visible date rails, chapter timelines, and a May 2
 
 # Chapter 01: The Transformer Arrives: Attention Becomes the Engine
 
-**Date span:** 2017 
 **Timeline:** June 2017: self-attention becomes the center of the machine; 2018: bidirectional Transformer pretraining broadens the pattern; 2020: the same engine is ready for scale 
-**Cutoff guard:** The chapter stays with pre-ChatGPT architecture.
 
 ## 3. Attention Catches Fire: The Architecture That Wanted To Scale
 
@@ -143,9 +141,7 @@ The next chapter is the moment that question becomes a bet.
 
 # Chapter 02: The Sequence Problem: The Road Into Attention
 
-**Date span:** pre-2017 
 **Timeline:** 1950s-1990s: statistical language modeling learns to count sequences; 2013-2015: embeddings and seq2seq make words and sentences comparable; 2014-2016: early attention shows where recurrence strains 
-**Cutoff guard:** The chapter is a compact prehistory, not a detour after ChatGPT.
 
 ## 2. Before the Transformer: The Machine Learns Sequence
 
@@ -250,9 +246,7 @@ That question belongs to the next chapter. The answer begins with attention catc
 
 # Chapter 03: Scaling Laws: The Bet Becomes Measurable
 
-**Date span:** 2020 
 **Timeline:** January 2020: scaling laws turn size into a measured bet; 2020: loss, compute, data, and parameters become a planning language; 2022: compute-optimal training complicates the simple bigger-is-better story 
-**Cutoff guard:** Later model claims remain tied to their source dates.
 
 ## 4. The Scaling Bet: When Loss Became A Map
 
@@ -264,7 +258,7 @@ Before ChatGPT became an interface event and before the Transformer became a pub
 
 Loss is not a romantic word. It does not sound like intelligence, creativity, reasoning, or work. It is an error signal, a measure of how surprised the model is by the data under its training objective. But in the scaling era, loss became a kind of map. If the map kept improving predictably as researchers increased model size, dataset size, and compute, then the future stopped looking like a sequence of isolated inventions and started looking like a capital allocation problem.
 
-That was the next pressure point after the Transformer. Chapter 3 made the architecture feel stackable and parallel enough to absorb accelerator-era training. Chapter 4 asks what happened when labs began to treat that stack as something they could push along measured axes. The suspense moved from "can the machine represent language?" to "how much improvement can be bought, forecast, and industrialized?"
+That was the next pressure point after the Transformer. The Transformer chapter made the architecture feel stackable and parallel enough to absorb accelerator-era training. Chapter 4 asks what happened when labs began to treat that stack as something they could push along measured axes. The suspense moved from "can the machine represent language?" to "how much improvement can be bought, forecast, and industrialized?"
 
 That sentence is dangerous if left alone. Forecastable loss is not forecastable truth, safety, usefulness, or product-market fit. A model can predict text better and still hallucinate, reduce loss and still fail the task that matters, improve benchmark averages and still hide brittleness. Scaling laws are not a theology of bigger-is-better. They are a measurement tradition that made larger models feel less like gambling.
 
@@ -365,9 +359,7 @@ The next chapter turns that possibility into a lineage: GPT-1, GPT-2, GPT-3, and
 
 # Chapter 04: GPT-1 to GPT-3: Pretraining Opens the Door
 
-**Date span:** 2018-2021 
 **Timeline:** 2018: GPT-1 tests generative pretraining; 2019: GPT-2 makes release strategy part of the story; 2020-2021: GPT-3, API access, and Codex turn models into a platform 
-**Cutoff guard:** The chapter ends before ChatGPT's public launch.
 
 ## 5. GPT-1 to GPT-3: The Door Opens
 
@@ -489,9 +481,7 @@ The final image of Chapter 5 is therefore not a triumphant model, but a problem 
 
 # Chapter 05: Instruction Tuning and RLHF: Alignment Enters the Product
 
-**Date span:** 2021-2022 
 **Timeline:** 2021: human-preference methods move closer to language products; 2022: InstructGPT shows why a model can feel more helpful; 2022: system behavior becomes a product discipline 
-**Cutoff guard:** The chapter treats alignment as product shaping, not as solved safety.
 
 ## 6. Alignment Enters the Product
 
@@ -499,7 +489,7 @@ Once prediction became a product, the central problem changed from fluent contin
 
 ### The Model That Needed A Boss
 
-This is the second conversion in the OpenAI spine. Chapter 5 showed models becoming programmable through prompts, APIs, and code. Chapter 6 shows why programmability was not enough. A system that can continue almost anything has to learn when continuation is the wrong product behavior.
+This is the second conversion in the OpenAI spine. The GPT chapter showed models becoming programmable through prompts, APIs, and code. Chapter 6 shows why programmability was not enough. A system that can continue almost anything has to learn when continuation is the wrong product behavior.
 
 That difference sounds small until it becomes the whole interface. If a user asks for a summary, the desired behavior is not merely a statistically plausible completion after the words "summarize this." The desired behavior is a bounded act: read the source, preserve the important facts, compress without inventing, match the requested audience, and stop. If a user asks a harmful question, the product may need the model not to continue the pattern at all. If a user asks a confused question, the best answer may be a correction, not obedience.
 
@@ -628,9 +618,7 @@ That is the clean handoff. Chapter 5 showed how prompting and APIs made language
 
 # Chapter 06: The ChatGPT Shock: The Interface Goes Public
 
-**Date span:** November-December 2022 
 **Timeline:** November 30, 2022: ChatGPT is introduced; December 2022: the text box becomes the public symbol; Early 2023: the industry response accelerates 
-**Cutoff guard:** ChatGPT is a turning point after the technical runway.
 
 ## 1. The Shock
 
@@ -750,9 +738,7 @@ That older story matters because it strips the launch of both myths at once. Cha
 
 # Chapter 07: ChatGPT Becomes the Product Surface
 
-**Date span:** 2022-2023 
 **Timeline:** 2023: Plus and Enterprise turn the interface into tiers; 2023: plugins and GPTs test tool and platform surfaces; 2024: GPT-4o broadens the ChatGPT interface story 
-**Cutoff guard:** Mutable product pages are handled as dated snapshots, not live claims.
 
 ## 7. ChatGPT: The Interface Event
 
@@ -867,9 +853,7 @@ The answer will not come from OpenAI alone. Microsoft will turn the shock into p
 
 # Chapter 08: Microsoft, OpenAI, and the Cloud Bargain
 
-**Date span:** 2019-2024 
 **Timeline:** 2019: Microsoft and OpenAI formalize a compute partnership; 2020: Azure supercomputing becomes part of the model story; 2023-2024: Copilot and enterprise packaging push the stack outward 
-**Cutoff guard:** Partnership chronology does not prove hidden terms or outcomes.
 
 ## 8. Microsoft, OpenAI, and the Cloud Bargain
 
@@ -989,9 +973,7 @@ Together, they made the soft box on the screen reveal the hard factory behind it
 
 # Chapter 09: Google and DeepMind Wake the Sleeping Giant
 
-**Date span:** 2022-2025 
 **Timeline:** 2022: LaMDA/Bard pressure becomes visible; 2023: Gemini arrives as the consolidated answer; 2024-2025: long context and model cards frame the response 
-**Cutoff guard:** Google and DeepMind claims stay anchored to public reports and model cards.
 
 ## 9. Google and DeepMind Wake the Sleeping Giant
 
@@ -1092,9 +1074,7 @@ The giant woke. The hard part was deciding which part of the giant was supposed 
 
 # Chapter 10: Meta, Llama, and the Open-Weight Shock
 
-**Date span:** 2023-2025 
 **Timeline:** 2023: Llama turns weights into a strategic question; 2023-2024: Llama 2 and Llama 3 widen the open-weight field; 2025: Llama 4 extends the family before the cutoff 
-**Cutoff guard:** Open-weight does not automatically mean unrestricted or best.
 
 ## 10. Meta, Llama, and the Open-Weight Shock
 
@@ -1189,9 +1169,7 @@ But as a historical event in computing, the change is already visible. The LLM w
 
 # Chapter 11: Anthropic, Claude, and the Plural Frontier
 
-**Date span:** 2023-2025 
 **Timeline:** 2023: Constitutional AI becomes part of Anthropic's public identity; 2024: Claude 3 and 3.5 shift the frontier conversation; 2025: Claude 4 enters the pre-cutoff race 
-**Cutoff guard:** Product claims stay tied to Anthropic's published wording.
 
 The frontier then becomes plural: Claude supplies the behavior-to-action arc while Mistral, xAI, Cohere, and AI21 test other constraints.
 
@@ -1314,9 +1292,7 @@ But plural also means the field remained alive. The next token was not being wri
 
 # Chapter 12: The Chinese Frontier
 
-**Date span:** 2023-2026 
 **Timeline:** 2023-2024: Qwen, GLM, Kimi, and Mistral widen the frontier map; 2024-2025: DeepSeek changes the efficiency and reasoning conversation; Through May 2026: the field remains a moving source-snapshot problem 
-**Cutoff guard:** No post-cutoff Chinese-model releases are treated as happened history.
 
 ## 11. The Chinese Frontier
 
@@ -1421,9 +1397,7 @@ That is the point. The frontier became too distributed for one narrator's shortc
 
 # Chapter 13: Benchmarks, Arenas, and the Mirage of Rank
 
-**Date span:** 2023-2026 
 **Timeline:** 2023: model cards and public benchmarks become market language; 2024: arenas and code benchmarks reshape comparison; 2026: cutoff snapshots matter more than live rank 
-**Cutoff guard:** Leaderboards are historical snapshots, not permanent standings.
 
 After so many contenders, the reader naturally wants a crown; this chapter shows why rankings are evidence, not verdicts.
 
@@ -1561,9 +1535,7 @@ The final sentence of the reader carry the habit forward: the leaderboard is not
 
 # Chapter 14: NVIDIA and CUDA: The Moat Under the Moat
 
-**Date span:** 2006-2025 
 **Timeline:** 2006: CUDA begins as a developer platform; 2020-2024: H100 and Blackwell define the accelerator era; 2025: roadmap language points forward but is not delivery proof 
-**Cutoff guard:** Roadmaps are labeled as roadmaps where the source says so.
 
 ## 14. NVIDIA and CUDA: The Moat Under the Moat
 
@@ -1673,9 +1645,7 @@ Those blockers improve the chapter's ending because they define its honest job. 
 
 # Chapter 15: GTC 2026: The AI Factory Sells Itself
 
-**Date span:** March 2026 
 **Timeline:** March 2026: GTC frames the AI factory as a product narrative; March 2026: Vera Rubin and DSX are presented as source-actor claims; May 24, 2026: the cutoff freezes what can be told as history 
-**Cutoff guard:** Announcements are not treated as deployed capacity.
 
 ## 15. GTC 2026: The AI Factory Sells Itself
 
@@ -1796,9 +1766,7 @@ The phrase was stagecraft, but it named a real pressure, and pressure changes st
 
 # Chapter 16: Datacenters, Power, and the Physical Internet
 
-**Date span:** 2023-2026 
 **Timeline:** 2023: accelerator clusters become infrastructure politics; 2024-2025: power, cooling, and interconnection become bottlenecks; 2026: AI-factory language meets the grid and supply chain 
-**Cutoff guard:** Capacity, emissions, and deployment claims require independent support.
 
 Outside the keynote, the factory has to find land, power, cooling, transformers, network links, and time.
 
@@ -1893,9 +1861,7 @@ That is why Chapter 16 belongs after the model and product chapters rather than 
 
 # Chapter 17: Data, Tokens, and the Library Problem
 
-**Date span:** 2003-2026 
 **Timeline:** 2003-2021: web corpora and dataset practices form the raw material; 2020-2024: tokenizer and contamination questions become visible; Through May 2026: data remains a constraint, not a solved pantry 
-**Cutoff guard:** Closed training mixtures are not guessed.
 
 ## 17. Data, Tokens, and the Library Problem
 
@@ -2008,9 +1974,7 @@ Chapter 17 also has to keep shaking hands with its neighbors. Chapter 13 owns be
 
 # Chapter 18: Tools, Retrieval, and the Agent Turn
 
-**Date span:** 2023-2026 
 **Timeline:** 2020: retrieval-augmented generation gives the old idea a modern shape; 2023: plugins make tool use visible to users; 2024-2026: protocols and harnesses turn tools into an operating layer 
-**Cutoff guard:** Agent language is kept bounded to observed interfaces and docs.
 
 ## 18. Tools, Retrieval, and the Agent Turn
 
@@ -2114,9 +2078,7 @@ That is why this chapter sits between the infrastructure chapters and the coding
 
 # Chapter 19: Code as the Second Native Language
 
-**Date span:** 2021-2026 
 **Timeline:** 2021: Codex and Copilot make code a native model surface; 2023-2024: code benchmarks get stricter; 2025-2026: coding agents move from autocomplete toward repository work 
-**Cutoff guard:** Productivity and replacement claims stay blocked unless independently supported.
 
 ## 19. Code as the Second Native Language
 
@@ -2234,9 +2196,7 @@ The remaining editorial work should now sit beside the chapter rather than insid
 
 # Chapter 20: Claude Code and the Industrialization of Pair Programming
 
-**Date span:** 2024-2026 
 **Timeline:** 2024: coding docs normalize tool loops; 2025: Claude Code enters the public product chronology; By May 2026: permissions, review, and context management define the practical boundary 
-**Cutoff guard:** Coding-agent claims do not imply autonomous correctness.
 
 ## 20. Claude Code and the Industrialization of Pair Programming
 
@@ -2345,9 +2305,7 @@ The future promised by coding agents is therefore less glamorous and more conseq
 
 # Chapter 21: Reasoning, Test-Time Compute, and the New Scaling Axis
 
-**Date span:** 2024-2026 
 **Timeline:** 2024: reasoning becomes a visible model-family axis; 2025: DeepSeek-R1 and related reports make inference-time structure legible; 2026: evaluation remains unstable across tasks and settings 
-**Cutoff guard:** Reasoning labels are not treated as universal intelligence proof.
 
 ## 21. Reasoning, Test-Time Compute, and the New Scaling Axis
 
@@ -2411,9 +2369,7 @@ The audit work now belongs beside the chapter: keep OpenAI o1/o3/o4-mini and Gem
 
 # Chapter 22: The Economics of Intelligence on Tap
 
-**Date span:** 2023-2026 
 **Timeline:** 2023: API and subscription tiers turn tokens into a meter; 2024-2025: context, latency, and routing become economic levers; 2026: cutoff price snapshots require date labels 
-**Cutoff guard:** Live pricing and margins are not inferred from stale pages.
 
 ## 22. The Economics of Intelligence on Tap
 
@@ -2507,9 +2463,7 @@ The next chapter turns from money to trust. That sequence matters. A model can b
 
 # Chapter 23: Failure Modes, Truth, and Trust
 
-**Date span:** 2022-2026 
 **Timeline:** 2022: helpfulness makes failures easier to encounter; 2023-2024: system cards and model specs formalize control language; 2025-2026: evidence trails, evaluation, and deployment boundaries stay contested 
-**Cutoff guard:** Safety claims remain scoped to the source and test condition.
 
 ## 23. Failure Modes, Truth, and Trust
 
@@ -2555,9 +2509,7 @@ That is the bridge to the final chapter. The story began with prediction: given 
 
 # Chapter 24: Next Token
 
-**Date span:** through May 24, 2026 
 **Timeline:** 2017-2026: the race turns architecture into infrastructure; May 24, 2026: the book's historical clock stops; After the cutoff: only forecasts known by the cutoff may appear as forecasts 
-**Cutoff guard:** No event after May 24, 2026 is narrated as completed history.
 
 ## 24. Next Token
 

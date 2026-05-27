@@ -4,7 +4,7 @@
 
 GPT-3 made the prompt feel like a temporary program: examples and instructions could sit inside the context window and steer the next completion. [S-0004] It also made the product problem impossible to ignore. A base language model is trained to continue text. A user, however, does not usually want continuation. The user wants help.
 
-This is the second conversion in the OpenAI spine. Chapter 5 showed models becoming programmable through prompts, APIs, and code. Chapter 6 shows why programmability was not enough. A system that can continue almost anything has to learn when continuation is the wrong product behavior.
+This is the second conversion in the OpenAI spine. The GPT chapter showed models becoming programmable through prompts, APIs, and code. Chapter 6 shows why programmability was not enough. A system that can continue almost anything has to learn when continuation is the wrong product behavior.
 
 That difference sounds small until it becomes the whole interface. If a user asks for a summary, the desired behavior is not merely a statistically plausible completion after the words "summarize this." The desired behavior is a bounded act: read the source, preserve the important facts, compress without inventing, match the requested audience, and stop. If a user asks a harmful question, the product may need the model not to continue the pattern at all. If a user asks a confused question, the best answer may be a correction, not obedience.
 
@@ -15,8 +15,6 @@ OpenAI's InstructGPT work stated the product gap bluntly: making language models
 That was the hinge. The model still predicted tokens. But the product began to ask a second question: which tokens should this assistant prefer to produce?
 
 ## Drafting Controls
-
-Status: OpenAI spine continuity pass promoted in I-0154, 2026-05-26; first promoted draft candidate from pass I-0018 preserved as source context.
 
 ## The Three-Step Machine
 

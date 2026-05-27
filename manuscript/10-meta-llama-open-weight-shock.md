@@ -10,8 +10,6 @@ That is the open-weight shock. It was not the same as open source in the classic
 
 Figure 10.1 follows the family as a sequence of release objects rather than a rank chart: LLaMA as a research release, Llama 2 as an open foundation and chat-model family, Code Llama as the code-specialized branch, Llama 3 and 3.1 as larger and more polished public families, and Llama 4 as a natively multimodal, mixture-of-experts turn. [S-0111] [S-0023] [S-0025] [S-0024] [S-0113] [S-0008] The point is not that every later model is simply better in every sense. The point is that the release surface changed what other people could do.
 
-Status: promoted chapter draft, pass I-0104, 2026-05-25.
-
 ## LLaMA Begins as Research Infrastructure
 
 Meta introduced LLaMA in February 2023 as a set of foundation language models intended for researchers. [S-0111] The timing mattered. ChatGPT had just turned language models into a public interface event. The industry was learning that instruction-following assistants could become products, not only papers. Meta's first LLaMA release, by contrast, was not a consumer chat moment. It was a research object: a family of pretrained models made available to a selected research community.

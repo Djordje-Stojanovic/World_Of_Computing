@@ -6,8 +6,6 @@ The machine saw a context and assigned probabilities to what might follow. Then 
 
 This is the last trick the subject plays on the reader. If the story is told from the inside of the model, it can sound deflationary: vectors, attention, loss, token prediction. If it is told from the outside of the market, it can sound mystical: machines that write, reason, code, and converse. The honest history sits between those two temptations. By the hard cutoff of May 24, 2026, next-token prediction had not become a mind. It had become a computing interface. [CH24SYN-006; CH24SYN-009]
 
-Status: promoted final-prose draft, pass I-0163, 2026-05-26. 
-
 That distinction is the spine of the ending. An interface does not have to be conscious to change work. A spreadsheet did not understand finance. A browser did not understand publishing. A compiler did not understand the intentions of the programmer. But each made a set of actions newly cheap, visible, repeatable, and social. The LLM interface did something similar with language. It made text a control surface for computation.
 
 The opening shock of ChatGPT came from that conversion. A plain box on a screen made a long technical stack feel conversational. The user typed intent. The system answered in prose. Under the surface were tokens, pretraining, instruction tuning, safety layers, latency budgets, cloud infrastructure, and product choices. But the public experience was simpler and stranger: the computer could be addressed in ordinary language and could answer in kind. [C-0149; CH24SYN-002]

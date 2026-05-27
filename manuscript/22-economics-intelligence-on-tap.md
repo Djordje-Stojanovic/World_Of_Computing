@@ -12,8 +12,6 @@ The answer changed by surface. Consumers bought access, speed, availability, and
 
 The cleanest unit was the token. A token could be counted, priced, cached, batched, and charged. But a token was not a product by itself. It was a billing grain inside a wider system. A million tokens of a small fast model did not equal a million tokens of a frontier reasoning model. A cached input token did not equal a fresh input token. A batch token did not equal an interactive token. A long-context prompt did not equal a short chat. The unit looked simple only from far away.
 
-Status: promoted continuity draft, pass I-0162, 2026-05-26. 
-
 The previous chapter made inference a new place to spend. This chapter makes that spending visible. The same hidden work that can improve a reasoning answer becomes latency, routing, cache policy, batch scheduling, premium access, and ultimately a bill.
 
 ## From Demonstration to Subscription

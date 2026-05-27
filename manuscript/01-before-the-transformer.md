@@ -12,8 +12,6 @@ That is the chapter's pressure chain: counting made language computable, sparsit
 
 ## Drafting Controls
 
-Status: Chapter 2 clarity pass promoted in I-0153, 2026-05-26; first promoted as a Chapter 1 draft in pass I-0092 before the later ChatGPT opener became Chapter 1.
-
 The important turn was not that researchers made language less discrete. It was that they made the discreteness negotiable. A word could remain a symbol in a vocabulary while also becoming a point in a learned space. "Dog" and "cat" would still be different tokens, but the model could learn that they lived nearer to one another than either lived to "thermodynamics" or "Wednesday." The bet was that language contained reusable structure below the surface of exact word identity.
 
 That bet runs through the neural probabilistic language model proposed by Yoshua Bengio, Rejean Ducharme, Pascal Vincent, and Christian Jauvin. The paper attacked the curse of dimensionality by learning a distributed representation for words and using those representations inside a neural language model. The point was not merely to make a clever lookup table. It was to let statistical strength move across related contexts: if two words occupied nearby places in representation space, evidence about one context might help the model generalize to another. [S-0104]

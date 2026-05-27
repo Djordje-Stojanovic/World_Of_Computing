@@ -6,7 +6,7 @@ The Transformer begins as a revolt against waiting.
 
 In the older sequence-machine picture, language arrives like a train: one car after another. A recurrent network reads the sequence in order, updating a hidden state as it goes. The shape is intuitive because reading and speech are sequential experiences. But intuition can be expensive. If every position depends on the previous position's computation, the model has a hard time using the full parallel force of modern accelerators. The machine is always waiting for the next step to be ready.
 
-Chapter 2 ended with a bottleneck: language had become numerical, contextual, and relational, but the strongest systems still carried too much of the past through narrow sequential routes. The Transformer matters because it turned that bottleneck into an architecture. It did not make language easy. It changed where the difficulty lived.
+The previous chapter ended with a bottleneck: language had become numerical, contextual, and relational, but the strongest systems still carried too much of the past through narrow sequential routes. The Transformer matters because it turned that bottleneck into an architecture. It did not make language easy. It changed where the difficulty lived.
 
 The 2017 Transformer paper made a different wager. It proposed a sequence transduction architecture based entirely on attention mechanisms, dispensing with recurrence and convolution in the core model. [S-0002] That sentence is technical, but the consequence is almost physical. The model no longer had to move information mainly through a single recurrent chain. It could compute relationships among positions more directly and train more parallelly across sequence positions.
 
@@ -16,8 +16,6 @@ The public later met this architecture through other names: GPT, BERT, T5, PaLM,
  The Transformer was not a magic mind. It was a mechanism. Its beauty is that the mechanism is simple enough to explain and rich enough to become a civilization-scale industrial object.
 
 ## Drafting Controls
-
-Status: Chapter 3 clarity pass promoted in I-0153, 2026-05-26; first promoted as a Chapter 2 draft in pass I-0093 before the later ChatGPT opener became Chapter 1.
 
 ## Attention Without The Metaphor
 
