@@ -11,8 +11,8 @@ The book is in its FINAL phase. No more passes. No more batches. No more automat
 - **PDF:** 61.9 MB, ~710 pages, 296 images remaining (4 removed from wrong chapters, pending relocation)
 - **HTML:** 97 MB, base from I-0320 with title/verso/TOC/captions/relocations applied
 - **Log:** `data/page_perfection_log_i0337.tsv` — tracking every page
-- **Pages done:** 1-9 all PERFECT
-- **Page in progress:** 10
+- **Pages done:** 1-80 all PERFECT
+- **Page in progress:** 81
 - **Images to place:** All 300 must be placed at intentional positions in correct chapters with text context. 4 removed from Ch1 pending relocation.
 
 ### Per-Page Perfection Criteria
