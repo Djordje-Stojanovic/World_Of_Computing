@@ -13,8 +13,8 @@ The ten rescue passes are complete. The book now enters its final and ONLY remai
 - **Base:** I-0320 quantitative-enriched HTML (culmination of all rescue visual passes)
 - **Fixes applied:** Title page, verso page, Table of Contents, 200 images relocated from chapter-start dumps into prose flow, 68 bad captions fixed, 25 process elements removed, page-break directives removed, BERT/NVIDIA/4 person images removed from Chapter 1
 - **Page tracking:** `data/page_perfection_log_i0337.tsv` — one row per page
-- **Pages done:** 1-81 all PERFECT (title, verso, TOC, Ch1 opening through Ch5 refusal/evaluation sections)
-- **Page in progress:** 82
+- **Pages done:** 1-82 all PERFECT (title, verso, TOC, Ch1 opening through Ch5 evaluation ritual/ChatGPT transition)
+- **Page in progress:** 83
 - **Images relocated:** BERT→Ch2, NVIDIA Blackwell→Ch14, Vinyals/Vaswani/Shazeer/Gomez→Ch1 (pending re-insertion with text context)
 
 ### What "Perfect" Means Per Page
