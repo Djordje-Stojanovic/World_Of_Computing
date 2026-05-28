@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" font-family="Georgia, serif">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#16213e;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="layer1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#e94560;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#c73e54;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="layer2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#0f3460;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#16213e;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="600" height="400" fill="url(#bg)" rx="8"/>
+  
+  <!-- Title -->
+  <text x="300" y="45" text-anchor="middle" fill="#e8e8e8" font-size="18" font-weight="bold">The Invisible Stack Made Visible</text>
+  <text x="300" y="68" text-anchor="middle" fill="#a0a0a0" font-size="12">What a chat product actually requires</text>
+  
+  <!-- Stack layers - bottom to top -->
+  <!-- Layer 1: Model -->
+  <rect x="80" y="300" width="440" height="45" fill="#e94560" rx="4" opacity="0.9"/>
+  <text x="300" y="328" text-anchor="middle" fill="white" font-size="14" font-weight="bold">GPT-3 MODEL</text>
+  <text x="540" y="328" text-anchor="end" fill="#ffcccc" font-size="10">The engine</text>
+  
+  <!-- Layer 2: Serving System -->
+  <rect x="80" y="250" width="440" height="40" fill="#0f3460" rx="4" opacity="0.85"/>
+  <text x="300" y="275" text-anchor="middle" fill="#e8e8e8" font-size="13">Serving System &amp; API Endpoint</text>
+  
+  <!-- Layer 3: Interface -->
+  <rect x="80" y="200" width="440" height="40" fill="#0f3460" rx="4" opacity="0.75"/>
+  <text x="300" y="225" text-anchor="middle" fill="#e8e8e8" font-size="13">Interface &amp; User Experience</text>
+  
+  <!-- Layer 4: Policy -->
+  <rect x="80" y="150" width="440" height="40" fill="#0f3460" rx="4" opacity="0.65"/>
+  <text x="300" y="175" text-anchor="middle" fill="#e8e8e8" font-size="13">Policy Layer &amp; Safety Rules</text>
+  
+  <!-- Layer 5: Billing -->
+  <rect x="80" y="105" width="215" height="35" fill="#533483" rx="4" opacity="0.7"/>
+  <text x="187" y="128" text-anchor="middle" fill="#e8e8e8" font-size="12">Billing &amp; Rate Limits</text>
+  
+  <!-- Layer 6: Feedback -->
+  <rect x="305" y="105" width="215" height="35" fill="#533483" rx="4" opacity="0.7"/>
+  <text x="412" y="128" text-anchor="middle" fill="#e8e8e8" font-size="12">Feedback Loop</text>
+  
+  <!-- Layer 7: Promise -->
+  <rect x="150" y="75" width="300" height="25" fill="#e94560" rx="12" opacity="0.5"/>
+  <text x="300" y="92" text-anchor="middle" fill="white" font-size="11">Public Promise About Behavior</text>
+  
+  <!-- Arrow showing what API exposed -->
+  <line x1="50" y1="310" x2="50" y2="100" stroke="#e94560" stroke-width="2" stroke-dasharray="5,3"/>
+  <polygon points="50,95 45,105 55,105" fill="#e94560"/>
+  <text x="45" y="210" text-anchor="middle" fill="#e94560" font-size="10" transform="rotate(-90,45,210)">API exposed this</text>
+  
+  <!-- Annotation -->
+  <text x="300" y="380" text-anchor="middle" fill="#a0a0a0" font-size="11" font-style="italic">GPT-3's API exposed one piece early. ChatGPT made the rest feel simple.</text>
+</svg>
